@@ -1,0 +1,301 @@
+# week4
+
+> **命题 1.7 (三角不等式)**
+> 
+> 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+
+> **定理 5.1 (函数极限四则运算)**
+> 
+> 若 $\lim{f}\left(x\right)=l_1$, $\lim{g}\left(x\right)=l_2$, 则 $\lim\left(f\pm{g}\right)=l_1\pm{l}_2$, $\lim\left(f\cdot{g}\right)=l_1\cdot{l}_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+
+> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin{x}}{x}=1$)**
+> 
+> $\lim_{x\to0}\frac{\sin{x}}{x}=1$.
+
+> **定理 6.2 (函数的夹逼定理)**
+> 
+> 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le{f}\left(x\right)\le{g}\left(x\right)$. 若 $\lim{g}\left(x\right)=\lim{h}\left(x\right)=l$, 则 $\lim{f}\left(x\right)=l$.
+
+> **定理 7.2 (复合函数连续性)**
+> 
+> 若 $y=g\left(u\right)$ 在 $u_0$ 点连续, $u=f\left(x\right)$ 在 $x_0$ 点连续且 $f\left(x_0\right)=u_0$, 则复合函数 $y=g\left(f\left(x\right)\right)$ 在 $x_0$ 点连续.
+
+## 1.6-5
+
+求出常数 $a$ 与 $b$, 使
+
+$$
+\lim_{x\to+\infty}\left[\frac{x^2+1}{x+1}-\left(ax+b\right)\right]=0.
+$$
+
+试说明几何意义.
+
+### 解答 1.6-5
+
+$$
+\frac{x^2+1}{x+1}-ax-b=\frac{x^2+1-\left(ax+b\right)\left(x+1\right)}{x+1}=\frac{\left(1-a\right)x^2-\left(a+b\right)x+1-b}{x+1}.
+$$
+
+要使其趋于 $0$, 分子次数必须低于分母次数, 故 $1-a=0$ 且 $a+b=0$. 解得 $a=1$, $b=-1$.
+
+几何意义: 直线 $y=x-1$ 是曲线 $y=\frac{x^2+1}{x+1}$ 当 $x\to+\infty$ 时的斜渐近线.
+
+$\blacksquare$
+
+## 1.6-7
+
+证明 $\lim_{x\to+\infty}\left(1+\frac1x\right)^{x^2}=+\infty$.
+
+### 解答 1.6-7
+
+$$
+\left(1+\frac1x\right)^{x^2}=\left[\left(1+\frac1x\right)^x\right]^x.
+$$
+
+当 $x$ 充分大时 $\left(1+\frac1x\right)^x>2$ (因趋于 $e>2$), 故 $\left(1+\frac1x\right)^{x^2}>2^x\to+\infty$. 因此极限为 $+\infty$.
+
+$\blacksquare$
+
+## 1.6-9
+
+设 $\lim_{x\to+\infty}\frac{f\left(x\right)}x=0$, 且 $f\left(x\right)>0$ ($x>0$). 证明 $\lim_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
+
+### 解答 1.6-9
+
+取对数:
+
+$$
+\left(1+\frac1x\right)^{f\left(x\right)}=e^{f\left(x\right)\ln\left(1+1/x\right)}.
+$$
+
+因
+
+$$
+0<{}f\left(x\right)\ln\left(1+\frac1x\right)<{}f\left(x\right)\cdot\frac1x\to0,
+$$
+
+由**定理 6.2 (函数的夹逼定理)**, 指数趋于 $0$. 由 $e^t$ 的连续性, 原极限为 $e^0=1$.
+
+$\blacksquare$
+
+## 1.6-10
+
+设 $y=D\left(x\right)$ 为狄利克雷函数. 证明: 对于任意一点 $a\in\mathbb{R}$, 极限 $\lim_{x\to{a}}D\left(x\right)$ 不存在.
+
+### 解答 1.6-10
+
+取有理序列 $\left\{r_n\right\}$ 和无理序列 $\left\{s_n\right\}$, 均以 $a$ 为极限 (由有理数与无理数的稠密性). 则 $D\left(r_n\right)=1\to1$, $D\left(s_n\right)=0\to0$. 两子序列极限不同, 由函数极限与序列极限的归结原则, $\lim_{x\to{a}}D\left(x\right)$ 不存在.
+
+$\blacksquare$
+
+## 1.6-11
+
+求极限: $\lim_{x\to+\infty}\frac{\left(\ln{x}\right)^5}{x}$.
+
+### 解答 1.6-11
+
+作变量替换 $y=\ln{x}$, 则 $x=e^y$, 当 $x\to+\infty$ 时 $y\to+\infty$. 原式化为 $\lim_{y\to+\infty}\frac{y^5}{e^y}=0$ (指数函数增长快于任何幂函数).
+
+$\blacksquare$
+
+## 1.7-1
+
+指出下列函数的间断点及其类型:
+
+(1) $y=\operatorname{sgn}\left(\sin{x}\right)$;
+
+(2)
+
+$$
+y=f\left(x\right)=\begin{cases}x^2e^x,&x>0,\\sin\frac{\pi}{1+x^2},&x<0,\\1,&x=0;\end{cases}
+$$
+
+(3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
+
+(4)
+
+$$
+y=f\left(x\right)=\begin{cases}e^{\sin\frac1x},&x\ne0,\\0,&x=0.\end{cases}
+$$
+
+### 解答 1.7-1
+
+(1) 当 $x=k\pi$ ($k\in\mathbb{Z}$) 时 $\sin{x}=0$, $\operatorname{sgn}\left(\sin{x}\right)$ 左右极限分别为 $1$ 与 $-1$ (或反之), 为第一类间断点 (跳跃间断点). 其余点连续.
+
+(2) $x\to0+0$ 时 $f\left(x\right)=x^2e^x\to0$; $x\to0-0$ 时
+
+$$
+f\left(x\right)=\sin\frac{\pi}{1+x^2}\to\sin\pi=0.
+$$
+
+但 $f\left(0\right)=1$, 故 $x=0$ 为可去间断点 (第一类).
+
+(3) $x-\left[x\right]=\left\{x\right\}$ 为小数部分, 在整数点处左右极限分别为 $\cos0=1$ 与 $\cos\pi=-1$, 故整数点为跳跃间断点 (第一类). 其余点连续.
+
+(4) $x\to0$ 时 $\frac1x$ 振荡, $\sin\frac1x$ 在 $\left[-1,1\right]$ 内振荡, $e^{\sin\left(1/x\right)}$ 在 $e^{-1}$ 与 $e$ 之间振荡, 极限不存在, 故 $x=0$ 为第二类间断点 (振荡间断点).
+
+$\blacksquare$
+
+## 1.7-2-2
+
+试用 $\varepsilon$-$\delta$ 语言证明: 若 $y=f\left(x\right)$ 在 $a$ 点连续, 则 $y=\left|f\left(x\right)\right|$ 在 $a$ 点连续.
+
+### 解答 1.7-2-2
+
+由连续函数的定义, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon$. 由**命题 1.7 (三角不等式)**,
+
+$$
+\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon.
+$$
+
+故 $\left|f\left(x\right)\right|$ 在 $a$ 点连续.
+
+$\blacksquare$
+
+## 1.7-3
+
+利用初等函数的连续性求下列极限:
+
+(1) $\lim_{x\to0}\cos\left(\sqrt{1+x^2}-1\right)$;
+
+(2) $\lim_{x\to0}e^{\frac{\sin{x}}{\sin2x}}$;
+
+(3) $\lim_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
+
+(4) $\lim_{x\to5}x^{\sqrt{x}}$;
+
+(5) $\lim_{x\to\infty}\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt{x}}$.
+
+### 解答 1.7-3
+
+(1) 由**定理 7.2 (复合函数连续性)**, $\lim_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$, 故原式 $=\cos0=1$.
+
+(2) $\frac{\sin{x}}{\sin2x}\to\frac12$, 由 $e^u$ 的连续性, 原式 $=e^{1/2}=\sqrt{e}$.
+
+(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$, 由 $\arctan{u}$ 的连续性, 原式 $=\arctan1=\frac\pi4$.
+
+(4) $x^{\sqrt{x}}=e^{\sqrt{x}\ln{x}}$, $\sqrt{x}\ln{x}\to\sqrt5\ln5$, 由连续性, 原式 $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
+
+(5)
+
+$$
+\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt{x}}=\left[\left(1+\frac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt{x}\right)\left(x+1\right)}{x^2}}.
+$$
+
+底数趋于 $e$, 指数趋于 $1$, 故原式 $=e$.
+
+$\blacksquare$
+
+## 1.7-4
+
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x=g\left(t\right)$ 当 $t\to\infty$ 时有极限, 且极限落在 $\left(a,b\right)$ 之中. 试证明
+
+$$
+\lim_{t\to\infty}f\left(g\left(t\right)\right)=f\left(\lim_{t\to\infty}g\left(t\right)\right).
+$$
+
+### 解答 1.7-4
+
+设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-c\right|<\delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$. 又因 $g\left(t\right)\to{c}$, 存在 $T>0$, 当 $t>T$ 时 $\left|g\left(t\right)-c\right|<\delta$. 于是当 $t>T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. 即 $\lim{f}\left(g\left(t\right)\right)=f\left(c\right)$.
+
+$\blacksquare$
+
+## 1.7-5
+
+设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在实数域 $\mathbb{R}$ 中有定义且连续. 假定 $f\left(x\right)=g\left(x\right)$ 对一切 $x\in\mathbb{Q}$ 成立, 试证明 $f\left(x\right)\equiv{g}\left(x\right)$ 对一切 $x\in\mathbb{R}$ 成立.
+
+### 解答 1.7-5
+
+任取 $x_0\in\mathbb{R}$. 由有理数的稠密性, 存在有理序列 $\left\{r_n\right\}$ 使 $r_n\to{x}_0$. 因 $f,g$ 连续,
+
+$$
+f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n\right)=g\left(x_0\right).
+$$
+
+故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv{g}$.
+
+$\blacksquare$
+
+## 1.7-6
+
+设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot{e}^{t_2}$ 的条件下, 证明下列极限等式:
+
+$$
+\lim_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}.
+$$
+
+### 解答 1.7-6
+
+$$
+\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=\left(1+\frac{t_1+t_2+t_1t_2/x}{x}\right)^x=\left[\left(1+\frac{t_1+t_2+o\left(1\right)}{x}\right)^{\frac{x}{t_1+t_2+o\left(1\right)}}\right]^{t_1+t_2+o\left(1\right)}.
+$$
+
+底数趋于 $e$, 指数趋于 $t_1+t_2$. 由指数函数连续性, 极限为 $e^{t_1+t_2}$.
+
+$\blacksquare$
+
+## 1.8-2
+
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点, $x_1<{}x_2<{}x_3$. 令
+
+$$
+\eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
+$$
+
+证明: 在 $\left[x_1,x_3\right]$ 中存在一点 $\xi$, 使得 $f\left(\xi\right)=\eta$.
+
+### 解答 1.8-2
+
+$f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, 设最大值为 $M$, 最小值为 $m$. 则 $m\le{f}\left(x_i\right)\le{M}$, 故 $m\le\eta\le{M}$. 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_3\right]$ 使 $f\left(\xi\right)=\eta$.
+
+$\blacksquare$
+
+## 1.8-3
+
+设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 中连续, 并且 $\lim_{x\to+\infty}f\left(x\right)=l$, 且 $l>f\left(a\right)$. 证明: 对于任一数 $\eta$ 满足 $f\left(a\right)<\eta<{}l$, 一定存在一个点 $\xi\in\left(a,+\infty\right)$, 使得 $f\left(\xi\right)=\eta$.
+
+### 解答 1.8-3
+
+因 $\lim_{x\to+\infty}f\left(x\right)=l>\eta$, 存在 $A>a$ 使得当 $x>A$ 时 $f\left(x\right)>\eta$. 取 $b>A$, 则 $f\left(a\right)<\eta<{}f\left(b\right)$. 又 $f$ 在 $\left[a,b\right]$ 上连续, 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ 使 $f\left(\xi\right)=\eta$.
+
+$\blacksquare$
+
+## 1.8-4
+
+设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上连续, 且 $\lim_{x\to+\infty}f\left(x\right)$ 存在. 证明: $f$ 在 $\left[a,+\infty\right)$ 上为有界函数.
+
+### 解答 1.8-4
+
+设 $\lim_{x\to+\infty}f\left(x\right)=l$. 存在 $A>a$ 使得当 $x>A$ 时 $\left|f\left(x\right)-l\right|<1$, 即 $\left|f\left(x\right)\right|<\left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2 (有界性定理)**, $f$ 有界, 设 $\left|f\left(x\right)\right|\le{M}$. 取 $\widetilde{M}=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde{M}$.
+
+$\blacksquare$
+
+## 1.8-5
+
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x_1,x_2\in\left(a,b\right)$, $x_1<{}x_2$, $m_1>0$, $m_2>0$. 证明: 存在一点 $\xi\in\left(a,b\right)$, 使得
+
+$$
+f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}.
+$$
+
+### 解答 1.8-5
+
+设 $f$ 在 $\left[x_1,x_2\right]$ 上的最大值为 $M$, 最小值为 $m$. 则
+
+$$
+m=\frac{m_1m+m_2m}{m_1+m_2}\le\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}\le\frac{m_1M+m_2M}{m_1+m_2}=M.
+$$
+
+由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_2\right]\subset\left(a,b\right)$ 使 $f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$.
+
+$\blacksquare$
+
+## 1.8-6
+
+设 $f:\left[0,1\right]\to\left[0,1\right]$ 为连续映射. 证明: 它在 $\left[0,1\right]$ 中至少有一个不动点, 也即存在一个点 $x_0\in\left[0,1\right]$, 使得 $f\left(x_0\right)=x_0$.
+
+### 解答 1.8-6
+
+令 $g\left(x\right)=f\left(x\right)-x$. 则 $g\left(0\right)=f\left(0\right)\ge0$, $g\left(1\right)=f\left(1\right)-1\le0$. 由**定理 8.1 (中间值定理)**, 存在 $x_0\in\left[0,1\right]$ 使 $g\left(x_0\right)=0$, 即 $f\left(x_0\right)=x_0$.
+
+$\blacksquare$
