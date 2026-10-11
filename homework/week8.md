@@ -8,7 +8,7 @@
 
 ### 习题一
 
-（习题 1.8-2）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点，$x_1<x_2<x_3$. 令 $\eta=\dfrac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right]$. 证明：在 $\left[x_1,x_3\right]$ 中存在一点 $\xi$，使得 $f\left(\xi\right)=\eta$.
+（习题 1.8-2）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点，$x_1<x_2<x_3$. 令 $\eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right]$. 证明：在 $\left[x_1,x_3\right]$ 中存在一点 $\xi$，使得 $f\left(\xi\right)=\eta$.
 
 ### 解答 习题一
 
@@ -32,7 +32,7 @@ $f$ 在 $\left[x_1,x_3\right]$ 上连续，由**定理 8.2**，设最大值为 $
 
 ### 习题四
 
-（习题 1.8-5）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x_1,x_2\in\left(a,b\right),\ x_1<x_2,\ m_1>0,\ m_2>0$. 证明：存在一点 $\xi\in\left(a,b\right)$，使得 $f\left(\xi\right)=\dfrac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$.
+（习题 1.8-5）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x_1,x_2\in\left(a,b\right),\ x_1<x_2,\ m_1>0,\ m_2>0$. 证明：存在一点 $\xi\in\left(a,b\right)$，使得 $f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$.
 
 ### 解答 习题四
 
@@ -42,7 +42,7 @@ $$
 m=\frac{m_1m+m_2m}{m_1+m_2}\le\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}\le\frac{m_1M+m_2M}{m_1+m_2}=M.
 $$
 
-由**定理 8.1**（中间值定理），存在 $\xi\in\left[x_1,x_2\right]\subset\left(a,b\right)$ 使 $f\left(\xi\right)=\dfrac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$. $\blacksquare$
+由**定理 8.1**（中间值定理），存在 $\xi\in\left[x_1,x_2\right]\subset\left(a,b\right)$ 使 $f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$. $\blacksquare$
 
 ### 习题五
 
@@ -54,17 +54,17 @@ $$
 
 ### 习题六
 
-（习题 1.8-7）设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续，且 $f\left(a\right)=f\left(b\right)$. 证明：在 $\left[a,b\right]$ 中一定存在两点 $x_1$ 与 $x_2$，使得 $\left|x_1-x_2\right|=\dfrac12\left(b-a\right)$，且 $f\left(x_1\right)=f\left(x_2\right)$.
+（习题 1.8-7）设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续，且 $f\left(a\right)=f\left(b\right)$. 证明：在 $\left[a,b\right]$ 中一定存在两点 $x_1$ 与 $x_2$，使得 $\left|x_1-x_2\right|=\frac12\left(b-a\right)$，且 $f\left(x_1\right)=f\left(x_2\right)$.
 
 ### 解答 习题六
 
-令 $d=\dfrac{b-a}2$，考虑辅助函数 $g\left(x\right)=f\left(x+d\right)-f\left(x\right)$，$x\in\left[a,b-d\right]=\left[a,a+d\right]$. 则
+令 $d=\frac{b-a}2$，考虑辅助函数 $g\left(x\right)=f\left(x+d\right)-f\left(x\right)$，$x\in\left[a,b-d\right]=\left[a,a+d\right]$. 则
 
 $$
 g\left(a\right)=f\left(a+d\right)-f\left(a\right),\  g\left(a+d\right)=f\left(b\right)-f\left(a+d\right)=f\left(a\right)-f\left(a+d\right)=-g\left(a\right).
 $$
 
-若 $g\left(a\right)=0$，则取 $x_1=a,\ x_2=a+d$ 即可. 若 $g\left(a\right)\ne0$，则 $g\left(a\right)$ 与 $g\left(a+d\right)$ 反号，由**定理 8.1**，存在 $\xi\in\left(a,a+d\right)$ 使 $g\left(\xi\right)=0$，即 $f\left(\xi+d\right)=f\left(\xi\right)$. 取 $x_1=\xi,\ x_2=\xi+d$，则 $\left|x_1-x_2\right|=d=\dfrac{b-a}2$. $\blacksquare$
+若 $g\left(a\right)=0$，则取 $x_1=a,\ x_2=a+d$ 即可. 若 $g\left(a\right)\ne0$，则 $g\left(a\right)$ 与 $g\left(a+d\right)$ 反号，由**定理 8.1**，存在 $\xi\in\left(a,a+d\right)$ 使 $g\left(\xi\right)=0$，即 $f\left(\xi+d\right)=f\left(\xi\right)$. 取 $x_1=\xi,\ x_2=\xi+d$，则 $\left|x_1-x_2\right|=d=\frac{b-a}2$. $\blacksquare$
 
 ### 习题七
 
@@ -72,7 +72,7 @@ $$
 
 ### 解答 习题七
 
-因 $E$ 有界，设 $E\subset\left[a,b\right]$. 将 $\left[a,b\right]$ 平分为两个闭区间，其中至少一个包含 $E$ 的无穷多个点，记为 $\left[a_1,b_1\right]$. 如此继续，得区间套 $\left\{\left[a_n,b_n\right]\right\}$，每个 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点，且 $b_n-a_n=\dfrac{b-a}{2^n}\to0$.
+因 $E$ 有界，设 $E\subset\left[a,b\right]$. 将 $\left[a,b\right]$ 平分为两个闭区间，其中至少一个包含 $E$ 的无穷多个点，记为 $\left[a_1,b_1\right]$. 如此继续，得区间套 $\left\{\left[a_n,b_n\right]\right\}$，每个 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点，且 $b_n-a_n=\frac{b-a}{2^n}\to0$.
 
 由**区间套原理**，存在唯一 $c\in\bigcap\left[a_n,b_n\right]$. 对任意 $\delta>0$，当 $n$ 充分大时 $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$，而 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点，故 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中必有 $E$ 的点. $\blacksquare$
 

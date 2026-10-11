@@ -53,7 +53,7 @@ $$
 
 故 $M-m$ 是集合 $\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|:x_1,x_2\in I\right\}$ 的一个上界.
 
-另一方面，对任意 $\varepsilon>0$，存在 $x_1\in I$ 使得 $f\left(x_1\right)>M-\dfrac{\varepsilon}{2}$，存在 $x_2\in I$ 使得 $f\left(x_2\right)<m+\dfrac{\varepsilon}{2}$. 于是
+另一方面，对任意 $\varepsilon>0$，存在 $x_1\in I$ 使得 $f\left(x_1\right)>M-\frac{\varepsilon}{2}$，存在 $x_2\in I$ 使得 $f\left(x_2\right)<m+\frac{\varepsilon}{2}$. 于是
 $$
 f\left(x_1\right)-f\left(x_2\right)>M-m-\varepsilon,
 $$

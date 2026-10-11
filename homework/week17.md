@@ -41,7 +41,7 @@ $$
 ### 习题三
 
 （习题 3.5-2）利用凸函数概念证明下列不等式：
-(1) 设 $a>0,\ b>0$，证明 $2\arctan\dfrac{a+b}{2}\ge\arctan a+\arctan b$；
+(1) 设 $a>0,\ b>0$，证明 $2\arctan\frac{a+b}{2}\ge\arctan a+\arctan b$；
 
 (2) 若 $a,b,c$ 均为正数，证明 $a^{\alpha}b^{\beta}c^{\gamma}\le\alpha a+\beta b+\gamma c$，其中 $\alpha+\beta+\gamma=1$，$\alpha,\beta,\gamma>0$.
 
@@ -57,7 +57,7 @@ $$
 f\left(ta+\left(1-t\right)b\right)\ge tf\left(a\right)+\left(1-t\right)f\left(b\right).
 $$
 
-取 $t=\dfrac12$，得
+取 $t=\frac12$，得
 $$
 f\left(\frac{a+b}{2}\right)\ge\frac{f\left(a\right)+f\left(b\right)}{2},
 $$
@@ -186,7 +186,7 @@ $$
 
 ### 习题七
 
-（习题 3.5-7-1）作函数 $y=\dfrac{\left(x+1\right)^3}{\left(x-1\right)^2}$ 的图形.
+（习题 3.5-7-1）作函数 $y=\frac{\left(x+1\right)^3}{\left(x-1\right)^2}$ 的图形.
 
 ### 解答 习题七
 
@@ -211,7 +211,7 @@ $$
 
 当 $x<-1$ 时 $y'<0$（分母负，分子正）；当 $-1<x<1$ 时 $y'<0$；当 $1<x<5$ 时 $y'<0$；当 $x>5$ 时 $y'>0$.
 
-故 $x=5$ 为极小值点，极小值 $y\left(5\right)=\dfrac{6^3}{4^2}=\dfrac{216}{16}=\dfrac{27}{2}$. $x=-1$ 不是极值点（两侧导数同号）.
+故 $x=5$ 为极小值点，极小值 $y\left(5\right)=\frac{6^3}{4^2}=\frac{216}{16}=\frac{27}{2}$. $x=-1$ 不是极值点（两侧导数同号）.
 
 **凸凹性与拐点**：
 $$
@@ -237,7 +237,7 @@ $$
 y'=e^{-x}-xe^{-x}=\left(1-x\right)e^{-x}.
 $$
 
-令 $y'=0$，得 $x=1$. 当 $x<1$ 时 $y'>0$，当 $x>1$ 时 $y'<0$. 故 $x=1$ 为极大值点，极大值 $y\left(1\right)=e^{-1}=\dfrac1e$.
+令 $y'=0$，得 $x=1$. 当 $x<1$ 时 $y'>0$，当 $x>1$ 时 $y'<0$. 故 $x=1$ 为极大值点，极大值 $y\left(1\right)=e^{-1}=\frac1e$.
 
 **凸凹性与拐点**：
 $$
@@ -263,19 +263,19 @@ $$
 y'=e^{-x^2}+x\cdot\left(-2x\right)e^{-x^2}=\left(1-2x^2\right)e^{-x^2}.
 $$
 
-令 $y'=0$，得 $x=\pm\dfrac{1}{\sqrt2}}$. 当 $x<-\dfrac{1}{\sqrt2}$ 时 $y'<0$；当 $-\dfrac{1}{\sqrt2}<x<\dfrac{1}{\sqrt2}$ 时 $y'>0$；当 $x>\dfrac{1}{\sqrt2}$ 时 $y'<0$.
+令 $y'=0$，得 $x=\pm\frac{1}{\sqrt2}}$. 当 $x<-\frac{1}{\sqrt2}$ 时 $y'<0$；当 $-\frac{1}{\sqrt2}<x<\frac{1}{\sqrt2}$ 时 $y'>0$；当 $x>\frac{1}{\sqrt2}$ 时 $y'<0$.
 
-故 $x=-\dfrac{1}{\sqrt2}$ 为极小值点，极小值 $-\dfrac{1}{\sqrt{2e}}$；$x=\dfrac{1}{\sqrt2}$ 为极大值点，极大值 $\dfrac{1}{\sqrt{2e}}$.
+故 $x=-\frac{1}{\sqrt2}$ 为极小值点，极小值 $-\frac{1}{\sqrt{2e}}$；$x=\frac{1}{\sqrt2}$ 为极大值点，极大值 $\frac{1}{\sqrt{2e}}$.
 
 **凸凹性与拐点**：
 $$
 y''=-4xe^{-x^2}+\left(1-2x^2\right)\left(-2x\right)e^{-x^2}=\left(4x^3-6x\right)e^{-x^2}=2x\left(2x^2-3\right)e^{-x^2}.
 $$
 
-令 $y''=0$，得 $x=0$ 或 $x=\pm\sqrt{\dfrac32}$.
+令 $y''=0$，得 $x=0$ 或 $x=\pm\sqrt{\frac32}$.
 
-当 $x<-\sqrt{\dfrac32}$ 时 $y''<0$（凹）；当 $-\sqrt{\dfrac32}<x<0$ 时 $y''>0$（凸）；当 $0<x<\sqrt{\dfrac32}$ 时 $y''<0$（凹）；当 $x>\sqrt{\dfrac32}$ 时 $y''>0$（凸）.
+当 $x<-\sqrt{\frac32}$ 时 $y''<0$（凹）；当 $-\sqrt{\frac32}<x<0$ 时 $y''>0$（凸）；当 $0<x<\sqrt{\frac32}$ 时 $y''<0$（凹）；当 $x>\sqrt{\frac32}$ 时 $y''>0$（凸）.
 
-拐点为 $\left(0,0\right)$ 及 $\left(\pm\sqrt{\dfrac32},\pm\sqrt{\dfrac32}e^{-3/2}\right)$.
+拐点为 $\left(0,0\right)$ 及 $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$.
 
 综合以上信息可描绘函数图形. $\blacksquare$

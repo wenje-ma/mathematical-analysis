@@ -6,7 +6,7 @@
 
 ### 习题一
 
-（习题 6.1-2）写出函数 $y=x$ 与 $y=x^2$ 在区间 $\left[0,1\right]$ 中的黎曼和, 其中分割为 $n$ 等分, 中间点 $\xi_k$ 取成小区间之右端点. 求出当 $n\to\infty$ 时该黎曼和之极限. （提示: 利用公式 $1^2+2^2+\cdots+n^2=\dfrac{n\left(n+1\right)\left(2n+1\right)}{6}$.)
+（习题 6.1-2）写出函数 $y=x$ 与 $y=x^2$ 在区间 $\left[0,1\right]$ 中的黎曼和, 其中分割为 $n$ 等分, 中间点 $\xi_k$ 取成小区间之右端点. 求出当 $n\to\infty$ 时该黎曼和之极限. （提示: 利用公式 $1^2+2^2+\cdots+n^2=\frac{n\left(n+1\right)\left(2n+1\right)}{6}$.)
 
 ### 解答 习题一
 
@@ -18,7 +18,7 @@ $$
 \sum_{k=1}^n \xi_k\Delta x_k=\sum_{k=1}^n \frac{k}{n}\cdot\frac1n=\frac1{n^2}\sum_{k=1}^n k=\frac1{n^2}\cdot\frac{n\left(n+1\right)}2=\frac{n+1}{2n}.
 $$
 
-令 $n\to\infty$, 由**定义**（定积分）得 $\int_0^1 x\,\mathrm{d}x=\lim_{n\to\infty}\dfrac{n+1}{2n}=\dfrac12$.
+令 $n\to\infty$, 由**定义**（定积分）得 $\int_0^1 x\,\mathrm{d}x=\lim_{n\to\infty}\frac{n+1}{2n}=\frac12$.
 
 对于 $y=x^2$, 黎曼和为
 
@@ -26,7 +26,7 @@ $$
 \sum_{k=1}^n \xi_k^2\Delta x_k=\sum_{k=1}^n \left(\frac{k}{n}\right)^2\frac1n=\frac1{n^3}\sum_{k=1}^n k^2=\frac1{n^3}\cdot\frac{n\left(n+1\right)\left(2n+1\right)}6=\frac{\left(n+1\right)\left(2n+1\right)}{6n^2}.
 $$
 
-令 $n\to\infty$, 由**定义**（定积分）得 $\int_0^1 x^2\,\mathrm{d}x=\lim_{n\to\infty}\dfrac{\left(n+1\right)\left(2n+1\right)}{6n^2}=\dfrac13$. $\blacksquare$
+令 $n\to\infty$, 由**定义**（定积分）得 $\int_0^1 x^2\,\mathrm{d}x=\lim_{n\to\infty}\frac{\left(n+1\right)\left(2n+1\right)}{6n^2}=\frac13$. $\blacksquare$
 
 ### 习题二
 
@@ -58,13 +58,13 @@ $$
 \left\lvert\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right\rvert<\varepsilon.
 $$
 
-对每个小区间 $\left[x_{i-1},x_i\right]$, 因 $m_i$ 是 $f$ 在其上的最小值, 故存在 $\xi_i^*\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^*\right)<m_i+\dfrac{\varepsilon}{b-a}$. 于是
+对每个小区间 $\left[x_{i-1},x_i\right]$, 因 $m_i$ 是 $f$ 在其上的最小值, 故存在 $\xi_i^*\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^*\right)<m_i+\frac{\varepsilon}{b-a}$. 于是
 
 $$
 \sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i<\sum_{i=1}^n m_i\Delta x_i+\varepsilon.
 $$
 
-结合 $\left\lvert\sum f\left(\xi_i^*\right)\Delta x_i-I\right\rvert<\varepsilon$ 得 $\left\lvert\sum m_i\Delta x_i-I\right\rvert<2\varepsilon$. 同理, 取 $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^{**}\right)>M_i-\dfrac{\varepsilon}{b-a}$, 得 $\left\lvert\sum M_i\Delta x_i-I\right\rvert<2\varepsilon$. 故两极限均存在且等于 $I$.
+结合 $\left\lvert\sum f\left(\xi_i^*\right)\Delta x_i-I\right\rvert<\varepsilon$ 得 $\left\lvert\sum m_i\Delta x_i-I\right\rvert<2\varepsilon$. 同理, 取 $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^{**}\right)>M_i-\frac{\varepsilon}{b-a}$, 得 $\left\lvert\sum M_i\Delta x_i-I\right\rvert<2\varepsilon$. 故两极限均存在且等于 $I$.
 
 **充分性** 设 $\lim_{\lambda\left(T\right)\to0}\sum m_i\Delta x_i=\lim_{\lambda\left(T\right)\to0}\sum M_i\Delta x_i=I$. 对任意中间点 $\xi_i\in\left[x_{i-1},x_i\right]$, 由 $m_i\le f\left(\xi_i\right)\le M_i$ 得
 
@@ -77,9 +77,9 @@ $$
 ### 习题四
 
 （习题 6.1-6）证明下列不等式（假定其中函数均可积）:
-(1) $\dfrac{\pi}{2}\le\int_0^{\pi/2}\left(1+\sin x\right)\,\mathrm{d}x\le\pi$;
+(1) $\frac{\pi}{2}\le\int_0^{\pi/2}\left(1+\sin x\right)\,\mathrm{d}x\le\pi$;
 
-(2) $\sqrt2\le\int_0^1\sqrt{2+x-x^2}\,\mathrm{d}x\le\dfrac32$.
+(2) $\sqrt2\le\int_0^1\sqrt{2+x-x^2}\,\mathrm{d}x\le\frac32$.
 
 ### 解答 习题四
 
@@ -89,13 +89,13 @@ $$
 1\cdot\frac{\pi}{2}\le\int_0^{\pi/2}\left(1+\sin x\right)\,\mathrm{d}x\le2\cdot\frac{\pi}{2}=\pi.
 $$
 
-（2）在 $\left[0,1\right]$ 上, $2+x-x^2=2+x\left(1-x\right)$. 因 $0\le x\left(1-x\right)\le\dfrac14$ (在 $x=\dfrac12$ 取最大值), 故
+（2）在 $\left[0,1\right]$ 上, $2+x-x^2=2+x\left(1-x\right)$. 因 $0\le x\left(1-x\right)\le\frac14$ (在 $x=\frac12$ 取最大值), 故
 
 $$
 2\le2+x-x^2\le\frac94.
 $$
 
-开方得 $\sqrt2\le\sqrt{2+x-x^2}\le\dfrac32$. 由**性质**（定积分的比较性质）,
+开方得 $\sqrt2\le\sqrt{2+x-x^2}\le\frac32$. 由**性质**（定积分的比较性质）,
 
 $$
 \sqrt2\cdot1\le\int_0^1\sqrt{2+x-x^2}\,\mathrm{d}x\le\frac32\cdot1.

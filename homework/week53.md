@@ -1,6 +1,6 @@
 # 作业 53
 
-> **命题**（傅里叶系数）以 $2\pi$ 为周期的可积函数 $f\left(x\right)$ 的傅里叶级数为 $f\left(x\right)\sim\dfrac{a_0}{2}+\displaystyle\sum_{n=1}^\infty\left(a_n\cos nx+b_n\sin nx\right)$，其中
+> **命题**（傅里叶系数）以 $2\pi$ 为周期的可积函数 $f\left(x\right)$ 的傅里叶级数为 $f\left(x\right)\sim\frac{a_0}{2}+\displaystyle\sum_{n=1}^\infty\left(a_n\cos nx+b_n\sin nx\right)$，其中
 
 $$
 a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x\ \left(n=0,1,2,\cdots\right),\  b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x\ \left(n=1,2,\cdots\right).
@@ -48,7 +48,7 @@ $$
 \sin^4 x=\left(\sin^2 x\right)^2=\left(\frac{1-\cos2x}{2}\right)^2=\frac{1-2\cos2x+\cos^2 2x}{4}=\frac{3}{8}-\frac12\cos2x+\frac18\cos4x.
 $$
 
-这已是三角多项式，由**命题**（傅里叶系数）直接读出其傅里叶系数：$a_0=\dfrac{3\pi}{2}$（即常数项 $\dfrac{a_0}{2}=\dfrac38$），$a_2=-\dfrac12$，$a_4=\dfrac18$，其余 $a_n=b_n=0$. 故
+这已是三角多项式，由**命题**（傅里叶系数）直接读出其傅里叶系数：$a_0=\frac{3\pi}{2}$（即常数项 $\frac{a_0}{2}=\frac38$），$a_2=-\frac12$，$a_4=\frac18$，其余 $a_n=b_n=0$. 故
 
 $$
 \sin^4 x=\frac38-\frac12\cos2x+\frac18\cos4x.
@@ -72,7 +72,7 @@ $$
 a_n=\frac1\pi\int_0^\pi x\cos nx\,\mathrm{d}x=\frac1\pi\left(\left[\frac{x\sin nx}{n}\right]_0^\pi-\frac1n\int_0^\pi\sin nx\,\mathrm{d}x\right)=\frac{\left(-1\right)^n-1}{n^2\pi},
 $$
 
-即 $n$ 为偶数时 $a_n=0$，$n$ 为奇数时 $a_n=-\dfrac{2}{n^2\pi}$. 又
+即 $n$ 为偶数时 $a_n=0$，$n$ 为奇数时 $a_n=-\frac{2}{n^2\pi}$. 又
 
 $$
 b_n=\frac1\pi\int_0^\pi x\sin nx\,\mathrm{d}x=\frac1\pi\left(\left[-\frac{x\cos nx}{n}\right]_0^\pi+\frac1n\int_0^\pi\cos nx\,\mathrm{d}x\right)=\frac{\left(-1\right)^{n+1}}{n}.

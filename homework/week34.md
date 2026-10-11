@@ -8,13 +8,13 @@ $$
 
 其中 $L^+$ 表示逆时针方向.
 
-> **定理 2.4**（积分与路径无关的条件）设 $D$ 为平面单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int P\,\mathrm{d}x+Q\,\mathrm{d}y$ 在 $D$ 内与路径无关的充要条件是 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}$ 在 $D$ 内处处成立.
+> **定理 2.4**（积分与路径无关的条件）设 $D$ 为平面单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int P\,\mathrm{d}x+Q\,\mathrm{d}y$ 在 $D$ 内与路径无关的充要条件是 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$ 在 $D$ 内处处成立.
 
-> **定理 2.5**（恰当微分形式）在上述条件下, $P\,\mathrm{d}x+Q\,\mathrm{d}y$ 为恰当微分形式的充要条件是 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}$ 在 $D$ 内处处成立.
+> **定理 2.5**（恰当微分形式）在上述条件下, $P\,\mathrm{d}x+Q\,\mathrm{d}y$ 为恰当微分形式的充要条件是 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$ 在 $D$ 内处处成立.
 
 ### 习题一
 
-（习题 9.2-1）求积分 $\displaystyle\oint_{L^+}x^2\,\mathrm{d}y-y^2\,\mathrm{d}x$, 其中 $L$ 为椭圆周: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$, 按逆时针方向.
+（习题 9.2-1）求积分 $\displaystyle\oint_{L^+}x^2\,\mathrm{d}y-y^2\,\mathrm{d}x$, 其中 $L$ 为椭圆周: $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$, 按逆时针方向.
 
 ### 解答 习题一
 
@@ -46,7 +46,7 @@ $$
 \int_{L_2}=\int_0^2 2x^2\,\mathrm{d}x+\left(x^2-x\right)\,\mathrm{d}x=\int_0^2\left(3x^2-x\right)\,\mathrm{d}x=6.
 $$
 
-故原积分 $=\dfrac56+6=\dfrac{41}{6}$. $\blacksquare$
+故原积分 $=\frac56+6=\frac{41}{6}$. $\blacksquare$
 
 ### 习题三
 
@@ -77,7 +77,7 @@ $$
 \frac{\partial P}{\partial y}=\frac{y}{\sqrt{x^2+y^2}},\ \frac{\partial Q}{\partial x}=y^2+\frac{y}{\sqrt{x^2+y^2}}.
 $$
 
-故 $\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}=y^2$. 三角形区域 $D$: $1\le x\le2$, $x\le y\le4-x$. 由**定理 2.2**,
+故 $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=y^2$. 三角形区域 $D$: $1\le x\le2$, $x\le y\le4-x$. 由**定理 2.2**,
 
 $$
 \oint_{L^+}=\int_1^2\mathrm{d}x\int_x^{4-x}y^2\,\mathrm{d}y=\frac13\int_1^2\left[\left(4-x\right)^3-x^3\right]\mathrm{d}x=\frac{25}{6}.
@@ -89,7 +89,7 @@ $$
 \frac{\partial Q}{\partial x}=e^x\cos y,\ \frac{\partial P}{\partial y}=e^x\cos y-8.
 $$
 
-故 $\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}=8$. 上半圆 $y=\sqrt{ax-x^2}$ 的半径为 $a/2$, 面积为 $\pi a^2/8$. 由**定理 2.2**,
+故 $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=8$. 上半圆 $y=\sqrt{ax-x^2}$ 的半径为 $a/2$, 面积为 $\pi a^2/8$. 由**定理 2.2**,
 
 $$
 \oint_{L^+}=8\cdot\frac{\pi a^2}{8}=\pi a^2.
@@ -109,7 +109,7 @@ $$
 \frac{\partial P}{\partial y}=f\left(xy\right)+xyf'\left(xy\right),\ \frac{\partial Q}{\partial x}=f\left(xy\right)+xyf'\left(xy\right).
 $$
 
-故 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}$ 在 $L$ 所围区域 $D$ 内处处成立. 由**定理 2.2**（格林公式）,
+故 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$ 在 $L$ 所围区域 $D$ 内处处成立. 由**定理 2.2**（格林公式）,
 
 $$
 \oint_{L^+}f\left(xy\right)\left(y\,\mathrm{d}x+x\,\mathrm{d}y\right)=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm{d}x\mathrm{d}y=0.
@@ -155,7 +155,7 @@ $$
 \oint_{L_r^+}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{A^2x^2+B^2y^2}=\frac1{r^2}\oint_{L_r^+}x\,\mathrm{d}y-y\,\mathrm{d}x.
 $$
 
-由**定理 2.2**（格林公式）的推论, $\oint_{L_r^+}x\,\mathrm{d}y-y\,\mathrm{d}x=2m\left(D\right)$, 其中 $m\left(D\right)$ 为椭圆 $A^2x^2+B^2y^2=r^2$ 的面积. 该椭圆半轴长为 $r/A$ 与 $r/B$, 故 $m\left(D\right)=\pi\cdot\dfrac rA\cdot\dfrac rB=\dfrac{\pi r^2}{AB}$. 因此
+由**定理 2.2**（格林公式）的推论, $\oint_{L_r^+}x\,\mathrm{d}y-y\,\mathrm{d}x=2m\left(D\right)$, 其中 $m\left(D\right)$ 为椭圆 $A^2x^2+B^2y^2=r^2$ 的面积. 该椭圆半轴长为 $r/A$ 与 $r/B$, 故 $m\left(D\right)=\pi\cdot\frac rA\cdot\frac rB=\frac{\pi r^2}{AB}$. 因此
 
 $$
 \oint_{L_r^+}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{A^2x^2+B^2y^2}=\frac1{r^2}\cdot\frac{2\pi r^2}{AB}=\frac{2\pi}{AB}.
@@ -169,16 +169,16 @@ $\blacksquare$
 
 ### 解答 习题七
 
-记 $P=\dfrac{-y}{A^2x^2+B^2y^2}$, $Q=\dfrac{x}{A^2x^2+B^2y^2}$. 在 $\left(x,y\right)\ne\left(0,0\right)$ 处,
+记 $P=\frac{-y}{A^2x^2+B^2y^2}$, $Q=\frac{x}{A^2x^2+B^2y^2}$. 在 $\left(x,y\right)\ne\left(0,0\right)$ 处,
 
 $$
 \frac{\partial Q}{\partial x}=\frac{A^2y^2-B^2x^2}{\left(A^2x^2+B^2y^2\right)^2}=\frac{\partial P}{\partial y}.
 $$
 
-取充分小的 $r>0$, 使椭圆 $L_r$ 完全含于 $\Gamma$ 内部. 在 $\Gamma$ 与 $L_r$ 所夹的复连通区域上应用**定理 2.3**（复连通区域上的格林公式）, 外边界 $\Gamma$ 取正向, 内边界 $L_r$ 取顺时针方向. 由于区域内 $\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}=0$, 得
+取充分小的 $r>0$, 使椭圆 $L_r$ 完全含于 $\Gamma$ 内部. 在 $\Gamma$ 与 $L_r$ 所夹的复连通区域上应用**定理 2.3**（复连通区域上的格林公式）, 外边界 $\Gamma$ 取正向, 内边界 $L_r$ 取顺时针方向. 由于区域内 $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=0$, 得
 
 $$
 \oint_{\Gamma^+}P\,\mathrm{d}x+Q\,\mathrm{d}y-\oint_{L_r^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=0,
 $$
 
-即 $\oint_{\Gamma^+}=\oint_{L_r^+}$. 由习题六的结果, $\oint_{L_r^+}=\dfrac{2\pi}{AB}$, 故原积分 $=\dfrac{2\pi}{AB}$. $\blacksquare$
+即 $\oint_{\Gamma^+}=\oint_{L_r^+}$. 由习题六的结果, $\oint_{L_r^+}=\frac{2\pi}{AB}$, 故原积分 $=\frac{2\pi}{AB}$. $\blacksquare$

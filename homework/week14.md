@@ -3,47 +3,47 @@
 > **定理 2.1**（柯西中值定理）设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $\left[a,b\right]$ 中连续，在 $\left(a,b\right)$ 中可导，且 $g'\left(x\right)\ne0$（$a<x<b$）. 则存在点 $c\in\left(a,b\right)$，使得
 > $$\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}.$$
 
-> **定理 2.2**（洛必达法则，$\dfrac00$ 型）设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义且可导，$g'\left(x\right)\ne0$. 假定 $\lim\limits_{x\to a}f\left(x\right)=\lim\limits_{x\to a}g\left(x\right)=0$，且 $\lim\limits_{x\to a}\dfrac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则
+> **定理 2.2**（洛必达法则，$\frac00$ 型）设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义且可导，$g'\left(x\right)\ne0$. 假定 $\lim\limits_{x\to a}f\left(x\right)=\lim\limits_{x\to a}g\left(x\right)=0$，且 $\lim\limits_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则
 > $$\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}.$$
 
-> **定理 2.3**（洛必达法则，$\dfrac{\infty}{\infty}$ 型）设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义且可导，$g'\left(x\right)\ne0$. 假定 $\lim\limits_{x\to a}f\left(x\right)=\lim\limits_{x\to a}g\left(x\right)=\infty$，且 $\lim\limits_{x\to a}\dfrac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则
+> **定理 2.3**（洛必达法则，$\frac{\infty}{\infty}$ 型）设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义且可导，$g'\left(x\right)\ne0$. 假定 $\lim\limits_{x\to a}f\left(x\right)=\lim\limits_{x\to a}g\left(x\right)=\infty$，且 $\lim\limits_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则
 > $$\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}.$$
 
 ### 习题一
 
 （习题 3.2-1）求下列未定式的极限：
-(1) $\lim\limits_{x\to0}\dfrac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}$（$a\ne0,\ b\ne0$）；
+(1) $\lim\limits_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}$（$a\ne0,\ b\ne0$）；
 
-(2) $\lim\limits_{x\to0}\dfrac{a^x-1}{x}$（$a>0$）；
+(2) $\lim\limits_{x\to0}\frac{a^x-1}{x}$（$a>0$）；
 
-(3) $\lim\limits_{x\to0}\dfrac{\tan x-x}{x-\arcsin x}$；
+(3) $\lim\limits_{x\to0}\frac{\tan x-x}{x-\arcsin x}$；
 
 (4) $\lim\limits_{x\to0+}x^x$；
 
 (5) $\lim\limits_{x\to0+}x\ln x$；
 
-(6) $\lim\limits_{x\to0+}\dfrac{\ln\left(\sin x\right)}{x^2}$；
+(6) $\lim\limits_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}$；
 
 (7) $\lim\limits_{x\to0+}\left(\sin x\right)^{\sin x}$.
 
 ### 解答 习题一
 
-（1）这是 $\dfrac00$ 型未定式. 由**定理 2.2**（洛必达法则），
+（1）这是 $\frac00$ 型未定式. 由**定理 2.2**（洛必达法则），
 $$
-\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}=\lim_{x\to0}\frac{\dfrac{-a\sin ax}{\cos ax}}{\dfrac{-b\sin bx}{\cos bx}}=\lim_{x\to0}\frac{a\tan ax}{b\tan bx}=\frac{a}{b}\cdot\frac{a}{b}=\frac{a^2}{b^2}.
+\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}=\lim_{x\to0}\frac{\frac{-a\sin ax}{\cos ax}}{\frac{-b\sin bx}{\cos bx}}=\lim_{x\to0}\frac{a\tan ax}{b\tan bx}=\frac{a}{b}\cdot\frac{a}{b}=\frac{a^2}{b^2}.
 $$
 
-（2）这是 $\dfrac00$ 型未定式. 由**定理 2.2**（洛必达法则），
+（2）这是 $\frac00$ 型未定式. 由**定理 2.2**（洛必达法则），
 $$
 \lim_{x\to0}\frac{a^x-1}{x}=\lim_{x\to0}\frac{a^x\ln a}{1}=\ln a.
 $$
 
-（3）这是 $\dfrac00$ 型未定式. 由**定理 2.2**（洛必达法则），
+（3）这是 $\frac00$ 型未定式. 由**定理 2.2**（洛必达法则），
 $$
-\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}=\lim_{x\to0}\frac{\sec^2 x-1}{1-\dfrac{1}{\sqrt{1-x^2}}}.
+\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}=\lim_{x\to0}\frac{\sec^2 x-1}{1-\frac{1}{\sqrt{1-x^2}}}.
 $$
 
-分子 $\sec^2 x-1=\tan^2 x\sim x^2$（$x\to0$）. 分母 $1-\dfrac{1}{\sqrt{1-x^2}}=\dfrac{\sqrt{1-x^2}-1}{\sqrt{1-x^2}}\sim-\dfrac{x^2}{2}$（$x\to0$）. 故
+分子 $\sec^2 x-1=\tan^2 x\sim x^2$（$x\to0$）. 分母 $1-\frac{1}{\sqrt{1-x^2}}=\frac{\sqrt{1-x^2}-1}{\sqrt{1-x^2}}\sim-\frac{x^2}{2}$（$x\to0$）. 故
 $$
 \lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}=\frac{x^2}{-x^2/2}=-2.
 $$
@@ -53,12 +53,12 @@ $$
 \lim_{x\to0+}x^x=e^0=1.
 $$
 
-（5）这是 $0\cdot\infty$ 型未定式. 改写为 $\dfrac{\infty}{\infty}$ 型后应用**定理 2.3**（洛必达法则）：
+（5）这是 $0\cdot\infty$ 型未定式. 改写为 $\frac{\infty}{\infty}$ 型后应用**定理 2.3**（洛必达法则）：
 $$
 \lim_{x\to0+}x\ln x=\lim_{x\to0+}\frac{\ln x}{1/x}=\lim_{x\to0+}\frac{1/x}{-1/x^2}=\lim_{x\to0+}\left(-x\right)=0.
 $$
 
-（6）这是 $\dfrac{\infty}{\infty}$ 型未定式. 由**定理 2.3**（洛必达法则），
+（6）这是 $\frac{\infty}{\infty}$ 型未定式. 由**定理 2.3**（洛必达法则），
 $$
 \lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}=\lim_{x\to0+}\frac{\cot x}{2x}=\lim_{x\to0+}\frac{\cos x}{2x\sin x}=+\infty.
 $$
@@ -75,15 +75,15 @@ $$ $\blacksquare$
 
 ### 习题二
 
-（习题 3.2-2）若 $\lim\limits_{x\to a}\dfrac{f'\left(x\right)}{g'\left(x\right)}$ 不存在，能否说明 $\lim\limits_{x\to a}\dfrac{f\left(x\right)}{g\left(x\right)}$ 也不存在？试考察 $f\left(x\right)=x\sin\dfrac1x$ 及 $g\left(x\right)=x^2$ 在 $x\to0$ 时的情况.
+（习题 3.2-2）若 $\lim\limits_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在，能否说明 $\lim\limits_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}$ 也不存在？试考察 $f\left(x\right)=x\sin\frac1x$ 及 $g\left(x\right)=x^2$ 在 $x\to0$ 时的情况.
 
 ### 解答 习题二
 
-不能. 考察 $f\left(x\right)=x\sin\dfrac1x$，$g\left(x\right)=x^2$，$x\to0$.
+不能. 考察 $f\left(x\right)=x\sin\frac1x$，$g\left(x\right)=x^2$，$x\to0$.
 
-首先，$\lim\limits_{x\to0}\dfrac{f\left(x\right)}{g\left(x\right)}=\lim\limits_{x\to0}\dfrac{x\sin\left(1/x\right)}{x^2}=\lim\limits_{x\to0}\dfrac{\sin\left(1/x\right)}{x}$. 该极限不存在（因 $\sin\left(1/x\right)$ 在 $-1$ 与 $1$ 之间振荡，而 $1/x\to\infty$）.
+首先，$\lim\limits_{x\to0}\frac{f\left(x\right)}{g\left(x\right)}=\lim\limits_{x\to0}\frac{x\sin\left(1/x\right)}{x^2}=\lim\limits_{x\to0}\frac{\sin\left(1/x\right)}{x}$. 该极限不存在（因 $\sin\left(1/x\right)$ 在 $-1$ 与 $1$ 之间振荡，而 $1/x\to\infty$）.
 
-但这不是一个好的例子，因为我们需要说明 $\lim f/g$ 存在但 $\lim f'/g'$ 不存在. 修正如下：取 $f\left(x\right)=x^2\sin\dfrac1x$，$g\left(x\right)=x$. 则
+但这不是一个好的例子，因为我们需要说明 $\lim f/g$ 存在但 $\lim f'/g'$ 不存在. 修正如下：取 $f\left(x\right)=x^2\sin\frac1x$，$g\left(x\right)=x$. 则
 $$
 \lim_{x\to0}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to0}x\sin\frac1x=0.
 $$
@@ -98,7 +98,7 @@ $$
 \frac{f'\left(x\right)}{g'\left(x\right)}=2x\sin\frac1x-\cos\frac1x.
 $$
 
-当 $x\to0$ 时，$2x\sin\left(1/x\right)\to0$，但 $\cos\left(1/x\right)$ 振荡无极限. 故 $\lim\limits_{x\to0}\dfrac{f'\left(x\right)}{g'\left(x\right)}$ 不存在.
+当 $x\to0$ 时，$2x\sin\left(1/x\right)\to0$，但 $\cos\left(1/x\right)$ 振荡无极限. 故 $\lim\limits_{x\to0}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在.
 
 这说明：$\lim f'\left(x\right)/g'\left(x\right)$ 不存在时，$\lim f\left(x\right)/g\left(x\right)$ 仍可能存在. 即洛必达法则的逆命题不成立. $\blacksquare$
 
@@ -123,14 +123,14 @@ $$
 g''\left(a\right)=f''\left(a\right)-T''\left(a\right)=f''\left(a\right)-f''\left(a\right)=0.
 $$
 
-下面证明 $g\left(x\right)=o\bigl(\left(\Delta x\right)^2\bigr)$. 即证 $\lim\limits_{\Delta x\to0}\dfrac{g\left(x\right)}{\left(\Delta x\right)^2}=0$.
+下面证明 $g\left(x\right)=o\bigl(\left(\Delta x\right)^2\bigr)$. 即证 $\lim\limits_{\Delta x\to0}\frac{g\left(x\right)}{\left(\Delta x\right)^2}=0$.
 
-这是 $\dfrac00$ 型未定式（因 $g\left(a\right)=0$ 且 $g''\left(a\right)=0$ 推出 $g'\left(a\right)=0$）. 洛必达法则（**定理 2.2**）的理论基础是**定理 2.1**（柯西中值定理）. 由**定理 2.2**（洛必达法则），
+这是 $\frac00$ 型未定式（因 $g\left(a\right)=0$ 且 $g''\left(a\right)=0$ 推出 $g'\left(a\right)=0$）. 洛必达法则（**定理 2.2**）的理论基础是**定理 2.1**（柯西中值定理）. 由**定理 2.2**（洛必达法则），
 $$
 \lim_{\Delta x\to0}\frac{g\left(x\right)}{\left(\Delta x\right)^2}=\lim_{\Delta x\to0}\frac{g'\left(x\right)}{2\Delta x}.
 $$
 
-右端仍是 $\dfrac00$ 型（因 $g'\left(a\right)=0$）. 再用一次**定理 2.2**（洛必达法则），
+右端仍是 $\frac00$ 型（因 $g'\left(a\right)=0$）. 再用一次**定理 2.2**（洛必达法则），
 $$
 \lim_{\Delta x\to0}\frac{g'\left(x\right)}{2\Delta x}=\lim_{\Delta x\to0}\frac{g''\left(x\right)}{2}=\frac{g''\left(a\right)}{2}=0.
 $$
@@ -147,17 +147,17 @@ $$\lim_{x\to\infty}\left(\frac{x+c}{x-c}\right)^x=e^2.$$
 
 ### 解答 习题四
 
-这是 $1^\infty$ 型未定式. 令 $y=\left(\dfrac{x+c}{x-c}\right)^x$，则
+这是 $1^\infty$ 型未定式. 令 $y=\left(\frac{x+c}{x-c}\right)^x$，则
 $$
 \ln y=x\ln\frac{x+c}{x-c}=x\ln\left(1+\frac{2c}{x-c}\right).
 $$
 
-当 $x\to\infty$ 时，$\dfrac{2c}{x-c}\to0$，利用等价无穷小 $\ln\left(1+t\right)\sim t$（$t\to0$），得
+当 $x\to\infty$ 时，$\frac{2c}{x-c}\to0$，利用等价无穷小 $\ln\left(1+t\right)\sim t$（$t\to0$），得
 $$
 \ln y\sim x\cdot\frac{2c}{x-c}=\frac{2cx}{x-c}\to2c\ \left(x\to\infty\right).
 $$
 
-也可由洛必达法则验证：将 $\ln y$ 改写为 $\dfrac{\ln\bigl(\frac{x+c}{x-c}\bigr)}{1/x}$，这是 $\dfrac00$ 型. 由**定理 2.2**（洛必达法则），
+也可由洛必达法则验证：将 $\ln y$ 改写为 $\frac{\ln\bigl(\frac{x+c}{x-c}\bigr)}{1/x}$，这是 $\frac00$ 型. 由**定理 2.2**（洛必达法则），
 $$
 \lim_{x\to\infty}\frac{\ln\bigl(\frac{x+c}{x-c}\bigr)}{1/x}=\lim_{x\to\infty}\frac{\frac{x-c}{x+c}\cdot\frac{\left(x-c\right)-\left(x+c\right)}{\left(x-c\right)^2}}{-1/x^2}=\lim_{x\to\infty}\frac{-2c}{x^2-c^2}\cdot\left(-x^2\right)=2c.
 $$

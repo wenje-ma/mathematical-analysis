@@ -11,7 +11,7 @@
 （习题 1.7-1）指出下列函数的间断点及其类型：
 (1) $y=\operatorname{sgn}\left(\sin x\right)$;
 
-(2) $y=f\left(x\right)=\begin{cases}x^2e^x,&x>0,\\ \sin\dfrac{\pi}{1+x^2},&x<0,\\ 1,&x=0;\end{cases}$
+(2) $y=f\left(x\right)=\begin{cases}x^2e^x,&x>0,\\ \sin\frac{\pi}{1+x^2},&x<0,\\ 1,&x=0;\end{cases}$
 
 (3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
 
@@ -21,11 +21,11 @@
 
 （1）当 $x=k\pi$（$k\in\mathbb Z$）时 $\sin x=0$，$\operatorname{sgn}\left(\sin x\right)$ 左右极限分别为 $1$ 与 $-1$（或反之），为第一类间断点（跳跃间断点）. 其余点连续.
 
-（2）$x\to0+0$ 时 $f\left(x\right)=x^2e^x\to0$；$x\to0-0$ 时 $f\left(x\right)=\sin\dfrac{\pi}{1+x^2}\to\sin\pi=0$. 但 $f\left(0\right)=1$，故 $x=0$ 为可去间断点（第一类）.
+（2）$x\to0+0$ 时 $f\left(x\right)=x^2e^x\to0$；$x\to0-0$ 时 $f\left(x\right)=\sin\frac{\pi}{1+x^2}\to\sin\pi=0$. 但 $f\left(0\right)=1$，故 $x=0$ 为可去间断点（第一类）.
 
 （3）$x-\left[x\right]=\left\{x\right\}$ 为小数部分，在整数点处左右极限分别为 $\cos0=1$ 与 $\cos\pi=-1$，故整数点为跳跃间断点（第一类）. 其余点连续.
 
-（4）$x\to0$ 时 $\dfrac1x$ 振荡，$\sin\dfrac1x$ 在 $\left[-1,1\right]$ 内振荡，$e^{\sin\left(1/x\right)}$ 在 $e^{-1}$ 与 $e$ 之间振荡，极限不存在，故 $x=0$ 为第二类间断点（振荡间断点）. $\blacksquare$
+（4）$x\to0$ 时 $\frac1x$ 振荡，$\sin\frac1x$ 在 $\left[-1,1\right]$ 内振荡，$e^{\sin\left(1/x\right)}$ 在 $e^{-1}$ 与 $e$ 之间振荡，极限不存在，故 $x=0$ 为第二类间断点（振荡间断点）. $\blacksquare$
 
 ### 习题二
 
@@ -48,23 +48,23 @@ $$
 
 (2) $\lim\limits_{x\to0}e^{\frac{\sin x}{\sin2x}}$;
 
-(3) $\lim\limits_{x\to\infty}\arctan\dfrac{\sqrt{x^4+2}}{1+x^2}$;
+(3) $\lim\limits_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
 
 (4) $\lim\limits_{x\to5}x^{\sqrt x}$;
 
-(5) $\lim\limits_{x\to\infty}\left(1+\dfrac1x+\dfrac1{x^2}\right)^{x+\sqrt x}$.
+(5) $\lim\limits_{x\to\infty}\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}$.
 
 ### 解答 习题三
 
 （1）由**定理 7.2**（复合函数连续性），$\lim\limits_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$，故原式 $=\cos0=1$.
 
-（2）$\dfrac{\sin x}{\sin2x}\to\dfrac12$，由 $e^u$ 的连续性，原式 $=e^{1/2}=\sqrt e$.
+（2）$\frac{\sin x}{\sin2x}\to\frac12$，由 $e^u$ 的连续性，原式 $=e^{1/2}=\sqrt e$.
 
-（3）$\dfrac{\sqrt{x^4+2}}{1+x^2}\to1$，由 $\arctan u$ 的连续性，原式 $=\arctan1=\dfrac\pi4$.
+（3）$\frac{\sqrt{x^4+2}}{1+x^2}\to1$，由 $\arctan u$ 的连续性，原式 $=\arctan1=\frac\pi4$.
 
 （4）$x^{\sqrt x}=e^{\sqrt x\ln x}$，$\sqrt x\ln x\to\sqrt5\ln5$，由连续性，原式 $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
 
-（5）$\left(1+\dfrac1x+\dfrac1{x^2}\right)^{x+\sqrt x}=\left[\left(1+\dfrac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt x\right)\left(x+1\right)}{x^2}}$. 底数趋于 $e$，指数趋于 $1$，故原式 $=e$. $\blacksquare$
+（5）$\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}=\left[\left(1+\frac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt x\right)\left(x+1\right)}{x^2}}$. 底数趋于 $e$，指数趋于 $1$，故原式 $=e$. $\blacksquare$
 
 ### 习题四
 
@@ -90,7 +90,7 @@ $$
 
 ### 习题六
 
-（习题 1.7-6）设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot e^{t_2}$ 的条件下，证明下列极限等式：$\lim\limits_{x\to\infty}\left[\left(1+\dfrac{t_1}{x}\right)\left(1+\dfrac{t_2}{x}\right)\right]^x=e^{t_1+t_2}$.
+（习题 1.7-6）设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot e^{t_2}$ 的条件下，证明下列极限等式：$\lim\limits_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}$.
 
 ### 解答 习题六
 

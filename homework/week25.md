@@ -8,16 +8,16 @@
 
 ### 习题一
 
-（习题 5.3-2）设 $f\left(x\right)=\dfrac1x$（$0<x<1$）. 直接从定义出发，证明 $f\left(x\right)$ 在 $\left(0,1\right)$ 中不一致连续.
+（习题 5.3-2）设 $f\left(x\right)=\frac1x$（$0<x<1$）. 直接从定义出发，证明 $f\left(x\right)$ 在 $\left(0,1\right)$ 中不一致连续.
 
 ### 解答 习题一
 
-要证明 $f\left(x\right)=\dfrac1x$ 在 $\left(0,1\right)$ 中不一致连续，即存在 $\varepsilon_0>0$，对于任意 $\delta>0$，都存在 $x_1,x_2\in\left(0,1\right)$，使得
+要证明 $f\left(x\right)=\frac1x$ 在 $\left(0,1\right)$ 中不一致连续，即存在 $\varepsilon_0>0$，对于任意 $\delta>0$，都存在 $x_1,x_2\in\left(0,1\right)$，使得
 $$
 \left|x_1-x_2\right|<\delta,\ \text{但}\;\left|f\left(x_1\right)-f\left(x_2\right)\right|\ge\varepsilon_0.
 $$
 
-取 $\varepsilon_0=1$. 对任意 $\delta>0$，取 $x_1=\dfrac{\delta}{2}$，$x_2=\dfrac{\delta}{3}$. 则
+取 $\varepsilon_0=1$. 对任意 $\delta>0$，取 $x_1=\frac{\delta}{2}$，$x_2=\frac{\delta}{3}$. 则
 $$
 \left|x_1-x_2\right|=\frac{\delta}{6}<\delta,
 $$
@@ -27,23 +27,23 @@ $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|=\left|\frac{2}{\delta}-\frac{3}{\delta}\right|=\frac1\delta\to\infty\ \left(\delta\to0\right).
 $$
 
-当 $\delta<1$ 时，$\dfrac1\delta>1=\varepsilon_0$. 故 $f\left(x\right)=\dfrac1x$ 在 $\left(0,1\right)$ 中不一致连续. $\blacksquare$
+当 $\delta<1$ 时，$\frac1\delta>1=\varepsilon_0$. 故 $f\left(x\right)=\frac1x$ 在 $\left(0,1\right)$ 中不一致连续. $\blacksquare$
 
 ### 习题二
 
-（习题 5.3-3）设集合 $E=\left\{\dfrac1n:n=1,2,\cdots\right\}$. 试构造集合 $E$ 的一个开覆盖，但不能从中选出有限个元素覆盖住 $E$.
+（习题 5.3-3）设集合 $E=\left\{\frac1n:n=1,2,\cdots\right\}$. 试构造集合 $E$ 的一个开覆盖，但不能从中选出有限个元素覆盖住 $E$.
 
 ### 解答 习题二
 
-对每个 $n$，取开区间 $I_n=\left(\dfrac1n-\dfrac{1}{4n^2},\dfrac1n+\dfrac{1}{4n^2}\right)$. 显然 $\dfrac1n\in I_n$，故 $E\subset\bigcup\limits_{n=1}^\infty I_n$，即 $\left\{I_n\right\}$ 是 $E$ 的一个开覆盖.
+对每个 $n$，取开区间 $I_n=\left(\frac1n-\frac{1}{4n^2},\frac1n+\frac{1}{4n^2}\right)$. 显然 $\frac1n\in I_n$，故 $E\subset\bigcup\limits_{n=1}^\infty I_n$，即 $\left\{I_n\right\}$ 是 $E$ 的一个开覆盖.
 
-但任意有限个 $I_{n_1},\cdots,I_{n_k}$ 只能覆盖有限个点 $\dfrac1{n_1},\cdots,\dfrac1{n_k}$. 设 $N=\max\left\{n_1,\cdots,n_k\right\}$，则当 $n>N$ 时 $\dfrac1n\in E$ 但 $\dfrac1n\notin\bigcup\limits_{i=1}^k I_{n_i}$（因 $I_{n_i}$ 的中心为 $\dfrac1{n_i}$，半径为 $\dfrac{1}{4n_i^2}$，不包含 $\dfrac1n$）.
+但任意有限个 $I_{n_1},\cdots,I_{n_k}$ 只能覆盖有限个点 $\frac1{n_1},\cdots,\frac1{n_k}$. 设 $N=\max\left\{n_1,\cdots,n_k\right\}$，则当 $n>N$ 时 $\frac1n\in E$ 但 $\frac1n\notin\bigcup\limits_{i=1}^k I_{n_i}$（因 $I_{n_i}$ 的中心为 $\frac1{n_i}$，半径为 $\frac{1}{4n_i^2}$，不包含 $\frac1n$）.
 
 故不能从中选出有限个元素覆盖住 $E$. $\blacksquare$
 
 ### 习题三
 
-（习题 5.3-4）证明：对集合 $E=\left\{\dfrac1n:n=1,2,\cdots\right\}\cup\left\{0\right\}$，其任意开覆盖都存在有限子覆盖.
+（习题 5.3-4）证明：对集合 $E=\left\{\frac1n:n=1,2,\cdots\right\}\cup\left\{0\right\}$，其任意开覆盖都存在有限子覆盖.
 
 ### 解答 习题三
 
@@ -51,9 +51,9 @@ $$
 
 设 $\mathcal{F}$ 是 $E$ 的任意一个开覆盖. 因 $0\in E$，故存在 $I_0\in\mathcal{F}$ 使得 $0\in I_0$. 因 $I_0$ 是开区间，故存在 $\delta>0$ 使得 $\left(-\delta,\delta\right)\subset I_0$.
 
-取 $N$ 使得 $\dfrac1N<\delta$. 则当 $n>N$ 时，$0<\dfrac1n<\delta$，即 $\dfrac1n\in\left(-\delta,\delta\right)\subset I_0$. 故 $I_0$ 覆盖了 $E$ 中除 $\dfrac11,\dfrac12,\cdots,\dfrac1N$ 以外的所有点.
+取 $N$ 使得 $\frac1N<\delta$. 则当 $n>N$ 时，$0<\frac1n<\delta$，即 $\frac1n\in\left(-\delta,\delta\right)\subset I_0$. 故 $I_0$ 覆盖了 $E$ 中除 $\frac11,\frac12,\cdots,\frac1N$ 以外的所有点.
 
-对每个 $n=1,2,\cdots,N$，因 $\dfrac1n\in E$，存在 $I_n\in\mathcal{F}$ 使得 $\dfrac1n\in I_n$.
+对每个 $n=1,2,\cdots,N$，因 $\frac1n\in E$，存在 $I_n\in\mathcal{F}$ 使得 $\frac1n\in I_n$.
 
 于是 $\left\{I_0,I_1,\cdots,I_N\right\}$ 是 $\mathcal{F}$ 的有限子集，且覆盖了 $E$. $\blacksquare$
 
@@ -118,7 +118,7 @@ $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|\le3\left|x_1-x_2\right|+5\left|x_1-x_2\right|=8\left|x_1-x_2\right|.
 $$
 
-对任意 $\varepsilon>0$，取 $\delta=\dfrac{\varepsilon}{8}$. 则当 $\left|x_1-x_2\right|<\delta$ 时，$\left|f\left(x_1\right)-f\left(x_2\right)\right|<\varepsilon$. 由一致连续的定义，$f\left(x\right)$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
+对任意 $\varepsilon>0$，取 $\delta=\frac{\varepsilon}{8}$. 则当 $\left|x_1-x_2\right|<\delta$ 时，$\left|f\left(x_1\right)-f\left(x_2\right)\right|<\varepsilon$. 由一致连续的定义，$f\left(x\right)$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
 
 ### 习题七
 
@@ -128,7 +128,7 @@ $$\left|f\left(x_1\right)-f\left(x_2\right)\right|\le H\left|x_1-x_2\right|^\alp
 
 ### 解答 习题七
 
-**第一部分**：设 $f$ 满足赫尔德条件，指数为 $\alpha$. 对任意 $\varepsilon>0$，取 $\delta=\left(\dfrac{\varepsilon}{H}\right)^{1/\alpha}$. 则当 $\left|x_1-x_2\right|<\delta$ 时，
+**第一部分**：设 $f$ 满足赫尔德条件，指数为 $\alpha$. 对任意 $\varepsilon>0$，取 $\delta=\left(\frac{\varepsilon}{H}\right)^{1/\alpha}$. 则当 $\left|x_1-x_2\right|<\delta$ 时，
 $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|\le H\left|x_1-x_2\right|^\alpha<H\delta^\alpha=\varepsilon.
 $$

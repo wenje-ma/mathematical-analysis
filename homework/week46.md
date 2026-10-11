@@ -2,7 +2,7 @@
 
 > **定义**（无穷积分的收敛）设函数 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义，且在任意闭区间 $\left[a,A\right]$ 上可积. 若极限 $\lim_{A\to+\infty}\int_a^A f\left(x\right)\,\mathrm{d}x$ 存在，则称无穷积分 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛，并把这个极限定义为该无穷积分的值；否则称其发散.
 
-> **例 1.2**（$p$-积分）无穷积分 $\int_1^{+\infty}\dfrac{\mathrm{d}x}{x^p}$ 当 $p>1$ 时收敛，当 $p\le 1$ 时发散.
+> **例 1.2**（$p$-积分）无穷积分 $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p>1$ 时收敛，当 $p\le 1$ 时发散.
 
 > **定理 1.1**（无穷积分的柯西收敛原理）设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义，且在任意闭区间 $\left[a,A\right]$ 上可积. 则 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是：对任意给定的 $\varepsilon>0$，存在 $X>0$，使得 $\bigl\lvert\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\bigr\rvert<\varepsilon$，只要 $A'>X,\ A''>X$.
 
@@ -14,17 +14,17 @@
 
 ### 习题一
 
-（习题 12.1-1-1）判别无穷积分 $\displaystyle\int_1^{+\infty}\dfrac{\ln x}{x^2}\,\mathrm{d}x$ 是否收敛，如果收敛，求出其值.
+（习题 12.1-1-1）判别无穷积分 $\displaystyle\int_1^{+\infty}\frac{\ln x}{x^2}\,\mathrm{d}x$ 是否收敛，如果收敛，求出其值.
 
 ### 解答 习题一
 
-对任意 $A>1$，分部积分（取 $u=\ln x,\ \mathrm{d}v=\dfrac{\mathrm{d}x}{x^2}$）得
+对任意 $A>1$，分部积分（取 $u=\ln x,\ \mathrm{d}v=\frac{\mathrm{d}x}{x^2}$）得
 
 $$
 \int_1^A \frac{\ln x}{x^2}\,\mathrm{d}x=\left[-\frac{\ln x}{x}\right]_1^A+\int_1^A\frac{\mathrm{d}x}{x^2}=-\frac{\ln A}{A}+1-\frac1A.
 $$
 
-由 $\lim_{A\to+\infty}\dfrac{\ln A}{A}=0$ 及 $\dfrac1A\to0$，上式右端趋于 $1$. 故由**定义**（无穷积分的收敛），该无穷积分收敛，其值为 $1$. $\blacksquare$
+由 $\lim_{A\to+\infty}\frac{\ln A}{A}=0$ 及 $\frac1A\to0$，上式右端趋于 $1$. 故由**定义**（无穷积分的收敛），该无穷积分收敛，其值为 $1$. $\blacksquare$
 
 ### 习题二
 
@@ -38,11 +38,11 @@ $$
 \int_1^A e^{-ax}\,\mathrm{d}x=\left[-\frac{e^{-ax}}{a}\right]_1^A=\frac{e^{-a}-e^{-aA}}{a}.
 $$
 
-因 $a>0$，故 $e^{-aA}\to0\ \left(A\to+\infty\right)$，上式右端趋于 $\dfrac{e^{-a}}{a}$. 故由**定义**（无穷积分的收敛），该无穷积分收敛，其值为 $\dfrac{e^{-a}}{a}$. $\blacksquare$
+因 $a>0$，故 $e^{-aA}\to0\ \left(A\to+\infty\right)$，上式右端趋于 $\frac{e^{-a}}{a}$. 故由**定义**（无穷积分的收敛），该无穷积分收敛，其值为 $\frac{e^{-a}}{a}$. $\blacksquare$
 
 ### 习题三
 
-（习题 12.1-1-3）判别无穷积分 $\displaystyle\int_0^{+\infty}\dfrac{\mathrm{d}x}{1+x^2}$ 是否收敛，如果收敛，求出其值.
+（习题 12.1-1-3）判别无穷积分 $\displaystyle\int_0^{+\infty}\frac{\mathrm{d}x}{1+x^2}$ 是否收敛，如果收敛，求出其值.
 
 ### 解答 习题三
 
@@ -52,7 +52,7 @@ $$
 \int_0^A\frac{\mathrm{d}x}{1+x^2}=\bigl[\arctan x\bigr]_0^A=\arctan A.
 $$
 
-当 $A\to+\infty$ 时 $\arctan A\to\dfrac{\pi}{2}$. 故由**定义**（无穷积分的收敛），该无穷积分收敛，其值为 $\dfrac{\pi}{2}$. $\blacksquare$
+当 $A\to+\infty$ 时 $\arctan A\to\frac{\pi}{2}$. 故由**定义**（无穷积分的收敛），该无穷积分收敛，其值为 $\frac{\pi}{2}$. $\blacksquare$
 
 ### 习题四
 
@@ -70,15 +70,15 @@ $$
 
 ### 习题五
 
-（习题 12.1-2-1）讨论无穷积分 $\displaystyle\int_1^{+\infty}\dfrac{\sin x}{x^p}\,\mathrm{d}x$ 的绝对收敛性与条件收敛性.
+（习题 12.1-2-1）讨论无穷积分 $\displaystyle\int_1^{+\infty}\frac{\sin x}{x^p}\,\mathrm{d}x$ 的绝对收敛性与条件收敛性.
 
 ### 解答 习题五
 
 分三种情形讨论.
 
-（1）$p>1$. 因 $\bigl\lvert\dfrac{\sin x}{x^p}\bigr\rvert\le\dfrac1{x^p}$，而由**例 1.2**（$p$-积分），$\int_1^{+\infty}\dfrac{\mathrm{d}x}{x^p}$ 收敛. 由**定理 1.3**（比较判别法），$\int_1^{+\infty}\bigl\lvert\dfrac{\sin x}{x^p}\bigr\rvert\,\mathrm{d}x$ 收敛，故原无穷积分绝对收敛.
+（1）$p>1$. 因 $\bigl\lvert\frac{\sin x}{x^p}\bigr\rvert\le\frac1{x^p}$，而由**例 1.2**（$p$-积分），$\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 收敛. 由**定理 1.3**（比较判别法），$\int_1^{+\infty}\bigl\lvert\frac{\sin x}{x^p}\bigr\rvert\,\mathrm{d}x$ 收敛，故原无穷积分绝对收敛.
 
-（2）$0<p\le1$. 首先，$f\left(x\right)=\dfrac1{x^p}$ 在 $\left[1,+\infty\right)$ 上单调递减且趋于 $0$；而对任意 $A>1$，$\bigl\lvert\int_1^A\sin x\,\mathrm{d}x\bigr\rvert=\bigl\lvert\cos1-\cos A\bigr\rvert\le2$ 有界. 由**定理 1.6**（狄利克雷判别法），$\int_1^{+\infty}\dfrac{\sin x}{x^p}\,\mathrm{d}x$ 收敛.
+（2）$0<p\le1$. 首先，$f\left(x\right)=\frac1{x^p}$ 在 $\left[1,+\infty\right)$ 上单调递减且趋于 $0$；而对任意 $A>1$，$\bigl\lvert\int_1^A\sin x\,\mathrm{d}x\bigr\rvert=\bigl\lvert\cos1-\cos A\bigr\rvert\le2$ 有界. 由**定理 1.6**（狄利克雷判别法），$\int_1^{+\infty}\frac{\sin x}{x^p}\,\mathrm{d}x$ 收敛.
 
 其次，它不绝对收敛. 事实上，
 
@@ -86,9 +86,9 @@ $$
 \frac{\bigl\lvert\sin x\bigr\rvert}{x^p}\ge\frac{\sin^2 x}{x^p}=\frac{1-\cos2x}{2x^p}=\frac{1}{2x^p}-\frac{\cos2x}{2x^p}.
 $$
 
-由**例 1.2**（$p$-积分），$\int_1^{+\infty}\dfrac{\mathrm{d}x}{x^p}$ 当 $p\le1$ 时发散；而 $\int_1^{+\infty}\dfrac{\cos2x}{2x^p}\,\mathrm{d}x$ 由**定理 1.6**（狄利克雷判别法）收敛（$\dfrac1{x^p}$ 单调趋于 $0$，$\int_1^A\cos2x\,\mathrm{d}x$ 有界）. 故 $\int_1^{+\infty}\bigl\lvert\dfrac{\sin x}{x^p}\bigr\rvert\,\mathrm{d}x$ 发散. 由**定义**（绝对收敛与条件收敛），原无穷积分条件收敛.
+由**例 1.2**（$p$-积分），$\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p\le1$ 时发散；而 $\int_1^{+\infty}\frac{\cos2x}{2x^p}\,\mathrm{d}x$ 由**定理 1.6**（狄利克雷判别法）收敛（$\frac1{x^p}$ 单调趋于 $0$，$\int_1^A\cos2x\,\mathrm{d}x$ 有界）. 故 $\int_1^{+\infty}\bigl\lvert\frac{\sin x}{x^p}\bigr\rvert\,\mathrm{d}x$ 发散. 由**定义**（绝对收敛与条件收敛），原无穷积分条件收敛.
 
-（3）$p\le0$. 此时 $x^{-p}\ge1\ \left(x\ge1\right)$. 取 $A'_n=2n\pi-\dfrac{\pi}{4}$，$A''_n=2n\pi+\dfrac{\pi}{4}$，则在 $\left[A'_n,A''_n\right]$ 上 $\sin x\ge\dfrac{\sqrt2}{2}$，从而
+（3）$p\le0$. 此时 $x^{-p}\ge1\ \left(x\ge1\right)$. 取 $A'_n=2n\pi-\frac{\pi}{4}$，$A''_n=2n\pi+\frac{\pi}{4}$，则在 $\left[A'_n,A''_n\right]$ 上 $\sin x\ge\frac{\sqrt2}{2}$，从而
 
 $$
 \biggl\lvert\int_{A'_n}^{A''_n}\frac{\sin x}{x^p}\,\mathrm{d}x\biggr\rvert\ge\frac{\sqrt2}{2}\cdot\frac{\pi}{2}=\frac{\sqrt2\pi}{4}>0,
@@ -98,25 +98,25 @@ $$
 
 ### 习题六
 
-（习题 12.1-2-3）讨论无穷积分 $\displaystyle\int_1^{+\infty}\dfrac{\sqrt x\cos x}{x+3}\,\mathrm{d}x$ 的绝对收敛性与条件收敛性.
+（习题 12.1-2-3）讨论无穷积分 $\displaystyle\int_1^{+\infty}\frac{\sqrt x\cos x}{x+3}\,\mathrm{d}x$ 的绝对收敛性与条件收敛性.
 
 ### 解答 习题六
 
-令 $f\left(x\right)=\dfrac{\sqrt x}{x+3}$. 当 $x>3$ 时，
+令 $f\left(x\right)=\frac{\sqrt x}{x+3}$. 当 $x>3$ 时，
 
 $$
 f'\left(x\right)=\frac{\left(x+3\right)-2x}{2\sqrt x\,\left(x+3\right)^2}=\frac{3-x}{2\sqrt x\,\left(x+3\right)^2}<0,
 $$
 
-故 $f\left(x\right)$ 在 $\left[3,+\infty\right)$ 上单调递减；又 $f\left(x\right)\sim\dfrac1{\sqrt x}\to0\ \left(x\to+\infty\right)$. 而对任意 $A>1$，$\bigl\lvert\int_1^A\cos x\,\mathrm{d}x\bigr\rvert=\bigl\lvert\sin A-\sin1\bigr\rvert\le2$ 有界. 由**定理 1.6**（狄利克雷判别法），原无穷积分收敛.
+故 $f\left(x\right)$ 在 $\left[3,+\infty\right)$ 上单调递减；又 $f\left(x\right)\sim\frac1{\sqrt x}\to0\ \left(x\to+\infty\right)$. 而对任意 $A>1$，$\bigl\lvert\int_1^A\cos x\,\mathrm{d}x\bigr\rvert=\bigl\lvert\sin A-\sin1\bigr\rvert\le2$ 有界. 由**定理 1.6**（狄利克雷判别法），原无穷积分收敛.
 
-其次，它不绝对收敛. 对 $x\ge1$，$x+3\le4x$，故 $f\left(x\right)=\dfrac{\sqrt x}{x+3}\ge\dfrac1{4\sqrt x}$，于是
+其次，它不绝对收敛. 对 $x\ge1$，$x+3\le4x$，故 $f\left(x\right)=\frac{\sqrt x}{x+3}\ge\frac1{4\sqrt x}$，于是
 
 $$
 \frac{\sqrt x\,\bigl\lvert\cos x\bigr\rvert}{x+3}\ge\frac{\bigl\lvert\cos x\bigr\rvert}{4\sqrt x}\ge\frac{\cos^2 x}{4\sqrt x}=\frac{1}{8\sqrt x}+\frac{\cos2x}{8\sqrt x}.
 $$
 
-由**例 1.2**（$p$-积分），$\int_1^{+\infty}\dfrac{\mathrm{d}x}{\sqrt x}$ 发散（$p=\dfrac12\le1$）；而 $\int_1^{+\infty}\dfrac{\cos2x}{8\sqrt x}\,\mathrm{d}x$ 由**定理 1.6**（狄利克雷判别法）收敛. 故 $\int_1^{+\infty}\dfrac{\sqrt x\,\bigl\lvert\cos x\bigr\rvert}{x+3}\,\mathrm{d}x$ 发散. 由**定义**（绝对收敛与条件收敛），原无穷积分条件收敛. $\blacksquare$
+由**例 1.2**（$p$-积分），$\int_1^{+\infty}\frac{\mathrm{d}x}{\sqrt x}$ 发散（$p=\frac12\le1$）；而 $\int_1^{+\infty}\frac{\cos2x}{8\sqrt x}\,\mathrm{d}x$ 由**定理 1.6**（狄利克雷判别法）收敛. 故 $\int_1^{+\infty}\frac{\sqrt x\,\bigl\lvert\cos x\bigr\rvert}{x+3}\,\mathrm{d}x$ 发散. 由**定义**（绝对收敛与条件收敛），原无穷积分条件收敛. $\blacksquare$
 
 ### 习题七
 
@@ -124,13 +124,13 @@ $$
 
 ### 解答 习题七
 
-在 $\left[0,1\right]$ 上 $\sin x^2\sim x^2$，是可积的. 对 $\left[1,+\infty\right)$ 作代换 $t=x^2$，则 $\mathrm{d}x=\dfrac{\mathrm{d}t}{2\sqrt t}$，于是
+在 $\left[0,1\right]$ 上 $\sin x^2\sim x^2$，是可积的. 对 $\left[1,+\infty\right)$ 作代换 $t=x^2$，则 $\mathrm{d}x=\frac{\mathrm{d}t}{2\sqrt t}$，于是
 
 $$
 \int_1^{+\infty}\sin x^2\,\mathrm{d}x=\frac12\int_1^{+\infty}\frac{\sin t}{\sqrt t}\,\mathrm{d}t.
 $$
 
-函数 $\dfrac1{\sqrt t}$ 在 $\left[1,+\infty\right)$ 上单调递减且趋于 $0$，而 $\int_1^B\sin t\,\mathrm{d}t=\cos1-\cos B$ 有界. 由**定理 1.6**（狄利克雷判别法），右端积分收敛，故原无穷积分收敛.
+函数 $\frac1{\sqrt t}$ 在 $\left[1,+\infty\right)$ 上单调递减且趋于 $0$，而 $\int_1^B\sin t\,\mathrm{d}t=\cos1-\cos B$ 有界. 由**定理 1.6**（狄利克雷判别法），右端积分收敛，故原无穷积分收敛.
 
 其次，它不绝对收敛. 同样代换得
 
@@ -138,7 +138,7 @@ $$
 \int_1^{+\infty}\bigl\lvert\sin x^2\bigr\rvert\,\mathrm{d}x=\frac12\int_1^{+\infty}\frac{\bigl\lvert\sin t\bigr\rvert}{\sqrt t}\,\mathrm{d}t,
 $$
 
-而 $\bigl\lvert\sin t\bigr\rvert/\sqrt t\ge\sin^2 t/\sqrt t=\dfrac{1}{2\sqrt t}-\dfrac{\cos2t}{2\sqrt t}$，其中 $\int_1^{+\infty}\dfrac{\mathrm{d}t}{\sqrt t}$ 由**例 1.2**（$p$-积分）发散，$\int_1^{+\infty}\dfrac{\cos2t}{2\sqrt t}\,\mathrm{d}t$ 由**定理 1.6**收敛. 故右端积分发散，原无穷积分不绝对收敛. 由**定义**（绝对收敛与条件收敛），原无穷积分条件收敛. $\blacksquare$
+而 $\bigl\lvert\sin t\bigr\rvert/\sqrt t\ge\sin^2 t/\sqrt t=\frac{1}{2\sqrt t}-\frac{\cos2t}{2\sqrt t}$，其中 $\int_1^{+\infty}\frac{\mathrm{d}t}{\sqrt t}$ 由**例 1.2**（$p$-积分）发散，$\int_1^{+\infty}\frac{\cos2t}{2\sqrt t}\,\mathrm{d}t$ 由**定理 1.6**收敛. 故右端积分发散，原无穷积分不绝对收敛. 由**定义**（绝对收敛与条件收敛），原无穷积分条件收敛. $\blacksquare$
 
 ### 习题八
 
@@ -154,7 +154,7 @@ $$
 
 收敛. 由**定理 1.3**（比较判别法），$I_1\left(x\right)$ 与 $I_2\left(x\right)$ 均绝对收敛.
 
-再求其值. 对 $I_2$ 分部积分（取 $u=\cos t,\ \mathrm{d}v=e^{-xt}\,\mathrm{d}t$），注意到 $e^{-xt}\cos t\big|_{0}^{+\infty}=0-\left(-\dfrac1x\right)=\dfrac1x$，得
+再求其值. 对 $I_2$ 分部积分（取 $u=\cos t,\ \mathrm{d}v=e^{-xt}\,\mathrm{d}t$），注意到 $e^{-xt}\cos t\big|_{0}^{+\infty}=0-\left(-\frac1x\right)=\frac1x$，得
 
 $$
 I_2\left(x\right)=\frac1x-\frac1x I_1\left(x\right).
@@ -166,7 +166,7 @@ $$
 I_1\left(x\right)=\frac1x I_2\left(x\right).
 $$
 
-将第二式代入第一式：$I_2=\dfrac1x-\dfrac1{x}\cdot\dfrac{I_2}{x}$，即 $\left(1+\dfrac1{x^2}\right)I_2=\dfrac1x$，解得 $I_2\left(x\right)=\dfrac{x}{x^2+1}$，再代回得 $I_1\left(x\right)=\dfrac1{x^2+1}$. 故
+将第二式代入第一式：$I_2=\frac1x-\frac1{x}\cdot\frac{I_2}{x}$，即 $\left(1+\frac1{x^2}\right)I_2=\frac1x$，解得 $I_2\left(x\right)=\frac{x}{x^2+1}$，再代回得 $I_1\left(x\right)=\frac1{x^2+1}$. 故
 
 $$
 I_1\left(x\right)=\frac{1}{x^2+1},\  I_2\left(x\right)=\frac{x}{x^2+1}.

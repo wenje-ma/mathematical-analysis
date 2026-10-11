@@ -8,13 +8,13 @@
 
 ### 习题一
 
-（习题 11.1-1-1）讨论函数序列 $f_n\left(x\right)=\dfrac{1}{1+nx}$，$x\in\left(0,1\right)$ 的一致收敛性.
+（习题 11.1-1-1）讨论函数序列 $f_n\left(x\right)=\frac{1}{1+nx}$，$x\in\left(0,1\right)$ 的一致收敛性.
 
 ### 解答 习题一
 
 对任意固定 $x\in\left(0,1\right)$，当 $n\to\infty$ 时 $1+nx\to+\infty$，故 $f_n\left(x\right)\to 0$，即极限函数 $f\left(x\right)\equiv 0$.
 
-考察 $\sup_{0<x<1}\left|f_n\left(x\right)-0\right|=\sup_{0<x<1}\dfrac{1}{1+nx}$. 当 $x\to 0^+$ 时 $\dfrac{1}{1+nx}\to 1$，故该上确界为 $1$（不趋于 $0$）. 取 $\varepsilon_0=\dfrac12$，对任意 $n$，取 $x_n=\dfrac{1}{n}\in\left(0,1\right)$，则
+考察 $\sup_{0<x<1}\left|f_n\left(x\right)-0\right|=\sup_{0<x<1}\frac{1}{1+nx}$. 当 $x\to 0^+$ 时 $\frac{1}{1+nx}\to 1$，故该上确界为 $1$（不趋于 $0$）. 取 $\varepsilon_0=\frac12$，对任意 $n$，取 $x_n=\frac{1}{n}\in\left(0,1\right)$，则
 
 $$
 \left|f_n\left(x_n\right)-0\right|=\frac{1}{1+1}=\frac12=\varepsilon_0.
@@ -24,7 +24,7 @@ $$
 
 ### 习题二
 
-（习题 11.1-1-3）讨论函数序列 $f_n\left(x\right)=\dfrac{\sin\left(nx+n\right)}{n}$，$x\in\left(-\infty,+\infty\right)$ 的一致收敛性.
+（习题 11.1-1-3）讨论函数序列 $f_n\left(x\right)=\frac{\sin\left(nx+n\right)}{n}$，$x\in\left(-\infty,+\infty\right)$ 的一致收敛性.
 
 ### 解答 习题二
 
@@ -34,7 +34,7 @@ $$
 \left|f_n\left(x\right)-f\left(x\right)\right|=\frac{\left|\sin\left(nx+n\right)\right|}{n}\le\frac{1}{n}=M_n,
 $$
 
-而 $M_n=\dfrac1n\to 0$. 由**定理 1.1**（M 判别法），$\left\{f_n\left(x\right)\right\}$ 在 $\mathbb R$ 上一致收敛于 $0$. $\blacksquare$
+而 $M_n=\frac1n\to 0$. 由**定理 1.1**（M 判别法），$\left\{f_n\left(x\right)\right\}$ 在 $\mathbb R$ 上一致收敛于 $0$. $\blacksquare$
 
 ### 习题三
 
@@ -50,7 +50,7 @@ $$
 f_n\left(x\right)=\sqrt n\,u\,e^{-u^2},\  u\in\left[0,\sqrt n\right].
 $$
 
-函数 $u e^{-u^2}$ 在 $u=\dfrac{1}{\sqrt2}$ 处取最大值 $\dfrac{1}{\sqrt{2e}}$. 取 $x_n=\dfrac{1}{\sqrt{2n}}\in\left[0,1\right]$，则
+函数 $u e^{-u^2}$ 在 $u=\frac{1}{\sqrt2}$ 处取最大值 $\frac{1}{\sqrt{2e}}$. 取 $x_n=\frac{1}{\sqrt{2n}}\in\left[0,1\right]$，则
 
 $$
 \left|f_n\left(x_n\right)-0\right|=\sqrt n\cdot\frac{1}{\sqrt2}e^{-1/2}=\sqrt{\frac{n}{2e}}\to+\infty.
@@ -97,11 +97,11 @@ $$
 
 ### 习题五
 
-（习题 11.1-3）证明 $f_n\left(x\right)=\left(1+\dfrac{x}{n}\right)^n$ 在 $\left[0,+\infty\right)$ 上不一致收敛于极限函数 $e^x$.
+（习题 11.1-3）证明 $f_n\left(x\right)=\left(1+\frac{x}{n}\right)^n$ 在 $\left[0,+\infty\right)$ 上不一致收敛于极限函数 $e^x$.
 
 ### 解答 习题五
 
-对任意固定 $x\in\left[0,+\infty\right)$，$\lim_{n\to\infty}\bigl(1+\dfrac{x}{n}\bigr)^n=e^x$，故极限函数为 $f\left(x\right)=e^x$.
+对任意固定 $x\in\left[0,+\infty\right)$，$\lim_{n\to\infty}\bigl(1+\frac{x}{n}\bigr)^n=e^x$，故极限函数为 $f\left(x\right)=e^x$.
 
 取 $x_n=n\in\left[0,+\infty\right)$，则
 
@@ -113,7 +113,7 @@ $$
 
 ### 习题六
 
-（习题 11.1-4）证明 $f_n\left(x\right)=\left(1+\dfrac{x}{n}\right)^n$ 在任一闭区间 $\left[0,A\right]$ 上一致收敛于 $e^x$，其中 $A>0$.
+（习题 11.1-4）证明 $f_n\left(x\right)=\left(1+\frac{x}{n}\right)^n$ 在任一闭区间 $\left[0,A\right]$ 上一致收敛于 $e^x$，其中 $A>0$.
 
 ### 解答 习题六
 
@@ -129,7 +129,7 @@ $$
 n\ln\left(1+\frac{x}{n}\right)\le x,
 $$
 
-从而 $\bigl(1+\dfrac{x}{n}\bigr)^n\le e^x$. 又由 $\ln\left(1+t\right)=t-\dfrac{t^2}{2\left(1+\xi\right)^2}\ge t-\dfrac{t^2}{2}$（$\xi\in\left[0,t\right]$），对 $x\in\left[0,A\right]$，
+从而 $\bigl(1+\frac{x}{n}\bigr)^n\le e^x$. 又由 $\ln\left(1+t\right)=t-\frac{t^2}{2\left(1+\xi\right)^2}\ge t-\frac{t^2}{2}$（$\xi\in\left[0,t\right]$），对 $x\in\left[0,A\right]$，
 
 $$
 n\ln\left(1+\frac{x}{n}\right)\ge n\left(\frac{x}{n}-\frac{x^2}{2n^2}\right)=x-\frac{x^2}{2n}\ge x-\frac{A^2}{2n}.
@@ -141,7 +141,7 @@ $$
 0\le e^x-\left(1+\frac{x}{n}\right)^n\le e^x\left(1-e^{-A^2/\left(2n\right)}\right)\le e^A\cdot\frac{A^2}{2n}=M_n,
 $$
 
-其中 $M_n=\dfrac{A^2e^A}{2n}\to 0$. 由**定理 1.1**（M 判别法），$\left\{f_n\left(x\right)\right\}$ 在 $\left[0,A\right]$ 上一致收敛于 $e^x$. $\blacksquare$
+其中 $M_n=\frac{A^2e^A}{2n}\to 0$. 由**定理 1.1**（M 判别法），$\left\{f_n\left(x\right)\right\}$ 在 $\left[0,A\right]$ 上一致收敛于 $e^x$. $\blacksquare$
 
 ### 习题七
 

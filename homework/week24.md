@@ -62,13 +62,13 @@ $$ $\blacksquare$
 ### 习题三
 
 （习题 5.2-3）求上下极限：
-(1) $\varlimsup\limits_{x\to0}\sin\dfrac1x$ 及 $\varliminf\limits_{x\to0}\sin\dfrac1x$；
+(1) $\varlimsup\limits_{x\to0}\sin\frac1x$ 及 $\varliminf\limits_{x\to0}\sin\frac1x$；
 
 (2) $\varlimsup\limits_{x\to\infty}\sin x$ 及 $\varliminf\limits_{x\to\infty}\sin x$.
 
 ### 解答 习题三
 
-（1）当 $x\to0$ 时，$\dfrac1x\to\infty$，$\sin\dfrac1x$ 在 $-1$ 与 $1$ 之间无限次振荡. 在 $0$ 的任意小邻域内，$\sin\dfrac1x$ 都可以取到 $1$ 和 $-1$（分别在 $\dfrac1x=2k\pi+\dfrac{\pi}{2}$ 和 $\dfrac1x=2k\pi+\dfrac{3\pi}{2}$ 处）. 故
+（1）当 $x\to0$ 时，$\frac1x\to\infty$，$\sin\frac1x$ 在 $-1$ 与 $1$ 之间无限次振荡. 在 $0$ 的任意小邻域内，$\sin\frac1x$ 都可以取到 $1$ 和 $-1$（分别在 $\frac1x=2k\pi+\frac{\pi}{2}$ 和 $\frac1x=2k\pi+\frac{3\pi}{2}$ 处）. 故
 $$
 \varlimsup_{x\to0}\sin\frac1x=1,\ \varliminf_{x\to0}\sin\frac1x=-1.
 $$
@@ -81,9 +81,9 @@ $$ $\blacksquare$
 ### 习题四
 
 （习题 5.2-6）由柯西收敛原理证明下列序列收敛：
-(1) $a_n=1-\dfrac12+\dfrac13-\cdots+\left(-1\right)^{n-1}\dfrac1n$；
+(1) $a_n=1-\frac12+\frac13-\cdots+\left(-1\right)^{n-1}\frac1n$；
 
-(2) $a_n=\dfrac{\sin1}{1!}+\dfrac{\sin2}{2!}+\cdots+\dfrac{\sin n}{n!}$.
+(2) $a_n=\frac{\sin1}{1!}+\frac{\sin2}{2!}+\cdots+\frac{\sin n}{n!}$.
 
 ### 解答 习题四
 
@@ -97,7 +97,7 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{n+1}.
 $$
 
-对任意 $\varepsilon>0$，取 $N>\dfrac1\varepsilon$，则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理），$\left\{a_n\right\}$ 收敛.
+对任意 $\varepsilon>0$，取 $N>\frac1\varepsilon$，则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理），$\left\{a_n\right\}$ 收敛.
 
 （2）设 $m>n$. 则
 $$
@@ -109,7 +109,7 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{2^{n+1}}+\frac{1}{2^{n+2}}+\cdots=\frac{1}{2^n}.
 $$
 
-对任意 $\varepsilon>0$，取 $N$ 使得 $2^N>\dfrac1\varepsilon$，则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理），$\left\{a_n\right\}$ 收敛. $\blacksquare$
+对任意 $\varepsilon>0$，取 $N$ 使得 $2^N>\frac1\varepsilon$，则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理），$\left\{a_n\right\}$ 收敛. $\blacksquare$
 
 ### 习题五
 
@@ -152,7 +152,7 @@ $$
 
 令 $n\to\infty$，由夹逼定理，$\lim\limits_{n\to\infty}f\left(x_n'\right)=L$.
 
-下极限的情形类似，取 $x_n''$ 使得 $f\left(x_n''\right)<\inf\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}+\dfrac1n$ 即可. $\blacksquare$
+下极限的情形类似，取 $x_n''$ 使得 $f\left(x_n''\right)<\inf\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}+\frac1n$ 即可. $\blacksquare$
 
 ### 习题七
 

@@ -13,9 +13,9 @@
 （习题 1.2-1）求下列函数的定义域：
 (1) $y=\sqrt{x^2-16}$;
 
-(2) $y=\dfrac{1}{\sqrt{x^2-3x+2}}$;
+(2) $y=\frac{1}{\sqrt{x^2-3x+2}}$;
 
-(3) $y=\ln\dfrac{x^2-2}{2}$;
+(3) $y=\ln\frac{x^2-2}{2}$;
 
 (4) $y=\arccos\left(2\sin x\right)$.
 
@@ -23,18 +23,18 @@
 
 （1）要使 $\sqrt{x^2-16}$ 有意义，须 $x^2-16\ge0$，即 $\left|x\right|\ge4$. 故定义域为 $\left(-\infty,-4\right]\cup\left[4,+\infty\right)$.
 
-（2）要使 $\dfrac{1}{\sqrt{x^2-3x+2}}$ 有意义，须 $x^2-3x+2>0$，即 $\left(x-1\right)\left(x-2\right)>0$，亦即 $x<1$ 或 $x>2$. 故定义域为 $\left(-\infty,1\right)\cup\left(2,+\infty\right)$.
+（2）要使 $\frac{1}{\sqrt{x^2-3x+2}}$ 有意义，须 $x^2-3x+2>0$，即 $\left(x-1\right)\left(x-2\right)>0$，亦即 $x<1$ 或 $x>2$. 故定义域为 $\left(-\infty,1\right)\cup\left(2,+\infty\right)$.
 
-（3）要使 $\ln\dfrac{x^2-2}{2}$ 有意义，须 $\dfrac{x^2-2}{2}>0$，即 $x^2>2$，亦即 $\left|x\right|>\sqrt2$. 故定义域为 $\left(-\infty,-\sqrt2\right)\cup\left(\sqrt2,+\infty\right)$.
+（3）要使 $\ln\frac{x^2-2}{2}$ 有意义，须 $\frac{x^2-2}{2}>0$，即 $x^2>2$，亦即 $\left|x\right|>\sqrt2$. 故定义域为 $\left(-\infty,-\sqrt2\right)\cup\left(\sqrt2,+\infty\right)$.
 
-（4）要使 $\arccos\left(2\sin x\right)$ 有意义，须 $\left|2\sin x\right|\le1$，即 $\left|\sin x\right|\le\dfrac12$. 这等价于 $x\in\left[k\pi-\dfrac{\pi}{6},\ k\pi+\dfrac{\pi}{6}\right],\ k\in\mathbb Z$. 故定义域为 $\displaystyle\bigcup_{k\in\mathbb Z}\left[k\pi-\frac{\pi}{6},\ k\pi+\frac{\pi}{6}\right]$. $\blacksquare$
+（4）要使 $\arccos\left(2\sin x\right)$ 有意义，须 $\left|2\sin x\right|\le1$，即 $\left|\sin x\right|\le\frac12$. 这等价于 $x\in\left[k\pi-\frac{\pi}{6},\ k\pi+\frac{\pi}{6}\right],\ k\in\mathbb Z$. 故定义域为 $\displaystyle\bigcup_{k\in\mathbb Z}\left[k\pi-\frac{\pi}{6},\ k\pi+\frac{\pi}{6}\right]$. $\blacksquare$
 
 ### 习题二
 
 （习题 1.2-2）求下列函数 $f$ 的值域 $f\left(X\right)$，其中 $X$ 为题中指定的定义域：
 (1) $f\left(x\right)=\sqrt{1+x^2},\ X=\left(0,5\right)$;
 
-(2) $f\left(x\right)=\sin\dfrac1x,\ X=\mathbb R\backslash\left\{0\right\}$;
+(2) $f\left(x\right)=\sin\frac1x,\ X=\mathbb R\backslash\left\{0\right\}$;
 
 (3) $f\left(x\right)=\left\{x\right\}$（$x$ 的小数部分）$,\ X=\mathbb R$;
 
@@ -44,7 +44,7 @@
 
 （1）当 $x\in\left(0,5\right)$ 时，$x^2\in\left(0,25\right)$，故 $1+x^2\in\left(1,26\right)$，从而 $\sqrt{1+x^2}\in\left(1,\sqrt{26}\right)$. 由**定义**（函数），$f\left(X\right)=\left(1,\sqrt{26}\right)$.
 
-（2）当 $x$ 遍历 $\mathbb R\backslash\left\{0\right\}$ 时，$\dfrac1x$ 遍历 $\mathbb R\backslash\left\{0\right\}$. 而 $\sin t$ 在 $t\in\mathbb R$ 上的值域为 $\left[-1,1\right]$，去掉一个点 $t=0$（对应 $\sin0=0$）不影响值域（$0$ 仍可取到，如 $t=\pi$）. 故 $f\left(X\right)=\left[-1,1\right]$.
+（2）当 $x$ 遍历 $\mathbb R\backslash\left\{0\right\}$ 时，$\frac1x$ 遍历 $\mathbb R\backslash\left\{0\right\}$. 而 $\sin t$ 在 $t\in\mathbb R$ 上的值域为 $\left[-1,1\right]$，去掉一个点 $t=0$（对应 $\sin0=0$）不影响值域（$0$ 仍可取到，如 $t=\pi$）. 故 $f\left(X\right)=\left[-1,1\right]$.
 
 （3）对任意 $x\in\mathbb R$，其小数部分 $\left\{x\right\}=x-\left[x\right]$ 满足 $0\le\left\{x\right\}<1$. 反之，对任意 $y\in\left[0,1\right)$，取 $x=y$ 即得 $\left\{x\right\}=y$. 故 $f\left(X\right)=\left[0,1\right)$.
 
@@ -74,7 +74,7 @@ $\blacksquare$
 
 ### 习题四
 
-（习题 1.2-10）考虑函数 $y=\left[\dfrac43\sin^2 x\right]$，其中 $\left[\ \right]$ 表示括号内的量的整数部分. 证明这函数以 $\pi$ 为周期.
+（习题 1.2-10）考虑函数 $y=\left[\frac43\sin^2 x\right]$，其中 $\left[\ \right]$ 表示括号内的量的整数部分. 证明这函数以 $\pi$ 为周期.
 
 ### 解答 习题四
 
@@ -126,7 +126,7 @@ $$
 g\left(f\left(x\right)\right)=\begin{cases}-e^{2x},&x\le0,\\ -x^2,&x>0.\end{cases}
 $$
 
-最后，$g\left(1\right)=-1^2=-1$，故 $f\left(g\left(1\right)\right)=f\left(-1\right)=e^{-1}=\dfrac1e$. $\blacksquare$
+最后，$g\left(1\right)=-1^2=-1$，故 $f\left(g\left(1\right)\right)=f\left(-1\right)=e^{-1}=\frac1e$. $\blacksquare$
 
 ### 习题六
 
@@ -155,8 +155,8 @@ $$
 \sqrt{x+10}-\sqrt{x}=\frac{10}{\sqrt{x+10}+\sqrt{x}}.
 $$
 
-因分母 $\sqrt{x+10}+\sqrt{x}>\sqrt{10}$（$x>0$），故 $0<y<\dfrac{10}{\sqrt{10}}=\sqrt{10}$. 取 $M=\sqrt{10}$，由**命题 2.1**（有界函数的充要条件），$y=\sqrt{x+10}-\sqrt{x}$ 是有界函数.
+因分母 $\sqrt{x+10}+\sqrt{x}>\sqrt{10}$（$x>0$），故 $0<y<\frac{10}{\sqrt{10}}=\sqrt{10}$. 取 $M=\sqrt{10}$，由**命题 2.1**（有界函数的充要条件），$y=\sqrt{x+10}-\sqrt{x}$ 是有界函数.
 
-（3）$y=\operatorname{ch}x=\dfrac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$，故 $y\to+\infty$，不存在常数 $M>0$ 使 $\left|y\right|\le M$ 对一切 $x\in\mathbb R$ 成立. 由**命题 2.1**（有界函数的充要条件），$y=\operatorname{ch}x$ 不是有界函数.
+（3）$y=\operatorname{ch}x=\frac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$，故 $y\to+\infty$，不存在常数 $M>0$ 使 $\left|y\right|\le M$ 对一切 $x\in\mathbb R$ 成立. 由**命题 2.1**（有界函数的充要条件），$y=\operatorname{ch}x$ 不是有界函数.
 
 （4）当 $x\to+\infty$ 时，$x+\sqrt{x^2+1}\sim2x$，故 $y=\ln\left(x+\sqrt{x^2+1}\right)\sim\ln\left(2x\right)\to+\infty$，不存在常数 $M>0$ 使 $\left|y\right|\le M$ 对一切 $x>0$ 成立. 由**命题 2.1**（有界函数的充要条件），$y=\ln\left(x+\sqrt{x^2+1}\right)$ 不是有界函数. $\blacksquare$

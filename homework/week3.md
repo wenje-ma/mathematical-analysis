@@ -4,13 +4,13 @@
 
 > **例 3.3**（正数的 $n$ 次方根趋于 $1$）设 $a$ 是任意的正数，则 $\lim\limits_{n\to\infty}a^{1/n}=1$.
 
-> **定理 3.1**（极限四则运算定理）设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限，它们的极限分别为 $l_1$ 与 $l_2$，则有 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$，$\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$，且当 $l_2\ne0$ 时，$\lim\dfrac{a_n}{b_n}=\dfrac{l_1}{l_2}$.
+> **定理 3.1**（极限四则运算定理）设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限，它们的极限分别为 $l_1$ 与 $l_2$，则有 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$，$\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$，且当 $l_2\ne0$ 时，$\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
 > **定理 3.2**（实数域完备性）设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列，则存在 $l\in\mathbb R$，使得 $\left\{a_n\right\}$ 以 $l$ 为极限. 简言之，单调递增有上界的序列有极限.
 
 ### 习题一
 
-（习题 1.3-1-2）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\dfrac{2n-5}{3n+100}=\dfrac23$.
+（习题 1.3-1-2）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
 
 ### 解答 习题一
 
@@ -30,7 +30,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 1.3-1-4）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\dfrac{n!}{n^n}=0$.
+（习题 1.3-1-4）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$.
 
 ### 解答 习题二
 
@@ -40,17 +40,17 @@ $$
 \frac{n!}{n^n}=\frac{1\cdot2\cdots n}{n\cdot n\cdots n}=\frac1n\cdot\frac2n\cdots\frac{n-1}{n}\cdot1\le\frac1n.
 $$
 
-任给 $\varepsilon>0$，取 $N=\left[\dfrac1\varepsilon\right]+1$，则当 $n>N$ 时
+任给 $\varepsilon>0$，取 $N=\left[\frac1\varepsilon\right]+1$，则当 $n>N$ 时
 
 $$
 \left|\frac{n!}{n^n}-0\right|\le\frac1n<\varepsilon.
 $$
 
-由**定义**（序列极限），$\lim\limits_{n\to\infty}\dfrac{n!}{n^n}=0$. $\blacksquare$
+由**定义**（序列极限），$\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
 ### 习题三
 
-（习题 1.3-1-6）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\dfrac{n^2+1}{2n^2-7n}=\dfrac12$.
+（习题 1.3-1-6）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
 
 ### 解答 习题三
 
@@ -70,17 +70,17 @@ $\blacksquare$
 
 ### 习题四
 
-（习题 1.3-1-8）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\left(\dfrac1{\left(n+1\right)^{3/2}}+\cdots+\dfrac1{\left(2n\right)^{3/2}}\right)=0$.
+（习题 1.3-1-8）用 $\varepsilon$-$N$ 语言证明：$\lim\limits_{n\to\infty}\left(\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\right)=0$.
 
 ### 解答 习题四
 
-该式共有 $n$ 项，每一项满足 $\dfrac1{\left(n+k\right)^{3/2}}\le\dfrac1{n^{3/2}}$（$1\le k\le n$），故
+该式共有 $n$ 项，每一项满足 $\frac1{\left(n+k\right)^{3/2}}\le\frac1{n^{3/2}}$（$1\le k\le n$），故
 
 $$
 0\le\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\le\frac{n}{n^{3/2}}=\frac1{\sqrt n}.
 $$
 
-任给 $\varepsilon>0$，取 $N=\left[1/\varepsilon^2\right]+1$，则当 $n>N$ 时 $\dfrac1{\sqrt n}<\varepsilon$. 由**定义**（序列极限），原式趋于 $0$. $\blacksquare$
+任给 $\varepsilon>0$，取 $N=\left[1/\varepsilon^2\right]+1$，则当 $n>N$ 时 $\frac1{\sqrt n}<\varepsilon$. 由**定义**（序列极限），原式趋于 $0$. $\blacksquare$
 
 ### 习题五
 
@@ -98,7 +98,7 @@ $\blacksquare$
 
 ### 习题六
 
-（习题 1.3-2-4）求极限：$\lim\limits_{n\to\infty}\dfrac{\dfrac12+\dfrac1{2^2}+\cdots+\dfrac1{2^n}}{\dfrac13+\dfrac1{3^2}+\cdots+\dfrac1{3^n}}$.
+（习题 1.3-2-4）求极限：$\lim\limits_{n\to\infty}\frac{\frac12+\frac1{2^2}+\cdots+\frac1{2^n}}{\frac13+\frac1{3^2}+\cdots+\frac1{3^n}}$.
 
 ### 解答 习题六
 
@@ -116,7 +116,7 @@ $\blacksquare$
 
 ### 习题七
 
-（习题 1.3-2-6）求极限：$\lim\limits_{n\to\infty}\dfrac{n^3+3n^2-100}{4n^3-n+2}$.
+（习题 1.3-2-6）求极限：$\lim\limits_{n\to\infty}\frac{n^3+3n^2-100}{4n^3-n+2}$.
 
 ### 解答 习题七
 
@@ -136,7 +136,7 @@ $\blacksquare$
 
 ### 习题八
 
-（习题 1.3-2-8）求极限：$\lim\limits_{n\to\infty}\left(1+\dfrac1n\right)^{-2n}$.
+（习题 1.3-2-8）求极限：$\lim\limits_{n\to\infty}\left(1+\frac1n\right)^{-2n}$.
 
 ### 解答 习题八
 
@@ -144,7 +144,7 @@ $$
 \left(1+\frac1n\right)^{-2n}=\frac1{\left[\left(1+\frac1n\right)^n\right]^2}.
 $$
 
-由第一章**定理 3.2**，单调递增有上界的序列 $\left\{\left(1+\dfrac1n\right)^n\right\}$ 有极限，记为 $e$. 由**定理 3.1**（极限四则运算定理），
+由第一章**定理 3.2**，单调递增有上界的序列 $\left\{\left(1+\frac1n\right)^n\right\}$ 有极限，记为 $e$. 由**定理 3.1**（极限四则运算定理），
 
 $$
 \lim_{n\to\infty}\left(1+\frac1n\right)^{-2n}=\frac1{e^2}=e^{-2}.
@@ -199,7 +199,7 @@ $$
 
 ### 习题十二
 
-（习题 1.3-5）令 $x_1>\sqrt2$，$x_{n+1}=\dfrac12\left(x_n+\dfrac2{x_n}\right)$，$n=1,2,\cdots$. 证明：
+（习题 1.3-5）令 $x_1>\sqrt2$，$x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)$，$n=1,2,\cdots$. 证明：
 (1) $x_n\ge\sqrt2$;
 
 (2) $\left\{x_n\right\}$ 单调递减;
@@ -216,9 +216,9 @@ $$
 
 由归纳法，$x_n\ge\sqrt2$ 对一切 $n$ 成立（$x_1>\sqrt2$ 为基始）.
 
-（2）$x_{n+1}-x_n=\dfrac12\left(\dfrac2{x_n}-x_n\right)=\dfrac{2-x_n^2}{2x_n}$. 由（1）$x_n^2\ge2$，故 $x_{n+1}-x_n\le0$，即 $\left\{x_n\right\}$ 单调递减.
+（2）$x_{n+1}-x_n=\frac12\left(\frac2{x_n}-x_n\right)=\frac{2-x_n^2}{2x_n}$. 由（1）$x_n^2\ge2$，故 $x_{n+1}-x_n\le0$，即 $\left\{x_n\right\}$ 单调递减.
 
-（3）$\left\{x_n\right\}$ 单调递减且有下界 $\sqrt2$，由**定理 3.2**（实数域完备性）的递减版本，$\lim x_n$ 存在，设为 $l$. 在 $x_{n+1}=\dfrac12\left(x_n+\dfrac2{x_n}\right)$ 两边取极限，由**定理 3.1**（极限四则运算定理）得
+（3）$\left\{x_n\right\}$ 单调递减且有下界 $\sqrt2$，由**定理 3.2**（实数域完备性）的递减版本，$\lim x_n$ 存在，设为 $l$. 在 $x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)$ 两边取极限，由**定理 3.1**（极限四则运算定理）得
 
 $$
 l=\frac12\left(l+\frac2l\right),

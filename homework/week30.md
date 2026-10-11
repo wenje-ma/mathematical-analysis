@@ -1,6 +1,6 @@
 # 作业 30
 
-> **定理 3.1**（二重积分的变量替换公式）设 $z=f\left(x,y\right)$ 在可求面积的有界闭区域 $D$ 上连续. 设变换 $F:\left(u,v\right)\mapsto\left(x\left(u,v\right),y\left(u,v\right)\right)$ 是有界闭区域 $G$ 到 $D$ 的一一映射, $x\left(u,v\right),y\left(u,v\right)$ 在 $G$ 上有连续的一阶偏导数, 且雅可比行列式 $J\left(u,v\right)=\dfrac{\partial\left(x,y\right)}{\partial\left(u,v\right)}\ne0$. 则
+> **定理 3.1**（二重积分的变量替换公式）设 $z=f\left(x,y\right)$ 在可求面积的有界闭区域 $D$ 上连续. 设变换 $F:\left(u,v\right)\mapsto\left(x\left(u,v\right),y\left(u,v\right)\right)$ 是有界闭区域 $G$ 到 $D$ 的一一映射, $x\left(u,v\right),y\left(u,v\right)$ 在 $G$ 上有连续的一阶偏导数, 且雅可比行列式 $J\left(u,v\right)=\frac{\partial\left(x,y\right)}{\partial\left(u,v\right)}\ne0$. 则
 
 $$
 \iint_D f\left(x,y\right)\,\mathrm{d}x\mathrm{d}y=\iint_G f\bigl(x\left(u,v\right),y\left(u,v\right)\bigr)\lvert J\left(u,v\right)\rvert\,\mathrm{d}u\mathrm{d}v.
@@ -10,17 +10,17 @@ $$
 
 ### 习题一
 
-（习题 8.3-1）利用适当的坐标变换计算 $\displaystyle\iint_D\left(\sqrt{\dfrac yx}+\sqrt{xy}\right)\mathrm{d}x\mathrm{d}y$, 其中 $D$ 是由曲线 $xy=1$, $xy=9$, $y=x$ 及 $y=4x$ 所围成的区域.
+（习题 8.3-1）利用适当的坐标变换计算 $\displaystyle\iint_D\left(\sqrt{\frac yx}+\sqrt{xy}\right)\mathrm{d}x\mathrm{d}y$, 其中 $D$ 是由曲线 $xy=1$, $xy=9$, $y=x$ 及 $y=4x$ 所围成的区域.
 
 ### 解答 习题一
 
-作变量替换 $u=xy$, $v=\dfrac yx$, 则 $D$ 变为 $G=\left\{\left(u,v\right):1\le u\le9,\ 1\le v\le4\right\}$. 其逆变换为 $x=\sqrt{u/v}$, $y=\sqrt{uv}$. 雅可比行列式
+作变量替换 $u=xy$, $v=\frac yx$, 则 $D$ 变为 $G=\left\{\left(u,v\right):1\le u\le9,\ 1\le v\le4\right\}$. 其逆变换为 $x=\sqrt{u/v}$, $y=\sqrt{uv}$. 雅可比行列式
 
 $$
 \frac{\partial\left(u,v\right)}{\partial\left(x,y\right)}=\begin{vmatrix}y&x\\-y/x^2&1/x\end{vmatrix}=\frac{2y}{x}=2v,
 $$
 
-故 $\lvert J\rvert=\left\lvert\dfrac{\partial\left(x,y\right)}{\partial\left(u,v\right)}\right\rvert=\dfrac1{2v}$. 被积函数 $\sqrt{y/x}+\sqrt{xy}=\sqrt v+\sqrt u$. 由**定理 3.1**,
+故 $\lvert J\rvert=\left\lvert\frac{\partial\left(x,y\right)}{\partial\left(u,v\right)}\right\rvert=\frac1{2v}$. 被积函数 $\sqrt{y/x}+\sqrt{xy}=\sqrt v+\sqrt u$. 由**定理 3.1**,
 
 $$
 \begin{aligned}\iint_D\left(\sqrt{\frac yx}+\sqrt{xy}\right)\mathrm{d}x\mathrm{d}y&=\int_1^9\mathrm{d}u\int_1^4\left(\sqrt v+\sqrt u\right)\frac1{2v}\,\mathrm{d}v\\&=\frac12\int_1^9\left[2\sqrt v+\sqrt u\ln v\right]_1^4\mathrm{d}u\\&=\frac12\int_1^9\left(2+\sqrt u\ln4\right)\,\mathrm{d}u\\&=\frac12\left[2u+\frac23u^{3/2}\ln4\right]_1^9\\&=8+\frac{26}{3}\ln4=8+\frac{52}{3}\ln2.\end{aligned}
@@ -34,7 +34,7 @@ $\blacksquare$
 
 ### 解答 习题二
 
-作变量替换 $u=\dfrac y{x^2}$, $v=\dfrac x{y^2}$, 则 $D$ 变为 $G=\left\{\left(u,v\right):4\le u\le9,\ 4\le v\le9\right\}$. 由 $y=ux^2=u\left(vy^2\right)^2=uv^2y^4$ 得 $y^3=\dfrac1{uv^2}$, 即 $y=u^{-1/3}v^{-2/3}$; 同理 $x=u^{-2/3}v^{-1/3}$. 雅可比行列式
+作变量替换 $u=\frac y{x^2}$, $v=\frac x{y^2}$, 则 $D$ 变为 $G=\left\{\left(u,v\right):4\le u\le9,\ 4\le v\le9\right\}$. 由 $y=ux^2=u\left(vy^2\right)^2=uv^2y^4$ 得 $y^3=\frac1{uv^2}$, 即 $y=u^{-1/3}v^{-2/3}$; 同理 $x=u^{-2/3}v^{-1/3}$. 雅可比行列式
 
 $$
 J=\frac{\partial\left(x,y\right)}{\partial\left(u,v\right)}=
@@ -61,7 +61,7 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 8.3-6）求曲线 $\left(\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}\right)^2=\dfrac{xy}{c^2}$ ($a>0,b>0,c>0$) 所围成的区域 $D$ 的面积.
+（习题 8.3-6）求曲线 $\left(\frac{x^2}{a^2}+\frac{y^2}{b^2}\right)^2=\frac{xy}{c^2}$ ($a>0,b>0,c>0$) 所围成的区域 $D$ 的面积.
 
 ### 解答 习题三
 
@@ -71,7 +71,7 @@ $$
 r^4=\frac{\left(ar\cos\theta\right)\left(br\sin\theta\right)}{c^2}=\frac{abr^2\sin\theta\cos\theta}{c^2},
 $$
 
-即 $r^2=\dfrac{ab\sin2\theta}{2c^2}$. 由 $r^2\ge0$ 知 $\sin2\theta\ge0$, 即 $\theta\in\left[0,\pi/2\right]\cup\left[\pi,3\pi/2\right]$. 两部分关于原点对称, 故面积
+即 $r^2=\frac{ab\sin2\theta}{2c^2}$. 由 $r^2\ge0$ 知 $\sin2\theta\ge0$, 即 $\theta\in\left[0,\pi/2\right]\cup\left[\pi,3\pi/2\right]$. 两部分关于原点对称, 故面积
 
 $$
 \begin{aligned}m\left(D\right)&=2\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\sqrt{ab\sin2\theta/\left(2c^2\right)}}abr\,\mathrm{d}r\\&=2\int_0^{\pi/2}ab\cdot\frac12\cdot\frac{ab\sin2\theta}{2c^2}\,\mathrm{d}\theta\\&=\frac{a^2b^2}{2c^2}\int_0^{\pi/2}\sin2\theta\,\mathrm{d}\theta=\frac{a^2b^2}{2c^2}.\end{aligned}

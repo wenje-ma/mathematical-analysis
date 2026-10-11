@@ -141,7 +141,7 @@ $$
 m\le\frac{\iint_D fg}{\iint_D g}\le M.
 $$
 
-由二元连续函数的介值定理 (第一章连续函数性质), 存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)=\dfrac{\iint_D fg}{\iint_D g}$, 即
+由二元连续函数的介值定理 (第一章连续函数性质), 存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)=\frac{\iint_D fg}{\iint_D g}$, 即
 
 $$
 \iint_D f\left(x,y\right)g\left(x,y\right)\,\mathrm{d}\sigma=f\left(x_0,y_0\right)\iint_D g\left(x,y\right)\,\mathrm{d}\sigma.
@@ -155,13 +155,13 @@ $\blacksquare$
 
 ### 解答 习题六
 
-反设存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)>0$. 由 $f$ 在 $\left(x_0,y_0\right)$ 处连续, 对 $\varepsilon=\dfrac{f\left(x_0,y_0\right)}2>0$, 存在 $\delta>0$, 使当 $\left(x,y\right)\in D$ 且 $\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta$ 时,
+反设存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)>0$. 由 $f$ 在 $\left(x_0,y_0\right)$ 处连续, 对 $\varepsilon=\frac{f\left(x_0,y_0\right)}2>0$, 存在 $\delta>0$, 使当 $\left(x,y\right)\in D$ 且 $\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta$ 时,
 
 $$
 \lvert f\left(x,y\right)-f\left(x_0,y_0\right)\rvert<\frac{f\left(x_0,y_0\right)}2,
 $$
 
-即 $f\left(x,y\right)>\dfrac{f\left(x_0,y_0\right)}2$. 记 $R_\delta=D\cap\left\{\left(x,y\right):\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta\right\}$. 因 $\left(x_0,y_0\right)$ 是 $D$ 的内点或边界点, $R_\delta$ 是可求面积的区域且面积 $\left|R_\delta\right|>0$. 由**性质**（二重积分的基本性质）(3),
+即 $f\left(x,y\right)>\frac{f\left(x_0,y_0\right)}2$. 记 $R_\delta=D\cap\left\{\left(x,y\right):\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta\right\}$. 因 $\left(x_0,y_0\right)$ 是 $D$ 的内点或边界点, $R_\delta$ 是可求面积的区域且面积 $\left|R_\delta\right|>0$. 由**性质**（二重积分的基本性质）(3),
 
 $$
 \iint_D f\left(x,y\right)\,\mathrm{d}\sigma\ge\iint_{R_\delta}f\left(x,y\right)\,\mathrm{d}\sigma\ge\frac{f\left(x_0,y_0\right)}2\cdot\left|R_\delta\right|>0,

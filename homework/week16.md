@@ -8,11 +8,11 @@
 
 ### 习题一
 
-（习题 3.4-1-2）写出函数 $y=\dfrac{1}{1-x}$ 在 $x=0$ 点的局部泰勒公式.
+（习题 3.4-1-2）写出函数 $y=\frac{1}{1-x}$ 在 $x=0$ 点的局部泰勒公式.
 
 ### 解答 习题一
 
-对 $f\left(x\right)=\dfrac{1}{1-x}$ 求各阶导数：
+对 $f\left(x\right)=\frac{1}{1-x}$ 求各阶导数：
 $$
 f'\left(x\right)=\frac{1}{\left(1-x\right)^2},\  f''\left(x\right)=\frac{2}{\left(1-x\right)^3},\ \cdots,\  f^{\left(n\right)}\left(x\right)=\frac{n!}{\left(1-x\right)^{n+1}}.
 $$
@@ -92,18 +92,18 @@ $$
 
 其中 $\xi$ 介于 $0$ 与 $\alpha$ 之间.
 
-余项 $r\left(\alpha\right)=-\dfrac{\sin\left(x+\xi\right)}{2}\alpha^2$，故
+余项 $r\left(\alpha\right)=-\frac{\sin\left(x+\xi\right)}{2}\alpha^2$，故
 $$
 \left|r\left(\alpha\right)\right|\le\frac{\alpha^2}{2}.
 $$ $\blacksquare$
 
 ### 习题五
 
-（习题 3.4-5）将 $y=x+\dfrac{x^3}{3}$ 在 $x=\pm1$ 点展成泰勒公式. 说明：任何一个多项式 $P_n\left(x\right)$ 在任何一点 $a$ 的 $n$ 次泰勒展开式之余项为 $0$.
+（习题 3.4-5）将 $y=x+\frac{x^3}{3}$ 在 $x=\pm1$ 点展成泰勒公式. 说明：任何一个多项式 $P_n\left(x\right)$ 在任何一点 $a$ 的 $n$ 次泰勒展开式之余项为 $0$.
 
 ### 解答 习题五
 
-对 $f\left(x\right)=x+\dfrac{x^3}{3}$ 求各阶导数：
+对 $f\left(x\right)=x+\frac{x^3}{3}$ 求各阶导数：
 $$
 f'\left(x\right)=1+x^2,\  f''\left(x\right)=2x,\  f'''\left(x\right)=2,\  f^{\left(4\right)}\left(x\right)=0.
 $$
@@ -177,7 +177,7 @@ $$
 f'\left(x\right)=\frac{1}{1+x^2}.
 $$
 
-由习题一（第 1(2) 题）的结果，将 $-x^2$ 代入 $\dfrac{1}{1-t}$ 的展开式：
+由习题一（第 1(2) 题）的结果，将 $-x^2$ 代入 $\frac{1}{1-t}$ 的展开式：
 $$
 \frac{1}{1+x^2}=1-x^2+x^4-\cdots+\left(-1\right)^m x^{2m}+o\left(x^{2m}\right)\ \left(x\to0\right).
 $$
@@ -215,7 +215,7 @@ $$
 \left|R_1\right|=\left|\frac{f''\left(\xi\right)}{2}\right|\left(0.16\right)^2=\frac{2}{25}\xi^{-9/5}\cdot\left(0.16\right)^2.
 $$
 
-因 $\xi>32$，故 $\xi^{-9/5}<32^{-9/5}=\left(2^5\right)^{-9/5}=2^{-9}=\dfrac{1}{512}$. 于是
+因 $\xi>32$，故 $\xi^{-9/5}<32^{-9/5}=\left(2^5\right)^{-9/5}=2^{-9}=\frac{1}{512}$. 于是
 $$
 \left|R_1\right|<\frac{2}{25}\cdot\frac{1}{512}\cdot\left(0.16\right)^2=\frac{2\cdot0.0256}{25\cdot512}=4\times10^{-6}.
 $$
@@ -240,6 +240,6 @@ $$
 f\left(x\right)-f\left(x_0\right)=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\bigl(\left(x-x_0\right)^n\bigr).
 $$
 
-当 $n$ 为奇数时，$\left(x-x_0\right)^n$ 在 $x_0$ 两侧变号（左负右正），而 $\dfrac{f^{\left(n\right)}\left(x_0\right)}{n!}$ 为固定非零常数，故 $f\left(x\right)-f\left(x_0\right)$ 在 $x_0$ 两侧变号. 因此 $x_0$ 不是极值点.
+当 $n$ 为奇数时，$\left(x-x_0\right)^n$ 在 $x_0$ 两侧变号（左负右正），而 $\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$ 为固定非零常数，故 $f\left(x\right)-f\left(x_0\right)$ 在 $x_0$ 两侧变号. 因此 $x_0$ 不是极值点.
 
 当 $n$ 为偶数时，$\left(x-x_0\right)^n>0$（$x\ne x_0$）. 若 $f^{\left(n\right)}\left(x_0\right)>$，则 $f\left(x\right)-f\left(x_0\right)>0$（$x$ 充分接近 $x_0$ 且 $x\ne x_0$），即 $f\left(x\right)>f\left(x_0\right)$，故 $x_0$ 为极小值点. 若 $f^{\left(n\right)}\left(x_0\right)<0$，则 $f\left(x\right)-f\left(x_0\right)<0$，即 $f\left(x\right)<f\left(x_0\right)$，故 $x_0$ 为极大值点. $\blacksquare$

@@ -12,7 +12,7 @@ $$
 \iiint_\Omega f\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\lvert J\left(u,v,w\right)\rvert\,\mathrm{d}u\mathrm{d}v\mathrm{d}w,
 $$
 
-其中 $J=\dfrac{\partial\left(x,y,z\right)}{\partial\left(u,v,w\right)}$. 特别地, 柱坐标 $\left(r,\theta,z\right)$ 下 $\lvert J\rvert=r$, 球坐标 $\left(\rho,\varphi,\theta\right)$ 下 $\lvert J\rvert=\rho^2\sin\varphi$.
+其中 $J=\frac{\partial\left(x,y,z\right)}{\partial\left(u,v,w\right)}$. 特别地, 柱坐标 $\left(r,\theta,z\right)$ 下 $\lvert J\rvert=r$, 球坐标 $\left(\rho,\varphi,\theta\right)$ 下 $\lvert J\rvert=\rho^2\sin\varphi$.
 
 ### 习题一
 
@@ -114,7 +114,7 @@ $$
 \begin{aligned}\iiint_\Omega\left(x^2+y^2\right)^2\,\mathrm{d}V&=\int_0^{2\pi}\mathrm{d}\theta\int_0^{\pi/4}\sin\varphi\,\mathrm{d}\varphi\int_0^1\left(\rho^2\sin^2\varphi\right)^2\cdot\rho^2\,\mathrm{d}\rho\\&=2\pi\int_0^{\pi/4}\sin^5\varphi\,\mathrm{d}\varphi\cdot\frac17.\end{aligned}
 $$
 
-令 $u=\cos\varphi$, $\int\sin^5\varphi\,\mathrm{d}\varphi=-\int\left(1-2u^2+u^4\right)\mathrm{d}u=-u+\dfrac23u^3-\dfrac15u^5$. 代入上下限:
+令 $u=\cos\varphi$, $\int\sin^5\varphi\,\mathrm{d}\varphi=-\int\left(1-2u^2+u^4\right)\mathrm{d}u=-u+\frac23u^3-\frac15u^5$. 代入上下限:
 
 $$
 \int_0^{\pi/4}\sin^5\varphi\,\mathrm{d}\varphi=\frac8{15}-\frac{43\sqrt2}{120}.
@@ -140,7 +140,7 @@ $$
 \begin{aligned}\iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm{d}V&=\int_{-\pi/2}^{\pi/2}\mathrm{d}\theta\int_0^\pi\sin\varphi\,\mathrm{d}\varphi\int_0^{\sin\varphi\cos\theta}\rho\cdot\rho^2\,\mathrm{d}\rho\\&=\frac14\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi.\end{aligned}
 $$
 
-其中 $\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta=\dfrac{3\pi}{8}$, $\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi=\dfrac{16}{15}$. 故
+其中 $\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta=\frac{3\pi}{8}$, $\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi=\frac{16}{15}$. 故
 
 $$
 \iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm{d}V=\frac14\cdot\frac{3\pi}{8}\cdot\frac{16}{15}=\frac\pi{10}.
@@ -150,7 +150,7 @@ $\blacksquare$
 
 ### 习题八
 
-（习题 8.4-10）计算 $\displaystyle\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V$, 其中 $\Omega$ 为椭球体 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}+\dfrac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$).
+（习题 8.4-10）计算 $\displaystyle\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V$, 其中 $\Omega$ 为椭球体 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$).
 
 ### 解答 习题八
 
@@ -160,7 +160,7 @@ $$
 \iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V=\iiint_\Omega 1\,\mathrm{d}V=m\left(\Omega\right).
 $$
 
-椭球体体积为 $\dfrac{4\pi abc}{3}$, 故
+椭球体体积为 $\frac{4\pi abc}{3}$, 故
 
 $$
 \iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V=\frac{4\pi abc}{3}.

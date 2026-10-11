@@ -68,11 +68,11 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 8.5-3）求位于第一卦限中的部分椭球体 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}+\dfrac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$) 的质心坐标. 这里我们假定椭球体密度是均匀的.
+（习题 8.5-3）求位于第一卦限中的部分椭球体 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$) 的质心坐标. 这里我们假定椭球体密度是均匀的.
 
 ### 解答 习题三
 
-设密度 $\rho$ 为常数. 第一卦限椭球体体积为 $V=\dfrac18\cdot\dfrac{4\pi abc}{3}=\dfrac{\pi abc}{6}$.
+设密度 $\rho$ 为常数. 第一卦限椭球体体积为 $V=\frac18\cdot\frac{4\pi abc}{3}=\frac{\pi abc}{6}$.
 
 作广义球坐标变换 $x=a\rho\sin\varphi\cos\theta$, $y=b\rho\sin\varphi\sin\theta$, $z=c\rho\cos\varphi$, 雅可比行列式 $\lvert J\rvert=abc\rho^2\sin\varphi$. 第一卦限对应 $0\le\rho\le1$, $0\le\varphi\le\pi/2$, $0\le\theta\le\pi/2$. 由**公式**（质心坐标）,
 
@@ -86,7 +86,7 @@ $$
 z_0=\frac{\pi abc^2/16}{\pi abc/6}=\frac{3c}{8}.
 $$
 
-由对称性 (将 $a,x,\theta$ 与 $b,y,\theta+\pi/2$ 互换), 同理得 $x_0=\dfrac{3a}{8}$, $y_0=\dfrac{3b}{8}$. 即质心为 $\left(\dfrac{3a}{8},\dfrac{3b}{8},\dfrac{3c}{8}\right)$. $\blacksquare$
+由对称性 (将 $a,x,\theta$ 与 $b,y,\theta+\pi/2$ 互换), 同理得 $x_0=\frac{3a}{8}$, $y_0=\frac{3b}{8}$. 即质心为 $\left(\frac{3a}{8},\frac{3b}{8},\frac{3c}{8}\right)$. $\blacksquare$
 
 ### 习题四
 

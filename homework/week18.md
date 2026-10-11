@@ -40,7 +40,7 @@ $$
 \left(3^x-4^{-x}\right)^2=9^x-2\cdot3^x\cdot4^{-x}+16^{-x}=9^x-2\cdot\left(\frac34\right)^x+16^{-x}.
 $$
 
-由**定理 1.3**（不定积分的线性法则）及指数函数积分公式 $\displaystyle\int a^x\,\mathrm{d}x=\dfrac{a^x}{\ln a}+C$，
+由**定理 1.3**（不定积分的线性法则）及指数函数积分公式 $\displaystyle\int a^x\,\mathrm{d}x=\frac{a^x}{\ln a}+C$，
 $$
 \int\left(3^x-4^{-x}\right)^2\,\mathrm{d}x=\frac{9^x}{\ln9}-2\cdot\frac{\left(3/4\right)^x}{\ln\left(3/4\right)}+\frac{16^{-x}}{-\ln16}+C.
 $$ $\blacksquare$
@@ -94,7 +94,7 @@ $$ $\blacksquare$
 
 ### 解答 习题七
 
-利用半角公式 $\sin^2\dfrac{x}{2}=\dfrac{1-\cos x}{2}$，由**定理 1.3**（不定积分的线性法则），
+利用半角公式 $\sin^2\frac{x}{2}=\frac{1-\cos x}{2}$，由**定理 1.3**（不定积分的线性法则），
 $$
 \int\sin^2\frac{x}{2}\,\mathrm{d}x=\int\frac{1-\cos x}{2}\,\mathrm{d}x=\frac12\int1\,\mathrm{d}x-\frac12\int\cos x\,\mathrm{d}x=\frac{x}{2}-\frac{\sin x}{2}+C.
 $$ $\blacksquare$

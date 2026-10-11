@@ -1,6 +1,6 @@
 # 作业 21
 
-> **定理 4.1**（有理函数的分解）任何有理函数 $\dfrac{P\left(x\right)}{Q\left(x\right)}$ 都可以分解为一个多项式与若干部分分式之和，其中每个部分分式形如 $\dfrac{A}{\left(x-a\right)^k}$ 或 $\dfrac{Bx+C}{\left(x^2+px+q\right)^m}$（$p^2-4q<0$）.
+> **定理 4.1**（有理函数的分解）任何有理函数 $\frac{P\left(x\right)}{Q\left(x\right)}$ 都可以分解为一个多项式与若干部分分式之和，其中每个部分分式形如 $\frac{A}{\left(x-a\right)^k}$ 或 $\frac{Bx+C}{\left(x^2+px+q\right)^m}$（$p^2-4q<0$）.
 
 ### 习题一
 
@@ -18,7 +18,7 @@ $$
 \frac{7x-6}{\left(x+3\right)\left(x-2\right)}=\frac{A}{x+3}+\frac{B}{x-2}.
 $$
 
-通分后比较分子：$7x-6=A\left(x-2\right)+B\left(x+3\right)$. 令 $x=-3$，得 $-27=-5A$，即 $A=\dfrac{27}{5}$. 令 $x=2$，得 $8=5B$，即 $B=\dfrac85$.
+通分后比较分子：$7x-6=A\left(x-2\right)+B\left(x+3\right)$. 令 $x=-3$，得 $-27=-5A$，即 $A=\frac{27}{5}$. 令 $x=2$，得 $8=5B$，即 $B=\frac85$.
 
 故
 $$
@@ -102,7 +102,7 @@ $$
 \int\frac{\mathrm{d}u}{u^2+5u+6}=\int\frac{\mathrm{d}u}{\left(u+2\right)\left(u+3\right)}.
 $$
 
-由**定理 4.1**（有理函数的分解），设 $\dfrac{1}{\left(u+2\right)\left(u+3\right)}=\dfrac{A}{u+2}+\dfrac{B}{u+3}$. 令 $u=-2$，得 $A=1$. 令 $u=-3$，得 $B=-1$.
+由**定理 4.1**（有理函数的分解），设 $\frac{1}{\left(u+2\right)\left(u+3\right)}=\frac{A}{u+2}+\frac{B}{u+3}$. 令 $u=-2$，得 $A=1$. 令 $u=-3$，得 $B=-1$.
 
 故
 $$
@@ -125,12 +125,12 @@ $$
 1=A\left(x^2+4\right)^2+\left(Bx+C\right)\left(x^2+4\right)\left(x+1\right)+\left(Dx+E\right)\left(x+1\right).
 $$
 
-令 $x=-1$，得 $1=A\cdot25$，即 $A=\dfrac{1}{25}$. 比较各次项系数：
+令 $x=-1$，得 $1=A\cdot25$，即 $A=\frac{1}{25}$. 比较各次项系数：
 
-- $x^4$：$A+B=0$，故 $B=-\dfrac{1}{25}$.
-- $x^3$：$B+C=0$，故 $C=\dfrac{1}{25}$.
-- $x^2$：$8A+4B+C+D=0$，即 $\dfrac{8}{25}-\dfrac{4}{25}+\dfrac{1}{25}+D=0$，故 $D=-\dfrac15$.
-- $x$：$4B+4C+D+E=0$，即 $-\dfrac{4}{25}+\dfrac{4}{25}-\dfrac15+E=0$，故 $E=\dfrac15$.
+- $x^4$：$A+B=0$，故 $B=-\frac{1}{25}$.
+- $x^3$：$B+C=0$，故 $C=\frac{1}{25}$.
+- $x^2$：$8A+4B+C+D=0$，即 $\frac{8}{25}-\frac{4}{25}+\frac{1}{25}+D=0$，故 $D=-\frac15$.
+- $x$：$4B+4C+D+E=0$，即 $-\frac{4}{25}+\frac{4}{25}-\frac15+E=0$，故 $E=\frac15$.
 
 故
 $$

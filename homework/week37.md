@@ -71,7 +71,7 @@ $$
 \frac{\partial\left(\Phi R\right)}{\partial y}-\frac{\partial\left(\Phi Q\right)}{\partial z}=\Phi\frac{\partial R}{\partial y}+R\frac{\partial\Phi}{\partial y}-\Phi\frac{\partial Q}{\partial z}-Q\frac{\partial\Phi}{\partial z}=\Phi\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)+\left(R\frac{\partial\Phi}{\partial y}-Q\frac{\partial\Phi}{\partial z}\right).
 $$
 
-而 $\operatorname{grad}\Phi\times\boldsymbol{F}=\left(\dfrac{\partial\Phi}{\partial y}R-\dfrac{\partial\Phi}{\partial z}Q,\ \dfrac{\partial\Phi}{\partial z}P-\dfrac{\partial\Phi}{\partial x}R,\ \dfrac{\partial\Phi}{\partial x}Q-\dfrac{\partial\Phi}{\partial y}P\right)$, 其第一个分量与上式第二项相同. 同理可验证第二、三分量, 故等式成立. $\blacksquare$
+而 $\operatorname{grad}\Phi\times\boldsymbol{F}=\left(\frac{\partial\Phi}{\partial y}R-\frac{\partial\Phi}{\partial z}Q,\ \frac{\partial\Phi}{\partial z}P-\frac{\partial\Phi}{\partial x}R,\ \frac{\partial\Phi}{\partial x}Q-\frac{\partial\Phi}{\partial y}P\right)$, 其第一个分量与上式第二项相同. 同理可验证第二、三分量, 故等式成立. $\blacksquare$
 
 ### 习题四
 
@@ -79,7 +79,7 @@ $$
 
 ### 解答 习题四
 
-$\operatorname{grad}\Phi=\left(\dfrac{\partial\Phi}{\partial x},\dfrac{\partial\Phi}{\partial y},\dfrac{\partial\Phi}{\partial z}\right)$. 由**定义**（旋度）,
+$\operatorname{grad}\Phi=\left(\frac{\partial\Phi}{\partial x},\frac{\partial\Phi}{\partial y},\frac{\partial\Phi}{\partial z}\right)$. 由**定义**（旋度）,
 
 $$
 \operatorname{rot}\left(\operatorname{grad}\Phi\right)=\left(\frac{\partial^2\Phi}{\partial z\partial y}-\frac{\partial^2\Phi}{\partial y\partial z},\ \frac{\partial^2\Phi}{\partial x\partial z}-\frac{\partial^2\Phi}{\partial z\partial x},\ \frac{\partial^2\Phi}{\partial y\partial x}-\frac{\partial^2\Phi}{\partial x\partial y}\right).

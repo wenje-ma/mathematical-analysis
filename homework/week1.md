@@ -44,7 +44,7 @@ $$
 3=r^2-2r\sqrt2+2,
 $$
 
-即 $\sqrt2=\dfrac{r^2-1}{2r}$. 若 $r\ne0$，则右端 $\dfrac{r^2-1}{2r}$ 是有理数，故 $\sqrt2\in\mathbb Q$，这与**命题 1.3**（$\sqrt2$ 为无理数）矛盾. 若 $r=0$，则 $\sqrt2+\sqrt3=0$，更不可能. 故 $\sqrt2+\sqrt3$ 不是有理数，即 $\sqrt2+\sqrt3$ 是无理数. $\blacksquare$
+即 $\sqrt2=\frac{r^2-1}{2r}$. 若 $r\ne0$，则右端 $\frac{r^2-1}{2r}$ 是有理数，故 $\sqrt2\in\mathbb Q$，这与**命题 1.3**（$\sqrt2$ 为无理数）矛盾. 若 $r=0$，则 $\sqrt2+\sqrt3=0$，更不可能. 故 $\sqrt2+\sqrt3$ 不是有理数，即 $\sqrt2+\sqrt3$ 是无理数. $\blacksquare$
 
 ### 习题二
 
@@ -66,7 +66,7 @@ $$
 
 其中 $m_2^2-2n_2^2\ne0$（否则 $\sqrt2=m_2/n_2\in\mathbb Q$，与**命题 1.3** 矛盾）. 又这些运算显然满足交换律、结合律、分配律，故由**定义**（域），$E$ 是数域.
 
-（2）$E$ 不完备. 事实上，$\sqrt3\notin E$：若 $\sqrt3=m+n\sqrt2$，平方得 $3=m^2+2n^2+2mn\sqrt2$. 若 $mn\ne0$，则 $\sqrt2=\dfrac{3-m^2-2n^2}{2mn}\in\mathbb Q$，矛盾；若 $n=0$，则 $\sqrt3=m\in\mathbb Q$，矛盾；若 $m=0$，则 $\sqrt3=n\sqrt2$，平方得 $n^2=\dfrac32\notin\mathbb Q$，矛盾. 故 $\sqrt3\notin E$.
+（2）$E$ 不完备. 事实上，$\sqrt3\notin E$：若 $\sqrt3=m+n\sqrt2$，平方得 $3=m^2+2n^2+2mn\sqrt2$. 若 $mn\ne0$，则 $\sqrt2=\frac{3-m^2-2n^2}{2mn}\in\mathbb Q$，矛盾；若 $n=0$，则 $\sqrt3=m\in\mathbb Q$，矛盾；若 $m=0$，则 $\sqrt3=n\sqrt2$，平方得 $n^2=\frac32\notin\mathbb Q$，矛盾. 故 $\sqrt3\notin E$.
 
 取 $\sqrt3$ 的 $n$ 位不足近似小数 $x_n$，则 $x_n\in\mathbb Q\subset E$（取 $m=x_n,\ n=0$），且 $\left\{x_n\right\}$ 单调递增、有上界（如 $x_n<2$），但 $\left\{x_n\right\}$ 无限接近 $\sqrt3\notin E$. 于是由**定义**（完备性），$E$ 不是完备的. $\blacksquare$
 
@@ -107,7 +107,7 @@ $\blacksquare$
 
 （1）由 $\left|x^2-1\right|<8$ 得 $-8<x^2-1<8$，即 $-7<x^2<9$. 因 $x^2\ge0$ 恒成立，故只须 $x^2<9$，由**命题 1.6** 得 $\left|x\right|<3$，即 $-3<x<3$.
 
-（2）由**命题 1.6**(3) 与两边平方的等价性，$\left|x-1\right|<\left|x\right|$ 当且仅当 $\left(x-1\right)^2<x^2$，即 $x^2-2x+1<x^2$，解得 $x>\dfrac12$.
+（2）由**命题 1.6**(3) 与两边平方的等价性，$\left|x-1\right|<\left|x\right|$ 当且仅当 $\left(x-1\right)^2<x^2$，即 $x^2-2x+1<x^2$，解得 $x>\frac12$.
 
 （3）同理，$\left|x-1\right|<\left|x+1\right|$ 当且仅当 $\left(x-1\right)^2<\left(x+1\right)^2$，即 $x^2-2x+1<x^2+2x+1$，解得 $x>0$.
 
@@ -147,7 +147,7 @@ $\blacksquare$
 （习题 1.1-11）判断下列集合 $E$ 是否是有上界、有下界及有界集合:
 (1) $E=\left\{e^n:n\in\mathbb N_+\right\}$;
 
-(2) $E=\left\{\dfrac{n^2+10^{10}}{n^2+1}:n\in\mathbb N\right\}$;
+(2) $E=\left\{\frac{n^2+10^{10}}{n^2+1}:n\in\mathbb N\right\}$;
 
 (3) $E=\left\{\sqrt{x+1}-\sqrt{x}:x\ge1\right\}$;
 
@@ -157,7 +157,7 @@ $\blacksquare$
 
 （1）$E=\left\{e,e^2,e^3,\dots\right\}$. 因 $e^n\ge e$，故 $E$ 有下界（如 $m=e$）；而 $e^n$ 随 $n$ 无限增大，故 $E$ 无上界. 由**定义**（有界集），$E$ 有下界、无上界，不是有界集合.
 
-（2）对 $n\in\mathbb N$，$\dfrac{n^2+10^{10}}{n^2+1}=1+\dfrac{10^{10}-1}{n^2+1}$. 因 $n^2+1\ge1$，故 $1<\dfrac{n^2+10^{10}}{n^2+1}\le10^{10}$，即 $E\subset\left(1,10^{10}\right]$. 故 $E$ 有上界也有下界，由**定义**（有界集），$E$ 是有界集合.
+（2）对 $n\in\mathbb N$，$\frac{n^2+10^{10}}{n^2+1}=1+\frac{10^{10}-1}{n^2+1}$. 因 $n^2+1\ge1$，故 $1<\frac{n^2+10^{10}}{n^2+1}\le10^{10}$，即 $E\subset\left(1,10^{10}\right]$. 故 $E$ 有上界也有下界，由**定义**（有界集），$E$ 是有界集合.
 
 （3）对 $x\ge1$，有理化得
 

@@ -17,7 +17,7 @@ $$
 y'=\left(3x^2-5\right)^2+x\cdot2\left(3x^2-5\right)\cdot6x=\left(3x^2-5\right)\bigl[\left(3x^2-5\right)+12x^2\bigr]=\left(3x^2-5\right)\left(15x^2-5\right)=5\left(3x^2-5\right)\left(3x^2-1\right).
 $$
 
-令 $y'=0$，得稳定点 $x=\pm\sqrt{\dfrac53},\ \pm\dfrac1{\sqrt3}$.
+令 $y'=0$，得稳定点 $x=\pm\sqrt{\frac53},\ \pm\frac1{\sqrt3}$.
 
 再求二阶导数：
 $$
@@ -25,10 +25,10 @@ y''=5\left[6x\left(15x^2-1\right)+\left(3x^2-5\right)\cdot30x\right]=5\left[90x^
 $$
 
 代入各稳定点：
-- $x=\sqrt{\dfrac53}$：$y''=30\sqrt{\dfrac53}\cdot\left(50-26\right)>0$，故为极小值点.
-- $x=-\sqrt{\dfrac53}$：$y''=30\left(-\sqrt{\dfrac53}\right)\cdot\left(50-26\right)<0$，故为极大值点.
-- $x=\dfrac1{\sqrt3}$：$y''=30\cdot\dfrac1{\sqrt3}\cdot\left(10-26\right)<0$，故为极大值点.
-- $x=-\dfrac1{\sqrt3}$：$y''=30\cdot\left(-\dfrac1{\sqrt3}\right)\cdot\left(10-26\right)>0$，故为极小值点.
+- $x=\sqrt{\frac53}$：$y''=30\sqrt{\frac53}\cdot\left(50-26\right)>0$，故为极小值点.
+- $x=-\sqrt{\frac53}$：$y''=30\left(-\sqrt{\frac53}\right)\cdot\left(50-26\right)<0$，故为极大值点.
+- $x=\frac1{\sqrt3}$：$y''=30\cdot\frac1{\sqrt3}\cdot\left(10-26\right)<0$，故为极大值点.
+- $x=-\frac1{\sqrt3}$：$y''=30\cdot\left(-\frac1{\sqrt3}\right)\cdot\left(10-26\right)>0$，故为极小值点.
 
 由**定理 3.2**（极值点第二充分条件），上述判断成立. $\blacksquare$
 
@@ -43,14 +43,14 @@ $$
 y'=\ln x+1.
 $$
 
-令 $y'=0$，得 $\ln x=-1$，即 $x=\dfrac1e$.
+令 $y'=0$，得 $\ln x=-1$，即 $x=\frac1e$.
 
 再求二阶导数：
 $$
 y''=\frac1x>0\ \left(x>0\right).
 $$
 
-故 $y''\left(\dfrac1e\right)=e>0$. 由**定理 3.2**（极值点第二充分条件），$x=\dfrac1e$ 为极小值点，极小值为 $y\left(\dfrac1e\right)=\dfrac1e\ln\dfrac1e=-\dfrac1e$. $\blacksquare$
+故 $y''\left(\frac1e\right)=e>0$. 由**定理 3.2**（极值点第二充分条件），$x=\frac1e$ 为极小值点，极小值为 $y\left(\frac1e\right)=\frac1e\ln\frac1e=-\frac1e$. $\blacksquare$
 
 ### 习题三
 
@@ -79,7 +79,7 @@ $$\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2},$$
 
 设交界面为 $x$ 轴，$A=\left(0,a\right)$（甲介质，$y>0$），$B=\left(d,-b\right)$（乙介质，$y<0$），其中 $a,b,d>0$. 设光在交界面上的入射点为 $P=\left(x,0\right)$.
 
-则光从 $A$ 到 $P$ 的距离为 $\sqrt{x^2+a^2}$，所需时间为 $\dfrac{\sqrt{x^2+a^2}}{v_1}$；从 $P$ 到 $B$ 的距离为 $\sqrt{\left(d-x\right)^2+b^2}$，所需时间为 $\dfrac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}$. 总时间为
+则光从 $A$ 到 $P$ 的距离为 $\sqrt{x^2+a^2}$，所需时间为 $\frac{\sqrt{x^2+a^2}}{v_1}$；从 $P$ 到 $B$ 的距离为 $\sqrt{\left(d-x\right)^2+b^2}$，所需时间为 $\frac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}$. 总时间为
 $$
 T\left(x\right)=\frac{\sqrt{x^2+a^2}}{v_1}+\frac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}.
 $$
@@ -89,7 +89,7 @@ $$
 T'\left(x\right)=\frac{x}{v_1\sqrt{x^2+a^2}}-\frac{d-x}{v_2\sqrt{\left(d-x\right)^2+b^2}}.
 $$
 
-注意到 $\dfrac{x}{\sqrt{x^2+a^2}}=\sin\alpha$（$\alpha$ 为入射角，即 $AP$ 与法线的夹角），$\dfrac{d-x}{\sqrt{\left(d-x\right)^2+b^2}}=\sin\beta$（$\beta$ 为折射角）. 故
+注意到 $\frac{x}{\sqrt{x^2+a^2}}=\sin\alpha$（$\alpha$ 为入射角，即 $AP$ 与法线的夹角），$\frac{d-x}{\sqrt{\left(d-x\right)^2+b^2}}=\sin\beta$（$\beta$ 为折射角）. 故
 $$
 T'\left(x\right)=\frac{\sin\alpha}{v_1}-\frac{\sin\beta}{v_2}.
 $$
@@ -112,7 +112,7 @@ $$
 
 ### 解答 习题五
 
-设灯距离 $O$ 点的高度为 $h$，即灯位于点 $\left(0,h\right)$. 由光学知识，照度 $J$ 与光线入射角的正弦成正比，与距离的平方成反比. 光线从灯到 $A$ 点 $\left(a,0\right)$ 的距离为 $r=\sqrt{a^2+h^2}$，入射角 $\theta$（光线与铅垂线的夹角）满足 $\sin\theta=\dfrac{a}{r}$. 故
+设灯距离 $O$ 点的高度为 $h$，即灯位于点 $\left(0,h\right)$. 由光学知识，照度 $J$ 与光线入射角的正弦成正比，与距离的平方成反比. 光线从灯到 $A$ 点 $\left(a,0\right)$ 的距离为 $r=\sqrt{a^2+h^2}$，入射角 $\theta$（光线与铅垂线的夹角）满足 $\sin\theta=\frac{a}{r}$. 故
 $$
 J\left(h\right)=C\cdot\frac{\sin\theta}{r^2}=C\cdot\frac{a}{r^3}=\frac{Ca}{\left(a^2+h^2\right)^{3/2}},
 $$
@@ -133,12 +133,12 @@ $$
 
 求导得
 $$
-J'\left(h\right)=C\cdot\frac{\left(a^2+h^2\right)^{3/2}-h\cdot\dfrac32\left(a^2+h^2\right)^{1/2}\cdot2h}{\left(a^2+h^2\right)^3}=C\cdot\frac{a^2+h^2-3h^2}{\left(a^2+h^2\right)^{5/2}}=C\cdot\frac{a^2-2h^2}{\left(a^2+h^2\right)^{5/2}}.
+J'\left(h\right)=C\cdot\frac{\left(a^2+h^2\right)^{3/2}-h\cdot\frac32\left(a^2+h^2\right)^{1/2}\cdot2h}{\left(a^2+h^2\right)^3}=C\cdot\frac{a^2+h^2-3h^2}{\left(a^2+h^2\right)^{5/2}}=C\cdot\frac{a^2-2h^2}{\left(a^2+h^2\right)^{5/2}}.
 $$
 
-令 $J'\left(h\right)=0$，得 $a^2-2h^2=0$，即 $h=\dfrac{a}{\sqrt2}$.
+令 $J'\left(h\right)=0$，得 $a^2-2h^2=0$，即 $h=\frac{a}{\sqrt2}$.
 
-当 $h<\dfrac{a}{\sqrt2}$ 时 $J'\left(h\right)>0$，当 $h>\dfrac{a}{\sqrt2}$ 时 $J'\left(h\right)<0$. 由**定理 3.1**（极值点第一充分条件），$h=\dfrac{a}{\sqrt2}$ 为极大值点. 由**命题 3.1**（唯一极值点即全局极值点），此时 $A$ 点照度最大. $\blacksquare$
+当 $h<\frac{a}{\sqrt2}$ 时 $J'\left(h\right)>0$，当 $h>\frac{a}{\sqrt2}$ 时 $J'\left(h\right)<0$. 由**定理 3.1**（极值点第一充分条件），$h=\frac{a}{\sqrt2}$ 为极大值点. 由**命题 3.1**（唯一极值点即全局极值点），此时 $A$ 点照度最大. $\blacksquare$
 
 ### 习题六
 
@@ -166,17 +166,17 @@ $$
 
 ### 习题七
 
-（习题 3.3-6）证明下列不等式：设 $a>0,\ b>0,\ p>1,\ q>1$，且 $\dfrac1p+\dfrac1q=1$，则
+（习题 3.3-6）证明下列不等式：设 $a>0,\ b>0,\ p>1,\ q>1$，且 $\frac1p+\frac1q=1$，则
 $$a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}.$$
 
 ### 解答 习题七
 
-在上题中取 $\alpha=\dfrac1p$（因 $p>1$，故 $0<\alpha<1$），则 $1-\alpha=\dfrac1q$. 由上题结果，对任意 $x>0$，
+在上题中取 $\alpha=\frac1p$（因 $p>1$，故 $0<\alpha<1$），则 $1-\alpha=\frac1q$. 由上题结果，对任意 $x>0$，
 $$
 x^{1/p}-\frac1p x+\frac1p-1\le0.
 $$
 
-令 $x=\dfrac{a}{b}$，代入得
+令 $x=\frac{a}{b}$，代入得
 $$
 \left(\frac{a}{b}\right)^{1/p}-\frac1p\cdot\frac{a}{b}+\frac1p-1\le0.
 $$
@@ -186,7 +186,7 @@ $$
 a^{1/p}b^{1-1/p}-\frac{a}{p}+\frac{b}{p}-b\le0.
 $$
 
-注意到 $1-\dfrac1p=\dfrac1q$，整理得
+注意到 $1-\frac1p=\frac1q$，整理得
 $$
 a^{1/p}b^{1/q}\le\frac{a}{p}+b\left(1-\frac1p\right)=\frac{a}{p}+\frac{b}{q}.
 $$
@@ -199,7 +199,7 @@ $$
 
 ### 解答 习题八
 
-因 $b=c$，故三角形为等腰三角形. 由 $a+b+c=2l$，得 $a+2b=2l$，即 $b=\dfrac{2l-a}{2}=l-\dfrac a2$.
+因 $b=c$，故三角形为等腰三角形. 由 $a+b+c=2l$，得 $a+2b=2l$，即 $b=\frac{2l-a}{2}=l-\frac a2$.
 
 等腰三角形的高 $h=\sqrt{b^2-\left(a/2\right)^2}$. 面积为
 $$
@@ -216,15 +216,15 @@ $$
 \left(S^2\right)'=\frac14\left(2l^2a-3la^2\right)=\frac{la}{4}\left(2l-3a\right).
 $$
 
-令 $\left(S^2\right)'=0$，得 $a=\dfrac{2l}{3}$（$a=0$ 舍去）.
+令 $\left(S^2\right)'=0$，得 $a=\frac{2l}{3}$（$a=0$ 舍去）.
 
-当 $0<a<\dfrac{2l}{3}$ 时 $\left(S^2\right)'>0$，当 $\dfrac{2l}{3}<a<2l$ 时 $\left(S^2\right)'<0$. 由**定理 3.1**（极值点第一充分条件），$a=\dfrac{2l}{3}$ 为极大值点.
+当 $0<a<\frac{2l}{3}$ 时 $\left(S^2\right)'>0$，当 $\frac{2l}{3}<a<2l$ 时 $\left(S^2\right)'<0$. 由**定理 3.1**（极值点第一充分条件），$a=\frac{2l}{3}$ 为极大值点.
 
-此时 $b=c=l-\dfrac12\cdot\dfrac{2l}{3}=l-\dfrac l3=\dfrac{2l}{3}$. 故 $a=b=c=\dfrac{2l}{3}$，即三角形为等边三角形时面积最大. $\blacksquare$
+此时 $b=c=l-\frac12\cdot\frac{2l}{3}=l-\frac l3=\frac{2l}{3}$. 故 $a=b=c=\frac{2l}{3}$，即三角形为等边三角形时面积最大. $\blacksquare$
 
 ### 习题九
 
-（习题 3.3-8）设 $f\left(x\right)=\sin^p x+\cos^p x$，求它在 $\left[0,\dfrac{\pi}{2}\right]$ 上的最大值与最小值.
+（习题 3.3-8）设 $f\left(x\right)=\sin^p x+\cos^p x$，求它在 $\left[0,\frac{\pi}{2}\right]$ 上的最大值与最小值.
 
 ### 解答 习题九
 
@@ -233,17 +233,17 @@ $$
 f'\left(x\right)=p\sin^{p-1}x\cos x-p\cos^{p-1}x\sin x=p\sin x\cos x\left(\sin^{p-2}x-\cos^{p-2}x\right).
 $$
 
-令 $f'\left(x\right)=0$. 在 $\left(0,\dfrac{\pi}{2}\right)$ 内，$\sin x>0$ 且 $\cos x>0$，故只需
+令 $f'\left(x\right)=0$. 在 $\left(0,\frac{\pi}{2}\right)$ 内，$\sin x>0$ 且 $\cos x>0$，故只需
 $$
 \sin^{p-2}x=\cos^{p-2}x.
 $$
 
-即 $\tan^{p-2}x=1$，亦即 $\tan x=1$（因 $x\in\left(0,\pi/2\right)$），得 $x=\dfrac{\pi}{4}$.
+即 $\tan^{p-2}x=1$，亦即 $\tan x=1$（因 $x\in\left(0,\pi/2\right)$），得 $x=\frac{\pi}{4}$.
 
 计算各点函数值：
 - $f\left(0\right)=0+1=1$
-- $f\left(\dfrac{\pi}{4}\right)=\left(\dfrac{\sqrt2}{2}\right)^p+\left(\dfrac{\sqrt2}{2}\right)^p=2\cdot\left(\dfrac{\sqrt2}{2}\right)^p=2^{1-p/2}$
-- $f\left(\dfrac{\pi}{2}\right)=1+0=1$
+- $f\left(\frac{\pi}{4}\right)=\left(\frac{\sqrt2}{2}\right)^p+\left(\frac{\sqrt2}{2}\right)^p=2\cdot\left(\frac{\sqrt2}{2}\right)^p=2^{1-p/2}$
+- $f\left(\frac{\pi}{2}\right)=1+0=1$
 
 比较三者：因 $p>2$（由题设 $p>1$，但需分情况讨论），实际上题目中 $p$ 应为大于 $2$ 的常数. 当 $p>2$ 时，$2^{1-p/2}<1$.
 

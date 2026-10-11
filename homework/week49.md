@@ -16,7 +16,7 @@
 
 ### 解答 习题一
 
-对任意 $x\ge0$ 及 $\alpha\ge\alpha_0$，有 $e^{-\alpha x^2}\le e^{-\alpha_0 x^2}$. 而 $\int_0^{+\infty}e^{-\alpha_0 x^2}\,\mathrm{d}x=\dfrac12\sqrt{\dfrac{\pi}{\alpha_0}}$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法），该无穷积分在 $\left[\alpha_0,+\infty\right)$ 上一致收敛. $\blacksquare$
+对任意 $x\ge0$ 及 $\alpha\ge\alpha_0$，有 $e^{-\alpha x^2}\le e^{-\alpha_0 x^2}$. 而 $\int_0^{+\infty}e^{-\alpha_0 x^2}\,\mathrm{d}x=\frac12\sqrt{\frac{\pi}{\alpha_0}}$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法），该无穷积分在 $\left[\alpha_0,+\infty\right)$ 上一致收敛. $\blacksquare$
 
 ### 习题二
 
@@ -24,7 +24,7 @@
 
 ### 解答 习题二
 
-将被积函数写成 $\dfrac{\cos x}{x}\cdot e^{-xy}$. 首先，$\int_1^{+\infty}\dfrac{\cos x}{x}\,\mathrm{d}x$ 收敛（由第 12 章**定理 1.6** 狄利克雷判别法），且它不含参数 $y$，故关于 $y\in\left[0,+\infty\right)$ 一致收敛. 其次，$e^{-xy}$ 关于 $x$ 单调递减，且 $0<e^{-xy}\le1$ 关于 $y\in\left[0,+\infty\right)$ 一致有界. 由**定理 4.4**（阿贝尔判别法），$\int_1^{+\infty}e^{-xy}\dfrac{\cos x}{x}\,\mathrm{d}x$ 在 $\left[0,+\infty\right)$ 上一致收敛. $\blacksquare$
+将被积函数写成 $\frac{\cos x}{x}\cdot e^{-xy}$. 首先，$\int_1^{+\infty}\frac{\cos x}{x}\,\mathrm{d}x$ 收敛（由第 12 章**定理 1.6** 狄利克雷判别法），且它不含参数 $y$，故关于 $y\in\left[0,+\infty\right)$ 一致收敛. 其次，$e^{-xy}$ 关于 $x$ 单调递减，且 $0<e^{-xy}\le1$ 关于 $y\in\left[0,+\infty\right)$ 一致有界. 由**定理 4.4**（阿贝尔判别法），$\int_1^{+\infty}e^{-xy}\frac{\cos x}{x}\,\mathrm{d}x$ 在 $\left[0,+\infty\right)$ 上一致收敛. $\blacksquare$
 
 ### 习题三
 
@@ -32,7 +32,7 @@
 
 ### 解答 习题三
 
-对任意 $x\ge0$ 及 $y\ge y_0$，有 $\bigl\lvert e^{-x^2y^2}\cos x\bigr\rvert\le e^{-x^2y^2}\le e^{-x^2y_0^2}$. 而 $\int_0^{+\infty}e^{-x^2y_0^2}\,\mathrm{d}x=\dfrac{1}{2y_0}\sqrt\pi$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法），该无穷积分在 $\left[y_0,+\infty\right)$ 上一致收敛. $\blacksquare$
+对任意 $x\ge0$ 及 $y\ge y_0$，有 $\bigl\lvert e^{-x^2y^2}\cos x\bigr\rvert\le e^{-x^2y^2}\le e^{-x^2y_0^2}$. 而 $\int_0^{+\infty}e^{-x^2y_0^2}\,\mathrm{d}x=\frac{1}{2y_0}\sqrt\pi$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法），该无穷积分在 $\left[y_0,+\infty\right)$ 上一致收敛. $\blacksquare$
 
 ### 习题四
 
@@ -40,7 +40,7 @@
 
 ### 解答 习题四
 
-注意到 $\dfrac{e^{-ax}-e^{-bx}}{x}=\int_a^b e^{-xy}\,\mathrm{d}y$，故
+注意到 $\frac{e^{-ax}-e^{-bx}}{x}=\int_a^b e^{-xy}\,\mathrm{d}y$，故
 
 $$
 I=\int_0^{+\infty}\mathrm{d}x\int_a^b e^{-xy}\,\mathrm{d}y.
@@ -60,20 +60,20 @@ $\blacksquare$
 
 ### 解答 习题五
 
-由三角恒等式 $\sin\left(\alpha x\right)\cos\left(\beta x\right)=\dfrac12\bigl[\sin\left(\left(\alpha+\beta\right)x\right)+\sin\left(\left(\alpha-\beta\right)x\right)\bigr]$，得
+由三角恒等式 $\sin\left(\alpha x\right)\cos\left(\beta x\right)=\frac12\bigl[\sin\left(\left(\alpha+\beta\right)x\right)+\sin\left(\left(\alpha-\beta\right)x\right)\bigr]$，得
 
 $$
 I=\frac12\int_0^{+\infty}\frac{\sin\left(\left(\alpha+\beta\right)x\right)}{x}\,\mathrm{d}x+\frac12\int_0^{+\infty}\frac{\sin\left(\left(\alpha-\beta\right)x\right)}{x}\,\mathrm{d}x.
 $$
 
-由**例 4.5**（狄利克雷积分），$\int_0^{+\infty}\dfrac{\sin\left(kx\right)}{x}\,\mathrm{d}x=\dfrac{\pi}{2}\operatorname{sgn}\left(k\right)$. 因 $\alpha+\beta>0$，第一项为 $\dfrac12\cdot\dfrac{\pi}{2}=\dfrac{\pi}{4}$. 第二项依 $\alpha-\beta$ 的符号而定：
+由**例 4.5**（狄利克雷积分），$\int_0^{+\infty}\frac{\sin\left(kx\right)}{x}\,\mathrm{d}x=\frac{\pi}{2}\operatorname{sgn}\left(k\right)$. 因 $\alpha+\beta>0$，第一项为 $\frac12\cdot\frac{\pi}{2}=\frac{\pi}{4}$. 第二项依 $\alpha-\beta$ 的符号而定：
 
 $$
 I=
 \begin{cases}
-\dfrac12\cdot\dfrac{\pi}{4}+\dfrac12\cdot\left(-\dfrac{\pi}{4}\right)=0,&\alpha<\beta,\\[4pt\right]
-\dfrac{\pi}{4}+0=\dfrac{\pi}{4},&\alpha=\beta,\\[4pt\right]
-\dfrac{\pi}{4}+\dfrac12\cdot\dfrac{\pi}{2}=\dfrac{\pi}{2},&\alpha>\beta.
+\frac12\cdot\frac{\pi}{4}+\frac12\cdot\left(-\frac{\pi}{4}\right)=0,&\alpha<\beta,\\[4pt\right]
+\frac{\pi}{4}+0=\frac{\pi}{4},&\alpha=\beta,\\[4pt\right]
+\frac{\pi}{4}+\frac12\cdot\frac{\pi}{2}=\frac{\pi}{2},&\alpha>\beta.
 \end{cases}
 $$
 
@@ -85,13 +85,13 @@ $\blacksquare$
 
 ### 解答 习题六
 
-令 $I\left(\alpha\right)=\int_0^{+\infty}\dfrac{1-\cos\left(\alpha x\right)}{x}e^{-x}\,\mathrm{d}x$. 被积函数对 $\alpha$ 的偏导数为 $e^{-x}\sin\left(\alpha x\right)$，它在 $\left[0,+\infty\right)\times\left[0,+\infty\right)$ 上连续，且 $\int_0^{+\infty}e^{-x}\sin\left(\alpha x\right)\,\mathrm{d}x$ 关于 $\alpha$ 一致收敛（因 $\bigl\lvert e^{-x}\sin\left(\alpha x\right)\bigr\rvert\le e^{-x}$，而 $\int_0^{+\infty}e^{-x}\,\mathrm{d}x$ 收敛，由**定理 4.3**）. 由**定理 4.8**（积分号下求导），
+令 $I\left(\alpha\right)=\int_0^{+\infty}\frac{1-\cos\left(\alpha x\right)}{x}e^{-x}\,\mathrm{d}x$. 被积函数对 $\alpha$ 的偏导数为 $e^{-x}\sin\left(\alpha x\right)$，它在 $\left[0,+\infty\right)\times\left[0,+\infty\right)$ 上连续，且 $\int_0^{+\infty}e^{-x}\sin\left(\alpha x\right)\,\mathrm{d}x$ 关于 $\alpha$ 一致收敛（因 $\bigl\lvert e^{-x}\sin\left(\alpha x\right)\bigr\rvert\le e^{-x}$，而 $\int_0^{+\infty}e^{-x}\,\mathrm{d}x$ 收敛，由**定理 4.3**）. 由**定理 4.8**（积分号下求导），
 
 $$
 I'\left(\alpha\right)=\int_0^{+\infty}e^{-x}\sin\left(\alpha x\right)\,\mathrm{d}x.
 $$
 
-由第 12 章习题 12.1-3（取参数为 $1$），$\int_0^{+\infty}e^{-x}\sin\left(\alpha x\right)\,\mathrm{d}x=\dfrac{\alpha}{1+\alpha^2}$. 于是
+由第 12 章习题 12.1-3（取参数为 $1$），$\int_0^{+\infty}e^{-x}\sin\left(\alpha x\right)\,\mathrm{d}x=\frac{\alpha}{1+\alpha^2}$. 于是
 
 $$
 I\left(\alpha\right)=\int_0^\alpha\frac{t}{1+t^2}\,\mathrm{d}t=\frac12\ln\left(1+\alpha^2\right)+C.

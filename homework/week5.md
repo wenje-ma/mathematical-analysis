@@ -4,9 +4,9 @@
 
 > **定义**（单侧极限）若当 $x\to a+0$（或 $x\to a-0$）时 $f\left(x\right)$ 以 $l$ 为极限，则称之为右极限（或左极限），记作 $\lim\limits_{x\to a+0}f\left(x\right)=l$（或 $\lim\limits_{x\to a-0}f\left(x\right)=l$）.
 
-> **定理 5.1**（函数极限四则运算）若 $\lim f\left(x\right)=l_1$，$\lim g\left(x\right)=l_2$，则 $\lim\left(f\pm g\right)=l_1\pm l_2$，$\lim\left(f\cdot g\right)=l_1\cdot l_2$，且当 $l_2\ne0$ 时 $\lim\dfrac{f}{g}=\dfrac{l_1}{l_2}$.
+> **定理 5.1**（函数极限四则运算）若 $\lim f\left(x\right)=l_1$，$\lim g\left(x\right)=l_2$，则 $\lim\left(f\pm g\right)=l_1\pm l_2$，$\lim\left(f\cdot g\right)=l_1\cdot l_2$，且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-> **命题**（保号性）若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l\ne0$，则存在 $\delta>0$ 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)\right|>\dfrac{\left|l\right|}{2}$.
+> **命题**（保号性）若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l\ne0$，则存在 $\delta>0$ 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)\right|>\frac{\left|l\right|}{2}$.
 
 ### 习题一
 
@@ -32,7 +32,7 @@ $$
 
 ### 习题二
 
-（习题 1.5-1-3）利用 $\varepsilon$-$\delta$ 语言证明：$\lim\limits_{x\to+\infty}\dfrac{6x+5}{x+1}=6$.
+（习题 1.5-1-3）利用 $\varepsilon$-$\delta$ 语言证明：$\lim\limits_{x\to+\infty}\frac{6x+5}{x+1}=6$.
 
 ### 解答 习题二
 
@@ -40,13 +40,13 @@ $$
 \left|\frac{6x+5}{x+1}-6\right|=\left|\frac{6x+5-6\left(x+1\right)}{x+1}\right|=\frac1{x+1}.
 $$
 
-任给 $\varepsilon>0$，取 $X=\dfrac1\varepsilon-1$，则当 $x>X$ 时，
+任给 $\varepsilon>0$，取 $X=\frac1\varepsilon-1$，则当 $x>X$ 时，
 
 $$
 \left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}<\varepsilon.
 $$
 
-由**定义**（函数极限）的 $x\to+\infty$ 版本，$\lim\limits_{x\to+\infty}\dfrac{6x+5}{x+1}=6$. $\blacksquare$
+由**定义**（函数极限）的 $x\to+\infty$ 版本，$\lim\limits_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
 ### 习题三
 
@@ -74,17 +74,17 @@ $$
 
 ### 习题五
 
-（习题 1.5-4）设 $\lim\limits_{x\to a}f\left(x\right)=l$，且 $l\ne0$. 证明函数 $y=\dfrac1{f\left(x\right)}$ 当 $x\to a$ 时为有界变量.
+（习题 1.5-4）设 $\lim\limits_{x\to a}f\left(x\right)=l$，且 $l\ne0$. 证明函数 $y=\frac1{f\left(x\right)}$ 当 $x\to a$ 时为有界变量.
 
 ### 解答 习题五
 
-取 $\varepsilon=\dfrac{\left|l\right|}{2}$. 由**定义**（函数极限），存在 $\delta>0$，使得当 $0<\left|x-a\right|<\delta$ 时，$\left|f\left(x\right)-l\right|<\dfrac{\left|l\right|}{2}$. 由第一章**命题 1.7**（三角不等式），
+取 $\varepsilon=\frac{\left|l\right|}{2}$. 由**定义**（函数极限），存在 $\delta>0$，使得当 $0<\left|x-a\right|<\delta$ 时，$\left|f\left(x\right)-l\right|<\frac{\left|l\right|}{2}$. 由第一章**命题 1.7**（三角不等式），
 
 $$
 \left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|>\left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
 $$
 
-于是 $\left|\dfrac1{f\left(x\right)}\right|<\dfrac2{\left|l\right|}$，即 $\dfrac1{f\left(x\right)}$ 当 $x\to a$ 时有界. 此即**命题**（保号性）的推论. $\blacksquare$
+于是 $\left|\frac1{f\left(x\right)}\right|<\frac2{\left|l\right|}$，即 $\frac1{f\left(x\right)}$ 当 $x\to a$ 时有界. 此即**命题**（保号性）的推论. $\blacksquare$
 
 ### 习题六
 
@@ -94,7 +94,7 @@ $$
 
 任给 $\varepsilon>0$，由**定义**（函数极限），存在 $\delta_1>0$，使得当 $0<\left|x-2\right|<\delta_1$ 时 $\left|f\left(x\right)-l\right|<\varepsilon$. 令 $x=y^2$，则需 $0<\left|y^2-2\right|<\delta_1$.
 
-因 $y\to\sqrt2$，可限制 $\left|y-\sqrt2\right|<1$，此时 $\left|y+\sqrt2\right|\le2\sqrt2+1$. 取 $\delta=\min\left\{1,\ \dfrac{\delta_1}{2\sqrt2+1}\right\}$，则当 $0<\left|y-\sqrt2\right|<\delta$ 时，
+因 $y\to\sqrt2$，可限制 $\left|y-\sqrt2\right|<1$，此时 $\left|y+\sqrt2\right|\le2\sqrt2+1$. 取 $\delta=\min\left\{1,\ \frac{\delta_1}{2\sqrt2+1}\right\}$，则当 $0<\left|y-\sqrt2\right|<\delta$ 时，
 
 $$
 \left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|<\delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
@@ -109,7 +109,7 @@ $$
 
 (2) $y=\cos x\cdot\operatorname{sgn}x$;
 
-(3) $y=\dfrac{\left|x\right|}{x}\cdot\dfrac1{1+x^n}$.
+(3) $y=\frac{\left|x\right|}{x}\cdot\frac1{1+x^n}$.
 
 ### 解答 习题七
 
@@ -117,14 +117,14 @@ $$
 
 （2）当 $x\to0+0$ 时 $\operatorname{sgn}x=1$，故 $y=\cos x\to1$，右极限为 $1$. 当 $x\to0-0$ 时 $\operatorname{sgn}x=-1$，故 $y=-\cos x\to-1$，左极限为 $-1$.
 
-（3）当 $x\to0+0$ 时 $\dfrac{\left|x\right|}{x}=1$，且 $\dfrac1{1+x^n}\to1$，右极限为 $1$. 当 $x\to0-0$ 时 $\dfrac{\left|x\right|}{x}=-1$，且 $\dfrac1{1+x^n}\to1$（因 $x^n\to0$），左极限为 $-1$. $\blacksquare$
+（3）当 $x\to0+0$ 时 $\frac{\left|x\right|}{x}=1$，且 $\frac1{1+x^n}\to1$，右极限为 $1$. 当 $x\to0-0$ 时 $\frac{\left|x\right|}{x}=-1$，且 $\frac1{1+x^n}\to1$（因 $x^n\to0$），左极限为 $-1$. $\blacksquare$
 
 ### 习题八
 
 （习题 1.5-7）求极限：
-(1) $\lim\limits_{x\to-1}\left(\dfrac1{x+1}-\dfrac3{x^3+1}\right)$;
+(1) $\lim\limits_{x\to-1}\left(\frac1{x+1}-\frac3{x^3+1}\right)$;
 
-(2) $\lim\limits_{x\to0}\dfrac{\sqrt{a^2+x}-a}{x}\ \left(a>0\right)$.
+(2) $\lim\limits_{x\to0}\frac{\sqrt{a^2+x}-a}{x}\ \left(a>0\right)$.
 
 ### 解答 习题八
 

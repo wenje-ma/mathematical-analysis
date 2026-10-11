@@ -81,7 +81,7 @@ $$
 （3）$D:0\le y\le1$, $0\le x\le y^2$. 由**定理 2.1** (先对 $x$ 积分),
 
 $$
-\begin{aligned}\iint_D e^{x/y}\,\mathrm{d}x\mathrm{d}y&=\int_0^1\mathrm{d}y\int_0^{y^2}e^{x/y}\,\mathrm{d}x\\&=\int_0^1\left(ye^y-y\right)\mathrm{d}y\\&=\bigl[ye^y-e^y-\tfrac12y^2\bigr]_0^1=\frac12.\end{aligned}
+\begin{aligned}\iint_D e^{x/y}\,\mathrm{d}x\mathrm{d}y&=\int_0^1\mathrm{d}y\int_0^{y^2}e^{x/y}\,\mathrm{d}x\\&=\int_0^1\left(ye^y-y\right)\mathrm{d}y\\&=\bigl[ye^y-e^y-\frac12y^2\bigr]_0^1=\frac12.\end{aligned}
 $$
 
 （4）$D:0\le x\le1$, $0\le y\le x^3$. 由**定理 2.1**,
@@ -185,7 +185,7 @@ $$
 \begin{aligned}\iint_D\sin\sqrt{x^2+y^2}\,\mathrm{d}x\mathrm{d}y&=\int_0^{2\pi}\mathrm{d}\theta\int_\pi^{2\pi}\sin r\cdot r\,\mathrm{d}r\\&=2\pi\bigl[\sin r-r\cos r\bigr]_\pi^{2\pi}\\&=2\pi\left(-2\pi-\pi\right)=-6\pi^2.\end{aligned}
 $$
 
-（2）将 $D$ 改写为 $\left(x-\tfrac12\right)^2+\left(y-\tfrac12\right)^2\le\tfrac12$. 令 $u=x-\tfrac12$, $v=y-\tfrac12$, 则 $D$ 变为 $u^2+v^2\le\tfrac12$. 由对称性, $\iint u=\iint v=0$, 故
+（2）将 $D$ 改写为 $\left(x-\frac12\right)^2+\left(y-\frac12\right)^2\le\frac12$. 令 $u=x-\frac12$, $v=y-\frac12$, 则 $D$ 变为 $u^2+v^2\le\frac12$. 由对称性, $\iint u=\iint v=0$, 故
 
 $$
 \iint_D\left(x+y\right)\,\mathrm{d}x\mathrm{d}y=\iint_{u^2+v^2\le1/2}\left(u+v+1\right)\,\mathrm{d}u\mathrm{d}v=\iint_{u^2+v^2\le1/2}1\,\mathrm{d}u\mathrm{d}v=\frac\pi2.

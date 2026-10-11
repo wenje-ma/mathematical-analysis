@@ -72,7 +72,7 @@ $$
 \iiint_\Omega z^3\,\mathrm{d}V=\int_0^h z^3\cdot\pi z^2\,\mathrm{d}z=\frac{\pi h^6}{6}.
 $$
 
-因此三重积分 $=4\cdot\dfrac{\pi h^6}{6}=\dfrac{2\pi h^6}{3}$. 在 $S_1$ 上, $\boldsymbol{F}\cdot\boldsymbol{n}=z^4=h^4$, $\iint_{S_1}h^4\,\mathrm{d}x\mathrm{d}y=h^4\cdot\pi h^2=\pi h^6$. 故
+因此三重积分 $=4\cdot\frac{\pi h^6}{6}=\frac{2\pi h^6}{3}$. 在 $S_1$ 上, $\boldsymbol{F}\cdot\boldsymbol{n}=z^4=h^4$, $\iint_{S_1}h^4\,\mathrm{d}x\mathrm{d}y=h^4\cdot\pi h^2=\pi h^6$. 故
 
 $$
 \oiint_{S^+}\boldsymbol{F}\cdot\boldsymbol{n}\,\mathrm{d}S=\frac{2\pi h^6}{3}-\pi h^6=-\frac{\pi h^6}{3}.
@@ -112,7 +112,7 @@ $$
 \nabla\times\boldsymbol{F}=2\left(y-z,\ z-x,\ x-y\right).
 $$
 
-曲面 $S$ 为上半球面 $z=\sqrt{2Rx-x^2-y^2}$, 投影 $D$: $x^2+y^2\le2rx$. $z_x=\dfrac{R-x}{z}$, $z_y=-\dfrac yz$. 由**定理 4.2**（斯托克斯公式）, 上侧:
+曲面 $S$ 为上半球面 $z=\sqrt{2Rx-x^2-y^2}$, 投影 $D$: $x^2+y^2\le2rx$. $z_x=\frac{R-x}{z}$, $z_y=-\frac yz$. 由**定理 4.2**（斯托克斯公式）, 上侧:
 
 $$
 \oint_{L^+}=\iint_D 2\left[\left(y-z\right)\frac{-\left(R-x\right)}{z}+\left(z-x\right)\frac yz+\left(x-y\right)\right]\mathrm{d}x\mathrm{d}y.

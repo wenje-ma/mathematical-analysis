@@ -1,6 +1,6 @@
 # 作业 11
 
-> **定义**（高阶导数）若 $y=f\left(x\right)$ 的导函数 $f'\left(x\right)$ 在 $x_0$ 点可导，则其导数称为 $f$ 的二阶导数，记作 $f''\left(x_0\right)$ 或 $\dfrac{\mathrm d^2f}{\mathrm dx^2}$. 一般地，$n$ 阶导数 $f^{\left(n\right)}\left(x\right)$ 由 $n-1$ 阶导数再求导得到.
+> **定义**（高阶导数）若 $y=f\left(x\right)$ 的导函数 $f'\left(x\right)$ 在 $x_0$ 点可导，则其导数称为 $f$ 的二阶导数，记作 $f''\left(x_0\right)$ 或 $\frac{\mathrm d^2f}{\mathrm dx^2}$. 一般地，$n$ 阶导数 $f^{\left(n\right)}\left(x\right)$ 由 $n-1$ 阶导数再求导得到.
 
 ### 习题一
 
@@ -17,13 +17,13 @@ $$
 y^{\left(n\right)}=x^2e^x+2nx e^x+n\left(n-1\right)e^x=e^x\left[x^2+2nx+n\left(n-1\right)\right].
 $$
 
-（4）$y'=\ln\left(1+x\right)+\dfrac{x}{1+x}$. $y''=\dfrac1{1+x}+\dfrac1{\left(1+x\right)^2}=\dfrac{2+x}{\left(1+x\right)^2}$. 一般地，对 $n\ge2$，
+（4）$y'=\ln\left(1+x\right)+\frac{x}{1+x}$. $y''=\frac1{1+x}+\frac1{\left(1+x\right)^2}=\frac{2+x}{\left(1+x\right)^2}$. 一般地，对 $n\ge2$，
 
 $$
 y^{\left(n\right)}=\left(-1\right)^n\frac{\left(n-2\right)!}{\left(1+x\right)^{n-1}}+\left(-1\right)^{n-1}\frac{\left(n-1\right)!}{\left(1+x\right)^n}.
 $$
 
-化简得 $y^{\left(n\right)}=\left(-1\right)^n\dfrac{\left(n-2\right)!}{\left(1+x\right)^{n-1}}\cdot\dfrac{x}{1+x}\ \left(n\ge2\right)$. $\blacksquare$
+化简得 $y^{\left(n\right)}=\left(-1\right)^n\frac{\left(n-2\right)!}{\left(1+x\right)^{n-1}}\cdot\frac{x}{1+x}\ \left(n\ge2\right)$. $\blacksquare$
 
 ### 习题二
 
@@ -31,9 +31,9 @@ $$
 
 ### 解答 习题二
 
-一阶导数：$f'\left(0\right)=\lim\limits_{x\to0}\dfrac{e^{-1/x^2}-0}{x}=\lim\limits_{t\to\infty}\dfrac{t}{e^{t^2}}=0$（令 $t=1/x$，指数增长快于幂函数）.
+一阶导数：$f'\left(0\right)=\lim\limits_{x\to0}\frac{e^{-1/x^2}-0}{x}=\lim\limits_{t\to\infty}\frac{t}{e^{t^2}}=0$（令 $t=1/x$，指数增长快于幂函数）.
 
-二阶导数：对 $x\ne0$，$f'\left(x\right)=\dfrac2{x^3}e^{-1/x^2}$. 故
+二阶导数：对 $x\ne0$，$f'\left(x\right)=\frac2{x^3}e^{-1/x^2}$. 故
 
 $$
 f''\left(0\right)=\lim\limits_{x\to0}\frac{f'\left(x\right)-0}{x}=\lim\limits_{x\to0}\frac{2e^{-1/x^2}}{x^4}=\lim\limits_{t\to\infty}\frac{2t^4}{e^{t^2}}=0.
@@ -43,19 +43,19 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 2.4-6）设 $y=\dfrac{ax+b}{cx+d}$，其中 $ad-bc=1$. 证明：
-(1) $y'=\dfrac1{\left(cx+d\right)^2}$;
+（习题 2.4-6）设 $y=\frac{ax+b}{cx+d}$，其中 $ad-bc=1$. 证明：
+(1) $y'=\frac1{\left(cx+d\right)^2}$;
 
-(2) $y^{\left(n\right)}=\left(-1\right)^{n+1}\cdot\dfrac{n!\,c^{n-1}}{\left(cx+d\right)^{n+1}}$.
+(2) $y^{\left(n\right)}=\left(-1\right)^{n+1}\cdot\frac{n!\,c^{n-1}}{\left(cx+d\right)^{n+1}}$.
 
 ### 解答 习题三
 
-（1）$y'=\dfrac{a\left(cx+d\right)-c\left(ax+b\right)}{\left(cx+d\right)^2}=\dfrac{ad-bc}{\left(cx+d\right)^2}=\dfrac1{\left(cx+d\right)^2}$.
+（1）$y'=\frac{a\left(cx+d\right)-c\left(ax+b\right)}{\left(cx+d\right)^2}=\frac{ad-bc}{\left(cx+d\right)^2}=\frac1{\left(cx+d\right)^2}$.
 
-（2）对 $n$ 归纳. $n=1$ 时即（1）. 假设 $y^{\left(n\right)}=\left(-1\right)^{n+1}\dfrac{n!c^{n-1}}{\left(cx+d\right)^{n+1}}$，则
+（2）对 $n$ 归纳. $n=1$ 时即（1）. 假设 $y^{\left(n\right)}=\left(-1\right)^{n+1}\frac{n!c^{n-1}}{\left(cx+d\right)^{n+1}}$，则
 
 $$
-y^{\left(n+1\right)}=\left(-1\right)^{n+1}n!c^{n-1}\cdot\left(-\left(n+1\right)\right)c\cdot\left(cx+d\right)^{-\left(n+2\right)}=\left(-1\right)^{n+2}\dfrac{\left(n+1\right)!c^n}{\left(cx+d\right)^{n+2}}.
+y^{\left(n+1\right)}=\left(-1\right)^{n+1}n!c^{n-1}\cdot\left(-\left(n+1\right)\right)c\cdot\left(cx+d\right)^{-\left(n+2\right)}=\left(-1\right)^{n+2}\frac{\left(n+1\right)!c^n}{\left(cx+d\right)^{n+2}}.
 $$
 
 归纳完成. $\blacksquare$

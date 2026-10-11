@@ -1,6 +1,6 @@
 # 作业 52
 
-> **定义**（内积与范数）在 $R\left[-\pi,\pi\right]$ 中定义内积 $\left\langle f,g\right\rangle=\dfrac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)g\left(x\right)\,\mathrm{d}x$，范数 $\lVert f\rVert=\sqrt{\left\langle f,f\right\rangle}=\left(\dfrac1\pi\displaystyle\int_{-\pi}^\pi f^2\left(x\right)\,\mathrm{d}x\right)^{1/2}$.
+> **定义**（内积与范数）在 $R\left[-\pi,\pi\right]$ 中定义内积 $\left\langle f,g\right\rangle=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)g\left(x\right)\,\mathrm{d}x$，范数 $\lVert f\rVert=\sqrt{\left\langle f,f\right\rangle}=\left(\frac1\pi\displaystyle\int_{-\pi}^\pi f^2\left(x\right)\,\mathrm{d}x\right)^{1/2}$.
 
 > **命题**（三角函数系的正交性）三角函数系 $1,\cos x,\sin x,\cos2x,\sin2x,\cdots$ 在 $\left[-\pi,\pi\right]$ 上两两正交，即任意两个不同元素之积在 $\left[-\pi,\pi\right]$ 上的积分为 $0$；且 $\displaystyle\int_{-\pi}^\pi1\,\mathrm{d}x=2\pi$，$\displaystyle\int_{-\pi}^\pi\cos^2 nx\,\mathrm{d}x=\int_{-\pi}^\pi\sin^2 nx\,\mathrm{d}x=\pi\ \left(n=1,2,\cdots\right)$.
 
@@ -68,7 +68,7 @@ $$
 
 于是 $\left\langle f,g\right\rangle^2=\lambda^2\lVert f\rVert^4=\lVert f\rVert^2\lVert g\rVert^2$，等号成立.
 
-（$\Rightarrow$）若等号成立，即 $\left\langle f,g\right\rangle^2=\lVert f\rVert^2\lVert g\rVert^2$. 由习题二，二次三项式 $\lVert f\rVert^2\lambda^2-2\left\langle f,g\right\rangle\lambda+\lVert g\rVert^2$ 的判别式为 $0$，故存在二重根 $\lambda_0=\dfrac{\left\langle f,g\right\rangle}{\lVert f\rVert^2}$，使 $\lVert f-\lambda_0 g\rVert^2=0$. 因 $f,g$ 连续，$\displaystyle\int_{-\pi}^\pi\left(f\left(x\right)-\lambda_0 g\left(x\right)\right)^2\,\mathrm{d}x=0$ 推出 $f\left(x\right)-\lambda_0 g\left(x\right)\equiv0$，即 $f\equiv\lambda_0 g$. $\blacksquare$
+（$\Rightarrow$）若等号成立，即 $\left\langle f,g\right\rangle^2=\lVert f\rVert^2\lVert g\rVert^2$. 由习题二，二次三项式 $\lVert f\rVert^2\lambda^2-2\left\langle f,g\right\rangle\lambda+\lVert g\rVert^2$ 的判别式为 $0$，故存在二重根 $\lambda_0=\frac{\left\langle f,g\right\rangle}{\lVert f\rVert^2}$，使 $\lVert f-\lambda_0 g\rVert^2=0$. 因 $f,g$ 连续，$\displaystyle\int_{-\pi}^\pi\left(f\left(x\right)-\lambda_0 g\left(x\right)\right)^2\,\mathrm{d}x=0$ 推出 $f\left(x\right)-\lambda_0 g\left(x\right)\equiv0$，即 $f\equiv\lambda_0 g$. $\blacksquare$
 
 ### 习题四
 

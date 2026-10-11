@@ -84,7 +84,7 @@ $\blacksquare$
 
 ### 习题四
 
-（习题 9.1-7）求 $\displaystyle\int_L xy\,\mathrm{d}s$, 其中 $L$ 为椭圆 $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$ 在第一象限的部分.
+（习题 9.1-7）求 $\displaystyle\int_L xy\,\mathrm{d}s$, 其中 $L$ 为椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ 在第一象限的部分.
 
 ### 解答 习题四
 
@@ -114,9 +114,9 @@ $\blacksquare$
 
 $$
 \begin{cases}
-x=\dfrac a{\sqrt2}\left(\dfrac1{\sqrt3}\cos t-\sin t\right),\\[4pt\right]
-y=\dfrac a{\sqrt2}\left(\dfrac1{\sqrt3}\cos t+\sin t\right),\\[4pt\right]
-z=-\dfrac{\sqrt2}{\sqrt3}a\cos t,
+x=\frac a{\sqrt2}\left(\frac1{\sqrt3}\cos t-\sin t\right),\\[4pt\right]
+y=\frac a{\sqrt2}\left(\frac1{\sqrt3}\cos t+\sin t\right),\\[4pt\right]
+z=-\frac{\sqrt2}{\sqrt3}a\cos t,
 \end{cases}\ \left(0\le t\le2\pi,\ a>0\right).
 $$
 

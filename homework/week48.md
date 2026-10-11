@@ -7,7 +7,7 @@
 
 ### 习题一
 
-（习题 12.3-2-5）求函数 $\displaystyle I\left(y\right)=\int_{\sin y}^{\cos y}e^{y\sqrt{1-x^2}}\,\mathrm{d}x$（$y\in\left[0,\dfrac{\pi}{2}\right]$）的导数.
+（习题 12.3-2-5）求函数 $\displaystyle I\left(y\right)=\int_{\sin y}^{\cos y}e^{y\sqrt{1-x^2}}\,\mathrm{d}x$（$y\in\left[0,\frac{\pi}{2}\right]$）的导数.
 
 ### 解答 习题一
 
@@ -37,13 +37,13 @@ $$
 I'\left(y\right)=y\sin\!\left(y\cdot\frac{x}{y}\right)\!\left(-\frac{x}{y^2}\right)+\int_0^{x/y}\bigl[\sin\left(xy\right)+xy\cos\left(xy\right)\bigr]\,\mathrm{d}x.
 $$
 
-注意到 $\dfrac{\mathrm{d}}{\mathrm{d}x}\bigl[x\sin\left(xy\right)\bigr]=\sin\left(xy\right)+xy\cos\left(xy\right)$，故
+注意到 $\frac{\mathrm{d}}{\mathrm{d}x}\bigl[x\sin\left(xy\right)\bigr]=\sin\left(xy\right)+xy\cos\left(xy\right)$，故
 
 $$
 \int_0^{x/y}\bigl[\sin\left(xy\right)+xy\cos\left(xy\right)\bigr]\,\mathrm{d}x=\bigl[x\sin\left(xy\right)\bigr]_0^{x/y}=\frac{x}{y}\sin x.
 $$
 
-而边界项为 $-\dfrac{x}{y}\sin x$，两者相消，故
+而边界项为 $-\frac{x}{y}\sin x$，两者相消，故
 
 $$
 I'\left(y\right)=-\frac{x}{y}\sin x+\frac{x}{y}\sin x=0.
@@ -77,7 +77,7 @@ $\blacksquare$
 
 ### 解答 习题四
 
-被积函数 $f\left(x,y\right)=\dfrac{\ln\left(1+xy\right)}{x}$，$f_y=\dfrac{1}{1+xy}$，上限 $b\left(y\right)=y$，$b'\left(y\right)=1$. 由**定理 3.3**（积分号下求导），
+被积函数 $f\left(x,y\right)=\frac{\ln\left(1+xy\right)}{x}$，$f_y=\frac{1}{1+xy}$，上限 $b\left(y\right)=y$，$b'\left(y\right)=1$. 由**定理 3.3**（积分号下求导），
 
 $$
 I'\left(y\right)=\frac{\ln\left(1+y^2\right)}{y}\cdot 1+\int_0^y\frac{\mathrm{d}x}{1+xy},
@@ -115,7 +115,7 @@ $$
 I'\left(r\right)=\frac{\pi}{r}-\frac{1-r^2}{r}\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos x+r^2}.
 $$
 
-作代换 $t=\tan\dfrac{x}{2}$，可得标准积分
+作代换 $t=\tan\frac{x}{2}$，可得标准积分
 
 $$
 \int_0^\pi\frac{\mathrm{d}x}{1-2r\cos x+r^2}=\frac{\pi}{1-r^2}\ \left(\left|r\right|<1\right).
@@ -153,7 +153,7 @@ $$
 \frac{-\cos\theta}{1-\alpha\cos\theta}=\frac1\alpha-\frac{1}{\alpha\left(1-\alpha\cos\theta\right)}.
 $$
 
-作代换 $t=\tan\dfrac{\theta}{2}$，可得标准积分
+作代换 $t=\tan\frac{\theta}{2}$，可得标准积分
 
 $$
 \int_0^{2\pi}\frac{\mathrm{d}\theta}{1-\alpha\cos\theta}=\frac{2\pi}{\sqrt{1-\alpha^2}}\ \left(\left|\alpha\right|<1\right).
@@ -175,7 +175,7 @@ $$
 =\frac{\sqrt{1-\alpha^2}-1}{\alpha\sqrt{1-\alpha^2}},
 $$
 
-（末步有理化：$\dfrac{1}{1+\sqrt{1-\alpha^2}}=\dfrac{1-\sqrt{1-\alpha^2}}{\alpha^2}$），故
+（末步有理化：$\frac{1}{1+\sqrt{1-\alpha^2}}=\frac{1-\sqrt{1-\alpha^2}}{\alpha^2}$），故
 
 $$
 I\left(\alpha\right)=2\pi\ln\frac{1+\sqrt{1-\alpha^2}}{2}+C.

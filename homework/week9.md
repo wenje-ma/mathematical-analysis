@@ -1,6 +1,6 @@
 # 作业 9
 
-> **定理 2.1**（复合函数求导法则）设 $y=f\left(u\right)$ 在 $u$ 处可导，$u=g\left(x\right)$ 在 $x$ 处可导，则复合函数 $y=f\left(g\left(x\right)\right)$ 在 $x$ 处可导，且 $\dfrac{\mathrm dy}{\mathrm dx}=\dfrac{\mathrm dy}{\mathrm du}\cdot\dfrac{\mathrm du}{\mathrm dx}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
+> **定理 2.1**（复合函数求导法则）设 $y=f\left(u\right)$ 在 $u$ 处可导，$u=g\left(x\right)$ 在 $x$ 处可导，则复合函数 $y=f\left(g\left(x\right)\right)$ 在 $x$ 处可导，且 $\frac{\mathrm dy}{\mathrm dx}=\frac{\mathrm dy}{\mathrm du}\cdot\frac{\mathrm du}{\mathrm dx}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
 
 ### 习题一
 
@@ -32,7 +32,7 @@ $\blacksquare$
 
 ### 习题三
 
-（习题 2.2-3-4）求导函数：$y=\dfrac12\sqrt{a^2-x^2}$.
+（习题 2.2-3-4）求导函数：$y=\frac12\sqrt{a^2-x^2}$.
 
 ### 解答 习题三
 
@@ -44,7 +44,7 @@ $\blacksquare$
 
 ### 习题四
 
-（习题 2.2-3-6）求导函数：$y=\dfrac12\left(e^x-e^{-x}\right)$.
+（习题 2.2-3-6）求导函数：$y=\frac12\left(e^x-e^{-x}\right)$.
 
 ### 解答 习题四
 
@@ -139,6 +139,6 @@ $$
 
 ### 解答 习题十
 
-（1）两边对 $x$ 求导：$2x+2yy'=0$，故 $y'=-\dfrac{x}{y}$.
+（1）两边对 $x$ 求导：$2x+2yy'=0$，故 $y'=-\frac{x}{y}$.
 
-（2）两边对 $x$ 求导：$2yy'-2\left(y+xy'\right)-2x-2=0$，整理得 $\left(2y-2x\right)y'=2y+2x+2$，故 $y'=\dfrac{y+x+1}{y-x}$. $\blacksquare$
+（2）两边对 $x$ 求导：$2yy'-2\left(y+xy'\right)-2x-2=0$，整理得 $\left(2y-2x\right)y'=2y+2x+2$，故 $y'=\frac{y+x+1}{y-x}$. $\blacksquare$

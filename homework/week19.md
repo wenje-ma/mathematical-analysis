@@ -12,7 +12,7 @@
 
 ### 解答 习题一
 
-令 $u=2x+3$，则 $\mathrm{d}u=2\mathrm{d}x$，即 $\mathrm{d}x=\dfrac12\mathrm{d}u$. 由**定理 2.1**（第一换元法则），
+令 $u=2x+3$，则 $\mathrm{d}u=2\mathrm{d}x$，即 $\mathrm{d}x=\frac12\mathrm{d}u$. 由**定理 2.1**（第一换元法则），
 $$
 \int\sqrt{2x+3}\,\mathrm{d}x=\frac12\int u^{1/2}\,\mathrm{d}u=\frac12\cdot\frac23u^{3/2}+C=\frac13\left(2x+3\right)^{3/2}+C.
 $$ $\blacksquare$
@@ -50,7 +50,7 @@ $$
 \frac{1}{a^2+b^2x^2}=\frac{1}{a^2}\cdot\frac{1}{1+\left(\frac{bx}{a}\right)^2}.
 $$
 
-令 $u=\dfrac{bx}{a}$，则 $\mathrm{d}u=\dfrac{b}{a}\mathrm{d}x$，即 $\mathrm{d}x=\dfrac{a}{b}\mathrm{d}u$. 由**定理 2.1**（第一换元法则），
+令 $u=\frac{bx}{a}$，则 $\mathrm{d}u=\frac{b}{a}\mathrm{d}x$，即 $\mathrm{d}x=\frac{a}{b}\mathrm{d}u$. 由**定理 2.1**（第一换元法则），
 $$
 \int\frac{\mathrm{d}x}{a^2+b^2x^2}=\frac{1}{a^2}\cdot\frac{a}{b}\int\frac{\mathrm{d}u}{1+u^2}=\frac{1}{ab}\arctan u+C=\frac{1}{ab}\arctan\frac{bx}{a}+C.
 $$ $\blacksquare$
@@ -71,7 +71,7 @@ $$
 \int\frac{\mathrm{d}x}{\sin x+\cos x}=\frac{1}{\sqrt2}\int\frac{\mathrm{d}x}{\sin\left(x+\frac{\pi}{4}\right)}.
 $$
 
-令 $u=x+\dfrac{\pi}{4}$，则 $\mathrm{d}u=\mathrm{d}x$. 由**定理 2.1**（第一换元法则），
+令 $u=x+\frac{\pi}{4}$，则 $\mathrm{d}u=\mathrm{d}x$. 由**定理 2.1**（第一换元法则），
 $$
 \int\frac{\mathrm{d}u}{\sin u}=\int\csc u\,\mathrm{d}u=\ln\left|\csc u-\cot u\right|+C.
 $$
@@ -87,17 +87,17 @@ $$ $\blacksquare$
 
 ### 解答 习题六
 
-令 $x=a\sin t$（$-\dfrac{\pi}{2}\le t\le\dfrac{\pi}{2}$），则 $\mathrm{d}x=a\cos t\,\mathrm{d}t$，且 $\sqrt{a^2-x^2}=a\cos t$. 由**定理 2.2**（第二换元法则），
+令 $x=a\sin t$（$-\frac{\pi}{2}\le t\le\frac{\pi}{2}$），则 $\mathrm{d}x=a\cos t\,\mathrm{d}t$，且 $\sqrt{a^2-x^2}=a\cos t$. 由**定理 2.2**（第二换元法则），
 $$
 \int\sqrt{a^2-x^2}\,\mathrm{d}x=\int a\cos t\cdot a\cos t\,\mathrm{d}t=a^2\int\cos^2t\,\mathrm{d}t.
 $$
 
-利用 $\cos^2t=\dfrac{1+\cos2t}{2}$，
+利用 $\cos^2t=\frac{1+\cos2t}{2}$，
 $$
 a^2\int\cos^2t\,\mathrm{d}t=\frac{a^2}{2}\left(t+\frac{\sin2t}{2}\right)+C=\frac{a^2}{2}\left(t+\sin t\cos t\right)+C.
 $$
 
-代回 $t=\arcsin\dfrac{x}{a}$，$\sin t=\dfrac{x}{a}$，$\cos t=\dfrac{\sqrt{a^2-x^2}}{a}$，得
+代回 $t=\arcsin\frac{x}{a}$，$\sin t=\frac{x}{a}$，$\cos t=\frac{\sqrt{a^2-x^2}}{a}$，得
 $$
 \int\sqrt{a^2-x^2}\,\mathrm{d}x=\frac{a^2}{2}\arcsin\frac{x}{a}+\frac{x}{2}\sqrt{a^2-x^2}+C.
 $$ $\blacksquare$
@@ -108,12 +108,12 @@ $$ $\blacksquare$
 
 ### 解答 习题七
 
-令 $x=a\tan t$（$-\dfrac{\pi}{2}<t<\dfrac{\pi}{2}$），则 $\mathrm{d}x=a\sec^2t\,\mathrm{d}t$，且 $\sqrt{x^2+a^2}=a\sec t$. 由**定理 2.2**（第二换元法则），
+令 $x=a\tan t$（$-\frac{\pi}{2}<t<\frac{\pi}{2}$），则 $\mathrm{d}x=a\sec^2t\,\mathrm{d}t$，且 $\sqrt{x^2+a^2}=a\sec t$. 由**定理 2.2**（第二换元法则），
 $$
 \int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}=\int\frac{a\sec^2t}{a\sec t}\,\mathrm{d}t=\int\sec t\,\mathrm{d}t=\ln\left|\sec t+\tan t\right|+C.
 $$
 
-代回 $\tan t=\dfrac{x}{a}$，$\sec t=\dfrac{\sqrt{x^2+a^2}}{a}$，得
+代回 $\tan t=\frac{x}{a}$，$\sec t=\frac{\sqrt{x^2+a^2}}{a}$，得
 $$
 \int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}=\ln\left|\frac{x+\sqrt{x^2+a^2}}{a}\right|+C=\ln\left(x+\sqrt{x^2+a^2}\right)+C'.
 $$ $\blacksquare$
@@ -124,7 +124,7 @@ $$ $\blacksquare$
 
 ### 解答 习题八
 
-令 $x=a\sec t$（$0<t<\dfrac{\pi}{2}$），则 $\mathrm{d}x=a\sec t\tan t\,\mathrm{d}t$，且 $\sqrt{x^2-a^2}=a\tan t$. 由**定理 2.2**（第二换元法则），
+令 $x=a\sec t$（$0<t<\frac{\pi}{2}$），则 $\mathrm{d}x=a\sec t\tan t\,\mathrm{d}t$，且 $\sqrt{x^2-a^2}=a\tan t$. 由**定理 2.2**（第二换元法则），
 $$
 \int\sqrt{x^2-a^2}\,\mathrm{d}x=\int a\tan t\cdot a\sec t\tan t\,\mathrm{d}t=a^2\int\tan^2t\sec t\,\mathrm{d}t.
 $$
@@ -150,7 +150,7 @@ $$
 \int\frac{\mathrm{d}x}{x\sqrt{a^2-x^2}}=\int\frac{a\cos t\,\mathrm{d}t}{a\sin t\cdot a\cos t}=\frac1a\int\frac{\mathrm{d}t}{\sin t}=\frac1a\ln\left|\csc t-\cot t\right|+C.
 $$
 
-代回 $\csc t=\dfrac{a}{x}$，$\cot t=\dfrac{\sqrt{a^2-x^2}}{x}$，得
+代回 $\csc t=\frac{a}{x}$，$\cot t=\frac{\sqrt{a^2-x^2}}{x}$，得
 $$
 \int\frac{\mathrm{d}x}{x\sqrt{a^2-x^2}}=\frac1a\ln\left|\frac{a-\sqrt{a^2-x^2}}{x}\right|+C.
 $$ $\blacksquare$
@@ -166,7 +166,7 @@ $$
 7+x-x^2=\frac{29}{4}-\left(x-\frac12\right)^2.
 $$
 
-令 $u=x-\dfrac12$，则 $\mathrm{d}u=\mathrm{d}x$. 由**定理 2.1**（第一换元法则），
+令 $u=x-\frac12$，则 $\mathrm{d}u=\mathrm{d}x$. 由**定理 2.1**（第一换元法则），
 $$
 \int\sqrt{7+x-x^2}\,\mathrm{d}x=\int\sqrt{\frac{29}{4}-u^2}\,\mathrm{d}u.
 $$
@@ -176,7 +176,7 @@ $$
 \int\sqrt{a^2-u^2}\,\mathrm{d}u=\frac{a^2}{2}\arcsin\frac{u}{a}+\frac{u}{2}\sqrt{a^2-u^2}+C,
 $$
 
-其中 $a=\dfrac{\sqrt{29}}{2}$. 代回即得
+其中 $a=\frac{\sqrt{29}}{2}$. 代回即得
 $$
 \int\sqrt{7+x-x^2}\,\mathrm{d}x=\frac{29}{8}\arcsin\frac{2x-1}{\sqrt{29}}+\frac{2x-1}{4}\sqrt{7+x-x^2}+C.
 $$ $\blacksquare$
@@ -202,7 +202,7 @@ $$
 \frac{1}{a^2}\int\frac{\cos t}{\sin^2t}\,\mathrm{d}t=\frac{1}{a^2}\int\frac{\mathrm{d}u}{u^2}=-\frac{1}{a^2u}+C.
 $$
 
-代回 $u=\sin t=\dfrac{x}{\sqrt{x^2+a^2}}$，得
+代回 $u=\sin t=\frac{x}{\sqrt{x^2+a^2}}$，得
 $$
 \int\frac{\mathrm{d}x}{x^2\sqrt{x^2+a^2}}=-\frac{\sqrt{x^2+a^2}}{a^2x}+C.
 $$ $\blacksquare$
