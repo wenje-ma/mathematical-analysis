@@ -8,7 +8,7 @@
 
 **定义**（有序域）
 
-在一个数域中建立了大小关系, 并且满足下述性质, 则称之为有序域: 对任意 $\alpha,b$, $\alpha=b$, $\alpha<b$, $b<\alpha$ 三种情况有且仅有一种成立; 且当 $a<b,b<c$ 时 $a<c$; 当 $a<b$ 时 $a+c<b+c$; 当 $0<a,b$ 时 $a\cdot b>0$.
+在一个数域中建立了大小关系, 并且满足下述性质, 则称之为有序域: 对任意 $\alpha,b$, $\alpha=b$, $\alpha< b$, $b< \alpha$ 三种情况有且仅有一种成立; 且当 $a< b,b< c$ 时 $a< c$; 当 $a< b$ 时 $a+c< b+c$; 当 $0< a,b$ 时 $a\cdot b> 0$.
 
 **命题 1.1**（有理数域为有序域）
 
@@ -74,13 +74,13 @@ $\sqrt2$ 不是有理数.
 
 **命题 2.1**（有界函数的充要条件）
 
-函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M>0$, 使得 $\left|f\left(x\right)\right|\le M,\forall x\in X$.
+函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M> 0$, 使得 $\left|f\left(x\right)\right|\le M,\forall x\in X$.
 
 ## 序列的极限
 
 **定义**（序列极限）
 
-设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|<\varepsilon$, 只要 $n>N$, 则我们称 $a_n$ 以 $l$ 为极限, 记作
+设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|< \varepsilon$, 只要 $n> N$, 则我们称 $a_n$ 以 $l$ 为极限, 记作
 
 $$
 \lim\limits_{n\to\infty}a_n=l.
@@ -122,7 +122,7 @@ $$
 \lim\limits_{n\to\infty}\left(1+\frac1n\right)^n=e.
 $$
 
-其中 $e$ 为无理数, $2<e<3$.
+其中 $e$ 为无理数, $2< e< 3$.
 
 **定义**（无穷小量）
 
@@ -132,7 +132,7 @@ $$
 
 **定义**（函数极限）
 
-设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\varepsilon>0$, 无论它多么小, 都存在一个 $\delta>0$, 使得当 $0<\left|x-a\right|<\delta$ 时, $\left|f\left(x\right)-l\right|<\varepsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作
+设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\varepsilon> 0$, 无论它多么小, 都存在一个 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \varepsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作
 
 $$
 \lim\limits_{x\to a}f\left(x\right)=l.
@@ -163,7 +163,7 @@ $$
 
 **命题**（保号性）
 
-若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l\ne0$, 则存在 $\delta>0$ 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)\right|>\frac{\left|l\right|}{2}$.
+若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l\ne0$, 则存在 $\delta> 0$ 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
 
 ## 函数极限的性质
 
@@ -285,13 +285,13 @@ $$
 
 **定理 1.5**（单调性判定）
 
-设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 可导. 若 $f'\left(x\right)>0$($\ge 0$)$\forall x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递增(递增); 若 $f'\left(x\right)<0$($\le 0$)$\forall x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递减(递减).
+设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 可导. 若 $f'\left(x\right)> 0$($\ge 0$)$\forall x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递增(递增); 若 $f'\left(x\right)< 0$($\le 0$)$\forall x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递减(递减).
 
 ## 柯西中值定理与洛必达法则
 
 **定理 2.1**（柯西中值定理）
 
-设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $\left[a,b\right]$ 中连续, 在 $\left(a,b\right)$ 中可导, 且 $g'\left(x\right)\ne0$($a<x<b$). 则存在点 $c\in\left(a,b\right)$, 使得
+设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $\left[a,b\right]$ 中连续, 在 $\left(a,b\right)$ 中可导, 且 $g'\left(x\right)\ne0$($a< x< b$). 则存在点 $c\in\left(a,b\right)$, 使得
 $$
 \frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}.
 $$
@@ -317,11 +317,11 @@ $$
 
 **定理 3.1**（极值点第一充分条件）
 
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, 且 $x_0\in\left(a,b\right)$ 是 $f$ 的一个稳定点, 即 $f'\left(x_0\right)=0$. 若存在 $r>0$, 使得区间 $\left(x_0-r,x_0+r\right)\subset\left(a,b\right)$, 且当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)>0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)<0$, 则 $f\left(x_0\right)$ 是极大值; 若当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)<0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)>0$, 则 $f\left(x_0\right)$ 是极小值.
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, 且 $x_0\in\left(a,b\right)$ 是 $f$ 的一个稳定点, 即 $f'\left(x_0\right)=0$. 若存在 $r> 0$, 使得区间 $\left(x_0-r,x_0+r\right)\subset\left(a,b\right)$, 且当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)> 0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)< 0$, 则 $f\left(x_0\right)$ 是极大值; 若当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)< 0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)> 0$, 则 $f\left(x_0\right)$ 是极小值.
 
 **定理 3.2**（极值点第二充分条件）
 
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, $x_0\in\left(a,b\right)$ 是其稳定点, 并假定 $f$ 在 $x_0$ 有二阶导数. 若 $f''\left(x_0\right)>0$, 则 $x_0$ 为极小值点; 若 $f''\left(x_0\right)<0$, 则 $x_0$ 为极大值点.
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, $x_0\in\left(a,b\right)$ 是其稳定点, 并假定 $f$ 在 $x_0$ 有二阶导数. 若 $f''\left(x_0\right)> 0$, 则 $x_0$ 为极小值点; 若 $f''\left(x_0\right)< 0$, 则 $x_0$ 为极大值点.
 
 **命题 3.1**（唯一极值点即全局极值点）
 
@@ -345,7 +345,7 @@ $$
 
 **定义**（凸函数）
 
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对 $\left(a,b\right)$ 中任意两点 $x_1$ 与 $x_2$($x_1<x_2$), 都有
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对 $\left(a,b\right)$ 中任意两点 $x_1$ 与 $x_2$($x_1< x_2$), 都有
 $$
 f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right),
 $$
@@ -403,7 +403,7 @@ $$
 
 **定理 4.1**（有理函数的分解）
 
-任何有理函数 $\frac{P\left(x\right)}{Q\left(x\right)}$ 都可以分解为一个多项式与若干部分分式之和, 其中每个部分分式形如 $\frac{A}{\left(x-a\right)^k}$ 或 $\frac{Bx+C}{\left(x^2+px+q\right)^m}$($p^2-4q<0$).
+任何有理函数 $\frac{P\left(x\right)}{Q\left(x\right)}$ 都可以分解为一个多项式与若干部分分式之和, 其中每个部分分式形如 $\frac{A}{\left(x-a\right)^k}$ 或 $\frac{Bx+C}{\left(x^2+px+q\right)^m}$($p^2-4q< 0$).
 
 ## 不定积分的有理化方法
 
@@ -426,7 +426,7 @@ $$
 设 $E$ 为有界集合. 若存在实数 $\beta$ 满足: 
 (1) $\beta$ 是 $E$ 的上界($\forall x\in E,x\le\beta$); 
 
-(2) 对任意 $\varepsilon>0$, 存在 $x_0\in E$ 使得 $x_0>\beta-\varepsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
+(2) 对任意 $\varepsilon> 0$, 存在 $x_0\in E$ 使得 $x_0> \beta-\varepsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
 
 **定义**（振幅）
 
@@ -450,13 +450,13 @@ $$
 
 **定理 2.2**（柯西收敛原理）
 
-序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\varepsilon>0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|<\varepsilon$ (只要 $m\ge N,n\ge N$).
+序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\varepsilon> 0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|< \varepsilon$ (只要 $m\ge N,n\ge N$).
 
 ## 闭区间上连续函数的一致连续性
 
 **定义**（一致连续）
 
-设 $y=f\left(x\right)$ 在一个区间 $X$ 上有定义. 如果对任意给定的 $\varepsilon>0$, 存在一个 $\delta>0$, 使得 $X$ 中的任意两点 $x_1$ 与 $x_2$, 都有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|<\varepsilon$ (只要 $\left|x_1-x_2\right|<\delta$), 则称 $y=f\left(x\right)$ 在 $X$ 中一致连续.
+设 $y=f\left(x\right)$ 在一个区间 $X$ 上有定义. 如果对任意给定的 $\varepsilon> 0$, 存在一个 $\delta> 0$, 使得 $X$ 中的任意两点 $x_1$ 与 $x_2$, 都有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$ (只要 $\left|x_1-x_2\right|< \delta$), 则称 $y=f\left(x\right)$ 在 $X$ 中一致连续.
 
 **定理 3.2**（有限覆盖定理）
 
@@ -473,12 +473,12 @@ $$
 设 $f\left(x\right)$ 定义在区间 $\left[a,b\right]$ 上. 对 $\left[a,b\right]$ 作分割
 
 $$
-T:a=x_0<x_1<\cdots<x_n=b,
+T:a=x_0< x_1< \cdots< x_n=b,
 $$
-记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\varepsilon>0$, 存在 $\delta>0$, 只要 $\lambda\left(T\right)<\delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
+记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 只要 $\lambda\left(T\right)< \delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
 
 $$
-\left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|<\varepsilon,
+\left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \varepsilon,
 $$
 
 则称 $I$ 为 $f\left(x\right)$ 在 $\left[a,b\right]$ 上的定积分, 记作
@@ -803,17 +803,17 @@ $$
 \lim_{n\to\infty}\frac{a_n}{b_n}=l.
 $$
 
-当 $0<l<+\infty$ 时, 两级数同时收敛或同时发散.
+当 $0< l< +\infty$ 时, 两级数同时收敛或同时发散.
 
 **定理 2.6**（达朗贝尔判别法）
 
-设 $\sum a_n$ 为正项级数, $a_n>0$. 若
+设 $\sum a_n$ 为正项级数, $a_n> 0$. 若
 
 $$
 \lim_{n\to\infty}\frac{a_{n+1}}{a_n}=r,
 $$
 
-则当 $r<1$ 时级数收敛, 当 $r>1$ 时级数发散.
+则当 $r< 1$ 时级数收敛, 当 $r> 1$ 时级数发散.
 
 **定理 2.9**（积分判别法）
 
@@ -833,7 +833,7 @@ $$
 
 **定理 4.1**（无穷乘积与级数的关系）
 
-设 $p_n>0$($n=1,2,\dots$), 则无穷乘积 $\prod_{n=1}^{\infty}p_n$ 收敛的充要条件是级数 $\sum_{n=1}^{\infty}\ln p_n$ 收敛, 且此时
+设 $p_n> 0$($n=1,2,\dots$), 则无穷乘积 $\prod_{n=1}^{\infty}p_n$ 收敛的充要条件是级数 $\sum_{n=1}^{\infty}\ln p_n$ 收敛, 且此时
 $$
 \prod_{n=1}^{\infty}p_n=\exp\left(\sum_{n=1}^{\infty}\ln p_n\right).
 $$
@@ -849,11 +849,11 @@ $$
 
 **定义**（函数序列的一致收敛）
 
-设 $\left\{f_n\left(x\right)\right\}$ 在集合 $X$ 上有定义, $f\left(x\right)$ 为 $X$ 上的函数. 若对任意 $\varepsilon>0$, 存在自然数 $N$, 使得当 $n>N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|<\varepsilon$, 则称 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
+设 $\left\{f_n\left(x\right)\right\}$ 在集合 $X$ 上有定义, $f\left(x\right)$ 为 $X$ 上的函数. 若对任意 $\varepsilon> 0$, 存在自然数 $N$, 使得当 $n> N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$, 则称 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
 
 **定理 1.1**（M 判别法）
 
-设存在数列 $M_n>0$, $M_n\to 0$, 使得 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ 对一切 $x\in X$ 成立, 则 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
+设存在数列 $M_n> 0$, $M_n\to 0$, 使得 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ 对一切 $x\in X$ 成立, 则 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
 
 **定理 1.2**（极限函数的连续性）
 
@@ -927,9 +927,9 @@ $$
 
 $$
 \begin{aligned}
-e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}\ \left(\left|x\right|<+\infty\right),\\
-\ln\left(1+x\right)&=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|<1\right),\\
-\cos x&=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}\ \left(\left|x\right|<+\infty\right).
+e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}\ \left(\left|x\right|< +\infty\right),\\
+\ln\left(1+x\right)&=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right),\\
+\cos x&=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}\ \left(\left|x\right|< +\infty\right).
 \end{aligned}
 $$
 
@@ -941,15 +941,15 @@ $$
 
 **例 1.2**（$p$-积分）
 
-无穷积分 $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p>1$ 时收敛, 当 $p\le 1$ 时发散.
+无穷积分 $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p> 1$ 时收敛, 当 $p\le 1$ 时发散.
 
 **定理 1.1**（无穷积分的柯西收敛原理）
 
-设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则无穷积分 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意 $\varepsilon>0$, 存在 $X>0$, 只要 $A',A''>X$, 都有 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\varepsilon$.
+设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则无穷积分 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意 $\varepsilon> 0$, 存在 $X> 0$, 只要 $A',A''> X$, 都有 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \varepsilon$.
 
 **定理 1.3**（比较判别法）
 
-设 $f\left(x\right)$ 及 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 又设存在 $X_0>a$, 使得
+设 $f\left(x\right)$ 及 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 又设存在 $X_0> a$, 使得
 
 $$
 0\le f\left(x\right)\le g\left(x\right)\left(\forall x\ge X_0\right).
@@ -969,11 +969,11 @@ $$
 
 **定义**（瑕积分的收敛）
 
-设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, 且在任意闭区间 $\left[a+\eta,b\right]\subset\left(a,b\right]\left(\eta>0\right)$ 上可积, 而 $a$ 为 $f\left(x\right)$ 的瑕点. 若极限 $\lim_{\eta\to0+0}\int_{a+\eta}^b f\left(x\right)\,\mathrm{d}x$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\,\mathrm{d}x$ 收敛, 并把该极限定义为其值; 否则称其发散. 瑕点为右端点或区间内点时, 定义完全类似.
+设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, 且在任意闭区间 $\left[a+\eta,b\right]\subset\left(a,b\right]\left(\eta> 0\right)$ 上可积, 而 $a$ 为 $f\left(x\right)$ 的瑕点. 若极限 $\lim_{\eta\to0+0}\int_{a+\eta}^b f\left(x\right)\,\mathrm{d}x$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\,\mathrm{d}x$ 收敛, 并把该极限定义为其值; 否则称其发散. 瑕点为右端点或区间内点时, 定义完全类似.
 
 **例 2.2**（瑕 $p$-积分）
 
-瑕积分 $\int_a^b\frac{\mathrm{d}x}{\left(x-a\right)^p}$($p>0$)当 $p<1$ 时收敛, 当 $p\ge1$ 时发散.
+瑕积分 $\int_a^b\frac{\mathrm{d}x}{\left(x-a\right)^p}$($p> 0$)当 $p< 1$ 时收敛, 当 $p\ge1$ 时发散.
 
 **定义**（绝对收敛与条件收敛）
 
@@ -1074,7 +1074,7 @@ $$
 **定义**（伽马函数）
 
 $$
-\Gamma\left(\alpha\right)=\int_0^{+\infty}t^{\alpha-1}e^{-t}\,\mathrm{d}t\ \left(\alpha>0\right).
+\Gamma\left(\alpha\right)=\int_0^{+\infty}t^{\alpha-1}e^{-t}\,\mathrm{d}t\ \left(\alpha> 0\right).
 $$
 
 它满足递推公式 $\Gamma\left(\alpha+1\right)=\alpha\Gamma\left(\alpha\right)$, $\Gamma\left(1\right)=1$, $\Gamma\left(n+1\right)=n!$, 且
@@ -1087,7 +1087,7 @@ $$
 
 $$
 \begin{aligned}
-\Beta\left(p,q\right)&=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q>0\right),\\
+\Beta\left(p,q\right)&=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q> 0\right),\\
 \Beta\left(p,q\right)&=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}.
 \end{aligned}
 $$
