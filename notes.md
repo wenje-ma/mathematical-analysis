@@ -888,7 +888,7 @@ $$
 设幂级数 $\sum_{n=0}^{\infty}a_nx^n$, 则其收敛半径 $R$ 满足
 
 $$
-\frac{1}{R}=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}.
+\frac{1}{R}=\limsup_{n\to\infty}\sqrt\left[n\right]{\left|a_n\right|}.
 $$
 
 **定理 3.3**（收敛半径的达朗贝尔公式）
