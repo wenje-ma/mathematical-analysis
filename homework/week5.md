@@ -57,7 +57,7 @@ $$
 $\left|\sqrt{4-x^2}-0\right|=\sqrt{4-x^2}$. 要使 $\sqrt{4-x^2}<\varepsilon$, 只需 $4-x^2<\varepsilon^2$, 即 $x^2>4-\varepsilon^2$. 因 $x\to2-0$ 时 $x<2$, 故只需 $x>\sqrt{4-\varepsilon^2}$. 取 $\delta=2-\sqrt{4-\varepsilon^2}$, 则当 $2-\delta<x<2$ 时, 
 
 $$
-0<2-x<\delta\implies x>\sqrt{4-\varepsilon^2}\implies\sqrt{4-x^2}<\varepsilon.
+0<2-x<\delta\Rightarrow x>\sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}<\varepsilon.
 $$
 
 由**定义**（单侧极限）, $\lim\limits_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
