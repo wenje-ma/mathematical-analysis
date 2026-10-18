@@ -1,6 +1,6 @@
 # Assignment 3
 
-> **Definition** (Limit of a Sequence) Let $\left\{a_n\right\}$ be a given sequence. If there exists a real number $l$ such that, for any given positive number $\varepsilon$, no matter how small, there is a natural number $N$ such that $\left|a_n-l\right|<\varepsilon$ whenever $n>N$, then $a_n$ is said to have limit $l$, denoted $\lim\limits_{n\to\infty}a_n=l$.
+> **Definition** (Limit of a Sequence) Let $\left\{a_n\right\}$ be a given sequence. If there exists a real number $l$ such that, for any given positive number $\epsilon$, no matter how small, there is a natural number $N$ such that $\left|a_n-l\right|<\epsilon$ whenever $n>N$, then $a_n$ is said to have limit $l$, denoted $\lim\limits_{n\to\infty}a_n=l$.
 
 > **Example 3.3** (The $n$-th Root of a Positive Number Tends to $1$) Let $a$ be any positive number. Then $\lim\limits_{n\to\infty}a^{1/n}=1$.
 
@@ -10,7 +10,7 @@
 
 ### Problem 1
 
-(Problem 1.3-1-2) Prove, using the $\varepsilon$-$N$ language, that $\lim\limits_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
+(Problem 1.3-1-2) Prove, using the $\epsilon$-$N$ language, that $\lim\limits_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
 
 ### Solution to Problem 1
 
@@ -20,7 +20,7 @@ $$
 \frac{2n-5}{3n+100}=\frac{2-5/n}{3+100/n}.
 $$
 
-As $n\to\infty$, $5/n\to0$ and $100/n\to0$ (by **Definition** (Limit of a Sequence), for any $\varepsilon>0$, take $N>5/\varepsilon$ and then $\left|5/n\right|<\varepsilon$). By **Theorem 3.1** (Arithmetic of Limits),
+As $n\to\infty$, $5/n\to0$ and $100/n\to0$ (by **Definition** (Limit of a Sequence), for any $\epsilon>0$, take $N>5/\epsilon$ and then $\left|5/n\right|<\epsilon$). By **Theorem 3.1** (Arithmetic of Limits),
 
 $$
 \lim_{n\to\infty}\frac{2n-5}{3n+100}=\frac{\lim\left(2-5/n\right)}{\lim\left(3+100/n\right)}=\frac23.
@@ -30,7 +30,7 @@ $$
 $\blacksquare$
 ### Problem 2
 
-(Problem 1.3-1-4) Prove, using the $\varepsilon$-$N$ language, that $\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$.
+(Problem 1.3-1-4) Prove, using the $\epsilon$-$N$ language, that $\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$.
 
 ### Solution to Problem 2
 
@@ -40,17 +40,17 @@ $$
 \frac{n!}{n^n}=\frac{1\cdot2\cdots n}{n\cdot n\cdots n}=\frac1n\cdot\frac2n\cdots\frac{n-1}{n}\cdot1\le\frac1n.
 $$
 
-Given any $\varepsilon>0$, take $N=\left[\frac1\varepsilon\right]+1$. Then when $n>N$,
+Given any $\epsilon>0$, take $N=\left[\frac1\epsilon\right]+1$. Then when $n>N$,
 
 $$
-\left|\frac{n!}{n^n}-0\right|\le\frac1n<\varepsilon.
+\left|\frac{n!}{n^n}-0\right|\le\frac1n<\epsilon.
 $$
 
 By **Definition** (Limit of a Sequence), $\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
 ### Problem 3
 
-(Problem 1.3-1-6) Prove, using the $\varepsilon$-$N$ language, that $\lim\limits_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
+(Problem 1.3-1-6) Prove, using the $\epsilon$-$N$ language, that $\lim\limits_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
 
 ### Solution to Problem 3
 
@@ -70,7 +70,7 @@ $$
 $\blacksquare$
 ### Problem 4
 
-(Problem 1.3-1-8) Prove, using the $\varepsilon$-$N$ language, that
+(Problem 1.3-1-8) Prove, using the $\epsilon$-$N$ language, that
 
 $$
 \lim\limits_{n\to\infty}\left(\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\right)=0.
@@ -84,7 +84,7 @@ $$
 0\le\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\le\frac{n}{n^{3/2}}=\frac1{\sqrt n}.
 $$
 
-Given any $\varepsilon>0$, take $N=\left[1/\varepsilon^2\right]+1$. Then when $n>N$, $\frac1{\sqrt n}<\varepsilon$. By **Definition** (Limit of a Sequence), the original expression tends to $0$. $\blacksquare$
+Given any $\epsilon>0$, take $N=\left[1/\epsilon^2\right]+1$. Then when $n>N$, $\frac1{\sqrt n}<\epsilon$. By **Definition** (Limit of a Sequence), the original expression tends to $0$. $\blacksquare$
 
 ### Problem 5
 
@@ -209,9 +209,9 @@ $$
 
 ### Solution to Problem 10
 
-(1) Given any $\varepsilon>0$, by **Definition** (Limit of a Sequence), there exists a natural number $N$ such that $\left|a_n-l\right|<\varepsilon$ whenever $n>N$. Take $N'=\max\left(1,N-k+1\right)$. Then when $n>N'$, we have $n+k>N$, and hence $\left|a_{n+k}-l\right|<\varepsilon$. Therefore $\lim a_{n+k}=l$.
+(1) Given any $\epsilon>0$, by **Definition** (Limit of a Sequence), there exists a natural number $N$ such that $\left|a_n-l\right|<\epsilon$ whenever $n>N$. Take $N'=\max\left(1,N-k+1\right)$. Then when $n>N'$, we have $n+k>N$, and hence $\left|a_{n+k}-l\right|<\epsilon$. Therefore $\lim a_{n+k}=l$.
 
-(2) Given any $\varepsilon>0$, by **Definition** (Limit of a Sequence), there exists a natural number $N$ such that $\left|a_n-l\right|<\varepsilon$ whenever $n>N$. Take $N'=\left[N/2\right]+1$. Then when $n>N'$, we have $2n>N$ and $2n-1>N$, and hence $\left|a_{2n}-l\right|<\varepsilon$ and $\left|a_{2n-1}-l\right|<\varepsilon$. Therefore both subsequences have limit $l$. $\blacksquare$
+(2) Given any $\epsilon>0$, by **Definition** (Limit of a Sequence), there exists a natural number $N$ such that $\left|a_n-l\right|<\epsilon$ whenever $n>N$. Take $N'=\left[N/2\right]+1$. Then when $n>N'$, we have $2n>N$ and $2n-1>N$, and hence $\left|a_{2n}-l\right|<\epsilon$ and $\left|a_{2n-1}-l\right|<\epsilon$. Therefore both subsequences have limit $l$. $\blacksquare$
 
 ### Problem 11
 
@@ -219,10 +219,10 @@ $$
 
 ### Solution to Problem 11
 
-By **Proposition 1.7** (Triangle Inequality) in Chapter 1, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. Given any $\varepsilon>0$, by **Definition** (Limit of a Sequence), there exists $N$ such that $\left|a_n-l\right|<\varepsilon$ whenever $n>N$. Then when $n>N$,
+By **Proposition 1.7** (Triangle Inequality) in Chapter 1, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. Given any $\epsilon>0$, by **Definition** (Limit of a Sequence), there exists $N$ such that $\left|a_n-l\right|<\epsilon$ whenever $n>N$. Then when $n>N$,
 
 $$
-\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|<\varepsilon.
+\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|<\epsilon.
 $$
 
 By **Definition** (Limit of a Sequence), $\lim\left|a_n\right|=\left|l\right|$. $\blacksquare$

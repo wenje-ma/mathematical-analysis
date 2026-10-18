@@ -28,9 +28,9 @@ Consider two cases.
 
 If $f\left(x\right)\equiv l$, then $f'\left(x\right)\equiv0$, and the conclusion is obvious.
 
-If $f$ is not identically $l$, then there exists $x_0$ such that $f\left(x_0\right)\ne l$. Without loss of generality suppose $f\left(x_0\right)>l$ (the case $f\left(x_0\right)<l$ is analogous). Since $\lim_{x\to\pm\infty}f\left(x\right)=l$, take $\varepsilon=\frac{f\left(x_0\right)-l}{2}>0$. Then there exists $A>\left|x_0\right|$ such that $\left|f\left(x\right)-l\right|<\varepsilon$ when $\left|x\right|>A$, i.e.
+If $f$ is not identically $l$, then there exists $x_0$ such that $f\left(x_0\right)\ne l$. Without loss of generality suppose $f\left(x_0\right)>l$ (the case $f\left(x_0\right)<l$ is analogous). Since $\lim_{x\to\pm\infty}f\left(x\right)=l$, take $\epsilon=\frac{f\left(x_0\right)-l}{2}>0$. Then there exists $A>\left|x_0\right|$ such that $\left|f\left(x\right)-l\right|<\epsilon$ when $\left|x\right|>A$, i.e.
 $$
-f\left(x\right)<l+\varepsilon=\frac{f\left(x_0\right)+l}{2}<f\left(x_0\right).
+f\left(x\right)<l+\epsilon=\frac{f\left(x_0\right)+l}{2}<f\left(x_0\right).
 $$
 Consider the continuous function $f$ on the closed interval $\left[-A,A\right]$. Since $f\left(-A\right)<f\left(x_0\right)$ and $f\left(A\right)<f\left(x_0\right)$, while $x_0\in\left(-A,A\right)$, the maximum of $f$ on $\left[-A,A\right]$ is attained not at the endpoints $-A$ or $A$ but at some point $c\in\left(-A,A\right)$. Hence $c$ is a local maximum point. Moreover $f$ is differentiable on $\left(-A,A\right)$, so by **Theorem 1.1** (Fermat's Theorem), $f'\left(c\right)=0$. $\blacksquare$
 

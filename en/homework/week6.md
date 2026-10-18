@@ -12,11 +12,11 @@
 
 ### Problem 1
 
-(Problem 1.6-2) Using the $\varepsilon$-$\delta$ language, prove that if $\lim\limits_{x\to a}f\left(x\right)=l$ and $l>0$, then there exists a $\delta>0$ such that $f\left(x\right)>\frac l2$ whenever $0<\left|x-a\right|<\delta$.
+(Problem 1.6-2) Using the $\epsilon$-$\delta$ language, prove that if $\lim\limits_{x\to a}f\left(x\right)=l$ and $l>0$, then there exists a $\delta>0$ such that $f\left(x\right)>\frac l2$ whenever $0<\left|x-a\right|<\delta$.
 
 ### Solution to Problem 1
 
-Take $\varepsilon=\frac l2>0$. By **Definition** (Limit of a Function), there exists $\delta>0$ such that $\left|f\left(x\right)-l\right|<\frac l2$ when $0<\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
+Take $\epsilon=\frac l2>0$. By **Definition** (Limit of a Function), there exists $\delta>0$ such that $\left|f\left(x\right)-l\right|<\frac l2$ when $0<\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
 
 $$
 f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|>l-\frac l2=\frac l2.

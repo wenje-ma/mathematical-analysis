@@ -1,6 +1,6 @@
 # 作业 25
 
-> **定义**（一致连续）设 $y=f\left(x\right)$ 在一个区间 $X$ 上有定义. 如果对任意给定的 $\varepsilon>0$, 存在一个 $\delta>0$, 使得 $X$ 中的任意两点 $x_1$ 与 $x_2$, 都有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|<\varepsilon$ (只要 $\left|x_1-x_2\right|<\delta$), 则称 $y=f\left(x\right)$ 在 $X$ 中一致连续.
+> **定义**（一致连续）设 $y=f\left(x\right)$ 在一个区间 $X$ 上有定义. 如果对任意给定的 $\epsilon>0$, 存在一个 $\delta>0$, 使得 $X$ 中的任意两点 $x_1$ 与 $x_2$, 都有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|<\epsilon$ (只要 $\left|x_1-x_2\right|<\delta$), 则称 $y=f\left(x\right)$ 在 $X$ 中一致连续.
 
 > **定理 3.2**（有限覆盖定理）设 $\mathcal{F}=\left\{I_\alpha:\alpha\in A\right\}$ 是闭区间 $\left[a,b\right]$ 的任意一个开覆盖, 则存在 $\mathcal{F}$ 中的有限个元素 $I_{\alpha_1},\cdots,I_{\alpha_n}$, 使得 $\left[a,b\right]\subset\bigcup\limits_{k=1}^n I_{\alpha_k}$.
 
@@ -10,12 +10,12 @@
 
 ### 解答 习题一
 
-要证明 $f\left(x\right)=\frac1x$ 在 $\left(0,1\right)$ 中不一致连续, 即存在 $\varepsilon_0>0$, 对于任意 $\delta>0$, 都存在 $x_1,x_2\in\left(0,1\right)$, 使得
+要证明 $f\left(x\right)=\frac1x$ 在 $\left(0,1\right)$ 中不一致连续, 即存在 $\epsilon_0>0$, 对于任意 $\delta>0$, 都存在 $x_1,x_2\in\left(0,1\right)$, 使得
 $$
-\left|x_1-x_2\right|<\delta,\text{但}\;\left|f\left(x_1\right)-f\left(x_2\right)\right|\ge\varepsilon_0.
+\left|x_1-x_2\right|<\delta,\text{但}\;\left|f\left(x_1\right)-f\left(x_2\right)\right|\ge\epsilon_0.
 $$
 
-取 $\varepsilon_0=1$. 对任意 $\delta>0$, 取 $x_1=\frac{\delta}{2}$, $x_2=\frac{\delta}{3}$. 则
+取 $\epsilon_0=1$. 对任意 $\delta>0$, 取 $x_1=\frac{\delta}{2}$, $x_2=\frac{\delta}{3}$. 则
 $$
 \left|x_1-x_2\right|=\frac{\delta}{6}<\delta,
 $$
@@ -25,7 +25,7 @@ $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|=\left|\frac{2}{\delta}-\frac{3}{\delta}\right|=\frac1\delta\to\infty\left(\delta\to0\right).
 $$
 
-当 $\delta<1$ 时, $\frac1\delta>1=\varepsilon_0$. 故 $f\left(x\right)=\frac1x$ 在 $\left(0,1\right)$ 中不一致连续. $\blacksquare$
+当 $\delta<1$ 时, $\frac1\delta>1=\epsilon_0$. 故 $f\left(x\right)=\frac1x$ 在 $\left(0,1\right)$ 中不一致连续. $\blacksquare$
 
 ### 习题二
 
@@ -74,9 +74,9 @@ $$
 
 其中 $\xi$ 介于 $x_1$ 与 $x_2$ 之间.
 
-对任意 $\varepsilon>0$, 取 $\delta=\varepsilon$. 则当 $\left|x_1-x_2\right|<\delta$ 时, 
+对任意 $\epsilon>0$, 取 $\delta=\epsilon$. 则当 $\left|x_1-x_2\right|<\delta$ 时, 
 $$
-\left|\sin x_1-\sin x_2\right|\le\left|x_1-x_2\right|<\delta=\varepsilon.
+\left|\sin x_1-\sin x_2\right|\le\left|x_1-x_2\right|<\delta=\epsilon.
 $$
 
 由**定义**（一致连续）, $y=\sin x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
@@ -94,9 +94,9 @@ $$
 
 其中 $\xi$ 介于 $x_1$ 与 $x_2$ 之间.
 
-对任意 $\varepsilon>0$, 取 $\delta=\varepsilon$. 则当 $\left|x_1-x_2\right|<\delta$ 时, 
+对任意 $\epsilon>0$, 取 $\delta=\epsilon$. 则当 $\left|x_1-x_2\right|<\delta$ 时, 
 $$
-\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|<\delta=\varepsilon.
+\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|<\delta=\epsilon.
 $$
 
 由一致连续的定义, $y=\cos x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
@@ -122,7 +122,7 @@ $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|\le3\left|x_1-x_2\right|+5\left|x_1-x_2\right|=8\left|x_1-x_2\right|.
 $$
 
-对任意 $\varepsilon>0$, 取 $\delta=\frac{\varepsilon}{8}$. 则当 $\left|x_1-x_2\right|<\delta$ 时, $\left|f\left(x_1\right)-f\left(x_2\right)\right|<\varepsilon$. 由一致连续的定义, $f\left(x\right)$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
+对任意 $\epsilon>0$, 取 $\delta=\frac{\epsilon}{8}$. 则当 $\left|x_1-x_2\right|<\delta$ 时, $\left|f\left(x_1\right)-f\left(x_2\right)\right|<\epsilon$. 由一致连续的定义, $f\left(x\right)$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
 
 ### 习题七
 
@@ -134,9 +134,9 @@ $$
 
 ### 解答 习题七
 
-**第一部分**: 设 $f$ 满足赫尔德条件, 指数为 $\alpha$. 对任意 $\varepsilon>0$, 取 $\delta=\left(\frac{\varepsilon}{H}\right)^{1/\alpha}$. 则当 $\left|x_1-x_2\right|<\delta$ 时, 
+**第一部分**: 设 $f$ 满足赫尔德条件, 指数为 $\alpha$. 对任意 $\epsilon>0$, 取 $\delta=\left(\frac{\epsilon}{H}\right)^{1/\alpha}$. 则当 $\left|x_1-x_2\right|<\delta$ 时, 
 $$
-\left|f\left(x_1\right)-f\left(x_2\right)\right|\le H\left|x_1-x_2\right|^\alpha<H\delta^\alpha=\varepsilon.
+\left|f\left(x_1\right)-f\left(x_2\right)\right|\le H\left|x_1-x_2\right|^\alpha<H\delta^\alpha=\epsilon.
 $$
 
 由一致连续的定义, $f$ 在 $\left(a,b\right)$ 中一致连续.

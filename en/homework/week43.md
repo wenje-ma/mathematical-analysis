@@ -173,13 +173,13 @@ $$
 \left|\frac{\ln n}{n^x}\right|\le\frac{\ln n}{n^a}.
 $$
 
-Since $a>1$, choose $\varepsilon>0$ such that $a-\varepsilon>1$. Then
+Since $a>1$, choose $\epsilon>0$ such that $a-\epsilon>1$. Then
 
 $$
-\frac{\ln n}{n^a}=\frac{\ln n}{n^\varepsilon}\cdot\frac{1}{n^{a-\varepsilon}}\le C\cdot\frac{1}{n^{a-\varepsilon}},
+\frac{\ln n}{n^a}=\frac{\ln n}{n^\epsilon}\cdot\frac{1}{n^{a-\epsilon}}\le C\cdot\frac{1}{n^{a-\epsilon}},
 $$
 
-and $\sum\frac{1}{n^{a-\varepsilon}}$ converges, so $\sum\frac{\ln n}{n^a}$ converges. By **Theorem 2.2** (The Weierstrass M-Test), the differentiated series converges uniformly on $\left[a,+\infty\right)$.
+and $\sum\frac{1}{n^{a-\epsilon}}$ converges, so $\sum\frac{\ln n}{n^a}$ converges. By **Theorem 2.2** (The Weierstrass M-Test), the differentiated series converges uniformly on $\left[a,+\infty\right)$.
 
 Moreover, the original series $\sum\frac{1}{n^x}$ converges when $x>1$. By **Theorem 2.7** (Term-by-Term Differentiation Theorem), $\zeta\left(x\right)$ is differentiable on $\left[a,+\infty\right)$, and
 

@@ -112,10 +112,10 @@ By the **Nested Interval Principle**, there exists a unique $M_0\in\bigcap\left[
 
 ### Solution to Problem 9
 
-Let $\left|g\left(x\right)\right|\le M$. Given any $\varepsilon>0$, since $f\left(x\right)\to0$, there exists $\delta>0$ such that $\left|f\left(x\right)\right|<\varepsilon/M$ when $0<\left|x-a\right|<\delta$. Hence
+Let $\left|g\left(x\right)\right|\le M$. Given any $\epsilon>0$, since $f\left(x\right)\to0$, there exists $\delta>0$ such that $\left|f\left(x\right)\right|<\epsilon/M$ when $0<\left|x-a\right|<\delta$. Hence
 
 $$
-\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|<\varepsilon.
+\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|<\epsilon.
 $$
 
 Hence $\lim f\left(x\right)g\left(x\right)=0$. $\blacksquare$

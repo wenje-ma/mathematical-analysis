@@ -12,11 +12,11 @@
 
 ### 习题一
 
-（习题 1.6-2）用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l>0$, 则存在一个 $\delta>0$, 使得 $f\left(x\right)>\frac l2$, 只要 $0<\left|x-a\right|<\delta$.
+（习题 1.6-2）用 $\epsilon$-$\delta$ 语言证明: 若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l>0$, 则存在一个 $\delta>0$, 使得 $f\left(x\right)>\frac l2$, 只要 $0<\left|x-a\right|<\delta$.
 
 ### 解答 习题一
 
-取 $\varepsilon=\frac l2>0$. 由**定义**（函数极限）, 存在 $\delta>0$, 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-l\right|<\frac l2$. 由第一章**命题 1.7**（三角不等式）, 
+取 $\epsilon=\frac l2>0$. 由**定义**（函数极限）, 存在 $\delta>0$, 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-l\right|<\frac l2$. 由第一章**命题 1.7**（三角不等式）, 
 
 $$
 f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|>l-\frac l2=\frac l2.

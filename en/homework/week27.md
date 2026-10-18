@@ -74,7 +74,7 @@ Since $f,g$ are integrable on $\left[a,b\right]$, by **Theorem 2.2**, both terms
 
 **Sufficiency** If $f\left(x\right)\equiv0$, then $\int_a^b f\left(x\right)\,\mathrm{d}x=0$ clearly holds.
 
-**Necessity** Suppose, for contradiction, that $f$ is not identically zero. Then there exists $x_0\in\left[a,b\right]$ such that $f\left(x_0\right)>0$. By the continuity of $f$ at $x_0$, for $\varepsilon=\frac{f\left(x_0\right)}{2}>0$, there exists $\delta>0$ such that when $x\in\left[a,b\right]$ and $\left| x-x_0\right|<\delta$,
+**Necessity** Suppose, for contradiction, that $f$ is not identically zero. Then there exists $x_0\in\left[a,b\right]$ such that $f\left(x_0\right)>0$. By the continuity of $f$ at $x_0$, for $\epsilon=\frac{f\left(x_0\right)}{2}>0$, there exists $\delta>0$ such that when $x\in\left[a,b\right]$ and $\left| x-x_0\right|<\delta$,
 
 $$
 \left| f\left(x\right)-f\left(x_0\right)\right|<\frac{f\left(x_0\right)}2,

@@ -165,12 +165,12 @@ $$
 
 Since $u_n\ge0$, we have $R_N\left(x\right)\ge0$, and $R_N\left(x\right)$ is monotonically decreasing in $N$; moreover, $R_N\left(x\right)$ is the difference of two continuous functions, so it is continuous on $\left[a,b\right]$. By pointwise convergence, $R_N\left(x\right)\to0\left(N\to\infty\right)$ for each $x$.
 
-By contradiction. Suppose $\sum u_n$ does not converge uniformly on $\left[a,b\right]$. Then there exist $\varepsilon_0>0$, a sequence $N_k\to\infty$, and points $x_k\in\left[a,b\right]$ such that $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. By the Bolzano–Weierstrass theorem, $\left\{x_k\right\}$ has a subsequence converging to some $x_0\in\left[a,b\right]$; relabeling, still write $x_k\to x_0$.
+By contradiction. Suppose $\sum u_n$ does not converge uniformly on $\left[a,b\right]$. Then there exist $\epsilon_0>0$, a sequence $N_k\to\infty$, and points $x_k\in\left[a,b\right]$ such that $R_{N_k}\left(x_k\right)\ge\epsilon_0$. By the Bolzano–Weierstrass theorem, $\left\{x_k\right\}$ has a subsequence converging to some $x_0\in\left[a,b\right]$; relabeling, still write $x_k\to x_0$.
 
 For any fixed $m$, whenever $N_k\ge m$, since $R_N\left(x\right)$ is monotonically decreasing in $N$, we have $R_{N_k}\left(x_k\right)\le R_m\left(x_k\right)$. Letting $k\to\infty$, by the continuity of $R_m\left(x\right)$,
 
 $$
-\varepsilon_0\le\lim_{k\to\infty}R_{N_k}\left(x_k\right)\le\lim_{k\to\infty}R_m\left(x_k\right)=R_m\left(x_0\right).
+\epsilon_0\le\lim_{k\to\infty}R_{N_k}\left(x_k\right)\le\lim_{k\to\infty}R_m\left(x_k\right)=R_m\left(x_0\right).
 $$
 
 This holds for all $m$. But by pointwise convergence, $R_m\left(x_0\right)\to0\left(m\to\infty\right)$, a contradiction. Hence $\sum u_n\left(x\right)$ converges uniformly on $\left[a,b\right]$. $\blacksquare$

@@ -165,12 +165,12 @@ $$
 
 因 $u_n\ge0$, 故 $R_N\left(x\right)\ge0$, 且 $R_N\left(x\right)$ 关于 $N$ 单调递减; 又 $R_N\left(x\right)$ 是两个连续函数之差, 故在 $\left[a,b\right]$ 上连续. 由点态收敛, $R_N\left(x\right)\to0\left(N\to\infty\right)$ 对每个 $x$ 成立.
 
-用反证法. 假设 $\sum u_n$ 在 $\left[a,b\right]$ 上不一致收敛, 则存在 $\varepsilon_0>0$ 及一列 $N_k\to\infty$ 和 $x_k\in\left[a,b\right]$, 使 $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. 由波尔查诺–魏尔斯特拉斯定理, $\left\{x_k\right\}$ 有子列收敛于某 $x_0\in\left[a,b\right]$, 不妨仍记 $x_k\to x_0$.
+用反证法. 假设 $\sum u_n$ 在 $\left[a,b\right]$ 上不一致收敛, 则存在 $\epsilon_0>0$ 及一列 $N_k\to\infty$ 和 $x_k\in\left[a,b\right]$, 使 $R_{N_k}\left(x_k\right)\ge\epsilon_0$. 由波尔查诺–魏尔斯特拉斯定理, $\left\{x_k\right\}$ 有子列收敛于某 $x_0\in\left[a,b\right]$, 不妨仍记 $x_k\to x_0$.
 
 对任意固定的 $m$, 当 $N_k\ge m$ 时, 由 $R_N\left(x\right)$ 关于 $N$ 单调递减, 有 $R_{N_k}\left(x_k\right)\le R_m\left(x_k\right)$. 令 $k\to\infty$, 由 $R_m\left(x\right)$ 连续得
 
 $$
-\varepsilon_0\le\lim_{k\to\infty}R_{N_k}\left(x_k\right)\le\lim_{k\to\infty}R_m\left(x_k\right)=R_m\left(x_0\right).
+\epsilon_0\le\lim_{k\to\infty}R_{N_k}\left(x_k\right)\le\lim_{k\to\infty}R_m\left(x_k\right)=R_m\left(x_0\right).
 $$
 
 此式对一切 $m$ 成立. 但由点态收敛 $R_m\left(x_0\right)\to0\left(m\to\infty\right)$, 矛盾. 故 $\sum u_n\left(x\right)$ 在 $\left[a,b\right]$ 上一致收敛. $\blacksquare$

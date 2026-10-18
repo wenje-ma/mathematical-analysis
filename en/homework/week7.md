@@ -43,14 +43,14 @@ But $f\left(0\right)=1$, so $x=0$ is a removable discontinuity (first kind).
 
 ### Problem 2
 
-(Problem 1.7-2-2) Using the $\varepsilon$-$\delta$ language, prove that if $y=f\left(x\right)$ is continuous at the point $a$, then $y=\left|f\left(x\right)\right|$ is continuous at the point $a$.
+(Problem 1.7-2-2) Using the $\epsilon$-$\delta$ language, prove that if $y=f\left(x\right)$ is continuous at the point $a$, then $y=\left|f\left(x\right)\right|$ is continuous at the point $a$.
 
 ### Solution to Problem 2
 
-By **Definition** (Continuous Function), given any $\varepsilon>0$, there exists $\delta>0$ such that $\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon$ when $\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
+By **Definition** (Continuous Function), given any $\epsilon>0$, there exists $\delta>0$ such that $\left|f\left(x\right)-f\left(a\right)\right|<\epsilon$ when $\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
 
 $$
-\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon.
+\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|<\epsilon.
 $$
 
 Hence $\left|f\left(x\right)\right|$ is continuous at the point $a$. $\blacksquare$
@@ -96,7 +96,7 @@ $$
 
 ### Solution to Problem 4
 
-Let $\lim\limits_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By **Definition** (Continuous Function), given any $\varepsilon>0$, there exists $\delta>0$ such that $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$ when $\left|x-c\right|<\delta$. Moreover, since $g\left(t\right)\to c$, there exists $T>0$ such that $\left|g\left(t\right)-c\right|<\delta$ when $t>T$. Hence when $t>T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. That is, $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+Let $\lim\limits_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By **Definition** (Continuous Function), given any $\epsilon>0$, there exists $\delta>0$ such that $\left|f\left(x\right)-f\left(c\right)\right|<\epsilon$ when $\left|x-c\right|<\delta$. Moreover, since $g\left(t\right)\to c$, there exists $T>0$ such that $\left|g\left(t\right)-c\right|<\delta$ when $t>T$. Hence when $t>T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\epsilon$. That is, $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ### Problem 5
 

@@ -169,7 +169,7 @@ $\blacksquare$
 
 ### 解答 习题六
 
-反设存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)>0$. 由 $f$ 在 $\left(x_0,y_0\right)$ 处连续, 对 $\varepsilon=\frac{f\left(x_0,y_0\right)}2>0$, 存在 $\delta>0$, 使当 $\left(x,y\right)\in D$ 且
+反设存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)>0$. 由 $f$ 在 $\left(x_0,y_0\right)$ 处连续, 对 $\epsilon=\frac{f\left(x_0,y_0\right)}2>0$, 存在 $\delta>0$, 使当 $\left(x,y\right)\in D$ 且
 
 $$
 \sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta

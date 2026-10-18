@@ -2,18 +2,18 @@
 
 > **定理 2.1**（上下极限与极限存在）设 $\left\{a_n\right\}$ 为一个有界序列. 则序列 $\left\{a_n\right\}$ 有极限之充要条件为其上极限与下极限相等.
 
-> **定理 2.2**（柯西收敛原理）序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\varepsilon>0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|<\varepsilon$ (只要 $m\ge N,n\ge N$).
+> **定理 2.2**（柯西收敛原理）序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\epsilon>0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|<\epsilon$ (只要 $m\ge N,n\ge N$).
 ### 习题一
 
 （习题 5.2-1）利用序列柯西收敛原理证明: 若 $\left\{a_n\right\}$ 收敛, 则 $\left\{\left|a_n\right|\right\}$ 收敛.
 
 ### 解答 习题一
 
-设 $\lim\limits_{n\to\infty}a_n=l$. 由柯西收敛原理, 对任意 $\varepsilon>0$, 存在 $N$, 使得当 $m,n\ge N$ 时 $\left|a_n-a_m\right|<\varepsilon$.
+设 $\lim\limits_{n\to\infty}a_n=l$. 由柯西收敛原理, 对任意 $\epsilon>0$, 存在 $N$, 使得当 $m,n\ge N$ 时 $\left|a_n-a_m\right|<\epsilon$.
 
 由三角不等式, 
 $$
-\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|<\varepsilon.
+\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|<\epsilon.
 $$
 
 故 $\left\{\left|a_n\right|\right\}$ 满足柯西条件. 由**定理 2.2**（柯西收敛原理）, $\left\{\left|a_n\right|\right\}$ 收敛. $\blacksquare$
@@ -113,7 +113,7 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{n+1}.
 $$
 
-对任意 $\varepsilon>0$, 取 $N>\frac1\varepsilon$, 则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛.
+对任意 $\epsilon>0$, 取 $N>\frac1\epsilon$, 则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\epsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛.
 
 (2)设 $m>n$. 则
 $$
@@ -125,7 +125,7 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{2^{n+1}}+\frac{1}{2^{n+2}}+\cdots=\frac{1}{2^n}.
 $$
 
-对任意 $\varepsilon>0$, 取 $N$ 使得 $2^N>\frac1\varepsilon$, 则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛. $\blacksquare$
+对任意 $\epsilon>0$, 取 $N$ 使得 $2^N>\frac1\epsilon$, 则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\epsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛. $\blacksquare$
 
 ### 习题五
 

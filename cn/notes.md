@@ -80,7 +80,7 @@ $\sqrt2$ 不是有理数.
 
 **定义**（序列极限）
 
-设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|< \varepsilon$, 只要 $n> N$, 则我们称 $a_n$ 以 $l$ 为极限, 记作
+设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\epsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|< \epsilon$, 只要 $n> N$, 则我们称 $a_n$ 以 $l$ 为极限, 记作
 
 $$
 \lim\limits_{n\to\infty}a_n=l.
@@ -132,7 +132,7 @@ $$
 
 **定义**（函数极限）
 
-设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\varepsilon> 0$, 无论它多么小, 都存在一个 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \varepsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作
+设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\epsilon> 0$, 无论它多么小, 都存在一个 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \epsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作
 
 $$
 \lim\limits_{x\to a}f\left(x\right)=l.
@@ -426,7 +426,7 @@ $$
 设 $E$ 为有界集合. 若存在实数 $\beta$ 满足: 
 (1) $\beta$ 是 $E$ 的上界($\forall x\in E,x\le\beta$); 
 
-(2) 对任意 $\varepsilon> 0$, 存在 $x_0\in E$ 使得 $x_0> \beta-\varepsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
+(2) 对任意 $\epsilon> 0$, 存在 $x_0\in E$ 使得 $x_0> \beta-\epsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
 
 **定义**（振幅）
 
@@ -450,13 +450,13 @@ $$
 
 **定理 2.2**（柯西收敛原理）
 
-序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\varepsilon> 0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|< \varepsilon$ (只要 $m\ge N,n\ge N$).
+序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\epsilon> 0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|< \epsilon$ (只要 $m\ge N,n\ge N$).
 
 ## 闭区间上连续函数的一致连续性
 
 **定义**（一致连续）
 
-设 $y=f\left(x\right)$ 在一个区间 $X$ 上有定义. 如果对任意给定的 $\varepsilon> 0$, 存在一个 $\delta> 0$, 使得 $X$ 中的任意两点 $x_1$ 与 $x_2$, 都有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$ (只要 $\left|x_1-x_2\right|< \delta$), 则称 $y=f\left(x\right)$ 在 $X$ 中一致连续.
+设 $y=f\left(x\right)$ 在一个区间 $X$ 上有定义. 如果对任意给定的 $\epsilon> 0$, 存在一个 $\delta> 0$, 使得 $X$ 中的任意两点 $x_1$ 与 $x_2$, 都有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \epsilon$ (只要 $\left|x_1-x_2\right|< \delta$), 则称 $y=f\left(x\right)$ 在 $X$ 中一致连续.
 
 **定理 3.2**（有限覆盖定理）
 
@@ -475,10 +475,10 @@ $$
 $$
 T:a=x_0< x_1< \cdots< x_n=b,
 $$
-记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 只要 $\lambda\left(T\right)< \delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
+记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\epsilon> 0$, 存在 $\delta> 0$, 只要 $\lambda\left(T\right)< \delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
 
 $$
-\left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \varepsilon,
+\left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \epsilon,
 $$
 
 则称 $I$ 为 $f\left(x\right)$ 在 $\left[a,b\right]$ 上的定积分, 记作
@@ -849,7 +849,7 @@ $$
 
 **定义**（函数序列的一致收敛）
 
-设 $\left\{f_n\left(x\right)\right\}$ 在集合 $X$ 上有定义, $f\left(x\right)$ 为 $X$ 上的函数. 若对任意 $\varepsilon> 0$, 存在自然数 $N$, 使得当 $n> N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$, 则称 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
+设 $\left\{f_n\left(x\right)\right\}$ 在集合 $X$ 上有定义, $f\left(x\right)$ 为 $X$ 上的函数. 若对任意 $\epsilon> 0$, 存在自然数 $N$, 使得当 $n> N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|< \epsilon$, 则称 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
 
 **定理 1.1**（M 判别法）
 
@@ -945,7 +945,7 @@ $$
 
 **定理 1.1**（无穷积分的柯西收敛原理）
 
-设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则无穷积分 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意 $\varepsilon> 0$, 存在 $X> 0$, 只要 $A',A''> X$, 都有 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \varepsilon$.
+设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则无穷积分 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意 $\epsilon> 0$, 存在 $X> 0$, 只要 $A',A''> X$, 都有 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \epsilon$.
 
 **定理 1.3**（比较判别法）
 

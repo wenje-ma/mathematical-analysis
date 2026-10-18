@@ -80,7 +80,7 @@ A function $f:X\to Y$ is bounded if and only if there exists $M> 0$ such that $\
 
 **Definition** (Limit of a Sequence)
 
-Let $\left\{a_n\right\}$ be a given sequence. If there exists a real number $l$ such that, for any given positive number $\varepsilon$, no matter how small, there is a natural number $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$, then $a_n$ is said to have limit $l$, denoted
+Let $\left\{a_n\right\}$ be a given sequence. If there exists a real number $l$ such that, for any given positive number $\epsilon$, no matter how small, there is a natural number $N$ such that $\left|a_n-l\right|< \epsilon$ whenever $n> N$, then $a_n$ is said to have limit $l$, denoted
 
 $$
 \lim\limits_{n\to\infty}a_n=l.
@@ -132,7 +132,7 @@ A variable whose limit is $0$ is called an infinitesimal.
 
 **Definition** (Limit of a Function)
 
-Let $y=f\left(x\right)$ be defined in a deleted neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of the point $a$. If there exists a real number $l$ such that, for any given $\varepsilon> 0$, no matter how small, there is a $\delta> 0$ such that $\left|f\left(x\right)-l\right|< \varepsilon$ whenever $0< \left|x-a\right|< \delta$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted
+Let $y=f\left(x\right)$ be defined in a deleted neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of the point $a$. If there exists a real number $l$ such that, for any given $\epsilon> 0$, no matter how small, there is a $\delta> 0$ such that $\left|f\left(x\right)-l\right|< \epsilon$ whenever $0< \left|x-a\right|< \delta$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted
 
 $$
 \lim\limits_{x\to a}f\left(x\right)=l.
@@ -426,7 +426,7 @@ $$
 Let $E$ be a bounded set. If there exists a real number $\beta$ satisfying:
 (1) $\beta$ is an upper bound of $E$ ($\forall x\in E,x\le\beta$);
 
-(2) for any $\varepsilon> 0$, there exists $x_0\in E$ such that $x_0> \beta-\varepsilon$, then $\beta$ is called the supremum of $E$, denoted $\sup E$. The infimum $\inf E$ is defined similarly.
+(2) for any $\epsilon> 0$, there exists $x_0\in E$ such that $x_0> \beta-\epsilon$, then $\beta$ is called the supremum of $E$, denoted $\sup E$. The infimum $\inf E$ is defined similarly.
 
 **Definition** (Oscillation)
 
@@ -450,13 +450,13 @@ Let $\left\{a_n\right\}$ be a bounded sequence. Then the sequence $\left\{a_n\ri
 
 **Theorem 2.2** (Cauchy Convergence Principle)
 
-The sequence $\left\{a_n\right\}$ has a limit if and only if: for any given $\varepsilon> 0$, there exists a natural number $N$ such that $\left|a_n-a_m\right|< \varepsilon$ (whenever $m\ge N,n\ge N$).
+The sequence $\left\{a_n\right\}$ has a limit if and only if: for any given $\epsilon> 0$, there exists a natural number $N$ such that $\left|a_n-a_m\right|< \epsilon$ (whenever $m\ge N,n\ge N$).
 
 ## Uniform Continuity of Continuous Functions on a Closed Interval
 
 **Definition** (Uniform Continuity)
 
-Let $y=f\left(x\right)$ be defined on an interval $X$. If, for any given $\varepsilon> 0$, there exists a $\delta> 0$ such that for any two points $x_1$ and $x_2$ in $X$ we have $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$ (whenever $\left|x_1-x_2\right|< \delta$), then $y=f\left(x\right)$ is said to be uniformly continuous on $X$.
+Let $y=f\left(x\right)$ be defined on an interval $X$. If, for any given $\epsilon> 0$, there exists a $\delta> 0$ such that for any two points $x_1$ and $x_2$ in $X$ we have $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \epsilon$ (whenever $\left|x_1-x_2\right|< \delta$), then $y=f\left(x\right)$ is said to be uniformly continuous on $X$.
 
 **Theorem 3.2** (Finite Cover Theorem)
 
@@ -475,10 +475,10 @@ Let $f\left(x\right)$ be defined on the interval $\left[a,b\right]$. Partition $
 $$
 T:a=x_0< x_1< \cdots< x_n=b,
 $$
-and set $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. If there exists a constant $I$ such that, for any $\varepsilon> 0$, there exists $\delta> 0$ such that, whenever $\lambda\left(T\right)< \delta$, no matter how the partition $T$ is chosen and no matter how the intermediate points $\xi_k\in\left[x_{k-1},x_k\right]$ are chosen, we always have
+and set $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. If there exists a constant $I$ such that, for any $\epsilon> 0$, there exists $\delta> 0$ such that, whenever $\lambda\left(T\right)< \delta$, no matter how the partition $T$ is chosen and no matter how the intermediate points $\xi_k\in\left[x_{k-1},x_k\right]$ are chosen, we always have
 
 $$
-\left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \varepsilon,
+\left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \epsilon,
 $$
 
 then $I$ is called the definite integral of $f\left(x\right)$ on $\left[a,b\right]$, denoted
@@ -849,7 +849,7 @@ Let $\alpha_n\ne -1$. Then the infinite product $\prod_{n=1}^{\infty}\left(1+\al
 
 **Definition** (Uniform Convergence of a Sequence of Functions)
 
-Let $\left\{f_n\left(x\right)\right\}$ be defined on a set $X$, and let $f\left(x\right)$ be a function on $X$. If, for any $\varepsilon> 0$, there exists a natural number $N$ such that, whenever $n> N$, we have $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$ for all $x\in X$, then $\left\{f_n\left(x\right)\right\}$ is said to converge uniformly to $f\left(x\right)$ on $X$.
+Let $\left\{f_n\left(x\right)\right\}$ be defined on a set $X$, and let $f\left(x\right)$ be a function on $X$. If, for any $\epsilon> 0$, there exists a natural number $N$ such that, whenever $n> N$, we have $\left|f_n\left(x\right)-f\left(x\right)\right|< \epsilon$ for all $x\in X$, then $\left\{f_n\left(x\right)\right\}$ is said to converge uniformly to $f\left(x\right)$ on $X$.
 
 **Theorem 1.1** (M-Test)
 
@@ -945,7 +945,7 @@ The improper integral $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ converges when $
 
 **Theorem 1.1** (Cauchy Convergence Principle for Improper Integrals)
 
-Let $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on any closed interval $\left[a,A\right]$. Then the improper integral $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ converges if and only if: for any $\varepsilon> 0$, there exists $X> 0$ such that, whenever $A',A''> X$, we have $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \varepsilon$.
+Let $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on any closed interval $\left[a,A\right]$. Then the improper integral $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ converges if and only if: for any $\epsilon> 0$, there exists $X> 0$ such that, whenever $A',A''> X$, we have $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \epsilon$.
 
 **Theorem 1.3** (Comparison Test)
 

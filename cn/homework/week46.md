@@ -4,7 +4,7 @@
 
 > **例 1.2**（$p$-积分）无穷积分 $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p>1$ 时收敛, 当 $p\le 1$ 时发散.
 
-> **定理 1.1**（无穷积分的柯西收敛原理）设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意给定的 $\varepsilon>0$, 存在 $X>0$, 使得 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\varepsilon$, 只要 $A'>X,A''>X$.
+> **定理 1.1**（无穷积分的柯西收敛原理）设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意给定的 $\epsilon>0$, 存在 $X>0$, 使得 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\epsilon$, 只要 $A'>X,A''>X$.
 
 > **定理 1.3**（比较判别法）设 $f\left(x\right)$ 及 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 又设存在 $X_0>a$, 使得
 > $$
@@ -290,10 +290,10 @@ $$
 F\left(A\right)-L=\left(F\left(N+1\right)-L\right)+\left(F\left(A\right)-F\left(N+1\right)\right)=\left(F\left(N+1\right)-L\right)-\int_A^{N+1}f\left(x\right)\,\mathrm{d}x.
 $$
 
-由 $f\left(x\right)\to0\left(x\to+\infty\right)$, 对任意 $\varepsilon>0$, 存在 $X>0$, 使当 $x>X$ 时 $\left| f\left(x\right)\right|<\varepsilon$. 当 $N$ 充分大时 $\left[A,N+1\right]\subset\left[X,+\infty\right)$, 故
+由 $f\left(x\right)\to0\left(x\to+\infty\right)$, 对任意 $\epsilon>0$, 存在 $X>0$, 使当 $x>X$ 时 $\left| f\left(x\right)\right|<\epsilon$. 当 $N$ 充分大时 $\left[A,N+1\right]\subset\left[X,+\infty\right)$, 故
 
 $$
-\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x<\varepsilon\,\left(N+1-A\right)\le\varepsilon.
+\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x<\epsilon\,\left(N+1-A\right)\le\epsilon.
 $$
 
 同时 $F\left(N+1\right)-L\to0$. 因此 $F\left(A\right)-L\to0$, 即 $F\left(A\right)\to L$. 由**定义**（无穷积分的收敛）, $\int_1^{+\infty}f\left(x\right)\,\mathrm{d}x$ 收敛. $\blacksquare$

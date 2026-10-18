@@ -3,7 +3,7 @@
 > **定义**（上确界与下确界）设 $E$ 为有界集合. 若存在实数 $\beta$ 满足: 
 > (1) $\beta$ 是 $E$ 的上界($\forall x\in E,x\le\beta$); 
 > 
-> (2) 对任意 $\varepsilon>0$, 存在 $x_0\in E$ 使得 $x_0>\beta-\varepsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
+> (2) 对任意 $\epsilon>0$, 存在 $x_0\in E$ 使得 $x_0>\beta-\epsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
 
 > **定义**（振幅）设 $f\left(x\right)$ 在区间 $I$ 中有定义且有界. 称
 > $$
@@ -76,15 +76,15 @@ $$
 
 的一个上界.
 
-另一方面, 对任意 $\varepsilon>0$, 存在 $x_1\in I$ 使得 $f\left(x_1\right)>M-\frac{\varepsilon}{2}$, 存在 $x_2\in I$ 使得 $f\left(x_2\right)<m+\frac{\varepsilon}{2}$. 于是
+另一方面, 对任意 $\epsilon>0$, 存在 $x_1\in I$ 使得 $f\left(x_1\right)>M-\frac{\epsilon}{2}$, 存在 $x_2\in I$ 使得 $f\left(x_2\right)<m+\frac{\epsilon}{2}$. 于是
 $$
-f\left(x_1\right)-f\left(x_2\right)>M-m-\varepsilon,
+f\left(x_1\right)-f\left(x_2\right)>M-m-\epsilon,
 $$
 
 即
 
 $$
-\left|f\left(x_1\right)-f\left(x_2\right)\right|>M-m-\varepsilon.
+\left|f\left(x_1\right)-f\left(x_2\right)\right|>M-m-\epsilon.
 $$
 
 由上确界的定义,
@@ -127,14 +127,14 @@ $$
 
 设 $\left\{a_n\right\}$ 单调递增且有上界. 由上确界存在定理, 集合 $E=\left\{a_n:n\ge1\right\}$ 有上确界, 记为 $l=\sup E$.
 
-对任意 $\varepsilon>0$, 由上确界的定义, 存在 $N$ 使得 $a_N>l-\varepsilon$. 又因 $\left\{a_n\right\}$ 单调递增, 故当 $n>N$ 时
+对任意 $\epsilon>0$, 由上确界的定义, 存在 $N$ 使得 $a_N>l-\epsilon$. 又因 $\left\{a_n\right\}$ 单调递增, 故当 $n>N$ 时
 $$
-a_n\ge a_N>l-\varepsilon.
+a_n\ge a_N>l-\epsilon.
 $$
 
-另一方面, 因 $l$ 是上界, 故 $a_n\le l<l+\varepsilon$. 于是
+另一方面, 因 $l$ 是上界, 故 $a_n\le l<l+\epsilon$. 于是
 $$
-\left|a_n-l\right|<\varepsilon,\forall n>N.
+\left|a_n-l\right|<\epsilon,\forall n>N.
 $$
 
 由序列极限的定义, $\lim\limits_{n\to\infty}a_n=l$. $\blacksquare$
@@ -159,9 +159,9 @@ $$
 
 因此 $\omega_R\left(x_0\right)=1/q-0=1/q$.
 
-(2)设 $x_0$ 为无理数. 对任意 $\varepsilon>0$, 满足 $1/q\ge\varepsilon$ 的正整数 $q$ 只有有限多个. 对每个这样的 $q$, 分母为 $q$ 的既约有理数 $p/q$ 也只有有限多个. 因此, 在 $x_0$ 的某个足够小的邻域内, 除 $x_0$ 本身(无理数, $R\left(x_0\right)=0$)外, 其余有理点 $p/q$ 都满足 $1/q<\varepsilon$. 故在该邻域内, $0\le R\left(x\right)<\varepsilon$. 于是
+(2)设 $x_0$ 为无理数. 对任意 $\epsilon>0$, 满足 $1/q\ge\epsilon$ 的正整数 $q$ 只有有限多个. 对每个这样的 $q$, 分母为 $q$ 的既约有理数 $p/q$ 也只有有限多个. 因此, 在 $x_0$ 的某个足够小的邻域内, 除 $x_0$ 本身(无理数, $R\left(x_0\right)=0$)外, 其余有理点 $p/q$ 都满足 $1/q<\epsilon$. 故在该邻域内, $0\le R\left(x\right)<\epsilon$. 于是
 $$
-\sup R-\inf R<\varepsilon.
+\sup R-\inf R<\epsilon.
 $$
 
-由 $\varepsilon$ 的任意性, $\omega_R\left(x_0\right)=0$. 由**定理 1.3**（连续的充要条件）, 黎曼函数在无理点连续. $\blacksquare$
+由 $\epsilon$ 的任意性, $\omega_R\left(x_0\right)=0$. 由**定理 1.3**（连续的充要条件）, 黎曼函数在无理点连续. $\blacksquare$
