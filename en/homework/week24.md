@@ -2,18 +2,18 @@
 
 > **Theorem 2.1** (Upper/Lower Limits and Existence of the Limit) Let $\left\{a_n\right\}$ be a bounded sequence. Then the sequence $\left\{a_n\right\}$ has a limit if and only if its upper limit and lower limit are equal.
 
-> **Theorem 2.2** (Cauchy Convergence Principle) The sequence $\left\{a_n\right\}$ has a limit if and only if: for any given $\epsilon>0$, there exists a natural number $N$ such that $\left|a_n-a_m\right|<\epsilon$ (whenever $m\ge N,n\ge N$).
+> **Theorem 2.2** (Cauchy Convergence Principle) The sequence $\left\{a_n\right\}$ has a limit if and only if: for any given $\varepsilon>0$, there exists a natural number $N$ such that $\left|a_n-a_m\right|<\varepsilon$ (whenever $m\ge N,n\ge N$).
 ### Problem 1
 
 (Problem 5.2-1) Use the Cauchy convergence principle for sequences to prove: if $\left\{a_n\right\}$ converges, then $\left\{\left|a_n\right|\right\}$ converges.
 
 ### Solution to Problem 1
 
-Let $\lim\limits_{n\to\infty}a_n=l$. By the Cauchy convergence principle, for any $\epsilon>0$, there exists $N$ such that $\left|a_n-a_m\right|<\epsilon$ whenever $m,n\ge N$.
+Let $\lim\limits_{n\to\infty}a_n=l$. By the Cauchy convergence principle, for any $\varepsilon>0$, there exists $N$ such that $\left|a_n-a_m\right|<\varepsilon$ whenever $m,n\ge N$.
 
 By the triangle inequality,
 $$
-\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|<\epsilon.
+\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|<\varepsilon.
 $$
 
 Hence $\left\{\left|a_n\right|\right\}$ satisfies the Cauchy condition. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{\left|a_n\right|\right\}$ converges. $\blacksquare$
@@ -113,7 +113,7 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{n+1}.
 $$
 
-For any $\epsilon>0$, take $N>\frac1\epsilon$; then when $m,n>N$, $\left|a_m-a_n\right|<\epsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges.
+For any $\varepsilon>0$, take $N>\frac1\varepsilon$; then when $m,n>N$, $\left|a_m-a_n\right|<\varepsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges.
 
 (2) Let $m>n$. Then
 $$
@@ -125,7 +125,7 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{2^{n+1}}+\frac{1}{2^{n+2}}+\cdots=\frac{1}{2^n}.
 $$
 
-For any $\epsilon>0$, take $N$ such that $2^N>\frac1\epsilon$; then when $m,n>N$, $\left|a_m-a_n\right|<\epsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges. $\blacksquare$
+For any $\varepsilon>0$, take $N$ such that $2^N>\frac1\varepsilon$; then when $m,n>N$, $\left|a_m-a_n\right|<\varepsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges. $\blacksquare$
 
 ### Problem 5
 

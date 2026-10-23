@@ -112,10 +112,10 @@ $$
 
 ### 解答 习题九
 
-设 $\left|g\left(x\right)\right|\le M$. 任给 $\epsilon>0$, 因 $f\left(x\right)\to0$, 存在 $\delta>0$ 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)\right|<\epsilon/M$. 于是
+设 $\left|g\left(x\right)\right|\le M$. 任给 $\varepsilon>0$, 因 $f\left(x\right)\to0$, 存在 $\delta>0$ 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)\right|<\varepsilon/M$. 于是
 
 $$
-\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|<\epsilon.
+\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|<\varepsilon.
 $$
 
 故 $\lim f\left(x\right)g\left(x\right)=0$. $\blacksquare$

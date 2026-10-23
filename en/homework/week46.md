@@ -4,7 +4,7 @@
 
 > **Example 1.2** (The $p$-Integral) The improper integral $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ converges when $p>1$ and diverges when $p\le 1$.
 
-> **Theorem 1.1** (Cauchy Convergence Principle for Improper Integrals) Let $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Then $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ converges if and only if: for every given $\epsilon>0$, there exists $X>0$ such that $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\epsilon$, whenever $A'>X,A''>X$.
+> **Theorem 1.1** (Cauchy Convergence Principle for Improper Integrals) Let $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Then $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ converges if and only if: for every given $\varepsilon>0$, there exists $X>0$ such that $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\varepsilon$, whenever $A'>X,A''>X$.
 
 > **Theorem 1.3** (Comparison Test) Let $f\left(x\right)$ and $g\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Suppose further that there exists $X_0>a$ such that
 > $$
@@ -290,10 +290,10 @@ $$
 F\left(A\right)-L=\left(F\left(N+1\right)-L\right)+\left(F\left(A\right)-F\left(N+1\right)\right)=\left(F\left(N+1\right)-L\right)-\int_A^{N+1}f\left(x\right)\,\mathrm{d}x.
 $$
 
-Since $f\left(x\right)\to0\left(x\to+\infty\right)$, for any $\epsilon>0$ there exists $X>0$ such that $\left| f\left(x\right)\right|<\epsilon$ whenever $x>X$. When $N$ is sufficiently large, $\left[A,N+1\right]\subset\left[X,+\infty\right)$, so
+Since $f\left(x\right)\to0\left(x\to+\infty\right)$, for any $\varepsilon>0$ there exists $X>0$ such that $\left| f\left(x\right)\right|<\varepsilon$ whenever $x>X$. When $N$ is sufficiently large, $\left[A,N+1\right]\subset\left[X,+\infty\right)$, so
 
 $$
-\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x<\epsilon\,\left(N+1-A\right)\le\epsilon.
+\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x<\varepsilon\,\left(N+1-A\right)\le\varepsilon.
 $$
 
 At the same time, $F\left(N+1\right)-L\to0$. Therefore $F\left(A\right)-L\to0$, i.e. $F\left(A\right)\to L$. By **Definition** (Convergence of an Improper Integral), $\int_1^{+\infty}f\left(x\right)\,\mathrm{d}x$ converges. $\blacksquare$

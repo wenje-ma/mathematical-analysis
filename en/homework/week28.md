@@ -169,7 +169,7 @@ $\blacksquare$
 
 ### Solution to Problem 6
 
-Suppose, for contradiction, that there exists $\left(x_0,y_0\right)\in D$ such that $f\left(x_0,y_0\right)>0$. By the continuity of $f$ at $\left(x_0,y_0\right)$, for $\epsilon=\frac{f\left(x_0,y_0\right)}2>0$, there exists $\delta>0$ such that when $\left(x,y\right)\in D$ and
+Suppose, for contradiction, that there exists $\left(x_0,y_0\right)\in D$ such that $f\left(x_0,y_0\right)>0$. By the continuity of $f$ at $\left(x_0,y_0\right)$, for $\varepsilon=\frac{f\left(x_0,y_0\right)}2>0$, there exists $\delta>0$ such that when $\left(x,y\right)\in D$ and
 
 $$
 \sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta

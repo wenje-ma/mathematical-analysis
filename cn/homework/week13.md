@@ -28,9 +28,9 @@ $$
 
 若 $f\left(x\right)\equiv l$, 则 $f'\left(x\right)\equiv0$, 结论显然成立.
 
-若 $f$ 不恒等于 $l$, 则存在 $x_0$ 使得 $f\left(x_0\right)\ne l$. 不妨设 $f\left(x_0\right)>l$($f\left(x_0\right)<l$ 的情形类似). 由 $\lim_{x\to\pm\infty}f\left(x\right)=l$, 取 $\epsilon=\frac{f\left(x_0\right)-l}{2}>0$, 则存在 $A>\left|x_0\right|$, 使得当 $\left|x\right|>A$ 时 $\left|f\left(x\right)-l\right|<\epsilon$, 即
+若 $f$ 不恒等于 $l$, 则存在 $x_0$ 使得 $f\left(x_0\right)\ne l$. 不妨设 $f\left(x_0\right)>l$($f\left(x_0\right)<l$ 的情形类似). 由 $\lim_{x\to\pm\infty}f\left(x\right)=l$, 取 $\varepsilon=\frac{f\left(x_0\right)-l}{2}>0$, 则存在 $A>\left|x_0\right|$, 使得当 $\left|x\right|>A$ 时 $\left|f\left(x\right)-l\right|<\varepsilon$, 即
 $$
-f\left(x\right)<l+\epsilon=\frac{f\left(x_0\right)+l}{2}<f\left(x_0\right).
+f\left(x\right)<l+\varepsilon=\frac{f\left(x_0\right)+l}{2}<f\left(x_0\right).
 $$
 考虑闭区间 $\left[-A,A\right]$ 上的连续函数 $f$. 由于 $f\left(-A\right)<f\left(x_0\right)$ 且 $f\left(A\right)<f\left(x_0\right)$, 而 $x_0\in\left(-A,A\right)$, 故 $f$ 在 $\left[-A,A\right]$ 上的最大值不在端点 $-A$ 或 $A$ 处达到, 而在某点 $c\in\left(-A,A\right)$ 处达到. 于是 $c$ 为极大值点. 又 $f$ 在 $\left(-A,A\right)$ 内可导, 由**定理 1.1**（费马定理）, $f'\left(c\right)=0$. $\blacksquare$
 

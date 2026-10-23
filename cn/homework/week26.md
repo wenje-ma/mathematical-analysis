@@ -4,9 +4,9 @@
 > $$
 > T:a=x_0<x_1<\cdots<x_n=b,
 > $$
-记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\epsilon>0$, 存在 $\delta>0$, 只要 $\lambda\left(T\right)<\delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
+记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\varepsilon>0$, 存在 $\delta>0$, 只要 $\lambda\left(T\right)<\delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
 > $$
-> \left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|<\epsilon,
+> \left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|<\varepsilon,
 > $$
 > 则称 $I$ 为 $f\left(x\right)$ 在 $\left[a,b\right]$ 上的定积分, 记作 $\int_a^b f\left(x\right)\,\mathrm{d}x$.
 
@@ -88,19 +88,19 @@ $$
 
 ### 解答 习题三
 
-**必要性** 设 $f$ 在 $\left[a,b\right]$ 上可积, 积分为 $I$. 对任意 $\epsilon>0$, 由**定义**（定积分）, 存在 $\delta>0$, 使当 $\lambda\left(T\right)<\delta$ 时, 对任意中间点 $\xi_i\in\left[x_{i-1},x_i\right]$ 都有
+**必要性** 设 $f$ 在 $\left[a,b\right]$ 上可积, 积分为 $I$. 对任意 $\varepsilon>0$, 由**定义**（定积分）, 存在 $\delta>0$, 使当 $\lambda\left(T\right)<\delta$ 时, 对任意中间点 $\xi_i\in\left[x_{i-1},x_i\right]$ 都有
 
 $$
-\left|\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right|<\epsilon.
+\left|\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right|<\varepsilon.
 $$
 
-对每个小区间 $\left[x_{i-1},x_i\right]$, 因 $m_i$ 是 $f$ 在其上的最小值, 故存在 $\xi_i^*\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^*\right)<m_i+\frac{\epsilon}{b-a}$. 于是
+对每个小区间 $\left[x_{i-1},x_i\right]$, 因 $m_i$ 是 $f$ 在其上的最小值, 故存在 $\xi_i^*\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^*\right)<m_i+\frac{\varepsilon}{b-a}$. 于是
 
 $$
-\sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i<\sum_{i=1}^n m_i\Delta x_i+\epsilon.
+\sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i<\sum_{i=1}^n m_i\Delta x_i+\varepsilon.
 $$
 
-结合 $\left|\sum f\left(\xi_i^*\right)\Delta x_i-I\right|<\epsilon$ 得 $\left|\sum m_i\Delta x_i-I\right|<2\epsilon$. 同理, 取 $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^{**}\right)>M_i-\frac{\epsilon}{b-a}$, 得 $\left|\sum M_i\Delta x_i-I\right|<2\epsilon$. 故两极限均存在且等于 $I$.
+结合 $\left|\sum f\left(\xi_i^*\right)\Delta x_i-I\right|<\varepsilon$ 得 $\left|\sum m_i\Delta x_i-I\right|<2\varepsilon$. 同理, 取 $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^{**}\right)>M_i-\frac{\varepsilon}{b-a}$, 得 $\left|\sum M_i\Delta x_i-I\right|<2\varepsilon$. 故两极限均存在且等于 $I$.
 
 **充分性** 设
 

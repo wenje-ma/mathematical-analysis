@@ -43,14 +43,14 @@ $$
 
 ### 习题二
 
-（习题 1.7-2-2）试用 $\epsilon$-$\delta$ 语言证明: 若 $y=f\left(x\right)$ 在 $a$ 点连续, 则 $y=\left|f\left(x\right)\right|$ 在 $a$ 点连续.
+（习题 1.7-2-2）试用 $\varepsilon$-$\delta$ 语言证明: 若 $y=f\left(x\right)$ 在 $a$ 点连续, 则 $y=\left|f\left(x\right)\right|$ 在 $a$ 点连续.
 
 ### 解答 习题二
 
-由**定义**（连续函数）, 任给 $\epsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|<\epsilon$. 由第一章**命题 1.7**（三角不等式）, 
+由**定义**（连续函数）, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon$. 由第一章**命题 1.7**（三角不等式）, 
 
 $$
-\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|<\epsilon.
+\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon.
 $$
 
 故 $\left|f\left(x\right)\right|$ 在 $a$ 点连续. $\blacksquare$
@@ -96,7 +96,7 @@ $$
 
 ### 解答 习题四
 
-设 $\lim\limits_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由**定义**（连续函数）, 任给 $\epsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-c\right|<\delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|<\epsilon$. 又因 $g\left(t\right)\to c$, 存在 $T>0$, 当 $t>T$ 时 $\left|g\left(t\right)-c\right|<\delta$. 于是当 $t>T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\epsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+设 $\lim\limits_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由**定义**（连续函数）, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-c\right|<\delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$. 又因 $g\left(t\right)\to c$, 存在 $T>0$, 当 $t>T$ 时 $\left|g\left(t\right)-c\right|<\delta$. 于是当 $t>T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ### 习题五
 

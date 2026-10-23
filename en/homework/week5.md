@@ -1,6 +1,6 @@
 # Assignment 5
 
-> **Definition** (Limit of a Function) Let $y=f\left(x\right)$ be defined in a deleted neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of the point $a$. If there exists a real number $l$ such that, for any given $\epsilon>0$, no matter how small, there is a $\delta>0$ such that $\left|f\left(x\right)-l\right|<\epsilon$ whenever $0<\left|x-a\right|<\delta$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted $\lim\limits_{x\to a}f\left(x\right)=l$.
+> **Definition** (Limit of a Function) Let $y=f\left(x\right)$ be defined in a deleted neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of the point $a$. If there exists a real number $l$ such that, for any given $\varepsilon>0$, no matter how small, there is a $\delta>0$ such that $\left|f\left(x\right)-l\right|<\varepsilon$ whenever $0<\left|x-a\right|<\delta$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted $\lim\limits_{x\to a}f\left(x\right)=l$.
 
 > **Definition** (One-Sided Limit) If $f\left(x\right)$ has limit $l$ as $x\to a+0$ (or $x\to a-0$), it is called the right-hand limit (or left-hand limit), denoted $\lim\limits_{x\to a+0}f\left(x\right)=l$ (or $\lim\limits_{x\to a-0}f\left(x\right)=l$).
 
@@ -10,7 +10,7 @@
 
 ### Problem 1
 
-(Problem 1.5-1-2) Using the $\epsilon$-$\delta$ language, prove that $\lim\limits_{x\to a}\cos x=\cos a$.
+(Problem 1.5-1-2) Using the $\varepsilon$-$\delta$ language, prove that $\lim\limits_{x\to a}\cos x=\cos a$.
 
 ### Solution to Problem 1
 
@@ -22,17 +22,17 @@ $$
 
 where we used $\left|\sin t\right|\le\left|t\right|$ for all $t$.
 
-Given any $\epsilon>0$, take $\delta=\epsilon$. Then when $0<\left|x-a\right|<\delta$,
+Given any $\varepsilon>0$, take $\delta=\varepsilon$. Then when $0<\left|x-a\right|<\delta$,
 
 $$
-\left|\cos x-\cos a\right|\le\left|x-a\right|<\epsilon.
+\left|\cos x-\cos a\right|\le\left|x-a\right|<\varepsilon.
 $$
 
 By **Definition** (Limit of a Function), $\lim\limits_{x\to a}\cos x=\cos a$. $\blacksquare$
 
 ### Problem 2
 
-(Problem 1.5-1-3) Using the $\epsilon$-$\delta$ language, prove that $\lim\limits_{x\to+\infty}\frac{6x+5}{x+1}=6$.
+(Problem 1.5-1-3) Using the $\varepsilon$-$\delta$ language, prove that $\lim\limits_{x\to+\infty}\frac{6x+5}{x+1}=6$.
 
 ### Solution to Problem 2
 
@@ -40,24 +40,24 @@ $$
 \left|\frac{6x+5}{x+1}-6\right|=\left|\frac{6x+5-6\left(x+1\right)}{x+1}\right|=\frac1{x+1}.
 $$
 
-Given any $\epsilon>0$, take $X=\frac1\epsilon-1$. Then when $x>X$,
+Given any $\varepsilon>0$, take $X=\frac1\varepsilon-1$. Then when $x>X$,
 
 $$
-\left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}<\epsilon.
+\left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}<\varepsilon.
 $$
 
 By the $x\to+\infty$ version of **Definition** (Limit of a Function), $\lim\limits_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
 ### Problem 3
 
-(Problem 1.5-1-5) Using the $\epsilon$-$\delta$ language, prove that $\lim\limits_{x\to2-0}\sqrt{4-x^2}=0$.
+(Problem 1.5-1-5) Using the $\varepsilon$-$\delta$ language, prove that $\lim\limits_{x\to2-0}\sqrt{4-x^2}=0$.
 
 ### Solution to Problem 3
 
-$\left|\sqrt{4-x^2}-0\right|=\sqrt{4-x^2}$. For $\sqrt{4-x^2}<\epsilon$, we only need $4-x^2<\epsilon^2$, i.e. $x^2>4-\epsilon^2$. Since $x<2$ when $x\to2-0$, we only need $x>\sqrt{4-\epsilon^2}$. Take $\delta=2-\sqrt{4-\epsilon^2}$. Then when $2-\delta<x<2$,
+$\left|\sqrt{4-x^2}-0\right|=\sqrt{4-x^2}$. For $\sqrt{4-x^2}<\varepsilon$, we only need $4-x^2<\varepsilon^2$, i.e. $x^2>4-\varepsilon^2$. Since $x<2$ when $x\to2-0$, we only need $x>\sqrt{4-\varepsilon^2}$. Take $\delta=2-\sqrt{4-\varepsilon^2}$. Then when $2-\delta<x<2$,
 
 $$
-0<2-x<\delta\Rightarrow x>\sqrt{4-\epsilon^2}\Rightarrow\sqrt{4-x^2}<\epsilon.
+0<2-x<\delta\Rightarrow x>\sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}<\varepsilon.
 $$
 
 By **Definition** (One-Sided Limit), $\lim\limits_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
@@ -68,15 +68,15 @@ By **Definition** (One-Sided Limit), $\lim\limits_{x\to2-0}\sqrt{4-x^2}=0$. $\bl
 
 ### Solution to Problem 4
 
-Without loss of generality assume $a>1$ (the case $0<a<1$ is analogous). For $\left|a^x-1\right|<\epsilon$, i.e. $1-\epsilon<a^x<1+\epsilon$. Assume $0<\epsilon<1$. Then the left side $a^x>1-\epsilon>0$, and taking logarithms gives $x>\log_a\left(1-\epsilon\right)$; the right side $a^x<1+\epsilon$ gives $x<\log_a\left(1+\epsilon\right)$.
+Without loss of generality assume $a>1$ (the case $0<a<1$ is analogous). For $\left|a^x-1\right|<\varepsilon$, i.e. $1-\varepsilon<a^x<1+\varepsilon$. Assume $0<\varepsilon<1$. Then the left side $a^x>1-\varepsilon>0$, and taking logarithms gives $x>\log_a\left(1-\varepsilon\right)$; the right side $a^x<1+\varepsilon$ gives $x<\log_a\left(1+\varepsilon\right)$.
 
 Take
 
 $$
-\delta=\min\left\{-\log_a\left(1-\epsilon\right),\log_a\left(1+\epsilon\right)\right\}>0,
+\delta=\min\left\{-\log_a\left(1-\varepsilon\right),\log_a\left(1+\varepsilon\right)\right\}>0,
 $$
 
-then when $0<\left|x\right|<\delta$, $\left|a^x-1\right|<\epsilon$. By **Definition** (Limit of a Function), $\lim\limits_{x\to0}a^x=1$. $\blacksquare$
+then when $0<\left|x\right|<\delta$, $\left|a^x-1\right|<\varepsilon$. By **Definition** (Limit of a Function), $\lim\limits_{x\to0}a^x=1$. $\blacksquare$
 
 ### Problem 5
 
@@ -84,7 +84,7 @@ then when $0<\left|x\right|<\delta$, $\left|a^x-1\right|<\epsilon$. By **Definit
 
 ### Solution to Problem 5
 
-Take $\epsilon=\frac{\left|l\right|}{2}$. By **Definition** (Limit of a Function), there exists $\delta>0$ such that $\left|f\left(x\right)-l\right|<\frac{\left|l\right|}{2}$ when $0<\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
+Take $\varepsilon=\frac{\left|l\right|}{2}$. By **Definition** (Limit of a Function), there exists $\delta>0$ such that $\left|f\left(x\right)-l\right|<\frac{\left|l\right|}{2}$ when $0<\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
 
 $$
 \left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|>\left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
@@ -98,7 +98,7 @@ Hence $\left|\frac1{f\left(x\right)}\right|<\frac2{\left|l\right|}$, i.e. $\frac
 
 ### Solution to Problem 6
 
-Given any $\epsilon>0$, by **Definition** (Limit of a Function), there exists $\delta_1>0$ such that $\left|f\left(x\right)-l\right|<\epsilon$ when $0<\left|x-2\right|<\delta_1$. Set $x=y^2$. Then we need $0<\left|y^2-2\right|<\delta_1$.
+Given any $\varepsilon>0$, by **Definition** (Limit of a Function), there exists $\delta_1>0$ such that $\left|f\left(x\right)-l\right|<\varepsilon$ when $0<\left|x-2\right|<\delta_1$. Set $x=y^2$. Then we need $0<\left|y^2-2\right|<\delta_1$.
 
 Since $y\to\sqrt2$, we may restrict $\left|y-\sqrt2\right|<1$, in which case $\left|y+\sqrt2\right|\le2\sqrt2+1$. Take $\delta=\min\left\{1,\frac{\delta_1}{2\sqrt2+1}\right\}$. Then when $0<\left|y-\sqrt2\right|<\delta$,
 
@@ -106,7 +106,7 @@ $$
 \left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|<\delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
 $$
 
-and $y^2\ne2$ (otherwise $y=\pm\sqrt2$, while as $y\to\sqrt2$ with $y\ne\sqrt2$, we have $y^2\ne2$). Hence $\left|f\left(y^2\right)-l\right|<\epsilon$. By **Definition** (Limit of a Function), $f\left(y^2\right)\to l$. $\blacksquare$
+and $y^2\ne2$ (otherwise $y=\pm\sqrt2$, while as $y\to\sqrt2$ with $y\ne\sqrt2$, we have $y^2\ne2$). Hence $\left|f\left(y^2\right)-l\right|<\varepsilon$. By **Definition** (Limit of a Function), $f\left(y^2\right)\to l$. $\blacksquare$
 
 ### Problem 7
 

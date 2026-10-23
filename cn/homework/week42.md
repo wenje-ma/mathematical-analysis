@@ -1,6 +1,6 @@
 # 作业 42
 
-> **定义**（函数序列的一致收敛）设 $\left\{f_n\left(x\right)\right\}$ 在集合 $X$ 上有定义, $f\left(x\right)$ 为 $X$ 上的函数. 若对任意 $\epsilon>0$, 存在自然数 $N$, 使得当 $n>N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|<\epsilon$, 则称 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
+> **定义**（函数序列的一致收敛）设 $\left\{f_n\left(x\right)\right\}$ 在集合 $X$ 上有定义, $f\left(x\right)$ 为 $X$ 上的函数. 若对任意 $\varepsilon>0$, 存在自然数 $N$, 使得当 $n>N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|<\varepsilon$, 则称 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
 >
 > **定理 1.1**（M 判别法）设存在数列 $M_n>0$, $M_n\to 0$, 使得 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ 对一切 $x\in X$ 成立, 则 $\left\{f_n\left(x\right)\right\}$ 在 $X$ 上一致收敛于 $f\left(x\right)$.
 >
@@ -20,13 +20,13 @@ $$
 \sup_{0<x<1}\left|f_n\left(x\right)-0\right|=\sup_{0<x<1}\frac{1}{1+nx}.
 $$
 
-当 $x\to 0^+$ 时 $\frac{1}{1+nx}\to 1$, 故该上确界为 $1$(不趋于 $0$). 取 $\epsilon_0=\frac12$, 对任意 $n$, 取 $x_n=\frac{1}{n}\in\left(0,1\right)$, 则
+当 $x\to 0^+$ 时 $\frac{1}{1+nx}\to 1$, 故该上确界为 $1$(不趋于 $0$). 取 $\varepsilon_0=\frac12$, 对任意 $n$, 取 $x_n=\frac{1}{n}\in\left(0,1\right)$, 则
 
 $$
-\left|f_n\left(x_n\right)-0\right|=\frac{1}{1+1}=\frac12=\epsilon_0.
+\left|f_n\left(x_n\right)-0\right|=\frac{1}{1+1}=\frac12=\varepsilon_0.
 $$
 
-由**定义**（函数序列的一致收敛）, 不可能找到 $N$ 使 $n>N$ 时 $\left|f_n\left(x\right)-0\right|<\epsilon_0$ 对一切 $x\in\left(0,1\right)$ 成立. 故 $\left\{f_n\left(x\right)\right\}$ 在 $\left(0,1\right)$ 上不一致收敛于 $0$. $\blacksquare$
+由**定义**（函数序列的一致收敛）, 不可能找到 $N$ 使 $n>N$ 时 $\left|f_n\left(x\right)-0\right|<\varepsilon_0$ 对一切 $x\in\left(0,1\right)$ 成立. 故 $\left\{f_n\left(x\right)\right\}$ 在 $\left(0,1\right)$ 上不一致收敛于 $0$. $\blacksquare$
 
 ### 习题二
 
@@ -73,16 +73,16 @@ $$
 
 ### 解答 习题四
 
-本题是**定理 1.2**（极限函数的连续性）在 $f_n$ 未必连续, 仅在 $x_0$ 处有极限时的推广, 证明思路与**定理 1.2** 相同. 记 $A_n=\lim_{x\to x_0}f_n\left(x\right)$. 对任意 $\epsilon>0$, 由 $\left\{f_n\left(x\right)\right\}$ 在 $\left(a,b\right)$ 内一致收敛于 $f\left(x\right)$, 存在 $N$, 当 $n>N$ 时, 对一切 $x\in\left(a,b\right)$ 有
+本题是**定理 1.2**（极限函数的连续性）在 $f_n$ 未必连续, 仅在 $x_0$ 处有极限时的推广, 证明思路与**定理 1.2** 相同. 记 $A_n=\lim_{x\to x_0}f_n\left(x\right)$. 对任意 $\varepsilon>0$, 由 $\left\{f_n\left(x\right)\right\}$ 在 $\left(a,b\right)$ 内一致收敛于 $f\left(x\right)$, 存在 $N$, 当 $n>N$ 时, 对一切 $x\in\left(a,b\right)$ 有
 
 $$
-\left|f_n\left(x\right)-f\left(x\right)\right|<\frac{\epsilon}{3}.
+\left|f_n\left(x\right)-f\left(x\right)\right|<\frac{\varepsilon}{3}.
 $$
 
 取定 $m,n>N$. 令 $x\to x_0$, 由极限的保序性得
 
 $$
-\left|A_m-A_n\right|=\lim_{x\to x_0}\left|f_m\left(x\right)-f_n\left(x\right)\right|\le\frac{2\epsilon}{3}<\epsilon.
+\left|A_m-A_n\right|=\lim_{x\to x_0}\left|f_m\left(x\right)-f_n\left(x\right)\right|\le\frac{2\varepsilon}{3}<\varepsilon.
 $$
 
 故 $\left\{A_n\right\}$ 为柯西列, 从而存在有限极限 $A=\lim_{n\to\infty}A_n$.
@@ -90,13 +90,13 @@ $$
 再证 $\lim_{x\to x_0}f\left(x\right)=A$. 取 $n>N$ 固定, 由 $A_n=\lim_{x\to x_0}f_n\left(x\right)$, 存在 $\delta>0$, 当 $0<\left|x-x_0\right|<\delta$ 时
 
 $$
-\left|f_n\left(x\right)-A_n\right|<\frac{\epsilon}{3}.
+\left|f_n\left(x\right)-A_n\right|<\frac{\varepsilon}{3}.
 $$
 
 于是当 $0<\left|x-x_0\right|<\delta$ 时, 
 
 $$
-\left|f\left(x\right)-A\right|\le \left|f\left(x\right)-f_n\left(x\right)\right|+\left|f_n\left(x\right)-A_n\right|+\left|A_n-A\right|<\frac{\epsilon}{3}+\frac{\epsilon}{3}+\frac{\epsilon}{3}=\epsilon.
+\left|f\left(x\right)-A\right|\le \left|f\left(x\right)-f_n\left(x\right)\right|+\left|f_n\left(x\right)-A_n\right|+\left|A_n-A\right|<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon.
 $$
 
 故
@@ -177,18 +177,18 @@ $$
 
 ### 解答 习题七
 
-(1)必要性. 设 $\left\{f_n\left(x\right)\right\}$ 在 $\left[a,b\right]$ 上一致收敛于 $f\left(x\right)$. 对任意 $\epsilon>0$, 存在 $N$, 当 $n>N$ 时, 对一切 $x\in\left[a,b\right]$ 有 $\left|f_n\left(x\right)-f\left(x\right)\right|<\epsilon$. 由连续性, 最大值在某点 $x_n\in\left[a,b\right]$ 处取到, 故
+(1)必要性. 设 $\left\{f_n\left(x\right)\right\}$ 在 $\left[a,b\right]$ 上一致收敛于 $f\left(x\right)$. 对任意 $\varepsilon>0$, 存在 $N$, 当 $n>N$ 时, 对一切 $x\in\left[a,b\right]$ 有 $\left|f_n\left(x\right)-f\left(x\right)\right|<\varepsilon$. 由连续性, 最大值在某点 $x_n\in\left[a,b\right]$ 处取到, 故
 
 $$
-M_n=\left|f_n\left(x_n\right)-f\left(x_n\right)\right|<\epsilon.
+M_n=\left|f_n\left(x_n\right)-f\left(x_n\right)\right|<\varepsilon.
 $$
 
-由 $\epsilon$ 的任意性, $M_n\to 0$.
+由 $\varepsilon$ 的任意性, $M_n\to 0$.
 
-(2)充分性. 设 $M_n\to 0$. 对任意 $\epsilon>0$, 存在 $N$, 当 $n>N$ 时 $M_n<\epsilon$. 于是对一切 $x\in\left[a,b\right]$, 
+(2)充分性. 设 $M_n\to 0$. 对任意 $\varepsilon>0$, 存在 $N$, 当 $n>N$ 时 $M_n<\varepsilon$. 于是对一切 $x\in\left[a,b\right]$, 
 
 $$
-\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n<\epsilon.
+\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n<\varepsilon.
 $$
 
 由**定义**（函数序列的一致收敛）, $\left\{f_n\left(x\right)\right\}$ 在 $\left[a,b\right]$ 上一致收敛于 $f\left(x\right)$. $\blacksquare$

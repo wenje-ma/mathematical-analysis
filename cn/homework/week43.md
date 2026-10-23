@@ -173,13 +173,13 @@ $$
 \left|\frac{\ln n}{n^x}\right|\le\frac{\ln n}{n^a}.
 $$
 
-因 $a>1$, 取 $\epsilon>0$ 使 $a-\epsilon>1$, 则
+因 $a>1$, 取 $\varepsilon>0$ 使 $a-\varepsilon>1$, 则
 
 $$
-\frac{\ln n}{n^a}=\frac{\ln n}{n^\epsilon}\cdot\frac{1}{n^{a-\epsilon}}\le C\cdot\frac{1}{n^{a-\epsilon}},
+\frac{\ln n}{n^a}=\frac{\ln n}{n^\varepsilon}\cdot\frac{1}{n^{a-\varepsilon}}\le C\cdot\frac{1}{n^{a-\varepsilon}},
 $$
 
-而 $\sum\frac{1}{n^{a-\epsilon}}$ 收敛, 故 $\sum\frac{\ln n}{n^a}$ 收敛. 由**定理 2.2**（魏尔斯特拉斯 M 判别法）, 求导级数在 $\left[a,+\infty\right)$ 上一致收敛.
+而 $\sum\frac{1}{n^{a-\varepsilon}}$ 收敛, 故 $\sum\frac{\ln n}{n^a}$ 收敛. 由**定理 2.2**（魏尔斯特拉斯 M 判别法）, 求导级数在 $\left[a,+\infty\right)$ 上一致收敛.
 
 又原级数 $\sum\frac{1}{n^x}$ 在 $x>1$ 时收敛. 由**定理 2.7**（逐项求导定理）, $\zeta\left(x\right)$ 在 $\left[a,+\infty\right)$ 上可导, 且
 

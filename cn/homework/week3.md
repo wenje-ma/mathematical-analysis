@@ -1,6 +1,6 @@
 # 作业 3
 
-> **定义**（序列极限）设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\epsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|<\epsilon$, 只要 $n>N$, 则我们称 $a_n$ 以 $l$ 为极限, 记作 $\lim\limits_{n\to\infty}a_n=l$.
+> **定义**（序列极限）设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|<\varepsilon$, 只要 $n>N$, 则我们称 $a_n$ 以 $l$ 为极限, 记作 $\lim\limits_{n\to\infty}a_n=l$.
 
 > **例 3.3**（正数的 $n$ 次方根趋于 $1$）设 $a$ 是任意的正数, 则 $\lim\limits_{n\to\infty}a^{1/n}=1$.
 
@@ -10,7 +10,7 @@
 
 ### 习题一
 
-（习题 1.3-1-2）用 $\epsilon$-$N$ 语言证明: $\lim\limits_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
+（习题 1.3-1-2）用 $\varepsilon$-$N$ 语言证明: $\lim\limits_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
 
 ### 解答 习题一
 
@@ -20,7 +20,7 @@ $$
 \frac{2n-5}{3n+100}=\frac{2-5/n}{3+100/n}.
 $$
 
-当 $n\to\infty$ 时, $5/n\to0$, $100/n\to0$(由**定义**（序列极限）, 对任意 $\epsilon>0$, 取 $N>5/\epsilon$ 则 $\left|5/n\right|<\epsilon$). 由**定理 3.1**（极限四则运算定理）, 
+当 $n\to\infty$ 时, $5/n\to0$, $100/n\to0$(由**定义**（序列极限）, 对任意 $\varepsilon>0$, 取 $N>5/\varepsilon$ 则 $\left|5/n\right|<\varepsilon$). 由**定理 3.1**（极限四则运算定理）, 
 
 $$
 \lim_{n\to\infty}\frac{2n-5}{3n+100}=\frac{\lim\left(2-5/n\right)}{\lim\left(3+100/n\right)}=\frac23.
@@ -30,7 +30,7 @@ $$
 $\blacksquare$
 ### 习题二
 
-（习题 1.3-1-4）用 $\epsilon$-$N$ 语言证明: $\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$.
+（习题 1.3-1-4）用 $\varepsilon$-$N$ 语言证明: $\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$.
 
 ### 解答 习题二
 
@@ -40,17 +40,17 @@ $$
 \frac{n!}{n^n}=\frac{1\cdot2\cdots n}{n\cdot n\cdots n}=\frac1n\cdot\frac2n\cdots\frac{n-1}{n}\cdot1\le\frac1n.
 $$
 
-任给 $\epsilon>0$, 取 $N=\left[\frac1\epsilon\right]+1$, 则当 $n>N$ 时
+任给 $\varepsilon>0$, 取 $N=\left[\frac1\varepsilon\right]+1$, 则当 $n>N$ 时
 
 $$
-\left|\frac{n!}{n^n}-0\right|\le\frac1n<\epsilon.
+\left|\frac{n!}{n^n}-0\right|\le\frac1n<\varepsilon.
 $$
 
 由**定义**（序列极限）, $\lim\limits_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
 ### 习题三
 
-（习题 1.3-1-6）用 $\epsilon$-$N$ 语言证明: $\lim\limits_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
+（习题 1.3-1-6）用 $\varepsilon$-$N$ 语言证明: $\lim\limits_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
 
 ### 解答 习题三
 
@@ -70,7 +70,7 @@ $$
 $\blacksquare$
 ### 习题四
 
-（习题 1.3-1-8）用 $\epsilon$-$N$ 语言证明:
+（习题 1.3-1-8）用 $\varepsilon$-$N$ 语言证明:
 
 $$
 \lim\limits_{n\to\infty}\left(\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\right)=0.
@@ -84,7 +84,7 @@ $$
 0\le\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\le\frac{n}{n^{3/2}}=\frac1{\sqrt n}.
 $$
 
-任给 $\epsilon>0$, 取 $N=\left[1/\epsilon^2\right]+1$, 则当 $n>N$ 时 $\frac1{\sqrt n}<\epsilon$. 由**定义**（序列极限）, 原式趋于 $0$. $\blacksquare$
+任给 $\varepsilon>0$, 取 $N=\left[1/\varepsilon^2\right]+1$, 则当 $n>N$ 时 $\frac1{\sqrt n}<\varepsilon$. 由**定义**（序列极限）, 原式趋于 $0$. $\blacksquare$
 
 ### 习题五
 
@@ -209,9 +209,9 @@ $$
 
 ### 解答 习题十
 
-(1)任给 $\epsilon>0$, 由**定义**（序列极限）, 存在自然数 $N$ 使得当 $n>N$ 时 $\left|a_n-l\right|<\epsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n>N'$ 时 $n+k>N$, 从而 $\left|a_{n+k}-l\right|<\epsilon$. 故 $\lim a_{n+k}=l$.
+(1)任给 $\varepsilon>0$, 由**定义**（序列极限）, 存在自然数 $N$ 使得当 $n>N$ 时 $\left|a_n-l\right|<\varepsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n>N'$ 时 $n+k>N$, 从而 $\left|a_{n+k}-l\right|<\varepsilon$. 故 $\lim a_{n+k}=l$.
 
-(2)任给 $\epsilon>0$, 由**定义**（序列极限）, 存在自然数 $N$ 使得当 $n>N$ 时 $\left|a_n-l\right|<\epsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n>N'$ 时 $2n>N$ 且 $2n-1>N$, 从而 $\left|a_{2n}-l\right|<\epsilon$ 且 $\left|a_{2n-1}-l\right|<\epsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
+(2)任给 $\varepsilon>0$, 由**定义**（序列极限）, 存在自然数 $N$ 使得当 $n>N$ 时 $\left|a_n-l\right|<\varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n>N'$ 时 $2n>N$ 且 $2n-1>N$, 从而 $\left|a_{2n}-l\right|<\varepsilon$ 且 $\left|a_{2n-1}-l\right|<\varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
 
 ### 习题十一
 
@@ -219,10 +219,10 @@ $$
 
 ### 解答 习题十一
 
-由第一章**命题 1.7**（三角不等式）, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\epsilon>0$, 由**定义**（序列极限）, 存在 $N$ 使得当 $n>N$ 时 $\left|a_n-l\right|<\epsilon$. 于是当 $n>N$ 时
+由第一章**命题 1.7**（三角不等式）, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\varepsilon>0$, 由**定义**（序列极限）, 存在 $N$ 使得当 $n>N$ 时 $\left|a_n-l\right|<\varepsilon$. 于是当 $n>N$ 时
 
 $$
-\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|<\epsilon.
+\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|<\varepsilon.
 $$
 
 由**定义**（序列极限）, $\lim\left|a_n\right|=\left|l\right|$. $\blacksquare$
