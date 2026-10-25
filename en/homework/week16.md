@@ -233,26 +233,26 @@ $$
 \left|R_1\right|=\left|\frac{f''\left(\xi\right)}{2}\right|\left(0.16\right)^2=\frac{2}{25}\xi^{-9/5}\cdot\left(0.16\right)^2.
 $$
 
-Since $\xi>32$,
+Since $\xi> 32$,
 
 $$
-\xi^{-9/5}<32^{-9/5}=\left(2^5\right)^{-9/5}=2^{-9}=\frac{1}{512}.
+\xi^{-9/5}< 32^{-9/5}=\left(2^5\right)^{-9/5}=2^{-9}=\frac{1}{512}.
 $$
 
 Thus
 $$
-\left|R_1\right|<\frac{2}{25}\cdot\frac{1}{512}\cdot\left(0.16\right)^2=\frac{2\cdot0.0256}{25\cdot512}=4\times10^{-6}.
+\left|R_1\right|< \frac{2}{25}\cdot\frac{1}{512}\cdot\left(0.16\right)^2=\frac{2\cdot0.0256}{25\cdot512}=4\times10^{-6}.
 $$
 
 That is, as an approximation to $32.16^{1/5}$, the absolute error of $2.002$ is about $4\times10^{-6}$. $\blacksquare$
 
 ### Problem 9
 
-(Problem 3.4-12) Use the local Taylor expansion to prove the following conclusion: let $y=f\left(x\right)$ have an $n$-th derivative at $x_0$, $n>1$, and
+(Problem 3.4-12) Use the local Taylor expansion to prove the following conclusion: let $y=f\left(x\right)$ have an $n$-th derivative at $x_0$, $n> 1$, and
 $$
 f'\left(x_0\right)=f''\left(x_0\right)=\cdots=f^{\left(n-1\right)}\left(x_0\right)=0, f^{\left(n\right)}\left(x_0\right)\ne0.
 $$
-When $n$ is odd, $x_0$ is definitely not an extremum point; when $n$ is even, if $f^{\left(n\right)}\left(x_0\right)>0$, then $x_0$ is a local minimum point; if $f^{\left(n\right)}\left(x_0\right)<0$, then $x_0$ is a local maximum point.
+When $n$ is odd, $x_0$ is definitely not an extremum point; when $n$ is even, if $f^{\left(n\right)}\left(x_0\right)> 0$, then $x_0$ is a local minimum point; if $f^{\left(n\right)}\left(x_0\right)< 0$, then $x_0$ is a local maximum point.
 
 ### Solution to Problem 9
 
@@ -274,4 +274,4 @@ $$
 
 When $n$ is odd, $\left(x-x_0\right)^n$ changes sign on the two sides of $x_0$ (negative on the left, positive on the right), while $\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$ is a fixed nonzero constant; hence $f\left(x\right)-f\left(x_0\right)$ changes sign on the two sides of $x_0$. Therefore $x_0$ is not an extremum point.
 
-When $n$ is even, $\left(x-x_0\right)^n>0$ ($x\ne x_0$). If $f^{\left(n\right)}\left(x_0\right)>$, then $f\left(x\right)-f\left(x_0\right)>0$ ($x$ sufficiently close to $x_0$ and $x\ne x_0$), i.e. $f\left(x\right)>f\left(x_0\right)$, so $x_0$ is a local minimum point. If $f^{\left(n\right)}\left(x_0\right)<0$, then $f\left(x\right)-f\left(x_0\right)<0$, i.e. $f\left(x\right)<f\left(x_0\right)$, so $x_0$ is a local maximum point. $\blacksquare$
+When $n$ is even, $\left(x-x_0\right)^n> 0$ ($x\ne x_0$). If $f^{\left(n\right)}\left(x_0\right)> $, then $f\left(x\right)-f\left(x_0\right)> 0$ ($x$ sufficiently close to $x_0$ and $x\ne x_0$), i.e. $f\left(x\right)> f\left(x_0\right)$, so $x_0$ is a local minimum point. If $f^{\left(n\right)}\left(x_0\right)< 0$, then $f\left(x\right)-f\left(x_0\right)< 0$, i.e. $f\left(x\right)< f\left(x_0\right)$, so $x_0$ is a local maximum point. $\blacksquare$

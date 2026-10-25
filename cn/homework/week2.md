@@ -6,7 +6,7 @@
 
 > **定义**（周期函数）设 $y=f\left(x\right)$ 在 $\mathbb R$ 上有定义, 且存在一个数 $T\ne 0$ 使得 $f\left(x+T\right)=f\left(x\right),\forall x\in\mathbb R$, 则称 $y=f\left(x\right)$ 是周期函数, 其中 $T$ 称作 $f$ 的一个周期.
 
-> **命题 2.1**（有界函数的充要条件）函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M>0$, 使得 $\left|f\left(x\right)\right|\le M,\forall x\in X$.
+> **命题 2.1**（有界函数的充要条件）函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M> 0$, 使得 $\left|f\left(x\right)\right|\le M,\forall x\in X$.
 
 ### 习题一
 
@@ -23,9 +23,9 @@
 
 (1)要使 $\sqrt{x^2-16}$ 有意义, 须 $x^2-16\ge0$, 即 $\left|x\right|\ge4$. 故定义域为 $\left(-\infty,-4\right]\cup\left[4,+\infty\right)$.
 
-(2)要使 $\frac{1}{\sqrt{x^2-3x+2}}$ 有意义, 须 $x^2-3x+2>0$, 即 $\left(x-1\right)\left(x-2\right)>0$, 亦即 $x<1$ 或 $x>2$. 故定义域为 $\left(-\infty,1\right)\cup\left(2,+\infty\right)$.
+(2)要使 $\frac{1}{\sqrt{x^2-3x+2}}$ 有意义, 须 $x^2-3x+2> 0$, 即 $\left(x-1\right)\left(x-2\right)> 0$, 亦即 $x< 1$ 或 $x> 2$. 故定义域为 $\left(-\infty,1\right)\cup\left(2,+\infty\right)$.
 
-(3)要使 $\ln\frac{x^2-2}{2}$ 有意义, 须 $\frac{x^2-2}{2}>0$, 即 $x^2>2$, 亦即 $\left|x\right|>\sqrt2$. 故定义域为
+(3)要使 $\ln\frac{x^2-2}{2}$ 有意义, 须 $\frac{x^2-2}{2}> 0$, 即 $x^2> 2$, 亦即 $\left|x\right|> \sqrt2$. 故定义域为
 
 $$
 \left(-\infty,-\sqrt2\right)\cup\left(\sqrt2,+\infty\right).
@@ -68,9 +68,9 @@ $$
 
 (2)当 $x$ 遍历 $\mathbb R\backslash\left\{0\right\}$ 时, $\frac1x$ 遍历 $\mathbb R\backslash\left\{0\right\}$. 而 $\sin t$ 在 $t\in\mathbb R$ 上的值域为 $\left[-1,1\right]$, 去掉一个点 $t=0$(对应 $\sin0=0$)不影响值域($0$ 仍可取到, 如 $t=\pi$). 故 $f\left(X\right)=\left[-1,1\right]$.
 
-(3)对任意 $x\in\mathbb R$, 其小数部分 $\left\{x\right\}=x-\left[x\right]$ 满足 $0\le\left\{x\right\}<1$. 反之, 对任意 $y\in\left[0,1\right)$, 取 $x=y$ 即得 $\left\{x\right\}=y$. 故 $f\left(X\right)=\left[0,1\right)$.
+(3)对任意 $x\in\mathbb R$, 其小数部分 $\left\{x\right\}=x-\left[x\right]$ 满足 $0\le\left\{x\right\}< 1$. 反之, 对任意 $y\in\left[0,1\right)$, 取 $x=y$ 即得 $\left\{x\right\}=y$. 故 $f\left(X\right)=\left[0,1\right)$.
 
-(4)$f'\left(x\right)=3x^2+1>0$, 故 $f$ 在 $\mathbb R$ 上严格单调递增. 又当 $x\to-\infty$ 时 $f\left(x\right)\to-\infty$, 当 $x\to+\infty$ 时 $f\left(x\right)\to+\infty$. 故由介值性, $f\left(X\right)=\mathbb R$. $\blacksquare$
+(4)$f'\left(x\right)=3x^2+1> 0$, 故 $f$ 在 $\mathbb R$ 上严格单调递增. 又当 $x\to-\infty$ 时 $f\left(x\right)\to-\infty$, 当 $x\to+\infty$ 时 $f\left(x\right)\to+\infty$. 故由介值性, $f\left(X\right)=\mathbb R$. $\blacksquare$
 
 ### 习题三
 
@@ -80,7 +80,7 @@ $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|\le k\left|x_1-x_2\right|,\forall x_1,x_2\in\left[a,b\right],
 $$
 
-其中 $k<1$ 为常数. 又设存在一点 $c\in\left(a,b\right):f\left(c\right)=c$. 证明: $\left|f_n\left(x\right)-c\right|\le k^n\left(b-a\right)$, 其中 $f_n$ 为 $f$ 的 $n$ 重复合函数.
+其中 $k< 1$ 为常数. 又设存在一点 $c\in\left(a,b\right):f\left(c\right)=c$. 证明: $\left|f_n\left(x\right)-c\right|\le k^n\left(b-a\right)$, 其中 $f_n$ 为 $f$ 的 $n$ 重复合函数.
 
 ### 解答 习题三
 
@@ -135,7 +135,7 @@ $$
 （习题 1.2-11）设
 
 $$
-f\left(x\right)=\begin{cases}e^x,&x\le0,\x,&x>0;\end{cases}g\left(x\right)=\begin{cases}x,&x\le0,\-x^2,&x>0;\end{cases}
+f\left(x\right)=\begin{cases}e^x,&x\le0,\x,&x> 0;\end{cases}g\left(x\right)=\begin{cases}x,&x\le0,\-x^2,&x> 0;\end{cases}
 $$
 
 求 $f\left(g\left(x\right)\right)$ 及 $g\left(f\left(x\right)\right)$ 的分段表示式, 并计算 $f\left(g\left(1\right)\right)$ 的值.
@@ -145,7 +145,7 @@ $$
 先求 $f\left(g\left(x\right)\right)$. 由**定义**（复合函数）: 
 
 - 当 $x\le0$ 时, $g\left(x\right)=x\le0$, 故 $f\left(g\left(x\right)\right)=f\left(x\right)=e^x$; 
-- 当 $x>0$ 时, $g\left(x\right)=-x^2<0$, 故
+- 当 $x> 0$ 时, $g\left(x\right)=-x^2< 0$, 故
 
   $$
   f\left(g\left(x\right)\right)=f\left(-x^2\right)=e^{-x^2}.
@@ -154,22 +154,22 @@ $$
 因此
 
 $$
-f\left(g\left(x\right)\right)=\begin{cases}e^x,&x\le0,\e^{-x^2},&x>0.\end{cases}
+f\left(g\left(x\right)\right)=\begin{cases}e^x,&x\le0,\e^{-x^2},&x> 0.\end{cases}
 $$
 
 再求 $g\left(f\left(x\right)\right)$: 
 
-- 当 $x\le0$ 时, $f\left(x\right)=e^x>0$(因 $x\le0$ 时 $0<e^x\le1$), 故
+- 当 $x\le0$ 时, $f\left(x\right)=e^x> 0$(因 $x\le0$ 时 $0< e^x\le1$), 故
 
   $$
   g\left(f\left(x\right)\right)=g\left(e^x\right)=-\left(e^x\right)^2=-e^{2x};
   $$
-- 当 $x>0$ 时, $f\left(x\right)=x>0$, 故 $g\left(f\left(x\right)\right)=g\left(x\right)=-x^2$.
+- 当 $x> 0$ 时, $f\left(x\right)=x> 0$, 故 $g\left(f\left(x\right)\right)=g\left(x\right)=-x^2$.
 
 因此
 
 $$
-g\left(f\left(x\right)\right)=\begin{cases}-e^{2x},&x\le0,\-x^2,&x>0.\end{cases}
+g\left(f\left(x\right)\right)=\begin{cases}-e^{2x},&x\le0,\-x^2,&x> 0.\end{cases}
 $$
 
 最后, $g\left(1\right)=-1^2=-1$, 故
@@ -188,7 +188,7 @@ $\blacksquare$
 (2)
 
 $$
-y=\sqrt{x+10}-\sqrt{x}\left(x>0\right);
+y=\sqrt{x+10}-\sqrt{x}\left(x> 0\right);
 $$
 
 (3) $y=\operatorname{ch}x$;
@@ -196,7 +196,7 @@ $$
 (4)
 
 $$
-y=\ln\left(x+\sqrt{x^2+1}\right)\left(x>0\right).
+y=\ln\left(x+\sqrt{x^2+1}\right)\left(x> 0\right).
 $$
 
 ### 解答 习题六
@@ -209,15 +209,15 @@ $$
 
 取 $M=5+10^{10}$, 由**命题 2.1**（有界函数的充要条件）, $y=5\sin e^x+10^{10}$ 是有界函数.
 
-(2)对 $x>0$, 有理化得
+(2)对 $x> 0$, 有理化得
 
 $$
 \sqrt{x+10}-\sqrt{x}=\frac{10}{\sqrt{x+10}+\sqrt{x}}.
 $$
 
-因分母 $\sqrt{x+10}+\sqrt{x}>\sqrt{10}$($x>0$), 故 $0<y<\frac{10}{\sqrt{10}}=\sqrt{10}$. 取 $M=\sqrt{10}$, 由**命题 2.1**（有界函数的充要条件）, $y=\sqrt{x+10}-\sqrt{x}$ 是有界函数.
+因分母 $\sqrt{x+10}+\sqrt{x}> \sqrt{10}$($x> 0$), 故 $0< y< \frac{10}{\sqrt{10}}=\sqrt{10}$. 取 $M=\sqrt{10}$, 由**命题 2.1**（有界函数的充要条件）, $y=\sqrt{x+10}-\sqrt{x}$ 是有界函数.
 
-(3)$y=\operatorname{ch}x=\frac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$, 故 $y\to+\infty$, 不存在常数 $M>0$ 使 $\left|y\right|\le M$ 对一切 $x\in\mathbb R$ 成立. 由**命题 2.1**（有界函数的充要条件）, $y=\operatorname{ch}x$ 不是有界函数.
+(3)$y=\operatorname{ch}x=\frac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$, 故 $y\to+\infty$, 不存在常数 $M> 0$ 使 $\left|y\right|\le M$ 对一切 $x\in\mathbb R$ 成立. 由**命题 2.1**（有界函数的充要条件）, $y=\operatorname{ch}x$ 不是有界函数.
 
 (4)当 $x\to+\infty$ 时, $x+\sqrt{x^2+1}\sim2x$, 故
 
@@ -225,4 +225,4 @@ $$
 y=\ln\left(x+\sqrt{x^2+1}\right)\sim\ln\left(2x\right)\to+\infty,
 $$
 
-不存在常数 $M>0$ 使 $\left|y\right|\le M$ 对一切 $x>0$ 成立. 由**命题 2.1**（有界函数的充要条件）, $y=\ln\left(x+\sqrt{x^2+1}\right)$ 不是有界函数. $\blacksquare$
+不存在常数 $M> 0$ 使 $\left|y\right|\le M$ 对一切 $x> 0$ 成立. 由**命题 2.1**（有界函数的充要条件）, $y=\ln\left(x+\sqrt{x^2+1}\right)$ 不是有界函数. $\blacksquare$

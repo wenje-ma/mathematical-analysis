@@ -1,7 +1,7 @@
 # Assignment 22
 
 > **Theorem 5.1** (Integration of Rational Expressions in Trigonometric Functions) The indefinite integral of a rational expression $R\left(\sin x,\cos x\right)$ in trigonometric functions can always be reduced to the indefinite integral of a rational function in $t$ by the universal substitution $t=\tan\frac{x}{2}$. In this case,
->
+> 
 > $$
 > \begin{aligned}
 > \sin x&=\frac{2t}{1+t^2},\\

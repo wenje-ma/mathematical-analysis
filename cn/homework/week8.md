@@ -8,7 +8,7 @@
 
 ### 习题一
 
-（习题 1.8-2）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点, $x_1<x_2<x_3$. 令
+（习题 1.8-2）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点, $x_1< x_2< x_3$. 令
 
 $$
 \eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
@@ -22,11 +22,11 @@ $f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2**, 设最大值为 $M$
 
 ### 习题二
 
-（习题 1.8-3）设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 中连续, 并且 $\lim\limits_{x\to+\infty}f\left(x\right)=l$, 且 $l>f\left(a\right)$. 证明: 对于任一数 $\eta:f\left(a\right)<\eta<l$, 一定存在一个点 $\xi\in\left(a,+\infty\right)$, 使得 $f\left(\xi\right)=\eta$.
+（习题 1.8-3）设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 中连续, 并且 $\lim\limits_{x\to+\infty}f\left(x\right)=l$, 且 $l> f\left(a\right)$. 证明: 对于任一数 $\eta:f\left(a\right)< \eta< l$, 一定存在一个点 $\xi\in\left(a,+\infty\right)$, 使得 $f\left(\xi\right)=\eta$.
 
 ### 解答 习题二
 
-因 $\lim\limits_{x\to+\infty}f\left(x\right)=l>\eta$, 存在 $A>a$ 使得当 $x>A$ 时 $f\left(x\right)>\eta$. 取 $b>A$, 则 $f\left(a\right)<\eta<f\left(b\right)$. 又 $f$ 在 $\left[a,b\right]$ 上连续, 由**定理 8.1**（中间值定理）, 存在 $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
+因 $\lim\limits_{x\to+\infty}f\left(x\right)=l> \eta$, 存在 $A> a$ 使得当 $x> A$ 时 $f\left(x\right)> \eta$. 取 $b> A$, 则 $f\left(a\right)< \eta< f\left(b\right)$. 又 $f$ 在 $\left[a,b\right]$ 上连续, 由**定理 8.1**（中间值定理）, 存在 $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
 
 ### 习题三
 
@@ -34,14 +34,14 @@ $f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2**, 设最大值为 $M$
 
 ### 解答 习题三
 
-设 $\lim\limits_{x\to+\infty}f\left(x\right)=l$. 存在 $A>a$ 使得当 $x>A$ 时 $\left|f\left(x\right)-l\right|<1$, 即 $\left|f\left(x\right)\right|<\left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2**（有界性定理）, $f$ 有界, 设 $\left|f\left(x\right)\right|\le M$. 取 $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde M$. $\blacksquare$
+设 $\lim\limits_{x\to+\infty}f\left(x\right)=l$. 存在 $A> a$ 使得当 $x> A$ 时 $\left|f\left(x\right)-l\right|< 1$, 即 $\left|f\left(x\right)\right|< \left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2**（有界性定理）, $f$ 有界, 设 $\left|f\left(x\right)\right|\le M$. 取 $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde M$. $\blacksquare$
 
 ### 习题四
 
 （习题 1.8-5）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设
 
 $$
-x_1,x_2\in\left(a,b\right),x_1<x_2,m_1>0,m_2>0.
+x_1,x_2\in\left(a,b\right),x_1< x_2,m_1> 0,m_2> 0.
 $$
 
 证明: 存在一点 $\xi\in\left(a,b\right)$, 使得
@@ -94,7 +94,7 @@ $$
 b_n-a_n=\frac{b-a}{2^n}\to0.
 $$
 
-由**区间套原理**, 存在唯一 $c\in\bigcap\left[a_n,b_n\right]$. 对任意 $\delta>0$, 当 $n$ 充分大时 $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, 而 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点, 故 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中必有 $E$ 的点. $\blacksquare$
+由**区间套原理**, 存在唯一 $c\in\bigcap\left[a_n,b_n\right]$. 对任意 $\delta> 0$, 当 $n$ 充分大时 $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, 而 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点, 故 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中必有 $E$ 的点. $\blacksquare$
 
 ### 习题八
 
@@ -104,7 +104,7 @@ $$
 
 设 $E\subset\left[a,b\right]$, 其中 $b$ 为 $E$ 的一个上界. 将 $\left[a,b\right]$ 平分为两个闭区间. 若右半区间含 $E$ 的上界, 则取右半; 否则取左半(此时左半右端点为新的上界). 如此继续, 得区间套 $\left\{\left[a_n,b_n\right]\right\}$, 每个 $b_n$ 为 $E$ 的上界, 每个 $a_n$ 不是 $E$ 的上界.
 
-由**区间套原理**, 存在唯一 $M_0\in\bigcap\left[a_n,b_n\right]$. 因 $b_n\to M_0$ 且 $b_n$ 为上界, 对任意 $x\in E$, $x\le b_n$, 令 $n\to\infty$ 得 $x\le M_0$, 即 $M_0$ 为上界. 又若 $M$ 为任一上界, 则 $M\ge b_n$(否则若 $M<b_n$, 与 $b_n$ 为上界不矛盾...), 实际上 $M\ge a_n$ 对一切 $n$, 故 $M\ge M_0$. $\blacksquare$
+由**区间套原理**, 存在唯一 $M_0\in\bigcap\left[a_n,b_n\right]$. 因 $b_n\to M_0$ 且 $b_n$ 为上界, 对任意 $x\in E$, $x\le b_n$, 令 $n\to\infty$ 得 $x\le M_0$, 即 $M_0$ 为上界. 又若 $M$ 为任一上界, 则 $M\ge b_n$(否则若 $M< b_n$, 与 $b_n$ 为上界不矛盾...), 实际上 $M\ge a_n$ 对一切 $n$, 故 $M\ge M_0$. $\blacksquare$
 
 ### 习题九
 
@@ -112,10 +112,10 @@ $$
 
 ### 解答 习题九
 
-设 $\left|g\left(x\right)\right|\le M$. 任给 $\varepsilon>0$, 因 $f\left(x\right)\to0$, 存在 $\delta>0$ 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)\right|<\varepsilon/M$. 于是
+设 $\left|g\left(x\right)\right|\le M$. 任给 $\varepsilon> 0$, 因 $f\left(x\right)\to0$, 存在 $\delta> 0$ 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)\right|< \varepsilon/M$. 于是
 
 $$
-\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|<\varepsilon.
+\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|< \varepsilon.
 $$
 
 故 $\lim f\left(x\right)g\left(x\right)=0$. $\blacksquare$

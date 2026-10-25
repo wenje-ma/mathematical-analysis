@@ -1,9 +1,9 @@
 # Assignment 42
 
-> **Definition** (Uniform Convergence of a Sequence of Functions) Let $\left\{f_n\left(x\right)\right\}$ be defined on a set $X$, and let $f\left(x\right)$ be a function on $X$. If for every $\varepsilon>0$ there exists a natural number $N$ such that whenever $n>N$, for all $x\in X$ we have $\left|f_n\left(x\right)-f\left(x\right)\right|<\varepsilon$, then $\left\{f_n\left(x\right)\right\}$ is said to converge uniformly to $f\left(x\right)$ on $X$.
->
-> **Theorem 1.1** (The M-Test) Suppose there exists a sequence $M_n>0$ with $M_n\to 0$ such that $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ holds for all $x\in X$. Then $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $X$.
->
+> **Definition** (Uniform Convergence of a Sequence of Functions) Let $\left\{f_n\left(x\right)\right\}$ be defined on a set $X$, and let $f\left(x\right)$ be a function on $X$. If for every $\varepsilon> 0$ there exists a natural number $N$ such that whenever $n> N$, for all $x\in X$ we have $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$, then $\left\{f_n\left(x\right)\right\}$ is said to converge uniformly to $f\left(x\right)$ on $X$.
+> 
+> **Theorem 1.1** (The M-Test) Suppose there exists a sequence $M_n> 0$ with $M_n\to 0$ such that $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ holds for all $x\in X$. Then $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $X$.
+> 
 > **Theorem 1.2** (Continuity of the Limit Function) Let $\left\{f_n\left(x\right)\right\}$ converge uniformly to $f\left(x\right)$ on an interval $X$, and suppose each $f_n\left(x\right)$ is continuous on $X$. Then $f\left(x\right)$ is continuous on $X$.
 
 ### Problem 1
@@ -17,7 +17,7 @@ For any fixed $x\in\left(0,1\right)$, as $n\to\infty$, $1+nx\to+\infty$, so $f_n
 Consider
 
 $$
-\sup_{0<x<1}\left|f_n\left(x\right)-0\right|=\sup_{0<x<1}\frac{1}{1+nx}.
+\sup_{0< x< 1}\left|f_n\left(x\right)-0\right|=\sup_{0< x< 1}\frac{1}{1+nx}.
 $$
 
 When $x\to 0^+$, $\frac{1}{1+nx}\to 1$, so this supremum equals $1$ (and does not tend to $0$). Take $\varepsilon_0=\frac12$. For any $n$, take $x_n=\frac{1}{n}\in\left(0,1\right)$. Then
@@ -26,7 +26,7 @@ $$
 \left|f_n\left(x_n\right)-0\right|=\frac{1}{1+1}=\frac12=\varepsilon_0.
 $$
 
-By **Definition** (Uniform Convergence of a Sequence of Functions), it is impossible to find an $N$ such that whenever $n>N$, $\left|f_n\left(x\right)-0\right|<\varepsilon_0$ holds for all $x\in\left(0,1\right)$. Thus $\left\{f_n\left(x\right)\right\}$ does not converge uniformly to $0$ on $\left(0,1\right)$. $\blacksquare$
+By **Definition** (Uniform Convergence of a Sequence of Functions), it is impossible to find an $N$ such that whenever $n> N$, $\left|f_n\left(x\right)-0\right|< \varepsilon_0$ holds for all $x\in\left(0,1\right)$. Thus $\left\{f_n\left(x\right)\right\}$ does not converge uniformly to $0$ on $\left(0,1\right)$. $\blacksquare$
 
 ### Problem 2
 
@@ -48,7 +48,7 @@ while $M_n=\frac1n\to 0$. By **Theorem 1.1** (The M-Test), $\left\{f_n\left(x\ri
 
 ### Solution to Problem 3
 
-For any fixed $x\in\left[0,1\right]$: when $x=0$, $f_n\left(0\right)=0$; when $x>0$, $nx^2\to+\infty$, so $nxe^{-nx^2}\to 0$. The limit function is $f\left(x\right)\equiv 0$.
+For any fixed $x\in\left[0,1\right]$: when $x=0$, $f_n\left(0\right)=0$; when $x> 0$, $nx^2\to+\infty$, so $nxe^{-nx^2}\to 0$. The limit function is $f\left(x\right)\equiv 0$.
 
 Let $u=\sqrt{n}\,x$. Then
 
@@ -73,30 +73,30 @@ $$
 
 ### Solution to Problem 4
 
-This problem is a generalization of **Theorem 1.2** (Continuity of the Limit Function) to the case where the $f_n$ need not be continuous and only have a limit at $x_0$; the proof idea is the same as for **Theorem 1.2**. Write $A_n=\lim_{x\to x_0}f_n\left(x\right)$. For any $\varepsilon>0$, since $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $\left(a,b\right)$, there exists $N$ such that whenever $n>N$, for all $x\in\left(a,b\right)$ we have
+This problem is a generalization of **Theorem 1.2** (Continuity of the Limit Function) to the case where the $f_n$ need not be continuous and only have a limit at $x_0$; the proof idea is the same as for **Theorem 1.2**. Write $A_n=\lim_{x\to x_0}f_n\left(x\right)$. For any $\varepsilon> 0$, since $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $\left(a,b\right)$, there exists $N$ such that whenever $n> N$, for all $x\in\left(a,b\right)$ we have
 
 $$
-\left|f_n\left(x\right)-f\left(x\right)\right|<\frac{\varepsilon}{3}.
+\left|f_n\left(x\right)-f\left(x\right)\right|< \frac{\varepsilon}{3}.
 $$
 
-Fix $m,n>N$. Letting $x\to x_0$, by the order-preserving property of limits,
+Fix $m,n> N$. Letting $x\to x_0$, by the order-preserving property of limits,
 
 $$
-\left|A_m-A_n\right|=\lim_{x\to x_0}\left|f_m\left(x\right)-f_n\left(x\right)\right|\le\frac{2\varepsilon}{3}<\varepsilon.
+\left|A_m-A_n\right|=\lim_{x\to x_0}\left|f_m\left(x\right)-f_n\left(x\right)\right|\le\frac{2\varepsilon}{3}< \varepsilon.
 $$
 
 Hence $\left\{A_n\right\}$ is a Cauchy sequence, so there exists a finite limit $A=\lim_{n\to\infty}A_n$.
 
-Now prove that $\lim_{x\to x_0}f\left(x\right)=A$. Fix $n>N$. Since $A_n=\lim_{x\to x_0}f_n\left(x\right)$, there exists $\delta>0$ such that whenever $0<\left|x-x_0\right|<\delta$,
+Now prove that $\lim_{x\to x_0}f\left(x\right)=A$. Fix $n> N$. Since $A_n=\lim_{x\to x_0}f_n\left(x\right)$, there exists $\delta> 0$ such that whenever $0< \left|x-x_0\right|< \delta$,
 
 $$
-\left|f_n\left(x\right)-A_n\right|<\frac{\varepsilon}{3}.
+\left|f_n\left(x\right)-A_n\right|< \frac{\varepsilon}{3}.
 $$
 
-Then whenever $0<\left|x-x_0\right|<\delta$,
+Then whenever $0< \left|x-x_0\right|< \delta$,
 
 $$
-\left|f\left(x\right)-A\right|\le \left|f\left(x\right)-f_n\left(x\right)\right|+\left|f_n\left(x\right)-A_n\right|+\left|A_n-A\right|<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon.
+\left|f\left(x\right)-A\right|\le \left|f\left(x\right)-f_n\left(x\right)\right|+\left|f_n\left(x\right)-A_n\right|+\left|A_n-A\right|< \frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\varepsilon.
 $$
 
 Hence
@@ -131,7 +131,7 @@ and by **Definition** (Uniform Convergence of a Sequence of Functions), $\left\{
 
 ### Problem 6
 
-(Problem 11.1-4) Prove that $f_n\left(x\right)=\left(1+\frac{x}{n}\right)^n$ converges uniformly to $e^x$ on every closed interval $\left[0,A\right]$, where $A>0$.
+(Problem 11.1-4) Prove that $f_n\left(x\right)=\left(1+\frac{x}{n}\right)^n$ converges uniformly to $e^x$ on every closed interval $\left[0,A\right]$, where $A> 0$.
 
 ### Solution to Problem 6
 
@@ -177,18 +177,18 @@ Prove that $f_n\left(x\right)$ converges uniformly to $f\left(x\right)$ on $\lef
 
 ### Solution to Problem 7
 
-(1) Necessity. Suppose $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $\left[a,b\right]$. For any $\varepsilon>0$, there exists $N$ such that whenever $n>N$, for all $x\in\left[a,b\right]$ we have $\left|f_n\left(x\right)-f\left(x\right)\right|<\varepsilon$. By continuity, the maximum is attained at some point $x_n\in\left[a,b\right]$, so
+(1) Necessity. Suppose $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $\left[a,b\right]$. For any $\varepsilon> 0$, there exists $N$ such that whenever $n> N$, for all $x\in\left[a,b\right]$ we have $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$. By continuity, the maximum is attained at some point $x_n\in\left[a,b\right]$, so
 
 $$
-M_n=\left|f_n\left(x_n\right)-f\left(x_n\right)\right|<\varepsilon.
+M_n=\left|f_n\left(x_n\right)-f\left(x_n\right)\right|< \varepsilon.
 $$
 
 By the arbitrariness of $\varepsilon$, $M_n\to 0$.
 
-(2) Sufficiency. Suppose $M_n\to 0$. For any $\varepsilon>0$, there exists $N$ such that whenever $n>N$, $M_n<\varepsilon$. Then for all $x\in\left[a,b\right]$,
+(2) Sufficiency. Suppose $M_n\to 0$. For any $\varepsilon> 0$, there exists $N$ such that whenever $n> N$, $M_n< \varepsilon$. Then for all $x\in\left[a,b\right]$,
 
 $$
-\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n<\varepsilon.
+\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n< \varepsilon.
 $$
 
 By **Definition** (Uniform Convergence of a Sequence of Functions), $\left\{f_n\left(x\right)\right\}$ converges uniformly to $f\left(x\right)$ on $\left[a,b\right]$. $\blacksquare$

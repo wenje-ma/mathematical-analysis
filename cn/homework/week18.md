@@ -114,7 +114,7 @@ $\blacksquare$
 （习题 4.1-2）证明:
 
 $$
-\displaystyle\int\frac{\mathrm{d}x}{x^2+a^2}=\frac1a\arctan\frac{x}{a}+C\ \left(a>0\right).
+\displaystyle\int\frac{\mathrm{d}x}{x^2+a^2}=\frac1a\arctan\frac{x}{a}+C\ \left(a> 0\right).
 $$
 
 ### 解答 习题八
@@ -135,7 +135,7 @@ $\blacksquare$
 （习题 4.1-4）证明:
 
 $$
-\displaystyle\int\frac{\mathrm{d}x}{\sqrt{a^2-x^2}}=\arcsin\frac{x}{a}+C\ \left(a>0\right).
+\displaystyle\int\frac{\mathrm{d}x}{\sqrt{a^2-x^2}}=\arcsin\frac{x}{a}+C\ \left(a> 0\right).
 $$
 
 ### 解答 习题九

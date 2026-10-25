@@ -2,8 +2,8 @@
 
 > **Definition** (Supremum and Infimum) Let $E$ be a bounded set. If there exists a real number $\beta$ satisfying:
 > (1) $\beta$ is an upper bound of $E$ ($\forall x\in E,x\le\beta$);
->
-> (2) for any $\varepsilon>0$, there exists $x_0\in E$ such that $x_0>\beta-\varepsilon$, then $\beta$ is called the supremum of $E$, denoted $\sup E$. The infimum $\inf E$ is defined similarly.
+> 
+> (2) for any $\varepsilon> 0$, there exists $x_0\in E$ such that $x_0> \beta-\varepsilon$, then $\beta$ is called the supremum of $E$, denoted $\sup E$. The infimum $\inf E$ is defined similarly.
 
 > **Definition** (Oscillation) Let $f\left(x\right)$ be defined and bounded on an interval $I$. The number
 > $$
@@ -76,15 +76,15 @@ $$
 
 .
 
-On the other hand, for any $\varepsilon>0$, there exists $x_1\in I$ such that $f\left(x_1\right)>M-\frac{\varepsilon}{2}$, and there exists $x_2\in I$ such that $f\left(x_2\right)<m+\frac{\varepsilon}{2}$. Thus
+On the other hand, for any $\varepsilon> 0$, there exists $x_1\in I$ such that $f\left(x_1\right)> M-\frac{\varepsilon}{2}$, and there exists $x_2\in I$ such that $f\left(x_2\right)< m+\frac{\varepsilon}{2}$. Thus
 $$
-f\left(x_1\right)-f\left(x_2\right)>M-m-\varepsilon,
+f\left(x_1\right)-f\left(x_2\right)> M-m-\varepsilon,
 $$
 
 i.e.
 
 $$
-\left|f\left(x_1\right)-f\left(x_2\right)\right|>M-m-\varepsilon.
+\left|f\left(x_1\right)-f\left(x_2\right)\right|> M-m-\varepsilon.
 $$
 
 By the definition of supremum,
@@ -127,14 +127,14 @@ For any point $x_0$, every neighborhood of $x_0$ contains both rational and irra
 
 Let $\left\{a_n\right\}$ be monotonically increasing and bounded above. By the existence theorem for suprema, the set $E=\left\{a_n:n\ge1\right\}$ has a supremum, denoted $l=\sup E$.
 
-For any $\varepsilon>0$, by the definition of supremum, there exists $N$ such that $a_N>l-\varepsilon$. Since $\left\{a_n\right\}$ is monotonically increasing, when $n>N$ we have
+For any $\varepsilon> 0$, by the definition of supremum, there exists $N$ such that $a_N> l-\varepsilon$. Since $\left\{a_n\right\}$ is monotonically increasing, when $n> N$ we have
 $$
-a_n\ge a_N>l-\varepsilon.
+a_n\ge a_N> l-\varepsilon.
 $$
 
-On the other hand, since $l$ is an upper bound, $a_n\le l<l+\varepsilon$. Thus
+On the other hand, since $l$ is an upper bound, $a_n\le l< l+\varepsilon$. Thus
 $$
-\left|a_n-l\right|<\varepsilon,\forall n>N.
+\left|a_n-l\right|< \varepsilon,\forall n> N.
 $$
 
 By the definition of the limit of a sequence, $\lim\limits_{n\to\infty}a_n=l$. $\blacksquare$
@@ -159,9 +159,9 @@ $$
 
 Therefore $\omega_R\left(x_0\right)=1/q-0=1/q$.
 
-(2) Let $x_0$ be irrational. For any $\varepsilon>0$, there are only finitely many positive integers $q$ satisfying $1/q\ge\varepsilon$. For each such $q$, there are also only finitely many reduced rational numbers $p/q$ with denominator $q$. Hence, in some sufficiently small neighborhood of $x_0$, except for $x_0$ itself (which is irrational, $R\left(x_0\right)=0$), all other rational points $p/q$ satisfy $1/q<\varepsilon$. Hence in that neighborhood, $0\le R\left(x\right)<\varepsilon$. Thus
+(2) Let $x_0$ be irrational. For any $\varepsilon> 0$, there are only finitely many positive integers $q$ satisfying $1/q\ge\varepsilon$. For each such $q$, there are also only finitely many reduced rational numbers $p/q$ with denominator $q$. Hence, in some sufficiently small neighborhood of $x_0$, except for $x_0$ itself (which is irrational, $R\left(x_0\right)=0$), all other rational points $p/q$ satisfy $1/q< \varepsilon$. Hence in that neighborhood, $0\le R\left(x\right)< \varepsilon$. Thus
 $$
-\sup R-\inf R<\varepsilon.
+\sup R-\inf R< \varepsilon.
 $$
 
 By the arbitrariness of $\varepsilon$, $\omega_R\left(x_0\right)=0$. By **Theorem 1.3** (Necessary and Sufficient Condition for Continuity), the Riemann function is continuous at irrational points. $\blacksquare$

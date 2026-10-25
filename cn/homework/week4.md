@@ -2,7 +2,7 @@
 
 > **定理 4.2**（夹逼定理）设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le a_n\le b_n,\forall n\ge N_0$. 若 $c_n$ 与 $b_n$ 都有极限存在, 并都等于 $l$, 则 $a_n$ 的极限存在, 并且也等于 $l$.
 
-> **重要极限**（数 $e$）$\lim\limits_{n\to\infty}\left(1+\frac1n\right)^n=e$, 其中 $e$ 为无理数, $2<e<3$.
+> **重要极限**（数 $e$）$\lim\limits_{n\to\infty}\left(1+\frac1n\right)^n=e$, 其中 $e$ 为无理数, $2< e< 3$.
 
 > **定义**（无穷小量）以 $0$ 为其极限的变量称作无穷小量.
 
@@ -71,7 +71,7 @@ $$
 先证 $\left\{a_n\right\}$ 单调递增: 
 
 $$
-a_{n+1}-a_n=\frac1{2n+1}+\frac1{2n+2}-\frac1{n+1}=\frac1{2n+1}-\frac1{2n+2}>0.
+a_{n+1}-a_n=\frac1{2n+1}+\frac1{2n+2}-\frac1{n+1}=\frac1{2n+1}-\frac1{2n+2}> 0.
 $$
 
 故 $\left\{a_n\right\}$ 单调递增.
@@ -79,18 +79,18 @@ $$
 再证有上界:
 
 $$
-a_n=\displaystyle\sum_{k=n+1}^{2n}\frac1k\le\frac{n}{n+1}<1.
+a_n=\displaystyle\sum_{k=n+1}^{2n}\frac1k\le\frac{n}{n+1}< 1.
 $$
 
 由第一章**定理 3.2**（实数域完备性）, 单调递增有上界的序列有极限, 故 $\lim a_n$ 存在. $\blacksquare$
 
 ### 习题三
 
-（习题 1.4-4）令 $0<a<b$, $n$ 为正整数. 证明: 
+（习题 1.4-4）令 $0< a< b$, $n$ 为正整数. 证明: 
 (1)
 
 $$
-\left(n+1\right)a^n<\frac{b^{n+1}-a^{n+1}}{b-a}<\left(n+1\right)b^n;
+\left(n+1\right)a^n< \frac{b^{n+1}-a^{n+1}}{b-a}< \left(n+1\right)b^n;
 $$
 
 (2) 令 $a=1+\frac1{n+1},b=1+\frac1n$, 由上式推出 $\left(1+\frac1n\right)^n$ 严格递增, $\left(1+\frac1n\right)^{n+1}$ 严格递减.
@@ -103,10 +103,10 @@ $$
 \frac{b^{n+1}-a^{n+1}}{b-a}=b^n+b^{n-1}a+\cdots+ba^{n-1}+a^n=\sum_{k=0}^n b^{n-k}a^k.
 $$
 
-因 $0<a<b$, 对每一项 $b^{n-k}a^k$ 有 $a^n<b^{n-k}a^k<b^n$. 求和得
+因 $0< a< b$, 对每一项 $b^{n-k}a^k$ 有 $a^n< b^{n-k}a^k< b^n$. 求和得
 
 $$
-\left(n+1\right)a^n<\sum_{k=0}^n b^{n-k}a^k<\left(n+1\right)b^n,
+\left(n+1\right)a^n< \sum_{k=0}^n b^{n-k}a^k< \left(n+1\right)b^n,
 $$
 
 即(1)成立.
@@ -117,30 +117,30 @@ $$
 b-a=\frac1{n\left(n+1\right)}.
 $$
 
-由(1)的右半: $\frac{b^{n+1}-a^{n+1}}{b-a}<\left(n+1\right)b^n$, 即
+由(1)的右半: $\frac{b^{n+1}-a^{n+1}}{b-a}< \left(n+1\right)b^n$, 即
 
 $$
-n\left(n+1\right)\left(b^{n+1}-a^{n+1}\right)<\left(n+1\right)b^n,
+n\left(n+1\right)\left(b^{n+1}-a^{n+1}\right)< \left(n+1\right)b^n,
 $$
 
-亦即 $n\left(b^{n+1}-a^{n+1}\right)<b^n$. 整理得 $nb^{n+1}-b^n<na^{n+1}$, 即 $b^n\left(nb-1\right)<na^{n+1}$. 代入 $nb=n+1$, 得 $b^n\cdot n<na^{n+1}$, 即 $b^n<a^{n+1}$, 亦即
+亦即 $n\left(b^{n+1}-a^{n+1}\right)< b^n$. 整理得 $nb^{n+1}-b^n< na^{n+1}$, 即 $b^n\left(nb-1\right)< na^{n+1}$. 代入 $nb=n+1$, 得 $b^n\cdot n< na^{n+1}$, 即 $b^n< a^{n+1}$, 亦即
 
 $$
-\left(1+\frac1n\right)^n<\left(1+\frac1{n+1}\right)^{n+1},
+\left(1+\frac1n\right)^n< \left(1+\frac1{n+1}\right)^{n+1},
 $$
 
 故 $\left(1+\frac1n\right)^n$ 严格递增.
 
-由(1)的左半: $\left(n+1\right)a^n<\frac{b^{n+1}-a^{n+1}}{b-a}$, 即
+由(1)的左半: $\left(n+1\right)a^n< \frac{b^{n+1}-a^{n+1}}{b-a}$, 即
 
 $$
-\left(n+1\right)a^n<n\left(n+1\right)\left(b^{n+1}-a^{n+1}\right),
+\left(n+1\right)a^n< n\left(n+1\right)\left(b^{n+1}-a^{n+1}\right),
 $$
 
-亦即 $a^n<n\left(b^{n+1}-a^{n+1}\right)$. 整理得 $a^n+na^{n+1}<nb^{n+1}$, 即 $a^n\left(na+1\right)<nb^{n+1}$. 代入 $na=\frac{n\left(n+2\right)}{n+1}$, 化简可得 $a^{n+2}<b^{n+1}$, 亦即
+亦即 $a^n< n\left(b^{n+1}-a^{n+1}\right)$. 整理得 $a^n+na^{n+1}< nb^{n+1}$, 即 $a^n\left(na+1\right)< nb^{n+1}$. 代入 $na=\frac{n\left(n+2\right)}{n+1}$, 化简可得 $a^{n+2}< b^{n+1}$, 亦即
 
 $$
-\left(1+\frac1{n+1}\right)^{n+2}<\left(1+\frac1n\right)^{n+1},
+\left(1+\frac1{n+1}\right)^{n+2}< \left(1+\frac1n\right)^{n+1},
 $$
 
 故 $\left(1+\frac1n\right)^{n+1}$ 严格递减. $\blacksquare$
@@ -150,7 +150,7 @@ $$
 （习题 1.4-5）证明
 
 $$
-\left(1+\frac1n\right)^n<e<\left(1+\frac1n\right)^{n+1},n=1,2,\cdots.
+\left(1+\frac1n\right)^n< e< \left(1+\frac1n\right)^{n+1},n=1,2,\cdots.
 $$
 
 ### 解答 习题四
@@ -158,7 +158,7 @@ $$
 由**习题三**, $\left(1+\frac1n\right)^n$ 严格递增, 且由**重要极限**（数 $e$）其极限为 $e$, 故对一切 $n$ 有
 
 $$
-\left(1+\frac1n\right)^n<e.
+\left(1+\frac1n\right)^n< e.
 $$
 
 同理, $\left(1+\frac1n\right)^{n+1}$ 严格递减, 其极限为
@@ -170,13 +170,13 @@ $$
 故对一切 $n$ 有
 
 $$
-e<\left(1+\frac1n\right)^{n+1}.
+e< \left(1+\frac1n\right)^{n+1}.
 $$
 
 合并得
 
 $$
-\left(1+\frac1n\right)^n<e<\left(1+\frac1n\right)^{n+1}.
+\left(1+\frac1n\right)^n< e< \left(1+\frac1n\right)^{n+1}.
 $$
 
 $\blacksquare$
@@ -187,9 +187,9 @@ $\blacksquare$
 
 ### 解答 习题五
 
-因 $\lim\left(a_n-b_n\right)=0$, 存在 $N$ 使得当 $n>N$ 时 $\left|a_n-b_n\right|<1$, 即 $a_n<b_n+1$. 又 $\left\{b_n\right\}$ 递减, 故 $b_n\le b_1$, 从而 $a_n<b_1+1$($n>N$). 对 $n\le N$, $a_n$ 取有限个值有界. 故 $\left\{a_n\right\}$ 递增且有上界, 由第一章**定理 3.2**（实数域完备性）, $\lim a_n=A$ 存在.
+因 $\lim\left(a_n-b_n\right)=0$, 存在 $N$ 使得当 $n> N$ 时 $\left|a_n-b_n\right|< 1$, 即 $a_n< b_n+1$. 又 $\left\{b_n\right\}$ 递减, 故 $b_n\le b_1$, 从而 $a_n< b_1+1$($n> N$). 对 $n\le N$, $a_n$ 取有限个值有界. 故 $\left\{a_n\right\}$ 递增且有上界, 由第一章**定理 3.2**（实数域完备性）, $\lim a_n=A$ 存在.
 
-同理, 当 $n>N$ 时 $b_n>a_n-1\ge a_1-1$(因 $a_n\ge a_1$), 故 $\left\{b_n\right\}$ 递减且有下界. 由**定理 3.2** 的递减版本, $\lim b_n=B$ 存在.
+同理, 当 $n> N$ 时 $b_n> a_n-1\ge a_1-1$(因 $a_n\ge a_1$), 故 $\left\{b_n\right\}$ 递减且有下界. 由**定理 3.2** 的递减版本, $\lim b_n=B$ 存在.
 
 最后,
 
@@ -215,10 +215,10 @@ $$
 \left(1+\frac1n\right)^n=\sum_{k=0}^n\binom nk\frac1{n^k}=1+1+\sum_{k=2}^n\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
 $$
 
-对任意固定的 $m\ge2$, 当 $n>m$ 时, 
+对任意固定的 $m\ge2$, 当 $n> m$ 时, 
 
 $$
-\left(1+\frac1n\right)^n>1+1+\sum_{k=2}^m\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
+\left(1+\frac1n\right)^n> 1+1+\sum_{k=2}^m\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
 $$
 
 令 $n\to\infty$, 由**重要极限**（数 $e$）及第一章**定理 3.1**, 左端趋于 $e$, 右端趋于 $1+1+\frac1{2!}+\cdots+\frac1{m!}$, 故
@@ -230,7 +230,7 @@ $$
 另一方面, 对一切 $n$,
 
 $$
-\left(1+\frac1n\right)^n<1+1+\frac1{2!}+\cdots+\frac1{n!}\ \left(\text{因各项因子}<1\right),
+\left(1+\frac1n\right)^n< 1+1+\frac1{2!}+\cdots+\frac1{n!}\ \left(\text{因各项因子}< 1\right),
 $$
 
 令 $n\to\infty$ 得
@@ -249,11 +249,11 @@ $\blacksquare$
 
 ### 习题七
 
-（习题 1.4-10）利用上题结果证明 $2<e<3$.
+（习题 1.4-10）利用上题结果证明 $2< e< 3$.
 
 ### 解答 习题七
 
-由**习题六**, $e=\displaystyle\sum_{k=0}^{\infty}\frac1{k!}>1+1=2$.
+由**习题六**, $e=\displaystyle\sum_{k=0}^{\infty}\frac1{k!}> 1+1=2$.
 
 又对 $k\ge2$, $k!=2\cdot3\cdots k\ge2^{k-1}$, 故 $\frac1{k!}\le\frac1{2^{k-1}}$. 于是
 
@@ -261,7 +261,7 @@ $$
 e=1+1+\sum_{k=2}^{\infty}\frac1{k!}\le2+\sum_{k=2}^{\infty}\frac1{2^{k-1}}=2+1=3.
 $$
 
-且等号不可能成立(因 $k=3$ 时 $1/6<1/4$), 故 $e<3$. 综上 $2<e<3$. $\blacksquare$
+且等号不可能成立(因 $k=3$ 时 $1/6< 1/4$), 故 $e< 3$. 综上 $2< e< 3$. $\blacksquare$
 
 ### 习题八
 
@@ -282,7 +282,7 @@ $$
 （习题 1.4-16）设 $\lim\limits_{n\to\infty}a_n=a$, 证明: 
 (1) $\lim\limits_{n\to\infty}\frac{\left[na_n\right]}{n}=a$;
 
-(2) 若 $a>0$ 且 $a_n>0$, 则
+(2) 若 $a> 0$ 且 $a_n> 0$, 则
 
 $$
 \lim\limits_{n\to\infty}\sqrt\left[n\right]{a_n}=1.
@@ -290,18 +290,18 @@ $$
 
 ### 解答 习题九
 
-(1)由取整函数定义, $na_n-1<\left[na_n\right]\le na_n$, 故
+(1)由取整函数定义, $na_n-1< \left[na_n\right]\le na_n$, 故
 
 $$
-a_n-\frac1n<\frac{\left[na_n\right]}{n}\le a_n.
+a_n-\frac1n< \frac{\left[na_n\right]}{n}\le a_n.
 $$
 
 当 $n\to\infty$ 时 $a_n\to a$, $a_n-\frac1n\to a$(因 $\frac1n\to0$). 由**定理 4.2**（夹逼定理）, $\frac{\left[na_n\right]}{n}\to a$.
 
-(2)因 $a_n\to a>0$, 存在 $N$ 使得当 $n>N$ 时 $\frac a2<a_n<2a$. 于是
+(2)因 $a_n\to a> 0$, 存在 $N$ 使得当 $n> N$ 时 $\frac a2< a_n< 2a$. 于是
 
 $$
-\left(\frac a2\right)^{1/n}<a_n^{1/n}<\left(2a\right)^{1/n}.
+\left(\frac a2\right)^{1/n}< a_n^{1/n}< \left(2a\right)^{1/n}.
 $$
 
 由第一章**例 3.3**（正数的 $n$ 次方根趋于 $1$）, 两端均趋于 $1$. 由**定理 4.2**（夹逼定理）,

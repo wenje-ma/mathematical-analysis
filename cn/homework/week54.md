@@ -22,7 +22,7 @@
 $$
 f\left(x\right)=\begin{cases}0,&x\in\left(-\pi,0\right];\1,&x\in\left(0,\pi\right].\end{cases}
 $$
-证明: 当 $0<x<\pi$ 时,
+证明: 当 $0< x< \pi$ 时,
 
 $$
 \displaystyle1=\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1},
@@ -44,7 +44,7 @@ $$
 f\left(x\right)\sim\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1}.
 $$
 
-当 $0<x<\pi$ 时 $f$ 连续且 $f\left(x\right)=1$, 由**定理 3.1**（狄利克雷收敛定理）, 
+当 $0< x< \pi$ 时 $f$ 连续且 $f\left(x\right)=1$, 由**定理 3.1**（狄利克雷收敛定理）, 
 
 $$
 1=\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1}.

@@ -12,9 +12,9 @@
 
 > **性质**（二重积分的基本性质）设 $D$ 为可求面积的有界闭区域, $f,g$ 在 $D$ 上可积, 则:
 > (2) 积分对区域的可加性: 若 $D$ 分解为两个可求面积, 互不重叠的区域 $D_1,D_2$, 则 $\iint_D f=\iint_{D_1}f+\iint_{D_2}f$;
->
+> 
 > (3) 积分保持不等号: 若 $f\left(x,y\right)\le g\left(x,y\right)$ ($\forall\left(x,y\right)\in D$), 则 $\iint_D f\le\iint_D g$;
->
+> 
 > (4) 积分中值定理: 若 $f$ 在 $D$ 上连续, 则存在 $\left(x_0,y_0\right)\in D$ 使 $\iint_D f=f\left(x_0,y_0\right)\cdot S$, 其中 $S$ 为 $D$ 的面积.
 
 ### 习题一
@@ -137,7 +137,7 @@ $$
 
 ### 解答 习题五
 
-因 $f$ 在有界闭区域 $D$ 上连续, 由**定理 1.5**（连续函数可积）, $f$ 在 $D$ 上可积, 且 $f$ 在 $D$ 上有最大值 $M$ 与最小值 $m$. 又因 $g\left(x,y\right)>0$ 于 $D$ 上, 故
+因 $f$ 在有界闭区域 $D$ 上连续, 由**定理 1.5**（连续函数可积）, $f$ 在 $D$ 上可积, 且 $f$ 在 $D$ 上有最大值 $M$ 与最小值 $m$. 又因 $g\left(x,y\right)> 0$ 于 $D$ 上, 故
 
 $$
 m\,g\left(x,y\right)\le f\left(x,y\right)g\left(x,y\right)\le M\,g\left(x,y\right).
@@ -149,7 +149,7 @@ $$
 m\iint_D g\le\iint_D fg\le M\iint_D g.
 $$
 
-又 $g$ 连续且 $g>0$, $D$ 有正面积, 故 $\iint_D g>0$. 于是
+又 $g$ 连续且 $g> 0$, $D$ 有正面积, 故 $\iint_D g> 0$. 于是
 
 $$
 m\le\frac{\iint_D fg}{\iint_D g}\le M.
@@ -169,28 +169,28 @@ $\blacksquare$
 
 ### 解答 习题六
 
-反设存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)>0$. 由 $f$ 在 $\left(x_0,y_0\right)$ 处连续, 对 $\varepsilon=\frac{f\left(x_0,y_0\right)}2>0$, 存在 $\delta>0$, 使当 $\left(x,y\right)\in D$ 且
+反设存在 $\left(x_0,y_0\right)\in D$ 使 $f\left(x_0,y_0\right)> 0$. 由 $f$ 在 $\left(x_0,y_0\right)$ 处连续, 对 $\varepsilon=\frac{f\left(x_0,y_0\right)}2> 0$, 存在 $\delta> 0$, 使当 $\left(x,y\right)\in D$ 且
 
 $$
-\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta
+\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}< \delta
 $$
 
 时,
 
 $$
-\left| f\left(x,y\right)-f\left(x_0,y_0\right)\right|<\frac{f\left(x_0,y_0\right)}2,
+\left| f\left(x,y\right)-f\left(x_0,y_0\right)\right|< \frac{f\left(x_0,y_0\right)}2,
 $$
 
-即 $f\left(x,y\right)>\frac{f\left(x_0,y_0\right)}2$. 记
+即 $f\left(x,y\right)> \frac{f\left(x_0,y_0\right)}2$. 记
 
 $$
-R_\delta=D\cap\left\{\left(x,y\right):\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta\right\}.
+R_\delta=D\cap\left\{\left(x,y\right):\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}< \delta\right\}.
 $$
 
-因 $\left(x_0,y_0\right)$ 是 $D$ 的内点或边界点, $R_\delta$ 是可求面积的区域且面积 $\left|R_\delta\right|>0$. 由**性质**（二重积分的基本性质）(3),
+因 $\left(x_0,y_0\right)$ 是 $D$ 的内点或边界点, $R_\delta$ 是可求面积的区域且面积 $\left|R_\delta\right|> 0$. 由**性质**（二重积分的基本性质）(3),
 
 $$
-\iint_D f\left(x,y\right)\,\mathrm{d}\sigma\ge\iint_{R_\delta}f\left(x,y\right)\,\mathrm{d}\sigma\ge\frac{f\left(x_0,y_0\right)}2\cdot\left|R_\delta\right|>0,
+\iint_D f\left(x,y\right)\,\mathrm{d}\sigma\ge\iint_{R_\delta}f\left(x,y\right)\,\mathrm{d}\sigma\ge\frac{f\left(x_0,y_0\right)}2\cdot\left|R_\delta\right|> 0,
 $$
 
 与 $\iint_D f=0$ 矛盾. 故 $f\left(x,y\right)\equiv0$ 于 $D$ 上. $\blacksquare$

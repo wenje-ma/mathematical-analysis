@@ -4,9 +4,9 @@
 > $$
 > \frac{1}{R}=\limsup_{n\to\infty}\sqrt\left[n\right]{\left|a_n\right|}.
 > $$
->
+> 
 > **Theorem 3.3** (d'Alembert's Formula for the Radius of Convergence) Let $a_n\ne 0$ and $\lim_{n\to\infty}\left|\frac{a_n}{a_{n+1}}\right|=R$. Then the radius of convergence of this power series is $R$.
->
+> 
 > **Theorem 3.4** (Closed-Interval Uniform Convergence) A power series converges uniformly on any closed interval inside its interval of convergence; hence it may be differentiated and integrated term by term within the interval of convergence, without changing the radius of convergence.
 
 ### Problem 1
@@ -71,7 +71,7 @@ By **Theorem 3.3** (d'Alembert's Formula), the radius of convergence is $R=4$. $
 
 ### Solution to Problem 5
 
-Let $t=x-5$. Then the series becomes $\sum n^3 t^n$. By **Theorem 3.3**, $\left|\frac{n^3}{\left(n+1\right)^3}\right|\to 1$, so the radius of convergence is $R=1$, i.e. $\left|t\right|<1$, which means $4<x<6$.
+Let $t=x-5$. Then the series becomes $\sum n^3 t^n$. By **Theorem 3.3**, $\left|\frac{n^3}{\left(n+1\right)^3}\right|\to 1$, so the radius of convergence is $R=1$, i.e. $\left|t\right|< 1$, which means $4< x< 6$.
 
 When $t=1$ ($x=6$), the series is $\sum n^3$, whose general term does not tend to zero, so it diverges; when $t=-1$ ($x=4$), the series is $\sum\left(-1\right)^n n^3$, whose general term likewise does not tend to zero, so it diverges. Hence the set of convergence points is $\left(4,6\right)$. $\blacksquare$
 
@@ -89,7 +89,7 @@ $$
 
 so the radius of convergence is $R=1$.
 
-When $x=1$, the series is $\sum\frac{\left(-1\right)^n}{\sqrt n}$, which converges by **Theorem 3.1** (Leibniz's Test) of Chapter 10; when $x=-1$, the series is $\sum\frac{-1}{\sqrt n}$, a $p$-series with $p=\frac12<1$, which diverges. Hence the set of convergence points is $\left(-1,1\right]$. $\blacksquare$
+When $x=1$, the series is $\sum\frac{\left(-1\right)^n}{\sqrt n}$, which converges by **Theorem 3.1** (Leibniz's Test) of Chapter 10; when $x=-1$, the series is $\sum\frac{-1}{\sqrt n}$, a $p$-series with $p=\frac12< 1$, which diverges. Hence the set of convergence points is $\left(-1,1\right]$. $\blacksquare$
 
 ### Problem 7
 
@@ -141,7 +141,7 @@ When $x=1$, the series is $\sum h_n$, whose general term $h_n\to+\infty\ne 0$, s
 
 ### Solution to Problem 9
 
-Let $t=2x+3$. By **Theorem 3.3**, $\left|\frac{a_n}{a_{n+1}}\right|=\frac{\left(n+1\right)\ln\left(n+1\right)}{n\ln n}\to 1$, so the radius of convergence is $R=1$, i.e. $\left|t\right|<1$, which means $-1<2x+3<1$, i.e. $-2<x<-1$.
+Let $t=2x+3$. By **Theorem 3.3**, $\left|\frac{a_n}{a_{n+1}}\right|=\frac{\left(n+1\right)\ln\left(n+1\right)}{n\ln n}\to 1$, so the radius of convergence is $R=1$, i.e. $\left|t\right|< 1$, which means $-1< 2x+3< 1$, i.e. $-2< x< -1$.
 
 When $t=\pm 1$, the series diverges at both endpoints. Hence the set of convergence points is $\left(-2,-1\right)$. $\blacksquare$
 
@@ -151,10 +151,10 @@ When $t=\pm 1$, the series diverges at both endpoints. Hence the set of converge
 
 ### Solution to Problem 10
 
-We know $\sum_{n=0}^{\infty}x^{n+1}=\frac{x}{1-x}$ ($\left|x\right|<1$). By **Theorem 3.4** (Closed-Interval Uniform Convergence), we may differentiate term by term within the interval of convergence:
+We know $\sum_{n=0}^{\infty}x^{n+1}=\frac{x}{1-x}$ ($\left|x\right|< 1$). By **Theorem 3.4** (Closed-Interval Uniform Convergence), we may differentiate term by term within the interval of convergence:
 
 $$
-\sum_{n=0}^{\infty}\left(n+1\right)x^n=\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{x}{1-x}\right)=\frac{1}{\left(1-x\right)^2}, \left|x\right|<1.
+\sum_{n=0}^{\infty}\left(n+1\right)x^n=\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{x}{1-x}\right)=\frac{1}{\left(1-x\right)^2}, \left|x\right|< 1.
 
 $$
 
@@ -184,7 +184,7 @@ $$
 Hence
 
 $$
-\sum_{n=1}^{\infty}n^2x^n=x\cdot\frac{2}{\left(1-x\right)^3}+x\cdot\frac{1}{\left(1-x\right)^2}=\frac{x\left(1+x\right)}{\left(1-x\right)^3}, \left|x\right|<1.
+\sum_{n=1}^{\infty}n^2x^n=x\cdot\frac{2}{\left(1-x\right)^3}+x\cdot\frac{1}{\left(1-x\right)^2}=\frac{x\left(1+x\right)}{\left(1-x\right)^3}, \left|x\right|< 1.
 
 $$
 
@@ -201,7 +201,7 @@ $$
 \sum_{n=1}^{\infty}\frac{x^n}{n\left(n+1\right)}=\sum_{n=1}^{\infty}\frac{x^n}{n}-\sum_{n=1}^{\infty}\frac{x^n}{n+1}.
 $$
 
-We know $\sum_{n=1}^{\infty}\frac{x^n}{n}=-\ln\left(1-x\right)$ ($\left|x\right|<1$), while
+We know $\sum_{n=1}^{\infty}\frac{x^n}{n}=-\ln\left(1-x\right)$ ($\left|x\right|< 1$), while
 
 $$
 \sum_{n=1}^{\infty}\frac{x^n}{n+1}=\frac1x\sum_{n=1}^{\infty}\frac{x^{n+1}}{n+1}=\frac1x\left(-\ln\left(1-x\right)-x\right).
@@ -210,7 +210,7 @@ $$
 Subtracting the two gives
 
 $$
-\sum_{n=1}^{\infty}\frac{x^n}{n\left(n+1\right)}=-\ln\left(1-x\right)+\frac{\ln\left(1-x\right)}{x}+1=1-\frac{1-x}{x}\ln\left(1-x\right), 0<\left|x\right|<1.
+\sum_{n=1}^{\infty}\frac{x^n}{n\left(n+1\right)}=-\ln\left(1-x\right)+\frac{\ln\left(1-x\right)}{x}+1=1-\frac{1-x}{x}\ln\left(1-x\right), 0< \left|x\right|< 1.
 $$
 
 When $x=0$, the sum function is $0$ (extended by continuity). $\blacksquare$
@@ -230,29 +230,29 @@ $$
 Integrating and noting that the sum is $0$ at $x=0$, we get
 
 $$
-\sum_{n=1}^{\infty}\frac{x^n}{n}=\int_0^x\frac{\mathrm{d}t}{1-t}=-\ln\left(1-x\right), \left|x\right|<1.
+\sum_{n=1}^{\infty}\frac{x^n}{n}=\int_0^x\frac{\mathrm{d}t}{1-t}=-\ln\left(1-x\right), \left|x\right|< 1.
 
 $$
 
 $\blacksquare$
 ### Problem 14
 
-(Problem 11.3-4) Prove that if the radius of convergence of $\sum_{n=0}^{+\infty}a_nx^n$ is $R$ ($0<R<+\infty$), then the radius of convergence of $\sum_{n=0}^{+\infty}a_nx^{2n}$ is $\sqrt R$.
+(Problem 11.3-4) Prove that if the radius of convergence of $\sum_{n=0}^{+\infty}a_nx^n$ is $R$ ($0< R< +\infty$), then the radius of convergence of $\sum_{n=0}^{+\infty}a_nx^{2n}$ is $\sqrt R$.
 
 ### Solution to Problem 14
 
-Let $y=x^2$. Then $\sum a_nx^{2n}=\sum a_ny^n$. The latter converges if and only if $\left|y\right|<R$ (by the definition of the radius of convergence), i.e. $\left|x^2\right|<R$, which means $\left|x\right|<\sqrt R$. When $\left|x\right|>\sqrt R$, $\left|y\right|>R$, and the series diverges. By **Theorem 3.2** (Cauchy's Formula), the radius of convergence of $\sum a_nx^{2n}$ is $\sqrt R$. $\blacksquare$
+Let $y=x^2$. Then $\sum a_nx^{2n}=\sum a_ny^n$. The latter converges if and only if $\left|y\right|< R$ (by the definition of the radius of convergence), i.e. $\left|x^2\right|< R$, which means $\left|x\right|< \sqrt R$. When $\left|x\right|> \sqrt R$, $\left|y\right|> R$, and the series diverges. By **Theorem 3.2** (Cauchy's Formula), the radius of convergence of $\sum a_nx^{2n}$ is $\sqrt R$. $\blacksquare$
 
 ### Problem 15
 
-(Problem 11.3-5) Let the radius of convergence of $\sum_{n=0}^{+\infty}a_nx^n$ be $R$ ($0<R<+\infty$). Prove that, for a given $A>\frac{1}{R}$, there exists $C>0$ such that $\left|a_n\right|\le CA^n$, $\forall n=1,2,\cdots$.
+(Problem 11.3-5) Let the radius of convergence of $\sum_{n=0}^{+\infty}a_nx^n$ be $R$ ($0< R< +\infty$). Prove that, for a given $A> \frac{1}{R}$, there exists $C> 0$ such that $\left|a_n\right|\le CA^n$, $\forall n=1,2,\cdots$.
 
 ### Solution to Problem 15
 
-From $A>\frac1R$ we get $\frac1A<R$. Choose $r$ such that $\frac1A<r<R$. Then the power series converges at $x=r$, so the general term $a_nr^n\to 0$ and is therefore bounded, i.e. there exists $M>0$ such that $\left|a_nr^n\right|\le M$, $\forall n$. Hence
+From $A> \frac1R$ we get $\frac1A< R$. Choose $r$ such that $\frac1A< r< R$. Then the power series converges at $x=r$, so the general term $a_nr^n\to 0$ and is therefore bounded, i.e. there exists $M> 0$ such that $\left|a_nr^n\right|\le M$, $\forall n$. Hence
 
 $$
 \left|a_n\right|\le M\cdot r^{-n}=M\left(\frac1r\right)^n.
 $$
 
-Since $\frac1r<A$, let $q=\frac{1/\left(rA\right)}{1}<1$. Then $\left(\frac1r\right)^n=A^n\left(\frac{1}{rA}\right)^n\le A^n$ (when $\frac{1}{rA}\le 1$), or more generally take $C=M\max\left(1,\frac{1}{rA}\right)$, to obtain $\left|a_n\right|\le CA^n$. $\blacksquare$
+Since $\frac1r< A$, let $q=\frac{1/\left(rA\right)}{1}< 1$. Then $\left(\frac1r\right)^n=A^n\left(\frac{1}{rA}\right)^n\le A^n$ (when $\frac{1}{rA}\le 1$), or more generally take $C=M\max\left(1,\frac{1}{rA}\right)$, to obtain $\left|a_n\right|\le CA^n$. $\blacksquare$

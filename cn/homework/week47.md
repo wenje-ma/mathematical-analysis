@@ -1,8 +1,8 @@
 # 作业 47
 
-> **定义**（瑕积分的收敛）设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, 且在任意闭区间 $\left[a+\eta,b\right]\subset\left(a,b\right]\left(\eta>0\right)$ 上可积, 而 $a$ 为 $f\left(x\right)$ 的瑕点. 若极限 $\lim_{\eta\to0+0}\int_{a+\eta}^b f\left(x\right)\,\mathrm{d}x$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\,\mathrm{d}x$ 收敛, 并把该极限定义为其值; 否则称其发散. 瑕点为右端点或区间内点时, 定义完全类似.
+> **定义**（瑕积分的收敛）设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, 且在任意闭区间 $\left[a+\eta,b\right]\subset\left(a,b\right]\left(\eta> 0\right)$ 上可积, 而 $a$ 为 $f\left(x\right)$ 的瑕点. 若极限 $\lim_{\eta\to0+0}\int_{a+\eta}^b f\left(x\right)\,\mathrm{d}x$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\,\mathrm{d}x$ 收敛, 并把该极限定义为其值; 否则称其发散. 瑕点为右端点或区间内点时, 定义完全类似.
 
-> **例 2.2**（瑕 $p$-积分）瑕积分 $\displaystyle\int_a^b\frac{\mathrm{d}x}{\left(x-a\right)^p}$($p>0$)当 $p<1$ 时收敛, 当 $p\ge1$ 时发散.
+> **例 2.2**（瑕 $p$-积分）瑕积分 $\displaystyle\int_a^b\frac{\mathrm{d}x}{\left(x-a\right)^p}$($p> 0$)当 $p< 1$ 时收敛, 当 $p\ge1$ 时发散.
 
 > **定义**（绝对收敛与条件收敛）设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, $a$ 为瑕点. 若 $\int_a^b\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛, 则称 $\int_a^b f\left(x\right)\,\mathrm{d}x$ 绝对收敛; 若 $\int_a^b f\left(x\right)\,\mathrm{d}x$ 收敛而 $\int_a^b\left| f\left(x\right)\right|\,\mathrm{d}x$ 发散, 则称其条件收敛.
 
@@ -68,7 +68,7 @@ $$
 
 $x=0$ 是瑕点, 积分区间又是无穷区间, 分两段讨论.
 
-在 $x=0$ 附近, $\frac1{\sqrt x\,\left(1+x\right)}\sim\frac1{\sqrt x}$, 而由**例 2.2**（瑕 $p$-积分）, $\int_0^1\frac{\mathrm{d}x}{\sqrt x}$ 收敛($p=\frac12<1$). 在 $x\to+\infty$ 时, $\frac1{\sqrt x\,\left(1+x\right)}\sim\frac1{x^{3/2}}$, 而由第 12 章**例 1.2**（$p$-积分）, $\int_1^{+\infty}\frac{\mathrm{d}x}{x^{3/2}}$ 收敛($p=\frac32>1$). 两段均收敛, 故原广义积分收敛.
+在 $x=0$ 附近, $\frac1{\sqrt x\,\left(1+x\right)}\sim\frac1{\sqrt x}$, 而由**例 2.2**（瑕 $p$-积分）, $\int_0^1\frac{\mathrm{d}x}{\sqrt x}$ 收敛($p=\frac12< 1$). 在 $x\to+\infty$ 时, $\frac1{\sqrt x\,\left(1+x\right)}\sim\frac1{x^{3/2}}$, 而由第 12 章**例 1.2**（$p$-积分）, $\int_1^{+\infty}\frac{\mathrm{d}x}{x^{3/2}}$ 收敛($p=\frac32> 1$). 两段均收敛, 故原广义积分收敛.
 
 事实上其值为: 作代换 $t=\sqrt x$($\mathrm{d}x=2t\,\mathrm{d}t$), 
 
@@ -86,14 +86,14 @@ $\blacksquare$
 
 $x=0$ 是瑕点, 积分区间又是无穷区间, 分两段讨论.
 
-在 $x=0$ 附近, $x^p+x^q\sim x^{\min\left(p,q\right)}$, 故被积函数与 $\frac1{x^{\min\left(p,q\right)}}$ 同阶. 由**例 2.2**（瑕 $p$-积分）, 该端收敛当且仅当 $\min\left(p,q\right)<1$.
+在 $x=0$ 附近, $x^p+x^q\sim x^{\min\left(p,q\right)}$, 故被积函数与 $\frac1{x^{\min\left(p,q\right)}}$ 同阶. 由**例 2.2**（瑕 $p$-积分）, 该端收敛当且仅当 $\min\left(p,q\right)< 1$.
 
-在 $x\to+\infty$ 时, $x^p+x^q\sim x^{\max\left(p,q\right)}$, 故被积函数与 $\frac1{x^{\max\left(p,q\right)}}$ 同阶. 由第 12 章**例 1.2**（$p$-积分）, 该端收敛当且仅当 $\max\left(p,q\right)>1$.
+在 $x\to+\infty$ 时, $x^p+x^q\sim x^{\max\left(p,q\right)}$, 故被积函数与 $\frac1{x^{\max\left(p,q\right)}}$ 同阶. 由第 12 章**例 1.2**（$p$-积分）, 该端收敛当且仅当 $\max\left(p,q\right)> 1$.
 
 两段须同时收敛, 故原广义积分收敛当且仅当
 
 $$
-\min\left(p,q\right)<1<\max\left(p,q\right)\ \left(\text{即}p,q\text{中一个小于}1\text{, 另一个大于}1\right),
+\min\left(p,q\right)< 1< \max\left(p,q\right)\ \left(\text{即}p,q\text{中一个小于}1\text{, 另一个大于}1\right),
 $$
 
 其余情形均发散. $\blacksquare$
@@ -104,19 +104,19 @@ $$
 
 ### 解答 习题六
 
-$x=0$ 与 $x=\frac{\pi}{2}$ 均为瑕点. 在 $x=0$ 附近, $\sin x\sim x$, $\cos x\sim1$, 故被积函数与 $\frac1{x^2}$ 同阶. 由**例 2.2**（瑕 $p$-积分）, $\int_0^{\pi/4}\frac{\mathrm{d}x}{x^2}$ 发散($p=2>1$). 故原广义积分发散. $\blacksquare$
+$x=0$ 与 $x=\frac{\pi}{2}$ 均为瑕点. 在 $x=0$ 附近, $\sin x\sim x$, $\cos x\sim1$, 故被积函数与 $\frac1{x^2}$ 同阶. 由**例 2.2**（瑕 $p$-积分）, $\int_0^{\pi/4}\frac{\mathrm{d}x}{x^2}$ 发散($p=2> 1$). 故原广义积分发散. $\blacksquare$
 
 ### 习题七
 
-（习题 12.2-2-7）讨论广义积分 $\displaystyle\int_0^1 x^p\left(1-x\right)^q\,\mathrm{d}x$($p>0,q>0$)的收敛性.
+（习题 12.2-2-7）讨论广义积分 $\displaystyle\int_0^1 x^p\left(1-x\right)^q\,\mathrm{d}x$($p> 0,q> 0$)的收敛性.
 
 ### 解答 习题七
 
-$x=0$ 与 $x=1$ 均可能为瑕点. 在 $x=0$ 附近, $x^p\left(1-x\right)^q\sim x^p$, 由**例 2.2**（瑕 $p$-积分）, 该端收敛当且仅当 $p>-1$; 题设 $p>0$, 故恒收敛. 在 $x=1$ 附近, $x^p\left(1-x\right)^q\sim\left(1-x\right)^q$, 该端收敛当且仅当 $q>-1$; 题设 $q>0$, 故亦恒收敛. 两段同时收敛, 故对一切 $p>0,q>0$, 原广义积分均收敛. $\blacksquare$
+$x=0$ 与 $x=1$ 均可能为瑕点. 在 $x=0$ 附近, $x^p\left(1-x\right)^q\sim x^p$, 由**例 2.2**（瑕 $p$-积分）, 该端收敛当且仅当 $p> -1$; 题设 $p> 0$, 故恒收敛. 在 $x=1$ 附近, $x^p\left(1-x\right)^q\sim\left(1-x\right)^q$, 该端收敛当且仅当 $q> -1$; 题设 $q> 0$, 故亦恒收敛. 两段同时收敛, 故对一切 $p> 0,q> 0$, 原广义积分均收敛. $\blacksquare$
 
 ### 习题八
 
-（习题 12.2-3）设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, 且在任意区间 $\left[a+\eta,b\right]\left(\eta>0\right)$ 上可积. 证明: 若 $\displaystyle\int_a^b f^2\left(x\right)\,\mathrm{d}x$ 收敛, 则 $\displaystyle\int_a^b f\left(x\right)\,\mathrm{d}x$ 绝对收敛. 又问: 若 $\displaystyle\int_a^b\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛, 是否必然有 $\displaystyle\int_a^b f^2\left(x\right)\,\mathrm{d}x$ 收敛?
+（习题 12.2-3）设 $f\left(x\right)$ 在 $\left(a,b\right]$ 上有定义, 且在任意区间 $\left[a+\eta,b\right]\left(\eta> 0\right)$ 上可积. 证明: 若 $\displaystyle\int_a^b f^2\left(x\right)\,\mathrm{d}x$ 收敛, 则 $\displaystyle\int_a^b f\left(x\right)\,\mathrm{d}x$ 绝对收敛. 又问: 若 $\displaystyle\int_a^b\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛, 是否必然有 $\displaystyle\int_a^b f^2\left(x\right)\,\mathrm{d}x$ 收敛?
 
 ### 解答 习题八
 
@@ -126,15 +126,15 @@ $$
 \left| f\left(x\right)\right|\le\frac12+\frac{f^2\left(x\right)}2.
 $$
 
-对任意 $\eta>0$, 在 $\left[a+\eta,b\right]$ 上积分得
+对任意 $\eta> 0$, 在 $\left[a+\eta,b\right]$ 上积分得
 
 $$
-\int_{a+\eta}^b\left| f\left(x\right)\right|\,\mathrm{d}x\le\frac{b-a}{2}+\frac12\int_{a+\eta}^b f^2\left(x\right)\,\mathrm{d}x\le\frac{b-a}{2}+\frac12\int_a^b f^2\left(x\right)\,\mathrm{d}x<+\infty.
+\int_{a+\eta}^b\left| f\left(x\right)\right|\,\mathrm{d}x\le\frac{b-a}{2}+\frac12\int_{a+\eta}^b f^2\left(x\right)\,\mathrm{d}x\le\frac{b-a}{2}+\frac12\int_a^b f^2\left(x\right)\,\mathrm{d}x< +\infty.
 $$
 
 右端与 $\eta$ 无关且有界, 故 $\int_a^b\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛. 由**定义**（绝对收敛与条件收敛）, $\int_a^b f\left(x\right)\,\mathrm{d}x$ 绝对收敛.
 
-反之不然. 反例: 取 $f\left(x\right)=\frac1{\sqrt x}$ 在 $\left(0,1\right]$ 上. 由**例 2.2**（瑕 $p$-积分）, $\int_0^1\frac{\mathrm{d}x}{\sqrt x}$ 收敛($p=\frac12<1$), 即 $\int_0^1\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛; 但 $\int_0^1 f^2\left(x\right)\,\mathrm{d}x=\int_0^1\frac{\mathrm{d}x}{x}$ 发散($p=1$). 故 $\int\left| f\right|$ 收敛不能保证 $\int f^2$ 收敛. $\blacksquare$
+反之不然. 反例: 取 $f\left(x\right)=\frac1{\sqrt x}$ 在 $\left(0,1\right]$ 上. 由**例 2.2**（瑕 $p$-积分）, $\int_0^1\frac{\mathrm{d}x}{\sqrt x}$ 收敛($p=\frac12< 1$), 即 $\int_0^1\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛; 但 $\int_0^1 f^2\left(x\right)\,\mathrm{d}x=\int_0^1\frac{\mathrm{d}x}{x}$ 发散($p=1$). 故 $\int\left| f\right|$ 收敛不能保证 $\int f^2$ 收敛. $\blacksquare$
 
 ### 习题九
 

@@ -1,7 +1,7 @@
 # 作业 38
 
 > **定义**（级数收敛）给定数列 $\left\{a_n\right\}$, 作部分和 $S_n=\sum_{k=1}^{n}a_k$. 若 $\lim_{n\to\infty}S_n=S$ 存在且有限, 则称级数 $\sum_{n=1}^{\infty}a_n$ 收敛, $S$ 称为其和; 否则称级数发散.
->
+> 
 > **定理 1.1**（收敛级数的必要条件）若级数 $\sum_{n=1}^{\infty}a_n$ 收敛, 则 $\lim_{n\to\infty}a_n=0$.
 
 ### 习题一
@@ -10,7 +10,7 @@
 $$
 a_0+a_0q+a_0q^2+\cdots+a_0q^n+\cdots\left(a_0\ne 0\right)
 $$
-当 $\left|q\right|<1$ 时收敛, 且有 $a_0+a_0q+\cdots=\frac{a_0}{1-q}$. 当 $\left|q\right|\ge 1$ 时上述级数发散.
+当 $\left|q\right|< 1$ 时收敛, 且有 $a_0+a_0q+\cdots=\frac{a_0}{1-q}$. 当 $\left|q\right|\ge 1$ 时上述级数发散.
 
 ### 解答 习题一
 
@@ -20,7 +20,7 @@ $$
 S_n=a_0+a_0q+\cdots+a_0q^n=a_0\cdot\frac{1-q^{n+1}}{1-q}, q\ne 1.
 $$
 
-当 $\left|q\right|<1$ 时, $\lim_{n\to\infty}q^{n+1}=0$, 故由**定义**（级数收敛）, 
+当 $\left|q\right|< 1$ 时, $\lim_{n\to\infty}q^{n+1}=0$, 故由**定义**（级数收敛）, 
 
 $$
 \lim_{n\to\infty}S_n=\frac{a_0}{1-q},
@@ -28,7 +28,7 @@ $$
 
 级数收敛且其和为 $\frac{a_0}{1-q}$.
 
-当 $q=1$ 时, $S_n=a_0\left(n+1\right)\to\infty$($a_0\ne 0$), 级数发散. 当 $q=-1$ 时, $S_n$ 在 $a_0$ 与 $0$ 之间摆动, 不收敛. 当 $\left|q\right|>1$ 时, 通项 $a_0q^n$ 不趋于 $0$, 由**定理 1.1**（收敛级数的必要条件）, 级数发散. $\blacksquare$
+当 $q=1$ 时, $S_n=a_0\left(n+1\right)\to\infty$($a_0\ne 0$), 级数发散. 当 $q=-1$ 时, $S_n$ 在 $a_0$ 与 $0$ 之间摆动, 不收敛. 当 $\left|q\right|> 1$ 时, 通项 $a_0q^n$ 不趋于 $0$, 由**定理 1.1**（收敛级数的必要条件）, 级数发散. $\blacksquare$
 
 ### 习题二
 
@@ -116,13 +116,13 @@ $$
 从而
 
 $$
-\sum_{n=2}^{N}\frac{1}{n^2}\le\sum_{n=2}^{N}\left(\frac{1}{n-1}-\frac{1}{n}\right)=1-\frac{1}{N}<1.
+\sum_{n=2}^{N}\frac{1}{n^2}\le\sum_{n=2}^{N}\left(\frac{1}{n-1}-\frac{1}{n}\right)=1-\frac{1}{N}< 1.
 $$
 
 正项级数 $\sum\frac{1}{2n^2}$ 的部分和有界, 故收敛. 又
 
 $$
-0\le\sum_{n=1}^{N}\arctan\frac{1}{2n^2}\le\sum_{n=1}^{N}\frac{1}{2n^2}<\frac12,
+0\le\sum_{n=1}^{N}\arctan\frac{1}{2n^2}\le\sum_{n=1}^{N}\frac{1}{2n^2}< \frac12,
 $$
 
 故 $\sum\arctan\frac{1}{2n^2}$ 的部分和单调递增且有上界, 由实数域完备性(第一章**命题 1.5**)其极限存在有限, 从而由**定义**（级数收敛）, 该级数收敛. $\blacksquare$

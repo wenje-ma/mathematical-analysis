@@ -80,7 +80,7 @@ $$
 $\blacksquare$
 ### Problem 3
 
-(Problem 8.5-3) Find the coordinates of the center of mass of the portion of the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$) lying in the first octant. Here we assume the ellipsoid has uniform density.
+(Problem 8.5-3) Find the coordinates of the center of mass of the portion of the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a> 0,b> 0,c> 0$) lying in the first octant. Here we assume the ellipsoid has uniform density.
 
 ### Solution to Problem 3
 

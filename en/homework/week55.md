@@ -23,10 +23,10 @@ Prove that $\displaystyle\sum_{n=1}^\infty\frac{a_n}{n}$ and $\displaystyle\sum_
 
 ### Solution to Problem 1
 
-By **Theorem 4.1** (Bessel's Inequality), $\displaystyle\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)<\infty$. Also $\displaystyle\sum_{n=1}^\infty\frac1{n^2}<\infty$. By the Cauchy–Schwarz inequality,
+By **Theorem 4.1** (Bessel's Inequality), $\displaystyle\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)< \infty$. Also $\displaystyle\sum_{n=1}^\infty\frac1{n^2}< \infty$. By the Cauchy–Schwarz inequality,
 
 $$
-\sum_{n=1}^\infty\left|\frac{a_n}{n}\right|\le\left(\sum_{n=1}^\infty a_n^2\right)^{1/2}\left(\sum_{n=1}^\infty\frac1{n^2}\right)^{1/2}<\infty,
+\sum_{n=1}^\infty\left|\frac{a_n}{n}\right|\le\left(\sum_{n=1}^\infty a_n^2\right)^{1/2}\left(\sum_{n=1}^\infty\frac1{n^2}\right)^{1/2}< \infty,
 $$
 
 so $\sum\frac{a_n}{n}$ converges absolutely. Similarly, $\sum\frac{b_n}{n}$ converges absolutely. $\blacksquare$

@@ -30,7 +30,7 @@ $$
 $\blacksquare$
 ### Problem 2
 
-(Problem 12.3-2-6) Find the derivative of the function $\displaystyle I\left(y\right)=\int_0^{x/y}y\sin\left(xy\right)\,\mathrm{d}x$ ($y>0$, with $x$ a fixed constant).
+(Problem 12.3-2-6) Find the derivative of the function $\displaystyle I\left(y\right)=\int_0^{x/y}y\sin\left(xy\right)\,\mathrm{d}x$ ($y> 0$, with $x$ a fixed constant).
 
 ### Solution to Problem 2
 
@@ -97,7 +97,7 @@ $\blacksquare$
 (Problem 12.3-2-8) Find the derivative of the function
 
 $$
-\displaystyle I\left(y\right)=\int_0^y\frac{\ln\left(1+xy\right)}{x}\,\mathrm{d}x\ \left(y>0\right)
+\displaystyle I\left(y\right)=\int_0^y\frac{\ln\left(1+xy\right)}{x}\,\mathrm{d}x\ \left(y> 0\right)
 $$
 
 .
@@ -123,7 +123,7 @@ $\blacksquare$
 (Problem 12.3-4-1) Using the method of differentiation under the integral sign, compute the definite integral
 
 $$
-\displaystyle I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos x+r^2\right)\,\mathrm{d}x\ \left(\left|r\right|<1\right).
+\displaystyle I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos x+r^2\right)\,\mathrm{d}x\ \left(\left|r\right|< 1\right).
 $$
 
 ### Solution to Problem 5
@@ -149,7 +149,7 @@ $$
 Making the substitution $t=\tan\frac{x}{2}$, we obtain the standard integral
 
 $$
-\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos x+r^2}=\frac{\pi}{1-r^2}\left(\left|r\right|<1\right).
+\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos x+r^2}=\frac{\pi}{1-r^2}\left(\left|r\right|< 1\right).
 $$
 
 Substituting,
@@ -161,7 +161,7 @@ $$
 Hence $I\left(r\right)$ is a constant. Moreover, $I\left(0\right)=\int_0^\pi\ln1\,\mathrm{d}x=0$, so
 
 $$
-I\left(r\right)=0\left(\left|r\right|<1\right).
+I\left(r\right)=0\left(\left|r\right|< 1\right).
 
 $$
 
@@ -173,7 +173,7 @@ $\blacksquare$
 $$
 \displaystyle I\left(\alpha\right)=\int_0^{2\pi}\ln\left(1-\alpha\cos\theta\right)\,\mathrm{d}\theta
 $$
-($\left|\alpha\right|<1$). Prove that
+($\left|\alpha\right|< 1$). Prove that
 
 $$
 \displaystyle I'\left(\alpha\right)=\frac{2\pi\left(\sqrt{1-\alpha^2}-1\right)}{\alpha\sqrt{1-\alpha^2}},
@@ -201,7 +201,7 @@ $$
 Making the substitution $t=\tan\frac{\theta}{2}$, we obtain the standard integral
 
 $$
-\int_0^{2\pi}\frac{\mathrm{d}\theta}{1-\alpha\cos\theta}=\frac{2\pi}{\sqrt{1-\alpha^2}}\left(\left|\alpha\right|<1\right).
+\int_0^{2\pi}\frac{\mathrm{d}\theta}{1-\alpha\cos\theta}=\frac{2\pi}{\sqrt{1-\alpha^2}}\left(\left|\alpha\right|< 1\right).
 $$
 
 Hence

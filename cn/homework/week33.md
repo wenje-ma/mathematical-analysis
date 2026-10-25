@@ -28,7 +28,7 @@ $$
 \begin{cases}x=a\left(t-\sin t\right),\y=a\left(1-\cos t\right),\end{cases}\left(0\le t\le2\pi\right)
 $$
 
-的弧长, 其中 $a>0$.
+的弧长, 其中 $a> 0$.
 
 ### 解答 习题一
 
@@ -74,7 +74,7 @@ $$
 $\blacksquare$
 ### 习题三
 
-（习题 9.1-4）求第一型曲线积分 $\displaystyle\oint_L xy\,\mathrm{d}s$, 其中 $L$ 为正方形: $\left| x\right|+\left| y\right|=a$ ($a>0$).
+（习题 9.1-4）求第一型曲线积分 $\displaystyle\oint_L xy\,\mathrm{d}s$, 其中 $L$ 为正方形: $\left| x\right|+\left| y\right|=a$ ($a> 0$).
 
 ### 解答 习题三
 
@@ -127,7 +127,7 @@ $$
 x=\frac a{\sqrt2}\left(\frac1{\sqrt3}\cos t-\sin t\right),\\[4pt\right]
 y=\frac a{\sqrt2}\left(\frac1{\sqrt3}\cos t+\sin t\right),\\[4pt\right]
 z=-\frac{\sqrt2}{\sqrt3}a\cos t,
-\end{cases}\left(0\le t\le2\pi,a>0\right).
+\end{cases}\left(0\le t\le2\pi,a> 0\right).
 $$
 
 ### 解答 习题五

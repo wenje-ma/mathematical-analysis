@@ -236,7 +236,7 @@ $$
 I=\displaystyle\iint_S\left(y-z\right)\,\mathrm{d}y\mathrm{d}z+\left(z-x\right)\,\mathrm{d}z\mathrm{d}x+\left(x-y\right)\,\mathrm{d}x\mathrm{d}y,
 $$
 
-其中 $S$ 是上半球面 $x^2+y^2+z^2=2Rx$ ($z\ge0$) 被柱面 $x^2+y^2=2rx$ ($0<r<R$) 所截部分的上侧.
+其中 $S$ 是上半球面 $x^2+y^2+z^2=2Rx$ ($z\ge0$) 被柱面 $x^2+y^2=2rx$ ($0< r< R$) 所截部分的上侧.
 
 ### 解答 习题七
 
@@ -276,7 +276,7 @@ $$
 I=\displaystyle\iint_S x\,\mathrm{d}y\mathrm{d}z+y\,\mathrm{d}z\mathrm{d}x+z\,\mathrm{d}x\mathrm{d}y,
 $$
 
-其中 $S$ 为椭球面 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ ($a>0,b>0,c>0$) 的外侧.
+其中 $S$ 为椭球面 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ ($a> 0,b> 0,c> 0$) 的外侧.
 
 ### 解答 习题八
 

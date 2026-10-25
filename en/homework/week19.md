@@ -50,7 +50,7 @@ $$
 $\blacksquare$
 ### Problem 4
 
-(Problem 4.2-1-8) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{a^2+b^2x^2}$ ($a>0,b>0$).
+(Problem 4.2-1-8) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{a^2+b^2x^2}$ ($a> 0,b> 0$).
 
 ### Solution to Problem 4
 
@@ -94,7 +94,7 @@ $$
 $\blacksquare$
 ### Problem 6
 
-(Problem 4.2-2-1) Find the indefinite integral $\displaystyle\int\sqrt{a^2-x^2}\,\mathrm{d}x$ ($a>0$).
+(Problem 4.2-2-1) Find the indefinite integral $\displaystyle\int\sqrt{a^2-x^2}\,\mathrm{d}x$ ($a> 0$).
 
 ### Solution to Problem 6
 
@@ -116,11 +116,11 @@ $$
 $\blacksquare$
 ### Problem 7
 
-(Problem 4.2-2-3) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}$ ($a>0$).
+(Problem 4.2-2-3) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}$ ($a> 0$).
 
 ### Solution to Problem 7
 
-Let $x=a\tan t$ ($-\frac{\pi}{2}<t<\frac{\pi}{2}$), then $\mathrm{d}x=a\sec^2t\,\mathrm{d}t$, and $\sqrt{x^2+a^2}=a\sec t$. By **Theorem 2.2** (Second Substitution Rule),
+Let $x=a\tan t$ ($-\frac{\pi}{2}< t< \frac{\pi}{2}$), then $\mathrm{d}x=a\sec^2t\,\mathrm{d}t$, and $\sqrt{x^2+a^2}=a\sec t$. By **Theorem 2.2** (Second Substitution Rule),
 $$
 \int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}=\int\frac{a\sec^2t}{a\sec t}\,\mathrm{d}t=\int\sec t\,\mathrm{d}t=\ln\left|\sec t+\tan t\right|+C.
 $$
@@ -133,11 +133,11 @@ $$
 $\blacksquare$
 ### Problem 8
 
-(Problem 4.2-2-5) Find the indefinite integral $\displaystyle\int\sqrt{x^2-a^2}\,\mathrm{d}x$ ($a>0$).
+(Problem 4.2-2-5) Find the indefinite integral $\displaystyle\int\sqrt{x^2-a^2}\,\mathrm{d}x$ ($a> 0$).
 
 ### Solution to Problem 8
 
-Let $x=a\sec t$ ($0<t<\frac{\pi}{2}$), then $\mathrm{d}x=a\sec t\tan t\,\mathrm{d}t$, and $\sqrt{x^2-a^2}=a\tan t$. By **Theorem 2.2** (Second Substitution Rule),
+Let $x=a\sec t$ ($0< t< \frac{\pi}{2}$), then $\mathrm{d}x=a\sec t\tan t\,\mathrm{d}t$, and $\sqrt{x^2-a^2}=a\tan t$. By **Theorem 2.2** (Second Substitution Rule),
 $$
 \int\sqrt{x^2-a^2}\,\mathrm{d}x=\int a\tan t\cdot a\sec t\tan t\,\mathrm{d}t=a^2\int\tan^2t\sec t\,\mathrm{d}t.
 $$
@@ -161,7 +161,7 @@ $$
 $\blacksquare$
 ### Problem 9
 
-(Problem 4.2-2-7) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{x\sqrt{a^2-x^2}}$ ($a>0$).
+(Problem 4.2-2-7) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{x\sqrt{a^2-x^2}}$ ($a> 0$).
 
 ### Solution to Problem 9
 
@@ -205,7 +205,7 @@ $$
 $\blacksquare$
 ### Problem 11
 
-(Problem 4.2-2-11) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{x^2\sqrt{x^2+a^2}}$ ($a>0$).
+(Problem 4.2-2-11) Find the indefinite integral $\displaystyle\int\frac{\mathrm{d}x}{x^2\sqrt{x^2+a^2}}$ ($a> 0$).
 
 ### Solution to Problem 11
 

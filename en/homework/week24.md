@@ -2,18 +2,18 @@
 
 > **Theorem 2.1** (Upper/Lower Limits and Existence of the Limit) Let $\left\{a_n\right\}$ be a bounded sequence. Then the sequence $\left\{a_n\right\}$ has a limit if and only if its upper limit and lower limit are equal.
 
-> **Theorem 2.2** (Cauchy Convergence Principle) The sequence $\left\{a_n\right\}$ has a limit if and only if: for any given $\varepsilon>0$, there exists a natural number $N$ such that $\left|a_n-a_m\right|<\varepsilon$ (whenever $m\ge N,n\ge N$).
+> **Theorem 2.2** (Cauchy Convergence Principle) The sequence $\left\{a_n\right\}$ has a limit if and only if: for any given $\varepsilon> 0$, there exists a natural number $N$ such that $\left|a_n-a_m\right|< \varepsilon$ (whenever $m\ge N,n\ge N$).
 ### Problem 1
 
 (Problem 5.2-1) Use the Cauchy convergence principle for sequences to prove: if $\left\{a_n\right\}$ converges, then $\left\{\left|a_n\right|\right\}$ converges.
 
 ### Solution to Problem 1
 
-Let $\lim\limits_{n\to\infty}a_n=l$. By the Cauchy convergence principle, for any $\varepsilon>0$, there exists $N$ such that $\left|a_n-a_m\right|<\varepsilon$ whenever $m,n\ge N$.
+Let $\lim\limits_{n\to\infty}a_n=l$. By the Cauchy convergence principle, for any $\varepsilon> 0$, there exists $N$ such that $\left|a_n-a_m\right|< \varepsilon$ whenever $m,n\ge N$.
 
 By the triangle inequality,
 $$
-\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|<\varepsilon.
+\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|< \varepsilon.
 $$
 
 Hence $\left\{\left|a_n\right|\right\}$ satisfies the Cauchy condition. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{\left|a_n\right|\right\}$ converges. $\blacksquare$
@@ -103,7 +103,7 @@ $$
 
 ### Solution to Problem 4
 
-(1) Let $m>n$. Then
+(1) Let $m> n$. Then
 $$
 \left|a_m-a_n\right|=\left|\frac{\left(-1\right)^n}{n+1}+\frac{\left(-1\right)^{n+1}}{n+2}+\cdots+\frac{\left(-1\right)^{m-1}}{m}\right|.
 $$
@@ -113,19 +113,19 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{n+1}.
 $$
 
-For any $\varepsilon>0$, take $N>\frac1\varepsilon$; then when $m,n>N$, $\left|a_m-a_n\right|<\varepsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges.
+For any $\varepsilon> 0$, take $N> \frac1\varepsilon$; then when $m,n> N$, $\left|a_m-a_n\right|< \varepsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges.
 
-(2) Let $m>n$. Then
+(2) Let $m> n$. Then
 $$
 \left|a_m-a_n\right|=\left|\frac{\sin\left(n+1\right)}{\left(n+1\right)!}+\cdots+\frac{\sin m}{m!}\right|\le\frac{1}{\left(n+1\right)!}+\cdots+\frac{1}{m!}.
 $$
 
-When $n$ is sufficiently large, $\left(n+1\right)!>2^{n+1}$, hence
+When $n$ is sufficiently large, $\left(n+1\right)!> 2^{n+1}$, hence
 $$
 \left|a_m-a_n\right|\le\frac{1}{2^{n+1}}+\frac{1}{2^{n+2}}+\cdots=\frac{1}{2^n}.
 $$
 
-For any $\varepsilon>0$, take $N$ such that $2^N>\frac1\varepsilon$; then when $m,n>N$, $\left|a_m-a_n\right|<\varepsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges. $\blacksquare$
+For any $\varepsilon> 0$, take $N$ such that $2^N> \frac1\varepsilon$; then when $m,n> N$, $\left|a_m-a_n\right|< \varepsilon$. By **Theorem 2.2** (Cauchy Convergence Principle), $\left\{a_n\right\}$ converges. $\blacksquare$
 
 ### Problem 5
 
@@ -135,20 +135,20 @@ $$
 $$
 ### Solution to Problem 5
 
-Set $l=\lim\limits_{n\to\infty}f\left(x_n\right)$. For any $\delta>0$, when $n$ is sufficiently large
+Set $l=\lim\limits_{n\to\infty}f\left(x_n\right)$. For any $\delta> 0$, when $n$ is sufficiently large
 
 $$
-x_n\in\left\{x:0<\left|x-a\right|<\delta\right\}.
+x_n\in\left\{x:0< \left|x-a\right|< \delta\right\}.
 $$
 
 Hence
 $$
-\inf\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}\le f\left(x_n\right)\le\sup\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}.
+\inf\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}\le f\left(x_n\right)\le\sup\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}.
 $$
 
 Letting $n\to\infty$, we get
 $$
-\inf\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}\le l\le\sup\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}.
+\inf\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}\le l\le\sup\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}.
 $$
 
 Then letting $\delta\to0$, by the definition of upper and lower limits,
@@ -165,14 +165,14 @@ $$
 $$
 ### Solution to Problem 6
 
-Set $L=\varlimsup_{x\to a}f\left(x\right)$. By the definition of the upper limit, for any $n$, there exists $x_n'$ in $\left\{x:0<\left|x-a\right|<1/n\right\}$ such that
+Set $L=\varlimsup_{x\to a}f\left(x\right)$. By the definition of the upper limit, for any $n$, there exists $x_n'$ in $\left\{x:0< \left|x-a\right|< 1/n\right\}$ such that
 $$
-f\left(x_n'\right)>\sup\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}-\frac1n.
+f\left(x_n'\right)> \sup\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}-\frac1n.
 $$
 
 Clearly $x_n'\to a$ ($n\to\infty$). Moreover,
 $$
-\sup\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}-\frac1n<f\left(x_n'\right)\le\sup\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}.
+\sup\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}-\frac1n< f\left(x_n'\right)\le\sup\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}.
 $$
 
 Letting $n\to\infty$, by the squeeze theorem, $\lim\limits_{n\to\infty}f\left(x_n'\right)=L$.
@@ -180,7 +180,7 @@ Letting $n\to\infty$, by the squeeze theorem, $\lim\limits_{n\to\infty}f\left(x_
 The case of the lower limit is similar; take $x_n''$ such that
 
 $$
-f\left(x_n''\right)<\inf\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}+\frac1n
+f\left(x_n''\right)< \inf\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}+\frac1n
 $$
 
 . $\blacksquare$

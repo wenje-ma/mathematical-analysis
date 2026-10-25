@@ -74,22 +74,22 @@ $$
 
 **充分性** 若 $f\left(x\right)\equiv0$, 则 $\int_a^b f\left(x\right)\,\mathrm{d}x=0$ 显然成立.
 
-**必要性** 反设 $f$ 不恒为零, 则存在 $x_0\in\left[a,b\right]$ 使 $f\left(x_0\right)>0$. 由 $f$ 在 $x_0$ 处连续, 对 $\varepsilon=\frac{f\left(x_0\right)}{2}>0$, 存在 $\delta>0$, 使当 $x\in\left[a,b\right]$ 且 $\left| x-x_0\right|<\delta$ 时,
+**必要性** 反设 $f$ 不恒为零, 则存在 $x_0\in\left[a,b\right]$ 使 $f\left(x_0\right)> 0$. 由 $f$ 在 $x_0$ 处连续, 对 $\varepsilon=\frac{f\left(x_0\right)}{2}> 0$, 存在 $\delta> 0$, 使当 $x\in\left[a,b\right]$ 且 $\left| x-x_0\right|< \delta$ 时,
 
 $$
-\left| f\left(x\right)-f\left(x_0\right)\right|<\frac{f\left(x_0\right)}2,
+\left| f\left(x\right)-f\left(x_0\right)\right|< \frac{f\left(x_0\right)}2,
 $$
 
-即 $f\left(x\right)>\frac{f\left(x_0\right)}2$. 记
+即 $f\left(x\right)> \frac{f\left(x_0\right)}2$. 记
 
 $$
 J=\left[a,b\right]\cap\left(x_0-\delta,x_0+\delta\right),
 $$
 
-其长度 $\left|J\right|>0$. 由第一章**性质**（定积分的比较性质）,
+其长度 $\left|J\right|> 0$. 由第一章**性质**（定积分的比较性质）,
 
 $$
-\int_a^b f\left(x\right)\,\mathrm{d}x\ge\int_J f\left(x\right)\,\mathrm{d}x\ge\frac{f\left(x_0\right)}2\cdot\left|J\right|>0,
+\int_a^b f\left(x\right)\,\mathrm{d}x\ge\int_J f\left(x\right)\,\mathrm{d}x\ge\frac{f\left(x_0\right)}2\cdot\left|J\right|> 0,
 $$
 
 与 $\int_a^b f\left(x\right)\,\mathrm{d}x=0$ 矛盾. 故 $f\left(x\right)\equiv0$. $\blacksquare$

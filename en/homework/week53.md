@@ -76,7 +76,7 @@ $\blacksquare$
 (Problem 13.2-1-5) Let $y=f\left(x\right)$ be a function with period $2\pi$, and on $\left[-\pi,\pi\right]$ let
 
 $$
-f\left(x\right)=\begin{cases}0,&-\pi\le x<0;\x,&0\le x\le\pi.\end{cases}
+f\left(x\right)=\begin{cases}0,&-\pi\le x< 0;\x,&0\le x\le\pi.\end{cases}
 $$
 
 Find the Fourier series of $f\left(x\right)$.

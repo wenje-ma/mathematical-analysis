@@ -143,7 +143,7 @@ $$
 (3)
 
 $$
-\displaystyle\int_0^R\mathrm{d}x\int_0^{\sqrt{R^2-x^2}}\ln\left(1+x^2+y^2\right)\,\mathrm{d}y\left(R>0\right).
+\displaystyle\int_0^R\mathrm{d}x\int_0^{\sqrt{R^2-x^2}}\ln\left(1+x^2+y^2\right)\,\mathrm{d}y\left(R> 0\right).
 $$
 
 ### 解答 习题四
@@ -253,7 +253,7 @@ $$
 $\blacksquare$
 ### 习题七
 
-（习题 8.2-8）设 $a>0$, 令
+（习题 8.2-8）设 $a> 0$, 令
 
 $$
 I\left(a\right)=\int_0^a e^{-x^2}\,\mathrm{d}x, J\left(a\right)=\iint_{D_a}e^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y,
@@ -293,7 +293,7 @@ $$
 \left[I\left(a\right)\right]^2=\left(\int_0^a e^{-x^2}\mathrm{d}x\right)\left(\int_0^a e^{-y^2}\mathrm{d}y\right)=\int_0^a\mathrm{d}x\int_0^a e^{-x^2-y^2}\mathrm{d}y=\iint_{R_a}e^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y.
 $$
 
-(2)注意到 $D_a$ 是半径为 $a$ 的四分之一圆盘, $R_a=\left[0,a\right]\times\left[0,a\right]$ 是边长为 $a$ 的正方形, $D_{\sqrt2 a}$ 是半径为 $\sqrt2 a$ 的四分之一圆盘. 显然 $D_a\subset R_a\subset D_{\sqrt2 a}$. 因被积函数 $e^{-x^2-y^2}>0$, 由第一章**性质**（二重积分的比较性质）,
+(2)注意到 $D_a$ 是半径为 $a$ 的四分之一圆盘, $R_a=\left[0,a\right]\times\left[0,a\right]$ 是边长为 $a$ 的正方形, $D_{\sqrt2 a}$ 是半径为 $\sqrt2 a$ 的四分之一圆盘. 显然 $D_a\subset R_a\subset D_{\sqrt2 a}$. 因被积函数 $e^{-x^2-y^2}> 0$, 由第一章**性质**（二重积分的比较性质）,
 
 $$
 J\left(a\right)=\iint_{D_a}\le\iint_{R_a}=\left[I\left(a\right)\right]^2\le\iint_{D_{\sqrt2 a}}=J\left(\sqrt2\,a\right).

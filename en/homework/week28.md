@@ -12,9 +12,9 @@
 
 > **Property** (Basic Properties of Double Integrals) Let $D$ be a bounded closed region that is rectifiable, and let $f,g$ be integrable on $D$. Then:
 > (2) additivity with respect to the region: if $D$ is decomposed into two rectifiable, non-overlapping regions $D_1,D_2$, then $\iint_D f=\iint_{D_1}f+\iint_{D_2}f$;
->
+> 
 > (3) the integral preserves inequalities: if $f\left(x,y\right)\le g\left(x,y\right)$ ($\forall\left(x,y\right)\in D$), then $\iint_D f\le\iint_D g$;
->
+> 
 > (4) mean value theorem for integrals: if $f$ is continuous on $D$, then there exists $\left(x_0,y_0\right)\in D$ such that $\iint_D f=f\left(x_0,y_0\right)\cdot S$, where $S$ is the area of $D$.
 
 ### Problem 1
@@ -137,7 +137,7 @@ $$
 
 ### Solution to Problem 5
 
-Since $f$ is continuous on the bounded closed region $D$, by **Theorem 1.5** (Continuous Functions Are Integrable), $f$ is integrable on $D$, and $f$ has a maximum $M$ and minimum $m$ on $D$. Moreover, since $g\left(x,y\right)>0$ on $D$, we have
+Since $f$ is continuous on the bounded closed region $D$, by **Theorem 1.5** (Continuous Functions Are Integrable), $f$ is integrable on $D$, and $f$ has a maximum $M$ and minimum $m$ on $D$. Moreover, since $g\left(x,y\right)> 0$ on $D$, we have
 
 $$
 m\,g\left(x,y\right)\le f\left(x,y\right)g\left(x,y\right)\le M\,g\left(x,y\right).
@@ -149,7 +149,7 @@ $$
 m\iint_D g\le\iint_D fg\le M\iint_D g.
 $$
 
-Since $g$ is continuous and $g>0$, and $D$ has positive area, we have $\iint_D g>0$. Thus
+Since $g$ is continuous and $g> 0$, and $D$ has positive area, we have $\iint_D g> 0$. Thus
 
 $$
 m\le\frac{\iint_D fg}{\iint_D g}\le M.
@@ -169,28 +169,28 @@ $\blacksquare$
 
 ### Solution to Problem 6
 
-Suppose, for contradiction, that there exists $\left(x_0,y_0\right)\in D$ such that $f\left(x_0,y_0\right)>0$. By the continuity of $f$ at $\left(x_0,y_0\right)$, for $\varepsilon=\frac{f\left(x_0,y_0\right)}2>0$, there exists $\delta>0$ such that when $\left(x,y\right)\in D$ and
+Suppose, for contradiction, that there exists $\left(x_0,y_0\right)\in D$ such that $f\left(x_0,y_0\right)> 0$. By the continuity of $f$ at $\left(x_0,y_0\right)$, for $\varepsilon=\frac{f\left(x_0,y_0\right)}2> 0$, there exists $\delta> 0$ such that when $\left(x,y\right)\in D$ and
 
 $$
-\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta
+\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}< \delta
 $$
 
 ,
 
 $$
-\left| f\left(x,y\right)-f\left(x_0,y_0\right)\right|<\frac{f\left(x_0,y_0\right)}2,
+\left| f\left(x,y\right)-f\left(x_0,y_0\right)\right|< \frac{f\left(x_0,y_0\right)}2,
 $$
 
-i.e. $f\left(x,y\right)>\frac{f\left(x_0,y_0\right)}2$. Set
+i.e. $f\left(x,y\right)> \frac{f\left(x_0,y_0\right)}2$. Set
 
 $$
-R_\delta=D\cap\left\{\left(x,y\right):\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}<\delta\right\}.
+R_\delta=D\cap\left\{\left(x,y\right):\sqrt{\left(x-x_0\right)^2+\left(y-y_0\right)^2}< \delta\right\}.
 $$
 
-Since $\left(x_0,y_0\right)$ is an interior or boundary point of $D$, $R_\delta$ is a rectifiable region with area $\left|R_\delta\right|>0$. By **Property** (Basic Properties of Double Integrals) (3),
+Since $\left(x_0,y_0\right)$ is an interior or boundary point of $D$, $R_\delta$ is a rectifiable region with area $\left|R_\delta\right|> 0$. By **Property** (Basic Properties of Double Integrals) (3),
 
 $$
-\iint_D f\left(x,y\right)\,\mathrm{d}\sigma\ge\iint_{R_\delta}f\left(x,y\right)\,\mathrm{d}\sigma\ge\frac{f\left(x_0,y_0\right)}2\cdot\left|R_\delta\right|>0,
+\iint_D f\left(x,y\right)\,\mathrm{d}\sigma\ge\iint_{R_\delta}f\left(x,y\right)\,\mathrm{d}\sigma\ge\frac{f\left(x_0,y_0\right)}2\cdot\left|R_\delta\right|> 0,
 $$
 
 which contradicts $\iint_D f=0$. Hence $f\left(x,y\right)\equiv0$ on $D$. $\blacksquare$

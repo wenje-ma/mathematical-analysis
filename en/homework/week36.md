@@ -126,7 +126,7 @@ $$
 \displaystyle\oint_{L^+}\left(y^2+z^2-x^2\right)\,\mathrm{d}x+\left(x^2+z^2-y^2\right)\,\mathrm{d}y+\left(x^2+y^2-z^2\right)\,\mathrm{d}z,
 $$
 
-where $L$ is the curve of intersection of the sphere $z=\sqrt{2Rx-x^2-y^2}$ and the cylinder $x^2+y^2=2rx$ ($0<r<R$, $z\ge0$), and $L^+$ forms a right-handed system with the upper side of the sphere.
+where $L$ is the curve of intersection of the sphere $z=\sqrt{2Rx-x^2-y^2}$ and the cylinder $x^2+y^2=2rx$ ($0< r< R$, $z\ge0$), and $L^+$ forms a right-handed system with the upper side of the sphere.
 
 ### Solution to Problem 5
 

@@ -233,26 +233,26 @@ $$
 \left|R_1\right|=\left|\frac{f''\left(\xi\right)}{2}\right|\left(0.16\right)^2=\frac{2}{25}\xi^{-9/5}\cdot\left(0.16\right)^2.
 $$
 
-因 $\xi>32$, 故
+因 $\xi> 32$, 故
 
 $$
-\xi^{-9/5}<32^{-9/5}=\left(2^5\right)^{-9/5}=2^{-9}=\frac{1}{512}.
+\xi^{-9/5}< 32^{-9/5}=\left(2^5\right)^{-9/5}=2^{-9}=\frac{1}{512}.
 $$
 
 于是
 $$
-\left|R_1\right|<\frac{2}{25}\cdot\frac{1}{512}\cdot\left(0.16\right)^2=\frac{2\cdot0.0256}{25\cdot512}=4\times10^{-6}.
+\left|R_1\right|< \frac{2}{25}\cdot\frac{1}{512}\cdot\left(0.16\right)^2=\frac{2\cdot0.0256}{25\cdot512}=4\times10^{-6}.
 $$
 
 即 $2.002$ 作为 $32.16^{1/5}$ 的近似值, 其误差绝对值约为 $4\times10^{-6}$. $\blacksquare$
 
 ### 习题九
 
-（习题 3.4-12）用泰勒局部展开式证明下列结论: 设 $y=f\left(x\right)$ 在 $x_0$ 点有 $n$ 阶导数, $n>1$, 且
+（习题 3.4-12）用泰勒局部展开式证明下列结论: 设 $y=f\left(x\right)$ 在 $x_0$ 点有 $n$ 阶导数, $n> 1$, 且
 $$
 f'\left(x_0\right)=f''\left(x_0\right)=\cdots=f^{\left(n-1\right)}\left(x_0\right)=0, f^{\left(n\right)}\left(x_0\right)\ne0.
 $$
-当 $n$ 为奇数时, $x_0$ 一定不是极值点; 当 $n$ 是偶数时, 若 $f^{\left(n\right)}\left(x_0\right)>0$, 则 $x_0$ 为极小值点; 若 $f^{\left(n\right)}\left(x_0\right)<0$, 则 $x_0$ 为极大值点.
+当 $n$ 为奇数时, $x_0$ 一定不是极值点; 当 $n$ 是偶数时, 若 $f^{\left(n\right)}\left(x_0\right)> 0$, 则 $x_0$ 为极小值点; 若 $f^{\left(n\right)}\left(x_0\right)< 0$, 则 $x_0$ 为极大值点.
 
 ### 解答 习题九
 
@@ -274,4 +274,4 @@ $$
 
 当 $n$ 为奇数时, $\left(x-x_0\right)^n$ 在 $x_0$ 两侧变号(左负右正), 而 $\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$ 为固定非零常数, 故 $f\left(x\right)-f\left(x_0\right)$ 在 $x_0$ 两侧变号. 因此 $x_0$ 不是极值点.
 
-当 $n$ 为偶数时, $\left(x-x_0\right)^n>0$($x\ne x_0$). 若 $f^{\left(n\right)}\left(x_0\right)>$, 则 $f\left(x\right)-f\left(x_0\right)>0$($x$ 充分接近 $x_0$ 且 $x\ne x_0$), 即 $f\left(x\right)>f\left(x_0\right)$, 故 $x_0$ 为极小值点. 若 $f^{\left(n\right)}\left(x_0\right)<0$, 则 $f\left(x\right)-f\left(x_0\right)<0$, 即 $f\left(x\right)<f\left(x_0\right)$, 故 $x_0$ 为极大值点. $\blacksquare$
+当 $n$ 为偶数时, $\left(x-x_0\right)^n> 0$($x\ne x_0$). 若 $f^{\left(n\right)}\left(x_0\right)> $, 则 $f\left(x\right)-f\left(x_0\right)> 0$($x$ 充分接近 $x_0$ 且 $x\ne x_0$), 即 $f\left(x\right)> f\left(x_0\right)$, 故 $x_0$ 为极小值点. 若 $f^{\left(n\right)}\left(x_0\right)< 0$, 则 $f\left(x\right)-f\left(x_0\right)< 0$, 即 $f\left(x\right)< f\left(x_0\right)$, 故 $x_0$ 为极大值点. $\blacksquare$

@@ -1,11 +1,11 @@
 # Assignment 43
 
 > **Theorem 2.2** (The Weierstrass M-Test) Suppose $\left|u_n\left(x\right)\right|\le a_n$ holds for all $x\in X$ and all sufficiently large $n$, and suppose $\sum a_n$ converges. Then the series of functions $\sum u_n\left(x\right)$ converges uniformly on $X$.
->
+> 
 > **Theorem 2.4** (Dirichlet's Test) In the series of functions $\sum a_n\left(x\right)b_n\left(x\right)$, suppose the sequence of partial sums of $\sum a_n\left(x\right)$ is uniformly bounded on $X$, $b_n\left(x\right)$ is monotone in $n$ for each $x\in X$, and $b_n\left(x\right)$ tends uniformly to zero on $X$. Then $\sum a_n\left(x\right)b_n\left(x\right)$ converges uniformly on $X$.
->
+> 
 > **Theorem 2.5** (Continuity of the Sum Function) Let $u_n\left(x\right)$ be continuous on an interval $X$, and suppose $\sum u_n\left(x\right)$ converges uniformly on $X$. Then its sum function $S\left(x\right)$ is continuous on $X$.
->
+> 
 > **Theorem 2.7** (Term-by-Term Differentiation Theorem) Let $\sum u_n\left(x\right)$ converge to $S\left(x\right)$ on $\left[a,b\right]$, let the $u_n\left(x\right)$ have continuous derivatives on $\left[a,b\right]$, and suppose $\sum u_n'\left(x\right)$ converges uniformly on $\left[a,b\right]$. Then $S\left(x\right)$ is differentiable on $\left[a,b\right]$ and $S'\left(x\right)=\sum u_n'\left(x\right)$.
 
 ### Problem 1
@@ -40,7 +40,7 @@ $$
 S_N\left(x\right)=1-\frac{1}{1+Nx}.
 $$
 
-When $x>0$, $S_N\left(x\right)\to 1$; when $x=0$, $S_N\left(0\right)=0$; when $x<0$, $1+Nx$ eventually becomes $0$ or negative, so the series is undefined or diverges for $x<0$. Hence the sum function is not continuous at $x=0$ (the right limit is $1$, while the function value is $0$). Since each term $\frac{x}{\left(1+\left(n-1\right)x\right)\left(1+nx\right)}$ is continuous on $\left(0,+\infty\right)$, by **Theorem 2.5** (Continuity of the Sum Function), if the series converged uniformly on $\left(0,+\infty\right)$ the sum function would have to be continuous, a contradiction. Thus this series does not converge uniformly on $\left(0,+\infty\right)$. $\blacksquare$
+When $x> 0$, $S_N\left(x\right)\to 1$; when $x=0$, $S_N\left(0\right)=0$; when $x< 0$, $1+Nx$ eventually becomes $0$ or negative, so the series is undefined or diverges for $x< 0$. Hence the sum function is not continuous at $x=0$ (the right limit is $1$, while the function value is $0$). Since each term $\frac{x}{\left(1+\left(n-1\right)x\right)\left(1+nx\right)}$ is continuous on $\left(0,+\infty\right)$, by **Theorem 2.5** (Continuity of the Sum Function), if the series converged uniformly on $\left(0,+\infty\right)$ the sum function would have to be continuous, a contradiction. Thus this series does not converge uniformly on $\left(0,+\infty\right)$. $\blacksquare$
 
 ### Problem 3
 
@@ -54,7 +54,7 @@ $$
 \left|\frac{1}{n^2+x^2}\right|\le\frac{1}{n^2}=a_n,
 $$
 
-and $\sum\frac{1}{n^2}$ is a $p$-series with $p=2>1$, which converges. By **Theorem 2.2** (The Weierstrass M-Test), this series converges uniformly on $\left[0,+\infty\right)$. $\blacksquare$
+and $\sum\frac{1}{n^2}$ is a $p$-series with $p=2> 1$, which converges. By **Theorem 2.2** (The Weierstrass M-Test), this series converges uniformly on $\left[0,+\infty\right)$. $\blacksquare$
 
 ### Problem 4
 
@@ -83,7 +83,7 @@ attains $\frac1n+\frac1n=\frac2n$ at $x=\sqrt n$, but $\sup_{x\in\mathbb R}\frac
 
 ### Problem 5
 
-(Problem 11.2-10) Discuss the uniform convergence of the series $\sum_{n=1}^{+\infty}\left(-1\right)^{n-1}x^2e^{-nx^2}$ ($-\infty<x<+\infty$).
+(Problem 11.2-10) Discuss the uniform convergence of the series $\sum_{n=1}^{+\infty}\left(-1\right)^{n-1}x^2e^{-nx^2}$ ($-\infty< x< +\infty$).
 
 ### Solution to Problem 5
 
@@ -157,11 +157,11 @@ Each term on the right is continuous, and by the M-test it converges uniformly o
 
 ### Problem 8
 
-(Problem 11.2-6) Let $\zeta\left(x\right)=\sum_{n=1}^{\infty}\frac{1}{n^x}$ ($x>1$). Prove that the derivative of $\zeta\left(x\right)$ exists, and give its expression.
+(Problem 11.2-6) Let $\zeta\left(x\right)=\sum_{n=1}^{\infty}\frac{1}{n^x}$ ($x> 1$). Prove that the derivative of $\zeta\left(x\right)$ exists, and give its expression.
 
 ### Solution to Problem 8
 
-For any $x_0>1$, choose $a$ such that $1<a<x_0$. On the interval $\left[a,+\infty\right)$, consider the formally term-by-term differentiated series:
+For any $x_0> 1$, choose $a$ such that $1< a< x_0$. On the interval $\left[a,+\infty\right)$, consider the formally term-by-term differentiated series:
 
 $$
 \sum_{n=1}^{\infty}\left(\frac{1}{n^x}\right)'=-\sum_{n=1}^{\infty}\frac{\ln n}{n^x}.
@@ -173,7 +173,7 @@ $$
 \left|\frac{\ln n}{n^x}\right|\le\frac{\ln n}{n^a}.
 $$
 
-Since $a>1$, choose $\varepsilon>0$ such that $a-\varepsilon>1$. Then
+Since $a> 1$, choose $\varepsilon> 0$ such that $a-\varepsilon> 1$. Then
 
 $$
 \frac{\ln n}{n^a}=\frac{\ln n}{n^\varepsilon}\cdot\frac{1}{n^{a-\varepsilon}}\le C\cdot\frac{1}{n^{a-\varepsilon}},
@@ -181,10 +181,10 @@ $$
 
 and $\sum\frac{1}{n^{a-\varepsilon}}$ converges, so $\sum\frac{\ln n}{n^a}$ converges. By **Theorem 2.2** (The Weierstrass M-Test), the differentiated series converges uniformly on $\left[a,+\infty\right)$.
 
-Moreover, the original series $\sum\frac{1}{n^x}$ converges when $x>1$. By **Theorem 2.7** (Term-by-Term Differentiation Theorem), $\zeta\left(x\right)$ is differentiable on $\left[a,+\infty\right)$, and
+Moreover, the original series $\sum\frac{1}{n^x}$ converges when $x> 1$. By **Theorem 2.7** (Term-by-Term Differentiation Theorem), $\zeta\left(x\right)$ is differentiable on $\left[a,+\infty\right)$, and
 
 $$
 \zeta'\left(x\right)=-\sum_{n=1}^{\infty}\frac{\ln n}{n^x}.
 $$
 
-By the arbitrariness of $x_0>1$, the derivative of $\zeta\left(x\right)$ exists on $\left(1,+\infty\right)$, with the expression above. $\blacksquare$
+By the arbitrariness of $x_0> 1$, the derivative of $\zeta\left(x\right)$ exists on $\left(1,+\infty\right)$, with the expression above. $\blacksquare$

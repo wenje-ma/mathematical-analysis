@@ -28,7 +28,7 @@ $$
 \begin{cases}x=a\left(t-\sin t\right),\y=a\left(1-\cos t\right),\end{cases}\left(0\le t\le2\pi\right)
 $$
 
-, where $a>0$.
+, where $a> 0$.
 
 ### Solution to Problem 1
 
@@ -74,7 +74,7 @@ $$
 $\blacksquare$
 ### Problem 3
 
-(Problem 9.1-4) Evaluate the first-kind line integral $\displaystyle\oint_L xy\,\mathrm{d}s$, where $L$ is the square $\left| x\right|+\left| y\right|=a$ ($a>0$).
+(Problem 9.1-4) Evaluate the first-kind line integral $\displaystyle\oint_L xy\,\mathrm{d}s$, where $L$ is the square $\left| x\right|+\left| y\right|=a$ ($a> 0$).
 
 ### Solution to Problem 3
 
@@ -127,7 +127,7 @@ $$
 x=\frac a{\sqrt2}\left(\frac1{\sqrt3}\cos t-\sin t\right),\\[4pt\right]
 y=\frac a{\sqrt2}\left(\frac1{\sqrt3}\cos t+\sin t\right),\\[4pt\right]
 z=-\frac{\sqrt2}{\sqrt3}a\cos t,
-\end{cases}\left(0\le t\le2\pi,a>0\right).
+\end{cases}\left(0\le t\le2\pi,a> 0\right).
 $$
 
 ### Solution to Problem 5

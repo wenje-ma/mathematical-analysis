@@ -50,7 +50,7 @@ $$
 $\blacksquare$
 ### 习题四
 
-（习题 4.2-1-8）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{a^2+b^2x^2}$($a>0,b>0$).
+（习题 4.2-1-8）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{a^2+b^2x^2}$($a> 0,b> 0$).
 
 ### 解答 习题四
 
@@ -94,7 +94,7 @@ $$
 $\blacksquare$
 ### 习题六
 
-（习题 4.2-2-1）求不定积分 $\displaystyle\int\sqrt{a^2-x^2}\,\mathrm{d}x$($a>0$).
+（习题 4.2-2-1）求不定积分 $\displaystyle\int\sqrt{a^2-x^2}\,\mathrm{d}x$($a> 0$).
 
 ### 解答 习题六
 
@@ -116,11 +116,11 @@ $$
 $\blacksquare$
 ### 习题七
 
-（习题 4.2-2-3）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}$($a>0$).
+（习题 4.2-2-3）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}$($a> 0$).
 
 ### 解答 习题七
 
-令 $x=a\tan t$($-\frac{\pi}{2}<t<\frac{\pi}{2}$), 则 $\mathrm{d}x=a\sec^2t\,\mathrm{d}t$, 且 $\sqrt{x^2+a^2}=a\sec t$. 由**定理 2.2**（第二换元法则）, 
+令 $x=a\tan t$($-\frac{\pi}{2}< t< \frac{\pi}{2}$), 则 $\mathrm{d}x=a\sec^2t\,\mathrm{d}t$, 且 $\sqrt{x^2+a^2}=a\sec t$. 由**定理 2.2**（第二换元法则）, 
 $$
 \int\frac{\mathrm{d}x}{\sqrt{x^2+a^2}}=\int\frac{a\sec^2t}{a\sec t}\,\mathrm{d}t=\int\sec t\,\mathrm{d}t=\ln\left|\sec t+\tan t\right|+C.
 $$
@@ -133,11 +133,11 @@ $$
 $\blacksquare$
 ### 习题八
 
-（习题 4.2-2-5）求不定积分 $\displaystyle\int\sqrt{x^2-a^2}\,\mathrm{d}x$($a>0$).
+（习题 4.2-2-5）求不定积分 $\displaystyle\int\sqrt{x^2-a^2}\,\mathrm{d}x$($a> 0$).
 
 ### 解答 习题八
 
-令 $x=a\sec t$($0<t<\frac{\pi}{2}$), 则 $\mathrm{d}x=a\sec t\tan t\,\mathrm{d}t$, 且 $\sqrt{x^2-a^2}=a\tan t$. 由**定理 2.2**（第二换元法则）, 
+令 $x=a\sec t$($0< t< \frac{\pi}{2}$), 则 $\mathrm{d}x=a\sec t\tan t\,\mathrm{d}t$, 且 $\sqrt{x^2-a^2}=a\tan t$. 由**定理 2.2**（第二换元法则）, 
 $$
 \int\sqrt{x^2-a^2}\,\mathrm{d}x=\int a\tan t\cdot a\sec t\tan t\,\mathrm{d}t=a^2\int\tan^2t\sec t\,\mathrm{d}t.
 $$
@@ -161,7 +161,7 @@ $$
 $\blacksquare$
 ### 习题九
 
-（习题 4.2-2-7）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{x\sqrt{a^2-x^2}}$($a>0$).
+（习题 4.2-2-7）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{x\sqrt{a^2-x^2}}$($a> 0$).
 
 ### 解答 习题九
 
@@ -205,7 +205,7 @@ $$
 $\blacksquare$
 ### 习题十一
 
-（习题 4.2-2-11）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{x^2\sqrt{x^2+a^2}}$($a>0$).
+（习题 4.2-2-11）求不定积分 $\displaystyle\int\frac{\mathrm{d}x}{x^2\sqrt{x^2+a^2}}$($a> 0$).
 
 ### 解答 习题十一
 

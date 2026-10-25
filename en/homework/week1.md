@@ -2,7 +2,7 @@
 
 > **Definition** (Field) Roughly speaking, a set of numbers that is closed under addition, subtraction, multiplication and division (where the divisor is not $0$), and that satisfies the commutative, associative and distributive laws, is called a field.
 
-> **Definition** (Ordered Field) A number field on which an order relation is defined and which satisfies the following properties is called an ordered field: for any $\alpha,b$, exactly one of $\alpha=b$, $\alpha<b$, $b<\alpha$ holds; and when $a<b,b<c$ then $a<c$; when $a<b$ then $a+c<b+c$; when $0<a,b$ then $a\cdot b>0$.
+> **Definition** (Ordered Field) A number field on which an order relation is defined and which satisfies the following properties is called an ordered field: for any $\alpha,b$, exactly one of $\alpha=b$, $\alpha< b$, $b< \alpha$ holds; and when $a< b,b< c$ then $a< c$; when $a< b$ then $a+c< b+c$; when $0< a,b$ then $a\cdot b> 0$.
 
 > **Proposition 1.1** (The Field of Rational Numbers Is an Ordered Field) The field of rational numbers $\mathbb Q$ is an ordered field.
 
@@ -20,16 +20,16 @@
 
 > **Proposition 1.6** (Properties of the Absolute Value) For any $x,y\in\mathbb R$, we have:
 > (1) $\left|x\right|\ge0$, with equality if and only if $x=0$;
->
+> 
 > (2) $\left|-x\right|=\left|x\right|$;
->
+> 
 > (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
 
 > **Proposition 1.7** (Triangle Inequality) For any real numbers $a,b,c$, we have:
 > (1) $\left|a-b\right|\ge0$, with equality if and only if $a=b$;
->
+> 
 > (2) $\left|a-b\right|=\left|b-a\right|$;
->
+> 
 > (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
 ### Problem 1
@@ -80,14 +80,14 @@ where $m_2^2-2n_2^2\ne0$ (otherwise $\sqrt2=m_2/n_2\in\mathbb Q$, contradicting 
 
 (2) $E$ is not complete. In fact, $\sqrt3\notin E$: if $\sqrt3=m+n\sqrt2$, squaring gives $3=m^2+2n^2+2mn\sqrt2$. If $mn\ne0$, then $\sqrt2=\frac{3-m^2-2n^2}{2mn}\in\mathbb Q$, a contradiction; if $n=0$, then $\sqrt3=m\in\mathbb Q$, a contradiction; if $m=0$, then $\sqrt3=n\sqrt2$, and squaring gives $n^2=\frac32\notin\mathbb Q$, a contradiction. Hence $\sqrt3\notin E$.
 
-Take $x_n$ to be the $n$-digit lower (deficient) decimal approximation of $\sqrt3$. Then $x_n\in\mathbb Q\subset E$ (take $m=x_n,n=0$), and $\left\{x_n\right\}$ is monotonically increasing and bounded above (e.g. $x_n<2$), but $\left\{x_n\right\}$ approaches arbitrarily close to $\sqrt3\notin E$. Thus by **Definition** (Completeness), $E$ is not complete. $\blacksquare$
+Take $x_n$ to be the $n$-digit lower (deficient) decimal approximation of $\sqrt3$. Then $x_n\in\mathbb Q\subset E$ (take $m=x_n,n=0$), and $\left\{x_n\right\}$ is monotonically increasing and bounded above (e.g. $x_n< 2$), but $\left\{x_n\right\}$ approaches arbitrarily close to $\sqrt3\notin E$. Thus by **Definition** (Completeness), $E$ is not complete. $\blacksquare$
 
 ### Problem 3
 
 (Problem 1.1-6) Let
 
 $$
-E_1=\left\{x:\left|x-a\right|>r_1\right\},E_2=\left\{x:\left|x-b\right|<r_2\right\}.
+E_1=\left\{x:\left|x-a\right|> r_1\right\},E_2=\left\{x:\left|x-b\right|< r_2\right\}.
 $$
 
 Under what conditions on $a,b,r_1,r_2$ do we have $E_1\cap E_2\ne\varnothing$?
@@ -105,7 +105,7 @@ $$
 i.e. $r_2\le r_1-\left|a-b\right|$. Hence $E_1\cap E_2\ne\varnothing$ if and only if
 
 $$
-r_2>r_1-\left|a-b\right|.
+r_2> r_1-\left|a-b\right|.
 
 $$
 
@@ -113,29 +113,29 @@ $\blacksquare$
 ### Problem 4
 
 (Problem 1.1-7) Solve the following inequalities:
-(1) $\left|x^2-1\right|<8$;
+(1) $\left|x^2-1\right|< 8$;
 
-(2) $\left|x-1\right|<\left|x\right|$;
+(2) $\left|x-1\right|< \left|x\right|$;
 
-(3) $\left|x-1\right|<\left|x+1\right|$;
+(3) $\left|x-1\right|< \left|x+1\right|$;
 
-(4) $\left|x+2\right|<1$.
+(4) $\left|x+2\right|< 1$.
 
 ### Solution to Problem 4
 
-(1) From $\left|x^2-1\right|<8$ we get $-8<x^2-1<8$, i.e. $-7<x^2<9$. Since $x^2\ge0$ always holds, we only need $x^2<9$, and by **Proposition 1.6** we get $\left|x\right|<3$, i.e. $-3<x<3$.
+(1) From $\left|x^2-1\right|< 8$ we get $-8< x^2-1< 8$, i.e. $-7< x^2< 9$. Since $x^2\ge0$ always holds, we only need $x^2< 9$, and by **Proposition 1.6** we get $\left|x\right|< 3$, i.e. $-3< x< 3$.
 
-(2) By **Proposition 1.6** (3) and the equivalence of squaring both sides, $\left|x-1\right|<\left|x\right|$ if and only if $\left(x-1\right)^2<x^2$, i.e. $x^2-2x+1<x^2$, which solves to $x>\frac12$.
+(2) By **Proposition 1.6** (3) and the equivalence of squaring both sides, $\left|x-1\right|< \left|x\right|$ if and only if $\left(x-1\right)^2< x^2$, i.e. $x^2-2x+1< x^2$, which solves to $x> \frac12$.
 
-(3) Similarly, $\left|x-1\right|<\left|x+1\right|$ if and only if $\left(x-1\right)^2<\left(x+1\right)^2$, i.e.
+(3) Similarly, $\left|x-1\right|< \left|x+1\right|$ if and only if $\left(x-1\right)^2< \left(x+1\right)^2$, i.e.
 
 $$
-x^2-2x+1<x^2+2x+1,
+x^2-2x+1< x^2+2x+1,
 $$
 
-which solves to $x>0$.
+which solves to $x> 0$.
 
-(4) By **Proposition 1.6** (1)(3), $\left|x+2\right|<1$ means $-1<x+2<1$, which solves to $-3<x<-1$. $\blacksquare$
+(4) By **Proposition 1.6** (1)(3), $\left|x+2\right|< 1$ means $-1< x+2< 1$, which solves to $-3< x< -1$. $\blacksquare$
 
 ### Problem 5
 
@@ -197,7 +197,7 @@ $$
 
 (1) $E=\left\{e,e^2,e^3,\dots\right\}$. Since $e^n\ge e$, $E$ is bounded below (e.g. $m=e$); but $e^n$ grows without bound as $n$ increases, so $E$ is not bounded above. By **Definition** (Bounded Set), $E$ is bounded below and not bounded above, and is not a bounded set.
 
-(2) For $n\in\mathbb N$, $\frac{n^2+10^{10}}{n^2+1}=1+\frac{10^{10}-1}{n^2+1}$. Since $n^2+1\ge1$, we have $1<\frac{n^2+10^{10}}{n^2+1}\le10^{10}$, i.e. $E\subset\left(1,10^{10}\right]$. Hence $E$ is bounded above and bounded below, and by **Definition** (Bounded Set), $E$ is a bounded set.
+(2) For $n\in\mathbb N$, $\frac{n^2+10^{10}}{n^2+1}=1+\frac{10^{10}-1}{n^2+1}$. Since $n^2+1\ge1$, we have $1< \frac{n^2+10^{10}}{n^2+1}\le10^{10}$, i.e. $E\subset\left(1,10^{10}\right]$. Hence $E$ is bounded above and bounded below, and by **Definition** (Bounded Set), $E$ is a bounded set.
 
 (3) For $x\ge1$, rationalizing gives
 
@@ -205,10 +205,10 @@ $$
 \sqrt{x+1}-\sqrt{x}=\frac{1}{\sqrt{x+1}+\sqrt{x}}.
 $$
 
-Since $0<\sqrt{x+1}+\sqrt{x}$ when $x\ge1$, we have
+Since $0< \sqrt{x+1}+\sqrt{x}$ when $x\ge1$, we have
 
 $$
-0<\sqrt{x+1}-\sqrt{x}\le\sqrt2-1\ \left(x=1\text{时取最大值}\right),
+0< \sqrt{x+1}-\sqrt{x}\le\sqrt2-1\ \left(x=1\text{时取最大值}\right),
 $$
 
 Hence $E\subset\left(0,\sqrt2-1\right]$, bounded above and bounded below; $E$ is a bounded set.

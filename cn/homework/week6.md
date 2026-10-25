@@ -12,17 +12,17 @@
 
 ### 习题一
 
-（习题 1.6-2）用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l>0$, 则存在一个 $\delta>0$, 使得 $f\left(x\right)>\frac l2$, 只要 $0<\left|x-a\right|<\delta$.
+（习题 1.6-2）用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim\limits_{x\to a}f\left(x\right)=l$ 且 $l> 0$, 则存在一个 $\delta> 0$, 使得 $f\left(x\right)> \frac l2$, 只要 $0< \left|x-a\right|< \delta$.
 
 ### 解答 习题一
 
-取 $\varepsilon=\frac l2>0$. 由**定义**（函数极限）, 存在 $\delta>0$, 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-l\right|<\frac l2$. 由第一章**命题 1.7**（三角不等式）, 
+取 $\varepsilon=\frac l2> 0$. 由**定义**（函数极限）, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \frac l2$. 由第一章**命题 1.7**（三角不等式）, 
 
 $$
-f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|>l-\frac l2=\frac l2.
+f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
 $$
 
-故 $f\left(x\right)>\frac l2$. $\blacksquare$
+故 $f\left(x\right)> \frac l2$. $\blacksquare$
 
 ### 习题二
 
@@ -144,11 +144,11 @@ $$
 \left(1+\frac1x\right)^{x^2}=\left[\left(1+\frac1x\right)^x\right]^x.
 $$
 
-当 $x$ 充分大时 $\left(1+\frac1x\right)^x>2$(因趋于 $e>2$), 故 $\left(1+\frac1x\right)^{x^2}>2^x\to+\infty$. 因此极限为 $+\infty$. $\blacksquare$
+当 $x$ 充分大时 $\left(1+\frac1x\right)^x> 2$(因趋于 $e> 2$), 故 $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. 因此极限为 $+\infty$. $\blacksquare$
 
 ### 习题九
 
-（习题 1.6-9）设 $\lim\limits_{x\to+\infty}\frac{f\left(x\right)}x=0$, 且 $f\left(x\right)>0\left(x>0\right)$. 证明 $\lim\limits_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
+（习题 1.6-9）设 $\lim\limits_{x\to+\infty}\frac{f\left(x\right)}x=0$, 且 $f\left(x\right)> 0\left(x> 0\right)$. 证明 $\lim\limits_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
 
 ### 解答 习题九
 
@@ -161,7 +161,7 @@ $$
 因
 
 $$
-0<f\left(x\right)\ln\left(1+\frac1x\right)<f\left(x\right)\cdot\frac1x\to0,
+0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
 $$
 
 由**定理 6.2**（函数的夹逼定理）, 指数趋于 $0$. 由 $e^t$ 的连续性, 原极限为 $e^0=1$. $\blacksquare$

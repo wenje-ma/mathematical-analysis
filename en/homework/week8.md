@@ -8,7 +8,7 @@
 
 ### Problem 1
 
-(Problem 1.8-2) Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$. Let $x_1,x_2,x_3$ be three points in $\left(a,b\right)$ with $x_1<x_2<x_3$. Set
+(Problem 1.8-2) Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$. Let $x_1,x_2,x_3$ be three points in $\left(a,b\right)$ with $x_1< x_2< x_3$. Set
 
 $$
 \eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
@@ -22,11 +22,11 @@ $f$ is continuous on $\left[x_1,x_3\right]$. By **Theorem 8.2**, let the maximum
 
 ### Problem 2
 
-(Problem 1.8-3) Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$, and suppose $\lim\limits_{x\to+\infty}f\left(x\right)=l$ with $l>f\left(a\right)$. Prove that for any number $\eta:f\left(a\right)<\eta<l$, there must exist a point $\xi\in\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$.
+(Problem 1.8-3) Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$, and suppose $\lim\limits_{x\to+\infty}f\left(x\right)=l$ with $l> f\left(a\right)$. Prove that for any number $\eta:f\left(a\right)< \eta< l$, there must exist a point $\xi\in\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$.
 
 ### Solution to Problem 2
 
-Since $\lim\limits_{x\to+\infty}f\left(x\right)=l>\eta$, there exists $A>a$ such that $f\left(x\right)>\eta$ when $x>A$. Take $b>A$. Then $f\left(a\right)<\eta<f\left(b\right)$. Moreover $f$ is continuous on $\left[a,b\right]$, so by **Theorem 8.1** (Intermediate Value Theorem), there exists $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$. $\blacksquare$
+Since $\lim\limits_{x\to+\infty}f\left(x\right)=l> \eta$, there exists $A> a$ such that $f\left(x\right)> \eta$ when $x> A$. Take $b> A$. Then $f\left(a\right)< \eta< f\left(b\right)$. Moreover $f$ is continuous on $\left[a,b\right]$, so by **Theorem 8.1** (Intermediate Value Theorem), there exists $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$. $\blacksquare$
 
 ### Problem 3
 
@@ -34,14 +34,14 @@ Since $\lim\limits_{x\to+\infty}f\left(x\right)=l>\eta$, there exists $A>a$ such
 
 ### Solution to Problem 3
 
-Let $\lim\limits_{x\to+\infty}f\left(x\right)=l$. There exists $A>a$ such that $\left|f\left(x\right)-l\right|<1$ when $x>A$, i.e. $\left|f\left(x\right)\right|<\left|l\right|+1$. On $\left[a,A\right]$, by **Theorem 8.2** (Boundedness Theorem), $f$ is bounded; let $\left|f\left(x\right)\right|\le M$. Take $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$. Then for all $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde M$. $\blacksquare$
+Let $\lim\limits_{x\to+\infty}f\left(x\right)=l$. There exists $A> a$ such that $\left|f\left(x\right)-l\right|< 1$ when $x> A$, i.e. $\left|f\left(x\right)\right|< \left|l\right|+1$. On $\left[a,A\right]$, by **Theorem 8.2** (Boundedness Theorem), $f$ is bounded; let $\left|f\left(x\right)\right|\le M$. Take $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$. Then for all $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde M$. $\blacksquare$
 
 ### Problem 4
 
 (Problem 1.8-5) Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$. Suppose
 
 $$
-x_1,x_2\in\left(a,b\right),x_1<x_2,m_1>0,m_2>0.
+x_1,x_2\in\left(a,b\right),x_1< x_2,m_1> 0,m_2> 0.
 $$
 
 Prove that there exists a point $\xi\in\left(a,b\right)$ such that
@@ -94,7 +94,7 @@ $$
 b_n-a_n=\frac{b-a}{2^n}\to0.
 $$
 
-By the **Nested Interval Principle**, there exists a unique $c\in\bigcap\left[a_n,b_n\right]$. For any $\delta>0$, when $n$ is sufficiently large, $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, and since $\left[a_n,b_n\right]$ contains infinitely many points of $E$, there must be points of $E$ in $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$. $\blacksquare$
+By the **Nested Interval Principle**, there exists a unique $c\in\bigcap\left[a_n,b_n\right]$. For any $\delta> 0$, when $n$ is sufficiently large, $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, and since $\left[a_n,b_n\right]$ contains infinitely many points of $E$, there must be points of $E$ in $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$. $\blacksquare$
 
 ### Problem 8
 
@@ -104,7 +104,7 @@ By the **Nested Interval Principle**, there exists a unique $c\in\bigcap\left[a_
 
 Suppose $E\subset\left[a,b\right]$, where $b$ is an upper bound of $E$. Divide $\left[a,b\right]$ into two closed intervals. If the right half contains an upper bound of $E$, take the right half; otherwise take the left half (in which case the right endpoint of the left half becomes the new upper bound). Continuing in this way gives a nested sequence $\left\{\left[a_n,b_n\right]\right\}$, where each $b_n$ is an upper bound of $E$ and each $a_n$ is not an upper bound of $E$.
 
-By the **Nested Interval Principle**, there exists a unique $M_0\in\bigcap\left[a_n,b_n\right]$. Since $b_n\to M_0$ and each $b_n$ is an upper bound, for any $x\in E$ one has $x\le b_n$; letting $n\to\infty$ gives $x\le M_0$, i.e. $M_0$ is an upper bound. Moreover, if $M$ is any upper bound, then $M\ge b_n$ (otherwise, if $M<b_n$, it is not inconsistent with $b_n$ being an upper bound...); in fact $M\ge a_n$ for all $n$, so $M\ge M_0$. $\blacksquare$
+By the **Nested Interval Principle**, there exists a unique $M_0\in\bigcap\left[a_n,b_n\right]$. Since $b_n\to M_0$ and each $b_n$ is an upper bound, for any $x\in E$ one has $x\le b_n$; letting $n\to\infty$ gives $x\le M_0$, i.e. $M_0$ is an upper bound. Moreover, if $M$ is any upper bound, then $M\ge b_n$ (otherwise, if $M< b_n$, it is not inconsistent with $b_n$ being an upper bound...); in fact $M\ge a_n$ for all $n$, so $M\ge M_0$. $\blacksquare$
 
 ### Problem 9
 
@@ -112,10 +112,10 @@ By the **Nested Interval Principle**, there exists a unique $M_0\in\bigcap\left[
 
 ### Solution to Problem 9
 
-Let $\left|g\left(x\right)\right|\le M$. Given any $\varepsilon>0$, since $f\left(x\right)\to0$, there exists $\delta>0$ such that $\left|f\left(x\right)\right|<\varepsilon/M$ when $0<\left|x-a\right|<\delta$. Hence
+Let $\left|g\left(x\right)\right|\le M$. Given any $\varepsilon> 0$, since $f\left(x\right)\to0$, there exists $\delta> 0$ such that $\left|f\left(x\right)\right|< \varepsilon/M$ when $0< \left|x-a\right|< \delta$. Hence
 
 $$
-\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|<\varepsilon.
+\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|< \varepsilon.
 $$
 
 Hence $\lim f\left(x\right)g\left(x\right)=0$. $\blacksquare$

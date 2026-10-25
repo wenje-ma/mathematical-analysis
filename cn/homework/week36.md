@@ -126,7 +126,7 @@ $$
 \displaystyle\oint_{L^+}\left(y^2+z^2-x^2\right)\,\mathrm{d}x+\left(x^2+z^2-y^2\right)\,\mathrm{d}y+\left(x^2+y^2-z^2\right)\,\mathrm{d}z,
 $$
 
-其中 $L$ 为球面 $z=\sqrt{2Rx-x^2-y^2}$ 与柱面 $x^2+y^2=2rx$ ($0<r<R$, $z\ge0$) 的交线, $L^+$ 与球面上侧成右手系.
+其中 $L$ 为球面 $z=\sqrt{2Rx-x^2-y^2}$ 与柱面 $x^2+y^2=2rx$ ($0< r< R$, $z\ge0$) 的交线, $L^+$ 与球面上侧成右手系.
 
 ### 解答 习题五
 

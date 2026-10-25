@@ -76,7 +76,7 @@ $\blacksquare$
 （习题 13.2-1-5）设 $y=f\left(x\right)$ 是以 $2\pi$ 为周期的函数, 在 $\left[-\pi,\pi\right]$ 中
 
 $$
-f\left(x\right)=\begin{cases}0,&-\pi\le x<0;\x,&0\le x\le\pi.\end{cases}
+f\left(x\right)=\begin{cases}0,&-\pi\le x< 0;\x,&0\le x\le\pi.\end{cases}
 $$
 
 试求出 $f\left(x\right)$ 的傅里叶级数.

@@ -183,7 +183,7 @@ $$
 $\blacksquare$
 ### Problem 6
 
-(Problem 9.2-6) Let $A>0,B>0$ be constants. Let $L_r$ be the ellipse $A^2x^2+B^2y^2=r^2$ ($r>0$). Prove that $\displaystyle\oint_{L_r^+}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$, where $L_r^+$ means the integral is taken along $L_r$ in the counterclockwise direction.
+(Problem 9.2-6) Let $A> 0,B> 0$ be constants. Let $L_r$ be the ellipse $A^2x^2+B^2y^2=r^2$ ($r> 0$). Prove that $\displaystyle\oint_{L_r^+}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$, where $L_r^+$ means the integral is taken along $L_r$ in the counterclockwise direction.
 
 ### Solution to Problem 6
 
@@ -213,7 +213,7 @@ $$
 \frac{\partial Q}{\partial x}=\frac{A^2y^2-B^2x^2}{\left(A^2x^2+B^2y^2\right)^2}=\frac{\partial P}{\partial y}.
 $$
 
-Take a sufficiently small $r>0$ so that the ellipse $L_r$ lies entirely in the interior of $\Gamma$. Applying **Theorem 2.3** (Green's Formula on Multiply Connected Regions) to the multiply connected region between $\Gamma$ and $L_r$, take the outer boundary $\Gamma$ in the positive direction and the inner boundary $L_r$ in the clockwise direction. Since in this region $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=0$, we get
+Take a sufficiently small $r> 0$ so that the ellipse $L_r$ lies entirely in the interior of $\Gamma$. Applying **Theorem 2.3** (Green's Formula on Multiply Connected Regions) to the multiply connected region between $\Gamma$ and $L_r$, take the outer boundary $\Gamma$ in the positive direction and the inner boundary $L_r$ in the clockwise direction. Since in this region $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=0$, we get
 
 $$
 \oint_{\Gamma^+}P\,\mathrm{d}x+Q\,\mathrm{d}y-\oint_{L_r^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=0,

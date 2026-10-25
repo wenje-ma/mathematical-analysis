@@ -22,7 +22,7 @@
 $$
 f\left(x\right)=\begin{cases}0,&x\in\left(-\pi,0\right];\1,&x\in\left(0,\pi\right].\end{cases}
 $$
-Prove that when $0<x<\pi$,
+Prove that when $0< x< \pi$,
 
 $$
 \displaystyle1=\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1},
@@ -44,7 +44,7 @@ $$
 f\left(x\right)\sim\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1}.
 $$
 
-When $0<x<\pi$, $f$ is continuous and $f\left(x\right)=1$. By **Theorem 3.1** (Dirichlet's Convergence Theorem),
+When $0< x< \pi$, $f$ is continuous and $f\left(x\right)=1$. By **Theorem 3.1** (Dirichlet's Convergence Theorem),
 
 $$
 1=\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1}.

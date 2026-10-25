@@ -115,7 +115,7 @@ $$
 $\blacksquare$
 ### 习题九
 
-（习题 2.2-5）飞轮半径为 $r$, 以固定角速度 $\omega$ 旋转, 连杆长为 $a\left(a>r\right)$. 设 $x=x\left(t\right)$ 为时刻 $t$ 飞轮中心至活塞端点的距离, $x\left(0\right)=a+r$. 试给出 $x\left(t\right)$ 的表达式, 并求出 $x'\left(t\right)$ 及 $x'\left(0\right)$.
+（习题 2.2-5）飞轮半径为 $r$, 以固定角速度 $\omega$ 旋转, 连杆长为 $a\left(a> r\right)$. 设 $x=x\left(t\right)$ 为时刻 $t$ 飞轮中心至活塞端点的距离, $x\left(0\right)=a+r$. 试给出 $x\left(t\right)$ 的表达式, 并求出 $x'\left(t\right)$ 及 $x'\left(0\right)$.
 
 ### 解答 习题九
 

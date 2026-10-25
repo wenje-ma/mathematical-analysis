@@ -22,7 +22,7 @@
 
 ### Problem 1
 
-(Problem 12.4-1-1) Discuss the uniform convergence of the parameter-dependent improper integral $\displaystyle\int_0^{+\infty}e^{-\alpha x^2}\,\mathrm{d}x$ on $\alpha\in\left[\alpha_0,+\infty\right)$ ($\alpha_0>0$).
+(Problem 12.4-1-1) Discuss the uniform convergence of the parameter-dependent improper integral $\displaystyle\int_0^{+\infty}e^{-\alpha x^2}\,\mathrm{d}x$ on $\alpha\in\left[\alpha_0,+\infty\right)$ ($\alpha_0> 0$).
 
 ### Solution to Problem 1
 
@@ -34,11 +34,11 @@ For any $x\ge0$ and $\alpha\ge\alpha_0$, we have $e^{-\alpha x^2}\le e^{-\alpha_
 
 ### Solution to Problem 2
 
-Write the integrand as $\frac{\cos x}{x}\cdot e^{-xy}$. First, $\int_1^{+\infty}\frac{\cos x}{x}\,\mathrm{d}x$ converges (by **Theorem 1.6** of Chapter 12, Dirichlet's Test), and it does not involve the parameter $y$, so it converges uniformly in $y\in\left[0,+\infty\right)$. Second, $e^{-xy}$ is monotonically decreasing in $x$, and $0<e^{-xy}\le1$ is uniformly bounded in $y\in\left[0,+\infty\right)$. By **Theorem 4.4** (Abel's Test), $\int_1^{+\infty}e^{-xy}\frac{\cos x}{x}\,\mathrm{d}x$ converges uniformly on $\left[0,+\infty\right)$. $\blacksquare$
+Write the integrand as $\frac{\cos x}{x}\cdot e^{-xy}$. First, $\int_1^{+\infty}\frac{\cos x}{x}\,\mathrm{d}x$ converges (by **Theorem 1.6** of Chapter 12, Dirichlet's Test), and it does not involve the parameter $y$, so it converges uniformly in $y\in\left[0,+\infty\right)$. Second, $e^{-xy}$ is monotonically decreasing in $x$, and $0< e^{-xy}\le1$ is uniformly bounded in $y\in\left[0,+\infty\right)$. By **Theorem 4.4** (Abel's Test), $\int_1^{+\infty}e^{-xy}\frac{\cos x}{x}\,\mathrm{d}x$ converges uniformly on $\left[0,+\infty\right)$. $\blacksquare$
 
 ### Problem 3
 
-(Problem 12.4-1-5) Discuss the uniform convergence of the parameter-dependent improper integral $\displaystyle\int_0^{+\infty}e^{-x^2y^2}\cos x\,\mathrm{d}x$ on $y\in\left[y_0,+\infty\right)$ ($y_0>0$).
+(Problem 12.4-1-5) Discuss the uniform convergence of the parameter-dependent improper integral $\displaystyle\int_0^{+\infty}e^{-x^2y^2}\cos x\,\mathrm{d}x$ on $y\in\left[y_0,+\infty\right)$ ($y_0> 0$).
 
 ### Solution to Problem 3
 
@@ -52,7 +52,7 @@ And $\int_0^{+\infty}e^{-x^2y_0^2}\,\mathrm{d}x=\frac{1}{2y_0}\sqrt\pi$ converge
 
 ### Problem 4
 
-(Problem 12.4-2-1) Find the value of the integral $\displaystyle\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}{x}\,\mathrm{d}x$ ($0<a<b$).
+(Problem 12.4-2-1) Find the value of the integral $\displaystyle\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}{x}\,\mathrm{d}x$ ($0< a< b$).
 
 ### Solution to Problem 4
 
@@ -75,7 +75,7 @@ $\blacksquare$
 (Problem 12.4-2-2) Find the value of the integral
 
 $$
-\displaystyle\int_0^{+\infty}\frac{\sin\left(\alpha x\right)\cos\left(\beta x\right)}{x}\,\mathrm{d}x\ \left(\alpha>0,\beta>0\right)
+\displaystyle\int_0^{+\infty}\frac{\sin\left(\alpha x\right)\cos\left(\beta x\right)}{x}\,\mathrm{d}x\ \left(\alpha> 0,\beta> 0\right)
 $$
 
 .
@@ -100,14 +100,14 @@ $$
 \int_0^{+\infty}\frac{\sin\left(kx\right)}{x}\,\mathrm{d}x=\frac{\pi}{2}\operatorname{sgn}\left(k\right).
 $$
 
-Since $\alpha+\beta>0$, the first term is $\frac12\cdot\frac{\pi}{2}=\frac{\pi}{4}$. The second term depends on the sign of $\alpha-\beta$:
+Since $\alpha+\beta> 0$, the first term is $\frac12\cdot\frac{\pi}{2}=\frac{\pi}{4}$. The second term depends on the sign of $\alpha-\beta$:
 
 $$
 I=
 \begin{cases}
-\frac12\cdot\frac{\pi}{4}+\frac12\cdot\left(-\frac{\pi}{4}\right)=0,&\alpha<\beta,\\[4pt\right]
+\frac12\cdot\frac{\pi}{4}+\frac12\cdot\left(-\frac{\pi}{4}\right)=0,&\alpha< \beta,\\[4pt\right]
 \frac{\pi}{4}+0=\frac{\pi}{4},&\alpha=\beta,\\[4pt\right]
-\frac{\pi}{4}+\frac12\cdot\frac{\pi}{2}=\frac{\pi}{2},&\alpha>\beta.
+\frac{\pi}{4}+\frac12\cdot\frac{\pi}{2}=\frac{\pi}{2},&\alpha> \beta.
 \end{cases}
 
 $$
@@ -165,7 +165,7 @@ $$
 
 Since $u_n\ge0$, we have $R_N\left(x\right)\ge0$, and $R_N\left(x\right)$ is monotonically decreasing in $N$; moreover, $R_N\left(x\right)$ is the difference of two continuous functions, so it is continuous on $\left[a,b\right]$. By pointwise convergence, $R_N\left(x\right)\to0\left(N\to\infty\right)$ for each $x$.
 
-By contradiction. Suppose $\sum u_n$ does not converge uniformly on $\left[a,b\right]$. Then there exist $\varepsilon_0>0$, a sequence $N_k\to\infty$, and points $x_k\in\left[a,b\right]$ such that $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. By the Bolzano–Weierstrass theorem, $\left\{x_k\right\}$ has a subsequence converging to some $x_0\in\left[a,b\right]$; relabeling, still write $x_k\to x_0$.
+By contradiction. Suppose $\sum u_n$ does not converge uniformly on $\left[a,b\right]$. Then there exist $\varepsilon_0> 0$, a sequence $N_k\to\infty$, and points $x_k\in\left[a,b\right]$ such that $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. By the Bolzano–Weierstrass theorem, $\left\{x_k\right\}$ has a subsequence converging to some $x_0\in\left[a,b\right]$; relabeling, still write $x_k\to x_0$.
 
 For any fixed $m$, whenever $N_k\ge m$, since $R_N\left(x\right)$ is monotonically decreasing in $N$, we have $R_{N_k}\left(x_k\right)\le R_m\left(x_k\right)$. Letting $k\to\infty$, by the continuity of $R_m\left(x\right)$,
 

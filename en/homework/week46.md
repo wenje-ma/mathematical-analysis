@@ -2,17 +2,17 @@
 
 > **Definition** (Convergence of an Improper Integral) Let the function $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. If the limit $\lim_{A\to+\infty}\int_a^A f\left(x\right)\,\mathrm{d}x$ exists, then the improper integral $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ is said to converge, and this limit is defined to be the value of the improper integral; otherwise it is said to diverge.
 
-> **Example 1.2** (The $p$-Integral) The improper integral $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ converges when $p>1$ and diverges when $p\le 1$.
+> **Example 1.2** (The $p$-Integral) The improper integral $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ converges when $p> 1$ and diverges when $p\le 1$.
 
-> **Theorem 1.1** (Cauchy Convergence Principle for Improper Integrals) Let $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Then $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ converges if and only if: for every given $\varepsilon>0$, there exists $X>0$ such that $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\varepsilon$, whenever $A'>X,A''>X$.
+> **Theorem 1.1** (Cauchy Convergence Principle for Improper Integrals) Let $f\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Then $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ converges if and only if: for every given $\varepsilon> 0$, there exists $X> 0$ such that $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \varepsilon$, whenever $A'> X,A''> X$.
 
-> **Theorem 1.3** (Comparison Test) Let $f\left(x\right)$ and $g\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Suppose further that there exists $X_0>a$ such that
+> **Theorem 1.3** (Comparison Test) Let $f\left(x\right)$ and $g\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every closed interval $\left[a,A\right]$. Suppose further that there exists $X_0> a$ such that
 > $$
 > 0\le f\left(x\right)\le g\left(x\right)\left(\forall x\ge X_0\right).
 > $$
 > Then if $\int_a^{+\infty}g\left(x\right)\,\mathrm{d}x$ converges, necessarily $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ converges; and if $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ diverges, necessarily $\int_a^{+\infty}g\left(x\right)\,\mathrm{d}x$ diverges.
 
-> **Theorem 1.6** (Dirichlet's Test) Let $f\left(x\right)$ and $g\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every interval $\left[a,A\right]$. If $f\left(x\right)$ is monotone on $\left[a,+\infty\right)$ and $\lim_{x\to+\infty}f\left(x\right)=0$; and if for every $A>a$, the integral $\int_a^A g\left(x\right)\,\mathrm{d}x$ is bounded, then the improper integral $\int_a^{+\infty}f\left(x\right)g\left(x\right)\,\mathrm{d}x$ converges.
+> **Theorem 1.6** (Dirichlet's Test) Let $f\left(x\right)$ and $g\left(x\right)$ be defined on $\left[a,+\infty\right)$ and integrable on every interval $\left[a,A\right]$. If $f\left(x\right)$ is monotone on $\left[a,+\infty\right)$ and $\lim_{x\to+\infty}f\left(x\right)=0$; and if for every $A> a$, the integral $\int_a^A g\left(x\right)\,\mathrm{d}x$ is bounded, then the improper integral $\int_a^{+\infty}f\left(x\right)g\left(x\right)\,\mathrm{d}x$ converges.
 
 > **Definition** (Absolute and Conditional Convergence) If $\int_a^{+\infty}\left| f\left(x\right)\right|\,\mathrm{d}x$ converges, then the improper integral $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ is said to converge absolutely; if $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ converges but $\int_a^{+\infty}\left| f\left(x\right)\right|\,\mathrm{d}x$ diverges, then it is said to converge conditionally.
 
@@ -22,7 +22,7 @@
 
 ### Solution to Problem 1
 
-For any $A>1$, integrating by parts (taking $u=\ln x,\mathrm{d}v=\frac{\mathrm{d}x}{x^2}$) gives
+For any $A> 1$, integrating by parts (taking $u=\ln x,\mathrm{d}v=\frac{\mathrm{d}x}{x^2}$) gives
 
 $$
 \int_1^A \frac{\ln x}{x^2}\,\mathrm{d}x=\left[-\frac{\ln x}{x}\right]_1^A+\int_1^A\frac{\mathrm{d}x}{x^2}=-\frac{\ln A}{A}+1-\frac1A.
@@ -32,17 +32,17 @@ Since $\lim_{A\to+\infty}\frac{\ln A}{A}=0$ and $\frac1A\to0$, the right side te
 
 ### Problem 2
 
-(Problem 12.1-1-2) Determine whether the improper integral $\displaystyle\int_1^{+\infty} e^{-ax}\,\mathrm{d}x$ ($a>0$) converges; if it converges, find its value.
+(Problem 12.1-1-2) Determine whether the improper integral $\displaystyle\int_1^{+\infty} e^{-ax}\,\mathrm{d}x$ ($a> 0$) converges; if it converges, find its value.
 
 ### Solution to Problem 2
 
-For any $A>1$,
+For any $A> 1$,
 
 $$
 \int_1^A e^{-ax}\,\mathrm{d}x=\left[-\frac{e^{-ax}}{a}\right]_1^A=\frac{e^{-a}-e^{-aA}}{a}.
 $$
 
-Since $a>0$, we have $e^{-aA}\to0\left(A\to+\infty\right)$, and the right side tends to $\frac{e^{-a}}{a}$. Hence by **Definition** (Convergence of an Improper Integral), this improper integral converges, and its value is $\frac{e^{-a}}{a}$. $\blacksquare$
+Since $a> 0$, we have $e^{-aA}\to0\left(A\to+\infty\right)$, and the right side tends to $\frac{e^{-a}}{a}$. Hence by **Definition** (Convergence of an Improper Integral), this improper integral converges, and its value is $\frac{e^{-a}}{a}$. $\blacksquare$
 
 ### Problem 3
 
@@ -50,7 +50,7 @@ Since $a>0$, we have $e^{-aA}\to0\left(A\to+\infty\right)$, and the right side t
 
 ### Solution to Problem 3
 
-For any $A>0$,
+For any $A> 0$,
 
 $$
 \int_0^A\frac{\mathrm{d}x}{1+x^2}=\left[\arctan x\right]_0^A=\arctan A.
@@ -64,7 +64,7 @@ As $A\to+\infty$, $\arctan A\to\frac{\pi}{2}$. Hence by **Definition** (Converge
 
 ### Solution to Problem 4
 
-For any $A>0$, integrating by parts (taking $u=x,\mathrm{d}v=e^{-x}\,\mathrm{d}x$) gives
+For any $A> 0$, integrating by parts (taking $u=x,\mathrm{d}v=e^{-x}\,\mathrm{d}x$) gives
 
 $$
 \int_0^A x e^{-x}\,\mathrm{d}x=\left[-x e^{-x}\right]_0^A+\int_0^A e^{-x}\,\mathrm{d}x=-A e^{-A}+1-e^{-A}.
@@ -80,9 +80,9 @@ As $A\to+\infty$, $A e^{-A}\to0$ and $e^{-A}\to0$, so the right side tends to $1
 
 Consider three cases.
 
-(1) $p>1$. Since $\left|\frac{\sin x}{x^p}\right|\le\frac1{x^p}$, and by **Example 1.2** (The $p$-Integral), $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ converges. By **Theorem 1.3** (Comparison Test), $\int_1^{+\infty}\left|\frac{\sin x}{x^p}\right|\,\mathrm{d}x$ converges, so the original improper integral converges absolutely.
+(1) $p> 1$. Since $\left|\frac{\sin x}{x^p}\right|\le\frac1{x^p}$, and by **Example 1.2** (The $p$-Integral), $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ converges. By **Theorem 1.3** (Comparison Test), $\int_1^{+\infty}\left|\frac{\sin x}{x^p}\right|\,\mathrm{d}x$ converges, so the original improper integral converges absolutely.
 
-(2) $0<p\le1$. First, $f\left(x\right)=\frac1{x^p}$ is monotonically decreasing on $\left[1,+\infty\right)$ and tends to $0$; and for any $A>1$,
+(2) $0< p\le1$. First, $f\left(x\right)=\frac1{x^p}$ is monotonically decreasing on $\left[1,+\infty\right)$ and tends to $0$; and for any $A> 1$,
 
 $$
 \left|\int_1^A\sin x\,\mathrm{d}x\right|=\left|\cos1-\cos A\right|\le2
@@ -101,7 +101,7 @@ By **Example 1.2** (The $p$-Integral), $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$
 (3) $p\le0$. Then $x^{-p}\ge1\left(x\ge1\right)$. Take $A'_n=2n\pi-\frac{\pi}{4}$, $A''_n=2n\pi+\frac{\pi}{4}$. Then on $\left[A'_n,A''_n\right]$, $\sin x\ge\frac{\sqrt2}{2}$, and hence
 
 $$
-\biggl\left|\int_{A'_n}^{A''_n}\frac{\sin x}{x^p}\,\mathrm{d}x\biggr\right|\ge\frac{\sqrt2}{2}\cdot\frac{\pi}{2}=\frac{\sqrt2\pi}{4}>0,
+\biggl\left|\int_{A'_n}^{A''_n}\frac{\sin x}{x^p}\,\mathrm{d}x\biggr\right|\ge\frac{\sqrt2}{2}\cdot\frac{\pi}{2}=\frac{\sqrt2\pi}{4}> 0,
 $$
 
 and this lower bound is a positive constant independent of $n$, which does not tend to $0$ as $A'_n,A''_n\to+\infty$. By **Theorem 1.1** (Cauchy Convergence Principle), the original improper integral diverges. $\blacksquare$
@@ -112,10 +112,10 @@ and this lower bound is a positive constant independent of $n$, which does not t
 
 ### Solution to Problem 6
 
-Let $f\left(x\right)=\frac{\sqrt x}{x+3}$. When $x>3$,
+Let $f\left(x\right)=\frac{\sqrt x}{x+3}$. When $x> 3$,
 
 $$
-f'\left(x\right)=\frac{\left(x+3\right)-2x}{2\sqrt x\,\left(x+3\right)^2}=\frac{3-x}{2\sqrt x\,\left(x+3\right)^2}<0,
+f'\left(x\right)=\frac{\left(x+3\right)-2x}{2\sqrt x\,\left(x+3\right)^2}=\frac{3-x}{2\sqrt x\,\left(x+3\right)^2}< 0,
 $$
 
 so $f\left(x\right)$ is monotonically decreasing on $\left[3,+\infty\right)$; moreover,
@@ -123,7 +123,7 @@ so $f\left(x\right)$ is monotonically decreasing on $\left[3,+\infty\right)$; mo
 $$
 f\left(x\right)\sim\frac1{\sqrt x}\to0\left(x\to+\infty\right).
 $$
-And for any $A>1$,
+And for any $A> 1$,
 
 $$
 \left|\int_1^A\cos x\,\mathrm{d}x\right|=\left|\sin A-\sin1\right|\le2
@@ -284,16 +284,16 @@ $$
 F\left(N+1\right)\to L\left(N\to+\infty\right).
 $$
 
-Now prove that $F\left(A\right)\to L$ for arbitrary $A\to+\infty$. For any $A\ge1$, take $N=\left[A\right]$, so that $N\le A<N+1$. Then
+Now prove that $F\left(A\right)\to L$ for arbitrary $A\to+\infty$. For any $A\ge1$, take $N=\left[A\right]$, so that $N\le A< N+1$. Then
 
 $$
 F\left(A\right)-L=\left(F\left(N+1\right)-L\right)+\left(F\left(A\right)-F\left(N+1\right)\right)=\left(F\left(N+1\right)-L\right)-\int_A^{N+1}f\left(x\right)\,\mathrm{d}x.
 $$
 
-Since $f\left(x\right)\to0\left(x\to+\infty\right)$, for any $\varepsilon>0$ there exists $X>0$ such that $\left| f\left(x\right)\right|<\varepsilon$ whenever $x>X$. When $N$ is sufficiently large, $\left[A,N+1\right]\subset\left[X,+\infty\right)$, so
+Since $f\left(x\right)\to0\left(x\to+\infty\right)$, for any $\varepsilon> 0$ there exists $X> 0$ such that $\left| f\left(x\right)\right|< \varepsilon$ whenever $x> X$. When $N$ is sufficiently large, $\left[A,N+1\right]\subset\left[X,+\infty\right)$, so
 
 $$
-\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x<\varepsilon\,\left(N+1-A\right)\le\varepsilon.
+\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x< \varepsilon\,\left(N+1-A\right)\le\varepsilon.
 $$
 
 At the same time, $F\left(N+1\right)-L\to0$. Therefore $F\left(A\right)-L\to0$, i.e. $F\left(A\right)\to L$. By **Definition** (Convergence of an Improper Integral), $\int_1^{+\infty}f\left(x\right)\,\mathrm{d}x$ converges. $\blacksquare$

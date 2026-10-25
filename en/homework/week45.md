@@ -9,12 +9,12 @@
 > a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!},
 > $$
 > i.e. the power series expansion is unique, and is called the Taylor series of $f$ at $x_0$.
->
-> **Definition** (Basic Expansions) At $x=0$ we have: $e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$ ($\left|x\right|<+\infty$);
+> 
+> **Definition** (Basic Expansions) At $x=0$ we have: $e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$ ($\left|x\right|< +\infty$);
 > $$
-> \ln\left(1+x\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|<1\right);
+> \ln\left(1+x\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right);
 > $$
-> $\cos x=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}$ ($\left|x\right|<+\infty$).
+> $\cos x=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}$ ($\left|x\right|< +\infty$).
 
 ### Problem 1
 
@@ -25,7 +25,7 @@
 By **Definition** (Basic Expansions), $e^t=\sum_{n=0}^{\infty}\frac{t^n}{n!}$. Let $t=x-3$. Then
 
 $$
-e^x=e^3\cdot e^{x-3}=e^3\sum_{n=0}^{\infty}\frac{\left(x-3\right)^n}{n!}=\sum_{n=0}^{\infty}\frac{e^3}{n!}\left(x-3\right)^n, \left|x-3\right|<+\infty.
+e^x=e^3\cdot e^{x-3}=e^3\sum_{n=0}^{\infty}\frac{\left(x-3\right)^n}{n!}=\sum_{n=0}^{\infty}\frac{e^3}{n!}\left(x-3\right)^n, \left|x-3\right|< +\infty.
 $$
 
 By **Theorem 4.1** (Taylor Series), this is the Taylor expansion of $e^x$ at $x_0=3$. $\blacksquare$
@@ -45,7 +45,7 @@ $$
 By **Definition** (Basic Expansions),
 
 $$
-\ln\left(1+t\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}t^n}{n}, \left|t\right|<1.
+\ln\left(1+t\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}t^n}{n}, \left|t\right|< 1.
 $$
 
 Let $t=\frac{x-2}{2}$. We get
@@ -54,7 +54,7 @@ $$
 \ln x=\ln 2+\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}}{n}\left(\frac{x-2}{2}\right)^n=\ln 2+\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}}{n\cdot 2^n}\left(x-2\right)^n,
 $$
 
-with the convergence range $\left|\frac{x-2}{2}\right|<1$, i.e. $0<x<4$. $\blacksquare$
+with the convergence range $\left|\frac{x-2}{2}\right|< 1$, i.e. $0< x< 4$. $\blacksquare$
 
 ### Problem 3
 
@@ -65,7 +65,7 @@ with the convergence range $\left|\frac{x-2}{2}\right|<1$, i.e. $0<x<4$. $\black
 Using the half-angle formula $\cos^2x=\frac{1+\cos 2x}{2}$. By **Definition** (Basic Expansions),
 
 $$
-\cos t=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n t^{2n}}{\left(2n\right)!}, \left|t\right|<+\infty.
+\cos t=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n t^{2n}}{\left(2n\right)!}, \left|t\right|< +\infty.
 $$
 
 Let $t=2x$. We get
@@ -75,7 +75,7 @@ $$
 =\frac12+\sum_{n=0}^{\infty}\frac{\left(-1\right)^n 2^{2n-1}}{\left(2n\right)!}x^{2n},
 $$
 
-with the convergence range $\left|x\right|<+\infty$. $\blacksquare$
+with the convergence range $\left|x\right|< +\infty$. $\blacksquare$
 
 ### Problem 4
 

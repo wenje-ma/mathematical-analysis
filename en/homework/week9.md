@@ -115,7 +115,7 @@ $$
 $\blacksquare$
 ### Problem 9
 
-(Problem 2.2-5) A flywheel of radius $r$ rotates with constant angular velocity $\omega$, and the connecting rod has length $a\left(a>r\right)$. Let $x=x\left(t\right)$ be the distance from the center of the flywheel to the piston endpoint at time $t$, with $x\left(0\right)=a+r$. Give an expression for $x\left(t\right)$, and find $x'\left(t\right)$ and $x'\left(0\right)$.
+(Problem 2.2-5) A flywheel of radius $r$ rotates with constant angular velocity $\omega$, and the connecting rod has length $a\left(a> r\right)$. Let $x=x\left(t\right)$ be the distance from the center of the flywheel to the piston endpoint at time $t$, with $x\left(0\right)=a+r$. Give an expression for $x\left(t\right)$, and find $x'\left(t\right)$ and $x'\left(0\right)$.
 
 ### Solution to Problem 9
 

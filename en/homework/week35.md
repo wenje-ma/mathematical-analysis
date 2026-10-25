@@ -236,7 +236,7 @@ $$
 I=\displaystyle\iint_S\left(y-z\right)\,\mathrm{d}y\mathrm{d}z+\left(z-x\right)\,\mathrm{d}z\mathrm{d}x+\left(x-y\right)\,\mathrm{d}x\mathrm{d}y,
 $$
 
-where $S$ is the upper side of the portion of the upper hemisphere $x^2+y^2+z^2=2Rx$ ($z\ge0$) cut out by the cylinder $x^2+y^2=2rx$ ($0<r<R$).
+where $S$ is the upper side of the portion of the upper hemisphere $x^2+y^2+z^2=2Rx$ ($z\ge0$) cut out by the cylinder $x^2+y^2=2rx$ ($0< r< R$).
 
 ### Solution to Problem 7
 
@@ -276,7 +276,7 @@ $$
 I=\displaystyle\iint_S x\,\mathrm{d}y\mathrm{d}z+y\,\mathrm{d}z\mathrm{d}x+z\,\mathrm{d}x\mathrm{d}y,
 $$
 
-where $S$ is the outer side of the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ ($a>0,b>0,c>0$).
+where $S$ is the outer side of the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1$ ($a> 0,b> 0,c> 0$).
 
 ### Solution to Problem 8
 

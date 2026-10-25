@@ -23,10 +23,10 @@ $$
 
 ### 解答 习题一
 
-由**定理 4.1**（贝塞尔不等式）, $\displaystyle\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)<\infty$. 又 $\displaystyle\sum_{n=1}^\infty\frac1{n^2}<\infty$. 由柯西-施瓦茨不等式, 
+由**定理 4.1**（贝塞尔不等式）, $\displaystyle\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)< \infty$. 又 $\displaystyle\sum_{n=1}^\infty\frac1{n^2}< \infty$. 由柯西-施瓦茨不等式, 
 
 $$
-\sum_{n=1}^\infty\left|\frac{a_n}{n}\right|\le\left(\sum_{n=1}^\infty a_n^2\right)^{1/2}\left(\sum_{n=1}^\infty\frac1{n^2}\right)^{1/2}<\infty,
+\sum_{n=1}^\infty\left|\frac{a_n}{n}\right|\le\left(\sum_{n=1}^\infty a_n^2\right)^{1/2}\left(\sum_{n=1}^\infty\frac1{n^2}\right)^{1/2}< \infty,
 $$
 
 故 $\sum\frac{a_n}{n}$ 绝对收敛. 同理 $\sum\frac{b_n}{n}$ 绝对收敛. $\blacksquare$

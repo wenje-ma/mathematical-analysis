@@ -30,7 +30,7 @@ $$
 $\blacksquare$
 ### 习题二
 
-（习题 12.3-2-6）求函数 $\displaystyle I\left(y\right)=\int_0^{x/y}y\sin\left(xy\right)\,\mathrm{d}x$($y>0$, $x$ 为固定常数)的导数.
+（习题 12.3-2-6）求函数 $\displaystyle I\left(y\right)=\int_0^{x/y}y\sin\left(xy\right)\,\mathrm{d}x$($y> 0$, $x$ 为固定常数)的导数.
 
 ### 解答 习题二
 
@@ -97,7 +97,7 @@ $\blacksquare$
 （习题 12.3-2-8）求函数
 
 $$
-\displaystyle I\left(y\right)=\int_0^y\frac{\ln\left(1+xy\right)}{x}\,\mathrm{d}x\ \left(y>0\right)
+\displaystyle I\left(y\right)=\int_0^y\frac{\ln\left(1+xy\right)}{x}\,\mathrm{d}x\ \left(y> 0\right)
 $$
 
 的导数.
@@ -123,7 +123,7 @@ $\blacksquare$
 （习题 12.3-4-1）利用积分号下求导的方法计算定积分
 
 $$
-\displaystyle I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos x+r^2\right)\,\mathrm{d}x\ \left(\left|r\right|<1\right).
+\displaystyle I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos x+r^2\right)\,\mathrm{d}x\ \left(\left|r\right|< 1\right).
 $$
 
 ### 解答 习题五
@@ -149,7 +149,7 @@ $$
 作代换 $t=\tan\frac{x}{2}$, 可得标准积分
 
 $$
-\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos x+r^2}=\frac{\pi}{1-r^2}\left(\left|r\right|<1\right).
+\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos x+r^2}=\frac{\pi}{1-r^2}\left(\left|r\right|< 1\right).
 $$
 
 代入得
@@ -161,7 +161,7 @@ $$
 故 $I\left(r\right)$ 为常数. 又 $I\left(0\right)=\int_0^\pi\ln1\,\mathrm{d}x=0$, 所以
 
 $$
-I\left(r\right)=0\left(\left|r\right|<1\right).
+I\left(r\right)=0\left(\left|r\right|< 1\right).
 
 $$
 
@@ -173,7 +173,7 @@ $\blacksquare$
 $$
 \displaystyle I\left(\alpha\right)=\int_0^{2\pi}\ln\left(1-\alpha\cos\theta\right)\,\mathrm{d}\theta
 $$
-($\left|\alpha\right|<1$). 证明
+($\left|\alpha\right|< 1$). 证明
 
 $$
 \displaystyle I'\left(\alpha\right)=\frac{2\pi\left(\sqrt{1-\alpha^2}-1\right)}{\alpha\sqrt{1-\alpha^2}},
@@ -201,7 +201,7 @@ $$
 作代换 $t=\tan\frac{\theta}{2}$, 可得标准积分
 
 $$
-\int_0^{2\pi}\frac{\mathrm{d}\theta}{1-\alpha\cos\theta}=\frac{2\pi}{\sqrt{1-\alpha^2}}\left(\left|\alpha\right|<1\right).
+\int_0^{2\pi}\frac{\mathrm{d}\theta}{1-\alpha\cos\theta}=\frac{2\pi}{\sqrt{1-\alpha^2}}\left(\left|\alpha\right|< 1\right).
 $$
 
 于是

@@ -2,11 +2,11 @@
 
 > **Definition** (Definite Integral) Let $f\left(x\right)$ be defined on the interval $\left[a,b\right]$. Make a partition of $\left[a,b\right]$
 > $$
-> T:a=x_0<x_1<\cdots<x_n=b,
+> T:a=x_0< x_1< \cdots< x_n=b,
 > $$
-where $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. If there exists a constant $I$ such that for any $\varepsilon>0$, there exists $\delta>0$ such that whenever $\lambda\left(T\right)<\delta$, no matter how the partition $T$ is chosen and no matter how the intermediate points $\xi_k\in\left[x_{k-1},x_k\right]$ are chosen, we have
+where $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. If there exists a constant $I$ such that for any $\varepsilon> 0$, there exists $\delta> 0$ such that whenever $\lambda\left(T\right)< \delta$, no matter how the partition $T$ is chosen and no matter how the intermediate points $\xi_k\in\left[x_{k-1},x_k\right]$ are chosen, we have
 > $$
-> \left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|<\varepsilon,
+> \left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \varepsilon,
 > $$
 > then $I$ is called the definite integral of $f\left(x\right)$ on $\left[a,b\right]$, denoted $\int_a^b f\left(x\right)\,\mathrm{d}x$.
 
@@ -54,7 +54,7 @@ $\blacksquare$
 
 ### Problem 2
 
-(Problem 6.1-3) Let the function $x=\varphi\left(y\right)$ be continuous on $\left[c,d\right]$ and satisfy $\varphi\left(y\right)>0$. Express as a definite integral the area of the region bounded by the curve $x=\varphi\left(y\right)$, $y=c$, $y=d$, and the $y$-axis. Moreover, let $c\ge0$ and let $x=\varphi\left(y\right)$ be strictly increasing on $\left[c,d\right]$. Find the integral sum $\int_c^d \varphi\left(y\right)\,\mathrm{d}y+\int_a^b \psi\left(x\right)\,\mathrm{d}x$, where $y=\psi\left(x\right)$ is the inverse function of $x=\varphi\left(y\right)$, $a=\varphi\left(c\right)$, and $b=\varphi\left(d\right)$.
+(Problem 6.1-3) Let the function $x=\varphi\left(y\right)$ be continuous on $\left[c,d\right]$ and satisfy $\varphi\left(y\right)> 0$. Express as a definite integral the area of the region bounded by the curve $x=\varphi\left(y\right)$, $y=c$, $y=d$, and the $y$-axis. Moreover, let $c\ge0$ and let $x=\varphi\left(y\right)$ be strictly increasing on $\left[c,d\right]$. Find the integral sum $\int_c^d \varphi\left(y\right)\,\mathrm{d}y+\int_a^b \psi\left(x\right)\,\mathrm{d}x$, where $y=\psi\left(x\right)$ is the inverse function of $x=\varphi\left(y\right)$, $a=\varphi\left(c\right)$, and $b=\varphi\left(d\right)$.
 
 ### Solution to Problem 2
 
@@ -81,26 +81,26 @@ $\blacksquare$
 (Problem 6.1-5) Let the function $y=f\left(x\right)$ be defined on $\left[a,b\right]$, and assume that $y=f\left(x\right)$ has a maximum and minimum value on every closed subinterval. For any partition
 
 $$
-T:a=x_0<x_1<\cdots<x_n=b,
+T:a=x_0< x_1< \cdots< x_n=b,
 $$
 
 let $m_i$ be the minimum of $y=f\left(x\right)$ on $\left[x_{i-1},x_i\right]$ and $M_i$ the maximum. Prove that $y=f\left(x\right)$ is integrable on $\left[a,b\right]$ if and only if the limits $\lim_{\lambda\left(T\right)\to0}\sum_{i=1}^n m_i\Delta x_i$ and $\lim_{\lambda\left(T\right)\to0}\sum_{i=1}^n M_i\Delta x_i$ exist and are equal.
 
 ### Solution to Problem 3
 
-**Necessity** Let $f$ be integrable on $\left[a,b\right]$ with integral $I$. For any $\varepsilon>0$, by **Definition** (Definite Integral), there exists $\delta>0$ such that when $\lambda\left(T\right)<\delta$, for any intermediate points $\xi_i\in\left[x_{i-1},x_i\right]$ we have
+**Necessity** Let $f$ be integrable on $\left[a,b\right]$ with integral $I$. For any $\varepsilon> 0$, by **Definition** (Definite Integral), there exists $\delta> 0$ such that when $\lambda\left(T\right)< \delta$, for any intermediate points $\xi_i\in\left[x_{i-1},x_i\right]$ we have
 
 $$
-\left|\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right|<\varepsilon.
+\left|\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right|< \varepsilon.
 $$
 
-For each subinterval $\left[x_{i-1},x_i\right]$, since $m_i$ is the minimum of $f$ on it, there exists $\xi_i^*\in\left[x_{i-1},x_i\right]$ such that $f\left(\xi_i^*\right)<m_i+\frac{\varepsilon}{b-a}$. Thus
+For each subinterval $\left[x_{i-1},x_i\right]$, since $m_i$ is the minimum of $f$ on it, there exists $\xi_i^*\in\left[x_{i-1},x_i\right]$ such that $f\left(\xi_i^*\right)< m_i+\frac{\varepsilon}{b-a}$. Thus
 
 $$
-\sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i<\sum_{i=1}^n m_i\Delta x_i+\varepsilon.
+\sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i< \sum_{i=1}^n m_i\Delta x_i+\varepsilon.
 $$
 
-Combining with $\left|\sum f\left(\xi_i^*\right)\Delta x_i-I\right|<\varepsilon$ gives $\left|\sum m_i\Delta x_i-I\right|<2\varepsilon$. Similarly, taking $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ such that $f\left(\xi_i^{**}\right)>M_i-\frac{\varepsilon}{b-a}$, we get $\left|\sum M_i\Delta x_i-I\right|<2\varepsilon$. Hence both limits exist and equal $I$.
+Combining with $\left|\sum f\left(\xi_i^*\right)\Delta x_i-I\right|< \varepsilon$ gives $\left|\sum m_i\Delta x_i-I\right|< 2\varepsilon$. Similarly, taking $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ such that $f\left(\xi_i^{**}\right)> M_i-\frac{\varepsilon}{b-a}$, we get $\left|\sum M_i\Delta x_i-I\right|< 2\varepsilon$. Hence both limits exist and equal $I$.
 
 **Sufficiency** Let
 
@@ -179,7 +179,7 @@ apply the mean value theorem to $F\left(x_k\right)-F\left(x_{k-1}\right)$.)
 Make any partition of $\left[a,b\right]$
 
 $$
-T:a=x_0<x_1<\cdots<x_n=b.
+T:a=x_0< x_1< \cdots< x_n=b.
 $$
 
 Then

@@ -12,17 +12,17 @@
 
 ### Problem 1
 
-(Problem 1.6-2) Using the $\varepsilon$-$\delta$ language, prove that if $\lim\limits_{x\to a}f\left(x\right)=l$ and $l>0$, then there exists a $\delta>0$ such that $f\left(x\right)>\frac l2$ whenever $0<\left|x-a\right|<\delta$.
+(Problem 1.6-2) Using the $\varepsilon$-$\delta$ language, prove that if $\lim\limits_{x\to a}f\left(x\right)=l$ and $l> 0$, then there exists a $\delta> 0$ such that $f\left(x\right)> \frac l2$ whenever $0< \left|x-a\right|< \delta$.
 
 ### Solution to Problem 1
 
-Take $\varepsilon=\frac l2>0$. By **Definition** (Limit of a Function), there exists $\delta>0$ such that $\left|f\left(x\right)-l\right|<\frac l2$ when $0<\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
+Take $\varepsilon=\frac l2> 0$. By **Definition** (Limit of a Function), there exists $\delta> 0$ such that $\left|f\left(x\right)-l\right|< \frac l2$ when $0< \left|x-a\right|< \delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
 
 $$
-f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|>l-\frac l2=\frac l2.
+f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
 $$
 
-Hence $f\left(x\right)>\frac l2$. $\blacksquare$
+Hence $f\left(x\right)> \frac l2$. $\blacksquare$
 
 ### Problem 2
 
@@ -144,11 +144,11 @@ $$
 \left(1+\frac1x\right)^{x^2}=\left[\left(1+\frac1x\right)^x\right]^x.
 $$
 
-When $x$ is sufficiently large, $\left(1+\frac1x\right)^x>2$ (since it tends to $e>2$), so $\left(1+\frac1x\right)^{x^2}>2^x\to+\infty$. Hence the limit is $+\infty$. $\blacksquare$
+When $x$ is sufficiently large, $\left(1+\frac1x\right)^x> 2$ (since it tends to $e> 2$), so $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. Hence the limit is $+\infty$. $\blacksquare$
 
 ### Problem 9
 
-(Problem 1.6-9) Let $\lim\limits_{x\to+\infty}\frac{f\left(x\right)}x=0$ and $f\left(x\right)>0\left(x>0\right)$. Prove that $\lim\limits_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
+(Problem 1.6-9) Let $\lim\limits_{x\to+\infty}\frac{f\left(x\right)}x=0$ and $f\left(x\right)> 0\left(x> 0\right)$. Prove that $\lim\limits_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
 
 ### Solution to Problem 9
 
@@ -161,7 +161,7 @@ $$
 Since
 
 $$
-0<f\left(x\right)\ln\left(1+\frac1x\right)<f\left(x\right)\cdot\frac1x\to0,
+0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
 $$
 
 by **Theorem 6.2** (Squeeze Theorem for Functions), the exponent tends to $0$. By the continuity of $e^t$, the original limit is $e^0=1$. $\blacksquare$

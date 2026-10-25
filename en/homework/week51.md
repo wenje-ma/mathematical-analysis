@@ -2,13 +2,13 @@
 
 > **Definition** (The Gamma Function)
 > $$
-> \displaystyle\Gamma\left(\alpha\right)=\int_0^{+\infty}t^{\alpha-1}e^{-t}\,\mathrm{d}t\left(\alpha>0\right).
+> \displaystyle\Gamma\left(\alpha\right)=\int_0^{+\infty}t^{\alpha-1}e^{-t}\,\mathrm{d}t\left(\alpha> 0\right).
 > $$
 > It satisfies the recurrence $\Gamma\left(\alpha+1\right)=\alpha\Gamma\left(\alpha\right)$, $\Gamma\left(1\right)=1$, $\Gamma\left(n+1\right)=n!$, and $\Gamma\!\left(\frac12\right)=\sqrt\pi$.
 
 > **Definition** (The Beta Function)
 > $$
-> \displaystyle \Beta\left(p,q\right)=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q>0\right),
+> \displaystyle \Beta\left(p,q\right)=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q> 0\right),
 > $$
 > and we have $\Beta\left(p,q\right)=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}$.
 
@@ -48,7 +48,7 @@ $$
 $\blacksquare$
 ### Problem 2
 
-(Problem 12.6-1-2) Using the Gamma and Beta functions, compute the integral $\displaystyle\int_0^{+\infty}x^{-1/2}e^{-\alpha x}\,\mathrm{d}x$ ($\alpha>0$).
+(Problem 12.6-1-2) Using the Gamma and Beta functions, compute the integral $\displaystyle\int_0^{+\infty}x^{-1/2}e^{-\alpha x}\,\mathrm{d}x$ ($\alpha> 0$).
 
 ### Solution to Problem 2
 

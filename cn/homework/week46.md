@@ -2,17 +2,17 @@
 
 > **定义**（无穷积分的收敛）设函数 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 若极限 $\lim_{A\to+\infty}\int_a^A f\left(x\right)\,\mathrm{d}x$ 存在, 则称无穷积分 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛, 并把这个极限定义为该无穷积分的值; 否则称其发散.
 
-> **例 1.2**（$p$-积分）无穷积分 $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p>1$ 时收敛, 当 $p\le 1$ 时发散.
+> **例 1.2**（$p$-积分）无穷积分 $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 当 $p> 1$ 时收敛, 当 $p\le 1$ 时发散.
 
-> **定理 1.1**（无穷积分的柯西收敛原理）设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意给定的 $\varepsilon>0$, 存在 $X>0$, 使得 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|<\varepsilon$, 只要 $A'>X,A''>X$.
+> **定理 1.1**（无穷积分的柯西收敛原理）设 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 则 $\int_a^{+\infty} f\left(x\right)\,\mathrm{d}x$ 收敛的充要条件是: 对任意给定的 $\varepsilon> 0$, 存在 $X> 0$, 使得 $\left|\int_{A'}^{A''} f\left(x\right)\,\mathrm{d}x\right|< \varepsilon$, 只要 $A'> X,A''> X$.
 
-> **定理 1.3**（比较判别法）设 $f\left(x\right)$ 及 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 又设存在 $X_0>a$, 使得
+> **定理 1.3**（比较判别法）设 $f\left(x\right)$ 及 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意闭区间 $\left[a,A\right]$ 上可积. 又设存在 $X_0> a$, 使得
 > $$
 > 0\le f\left(x\right)\le g\left(x\right)\left(\forall x\ge X_0\right).
 > $$
 > 则若 $\int_a^{+\infty}g\left(x\right)\,\mathrm{d}x$ 收敛, 必有 $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ 收敛; 若 $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ 发散, 必有 $\int_a^{+\infty}g\left(x\right)\,\mathrm{d}x$ 发散.
 
-> **定理 1.6**（狄利克雷判别法）设 $f\left(x\right)$ 与 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意区间 $\left[a,A\right]$ 上可积. 若 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上单调, 且 $\lim_{x\to+\infty}f\left(x\right)=0$; 又对任意 $A>a$, 积分 $\int_a^A g\left(x\right)\,\mathrm{d}x$ 有界, 则无穷积分 $\int_a^{+\infty}f\left(x\right)g\left(x\right)\,\mathrm{d}x$ 收敛.
+> **定理 1.6**（狄利克雷判别法）设 $f\left(x\right)$ 与 $g\left(x\right)$ 在 $\left[a,+\infty\right)$ 上有定义, 且在任意区间 $\left[a,A\right]$ 上可积. 若 $f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上单调, 且 $\lim_{x\to+\infty}f\left(x\right)=0$; 又对任意 $A> a$, 积分 $\int_a^A g\left(x\right)\,\mathrm{d}x$ 有界, 则无穷积分 $\int_a^{+\infty}f\left(x\right)g\left(x\right)\,\mathrm{d}x$ 收敛.
 
 > **定义**（绝对收敛与条件收敛）若 $\int_a^{+\infty}\left| f\left(x\right)\right|\,\mathrm{d}x$ 收敛, 则称无穷积分 $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ 绝对收敛; 若 $\int_a^{+\infty}f\left(x\right)\,\mathrm{d}x$ 收敛, 但 $\int_a^{+\infty}\left| f\left(x\right)\right|\,\mathrm{d}x$ 发散, 则称其为条件收敛.
 
@@ -22,7 +22,7 @@
 
 ### 解答 习题一
 
-对任意 $A>1$, 分部积分(取 $u=\ln x,\mathrm{d}v=\frac{\mathrm{d}x}{x^2}$)得
+对任意 $A> 1$, 分部积分(取 $u=\ln x,\mathrm{d}v=\frac{\mathrm{d}x}{x^2}$)得
 
 $$
 \int_1^A \frac{\ln x}{x^2}\,\mathrm{d}x=\left[-\frac{\ln x}{x}\right]_1^A+\int_1^A\frac{\mathrm{d}x}{x^2}=-\frac{\ln A}{A}+1-\frac1A.
@@ -32,17 +32,17 @@ $$
 
 ### 习题二
 
-（习题 12.1-1-2）判别无穷积分 $\displaystyle\int_1^{+\infty} e^{-ax}\,\mathrm{d}x$($a>0$)是否收敛, 如果收敛, 求出其值.
+（习题 12.1-1-2）判别无穷积分 $\displaystyle\int_1^{+\infty} e^{-ax}\,\mathrm{d}x$($a> 0$)是否收敛, 如果收敛, 求出其值.
 
 ### 解答 习题二
 
-对任意 $A>1$, 
+对任意 $A> 1$, 
 
 $$
 \int_1^A e^{-ax}\,\mathrm{d}x=\left[-\frac{e^{-ax}}{a}\right]_1^A=\frac{e^{-a}-e^{-aA}}{a}.
 $$
 
-因 $a>0$, 故 $e^{-aA}\to0\left(A\to+\infty\right)$, 上式右端趋于 $\frac{e^{-a}}{a}$. 故由**定义**（无穷积分的收敛）, 该无穷积分收敛, 其值为 $\frac{e^{-a}}{a}$. $\blacksquare$
+因 $a> 0$, 故 $e^{-aA}\to0\left(A\to+\infty\right)$, 上式右端趋于 $\frac{e^{-a}}{a}$. 故由**定义**（无穷积分的收敛）, 该无穷积分收敛, 其值为 $\frac{e^{-a}}{a}$. $\blacksquare$
 
 ### 习题三
 
@@ -50,7 +50,7 @@ $$
 
 ### 解答 习题三
 
-对任意 $A>0$, 
+对任意 $A> 0$, 
 
 $$
 \int_0^A\frac{\mathrm{d}x}{1+x^2}=\left[\arctan x\right]_0^A=\arctan A.
@@ -64,7 +64,7 @@ $$
 
 ### 解答 习题四
 
-对任意 $A>0$, 分部积分(取 $u=x,\mathrm{d}v=e^{-x}\,\mathrm{d}x$)得
+对任意 $A> 0$, 分部积分(取 $u=x,\mathrm{d}v=e^{-x}\,\mathrm{d}x$)得
 
 $$
 \int_0^A x e^{-x}\,\mathrm{d}x=\left[-x e^{-x}\right]_0^A+\int_0^A e^{-x}\,\mathrm{d}x=-A e^{-A}+1-e^{-A}.
@@ -80,9 +80,9 @@ $$
 
 分三种情形讨论.
 
-(1)$p>1$. 因 $\left|\frac{\sin x}{x^p}\right|\le\frac1{x^p}$, 而由**例 1.2**（$p$-积分）, $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 收敛. 由**定理 1.3**（比较判别法）, $\int_1^{+\infty}\left|\frac{\sin x}{x^p}\right|\,\mathrm{d}x$ 收敛, 故原无穷积分绝对收敛.
+(1)$p> 1$. 因 $\left|\frac{\sin x}{x^p}\right|\le\frac1{x^p}$, 而由**例 1.2**（$p$-积分）, $\int_1^{+\infty}\frac{\mathrm{d}x}{x^p}$ 收敛. 由**定理 1.3**（比较判别法）, $\int_1^{+\infty}\left|\frac{\sin x}{x^p}\right|\,\mathrm{d}x$ 收敛, 故原无穷积分绝对收敛.
 
-(2)$0<p\le1$. 首先, $f\left(x\right)=\frac1{x^p}$ 在 $\left[1,+\infty\right)$ 上单调递减且趋于 $0$; 而对任意 $A>1$,
+(2)$0< p\le1$. 首先, $f\left(x\right)=\frac1{x^p}$ 在 $\left[1,+\infty\right)$ 上单调递减且趋于 $0$; 而对任意 $A> 1$,
 
 $$
 \left|\int_1^A\sin x\,\mathrm{d}x\right|=\left|\cos1-\cos A\right|\le2
@@ -101,7 +101,7 @@ $$
 (3)$p\le0$. 此时 $x^{-p}\ge1\left(x\ge1\right)$. 取 $A'_n=2n\pi-\frac{\pi}{4}$, $A''_n=2n\pi+\frac{\pi}{4}$, 则在 $\left[A'_n,A''_n\right]$ 上 $\sin x\ge\frac{\sqrt2}{2}$, 从而
 
 $$
-\biggl\left|\int_{A'_n}^{A''_n}\frac{\sin x}{x^p}\,\mathrm{d}x\biggr\right|\ge\frac{\sqrt2}{2}\cdot\frac{\pi}{2}=\frac{\sqrt2\pi}{4}>0,
+\biggl\left|\int_{A'_n}^{A''_n}\frac{\sin x}{x^p}\,\mathrm{d}x\biggr\right|\ge\frac{\sqrt2}{2}\cdot\frac{\pi}{2}=\frac{\sqrt2\pi}{4}> 0,
 $$
 
 该下界为与 $n$ 无关的正常数, 不随 $A'_n,A''_n\to+\infty$ 而趋于 $0$. 由**定理 1.1**（柯西收敛原理）, 原无穷积分发散. $\blacksquare$
@@ -112,10 +112,10 @@ $$
 
 ### 解答 习题六
 
-令 $f\left(x\right)=\frac{\sqrt x}{x+3}$. 当 $x>3$ 时, 
+令 $f\left(x\right)=\frac{\sqrt x}{x+3}$. 当 $x> 3$ 时, 
 
 $$
-f'\left(x\right)=\frac{\left(x+3\right)-2x}{2\sqrt x\,\left(x+3\right)^2}=\frac{3-x}{2\sqrt x\,\left(x+3\right)^2}<0,
+f'\left(x\right)=\frac{\left(x+3\right)-2x}{2\sqrt x\,\left(x+3\right)^2}=\frac{3-x}{2\sqrt x\,\left(x+3\right)^2}< 0,
 $$
 
 故 $f\left(x\right)$ 在 $\left[3,+\infty\right)$ 上单调递减; 又
@@ -123,7 +123,7 @@ $$
 $$
 f\left(x\right)\sim\frac1{\sqrt x}\to0\left(x\to+\infty\right).
 $$
-而对任意 $A>1$,
+而对任意 $A> 1$,
 
 $$
 \left|\int_1^A\cos x\,\mathrm{d}x\right|=\left|\sin A-\sin1\right|\le2
@@ -284,16 +284,16 @@ $$
 F\left(N+1\right)\to L\left(N\to+\infty\right).
 $$
 
-现证 $F\left(A\right)\to L$ 对任意 $A\to+\infty$ 成立. 对任意 $A\ge1$, 取 $N=\left[A\right]$, 则 $N\le A<N+1$, 于是
+现证 $F\left(A\right)\to L$ 对任意 $A\to+\infty$ 成立. 对任意 $A\ge1$, 取 $N=\left[A\right]$, 则 $N\le A< N+1$, 于是
 
 $$
 F\left(A\right)-L=\left(F\left(N+1\right)-L\right)+\left(F\left(A\right)-F\left(N+1\right)\right)=\left(F\left(N+1\right)-L\right)-\int_A^{N+1}f\left(x\right)\,\mathrm{d}x.
 $$
 
-由 $f\left(x\right)\to0\left(x\to+\infty\right)$, 对任意 $\varepsilon>0$, 存在 $X>0$, 使当 $x>X$ 时 $\left| f\left(x\right)\right|<\varepsilon$. 当 $N$ 充分大时 $\left[A,N+1\right]\subset\left[X,+\infty\right)$, 故
+由 $f\left(x\right)\to0\left(x\to+\infty\right)$, 对任意 $\varepsilon> 0$, 存在 $X> 0$, 使当 $x> X$ 时 $\left| f\left(x\right)\right|< \varepsilon$. 当 $N$ 充分大时 $\left[A,N+1\right]\subset\left[X,+\infty\right)$, 故
 
 $$
-\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x<\varepsilon\,\left(N+1-A\right)\le\varepsilon.
+\biggl\left|\int_A^{N+1}f\left(x\right)\,\mathrm{d}x\biggr\right|\le\int_A^{N+1}\left| f\left(x\right)\right|\,\mathrm{d}x< \varepsilon\,\left(N+1-A\right)\le\varepsilon.
 $$
 
 同时 $F\left(N+1\right)-L\to0$. 因此 $F\left(A\right)-L\to0$, 即 $F\left(A\right)\to L$. 由**定义**（无穷积分的收敛）, $\int_1^{+\infty}f\left(x\right)\,\mathrm{d}x$ 收敛. $\blacksquare$

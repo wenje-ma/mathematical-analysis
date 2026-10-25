@@ -143,7 +143,7 @@ $$
 (3)
 
 $$
-\displaystyle\int_0^R\mathrm{d}x\int_0^{\sqrt{R^2-x^2}}\ln\left(1+x^2+y^2\right)\,\mathrm{d}y\left(R>0\right).
+\displaystyle\int_0^R\mathrm{d}x\int_0^{\sqrt{R^2-x^2}}\ln\left(1+x^2+y^2\right)\,\mathrm{d}y\left(R> 0\right).
 $$
 
 ### Solution to Problem 4
@@ -253,7 +253,7 @@ $$
 $\blacksquare$
 ### Problem 7
 
-(Problem 8.2-8) Let $a>0$, and set
+(Problem 8.2-8) Let $a> 0$, and set
 
 $$
 I\left(a\right)=\int_0^a e^{-x^2}\,\mathrm{d}x, J\left(a\right)=\iint_{D_a}e^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y,
@@ -293,7 +293,7 @@ $$
 \left[I\left(a\right)\right]^2=\left(\int_0^a e^{-x^2}\mathrm{d}x\right)\left(\int_0^a e^{-y^2}\mathrm{d}y\right)=\int_0^a\mathrm{d}x\int_0^a e^{-x^2-y^2}\mathrm{d}y=\iint_{R_a}e^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y.
 $$
 
-(2) Note that $D_a$ is a quarter disk of radius $a$, $R_a=\left[0,a\right]\times\left[0,a\right]$ is a square of side $a$, and $D_{\sqrt2 a}$ is a quarter disk of radius $\sqrt2 a$. Clearly $D_a\subset R_a\subset D_{\sqrt2 a}$. Since the integrand $e^{-x^2-y^2}>0$, by **Property** (Comparison Property of Double Integrals) in Chapter 1,
+(2) Note that $D_a$ is a quarter disk of radius $a$, $R_a=\left[0,a\right]\times\left[0,a\right]$ is a square of side $a$, and $D_{\sqrt2 a}$ is a quarter disk of radius $\sqrt2 a$. Clearly $D_a\subset R_a\subset D_{\sqrt2 a}$. Since the integrand $e^{-x^2-y^2}> 0$, by **Property** (Comparison Property of Double Integrals) in Chapter 1,
 
 $$
 J\left(a\right)=\iint_{D_a}\le\iint_{R_a}=\left[I\left(a\right)\right]^2\le\iint_{D_{\sqrt2 a}}=J\left(\sqrt2\,a\right).

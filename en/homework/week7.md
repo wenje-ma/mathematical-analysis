@@ -14,7 +14,7 @@
 (2)
 
 $$
-y=f\left(x\right)=\begin{cases}x^2e^x,&x>0,\\sin\frac{\pi}{1+x^2},&x<0,\1,&x=0;\end{cases}
+y=f\left(x\right)=\begin{cases}x^2e^x,&x> 0,\\sin\frac{\pi}{1+x^2},&x< 0,\1,&x=0;\end{cases}
 $$
 
 (3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
@@ -47,10 +47,10 @@ But $f\left(0\right)=1$, so $x=0$ is a removable discontinuity (first kind).
 
 ### Solution to Problem 2
 
-By **Definition** (Continuous Function), given any $\varepsilon>0$, there exists $\delta>0$ such that $\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon$ when $\left|x-a\right|<\delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
+By **Definition** (Continuous Function), given any $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$ when $\left|x-a\right|< \delta$. By **Proposition 1.7** (Triangle Inequality) in Chapter 1,
 
 $$
-\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|<\varepsilon.
+\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
 $$
 
 Hence $\left|f\left(x\right)\right|$ is continuous at the point $a$. $\blacksquare$
@@ -96,7 +96,7 @@ $$
 
 ### Solution to Problem 4
 
-Let $\lim\limits_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By **Definition** (Continuous Function), given any $\varepsilon>0$, there exists $\delta>0$ such that $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$ when $\left|x-c\right|<\delta$. Moreover, since $g\left(t\right)\to c$, there exists $T>0$ such that $\left|g\left(t\right)-c\right|<\delta$ when $t>T$. Hence when $t>T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. That is, $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+Let $\lim\limits_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By **Definition** (Continuous Function), given any $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$ when $\left|x-c\right|< \delta$. Moreover, since $g\left(t\right)\to c$, there exists $T> 0$ such that $\left|g\left(t\right)-c\right|< \delta$ when $t> T$. Hence when $t> T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$. That is, $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ### Problem 5
 

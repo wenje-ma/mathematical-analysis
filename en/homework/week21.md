@@ -1,6 +1,6 @@
 # Assignment 21
 
-> **Theorem 4.1** (Decomposition of Rational Functions) Any rational function $\frac{P\left(x\right)}{Q\left(x\right)}$ can be decomposed into a polynomial plus a sum of partial fractions, where each partial fraction is of the form $\frac{A}{\left(x-a\right)^k}$ or $\frac{Bx+C}{\left(x^2+px+q\right)^m}$ ($p^2-4q<0$).
+> **Theorem 4.1** (Decomposition of Rational Functions) Any rational function $\frac{P\left(x\right)}{Q\left(x\right)}$ can be decomposed into a polynomial plus a sum of partial fractions, where each partial fraction is of the form $\frac{A}{\left(x-a\right)^k}$ or $\frac{Bx+C}{\left(x^2+px+q\right)^m}$ ($p^2-4q< 0$).
 
 ### Problem 1
 

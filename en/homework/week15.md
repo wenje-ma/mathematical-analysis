@@ -1,8 +1,8 @@
 # Assignment 15
 
-> **Theorem 3.1** (First Sufficient Condition for an Extremum Point) Let $y=f\left(x\right)$ be differentiable on $\left(a,b\right)$, and let $x_0\in\left(a,b\right)$ be a stationary point of $f$, i.e. $f'\left(x_0\right)=0$. If there exists $r>0$ such that $\left(x_0-r,x_0+r\right)\subset\left(a,b\right)$, and $f'\left(x\right)>0$ when $x\in\left(x_0-r,x_0\right)$ while $f'\left(x\right)<0$ when $x\in\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local maximum; if $f'\left(x\right)<0$ when $x\in\left(x_0-r,x_0\right)$ and $f'\left(x\right)>0$ when $x\in\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local minimum.
+> **Theorem 3.1** (First Sufficient Condition for an Extremum Point) Let $y=f\left(x\right)$ be differentiable on $\left(a,b\right)$, and let $x_0\in\left(a,b\right)$ be a stationary point of $f$, i.e. $f'\left(x_0\right)=0$. If there exists $r> 0$ such that $\left(x_0-r,x_0+r\right)\subset\left(a,b\right)$, and $f'\left(x\right)> 0$ when $x\in\left(x_0-r,x_0\right)$ while $f'\left(x\right)< 0$ when $x\in\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local maximum; if $f'\left(x\right)< 0$ when $x\in\left(x_0-r,x_0\right)$ and $f'\left(x\right)> 0$ when $x\in\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local minimum.
 
-> **Theorem 3.2** (Second Sufficient Condition for an Extremum Point) Let $y=f\left(x\right)$ be differentiable on $\left(a,b\right)$, let $x_0\in\left(a,b\right)$ be a stationary point, and assume that $f$ has a second derivative at $x_0$. If $f''\left(x_0\right)>0$, then $x_0$ is a local minimum point; if $f''\left(x_0\right)<0$, then $x_0$ is a local maximum point.
+> **Theorem 3.2** (Second Sufficient Condition for an Extremum Point) Let $y=f\left(x\right)$ be differentiable on $\left(a,b\right)$, let $x_0\in\left(a,b\right)$ be a stationary point, and assume that $f$ has a second derivative at $x_0$. If $f''\left(x_0\right)> 0$, then $x_0$ is a local minimum point; if $f''\left(x_0\right)< 0$, then $x_0$ is a local maximum point.
 
 > **Proposition 3.1** (A Unique Extremum Point Is a Global Extremum Point) Let $y=f\left(x\right)$ be continuous on the interval $\left(a,b\right)$ (or $\left[a,b\right]$). If $x_0$ is the only extremum point in $\left(a,b\right)$, then when $x_0$ is a local maximum point, $f\left(x_0\right)$ is the maximum value of $y=f\left(x\right)$; and when $x_0$ is a local minimum point, $f\left(x_0\right)$ is the minimum value of $y=f\left(x\right)$.
 
@@ -28,28 +28,28 @@ Substituting each stationary point:
 - $x=\sqrt{\frac53}$:
 
   $$
-  y''=30\sqrt{\frac53}\cdot\left(50-26\right)>0,
+  y''=30\sqrt{\frac53}\cdot\left(50-26\right)> 0,
   $$
 
   so this is a local minimum point.
 - $x=-\sqrt{\frac53}$:
 
   $$
-  y''=30\left(-\sqrt{\frac53}\right)\cdot\left(50-26\right)<0,
+  y''=30\left(-\sqrt{\frac53}\right)\cdot\left(50-26\right)< 0,
   $$
 
   so this is a local maximum point.
 - $x=\frac1{\sqrt3}$:
 
   $$
-  y''=30\cdot\frac1{\sqrt3}\cdot\left(10-26\right)<0,
+  y''=30\cdot\frac1{\sqrt3}\cdot\left(10-26\right)< 0,
   $$
 
   so this is a local maximum point.
 - $x=-\frac1{\sqrt3}$:
 
   $$
-  y''=30\cdot\left(-\frac1{\sqrt3}\right)\cdot\left(10-26\right)>0,
+  y''=30\cdot\left(-\frac1{\sqrt3}\right)\cdot\left(10-26\right)> 0,
   $$
 
   so this is a local minimum point.
@@ -58,7 +58,7 @@ By **Theorem 3.2** (Second Sufficient Condition for an Extremum Point), these co
 
 ### Problem 2
 
-(Problem 3.3-1-3) Find the stationary points of the function $y=x\ln x$ ($x>0$), and determine whether these stationary points are extremum points.
+(Problem 3.3-1-3) Find the stationary points of the function $y=x\ln x$ ($x> 0$), and determine whether these stationary points are extremum points.
 
 ### Solution to Problem 2
 
@@ -71,10 +71,10 @@ Setting $y'=0$, we get $\ln x=-1$, i.e. $x=\frac1e$.
 
 Differentiating again:
 $$
-y''=\frac1x>0\left(x>0\right).
+y''=\frac1x> 0\left(x> 0\right).
 $$
 
-Hence $y''\left(\frac1e\right)=e>0$. By **Theorem 3.2** (Second Sufficient Condition for an Extremum Point), $x=\frac1e$ is a local minimum point, with local minimum value $y\left(\frac1e\right)=\frac1e\ln\frac1e=-\frac1e$. $\blacksquare$
+Hence $y''\left(\frac1e\right)=e> 0$. By **Theorem 3.2** (Second Sufficient Condition for an Extremum Point), $x=\frac1e$ is a local minimum point, with local minimum value $y\left(\frac1e\right)=\frac1e\ln\frac1e=-\frac1e$. $\blacksquare$
 
 ### Problem 3
 
@@ -87,9 +87,9 @@ Hence $y''\left(\frac1e\right)=e>0$. By **Theorem 3.2** (Second Sufficient Condi
 
 (1) Let $x_0\in\left(a,b\right)$ be the unique extremum point. If $x_0$ is not a strict local maximum point, then there exists a sequence of points $x_n\to x_0$ ($x_n\ne x_0$) such that $f\left(x_n\right)\ge f\left(x_0\right)$. By continuity, $f\left(x_0\right)$ is also a local maximum. But if in every neighborhood of $x_0$ there are points at which the function value equals $f\left(x_0\right)$, then $f$ is constant near $x_0$, giving infinitely many extremum points, contradicting uniqueness. Hence $x_0$ must be a strict local maximum point (or strict local minimum point).
 
-(2) Let $x_0$ be a local maximum point. Proof by contradiction: assume $f\left(x_0\right)$ is not the maximum value on $\left[a,b\right]$, then there exists $x_1\in\left[a,b\right]$ such that $f\left(x_1\right)>f\left(x_0\right)$. If $x_1=a$ or $x_1=b$, consider the continuous function $f$ on the closed interval $\left[x_0,x_1\right]$ (or $\left[x_1,x_0\right]$). Since $f\left(x_1\right)>f\left(x_0\right)$ and $x_0$ is a strict local maximum point, $f$ attains a minimum at some point in $\left(x_0,x_1\right)$, which is a local minimum point. This contradicts the fact that $x_0$ is the unique extremum point.
+(2) Let $x_0$ be a local maximum point. Proof by contradiction: assume $f\left(x_0\right)$ is not the maximum value on $\left[a,b\right]$, then there exists $x_1\in\left[a,b\right]$ such that $f\left(x_1\right)> f\left(x_0\right)$. If $x_1=a$ or $x_1=b$, consider the continuous function $f$ on the closed interval $\left[x_0,x_1\right]$ (or $\left[x_1,x_0\right]$). Since $f\left(x_1\right)> f\left(x_0\right)$ and $x_0$ is a strict local maximum point, $f$ attains a minimum at some point in $\left(x_0,x_1\right)$, which is a local minimum point. This contradicts the fact that $x_0$ is the unique extremum point.
 
-If $x_1\in\left(a,b\right)$, then the minimum of $f$ on $\left[x_0,x_1\right]$ is not attained at $x_0$ (since $f\left(x_1\right)>f\left(x_0\right)$ and $x_0$ is a strict local maximum), so it is attained at some point in $\left(x_0,x_1\right)$, which is a local minimum point, again a contradiction.
+If $x_1\in\left(a,b\right)$, then the minimum of $f$ on $\left[x_0,x_1\right]$ is not attained at $x_0$ (since $f\left(x_1\right)> f\left(x_0\right)$ and $x_0$ is a strict local maximum), so it is attained at some point in $\left(x_0,x_1\right)$, which is a local minimum point, again a contradiction.
 
 Hence $f\left(x_0\right)$ must be the maximum value. The case of a local minimum point is similar. This is exactly **Proposition 3.1** (A Unique Extremum Point Is a Global Extremum Point). $\blacksquare$
 
@@ -103,7 +103,7 @@ where $\alpha$ is the angle of incidence, $\beta$ is the angle of refraction, an
 
 ### Solution to Problem 4
 
-Take the interface as the $x$-axis, $A=\left(0,a\right)$ (Medium A, $y>0$), $B=\left(d,-b\right)$ (Medium B, $y<0$), where $a,b,d>0$. Let the point where light hits the interface be $P=\left(x,0\right)$.
+Take the interface as the $x$-axis, $A=\left(0,a\right)$ (Medium A, $y> 0$), $B=\left(d,-b\right)$ (Medium B, $y< 0$), where $a,b,d> 0$. Let the point where light hits the interface be $P=\left(x,0\right)$.
 
 Then the distance from $A$ to $P$ is $\sqrt{x^2+a^2}$, and the time required is $\frac{\sqrt{x^2+a^2}}{v_1}$; the distance from $P$ to $B$ is $\sqrt{\left(d-x\right)^2+b^2}$, and the time required is $\frac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}$. The total time is
 $$
@@ -127,7 +127,7 @@ $$
 
 This is exactly the law of refraction. Moreover,
 $$
-T''\left(x\right)=\frac{a^2}{v_1\left(x^2+a^2\right)^{3/2}}+\frac{b^2}{v_2\left(\left(d-x\right)^2+b^2\right)^{3/2}}>0,
+T''\left(x\right)=\frac{a^2}{v_1\left(x^2+a^2\right)^{3/2}}+\frac{b^2}{v_2\left(\left(d-x\right)^2+b^2\right)^{3/2}}> 0,
 $$
 
 so the point where $T'\left(x\right)=0$ is a local minimum point. By **Proposition 3.1** (A Unique Extremum Point Is a Global Extremum Point), this point gives the path of least time. $\blacksquare$
@@ -143,7 +143,7 @@ $$
 J\left(h\right)=C\cdot\frac{\sin\theta}{r^2}=C\cdot\frac{a}{r^3}=\frac{Ca}{\left(a^2+h^2\right)^{3/2}},
 $$
 
-where $C>0$ is a proportionality constant.
+where $C> 0$ is a proportionality constant.
 
 Differentiating gives
 $$
@@ -164,26 +164,26 @@ $$
 
 Setting $J'\left(h\right)=0$, we get $a^2-2h^2=0$, i.e. $h=\frac{a}{\sqrt2}$.
 
-When $h<\frac{a}{\sqrt2}$, $J'\left(h\right)>0$; when $h>\frac{a}{\sqrt2}$, $J'\left(h\right)<0$. By **Theorem 3.1** (First Sufficient Condition for an Extremum Point), $h=\frac{a}{\sqrt2}$ is a local maximum point. By **Proposition 3.1** (A Unique Extremum Point Is a Global Extremum Point), at this height the illuminance at $A$ is maximal. $\blacksquare$
+When $h< \frac{a}{\sqrt2}$, $J'\left(h\right)> 0$; when $h> \frac{a}{\sqrt2}$, $J'\left(h\right)< 0$. By **Theorem 3.1** (First Sufficient Condition for an Extremum Point), $h=\frac{a}{\sqrt2}$ is a local maximum point. By **Proposition 3.1** (A Unique Extremum Point Is a Global Extremum Point), at this height the illuminance at $A$ is maximal. $\blacksquare$
 
 ### Problem 6
 
 (Problem 3.3-5) Prove the inequality:
 $$
-x^\alpha-\alpha x+\alpha-1\le0,\forall x>0,
+x^\alpha-\alpha x+\alpha-1\le0,\forall x> 0,
 $$
-where $0<\alpha<1$.
+where $0< \alpha< 1$.
 
 ### Solution to Problem 6
 
-Let $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$ ($x>0$). Differentiating gives
+Let $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$ ($x> 0$). Differentiating gives
 $$
 f'\left(x\right)=\alpha x^{\alpha-1}-\alpha=\alpha\left(x^{\alpha-1}-1\right).
 $$
 
 Setting $f'\left(x\right)=0$, we get $x^{\alpha-1}=1$, i.e. $x=1$.
 
-When $0<x<1$, since $\alpha-1<0$, we have $x^{\alpha-1}>1$, hence $f'\left(x\right)>0$; when $x>1$, $x^{\alpha-1}<1$, hence $f'\left(x\right)<0$. By **Theorem 3.1** (First Sufficient Condition for an Extremum Point), $x=1$ is a local maximum point.
+When $0< x< 1$, since $\alpha-1< 0$, we have $x^{\alpha-1}> 1$, hence $f'\left(x\right)> 0$; when $x> 1$, $x^{\alpha-1}< 1$, hence $f'\left(x\right)< 0$. By **Theorem 3.1** (First Sufficient Condition for an Extremum Point), $x=1$ is a local maximum point.
 
 Moreover,
 
@@ -193,20 +193,20 @@ $$
 
 By **Proposition 3.1** (A Unique Extremum Point Is a Global Extremum Point), $f\left(1\right)=0$ is the maximum value of $f\left(x\right)$ on $\left(0,+\infty\right)$. Hence
 $$
-f\left(x\right)\le f\left(1\right)=0,\forall x>0,
+f\left(x\right)\le f\left(1\right)=0,\forall x> 0,
 $$
 
 i.e. $x^\alpha-\alpha x+\alpha-1\le0$. $\blacksquare$
 
 ### Problem 7
 
-(Problem 3.3-6) Prove the following inequality: let $a>0,b>0,p>1,q>1$, and $\frac1p+\frac1q=1$, then
+(Problem 3.3-6) Prove the following inequality: let $a> 0,b> 0,p> 1,q> 1$, and $\frac1p+\frac1q=1$, then
 $$
 a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}.
 $$
 ### Solution to Problem 7
 
-In the previous problem, take $\alpha=\frac1p$ (since $p>1$, we have $0<\alpha<1$), then $1-\alpha=\frac1q$. By the result of the previous problem, for any $x>0$,
+In the previous problem, take $\alpha=\frac1p$ (since $p> 1$, we have $0< \alpha< 1$), then $1-\alpha=\frac1q$. By the result of the previous problem, for any $x> 0$,
 $$
 x^{1/p}-\frac1p x+\frac1p-1\le0.
 $$
@@ -230,7 +230,7 @@ This is Young's inequality. $\blacksquare$
 
 ### Problem 8
 
-(Problem 3.3-7) Let the sides of $\triangle ABC$ be $a,b$ and $c$. Assume $b=c$, and $a+b+c=2l$, where $l$ is a fixed constant, $l>0$. When is the area of $\triangle ABC$ maximal?
+(Problem 3.3-7) Let the sides of $\triangle ABC$ be $a,b$ and $c$. Assume $b=c$, and $a+b+c=2l$, where $l$ is a fixed constant, $l> 0$. When is the area of $\triangle ABC$ maximal?
 
 ### Solution to Problem 8
 
@@ -257,7 +257,7 @@ $$
 
 Setting $\left(S^2\right)'=0$, we get $a=\frac{2l}{3}$ ($a=0$ is discarded).
 
-When $0<a<\frac{2l}{3}$, $\left(S^2\right)'>0$; when $\frac{2l}{3}<a<2l$, $\left(S^2\right)'<0$. By **Theorem 3.1** (First Sufficient Condition for an Extremum Point), $a=\frac{2l}{3}$ is a local maximum point.
+When $0< a< \frac{2l}{3}$, $\left(S^2\right)'> 0$; when $\frac{2l}{3}< a< 2l$, $\left(S^2\right)'< 0$. By **Theorem 3.1** (First Sufficient Condition for an Extremum Point), $a=\frac{2l}{3}$ is a local maximum point.
 
 At this point,
 
@@ -278,7 +278,7 @@ $$
 f'\left(x\right)=p\sin^{p-1}x\cos x-p\cos^{p-1}x\sin x=p\sin x\cos x\left(\sin^{p-2}x-\cos^{p-2}x\right).
 $$
 
-Setting $f'\left(x\right)=0$. In $\left(0,\frac{\pi}{2}\right)$, $\sin x>0$ and $\cos x>0$, so it suffices to have
+Setting $f'\left(x\right)=0$. In $\left(0,\frac{\pi}{2}\right)$, $\sin x> 0$ and $\cos x> 0$, so it suffices to have
 $$
 \sin^{p-2}x=\cos^{p-2}x.
 $$
@@ -294,6 +294,6 @@ Computing the function values at each point:
   $$
 - $f\left(\frac{\pi}{2}\right)=1+0=1$
 
-Comparing the three: since $p>2$ (the problem states $p>1$, but it needs to be discussed by cases; in fact, in this problem $p$ should be a constant greater than $2$). When $p>2$, $2^{1-p/2}<1$.
+Comparing the three: since $p> 2$ (the problem states $p> 1$, but it needs to be discussed by cases; in fact, in this problem $p$ should be a constant greater than $2$). When $p> 2$, $2^{1-p/2}< 1$.
 
 Hence the maximum value is $1$ (attained at the endpoints $x=0$ and $x=\pi/2$), and the minimum value is $2^{1-p/2}$ (attained at $x=\pi/4$). $\blacksquare$

@@ -1,12 +1,12 @@
 # 作业 41
 
-> **定理 4.1**（无穷乘积与级数的关系）设 $p_n>0$($n=1,2,\dots$), 则无穷乘积 $\prod_{n=1}^{\infty}p_n$ 收敛的充要条件是级数 $\sum_{n=1}^{\infty}\ln p_n$ 收敛, 且此时
+> **定理 4.1**（无穷乘积与级数的关系）设 $p_n> 0$($n=1,2,\dots$), 则无穷乘积 $\prod_{n=1}^{\infty}p_n$ 收敛的充要条件是级数 $\sum_{n=1}^{\infty}\ln p_n$ 收敛, 且此时
 > $$
 > \prod_{n=1}^{\infty}p_n=\exp\left(\sum_{n=1}^{\infty}\ln p_n\right).
 > $$
->
+> 
 > **定理 4.2**（同号项无穷乘积）设 $\alpha_n\ge 0$(或 $\alpha_n\le 0$), 则无穷乘积 $\prod_{n=1}^{\infty}\left(1+\alpha_n\right)$ 收敛的充要条件是级数 $\sum_{n=1}^{\infty}\alpha_n$ 收敛.
->
+> 
 > **定理 4.4**（绝对收敛）设 $\alpha_n\ne -1$, 则无穷乘积 $\prod_{n=1}^{\infty}\left(1+\alpha_n\right)$ 绝对收敛的充要条件是级数 $\sum_{n=1}^{\infty}\left|\alpha_n\right|$ 收敛.
 
 ### 习题一
@@ -21,7 +21,7 @@ $$
 \sqrt{\frac{n^2+1}{n^2-1}}=\left(1+\frac{2}{n^2-1}\right)^{1/2}.
 $$
 
-令 $\alpha_n=\frac{2}{n^2-1}>0$. 因 $\alpha_n\sim\frac{2}{n^2}$, 而 $\sum\frac{1}{n^2}$ 为 $p=2>1$ 的 $p$ 级数, 收敛, 故由上一章**定理 2.3**（比较判别法的极限形式）, $\sum\alpha_n$ 收敛. 由**定理 4.2**（同号项无穷乘积）, $\prod\left(1+\alpha_n\right)$ 收敛. 再由**定理 4.1**,
+令 $\alpha_n=\frac{2}{n^2-1}> 0$. 因 $\alpha_n\sim\frac{2}{n^2}$, 而 $\sum\frac{1}{n^2}$ 为 $p=2> 1$ 的 $p$ 级数, 收敛, 故由上一章**定理 2.3**（比较判别法的极限形式）, $\sum\alpha_n$ 收敛. 由**定理 4.2**（同号项无穷乘积）, $\prod\left(1+\alpha_n\right)$ 收敛. 再由**定理 4.1**,
 
 $$
 \ln\sqrt{\left(n^2+1\right)/\left(n^2-1\right)}=\frac12\ln\left(1+\alpha_n\right)
@@ -35,9 +35,9 @@ $$
 
 ### 解答 习题二
 
-令 $\alpha_n=\frac{x^n}{2^n}=\left(\frac{x}{2}\right)^n$. 当 $\left|x\right|<2$ 时, $\left|x/2\right|<1$, $\sum\alpha_n$ 为收敛的等比级数, 由**定理 4.2**（同号项无穷乘积）, 原无穷乘积收敛.
+令 $\alpha_n=\frac{x^n}{2^n}=\left(\frac{x}{2}\right)^n$. 当 $\left|x\right|< 2$ 时, $\left|x/2\right|< 1$, $\sum\alpha_n$ 为收敛的等比级数, 由**定理 4.2**（同号项无穷乘积）, 原无穷乘积收敛.
 
-当 $\left|x\right|>2$ 时, $\left|\alpha_n\right|=\left|x/2\right|^n$ 不趋于零, 从而 $\prod\left(1+\alpha_n\right)$ 的通项 $1+\alpha_n$ 不趋于 $1$, 无穷乘积发散.
+当 $\left|x\right|> 2$ 时, $\left|\alpha_n\right|=\left|x/2\right|^n$ 不趋于零, 从而 $\prod\left(1+\alpha_n\right)$ 的通项 $1+\alpha_n$ 不趋于 $1$, 无穷乘积发散.
 
 当 $x=2$ 时, $\alpha_n=1$, $1+\alpha_n=2$, 部分乘积趋于 $+\infty$, 发散. 当 $x=-2$ 时, $\alpha_n=\left(-1\right)^n$, $1+\alpha_n$ 交替为 $0$ 与 $2$, 部分乘积为 $0$, 不趋于非零有限极限, 发散.
 
@@ -49,7 +49,7 @@ $$
 
 ### 解答 习题三
 
-令 $p_n=\cos\frac1n>0$. 由**定理 4.1**, 考察 $\sum\ln\cos\frac1n$. 当 $x\to 0$ 时, 
+令 $p_n=\cos\frac1n> 0$. 由**定理 4.1**, 考察 $\sum\ln\cos\frac1n$. 当 $x\to 0$ 时, 
 
 $$
 \ln\cos x=\ln\left(1-2\sin^2\left(x/2\right)\right)\sim -2\sin^2\left(x/2\right)\sim-\frac{x^2}{2}.
@@ -63,11 +63,11 @@ $$
 
 ### 解答 习题四
 
-令 $\alpha_n=\frac{1}{\sqrt n}>0$. 因 $\sum\frac{1}{\sqrt n}$ 为 $p=\frac12<1$ 的 $p$ 级数, 发散. 由**定理 4.2**（同号项无穷乘积）, 原无穷乘积发散. $\blacksquare$
+令 $\alpha_n=\frac{1}{\sqrt n}> 0$. 因 $\sum\frac{1}{\sqrt n}$ 为 $p=\frac12< 1$ 的 $p$ 级数, 发散. 由**定理 4.2**（同号项无穷乘积）, 原无穷乘积发散. $\blacksquare$
 
 ### 习题五
 
-（习题 10.4-2）设 $0<\alpha_n<\frac{\pi}{2}$, $\sum_{n=1}^{\infty}\alpha_n^2$ 收敛, 证明 $\prod_{n=1}^{\infty}\cos\alpha_n$ 收敛.
+（习题 10.4-2）设 $0< \alpha_n< \frac{\pi}{2}$, $\sum_{n=1}^{\infty}\alpha_n^2$ 收敛, 证明 $\prod_{n=1}^{\infty}\cos\alpha_n$ 收敛.
 
 ### 解答 习题五
 
@@ -87,7 +87,7 @@ $$
 
 ### 习题六
 
-（习题 10.4-3）设 $\left|\alpha_n\right|<\frac{\pi}{4}$, 且 $\sum_{n=1}^{\infty}\left|\alpha_n\right|$ 收敛, 证明 $\prod_{n=1}^{\infty}\tan\left(\frac{\pi}{4}+\alpha_n\right)$ 绝对收敛.
+（习题 10.4-3）设 $\left|\alpha_n\right|< \frac{\pi}{4}$, 且 $\sum_{n=1}^{\infty}\left|\alpha_n\right|$ 收敛, 证明 $\prod_{n=1}^{\infty}\tan\left(\frac{\pi}{4}+\alpha_n\right)$ 绝对收敛.
 
 ### 解答 习题六
 

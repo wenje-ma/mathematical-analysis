@@ -9,12 +9,12 @@
 > a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!},
 > $$
 > 即幂级数展开是唯一的, 称为 $f$ 在 $x_0$ 处的泰勒级数.
->
-> **定义**（基本展开式）在 $x=0$ 处有: $e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$($\left|x\right|<+\infty$);
+> 
+> **定义**（基本展开式）在 $x=0$ 处有: $e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}$($\left|x\right|< +\infty$);
 > $$
-> \ln\left(1+x\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|<1\right);
+> \ln\left(1+x\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right);
 > $$
-> $\cos x=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}$($\left|x\right|<+\infty$).
+> $\cos x=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}$($\left|x\right|< +\infty$).
 
 ### 习题一
 
@@ -25,7 +25,7 @@
 由**定义**（基本展开式）, $e^t=\sum_{n=0}^{\infty}\frac{t^n}{n!}$. 令 $t=x-3$, 则
 
 $$
-e^x=e^3\cdot e^{x-3}=e^3\sum_{n=0}^{\infty}\frac{\left(x-3\right)^n}{n!}=\sum_{n=0}^{\infty}\frac{e^3}{n!}\left(x-3\right)^n, \left|x-3\right|<+\infty.
+e^x=e^3\cdot e^{x-3}=e^3\sum_{n=0}^{\infty}\frac{\left(x-3\right)^n}{n!}=\sum_{n=0}^{\infty}\frac{e^3}{n!}\left(x-3\right)^n, \left|x-3\right|< +\infty.
 $$
 
 由**定理 4.1**（泰勒级数）, 此即 $e^x$ 在 $x_0=3$ 处的泰勒展开式. $\blacksquare$
@@ -45,7 +45,7 @@ $$
 由**定义**（基本展开式）,
 
 $$
-\ln\left(1+t\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}t^n}{n}, \left|t\right|<1.
+\ln\left(1+t\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}t^n}{n}, \left|t\right|< 1.
 $$
 
 令 $t=\frac{x-2}{2}$, 得
@@ -54,7 +54,7 @@ $$
 \ln x=\ln 2+\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}}{n}\left(\frac{x-2}{2}\right)^n=\ln 2+\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}}{n\cdot 2^n}\left(x-2\right)^n,
 $$
 
-收敛范围为 $\left|\frac{x-2}{2}\right|<1$, 即 $0<x<4$. $\blacksquare$
+收敛范围为 $\left|\frac{x-2}{2}\right|< 1$, 即 $0< x< 4$. $\blacksquare$
 
 ### 习题三
 
@@ -65,7 +65,7 @@ $$
 利用半角公式 $\cos^2x=\frac{1+\cos 2x}{2}$. 由**定义**（基本展开式）, 
 
 $$
-\cos t=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n t^{2n}}{\left(2n\right)!}, \left|t\right|<+\infty.
+\cos t=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n t^{2n}}{\left(2n\right)!}, \left|t\right|< +\infty.
 $$
 
 令 $t=2x$, 得
@@ -75,7 +75,7 @@ $$
 =\frac12+\sum_{n=0}^{\infty}\frac{\left(-1\right)^n 2^{2n-1}}{\left(2n\right)!}x^{2n},
 $$
 
-收敛范围为 $\left|x\right|<+\infty$. $\blacksquare$
+收敛范围为 $\left|x\right|< +\infty$. $\blacksquare$
 
 ### 习题四
 

@@ -1,11 +1,11 @@
 # 作业 43
 
 > **定理 2.2**（魏尔斯特拉斯 M 判别法）设 $\left|u_n\left(x\right)\right|\le a_n$ 对一切 $x\in X$ 及充分大的 $n$ 成立, 且 $\sum a_n$ 收敛, 则函数项级数 $\sum u_n\left(x\right)$ 在 $X$ 上一致收敛.
->
+> 
 > **定理 2.4**（狄利克雷判别法）设函数项级数 $\sum a_n\left(x\right)b_n\left(x\right)$ 中, $\sum a_n\left(x\right)$ 的部分和序列在 $X$ 上一致有界, $b_n\left(x\right)$ 对每个 $x\in X$ 关于 $n$ 单调, 且 $b_n\left(x\right)$ 在 $X$ 上一致趋于零, 则 $\sum a_n\left(x\right)b_n\left(x\right)$ 在 $X$ 上一致收敛.
->
+> 
 > **定理 2.5**（和函数的连续性）设 $u_n\left(x\right)$ 在区间 $X$ 上连续, 且 $\sum u_n\left(x\right)$ 在 $X$ 上一致收敛, 则其和函数 $S\left(x\right)$ 在 $X$ 上连续.
->
+> 
 > **定理 2.7**（逐项求导定理）设 $\sum u_n\left(x\right)$ 在 $\left[a,b\right]$ 上收敛于 $S\left(x\right)$, $u_n\left(x\right)$ 在 $\left[a,b\right]$ 上有连续导数, 且 $\sum u_n'\left(x\right)$ 在 $\left[a,b\right]$ 上一致收敛, 则 $S\left(x\right)$ 在 $\left[a,b\right]$ 上可导, 且 $S'\left(x\right)=\sum u_n'\left(x\right)$.
 
 ### 习题一
@@ -40,7 +40,7 @@ $$
 S_N\left(x\right)=1-\frac{1}{1+Nx}.
 $$
 
-当 $x>0$ 时, $S_N\left(x\right)\to 1$; 当 $x=0$ 时, $S_N\left(0\right)=0$; 当 $x<0$ 时, $1+Nx$  eventually 取 $0$ 或负值, 级数在 $x<0$ 时无定义或发散. 故和函数在 $x=0$ 处不连续(右极限为 $1$, 而函数值为 $0$). 由于各项 $\frac{x}{\left(1+\left(n-1\right)x\right)\left(1+nx\right)}$ 在 $\left(0,+\infty\right)$ 上连续, 由**定理 2.5**（和函数的连续性）, 若级数在 $\left(0,+\infty\right)$ 上一致收敛则和函数必连续, 矛盾. 故该级数在 $\left(0,+\infty\right)$ 上不一致收敛. $\blacksquare$
+当 $x> 0$ 时, $S_N\left(x\right)\to 1$; 当 $x=0$ 时, $S_N\left(0\right)=0$; 当 $x< 0$ 时, $1+Nx$  eventually 取 $0$ 或负值, 级数在 $x< 0$ 时无定义或发散. 故和函数在 $x=0$ 处不连续(右极限为 $1$, 而函数值为 $0$). 由于各项 $\frac{x}{\left(1+\left(n-1\right)x\right)\left(1+nx\right)}$ 在 $\left(0,+\infty\right)$ 上连续, 由**定理 2.5**（和函数的连续性）, 若级数在 $\left(0,+\infty\right)$ 上一致收敛则和函数必连续, 矛盾. 故该级数在 $\left(0,+\infty\right)$ 上不一致收敛. $\blacksquare$
 
 ### 习题三
 
@@ -54,7 +54,7 @@ $$
 \left|\frac{1}{n^2+x^2}\right|\le\frac{1}{n^2}=a_n,
 $$
 
-而 $\sum\frac{1}{n^2}$ 为 $p=2>1$ 的 $p$ 级数, 收敛. 由**定理 2.2**（魏尔斯特拉斯 M 判别法）, 该级数在 $\left[0,+\infty\right)$ 上一致收敛. $\blacksquare$
+而 $\sum\frac{1}{n^2}$ 为 $p=2> 1$ 的 $p$ 级数, 收敛. 由**定理 2.2**（魏尔斯特拉斯 M 判别法）, 该级数在 $\left[0,+\infty\right)$ 上一致收敛. $\blacksquare$
 
 ### 习题四
 
@@ -83,7 +83,7 @@ $$
 
 ### 习题五
 
-（习题 11.2-10）讨论级数 $\sum_{n=1}^{+\infty}\left(-1\right)^{n-1}x^2e^{-nx^2}$($-\infty<x<+\infty$)的一致收敛性.
+（习题 11.2-10）讨论级数 $\sum_{n=1}^{+\infty}\left(-1\right)^{n-1}x^2e^{-nx^2}$($-\infty< x< +\infty$)的一致收敛性.
 
 ### 解答 习题五
 
@@ -157,11 +157,11 @@ $$
 
 ### 习题八
 
-（习题 11.2-6）设 $\zeta\left(x\right)=\sum_{n=1}^{\infty}\frac{1}{n^x}$($x>1$), 证明 $\zeta\left(x\right)$ 的导数存在, 并给出其表达式.
+（习题 11.2-6）设 $\zeta\left(x\right)=\sum_{n=1}^{\infty}\frac{1}{n^x}$($x> 1$), 证明 $\zeta\left(x\right)$ 的导数存在, 并给出其表达式.
 
 ### 解答 习题八
 
-对任意 $x_0>1$, 取 $a$ 满足 $1<a<x_0$. 在区间 $\left[a,+\infty\right)$ 上考察形式逐项求导级数: 
+对任意 $x_0> 1$, 取 $a$ 满足 $1< a< x_0$. 在区间 $\left[a,+\infty\right)$ 上考察形式逐项求导级数: 
 
 $$
 \sum_{n=1}^{\infty}\left(\frac{1}{n^x}\right)'=-\sum_{n=1}^{\infty}\frac{\ln n}{n^x}.
@@ -173,7 +173,7 @@ $$
 \left|\frac{\ln n}{n^x}\right|\le\frac{\ln n}{n^a}.
 $$
 
-因 $a>1$, 取 $\varepsilon>0$ 使 $a-\varepsilon>1$, 则
+因 $a> 1$, 取 $\varepsilon> 0$ 使 $a-\varepsilon> 1$, 则
 
 $$
 \frac{\ln n}{n^a}=\frac{\ln n}{n^\varepsilon}\cdot\frac{1}{n^{a-\varepsilon}}\le C\cdot\frac{1}{n^{a-\varepsilon}},
@@ -181,10 +181,10 @@ $$
 
 而 $\sum\frac{1}{n^{a-\varepsilon}}$ 收敛, 故 $\sum\frac{\ln n}{n^a}$ 收敛. 由**定理 2.2**（魏尔斯特拉斯 M 判别法）, 求导级数在 $\left[a,+\infty\right)$ 上一致收敛.
 
-又原级数 $\sum\frac{1}{n^x}$ 在 $x>1$ 时收敛. 由**定理 2.7**（逐项求导定理）, $\zeta\left(x\right)$ 在 $\left[a,+\infty\right)$ 上可导, 且
+又原级数 $\sum\frac{1}{n^x}$ 在 $x> 1$ 时收敛. 由**定理 2.7**（逐项求导定理）, $\zeta\left(x\right)$ 在 $\left[a,+\infty\right)$ 上可导, 且
 
 $$
 \zeta'\left(x\right)=-\sum_{n=1}^{\infty}\frac{\ln n}{n^x}.
 $$
 
-由 $x_0>1$ 的任意性, $\zeta\left(x\right)$ 在 $\left(1,+\infty\right)$ 上导数存在, 表达式为上式. $\blacksquare$
+由 $x_0> 1$ 的任意性, $\zeta\left(x\right)$ 在 $\left(1,+\infty\right)$ 上导数存在, 表达式为上式. $\blacksquare$

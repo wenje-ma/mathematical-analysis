@@ -1,6 +1,6 @@
 # 作业 17
 
-> **定义**（凸函数）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对 $\left(a,b\right)$ 中任意两点 $x_1$ 与 $x_2$($x_1<x_2$), 都有
+> **定义**（凸函数）设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对 $\left(a,b\right)$ 中任意两点 $x_1$ 与 $x_2$($x_1< x_2$), 都有
 > $$
 > f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right),
 > $$
@@ -19,9 +19,9 @@ $$
 y'=e^x+xe^x=\left(1+x\right)e^x, y''=e^x+\left(1+x\right)e^x=\left(2+x\right)e^x.
 $$
 
-令 $y''=0$, 得 $x=-2$. 因 $e^x>0$ 恒成立, 故 $y''$ 的符号由 $2+x$ 决定.
+令 $y''=0$, 得 $x=-2$. 因 $e^x> 0$ 恒成立, 故 $y''$ 的符号由 $2+x$ 决定.
 
-当 $x<-2$ 时 $y''<0$, 函数为凹的; 当 $x>-2$ 时 $y''>0$, 函数为凸的.
+当 $x< -2$ 时 $y''< 0$, 函数为凹的; 当 $x> -2$ 时 $y''> 0$, 函数为凸的.
 
 拐点为 $\left(-2,-2e^{-2}\right)$.
 
@@ -35,7 +35,7 @@ $$
 
 定义域为 $\left(0,+\infty\right)$. 求导得
 $$
-y'=\ln x+1, y''=\frac1x>0\left(x>0\right).
+y'=\ln x+1, y''=\frac1x> 0\left(x> 0\right).
 $$
 
 由**定理 5.1**（凸函数的二阶导数判别）, $y=x\ln x$ 在 $\left(0,+\infty\right)$ 上为凸函数, 无拐点. $\blacksquare$
@@ -43,13 +43,13 @@ $$
 ### 习题三
 
 （习题 3.5-2）利用凸函数概念证明下列不等式: 
-(1) 设 $a>0,b>0$, 证明
+(1) 设 $a> 0,b> 0$, 证明
 
 $$
 2\arctan\frac{a+b}{2}\ge\arctan a+\arctan b;
 $$
 
-(2) 若 $a,b,c$ 均为正数, 证明 $a^{\alpha}b^{\beta}c^{\gamma}\le\alpha a+\beta b+\gamma c$, 其中 $\alpha+\beta+\gamma=1$, $\alpha,\beta,\gamma>0$.
+(2) 若 $a,b,c$ 均为正数, 证明 $a^{\alpha}b^{\beta}c^{\gamma}\le\alpha a+\beta b+\gamma c$, 其中 $\alpha+\beta+\gamma=1$, $\alpha,\beta,\gamma> 0$.
 
 ### 解答 习题三
 
@@ -58,7 +58,7 @@ $$
 f'\left(x\right)=\frac{1}{1+x^2}, f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}.
 $$
 
-当 $x>0$ 时 $f''\left(x\right)<0$, 故 $f\left(x\right)=\arctan x$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由凹函数的定义, 对任意 $a,b>0$ 及 $t\in\left(0,1\right)$, 
+当 $x> 0$ 时 $f''\left(x\right)< 0$, 故 $f\left(x\right)=\arctan x$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由凹函数的定义, 对任意 $a,b> 0$ 及 $t\in\left(0,1\right)$, 
 $$
 f\left(ta+\left(1-t\right)b\right)\ge tf\left(a\right)+\left(1-t\right)f\left(b\right).
 $$
@@ -73,7 +73,7 @@ $$
 2\arctan\frac{a+b}{2}\ge\arctan a+\arctan b.
 $$
 
-(2)由习题二, $y=x\ln x$ 在 $\left(0,+\infty\right)$ 上为凸函数. 由凸函数的定义, 对任意 $a,b,c>0$ 及 $\alpha+\beta+\gamma=1$, 
+(2)由习题二, $y=x\ln x$ 在 $\left(0,+\infty\right)$ 上为凸函数. 由凸函数的定义, 对任意 $a,b,c> 0$ 及 $\alpha+\beta+\gamma=1$, 
 $$
 \alpha a\ln a+\beta b\ln b+\gamma c\ln c\ge\left(\alpha a+\beta b+\gamma c\right)\ln\left(\alpha a+\beta b+\gamma c\right).
 $$
@@ -184,24 +184,24 @@ $$
 
 因 $f\left(x\right)$ 为凸函数, 由**定理 5.1**（凸函数的二阶导数判别）, $f''\left(x\right)\ge0$, 故 $f'\left(x\right)$ 为递增函数.
 
-反证: 假定 $f'\left(x\right)$ 不恒为 $0$. 则存在 $x_0$ 使得 $f'\left(x_0\right)>0$ 或 $f'\left(x_0\right)<0$.
+反证: 假定 $f'\left(x\right)$ 不恒为 $0$. 则存在 $x_0$ 使得 $f'\left(x_0\right)> 0$ 或 $f'\left(x_0\right)< 0$.
 
-若 $f'\left(x_0\right)>0$, 因 $f'$ 递增, 故当 $x>x_0$ 时 $f'\left(x\right)\ge f'\left(x_0\right)>0$. 由拉格朗日中值定理, 
+若 $f'\left(x_0\right)> 0$, 因 $f'$ 递增, 故当 $x> x_0$ 时 $f'\left(x\right)\ge f'\left(x_0\right)> 0$. 由拉格朗日中值定理, 
 $$
 f\left(x\right)=f\left(x_0\right)+f'\left(\xi\right)\left(x-x_0\right)\ge f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty\left(x\to+\infty\right).
 $$
 
 这与 $f\left(x\right)$ 有界矛盾.
 
-若 $f'\left(x_0\right)<0$, 因 $f'$ 递增, 故当 $x<x_0$ 时 $f'\left(x\right)\le f'\left(x_0\right)<0$. 由拉格朗日中值定理, 
+若 $f'\left(x_0\right)< 0$, 因 $f'$ 递增, 故当 $x< x_0$ 时 $f'\left(x\right)\le f'\left(x_0\right)< 0$. 由拉格朗日中值定理, 
 $$
-f\left(x_0\right)-f\left(x\right)=f'\left(\xi\right)\left(x_0-x\right)\le f'\left(x_0\right)\left(x_0-x\right)<0,
+f\left(x_0\right)-f\left(x\right)=f'\left(\xi\right)\left(x_0-x\right)\le f'\left(x_0\right)\left(x_0-x\right)< 0,
 $$
 
 即
 
 $$
-f\left(x\right)\ge f\left(x_0\right)-f'\left(x_0\right)\left(x-x_0\right)\to+\infty\ \left(x\to-\infty\text{, 因}-f'\left(x_0\right)>0\right).
+f\left(x\right)\ge f\left(x_0\right)-f'\left(x_0\right)\left(x-x_0\right)\to+\infty\ \left(x\to-\infty\text{, 因}-f'\left(x_0\right)> 0\right).
 $$
 
 这与 $f\left(x\right)$ 有界矛盾.
@@ -233,7 +233,7 @@ $$
 
 令 $y'=0$, 得 $x=-1$ 或 $x=5$.
 
-当 $x<-1$ 时 $y'<0$(分母负, 分子正); 当 $-1<x<1$ 时 $y'<0$; 当 $1<x<5$ 时 $y'<0$; 当 $x>5$ 时 $y'>0$.
+当 $x< -1$ 时 $y'< 0$(分母负, 分子正); 当 $-1< x< 1$ 时 $y'< 0$; 当 $1< x< 5$ 时 $y'< 0$; 当 $x> 5$ 时 $y'> 0$.
 
 故 $x=5$ 为极小值点, 极小值 $y\left(5\right)=\frac{6^3}{4^2}=\frac{216}{16}=\frac{27}{2}$. $x=-1$ 不是极值点(两侧导数同号).
 
@@ -242,7 +242,7 @@ $$
 y''=\frac{\left[\left(x+1\right)^2\left(x-5\right)\right]'\left(x-1\right)^3-\left(x+1\right)^2\left(x-5\right)\cdot3\left(x-1\right)^2}{\left(x-1\right)^6}=\frac{2\left(x+1\right)\left(x-1\right)^2-3\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^4}=\frac{16\left(x+1\right)}{\left(x-1\right)^4}.
 $$
 
-当 $x<-1$ 时 $y''<0$(凹); 当 $x>-1$ 且 $x\ne1$ 时 $y''>0$(凸). 拐点为 $\left(-1,0\right)$.
+当 $x< -1$ 时 $y''< 0$(凹); 当 $x> -1$ 且 $x\ne1$ 时 $y''> 0$(凸). 拐点为 $\left(-1,0\right)$.
 
 综合以上信息可描绘函数图形. $\blacksquare$
 
@@ -261,14 +261,14 @@ $$
 y'=e^{-x}-xe^{-x}=\left(1-x\right)e^{-x}.
 $$
 
-令 $y'=0$, 得 $x=1$. 当 $x<1$ 时 $y'>0$, 当 $x>1$ 时 $y'<0$. 故 $x=1$ 为极大值点, 极大值 $y\left(1\right)=e^{-1}=\frac1e$.
+令 $y'=0$, 得 $x=1$. 当 $x< 1$ 时 $y'> 0$, 当 $x> 1$ 时 $y'< 0$. 故 $x=1$ 为极大值点, 极大值 $y\left(1\right)=e^{-1}=\frac1e$.
 
 **凸凹性与拐点**: 
 $$
 y''=-e^{-x}-\left(1-x\right)e^{-x}=\left(x-2\right)e^{-x}.
 $$
 
-令 $y''=0$, 得 $x=2$. 当 $x<2$ 时 $y''<0$(凹); 当 $x>2$ 时 $y''>0$(凸). 拐点为 $\left(2,2e^{-2}\right)$.
+令 $y''=0$, 得 $x=2$. 当 $x< 2$ 时 $y''< 0$(凹); 当 $x> 2$ 时 $y''> 0$(凸). 拐点为 $\left(2,2e^{-2}\right)$.
 
 综合以上信息可描绘函数图形. $\blacksquare$
 
@@ -293,7 +293,7 @@ $$
 x=\pm\frac{1}{\sqrt2}}.
 $$
 
-当 $x<-\frac{1}{\sqrt2}$ 时 $y'<0$; 当 $-\frac{1}{\sqrt2}<x<\frac{1}{\sqrt2}$ 时 $y'>0$; 当 $x>\frac{1}{\sqrt2}$ 时 $y'<0$.
+当 $x< -\frac{1}{\sqrt2}$ 时 $y'< 0$; 当 $-\frac{1}{\sqrt2}< x< \frac{1}{\sqrt2}$ 时 $y'> 0$; 当 $x> \frac{1}{\sqrt2}$ 时 $y'< 0$.
 
 故 $x=-\frac{1}{\sqrt2}$ 为极小值点, 极小值 $-\frac{1}{\sqrt{2e}}$; $x=\frac{1}{\sqrt2}$ 为极大值点, 极大值 $\frac{1}{\sqrt{2e}}$.
 
@@ -304,7 +304,7 @@ $$
 
 令 $y''=0$, 得 $x=0$ 或 $x=\pm\sqrt{\frac32}$.
 
-当 $x<-\sqrt{\frac32}$ 时 $y''<0$(凹); 当 $-\sqrt{\frac32}<x<0$ 时 $y''>0$(凸); 当 $0<x<\sqrt{\frac32}$ 时 $y''<0$(凹); 当 $x>\sqrt{\frac32}$ 时 $y''>0$(凸).
+当 $x< -\sqrt{\frac32}$ 时 $y''< 0$(凹); 当 $-\sqrt{\frac32}< x< 0$ 时 $y''> 0$(凸); 当 $0< x< \sqrt{\frac32}$ 时 $y''< 0$(凹); 当 $x> \sqrt{\frac32}$ 时 $y''> 0$(凸).
 
 拐点为 $\left(0,0\right)$ 及 $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$.
 

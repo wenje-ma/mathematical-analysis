@@ -71,7 +71,7 @@ $\blacksquare$
 (Problem 8.4-3) Evaluate $\displaystyle\iiint_\Omega\left(x+y+z\right)^3\,\mathrm{d}V$, where
 
 $$
-\Omega=\left\{\left(x,y,z\right):x^2+y^2+z^2\le R^2\right\}\ \left(R>0\right).
+\Omega=\left\{\left(x,y,z\right):x^2+y^2+z^2\le R^2\right\}\ \left(R> 0\right).
 $$
 
 (Hint: make use of the symmetry of the region of integration.)
@@ -97,7 +97,7 @@ $\blacksquare$
 (Problem 8.4-5) Evaluate $\displaystyle\iiint_\Omega\left(x^2+y^2+z^2\right)\,\mathrm{d}V$, where
 
 $$
-\Omega=\left\{\left(x,y,z\right):a^2\le x^2+y^2+z^2\le b^2\right\}\ \left(0<a<b\right).
+\Omega=\left\{\left(x,y,z\right):a^2\le x^2+y^2+z^2\le b^2\right\}\ \left(0< a< b\right).
 $$
 
 ### Solution to Problem 4
@@ -188,7 +188,7 @@ $$
 $\blacksquare$
 ### Problem 8
 
-(Problem 8.4-10) Evaluate $\displaystyle\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V$, where $\Omega$ is the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$).
+(Problem 8.4-10) Evaluate $\displaystyle\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V$, where $\Omega$ is the ellipsoid $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a> 0,b> 0,c> 0$).
 
 ### Solution to Problem 8
 

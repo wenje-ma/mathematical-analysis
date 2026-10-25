@@ -1,6 +1,6 @@
 # Assignment 14
 
-> **Theorem 2.1** (Cauchy Mean Value Theorem) Let $y=f\left(x\right)$ and $y=g\left(x\right)$ be continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, with $g'\left(x\right)\ne0$ ($a<x<b$). Then there exists a point $c\in\left(a,b\right)$ such that
+> **Theorem 2.1** (Cauchy Mean Value Theorem) Let $y=f\left(x\right)$ and $y=g\left(x\right)$ be continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, with $g'\left(x\right)\ne0$ ($a< x< b$). Then there exists a point $c\in\left(a,b\right)$ such that
 > $$
 > \frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}.
 > $$
@@ -21,7 +21,7 @@
 (Problem 3.2-1) Find the limits of the following indeterminate forms:
 (1) $\lim\limits_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}$ ($a\ne0,b\ne0$);
 
-(2) $\lim\limits_{x\to0}\frac{a^x-1}{x}$ ($a>0$);
+(2) $\lim\limits_{x\to0}\frac{a^x-1}{x}$ ($a> 0$);
 
 (3) $\lim\limits_{x\to0}\frac{\tan x-x}{x-\arcsin x}$;
 

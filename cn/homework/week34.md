@@ -183,7 +183,7 @@ $$
 $\blacksquare$
 ### 习题六
 
-（习题 9.2-6）设 $A>0,B>0$ 为常数. 又设 $L_r$ 为椭圆 $A^2x^2+B^2y^2=r^2$ ($r>0$). 试证明 $\displaystyle\oint_{L_r^+}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$, 其中 $L_r^+$ 表示积分沿 $L_r$ 的逆时针方向进行.
+（习题 9.2-6）设 $A> 0,B> 0$ 为常数. 又设 $L_r$ 为椭圆 $A^2x^2+B^2y^2=r^2$ ($r> 0$). 试证明 $\displaystyle\oint_{L_r^+}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$, 其中 $L_r^+$ 表示积分沿 $L_r$ 的逆时针方向进行.
 
 ### 解答 习题六
 
@@ -213,7 +213,7 @@ $$
 \frac{\partial Q}{\partial x}=\frac{A^2y^2-B^2x^2}{\left(A^2x^2+B^2y^2\right)^2}=\frac{\partial P}{\partial y}.
 $$
 
-取充分小的 $r>0$, 使椭圆 $L_r$ 完全含于 $\Gamma$ 内部. 在 $\Gamma$ 与 $L_r$ 所夹的复连通区域上应用**定理 2.3**（复连通区域上的格林公式）, 外边界 $\Gamma$ 取正向, 内边界 $L_r$ 取顺时针方向. 由于区域内 $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=0$, 得
+取充分小的 $r> 0$, 使椭圆 $L_r$ 完全含于 $\Gamma$ 内部. 在 $\Gamma$ 与 $L_r$ 所夹的复连通区域上应用**定理 2.3**（复连通区域上的格林公式）, 外边界 $\Gamma$ 取正向, 内边界 $L_r$ 取顺时针方向. 由于区域内 $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=0$, 得
 
 $$
 \oint_{\Gamma^+}P\,\mathrm{d}x+Q\,\mathrm{d}y-\oint_{L_r^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=0,

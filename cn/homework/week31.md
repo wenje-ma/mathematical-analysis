@@ -71,7 +71,7 @@ $\blacksquare$
 （习题 8.4-3）计算 $\displaystyle\iiint_\Omega\left(x+y+z\right)^3\,\mathrm{d}V$, 其中
 
 $$
-\Omega=\left\{\left(x,y,z\right):x^2+y^2+z^2\le R^2\right\}\ \left(R>0\right).
+\Omega=\left\{\left(x,y,z\right):x^2+y^2+z^2\le R^2\right\}\ \left(R> 0\right).
 $$
 
 (提示: 注意利用积分区域的对称性.)
@@ -97,7 +97,7 @@ $\blacksquare$
 （习题 8.4-5）计算 $\displaystyle\iiint_\Omega\left(x^2+y^2+z^2\right)\,\mathrm{d}V$, 其中
 
 $$
-\Omega=\left\{\left(x,y,z\right):a^2\le x^2+y^2+z^2\le b^2\right\}\ \left(0<a<b\right).
+\Omega=\left\{\left(x,y,z\right):a^2\le x^2+y^2+z^2\le b^2\right\}\ \left(0< a< b\right).
 $$
 
 ### 解答 习题四
@@ -188,7 +188,7 @@ $$
 $\blacksquare$
 ### 习题八
 
-（习题 8.4-10）计算 $\displaystyle\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V$, 其中 $\Omega$ 为椭球体 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a>0,b>0,c>0$).
+（习题 8.4-10）计算 $\displaystyle\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V$, 其中 $\Omega$ 为椭球体 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ ($a> 0,b> 0,c> 0$).
 
 ### 解答 习题八
 

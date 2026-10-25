@@ -1,7 +1,7 @@
 # Assignment 38
 
 > **Definition** (Convergence of a Series) Given a sequence $\left\{a_n\right\}$, form the partial sums $S_n=\sum_{k=1}^{n}a_k$. If $\lim_{n\to\infty}S_n=S$ exists and is finite, then the series $\sum_{n=1}^{\infty}a_n$ is said to converge, and $S$ is called its sum; otherwise the series is said to diverge.
->
+> 
 > **Theorem 1.1** (Necessary Condition for a Convergent Series) If the series $\sum_{n=1}^{\infty}a_n$ converges, then $\lim_{n\to\infty}a_n=0$.
 
 ### Problem 1
@@ -10,7 +10,7 @@
 $$
 a_0+a_0q+a_0q^2+\cdots+a_0q^n+\cdots\left(a_0\ne 0\right)
 $$
-converges when $\left|q\right|<1$, with $a_0+a_0q+\cdots=\frac{a_0}{1-q}$. When $\left|q\right|\ge 1$, the above series diverges.
+converges when $\left|q\right|< 1$, with $a_0+a_0q+\cdots=\frac{a_0}{1-q}$. When $\left|q\right|\ge 1$, the above series diverges.
 
 ### Solution to Problem 1
 
@@ -20,7 +20,7 @@ $$
 S_n=a_0+a_0q+\cdots+a_0q^n=a_0\cdot\frac{1-q^{n+1}}{1-q}, q\ne 1.
 $$
 
-When $\left|q\right|<1$, $\lim_{n\to\infty}q^{n+1}=0$, so by **Definition** (Convergence of a Series),
+When $\left|q\right|< 1$, $\lim_{n\to\infty}q^{n+1}=0$, so by **Definition** (Convergence of a Series),
 
 $$
 \lim_{n\to\infty}S_n=\frac{a_0}{1-q},
@@ -28,7 +28,7 @@ $$
 
 and the series converges with sum $\frac{a_0}{1-q}$.
 
-When $q=1$, $S_n=a_0\left(n+1\right)\to\infty$ ($a_0\ne 0$), so the series diverges. When $q=-1$, $S_n$ oscillates between $a_0$ and $0$ and does not converge. When $\left|q\right|>1$, the general term $a_0q^n$ does not tend to $0$, so by **Theorem 1.1** (Necessary Condition for a Convergent Series), the series diverges. $\blacksquare$
+When $q=1$, $S_n=a_0\left(n+1\right)\to\infty$ ($a_0\ne 0$), so the series diverges. When $q=-1$, $S_n$ oscillates between $a_0$ and $0$ and does not converge. When $\left|q\right|> 1$, the general term $a_0q^n$ does not tend to $0$, so by **Theorem 1.1** (Necessary Condition for a Convergent Series), the series diverges. $\blacksquare$
 
 ### Problem 2
 
@@ -116,13 +116,13 @@ $$
 and hence
 
 $$
-\sum_{n=2}^{N}\frac{1}{n^2}\le\sum_{n=2}^{N}\left(\frac{1}{n-1}-\frac{1}{n}\right)=1-\frac{1}{N}<1.
+\sum_{n=2}^{N}\frac{1}{n^2}\le\sum_{n=2}^{N}\left(\frac{1}{n-1}-\frac{1}{n}\right)=1-\frac{1}{N}< 1.
 $$
 
 The partial sums of the positive-term series $\sum\frac{1}{2n^2}$ are bounded, so it converges. Furthermore,
 
 $$
-0\le\sum_{n=1}^{N}\arctan\frac{1}{2n^2}\le\sum_{n=1}^{N}\frac{1}{2n^2}<\frac12,
+0\le\sum_{n=1}^{N}\arctan\frac{1}{2n^2}\le\sum_{n=1}^{N}\frac{1}{2n^2}< \frac12,
 $$
 
 so the partial sums of $\sum\arctan\frac{1}{2n^2}$ are monotonically increasing and bounded above; by the completeness of the real numbers (**Proposition 1.5** of Chapter 1) its limit exists and is finite, and hence by **Definition** (Convergence of a Series), this series converges. $\blacksquare$

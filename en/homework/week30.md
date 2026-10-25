@@ -92,7 +92,7 @@ $$
 $\blacksquare$
 ### Problem 3
 
-(Problem 8.3-6) Find the area of the region $D$ bounded by the curve $\left(\frac{x^2}{a^2}+\frac{y^2}{b^2}\right)^2=\frac{xy}{c^2}$ ($a>0,b>0,c>0$).
+(Problem 8.3-6) Find the area of the region $D$ bounded by the curve $\left(\frac{x^2}{a^2}+\frac{y^2}{b^2}\right)^2=\frac{xy}{c^2}$ ($a> 0,b> 0,c> 0$).
 
 ### Solution to Problem 3
 

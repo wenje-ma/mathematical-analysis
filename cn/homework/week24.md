@@ -2,18 +2,18 @@
 
 > **定理 2.1**（上下极限与极限存在）设 $\left\{a_n\right\}$ 为一个有界序列. 则序列 $\left\{a_n\right\}$ 有极限之充要条件为其上极限与下极限相等.
 
-> **定理 2.2**（柯西收敛原理）序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\varepsilon>0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|<\varepsilon$ (只要 $m\ge N,n\ge N$).
+> **定理 2.2**（柯西收敛原理）序列 $\left\{a_n\right\}$ 有极限之充要条件是: 对任意给定的 $\varepsilon> 0$, 存在一个自然数 $N$, 使得 $\left|a_n-a_m\right|< \varepsilon$ (只要 $m\ge N,n\ge N$).
 ### 习题一
 
 （习题 5.2-1）利用序列柯西收敛原理证明: 若 $\left\{a_n\right\}$ 收敛, 则 $\left\{\left|a_n\right|\right\}$ 收敛.
 
 ### 解答 习题一
 
-设 $\lim\limits_{n\to\infty}a_n=l$. 由柯西收敛原理, 对任意 $\varepsilon>0$, 存在 $N$, 使得当 $m,n\ge N$ 时 $\left|a_n-a_m\right|<\varepsilon$.
+设 $\lim\limits_{n\to\infty}a_n=l$. 由柯西收敛原理, 对任意 $\varepsilon> 0$, 存在 $N$, 使得当 $m,n\ge N$ 时 $\left|a_n-a_m\right|< \varepsilon$.
 
 由三角不等式, 
 $$
-\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|<\varepsilon.
+\left|\right|a_n\left|-\right|a_m\left|\right|\le\left|a_n-a_m\right|< \varepsilon.
 $$
 
 故 $\left\{\left|a_n\right|\right\}$ 满足柯西条件. 由**定理 2.2**（柯西收敛原理）, $\left\{\left|a_n\right|\right\}$ 收敛. $\blacksquare$
@@ -103,7 +103,7 @@ $$
 
 ### 解答 习题四
 
-(1)设 $m>n$. 则
+(1)设 $m> n$. 则
 $$
 \left|a_m-a_n\right|=\left|\frac{\left(-1\right)^n}{n+1}+\frac{\left(-1\right)^{n+1}}{n+2}+\cdots+\frac{\left(-1\right)^{m-1}}{m}\right|.
 $$
@@ -113,19 +113,19 @@ $$
 \left|a_m-a_n\right|\le\frac{1}{n+1}.
 $$
 
-对任意 $\varepsilon>0$, 取 $N>\frac1\varepsilon$, 则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛.
+对任意 $\varepsilon> 0$, 取 $N> \frac1\varepsilon$, 则当 $m,n> N$ 时 $\left|a_m-a_n\right|< \varepsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛.
 
-(2)设 $m>n$. 则
+(2)设 $m> n$. 则
 $$
 \left|a_m-a_n\right|=\left|\frac{\sin\left(n+1\right)}{\left(n+1\right)!}+\cdots+\frac{\sin m}{m!}\right|\le\frac{1}{\left(n+1\right)!}+\cdots+\frac{1}{m!}.
 $$
 
-当 $n$ 充分大时, $\left(n+1\right)!>2^{n+1}$, 故
+当 $n$ 充分大时, $\left(n+1\right)!> 2^{n+1}$, 故
 $$
 \left|a_m-a_n\right|\le\frac{1}{2^{n+1}}+\frac{1}{2^{n+2}}+\cdots=\frac{1}{2^n}.
 $$
 
-对任意 $\varepsilon>0$, 取 $N$ 使得 $2^N>\frac1\varepsilon$, 则当 $m,n>N$ 时 $\left|a_m-a_n\right|<\varepsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛. $\blacksquare$
+对任意 $\varepsilon> 0$, 取 $N$ 使得 $2^N> \frac1\varepsilon$, 则当 $m,n> N$ 时 $\left|a_m-a_n\right|< \varepsilon$. 由**定理 2.2**（柯西收敛原理）, $\left\{a_n\right\}$ 收敛. $\blacksquare$
 
 ### 习题五
 
@@ -135,20 +135,20 @@ $$
 $$
 ### 解答 习题五
 
-记 $l=\lim\limits_{n\to\infty}f\left(x_n\right)$. 对任意 $\delta>0$, 当 $n$ 充分大时
+记 $l=\lim\limits_{n\to\infty}f\left(x_n\right)$. 对任意 $\delta> 0$, 当 $n$ 充分大时
 
 $$
-x_n\in\left\{x:0<\left|x-a\right|<\delta\right\}.
+x_n\in\left\{x:0< \left|x-a\right|< \delta\right\}.
 $$
 
 故
 $$
-\inf\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}\le f\left(x_n\right)\le\sup\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}.
+\inf\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}\le f\left(x_n\right)\le\sup\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}.
 $$
 
 令 $n\to\infty$, 得
 $$
-\inf\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}\le l\le\sup\left\{f\left(x\right):0<\left|x-a\right|<\delta\right\}.
+\inf\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}\le l\le\sup\left\{f\left(x\right):0< \left|x-a\right|< \delta\right\}.
 $$
 
 再令 $\delta\to0$, 由上下极限的定义, 
@@ -165,14 +165,14 @@ $$
 $$
 ### 解答 习题六
 
-记 $L=\varlimsup_{x\to a}f\left(x\right)$. 由上极限的定义, 对任意 $n$, 在 $\left\{x:0<\left|x-a\right|<1/n\right\}$ 中存在 $x_n'$ 使得
+记 $L=\varlimsup_{x\to a}f\left(x\right)$. 由上极限的定义, 对任意 $n$, 在 $\left\{x:0< \left|x-a\right|< 1/n\right\}$ 中存在 $x_n'$ 使得
 $$
-f\left(x_n'\right)>\sup\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}-\frac1n.
+f\left(x_n'\right)> \sup\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}-\frac1n.
 $$
 
 显然 $x_n'\to a$($n\to\infty$). 又
 $$
-\sup\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}-\frac1n<f\left(x_n'\right)\le\sup\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}.
+\sup\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}-\frac1n< f\left(x_n'\right)\le\sup\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}.
 $$
 
 令 $n\to\infty$, 由夹逼定理, $\lim\limits_{n\to\infty}f\left(x_n'\right)=L$.
@@ -180,7 +180,7 @@ $$
 下极限的情形类似, 取 $x_n''$ 使得
 
 $$
-f\left(x_n''\right)<\inf\left\{f\left(x\right):0<\left|x-a\right|<1/n\right\}+\frac1n
+f\left(x_n''\right)< \inf\left\{f\left(x\right):0< \left|x-a\right|< 1/n\right\}+\frac1n
 $$
 
 即可. $\blacksquare$

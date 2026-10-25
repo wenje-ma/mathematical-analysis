@@ -22,7 +22,7 @@
 
 ### 习题一
 
-（习题 12.4-1-1）讨论含参变量无穷积分 $\displaystyle\int_0^{+\infty}e^{-\alpha x^2}\,\mathrm{d}x$ 在 $\alpha\in\left[\alpha_0,+\infty\right)$($\alpha_0>0$)上的一致收敛性.
+（习题 12.4-1-1）讨论含参变量无穷积分 $\displaystyle\int_0^{+\infty}e^{-\alpha x^2}\,\mathrm{d}x$ 在 $\alpha\in\left[\alpha_0,+\infty\right)$($\alpha_0> 0$)上的一致收敛性.
 
 ### 解答 习题一
 
@@ -34,11 +34,11 @@
 
 ### 解答 习题二
 
-将被积函数写成 $\frac{\cos x}{x}\cdot e^{-xy}$. 首先, $\int_1^{+\infty}\frac{\cos x}{x}\,\mathrm{d}x$ 收敛(由第 12 章**定理 1.6** 狄利克雷判别法), 且它不含参数 $y$, 故关于 $y\in\left[0,+\infty\right)$ 一致收敛. 其次, $e^{-xy}$ 关于 $x$ 单调递减, 且 $0<e^{-xy}\le1$ 关于 $y\in\left[0,+\infty\right)$ 一致有界. 由**定理 4.4**（阿贝尔判别法）, $\int_1^{+\infty}e^{-xy}\frac{\cos x}{x}\,\mathrm{d}x$ 在 $\left[0,+\infty\right)$ 上一致收敛. $\blacksquare$
+将被积函数写成 $\frac{\cos x}{x}\cdot e^{-xy}$. 首先, $\int_1^{+\infty}\frac{\cos x}{x}\,\mathrm{d}x$ 收敛(由第 12 章**定理 1.6** 狄利克雷判别法), 且它不含参数 $y$, 故关于 $y\in\left[0,+\infty\right)$ 一致收敛. 其次, $e^{-xy}$ 关于 $x$ 单调递减, 且 $0< e^{-xy}\le1$ 关于 $y\in\left[0,+\infty\right)$ 一致有界. 由**定理 4.4**（阿贝尔判别法）, $\int_1^{+\infty}e^{-xy}\frac{\cos x}{x}\,\mathrm{d}x$ 在 $\left[0,+\infty\right)$ 上一致收敛. $\blacksquare$
 
 ### 习题三
 
-（习题 12.4-1-5）讨论含参变量无穷积分 $\displaystyle\int_0^{+\infty}e^{-x^2y^2}\cos x\,\mathrm{d}x$ 在 $y\in\left[y_0,+\infty\right)$($y_0>0$)上的一致收敛性.
+（习题 12.4-1-5）讨论含参变量无穷积分 $\displaystyle\int_0^{+\infty}e^{-x^2y^2}\cos x\,\mathrm{d}x$ 在 $y\in\left[y_0,+\infty\right)$($y_0> 0$)上的一致收敛性.
 
 ### 解答 习题三
 
@@ -52,7 +52,7 @@ $$
 
 ### 习题四
 
-（习题 12.4-2-1）求积分 $\displaystyle\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}{x}\,\mathrm{d}x$($0<a<b$)的值.
+（习题 12.4-2-1）求积分 $\displaystyle\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}{x}\,\mathrm{d}x$($0< a< b$)的值.
 
 ### 解答 习题四
 
@@ -75,7 +75,7 @@ $\blacksquare$
 （习题 12.4-2-2）求积分
 
 $$
-\displaystyle\int_0^{+\infty}\frac{\sin\left(\alpha x\right)\cos\left(\beta x\right)}{x}\,\mathrm{d}x\ \left(\alpha>0,\beta>0\right)
+\displaystyle\int_0^{+\infty}\frac{\sin\left(\alpha x\right)\cos\left(\beta x\right)}{x}\,\mathrm{d}x\ \left(\alpha> 0,\beta> 0\right)
 $$
 
 的值.
@@ -100,14 +100,14 @@ $$
 \int_0^{+\infty}\frac{\sin\left(kx\right)}{x}\,\mathrm{d}x=\frac{\pi}{2}\operatorname{sgn}\left(k\right).
 $$
 
-因 $\alpha+\beta>0$, 第一项为 $\frac12\cdot\frac{\pi}{2}=\frac{\pi}{4}$. 第二项依 $\alpha-\beta$ 的符号而定:
+因 $\alpha+\beta> 0$, 第一项为 $\frac12\cdot\frac{\pi}{2}=\frac{\pi}{4}$. 第二项依 $\alpha-\beta$ 的符号而定:
 
 $$
 I=
 \begin{cases}
-\frac12\cdot\frac{\pi}{4}+\frac12\cdot\left(-\frac{\pi}{4}\right)=0,&\alpha<\beta,\\[4pt\right]
+\frac12\cdot\frac{\pi}{4}+\frac12\cdot\left(-\frac{\pi}{4}\right)=0,&\alpha< \beta,\\[4pt\right]
 \frac{\pi}{4}+0=\frac{\pi}{4},&\alpha=\beta,\\[4pt\right]
-\frac{\pi}{4}+\frac12\cdot\frac{\pi}{2}=\frac{\pi}{2},&\alpha>\beta.
+\frac{\pi}{4}+\frac12\cdot\frac{\pi}{2}=\frac{\pi}{2},&\alpha> \beta.
 \end{cases}
 
 $$
@@ -165,7 +165,7 @@ $$
 
 因 $u_n\ge0$, 故 $R_N\left(x\right)\ge0$, 且 $R_N\left(x\right)$ 关于 $N$ 单调递减; 又 $R_N\left(x\right)$ 是两个连续函数之差, 故在 $\left[a,b\right]$ 上连续. 由点态收敛, $R_N\left(x\right)\to0\left(N\to\infty\right)$ 对每个 $x$ 成立.
 
-用反证法. 假设 $\sum u_n$ 在 $\left[a,b\right]$ 上不一致收敛, 则存在 $\varepsilon_0>0$ 及一列 $N_k\to\infty$ 和 $x_k\in\left[a,b\right]$, 使 $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. 由波尔查诺–魏尔斯特拉斯定理, $\left\{x_k\right\}$ 有子列收敛于某 $x_0\in\left[a,b\right]$, 不妨仍记 $x_k\to x_0$.
+用反证法. 假设 $\sum u_n$ 在 $\left[a,b\right]$ 上不一致收敛, 则存在 $\varepsilon_0> 0$ 及一列 $N_k\to\infty$ 和 $x_k\in\left[a,b\right]$, 使 $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. 由波尔查诺–魏尔斯特拉斯定理, $\left\{x_k\right\}$ 有子列收敛于某 $x_0\in\left[a,b\right]$, 不妨仍记 $x_k\to x_0$.
 
 对任意固定的 $m$, 当 $N_k\ge m$ 时, 由 $R_N\left(x\right)$ 关于 $N$ 单调递减, 有 $R_{N_k}\left(x_k\right)\le R_m\left(x_k\right)$. 令 $k\to\infty$, 由 $R_m\left(x\right)$ 连续得
 

@@ -2,11 +2,11 @@
 
 > **定义**（定积分）设 $f\left(x\right)$ 定义在区间 $\left[a,b\right]$ 上. 对 $\left[a,b\right]$ 作分割
 > $$
-> T:a=x_0<x_1<\cdots<x_n=b,
+> T:a=x_0< x_1< \cdots< x_n=b,
 > $$
-记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\varepsilon>0$, 存在 $\delta>0$, 只要 $\lambda\left(T\right)<\delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
+记 $\Delta x_k=x_k-x_{k-1}$, $\lambda\left(T\right)=\max_{1\le k\le n}\Delta x_k$. 若存在常数 $I$, 使得对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 只要 $\lambda\left(T\right)< \delta$, 不论分割 $T$ 如何取, 中间点 $\xi_k\in\left[x_{k-1},x_k\right]$ 如何取, 都有
 > $$
-> \left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|<\varepsilon,
+> \left|\sum_{k=1}^n f\left(\xi_k\right)\Delta x_k-I\right|< \varepsilon,
 > $$
 > 则称 $I$ 为 $f\left(x\right)$ 在 $\left[a,b\right]$ 上的定积分, 记作 $\int_a^b f\left(x\right)\,\mathrm{d}x$.
 
@@ -54,7 +54,7 @@ $\blacksquare$
 
 ### 习题二
 
-（习题 6.1-3）设函数 $x=\varphi\left(y\right)$ 在 $\left[c,d\right]$ 上连续, 且 $\varphi\left(y\right)>0$. 试用定积分表示由曲线 $x=\varphi\left(y\right)$, $y=c$, $y=d$ 及 $y$ 轴所围图形的面积; 又设 $c\ge0$, 函数 $x=\varphi\left(y\right)$ 在 $\left[c,d\right]$ 上严格递增. 试求积分和 $\int_c^d \varphi\left(y\right)\,\mathrm{d}y+\int_a^b \psi\left(x\right)\,\mathrm{d}x$, 其中 $y=\psi\left(x\right)$ 是 $x=\varphi\left(y\right)$ 的反函数, $a=\varphi\left(c\right)$, $b=\varphi\left(d\right)$.
+（习题 6.1-3）设函数 $x=\varphi\left(y\right)$ 在 $\left[c,d\right]$ 上连续, 且 $\varphi\left(y\right)> 0$. 试用定积分表示由曲线 $x=\varphi\left(y\right)$, $y=c$, $y=d$ 及 $y$ 轴所围图形的面积; 又设 $c\ge0$, 函数 $x=\varphi\left(y\right)$ 在 $\left[c,d\right]$ 上严格递增. 试求积分和 $\int_c^d \varphi\left(y\right)\,\mathrm{d}y+\int_a^b \psi\left(x\right)\,\mathrm{d}x$, 其中 $y=\psi\left(x\right)$ 是 $x=\varphi\left(y\right)$ 的反函数, $a=\varphi\left(c\right)$, $b=\varphi\left(d\right)$.
 
 ### 解答 习题二
 
@@ -81,26 +81,26 @@ $\blacksquare$
 （习题 6.1-5）设函数 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上有定义, 并且假定 $y=f\left(x\right)$ 在任何闭子区间上有最大值与最小值. 对于任意一个分割
 
 $$
-T:a=x_0<x_1<\cdots<x_n=b,
+T:a=x_0< x_1< \cdots< x_n=b,
 $$
 
 记 $m_i$ 为 $y=f\left(x\right)$ 在 $\left[x_{i-1},x_i\right]$ 中的最小值, $M_i$ 为最大值. 证明: $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上可积的充要条件是极限 $\lim_{\lambda\left(T\right)\to0}\sum_{i=1}^n m_i\Delta x_i$ 与 $\lim_{\lambda\left(T\right)\to0}\sum_{i=1}^n M_i\Delta x_i$ 存在并且相等.
 
 ### 解答 习题三
 
-**必要性** 设 $f$ 在 $\left[a,b\right]$ 上可积, 积分为 $I$. 对任意 $\varepsilon>0$, 由**定义**（定积分）, 存在 $\delta>0$, 使当 $\lambda\left(T\right)<\delta$ 时, 对任意中间点 $\xi_i\in\left[x_{i-1},x_i\right]$ 都有
+**必要性** 设 $f$ 在 $\left[a,b\right]$ 上可积, 积分为 $I$. 对任意 $\varepsilon> 0$, 由**定义**（定积分）, 存在 $\delta> 0$, 使当 $\lambda\left(T\right)< \delta$ 时, 对任意中间点 $\xi_i\in\left[x_{i-1},x_i\right]$ 都有
 
 $$
-\left|\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right|<\varepsilon.
+\left|\sum_{i=1}^n f\left(\xi_i\right)\Delta x_i-I\right|< \varepsilon.
 $$
 
-对每个小区间 $\left[x_{i-1},x_i\right]$, 因 $m_i$ 是 $f$ 在其上的最小值, 故存在 $\xi_i^*\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^*\right)<m_i+\frac{\varepsilon}{b-a}$. 于是
+对每个小区间 $\left[x_{i-1},x_i\right]$, 因 $m_i$ 是 $f$ 在其上的最小值, 故存在 $\xi_i^*\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^*\right)< m_i+\frac{\varepsilon}{b-a}$. 于是
 
 $$
-\sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i<\sum_{i=1}^n m_i\Delta x_i+\varepsilon.
+\sum_{i=1}^n m_i\Delta x_i\le\sum_{i=1}^n f\left(\xi_i^*\right)\Delta x_i< \sum_{i=1}^n m_i\Delta x_i+\varepsilon.
 $$
 
-结合 $\left|\sum f\left(\xi_i^*\right)\Delta x_i-I\right|<\varepsilon$ 得 $\left|\sum m_i\Delta x_i-I\right|<2\varepsilon$. 同理, 取 $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^{**}\right)>M_i-\frac{\varepsilon}{b-a}$, 得 $\left|\sum M_i\Delta x_i-I\right|<2\varepsilon$. 故两极限均存在且等于 $I$.
+结合 $\left|\sum f\left(\xi_i^*\right)\Delta x_i-I\right|< \varepsilon$ 得 $\left|\sum m_i\Delta x_i-I\right|< 2\varepsilon$. 同理, 取 $\xi_i^{**}\in\left[x_{i-1},x_i\right]$ 使 $f\left(\xi_i^{**}\right)> M_i-\frac{\varepsilon}{b-a}$, 得 $\left|\sum M_i\Delta x_i-I\right|< 2\varepsilon$. 故两极限均存在且等于 $I$.
 
 **充分性** 设
 
@@ -179,7 +179,7 @@ $$
 对 $\left[a,b\right]$ 任作分割
 
 $$
-T:a=x_0<x_1<\cdots<x_n=b.
+T:a=x_0< x_1< \cdots< x_n=b.
 $$
 
 则
