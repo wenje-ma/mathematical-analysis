@@ -22,7 +22,7 @@
 
 ### Solution to Problem 1
 
-By **Definition** (Basic Expansions), $e^t=\sum_{n=0}^{\infty}\frac{t^n}{n!}$. Let $t=x-3$. Then
+By **Definition** (Basic Expansions), $e^\top=\sum_{n=0}^{\infty}\frac{t^n}{n!}$. Let $t=x-3$. Then
 
 $$
 e^x=e^3\cdot e^{x-3}=e^3\sum_{n=0}^{\infty}\frac{\left(x-3\right)^n}{n!}=\sum_{n=0}^{\infty}\frac{e^3}{n!}\left(x-3\right)^n, \left|x-3\right|< +\infty.

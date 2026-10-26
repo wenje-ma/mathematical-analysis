@@ -135,7 +135,7 @@ $$
 
 ### 解答 习题六
 
-对固定 $x\in\left[0,A\right]$, 极限函数为 $f\left(x\right)=e^x$. 由不等式 $e^t\ge 1+t$($t\ge 0$), 有
+对固定 $x\in\left[0,A\right]$, 极限函数为 $f\left(x\right)=e^x$. 由不等式 $e^\top\ge 1+t$($t\ge 0$), 有
 
 $$
 0\le e^x-\left(1+\frac{x}{n}\right)^n.

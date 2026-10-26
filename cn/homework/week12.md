@@ -4,14 +4,14 @@
 
 ### 习题一
 
-（习题 2.5-1-2）求下列参变量函数的导数 $\frac{\mathrm dy}{\mathrm dx}$: $\begin{cases}x=t\ln t,\y=e^t.\end{cases}$
+（习题 2.5-1-2）求下列参变量函数的导数 $\frac{\mathrm dy}{\mathrm dx}$: $\begin{cases}x=t\ln t,\y=e^\top.\end{cases}$
 
 ### 解答 习题一
 
-$\frac{\mathrm dx}{\mathrm dt}=\ln t+1$, $\frac{\mathrm dy}{\mathrm dt}=e^t$. 由**定理 5.1**, 
+$\frac{\mathrm dx}{\mathrm dt}=\ln t+1$, $\frac{\mathrm dy}{\mathrm dt}=e^\top$. 由**定理 5.1**, 
 
 $$
-\frac{\mathrm dy}{\mathrm dx}=\frac{e^t}{\ln t+1}.
+\frac{\mathrm dy}{\mathrm dx}=\frac{e^\top}{\ln t+1}.
 
 $$
 

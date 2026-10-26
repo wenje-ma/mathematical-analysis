@@ -22,7 +22,7 @@
 (i)当 $\alpha\le\alpha_0< 2$ 时, 对 $x\in\left(0,1\right]$ 有
 
 $$
-\left|\frac{\sin x}{x^\alpha}\right|\le\frac{x}{x^\alpha}=x^{1-\alpha}\le x^{1-\alpha_0}\ \left(\text{因}x\in\left(0,1\right)\text{时}x^t\text{关于}t\text{递减}\right).
+\left|\frac{\sin x}{x^\alpha}\right|\le\frac{x}{x^\alpha}=x^{1-\alpha}\le x^{1-\alpha_0}\ \left(\text{因}x\in\left(0,1\right)\text{时}x^\top\text{关于}t\text{递减}\right).
 $$
 
 而 $1-\alpha_0> -1$, 故 $\int_0^1 x^{1-\alpha_0}\,\mathrm{d}x$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法）, 该瑕积分在 $\alpha\le\alpha_0< 2$ 上一致收敛.
@@ -43,7 +43,7 @@ $$
 
 瑕点为 $x=0$.
 
-(i)当 $p\ge p_0> 0$ 时, 对 $x\in\left(0,1\right]$ 有 $x^{p-1}\le x^{p_0-1}$(因 $x\in\left(0,1\right)$ 时 $x^t$ 关于 $t$ 递减). 而 $p_0> 0$, 故 $\int_0^1 x^{p_0-1}\,\mathrm{d}x=\frac1{p_0}$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法）, 该瑕积分在 $p\ge p_0> 0$ 上一致收敛.
+(i)当 $p\ge p_0> 0$ 时, 对 $x\in\left(0,1\right]$ 有 $x^{p-1}\le x^{p_0-1}$(因 $x\in\left(0,1\right)$ 时 $x^\top$ 关于 $t$ 递减). 而 $p_0> 0$, 故 $\int_0^1 x^{p_0-1}\,\mathrm{d}x=\frac1{p_0}$ 收敛. 由**定理 4.3**（魏尔斯特拉斯判别法）, 该瑕积分在 $p\ge p_0> 0$ 上一致收敛.
 
 (ii)当 $p> 0$(即在开区间 $\left(0,+\infty\right)$ 上)时, 不一致收敛. 事实上, 取 $p_n=\frac1n\to0+0$, 则
 

@@ -164,7 +164,7 @@ $$
 0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
 $$
 
-by **Theorem 6.2** (Squeeze Theorem for Functions), the exponent tends to $0$. By the continuity of $e^t$, the original limit is $e^0=1$. $\blacksquare$
+by **Theorem 6.2** (Squeeze Theorem for Functions), the exponent tends to $0$. By the continuity of $e^\top$, the original limit is $e^0=1$. $\blacksquare$
 
 ### Problem 10
 

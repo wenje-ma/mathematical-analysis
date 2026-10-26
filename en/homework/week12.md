@@ -4,14 +4,14 @@
 
 ### Problem 1
 
-(Problem 2.5-1-2) Find the derivative $\frac{\mathrm dy}{\mathrm dx}$ of the following parametric function: $\begin{cases}x=t\ln t,\y=e^t.\end{cases}$
+(Problem 2.5-1-2) Find the derivative $\frac{\mathrm dy}{\mathrm dx}$ of the following parametric function: $\begin{cases}x=t\ln t,\y=e^\top.\end{cases}$
 
 ### Solution to Problem 1
 
-$\frac{\mathrm dx}{\mathrm dt}=\ln t+1$, $\frac{\mathrm dy}{\mathrm dt}=e^t$. By **Theorem 5.1**,
+$\frac{\mathrm dx}{\mathrm dt}=\ln t+1$, $\frac{\mathrm dy}{\mathrm dt}=e^\top$. By **Theorem 5.1**,
 
 $$
-\frac{\mathrm dy}{\mathrm dx}=\frac{e^t}{\ln t+1}.
+\frac{\mathrm dy}{\mathrm dx}=\frac{e^\top}{\ln t+1}.
 
 $$
 

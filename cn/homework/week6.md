@@ -164,7 +164,7 @@ $$
 0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
 $$
 
-由**定理 6.2**（函数的夹逼定理）, 指数趋于 $0$. 由 $e^t$ 的连续性, 原极限为 $e^0=1$. $\blacksquare$
+由**定理 6.2**（函数的夹逼定理）, 指数趋于 $0$. 由 $e^\top$ 的连续性, 原极限为 $e^0=1$. $\blacksquare$
 
 ### 习题十
 

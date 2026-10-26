@@ -122,11 +122,11 @@ $$
 $\blacksquare$
 ### Problem 6
 
-(Problem 4.4-12) Find the indefinite integral $\displaystyle\int\frac{e^t}{e^{2t}+5e^t+6}\,\mathrm{d}t$.
+(Problem 4.4-12) Find the indefinite integral $\displaystyle\int\frac{e^\top}{e^{2t}+5e^\top+6}\,\mathrm{d}t$.
 
 ### Solution to Problem 6
 
-Let $u=e^t$, then $\mathrm{d}u=e^t\,\mathrm{d}t$. The integral becomes
+Let $u=e^\top$, then $\mathrm{d}u=e^\top\,\mathrm{d}t$. The integral becomes
 $$
 \int\frac{\mathrm{d}u}{u^2+5u+6}=\int\frac{\mathrm{d}u}{\left(u+2\right)\left(u+3\right)}.
 $$
@@ -135,7 +135,7 @@ By **Theorem 4.1** (Decomposition of Rational Functions), set $\frac{1}{\left(u+
 
 Hence
 $$
-\int\frac{e^t}{e^{2t}+5e^t+6}\,\mathrm{d}t=\ln\left|u+2\right|-\ln\left|u+3\right|+C=\ln\frac{e^t+2}{e^t+3}+C.
+\int\frac{e^\top}{e^{2t}+5e^\top+6}\,\mathrm{d}t=\ln\left|u+2\right|-\ln\left|u+3\right|+C=\ln\frac{e^\top+2}{e^\top+3}+C.
 $$
 
 $\blacksquare$

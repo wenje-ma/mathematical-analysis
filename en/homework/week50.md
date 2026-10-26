@@ -22,7 +22,7 @@ The singular point is $x=0$. Since $\sin x\sim x\left(x\to0\right)$, the integra
 (i) When $\alpha\le\alpha_0< 2$, for $x\in\left(0,1\right]$ we have
 
 $$
-\left|\frac{\sin x}{x^\alpha}\right|\le\frac{x}{x^\alpha}=x^{1-\alpha}\le x^{1-\alpha_0}\ \left(\text{因}x\in\left(0,1\right)\text{时}x^t\text{关于}t\text{递减}\right).
+\left|\frac{\sin x}{x^\alpha}\right|\le\frac{x}{x^\alpha}=x^{1-\alpha}\le x^{1-\alpha_0}\ \left(\text{因}x\in\left(0,1\right)\text{时}x^\top\text{关于}t\text{递减}\right).
 $$
 
 And $1-\alpha_0> -1$, so $\int_0^1 x^{1-\alpha_0}\,\mathrm{d}x$ converges. By **Theorem 4.3** (The Weierstrass Test), this singular integral converges uniformly on $\alpha\le\alpha_0< 2$.
@@ -43,7 +43,7 @@ which does not tend to $0$ as $n\to\infty$, so the Cauchy condition for uniform 
 
 The singular point is $x=0$.
 
-(i) When $p\ge p_0> 0$, for $x\in\left(0,1\right]$ we have $x^{p-1}\le x^{p_0-1}$ (since $x^t$ decreases in $t$ when $x\in\left(0,1\right)$). And $p_0> 0$, so $\int_0^1 x^{p_0-1}\,\mathrm{d}x=\frac1{p_0}$ converges. By **Theorem 4.3** (The Weierstrass Test), this singular integral converges uniformly on $p\ge p_0> 0$.
+(i) When $p\ge p_0> 0$, for $x\in\left(0,1\right]$ we have $x^{p-1}\le x^{p_0-1}$ (since $x^\top$ decreases in $t$ when $x\in\left(0,1\right)$). And $p_0> 0$, so $\int_0^1 x^{p_0-1}\,\mathrm{d}x=\frac1{p_0}$ converges. By **Theorem 4.3** (The Weierstrass Test), this singular integral converges uniformly on $p\ge p_0> 0$.
 
 (ii) When $p> 0$ (i.e. on the open interval $\left(0,+\infty\right)$), it does not converge uniformly. Indeed, take $p_n=\frac1n\to0+0$. Then
 

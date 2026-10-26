@@ -22,7 +22,7 @@
 
 ### 解答 习题一
 
-由**定义**（基本展开式）, $e^t=\sum_{n=0}^{\infty}\frac{t^n}{n!}$. 令 $t=x-3$, 则
+由**定义**（基本展开式）, $e^\top=\sum_{n=0}^{\infty}\frac{t^n}{n!}$. 令 $t=x-3$, 则
 
 $$
 e^x=e^3\cdot e^{x-3}=e^3\sum_{n=0}^{\infty}\frac{\left(x-3\right)^n}{n!}=\sum_{n=0}^{\infty}\frac{e^3}{n!}\left(x-3\right)^n, \left|x-3\right|< +\infty.

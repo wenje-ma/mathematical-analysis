@@ -135,7 +135,7 @@ and by **Definition** (Uniform Convergence of a Sequence of Functions), $\left\{
 
 ### Solution to Problem 6
 
-For fixed $x\in\left[0,A\right]$, the limit function is $f\left(x\right)=e^x$. From the inequality $e^t\ge 1+t$ ($t\ge 0$), we have
+For fixed $x\in\left[0,A\right]$, the limit function is $f\left(x\right)=e^x$. From the inequality $e^\top\ge 1+t$ ($t\ge 0$), we have
 
 $$
 0\le e^x-\left(1+\frac{x}{n}\right)^n.
