@@ -155,7 +155,7 @@ $\blacksquare$
 
 ### Solution to Problem 4
 
-By symmetry, the center of mass $\left(\bar x,\bar y,\bar z\right)$ satisfies $\bar x=\bar y=\bar z$. The surface area is $=\frac18\cdot4\pi a^2=\frac{\pi a^2}{2}$.
+By symmetry, the center of mass $\left(\overline x,\overline y,\overline z\right)$ satisfies $\overline x=\overline y=\overline z$. The surface area is $=\frac18\cdot4\pi a^2=\frac{\pi a^2}{2}$.
 
 Using spherical coordinates $x=a\sin\varphi\cos\theta$, $y=a\sin\varphi\sin\theta$, $z=a\cos\varphi$, the first octant is $0\le\varphi\le\pi/2$, $0\le\theta\le\pi/2$, and $\mathrm{d}S=a^2\sin\varphi\,\mathrm{d}\varphi\mathrm{d}\theta$. Then
 
@@ -163,7 +163,7 @@ $$
 \iint_S z\,\mathrm{d}S=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\pi/2}a\cos\varphi\cdot a^2\sin\varphi\,\mathrm{d}\varphi=\frac\pi2\cdot\frac{a^3}{2}=\frac{\pi a^3}{4}.
 $$
 
-Hence $\bar z=\frac{\pi a^3/4}{\pi a^2/2}=\frac a2$. The center of mass is $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
+Hence $\overline z=\frac{\pi a^3/4}{\pi a^2/2}=\frac a2$. The center of mass is $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
 
 ### Problem 5
 

@@ -155,7 +155,7 @@ $\blacksquare$
 
 ### 解答 习题四
 
-由对称性, 质心 $\left(\bar x,\bar y,\bar z\right)$ 满足 $\bar x=\bar y=\bar z$. 曲面面积 $=\frac18\cdot4\pi a^2=\frac{\pi a^2}{2}$.
+由对称性, 质心 $\left(\overline x,\overline y,\overline z\right)$ 满足 $\overline x=\overline y=\overline z$. 曲面面积 $=\frac18\cdot4\pi a^2=\frac{\pi a^2}{2}$.
 
 用球坐标 $x=a\sin\varphi\cos\theta$, $y=a\sin\varphi\sin\theta$, $z=a\cos\varphi$, 第一卦限 $0\le\varphi\le\pi/2$, $0\le\theta\le\pi/2$, $\mathrm{d}S=a^2\sin\varphi\,\mathrm{d}\varphi\mathrm{d}\theta$. 则
 
@@ -163,7 +163,7 @@ $$
 \iint_S z\,\mathrm{d}S=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\pi/2}a\cos\varphi\cdot a^2\sin\varphi\,\mathrm{d}\varphi=\frac\pi2\cdot\frac{a^3}{2}=\frac{\pi a^3}{4}.
 $$
 
-故 $\bar z=\frac{\pi a^3/4}{\pi a^2/2}=\frac a2$. 质心为 $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
+故 $\overline z=\frac{\pi a^3/4}{\pi a^2/2}=\frac a2$. 质心为 $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
 
 ### 习题五
 
