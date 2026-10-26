@@ -49,7 +49,7 @@ $\forall I\subset\left[a,b\right]$.)
 任取 $\left[a,b\right]$ 的一个分割 $T$, 对每个小区间 $I_k=\left[x_{k-1},x_k\right]$ 及任意 $u,v\in I_k$, 有
 
 $$
-\begin{aligned}\left| f\left(u\right)g\left(u\right)-f\left(v\right)g\left(v\right)\right|&=\left| f\left(u\right)\left(g\left(u\right)-g\left(v\right)\right)+g\left(v\right)\left(f\left(u\right)-f\left(v\right)\right)\right|\\&\le M\left| g\left(u\right)-g\left(v\right)\right|+N\left| f\left(u\right)-f\left(v\right)\right|.\end{aligned}
+\left| f\left(u\right)g\left(u\right)-f\left(v\right)g\left(v\right)\right|=\left| f\left(u\right)\left(g\left(u\right)-g\left(v\right)\right)+g\left(v\right)\left(f\left(u\right)-f\left(v\right)\right)\right|\le M\left| g\left(u\right)-g\left(v\right)\right|+N\left| f\left(u\right)-f\left(v\right)\right|.
 $$
 
 令 $u,v$ 分别取遍 $I_k$ 使 $f\left(u\right)g\left(u\right)$ 与 $f\left(v\right)g\left(v\right)$ 接近上下确界, 得

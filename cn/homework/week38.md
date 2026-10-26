@@ -73,10 +73,7 @@ $$
 通项为 $\ln n-\ln\left(n+5\right)$, 故部分和为
 
 $$
-\begin{aligned}
-S_N&=\sum_{n=1}^{N}\left(\ln n-\ln\left(n+5\right)\right)\\
-&=\ln\left(1\cdot 2\cdot 3\cdot 4\cdot 5\right)-\ln\left(\left(N+1\right)\left(N+2\right)\left(N+3\right)\left(N+4\right)\left(N+5\right)\right).
-\end{aligned}
+S_N=\sum_{n=1}^{N}\left(\ln n-\ln\left(n+5\right)\right)=\ln\left(1\cdot 2\cdot 3\cdot 4\cdot 5\right)-\ln\left(\left(N+1\right)\left(N+2\right)\left(N+3\right)\left(N+4\right)\left(N+5\right)\right).
 $$
 
 当 $N\to\infty$ 时后一项的真数趋于 $+\infty$, 从而 $S_N\to-\infty$, 极限不存在有限值. 故由**定义**（级数收敛）, 该级数发散. $\blacksquare$

@@ -73,10 +73,7 @@ When $N\to\infty$, $S_N\to\frac{1}{2}$, so by **Definition** (Convergence of a S
 The general term is $\ln n-\ln\left(n+5\right)$, so the partial sums are
 
 $$
-\begin{aligned}
-S_N&=\sum_{n=1}^{N}\left(\ln n-\ln\left(n+5\right)\right)\\
-&=\ln\left(1\cdot 2\cdot 3\cdot 4\cdot 5\right)-\ln\left(\left(N+1\right)\left(N+2\right)\left(N+3\right)\left(N+4\right)\left(N+5\right)\right).
-\end{aligned}
+S_N=\sum_{n=1}^{N}\left(\ln n-\ln\left(n+5\right)\right)=\ln\left(1\cdot 2\cdot 3\cdot 4\cdot 5\right)-\ln\left(\left(N+1\right)\left(N+2\right)\left(N+3\right)\left(N+4\right)\left(N+5\right)\right).
 $$
 
 When $N\to\infty$, the argument of the latter logarithm tends to $+\infty$, and hence $S_N\to-\infty$, so the limit has no finite value. Thus by **Definition** (Convergence of a Series), this series diverges. $\blacksquare$

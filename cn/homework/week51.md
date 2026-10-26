@@ -14,10 +14,8 @@
 
 > **命题**（伽马与贝塔的积分形式）
 > $$
-\begin{aligned}
-> \displaystyle\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\,\mathrm{d}x&=\Beta\left(a,b\right),\
-> \displaystyle\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm{d}x&=\frac12 \Beta\!\left(\frac{m+1}{2},\frac{n+1}{2}\right).
-\end{aligned}
+> \displaystyle\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\,\mathrm{d}x=\Beta\left(a,b\right),\
+> \displaystyle\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm{d}x=\frac12 \Beta\!\left(\frac{m+1}{2},\frac{n+1}{2}\right).
 > $$
 
 ### 习题一

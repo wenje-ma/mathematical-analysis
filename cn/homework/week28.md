@@ -28,7 +28,7 @@
 任取 $D$ 的一个分割 $T$, 对每个小区域 $D_i$ 及任意 $P,Q\in D_i$, 有
 
 $$
-\begin{aligned}\left| f\left(P\right)g\left(P\right)-f\left(Q\right)g\left(Q\right)\right|&=\left| f\left(P\right)\left(g\left(P\right)-g\left(Q\right)\right)+g\left(Q\right)\left(f\left(P\right)-f\left(Q\right)\right)\right|\\&\le A\left| g\left(P\right)-g\left(Q\right)\right|+B\left| f\left(P\right)-f\left(Q\right)\right|.\end{aligned}
+\left| f\left(P\right)g\left(P\right)-f\left(Q\right)g\left(Q\right)\right|=\left| f\left(P\right)\left(g\left(P\right)-g\left(Q\right)\right)+g\left(Q\right)\left(f\left(P\right)-f\left(Q\right)\right)\right|\le A\left| g\left(P\right)-g\left(Q\right)\right|+B\left| f\left(P\right)-f\left(Q\right)\right|.
 $$
 
 令 $P,Q$ 分别取遍 $D_i$ 使 $f\left(P\right)g\left(P\right)$ 与 $f\left(Q\right)g\left(Q\right)$ 接近上下确界, 得

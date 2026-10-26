@@ -28,7 +28,7 @@ Since $f,g$ are both integrable, by **Theorem 1.1** (Necessary Condition for Int
 Take any partition $T$ of $D$. For each small region $D_i$ and any $P,Q\in D_i$, we have
 
 $$
-\begin{aligned}\left| f\left(P\right)g\left(P\right)-f\left(Q\right)g\left(Q\right)\right|&=\left| f\left(P\right)\left(g\left(P\right)-g\left(Q\right)\right)+g\left(Q\right)\left(f\left(P\right)-f\left(Q\right)\right)\right|\\&\le A\left| g\left(P\right)-g\left(Q\right)\right|+B\left| f\left(P\right)-f\left(Q\right)\right|.\end{aligned}
+\left| f\left(P\right)g\left(P\right)-f\left(Q\right)g\left(Q\right)\right|=\left| f\left(P\right)\left(g\left(P\right)-g\left(Q\right)\right)+g\left(Q\right)\left(f\left(P\right)-f\left(Q\right)\right)\right|\le A\left| g\left(P\right)-g\left(Q\right)\right|+B\left| f\left(P\right)-f\left(Q\right)\right|.
 $$
 
 Letting $P,Q$ range over $D_i$ so that $f\left(P\right)g\left(P\right)$ and $f\left(Q\right)g\left(Q\right)$ approach the upper and lower bounds, we get

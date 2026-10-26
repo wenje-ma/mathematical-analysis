@@ -153,11 +153,8 @@ $$
 再看柯西主值. 由**定义**（柯西主值）, 
 
 $$
-\begin{aligned}
 \mathrm{\left(CPV\right)}\int_0^2\frac{\mathrm{d}x}{x-1}
-&=\lim_{\eta\to0+0}\left(\int_0^{1-\eta}\frac{\mathrm{d}x}{x-1}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x-1}\right)\\
-&=\lim_{\eta\to0+0}\left(\left(\ln\eta-\ln1\right)+\left(\ln1-\ln\eta\right)\right)=0.
-\end{aligned}
+=\lim_{\eta\to0+0}\left(\int_0^{1-\eta}\frac{\mathrm{d}x}{x-1}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x-1}\right)=\lim_{\eta\to0+0}\left(\left(\ln\eta-\ln1\right)+\left(\ln1-\ln\eta\right)\right)=0.
 $$
 
 故该积分在柯西主值意义下收敛, 其柯西主值为 $0$. $\blacksquare$
@@ -171,12 +168,8 @@ $$
 $x=1$ 是瑕点. 被积函数的原函数为 $\ln\left|\ln x\right|$. 由**定义**（柯西主值）, 
 
 $$
-\begin{aligned}
 \mathrm{\left(CPV\right)}\int_{1/2}^2\frac{\mathrm{d}x}{x\ln x}
-&=\lim_{\eta\to0+0}\left(\int_{1/2}^{1-\eta}\frac{\mathrm{d}x}{x\ln x}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x\ln x}\right)\\
-&=\lim_{\eta\to0+0}\left[\ln\left|\ln\left(1-\eta\right)\right|-\ln\left|\ln\frac12\right|+\ln\left|\ln2\right|-\ln\left|\ln\left(1+\eta\right)\right|\right]\\
-&=\lim_{\eta\to0+0}\ln\frac{-\ln\left(1-\eta\right)}{\ln\left(1+\eta\right)}.
-\end{aligned}
+=\lim_{\eta\to0+0}\left(\int_{1/2}^{1-\eta}\frac{\mathrm{d}x}{x\ln x}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x\ln x}\right)=\lim_{\eta\to0+0}\left[\ln\left|\ln\left(1-\eta\right)\right|-\ln\left|\ln\frac12\right|+\ln\left|\ln2\right|-\ln\left|\ln\left(1+\eta\right)\right|\right]=\lim_{\eta\to0+0}\ln\frac{-\ln\left(1-\eta\right)}{\ln\left(1+\eta\right)}.
 $$
 
 当 $\eta\to0+0$ 时 $-\ln\left(1-\eta\right)\sim\eta$, $\ln\left(1+\eta\right)\sim\eta$, 故比值趋于 $1$, 对数趋于 $\ln1=0$. 因此该积分在柯西主值意义下收敛, 其柯西主值为 $0$. $\blacksquare$

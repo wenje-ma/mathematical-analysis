@@ -58,7 +58,7 @@ $$
 设 $\boldsymbol{F}=\left(P,Q,R\right)$, 则 $\Phi\boldsymbol{F}=\left(\Phi P,\Phi Q,\Phi R\right)$. 由**定义**（散度）,
 
 $$
-\begin{aligned}\operatorname{div}\left(\Phi\boldsymbol{F}\right)&=\frac{\partial\left(\Phi P\right)}{\partial x}+\frac{\partial\left(\Phi Q\right)}{\partial y}+\frac{\partial\left(\Phi R\right)}{\partial z}\\&=\left(\Phi\frac{\partial P}{\partial x}+P\frac{\partial\Phi}{\partial x}\right)+\left(\Phi\frac{\partial Q}{\partial y}+Q\frac{\partial\Phi}{\partial y}\right)+\left(\Phi\frac{\partial R}{\partial z}+R\frac{\partial\Phi}{\partial z}\right)\\&=\Phi\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)+\left(P\frac{\partial\Phi}{\partial x}+Q\frac{\partial\Phi}{\partial y}+R\frac{\partial\Phi}{\partial z}\right)\\&=\Phi\operatorname{div}\boldsymbol{F}+\boldsymbol{F}\cdot\operatorname{grad}\Phi.\end{aligned}
+\operatorname{div}\left(\Phi\boldsymbol{F}\right)=\frac{\partial\left(\Phi P\right)}{\partial x}+\frac{\partial\left(\Phi Q\right)}{\partial y}+\frac{\partial\left(\Phi R\right)}{\partial z}=\left(\Phi\frac{\partial P}{\partial x}+P\frac{\partial\Phi}{\partial x}\right)+\left(\Phi\frac{\partial Q}{\partial y}+Q\frac{\partial\Phi}{\partial y}\right)+\left(\Phi\frac{\partial R}{\partial z}+R\frac{\partial\Phi}{\partial z}\right)=\Phi\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)+\left(P\frac{\partial\Phi}{\partial x}+Q\frac{\partial\Phi}{\partial y}+R\frac{\partial\Phi}{\partial z}\right)=\Phi\operatorname{div}\boldsymbol{F}+\boldsymbol{F}\cdot\operatorname{grad}\Phi.
 
 $$
 
@@ -116,7 +116,7 @@ $$
 由**定义**（散度）,
 
 $$
-\begin{aligned}\operatorname{div}\left(\operatorname{rot}\boldsymbol{F}\right)&=\frac{\partial}{\partial x}\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)+\frac{\partial}{\partial y}\left(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right)+\frac{\partial}{\partial z}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\\&=\frac{\partial^2R}{\partial x\partial y}-\frac{\partial^2Q}{\partial x\partial z}+\frac{\partial^2P}{\partial y\partial z}-\frac{\partial^2R}{\partial y\partial x}+\frac{\partial^2Q}{\partial z\partial x}-\frac{\partial^2P}{\partial z\partial y}=0,\end{aligned}
+\operatorname{div}\left(\operatorname{rot}\boldsymbol{F}\right)=\frac{\partial}{\partial x}\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)+\frac{\partial}{\partial y}\left(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right)+\frac{\partial}{\partial z}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)=\frac{\partial^2R}{\partial x\partial y}-\frac{\partial^2Q}{\partial x\partial z}+\frac{\partial^2P}{\partial y\partial z}-\frac{\partial^2R}{\partial y\partial x}+\frac{\partial^2Q}{\partial z\partial x}-\frac{\partial^2P}{\partial z\partial y}=0,
 $$
 
 最后一步用到二阶混合偏导数连续, 与求导次序无关. $\blacksquare$

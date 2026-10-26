@@ -252,12 +252,7 @@ and let $\left(a,b\right)$ be any interval not containing $x=1$. Prove that $f\l
 
 Differentiating gives
 $$
-\begin{aligned}
-f'\left(x\right)&=\frac{1}{1+\left(\frac{1+x}{1-x}\right)^2}\cdot\frac{\left(1-x\right)+\left(1+x\right)}{\left(1-x\right)^2}-\frac{1}{1+x^2}\\
-&=\frac{\left(1-x\right)^2}{\left(1-x\right)^2+\left(1+x\right)^2}\cdot\frac{2}{\left(1-x\right)^2}-\frac{1}{1+x^2}\\
-&=\frac{2}{\left(1-x\right)^2+\left(1+x\right)^2}-\frac{1}{1+x^2}\\
-&=\frac{1}{1+x^2}-\frac{1}{1+x^2}=0.
-\end{aligned}
+f'\left(x\right)=\frac{1}{1+\left(\frac{1+x}{1-x}\right)^2}\cdot\frac{\left(1-x\right)+\left(1+x\right)}{\left(1-x\right)^2}-\frac{1}{1+x^2}=\frac{\left(1-x\right)^2}{\left(1-x\right)^2+\left(1+x\right)^2}\cdot\frac{2}{\left(1-x\right)^2}-\frac{1}{1+x^2}=\frac{2}{\left(1-x\right)^2+\left(1+x\right)^2}-\frac{1}{1+x^2}=\frac{1}{1+x^2}-\frac{1}{1+x^2}=0.
 $$
 
 By **Theorem 1.4** (Constant Function Theorem), $f\left(x\right)$ is constant on $\left(a,b\right)$, denoted $C$.

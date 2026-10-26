@@ -153,11 +153,8 @@ so it diverges in the ordinary sense.
 Now consider the Cauchy principal value. By **Definition** (Cauchy Principal Value),
 
 $$
-\begin{aligned}
 \mathrm{\left(CPV\right)}\int_0^2\frac{\mathrm{d}x}{x-1}
-&=\lim_{\eta\to0+0}\left(\int_0^{1-\eta}\frac{\mathrm{d}x}{x-1}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x-1}\right)\\
-&=\lim_{\eta\to0+0}\left(\left(\ln\eta-\ln1\right)+\left(\ln1-\ln\eta\right)\right)=0.
-\end{aligned}
+=\lim_{\eta\to0+0}\left(\int_0^{1-\eta}\frac{\mathrm{d}x}{x-1}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x-1}\right)=\lim_{\eta\to0+0}\left(\left(\ln\eta-\ln1\right)+\left(\ln1-\ln\eta\right)\right)=0.
 $$
 
 Hence this integral converges in the sense of the Cauchy principal value, and its Cauchy principal value is $0$. $\blacksquare$
@@ -171,12 +168,8 @@ Hence this integral converges in the sense of the Cauchy principal value, and it
 $x=1$ is a singular point. An antiderivative of the integrand is $\ln\left|\ln x\right|$. By **Definition** (Cauchy Principal Value),
 
 $$
-\begin{aligned}
 \mathrm{\left(CPV\right)}\int_{1/2}^2\frac{\mathrm{d}x}{x\ln x}
-&=\lim_{\eta\to0+0}\left(\int_{1/2}^{1-\eta}\frac{\mathrm{d}x}{x\ln x}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x\ln x}\right)\\
-&=\lim_{\eta\to0+0}\left[\ln\left|\ln\left(1-\eta\right)\right|-\ln\left|\ln\frac12\right|+\ln\left|\ln2\right|-\ln\left|\ln\left(1+\eta\right)\right|\right]\\
-&=\lim_{\eta\to0+0}\ln\frac{-\ln\left(1-\eta\right)}{\ln\left(1+\eta\right)}.
-\end{aligned}
+=\lim_{\eta\to0+0}\left(\int_{1/2}^{1-\eta}\frac{\mathrm{d}x}{x\ln x}+\int_{1+\eta}^2\frac{\mathrm{d}x}{x\ln x}\right)=\lim_{\eta\to0+0}\left[\ln\left|\ln\left(1-\eta\right)\right|-\ln\left|\ln\frac12\right|+\ln\left|\ln2\right|-\ln\left|\ln\left(1+\eta\right)\right|\right]=\lim_{\eta\to0+0}\ln\frac{-\ln\left(1-\eta\right)}{\ln\left(1+\eta\right)}.
 $$
 
 As $\eta\to0+0$, $-\ln\left(1-\eta\right)\sim\eta$ and $\ln\left(1+\eta\right)\sim\eta$, so the ratio tends to $1$ and the logarithm tends to $\ln1=0$. Therefore this integral converges in the sense of the Cauchy principal value, and its Cauchy principal value is $0$. $\blacksquare$

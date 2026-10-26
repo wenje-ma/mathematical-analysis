@@ -74,11 +74,7 @@ $$
 (1) Directly compute the even-term partial sum:
 
 $$
-\begin{aligned}
-S_{2n}&=1-\frac12+\frac13-\frac14+\cdots+\frac{1}{2n-1}-\frac{1}{2n}\\
-&=\left(1+\frac12+\frac13+\cdots+\frac{1}{2n}\right)-2\left(\frac12+\frac14+\cdots+\frac{1}{2n}\right)\\
-&=h_{2n}-\left(1+\frac12+\cdots+\frac1n\right)=h_{2n}-h_n.
-\end{aligned}
+S_{2n}=1-\frac12+\frac13-\frac14+\cdots+\frac{1}{2n-1}-\frac{1}{2n}=\left(1+\frac12+\frac13+\cdots+\frac{1}{2n}\right)-2\left(\frac12+\frac14+\cdots+\frac{1}{2n}\right)=h_{2n}-\left(1+\frac12+\cdots+\frac1n\right)=h_{2n}-h_n.
 $$
 
 (2) By assumption, $h_n=\ln n+\gamma+o\left(1\right)$, so

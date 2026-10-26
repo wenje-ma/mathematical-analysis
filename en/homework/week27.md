@@ -49,7 +49,7 @@ Since $f,g$ are both integrable, they are both bounded. Set $M=\sup_{\left[a,b\r
 Take any partition $T$ of $\left[a,b\right]$. For each subinterval $I_k=\left[x_{k-1},x_k\right]$ and any $u,v\in I_k$, we have
 
 $$
-\begin{aligned}\left| f\left(u\right)g\left(u\right)-f\left(v\right)g\left(v\right)\right|&=\left| f\left(u\right)\left(g\left(u\right)-g\left(v\right)\right)+g\left(v\right)\left(f\left(u\right)-f\left(v\right)\right)\right|\\&\le M\left| g\left(u\right)-g\left(v\right)\right|+N\left| f\left(u\right)-f\left(v\right)\right|.\end{aligned}
+\left| f\left(u\right)g\left(u\right)-f\left(v\right)g\left(v\right)\right|=\left| f\left(u\right)\left(g\left(u\right)-g\left(v\right)\right)+g\left(v\right)\left(f\left(u\right)-f\left(v\right)\right)\right|\le M\left| g\left(u\right)-g\left(v\right)\right|+N\left| f\left(u\right)-f\left(v\right)\right|.
 $$
 
 Letting $u,v$ range over $I_k$ so that $f\left(u\right)g\left(u\right)$ and $f\left(v\right)g\left(v\right)$ approach the upper and lower bounds, we get

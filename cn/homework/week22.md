@@ -3,11 +3,8 @@
 > **定理 5.1**（三角有理式的积分法）三角函数的有理式 $R\left(\sin x,\cos x\right)$ 的不定积分, 总可通过万能代换 $t=\tan\frac{x}{2}$ 化为关于 $t$ 的有理函数的不定积分. 此时
 > 
 > $$
-> \begin{aligned}
-> \sin x&=\frac{2t}{1+t^2},\\
-> \cos x&=\frac{1-t^2}{1+t^2},\\
-> \mathrm{d}x&=\frac{2\,\mathrm{d}t}{1+t^2}.
-> \end{aligned}
+> > \sin x=\frac{2t}{1+t^2},> \cos x=\frac{1-t^2}{1+t^2},> \mathrm{d}x=\frac{2\,\mathrm{d}t}{1+t^2}.
+>
 > $$
 ### 习题一
 

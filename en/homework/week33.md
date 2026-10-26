@@ -141,7 +141,7 @@ $$
 Computing the arc element:
 
 $$
-\begin{aligned}\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2&=\frac{a^2}{2}\left(\frac13\sin^2t+\frac2{\sqrt3}\sin t\cos t+\cos^2t\right)\\&\;+\frac{a^2}{2}\left(\frac13\sin^2t-\frac2{\sqrt3}\sin t\cos t+\cos^2t\right)+\frac{2a^2}{3}\sin^2t\\&=a^2\sin^2t+a^2\cos^2t=a^2.\end{aligned}
+\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2=\frac{a^2}{2}\left(\frac13\sin^2t+\frac2{\sqrt3}\sin t\cos t+\cos^2t\right)+\frac{a^2}{2}\left(\frac13\sin^2t-\frac2{\sqrt3}\sin t\cos t+\cos^2t\right)+\frac{2a^2}{3}\sin^2t=a^2\sin^2t+a^2\cos^2t=a^2.
 $$
 
 Hence $\mathrm{d}s=a\,\mathrm{d}t$. Moreover,

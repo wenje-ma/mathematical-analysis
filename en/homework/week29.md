@@ -83,13 +83,13 @@ $$
 (2) $D:0\le x\le1$, $x^2\le y\le\sqrt x$. By **Theorem 2.1**,
 
 $$
-\begin{aligned}\iint_D\left(x^2+y\right)\,\mathrm{d}x\mathrm{d}y&=\int_0^1\mathrm{d}x\int_{x^2}^{\sqrt x}\left(x^2+y\right)\,\mathrm{d}y\\&=\int_0^1\left(x^{5/2}+\frac x2-\frac32x^4\right)\mathrm{d}x\\&=\frac27+\frac14-\frac3{10}=\frac{33}{140}.\end{aligned}
+\iint_D\left(x^2+y\right)\,\mathrm{d}x\mathrm{d}y=\int_0^1\mathrm{d}x\int_{x^2}^{\sqrt x}\left(x^2+y\right)\,\mathrm{d}y=\int_0^1\left(x^{5/2}+\frac x2-\frac32x^4\right)\mathrm{d}x=\frac27+\frac14-\frac3{10}=\frac{33}{140}.
 $$
 
 (3) $D:0\le y\le1$, $0\le x\le y^2$. By **Theorem 2.1** (integrate with respect to $x$ first),
 
 $$
-\begin{aligned}\iint_D e^{x/y}\,\mathrm{d}x\mathrm{d}y&=\int_0^1\mathrm{d}y\int_0^{y^2}e^{x/y}\,\mathrm{d}x\\&=\int_0^1\left(ye^y-y\right)\mathrm{d}y\\&=\left[ye^y-e^y-\frac12y^2\right]_0^1=\frac12.\end{aligned}
+\iint_D e^{x/y}\,\mathrm{d}x\mathrm{d}y=\int_0^1\mathrm{d}y\int_0^{y^2}e^{x/y}\,\mathrm{d}x=\int_0^1\left(ye^y-y\right)\mathrm{d}y=\left[ye^y-e^y-\frac12y^2\right]_0^1=\frac12.
 $$
 
 (4) $D:0\le x\le1$, $0\le y\le x^3$. By **Theorem 2.1**,
@@ -124,7 +124,7 @@ $$
 (2) Original region: $0\le x\le2$, $x\le y\le2$. Reversing the order gives $0\le y\le2$, $0\le x\le y$. Hence
 
 $$
-\begin{aligned}\int_0^2\mathrm{d}x\int_x^2 2y^2\sin\left(xy\right)\,\mathrm{d}y&=\int_0^2\mathrm{d}y\int_0^y 2y^2\sin\left(xy\right)\,\mathrm{d}x\\&=\int_0^2 2y\left[1-\cos\left(y^2\right)\right]\,\mathrm{d}y\\&=\left[y^2-\sin\left(y^2\right)\right]_0^2=4-\sin4.\end{aligned}
+\int_0^2\mathrm{d}x\int_x^2 2y^2\sin\left(xy\right)\,\mathrm{d}y=\int_0^2\mathrm{d}y\int_0^y 2y^2\sin\left(xy\right)\,\mathrm{d}x=\int_0^2 2y\left[1-\cos\left(y^2\right)\right]\,\mathrm{d}y=\left[y^2-\sin\left(y^2\right)\right]_0^2=4-\sin4.
 
 $$
 
@@ -151,19 +151,19 @@ $$
 (1) The original region is the part of the unit circle in the third quadrant ($x\le0$, $y\le0$). By **Theorem 2.2**, $\theta\in\left[\pi,3\pi/2\right]$, $r\in\left[0,1\right]$,
 
 $$
-\begin{aligned}\iint_D\frac{2}{1+\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y&=\int_\pi^{3\pi/2}\mathrm{d}\theta\int_0^1\frac{2}{1+r}\,r\,\mathrm{d}r\\&=\pi\left[r-\ln\left(1+r\right)\right]_0^1=\pi\left(1-\ln2\right).\end{aligned}
+\iint_D\frac{2}{1+\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y=\int_\pi^{3\pi/2}\mathrm{d}\theta\int_0^1\frac{2}{1+r}\,r\,\mathrm{d}r=\pi\left[r-\ln\left(1+r\right)\right]_0^1=\pi\left(1-\ln2\right).
 $$
 
 (2) The original region is the upper half of the circle $\left(x-1\right)^2+y^2\le1$, whose polar equation is $r=2\cos\theta$, $\theta\in\left[0,\pi/2\right]$. By **Theorem 2.2**,
 
 $$
-\begin{aligned}\iint_D 3xy\,\mathrm{d}x\mathrm{d}y&=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{2\cos\theta}3\left(r\cos\theta\right)\left(r\sin\theta\right)\,r\,\mathrm{d}r\\&=12\int_0^{\pi/2}\sin\theta\cos^5\theta\,\mathrm{d}\theta=2.\end{aligned}
+\iint_D 3xy\,\mathrm{d}x\mathrm{d}y=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{2\cos\theta}3\left(r\cos\theta\right)\left(r\sin\theta\right)\,r\,\mathrm{d}r=12\int_0^{\pi/2}\sin\theta\cos^5\theta\,\mathrm{d}\theta=2.
 $$
 
 (3) The original region is the quarter disk in the first quadrant $x^2+y^2\le R^2$, $x,y\ge0$. By **Theorem 2.2**,
 
 $$
-\begin{aligned}\iint_D\ln\left(1+x^2+y^2\right)\,\mathrm{d}x\mathrm{d}y&=\int_0^{\pi/2}\mathrm{d}\theta\int_0^R\ln\left(1+r^2\right)\,r\,\mathrm{d}r\\&=\frac\pi2\cdot\frac12\left[\left(1+r^2\right)\ln\left(1+r^2\right)-r^2\right]_0^R\\&=\frac\pi4\left[\left(1+R^2\right)\ln\left(1+R^2\right)-R^2\right].\end{aligned}
+\iint_D\ln\left(1+x^2+y^2\right)\,\mathrm{d}x\mathrm{d}y=\int_0^{\pi/2}\mathrm{d}\theta\int_0^R\ln\left(1+r^2\right)\,r\,\mathrm{d}r=\frac\pi2\cdot\frac12\left[\left(1+r^2\right)\ln\left(1+r^2\right)-r^2\right]_0^R=\frac\pi4\left[\left(1+R^2\right)\ln\left(1+R^2\right)-R^2\right].
 
 $$
 
@@ -216,7 +216,7 @@ $$
 (1) By **Theorem 2.2**, $\theta\in\left[0,2\pi\right]$, $r\in\left[\pi,2\pi\right]$,
 
 $$
-\begin{aligned}\iint_D\sin\sqrt{x^2+y^2}\,\mathrm{d}x\mathrm{d}y&=\int_0^{2\pi}\mathrm{d}\theta\int_\pi^{2\pi}\sin r\cdot r\,\mathrm{d}r\\&=2\pi\left[\sin r-r\cos r\right]_\pi^{2\pi}\\&=2\pi\left(-2\pi-\pi\right)=-6\pi^2.\end{aligned}
+\iint_D\sin\sqrt{x^2+y^2}\,\mathrm{d}x\mathrm{d}y=\int_0^{2\pi}\mathrm{d}\theta\int_\pi^{2\pi}\sin r\cdot r\,\mathrm{d}r=2\pi\left[\sin r-r\cos r\right]_\pi^{2\pi}=2\pi\left(-2\pi-\pi\right)=-6\pi^2.
 $$
 
 (2) Rewrite $D$ as
@@ -240,13 +240,13 @@ $$
 becomes $r^2\le a^2\cos2\theta$, i.e. $r\le a\sqrt{\cos2\theta}$, $\cos2\theta\ge0$. Using symmetry (four symmetric petals),
 
 $$
-\begin{aligned}\iint_D\left(x^2+y^2\right)\,\mathrm{d}x\mathrm{d}y&=4\int_0^{\pi/4}\mathrm{d}\theta\int_0^{a\sqrt{\cos2\theta}}r^2\cdot r\,\mathrm{d}r\\&=a^4\int_0^{\pi/4}\cos^22\theta\,\mathrm{d}\theta=\frac{\pi a^4}{8}.\end{aligned}
+\iint_D\left(x^2+y^2\right)\,\mathrm{d}x\mathrm{d}y=4\int_0^{\pi/4}\mathrm{d}\theta\int_0^{a\sqrt{\cos2\theta}}r^2\cdot r\,\mathrm{d}r=a^4\int_0^{\pi/4}\cos^22\theta\,\mathrm{d}\theta=\frac{\pi a^4}{8}.
 $$
 
 (4) By **Theorem 2.2**, $\theta\in\left[0,\pi\right]$, $r\in\left[0,\theta\right]$,
 
 $$
-\begin{aligned}\iint_D x\,\mathrm{d}x\mathrm{d}y&=\int_0^\pi\mathrm{d}\theta\int_0^\theta\left(r\cos\theta\right)\,r\,\mathrm{d}r\\&=\frac13\int_0^\pi\theta^3\cos\theta\,\mathrm{d}\theta\\&=\frac13\left[\theta^3\sin\theta+3\theta^2\cos\theta-6\theta\sin\theta-6\cos\theta\right]_0^\pi\\&=\frac13\left(-3\pi^2+12\right)=4-\pi^2.\end{aligned}
+\iint_D x\,\mathrm{d}x\mathrm{d}y=\int_0^\pi\mathrm{d}\theta\int_0^\theta\left(r\cos\theta\right)\,r\,\mathrm{d}r=\frac13\int_0^\pi\theta^3\cos\theta\,\mathrm{d}\theta=\frac13\left[\theta^3\sin\theta+3\theta^2\cos\theta-6\theta\sin\theta-6\cos\theta\right]_0^\pi=\frac13\left(-3\pi^2+12\right)=4-\pi^2.
 
 $$
 

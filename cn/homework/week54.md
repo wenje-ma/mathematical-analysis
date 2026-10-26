@@ -4,10 +4,8 @@
 
 > **命题**（傅里叶系数）以 $2\pi$ 为周期的可积函数 $f\left(x\right)$ 的傅里叶系数为
 > $$
-\begin{aligned}
-> a_n&=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,\
-> b_n&=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
-\end{aligned}
+> a_n=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,\
+> b_n=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
 > $$
 
 > **定理**（封闭性方程）设 $f\left(x\right)$ 的傅里叶系数为 $a_n,b_n$, 则

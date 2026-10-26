@@ -53,10 +53,8 @@ $\blacksquare$
 (Problem 2.5-4) Let $x=\varphi\left(t\right),y=\psi\left(t\right)$ be differentiable at the point $t_0$, with $\varphi'\left(t_0\right)\ne0$. Set $\Delta t\ne0$,
 
 $$
-\begin{aligned}
-\Delta x&=\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right),\
-\Delta y&=\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right).
-\end{aligned}
+\Delta x=\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right),\
+\Delta y=\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right).
 $$
 
 Prove that $\lim\limits_{\Delta t\to0}\frac{\Delta y}{\Delta x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.

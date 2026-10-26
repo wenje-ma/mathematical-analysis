@@ -67,7 +67,7 @@ $$
 By **Proposition 5.1** (Surface Area Formula), using polar coordinates,
 
 $$
-\begin{aligned}S&=\iint_D\sqrt{1+\frac{x^2+y^2}{a^2}}\,\mathrm{d}x\mathrm{d}y\\&=\int_0^{2\pi}\mathrm{d}\theta\int_0^a\sqrt{1+\frac{r^2}{a^2}}\,r\,\mathrm{d}r.\end{aligned}
+S=\iint_D\sqrt{1+\frac{x^2+y^2}{a^2}}\,\mathrm{d}x\mathrm{d}y=\int_0^{2\pi}\mathrm{d}\theta\int_0^a\sqrt{1+\frac{r^2}{a^2}}\,r\,\mathrm{d}r.
 $$
 
 Let $u=1+r^2/a^2$, $\mathrm{d}u=2r\,\mathrm{d}r/a^2$, giving
@@ -89,7 +89,7 @@ Let the density $\rho$ be constant. The volume of the first-octant ellipsoid is 
 Make the generalized spherical coordinate transformation $x=a\rho\sin\varphi\cos\theta$, $y=b\rho\sin\varphi\sin\theta$, $z=c\rho\cos\varphi$; the Jacobian determinant is $\left| J\right|=abc\rho^2\sin\varphi$. The first octant corresponds to $0\le\rho\le1$, $0\le\varphi\le\pi/2$, $0\le\theta\le\pi/2$. By **Formula** (Coordinates of the Center of Mass),
 
 $$
-\begin{aligned}\iiint_\Omega z\,\mathrm{d}V&=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\pi/2}\mathrm{d}\varphi\int_0^1 c\rho\cos\varphi\cdot abc\rho^2\sin\varphi\,\mathrm{d}\rho\\&=abc^2\cdot\frac\pi2\cdot\frac12\cdot\frac14=\frac{\pi abc^2}{16}.\end{aligned}
+\iiint_\Omega z\,\mathrm{d}V=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\pi/2}\mathrm{d}\varphi\int_0^1 c\rho\cos\varphi\cdot abc\rho^2\sin\varphi\,\mathrm{d}\rho=abc^2\cdot\frac\pi2\cdot\frac12\cdot\frac14=\frac{\pi abc^2}{16}.
 $$
 
 Hence
@@ -115,7 +115,7 @@ Assume its density is the constant $\rho$. Find the moment of inertia of $\Omega
 By **Formula** (Moment of Inertia),
 
 $$
-\begin{aligned}J_z&=\iiint_\Omega\left(x^2+y^2\right)\rho\,\mathrm{d}V\\&=\rho\int_0^a\mathrm{d}x\int_0^a\mathrm{d}y\int_0^a\left(x^2+y^2\right)\,\mathrm{d}z\\&=\rho a\left(\int_0^a x^2\mathrm{d}x\int_0^a\mathrm{d}y+\int_0^a\mathrm{d}x\int_0^a y^2\mathrm{d}y\right)\\&=\rho a\left(\frac{a^4}{3}+\frac{a^4}{3}\right)=\frac{2\rho a^5}{3}.\end{aligned}
+J_z=\iiint_\Omega\left(x^2+y^2\right)\rho\,\mathrm{d}V=\rho\int_0^a\mathrm{d}x\int_0^a\mathrm{d}y\int_0^a\left(x^2+y^2\right)\,\mathrm{d}z=\rho a\left(\int_0^a x^2\mathrm{d}x\int_0^a\mathrm{d}y+\int_0^a\mathrm{d}x\int_0^a y^2\mathrm{d}y\right)=\rho a\left(\frac{a^4}{3}+\frac{a^4}{3}\right)=\frac{2\rho a^5}{3}.
 
 $$
 

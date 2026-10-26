@@ -67,7 +67,7 @@ $$
 由**命题 5.1**（曲面面积公式）并用极坐标,
 
 $$
-\begin{aligned}S&=\iint_D\sqrt{1+\frac{x^2+y^2}{a^2}}\,\mathrm{d}x\mathrm{d}y\\&=\int_0^{2\pi}\mathrm{d}\theta\int_0^a\sqrt{1+\frac{r^2}{a^2}}\,r\,\mathrm{d}r.\end{aligned}
+S=\iint_D\sqrt{1+\frac{x^2+y^2}{a^2}}\,\mathrm{d}x\mathrm{d}y=\int_0^{2\pi}\mathrm{d}\theta\int_0^a\sqrt{1+\frac{r^2}{a^2}}\,r\,\mathrm{d}r.
 $$
 
 令 $u=1+r^2/a^2$, $\mathrm{d}u=2r\,\mathrm{d}r/a^2$, 得
@@ -89,7 +89,7 @@ $\blacksquare$
 作广义球坐标变换 $x=a\rho\sin\varphi\cos\theta$, $y=b\rho\sin\varphi\sin\theta$, $z=c\rho\cos\varphi$, 雅可比行列式 $\left| J\right|=abc\rho^2\sin\varphi$. 第一卦限对应 $0\le\rho\le1$, $0\le\varphi\le\pi/2$, $0\le\theta\le\pi/2$. 由**公式**（质心坐标）,
 
 $$
-\begin{aligned}\iiint_\Omega z\,\mathrm{d}V&=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\pi/2}\mathrm{d}\varphi\int_0^1 c\rho\cos\varphi\cdot abc\rho^2\sin\varphi\,\mathrm{d}\rho\\&=abc^2\cdot\frac\pi2\cdot\frac12\cdot\frac14=\frac{\pi abc^2}{16}.\end{aligned}
+\iiint_\Omega z\,\mathrm{d}V=\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\pi/2}\mathrm{d}\varphi\int_0^1 c\rho\cos\varphi\cdot abc\rho^2\sin\varphi\,\mathrm{d}\rho=abc^2\cdot\frac\pi2\cdot\frac12\cdot\frac14=\frac{\pi abc^2}{16}.
 $$
 
 故
@@ -115,7 +115,7 @@ $$
 由**公式**（转动惯量）,
 
 $$
-\begin{aligned}J_z&=\iiint_\Omega\left(x^2+y^2\right)\rho\,\mathrm{d}V\\&=\rho\int_0^a\mathrm{d}x\int_0^a\mathrm{d}y\int_0^a\left(x^2+y^2\right)\,\mathrm{d}z\\&=\rho a\left(\int_0^a x^2\mathrm{d}x\int_0^a\mathrm{d}y+\int_0^a\mathrm{d}x\int_0^a y^2\mathrm{d}y\right)\\&=\rho a\left(\frac{a^4}{3}+\frac{a^4}{3}\right)=\frac{2\rho a^5}{3}.\end{aligned}
+J_z=\iiint_\Omega\left(x^2+y^2\right)\rho\,\mathrm{d}V=\rho\int_0^a\mathrm{d}x\int_0^a\mathrm{d}y\int_0^a\left(x^2+y^2\right)\,\mathrm{d}z=\rho a\left(\int_0^a x^2\mathrm{d}x\int_0^a\mathrm{d}y+\int_0^a\mathrm{d}x\int_0^a y^2\mathrm{d}y\right)=\rho a\left(\frac{a^4}{3}+\frac{a^4}{3}\right)=\frac{2\rho a^5}{3}.
 
 $$
 

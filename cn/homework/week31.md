@@ -129,7 +129,7 @@ $$
 用柱坐标, 由**定理 4.2** 与**定理 4.4**,
 
 $$
-\begin{aligned}\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V&=\int_0^{2\pi}\mathrm{d}\theta\int_0^1 r\,\mathrm{d}r\int_{r^2}^1 r^2\,\mathrm{d}z\\&=2\pi\int_0^1 r^3\left(1-r^2\right)\,\mathrm{d}r=2\pi\left(\frac14-\frac16\right)=\frac\pi6.\end{aligned}
+\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V=\int_0^{2\pi}\mathrm{d}\theta\int_0^1 r\,\mathrm{d}r\int_{r^2}^1 r^2\,\mathrm{d}z=2\pi\int_0^1 r^3\left(1-r^2\right)\,\mathrm{d}r=2\pi\left(\frac14-\frac16\right)=\frac\pi6.
 
 $$
 
@@ -143,7 +143,7 @@ $\blacksquare$
 两曲面 $z=\sqrt{1-r^2}$ 与 $z=r$ 相交于 $r=1/\sqrt2$. 在球坐标下, 锥面 $z=r$ 对应 $\varphi=\pi/4$, 上半球面对应 $\rho=1$. 故 $\Omega$ 变为 $0\le\rho\le1$, $0\le\varphi\le\pi/4$, $0\le\theta\le2\pi$. 由**定理 4.4**,
 
 $$
-\begin{aligned}\iiint_\Omega\left(x^2+y^2\right)^2\,\mathrm{d}V&=\int_0^{2\pi}\mathrm{d}\theta\int_0^{\pi/4}\sin\varphi\,\mathrm{d}\varphi\int_0^1\left(\rho^2\sin^2\varphi\right)^2\cdot\rho^2\,\mathrm{d}\rho\\&=2\pi\int_0^{\pi/4}\sin^5\varphi\,\mathrm{d}\varphi\cdot\frac17.\end{aligned}
+\iiint_\Omega\left(x^2+y^2\right)^2\,\mathrm{d}V=\int_0^{2\pi}\mathrm{d}\theta\int_0^{\pi/4}\sin\varphi\,\mathrm{d}\varphi\int_0^1\left(\rho^2\sin^2\varphi\right)^2\cdot\rho^2\,\mathrm{d}\rho=2\pi\int_0^{\pi/4}\sin^5\varphi\,\mathrm{d}\varphi\cdot\frac17.
 $$
 
 令 $u=\cos\varphi$,
@@ -175,7 +175,7 @@ $\blacksquare$
 球面方程 $x^2+y^2+z^2=x$ 在球坐标下化为 $\rho^2=\rho\sin\varphi\cos\theta$, 即 $\rho=\sin\varphi\cos\theta$. 由 $\rho\ge0$ 得 $\sin\varphi\cos\theta\ge0$, 即 $\theta\in\left[-\pi/2,\pi/2\right]$. 由**定理 4.4**,
 
 $$
-\begin{aligned}\iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm{d}V&=\int_{-\pi/2}^{\pi/2}\mathrm{d}\theta\int_0^\pi\sin\varphi\,\mathrm{d}\varphi\int_0^{\sin\varphi\cos\theta}\rho\cdot\rho^2\,\mathrm{d}\rho\\&=\frac14\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi.\end{aligned}
+\iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm{d}V=\int_{-\pi/2}^{\pi/2}\mathrm{d}\theta\int_0^\pi\sin\varphi\,\mathrm{d}\varphi\int_0^{\sin\varphi\cos\theta}\rho\cdot\rho^2\,\mathrm{d}\rho=\frac14\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi.
 $$
 
 其中 $\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta=\frac{3\pi}{8}$, $\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi=\frac{16}{15}$. 故

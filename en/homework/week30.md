@@ -43,7 +43,7 @@ $$
 By **Theorem 3.1**,
 
 $$
-\begin{aligned}\iint_D\left(\sqrt{\frac yx}+\sqrt{xy}\right)\mathrm{d}x\mathrm{d}y&=\int_1^9\mathrm{d}u\int_1^4\left(\sqrt v+\sqrt u\right)\frac1{2v}\,\mathrm{d}v\\&=\frac12\int_1^9\left[2\sqrt v+\sqrt u\ln v\right]_1^4\mathrm{d}u\\&=\frac12\int_1^9\left(2+\sqrt u\ln4\right)\,\mathrm{d}u\\&=\frac12\left[2u+\frac23u^{3/2}\ln4\right]_1^9\\&=8+\frac{26}{3}\ln4=8+\frac{52}{3}\ln2.\end{aligned}
+\iint_D\left(\sqrt{\frac yx}+\sqrt{xy}\right)\mathrm{d}x\mathrm{d}y=\int_1^9\mathrm{d}u\int_1^4\left(\sqrt v+\sqrt u\right)\frac1{2v}\,\mathrm{d}v=\frac12\int_1^9\left[2\sqrt v+\sqrt u\ln v\right]_1^4\mathrm{d}u=\frac12\int_1^9\left(2+\sqrt u\ln4\right)\,\mathrm{d}u=\frac12\left[2u+\frac23u^{3/2}\ln4\right]_1^9=8+\frac{26}{3}\ln4=8+\frac{52}{3}\ln2.
 
 $$
 
@@ -79,13 +79,13 @@ $$
 By **Theorem 3.1**,
 
 $$
-\begin{aligned}\iint_D\left(x+y\right)\mathrm{d}x\mathrm{d}y&=\int_4^9\!\!\int_4^9\left(u^{-2/3}v^{-1/3}+u^{-1/3}v^{-2/3}\right)\frac1{3u^2v^2}\,\mathrm{d}u\mathrm{d}v\\&=\frac13\left(\int_4^9u^{-8/3}\mathrm{d}u\right)\left(\int_4^9v^{-7/3}\mathrm{d}v\right)+\frac13\left(\int_4^9u^{-7/3}\mathrm{d}u\right)\left(\int_4^9v^{-8/3}\mathrm{d}v\right).\end{aligned}
+\iint_D\left(x+y\right)\mathrm{d}x\mathrm{d}y=\int_4^9\!\!\int_4^9\left(u^{-2/3}v^{-1/3}+u^{-1/3}v^{-2/3}\right)\frac1{3u^2v^2}\,\mathrm{d}u\mathrm{d}v=\frac13\left(\int_4^9u^{-8/3}\mathrm{d}u\right)\left(\int_4^9v^{-7/3}\mathrm{d}v\right)+\frac13\left(\int_4^9u^{-7/3}\mathrm{d}u\right)\left(\int_4^9v^{-8/3}\mathrm{d}v\right).
 $$
 
 The two terms are symmetric and combine to
 
 $$
-\begin{aligned}\iint_D\left(x+y\right)\mathrm{d}x\mathrm{d}y&=\frac23\left[-\frac35u^{-5/3}\right]_4^9\left[-\frac34v^{-4/3}\right]_4^9\\&=\frac3{10}\left(9^{-5/3}-4^{-5/3}\right)\left(9^{-4/3}-4^{-4/3}\right).\end{aligned}
+\iint_D\left(x+y\right)\mathrm{d}x\mathrm{d}y=\frac23\left[-\frac35u^{-5/3}\right]_4^9\left[-\frac34v^{-4/3}\right]_4^9=\frac3{10}\left(9^{-5/3}-4^{-5/3}\right)\left(9^{-4/3}-4^{-4/3}\right).
 
 $$
 
@@ -105,7 +105,7 @@ $$
 i.e. $r^2=\frac{ab\sin2\theta}{2c^2}$. Since $r^2\ge0$, we have $\sin2\theta\ge0$, i.e. $\theta\in\left[0,\pi/2\right]\cup\left[\pi,3\pi/2\right]$. The two parts are symmetric about the origin, so the area is
 
 $$
-\begin{aligned}m\left(D\right)&=2\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\sqrt{ab\sin2\theta/\left(2c^2\right)}}abr\,\mathrm{d}r\\&=2\int_0^{\pi/2}ab\cdot\frac12\cdot\frac{ab\sin2\theta}{2c^2}\,\mathrm{d}\theta\\&=\frac{a^2b^2}{2c^2}\int_0^{\pi/2}\sin2\theta\,\mathrm{d}\theta=\frac{a^2b^2}{2c^2}.\end{aligned}
+m\left(D\right)=2\int_0^{\pi/2}\mathrm{d}\theta\int_0^{\sqrt{ab\sin2\theta/\left(2c^2\right)}}abr\,\mathrm{d}r=2\int_0^{\pi/2}ab\cdot\frac12\cdot\frac{ab\sin2\theta}{2c^2}\,\mathrm{d}\theta=\frac{a^2b^2}{2c^2}\int_0^{\pi/2}\sin2\theta\,\mathrm{d}\theta=\frac{a^2b^2}{2c^2}.
 
 $$
 

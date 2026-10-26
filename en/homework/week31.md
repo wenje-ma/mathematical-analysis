@@ -129,7 +129,7 @@ $$
 Using cylindrical coordinates, by **Theorem 4.2** and **Theorem 4.4**,
 
 $$
-\begin{aligned}\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V&=\int_0^{2\pi}\mathrm{d}\theta\int_0^1 r\,\mathrm{d}r\int_{r^2}^1 r^2\,\mathrm{d}z\\&=2\pi\int_0^1 r^3\left(1-r^2\right)\,\mathrm{d}r=2\pi\left(\frac14-\frac16\right)=\frac\pi6.\end{aligned}
+\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V=\int_0^{2\pi}\mathrm{d}\theta\int_0^1 r\,\mathrm{d}r\int_{r^2}^1 r^2\,\mathrm{d}z=2\pi\int_0^1 r^3\left(1-r^2\right)\,\mathrm{d}r=2\pi\left(\frac14-\frac16\right)=\frac\pi6.
 
 $$
 
@@ -143,7 +143,7 @@ $\blacksquare$
 The two surfaces $z=\sqrt{1-r^2}$ and $z=r$ intersect at $r=1/\sqrt2$. In spherical coordinates, the cone $z=r$ corresponds to $\varphi=\pi/4$, and the upper hemisphere corresponds to $\rho=1$. Hence $\Omega$ becomes $0\le\rho\le1$, $0\le\varphi\le\pi/4$, $0\le\theta\le2\pi$. By **Theorem 4.4**,
 
 $$
-\begin{aligned}\iiint_\Omega\left(x^2+y^2\right)^2\,\mathrm{d}V&=\int_0^{2\pi}\mathrm{d}\theta\int_0^{\pi/4}\sin\varphi\,\mathrm{d}\varphi\int_0^1\left(\rho^2\sin^2\varphi\right)^2\cdot\rho^2\,\mathrm{d}\rho\\&=2\pi\int_0^{\pi/4}\sin^5\varphi\,\mathrm{d}\varphi\cdot\frac17.\end{aligned}
+\iiint_\Omega\left(x^2+y^2\right)^2\,\mathrm{d}V=\int_0^{2\pi}\mathrm{d}\theta\int_0^{\pi/4}\sin\varphi\,\mathrm{d}\varphi\int_0^1\left(\rho^2\sin^2\varphi\right)^2\cdot\rho^2\,\mathrm{d}\rho=2\pi\int_0^{\pi/4}\sin^5\varphi\,\mathrm{d}\varphi\cdot\frac17.
 $$
 
 Let $u=\cos\varphi$,
@@ -175,7 +175,7 @@ $\blacksquare$
 The sphere equation $x^2+y^2+z^2=x$ becomes $\rho^2=\rho\sin\varphi\cos\theta$ in spherical coordinates, i.e. $\rho=\sin\varphi\cos\theta$. Since $\rho\ge0$, we have $\sin\varphi\cos\theta\ge0$, i.e. $\theta\in\left[-\pi/2,\pi/2\right]$. By **Theorem 4.4**,
 
 $$
-\begin{aligned}\iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm{d}V&=\int_{-\pi/2}^{\pi/2}\mathrm{d}\theta\int_0^\pi\sin\varphi\,\mathrm{d}\varphi\int_0^{\sin\varphi\cos\theta}\rho\cdot\rho^2\,\mathrm{d}\rho\\&=\frac14\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi.\end{aligned}
+\iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm{d}V=\int_{-\pi/2}^{\pi/2}\mathrm{d}\theta\int_0^\pi\sin\varphi\,\mathrm{d}\varphi\int_0^{\sin\varphi\cos\theta}\rho\cdot\rho^2\,\mathrm{d}\rho=\frac14\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi.
 $$
 
 where $\int_{-\pi/2}^{\pi/2}\cos^4\theta\,\mathrm{d}\theta=\frac{3\pi}{8}$, $\int_0^\pi\sin^5\varphi\,\mathrm{d}\varphi=\frac{16}{15}$. Hence

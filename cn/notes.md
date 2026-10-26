@@ -99,11 +99,7 @@ $$
 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 它们的极限分别为 $l_1$ 与 $l_2$, 则有
 
 $$
-\begin{aligned}
-\lim\left(a_n\pm b_n\right)&=l_1\pm l_2,\\
-\lim\left(a_n\cdot b_n\right)&=l_1\cdot l_2,\\
-\lim\frac{a_n}{b_n}&=\frac{l_1}{l_2}.
-\end{aligned}
+\lim\left(a_n\pm b_n\right)=l_1\pm l_2,;\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2,;\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}.
 $$
 
 **定理 3.2**（实数域完备性）
@@ -143,10 +139,7 @@ $$
 若当 $x\to a+0$(或 $x\to a-0$)时 $f\left(x\right)$ 以 $l$ 为极限, 则称之为右极限(或左极限), 记作
 
 $$
-\begin{aligned}
-\lim\limits_{x\to a+0}f\left(x\right)&=l,\\
-\lim\limits_{x\to a-0}f\left(x\right)&=l.
-\end{aligned}
+\lim\limits_{x\to a+0}f\left(x\right)=l,;\lim\limits_{x\to a-0}f\left(x\right)=l.
 $$
 
 **定理 5.1**（函数极限四则运算）
@@ -154,11 +147,7 @@ $$
 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则
 
 $$
-\begin{aligned}
-\lim\left(f\pm g\right)&=l_1\pm l_2,\\
-\lim\left(f\cdot g\right)&=l_1\cdot l_2,\\
-\lim\frac{f}{g}&=\frac{l_1}{l_2}\left(l_2\ne0\right).
-\end{aligned}
+\lim\left(f\pm g\right)=l_1\pm l_2,;\lim\left(f\cdot g\right)=l_1\cdot l_2,;\lim\frac{f}{g}=\frac{l_1}{l_2}\left(l_2\ne0\right).
 $$
 
 **命题**（保号性）
@@ -412,11 +401,7 @@ $$
 三角函数的有理式 $R\left(\sin x,\cos x\right)$ 的不定积分, 总可通过万能代换 $t=\tan\frac{x}{2}$ 化为关于 $t$ 的有理函数的不定积分. 此时
 
 $$
-\begin{aligned}
-\sin x&=\frac{2t}{1+t^2},\\
-\cos x&=\frac{1-t^2}{1+t^2},\\
-\mathrm{d}x&=\frac{2\,\mathrm{d}t}{1+t^2}.
-\end{aligned}
+\sin x=\frac{2t}{1+t^2},;\cos x=\frac{1-t^2}{1+t^2},;\mathrm{d}x=\frac{2\,\mathrm{d}t}{1+t^2}.
 $$
 
 ## 实数集合的上下确界
@@ -492,10 +477,7 @@ $$
 设 $f,g$ 在 $\left[a,b\right]$ 上可积, 且 $f\left(x\right)\le g\left(x\right)$ ($\forall x\in\left[a,b\right]$), 则
 
 $$
-\begin{aligned}
-\int_a^b f\left(x\right)\,\mathrm{d}x&\le\int_a^b g\left(x\right)\,\mathrm{d}x,\\
-\int_a^b f\left(x\right)\,\mathrm{d}x&\ge0.
-\end{aligned}
+\int_a^b f\left(x\right)\,\mathrm{d}x\le\int_a^b g\left(x\right)\,\mathrm{d}x,;\int_a^b f\left(x\right)\,\mathrm{d}x\ge0.
 $$
 
 ## 连续函数的可积性
@@ -525,10 +507,7 @@ $$
 设 $D$ 为可求面积的有界闭区域. 则 $z=f\left(x,y\right)$ 在 $D$ 上可积的充要条件是
 
 $$
-\begin{aligned}
-\lim_{\lambda\left(T\right)\to0}\left[D\left(T\right)-d\left(T\right)\right]&=0,\\
-\lim_{\lambda\left(T\right)\to0}\sum_i\omega_i\Delta\sigma_i&=0.
-\end{aligned}
+\lim_{\lambda\left(T\right)\to0}\left[D\left(T\right)-d\left(T\right)\right]=0,;\lim_{\lambda\left(T\right)\to0}\sum_i\omega_i\Delta\sigma_i=0.
 $$
 
 其中 $\omega_i$ 为 $f$ 在小区域 $D_i$ 上的振幅.
@@ -648,11 +627,7 @@ $$
 设物体占据区域 $\Omega$, 密度为 $\rho\left(x,y,z\right)$, 质量 $m=\iiint_\Omega\rho\,\mathrm{d}V$, 则质心坐标为
 
 $$
-\begin{aligned}
-x_0&=\frac1m\iiint_\Omega x\rho\,\mathrm{d}V,\\
-y_0&=\frac1m\iiint_\Omega y\rho\,\mathrm{d}V,\\
-z_0&=\frac1m\iiint_\Omega z\rho\,\mathrm{d}V.
-\end{aligned}
+x_0=\frac1m\iiint_\Omega x\rho\,\mathrm{d}V,;y_0=\frac1m\iiint_\Omega y\rho\,\mathrm{d}V,;z_0=\frac1m\iiint_\Omega z\rho\,\mathrm{d}V.
 $$
 
 **公式**（转动惯量）
@@ -926,11 +901,7 @@ $$
 在 $x=0$ 处有:
 
 $$
-\begin{aligned}
-e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}\ \left(\left|x\right|< +\infty\right),\\
-\ln\left(1+x\right)&=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right),\\
-\cos x&=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}\ \left(\left|x\right|< +\infty\right).
-\end{aligned}
+e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}\ \left(\left|x\right|< +\infty\right),;\ln\left(1+x\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right),;\cos x=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}\ \left(\left|x\right|< +\infty\right).
 $$
 
 ## 无穷积分
@@ -1086,19 +1057,13 @@ $$
 **定义**（贝塔函数）
 
 $$
-\begin{aligned}
-\Beta\left(p,q\right)&=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q> 0\right),\\
-\Beta\left(p,q\right)&=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}.
-\end{aligned}
+\Beta\left(p,q\right)=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q> 0\right),;\Beta\left(p,q\right)=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}.
 $$
 
 **命题**（伽马与贝塔的积分形式）
 
 $$
-\begin{aligned}
-\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\,\mathrm{d}x&=\Beta\left(a,b\right),\\
-\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm{d}x&=\frac12 \Beta\!\left(\frac{m+1}{2},\frac{n+1}{2}\right).
-\end{aligned}
+\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\,\mathrm{d}x=\Beta\left(a,b\right),;\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm{d}x=\frac12 \Beta\!\left(\frac{m+1}{2},\frac{n+1}{2}\right).
 $$
 
 ## 三角函数系及其正交性
@@ -1127,10 +1092,7 @@ $$
 在 $\left[-\pi,\pi\right]$ 上两两正交, 即任意两个不同元素之积在 $\left[-\pi,\pi\right]$ 上的积分为 $0$; 且
 
 $$
-\begin{aligned}
-\int_{-\pi}^\pi1\,\mathrm{d}x&=2\pi,\\
-\int_{-\pi}^\pi\cos^2 nx\,\mathrm{d}x&=\int_{-\pi}^\pi\sin^2 nx\,\mathrm{d}x=\pi\left(n=1,2,\cdots\right).
-\end{aligned}
+\int_{-\pi}^\pi1\,\mathrm{d}x=2\pi,;\int_{-\pi}^\pi\cos^2 nx\,\mathrm{d}x=\int_{-\pi}^\pi\sin^2 nx\,\mathrm{d}x=\pi\left(n=1,2,\cdots\right).
 $$
 
 ## 周期函数的傅里叶级数
@@ -1146,10 +1108,7 @@ $$
 其中
 
 $$
-\begin{aligned}
-a_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x\left(n=0,1,2,\cdots\right),\\
-b_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x\left(n=1,2,\cdots\right).
-\end{aligned}
+a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x\left(n=0,1,2,\cdots\right),;b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x\left(n=1,2,\cdots\right).
 $$
 
 ## 傅里叶级数的收敛性
@@ -1163,10 +1122,7 @@ $$
 以 $2\pi$ 为周期的可积函数 $f\left(x\right)$ 的傅里叶系数为
 
 $$
-\begin{aligned}
-a_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,\\
-b_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
-\end{aligned}
+a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,;b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
 $$
 
 **定理**（封闭性方程）

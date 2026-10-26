@@ -99,11 +99,7 @@ $$
 Let $\left\{a_n\right\}$ and $\left\{b_n\right\}$ both have limits, their limits being $l_1$ and $l_2$, respectively. Then
 
 $$
-\begin{aligned}
-\lim\left(a_n\pm b_n\right)&=l_1\pm l_2,\\
-\lim\left(a_n\cdot b_n\right)&=l_1\cdot l_2,\\
-\lim\frac{a_n}{b_n}&=\frac{l_1}{l_2}.
-\end{aligned}
+\lim\left(a_n\pm b_n\right)=l_1\pm l_2,;\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2,;\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}.
 $$
 
 **Theorem 3.2** (Completeness of the Real Number Field)
@@ -143,10 +139,7 @@ $$
 If $f\left(x\right)$ has limit $l$ as $x\to a+0$ (or $x\to a-0$), it is called the right-hand limit (or left-hand limit), denoted
 
 $$
-\begin{aligned}
-\lim\limits_{x\to a+0}f\left(x\right)&=l,\\
-\lim\limits_{x\to a-0}f\left(x\right)&=l.
-\end{aligned}
+\lim\limits_{x\to a+0}f\left(x\right)=l,;\lim\limits_{x\to a-0}f\left(x\right)=l.
 $$
 
 **Theorem 5.1** (Arithmetic of Function Limits)
@@ -154,11 +147,7 @@ $$
 If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then
 
 $$
-\begin{aligned}
-\lim\left(f\pm g\right)&=l_1\pm l_2,\\
-\lim\left(f\cdot g\right)&=l_1\cdot l_2,\\
-\lim\frac{f}{g}&=\frac{l_1}{l_2}\left(l_2\ne0\right).
-\end{aligned}
+\lim\left(f\pm g\right)=l_1\pm l_2,;\lim\left(f\cdot g\right)=l_1\cdot l_2,;\lim\frac{f}{g}=\frac{l_1}{l_2}\left(l_2\ne0\right).
 $$
 
 **Proposition** (Sign-Preserving Property)
@@ -412,11 +401,7 @@ Any rational function $\frac{P\left(x\right)}{Q\left(x\right)}$ can be decompose
 The indefinite integral of a rational expression in trigonometric functions $R\left(\sin x,\cos x\right)$ can always be reduced, through the universal substitution $t=\tan\frac{x}{2}$, to an indefinite integral of a rational function in $t$. In this case,
 
 $$
-\begin{aligned}
-\sin x&=\frac{2t}{1+t^2},\\
-\cos x&=\frac{1-t^2}{1+t^2},\\
-\mathrm{d}x&=\frac{2\,\mathrm{d}t}{1+t^2}.
-\end{aligned}
+\sin x=\frac{2t}{1+t^2},;\cos x=\frac{1-t^2}{1+t^2},;\mathrm{d}x=\frac{2\,\mathrm{d}t}{1+t^2}.
 $$
 
 ## Supremum and Infimum of Sets of Real Numbers
@@ -492,10 +477,7 @@ $$
 Let $f,g$ be integrable on $\left[a,b\right]$, with $f\left(x\right)\le g\left(x\right)$ ($\forall x\in\left[a,b\right]$). Then
 
 $$
-\begin{aligned}
-\int_a^b f\left(x\right)\,\mathrm{d}x&\le\int_a^b g\left(x\right)\,\mathrm{d}x,\\
-\int_a^b f\left(x\right)\,\mathrm{d}x&\ge0.
-\end{aligned}
+\int_a^b f\left(x\right)\,\mathrm{d}x\le\int_a^b g\left(x\right)\,\mathrm{d}x,;\int_a^b f\left(x\right)\,\mathrm{d}x\ge0.
 $$
 
 ## Integrability of Continuous Functions
@@ -525,10 +507,7 @@ Let $E$ be a bounded set in the plane, and let $\partial E$ be the set of its bo
 Let $D$ be a bounded closed region rectifiable in area. Then $z=f\left(x,y\right)$ is integrable on $D$ if and only if
 
 $$
-\begin{aligned}
-\lim_{\lambda\left(T\right)\to0}\left[D\left(T\right)-d\left(T\right)\right]&=0,\\
-\lim_{\lambda\left(T\right)\to0}\sum_i\omega_i\Delta\sigma_i&=0.
-\end{aligned}
+\lim_{\lambda\left(T\right)\to0}\left[D\left(T\right)-d\left(T\right)\right]=0,;\lim_{\lambda\left(T\right)\to0}\sum_i\omega_i\Delta\sigma_i=0.
 $$
 
 where $\omega_i$ is the oscillation of $f$ on the small region $D_i$.
@@ -648,11 +627,7 @@ $$
 Let a body occupy the region $\Omega$ with density $\rho\left(x,y,z\right)$ and mass $m=\iiint_\Omega\rho\,\mathrm{d}V$. Then the coordinates of the center of mass are
 
 $$
-\begin{aligned}
-x_0&=\frac1m\iiint_\Omega x\rho\,\mathrm{d}V,\\
-y_0&=\frac1m\iiint_\Omega y\rho\,\mathrm{d}V,\\
-z_0&=\frac1m\iiint_\Omega z\rho\,\mathrm{d}V.
-\end{aligned}
+x_0=\frac1m\iiint_\Omega x\rho\,\mathrm{d}V,;y_0=\frac1m\iiint_\Omega y\rho\,\mathrm{d}V,;z_0=\frac1m\iiint_\Omega z\rho\,\mathrm{d}V.
 $$
 
 **Formula** (Moment of Inertia)
@@ -926,11 +901,7 @@ i.e. the power series expansion is unique and is called the Taylor series of $f$
 At $x=0$ we have:
 
 $$
-\begin{aligned}
-e^x&=\sum_{n=0}^{\infty}\frac{x^n}{n!}\ \left(\left|x\right|< +\infty\right),\\
-\ln\left(1+x\right)&=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right),\\
-\cos x&=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}\ \left(\left|x\right|< +\infty\right).
-\end{aligned}
+e^x=\sum_{n=0}^{\infty}\frac{x^n}{n!}\ \left(\left|x\right|< +\infty\right),;\ln\left(1+x\right)=\sum_{n=1}^{\infty}\frac{\left(-1\right)^{n-1}x^n}{n}\ \left(\left|x\right|< 1\right),;\cos x=\sum_{n=0}^{\infty}\frac{\left(-1\right)^n x^{2n}}{\left(2n\right)!}\ \left(\left|x\right|< +\infty\right).
 $$
 
 ## Improper Integrals of the First Kind
@@ -1086,19 +1057,13 @@ $$
 **Definition** (Beta Function)
 
 $$
-\begin{aligned}
-\Beta\left(p,q\right)&=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q> 0\right),\\
-\Beta\left(p,q\right)&=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}.
-\end{aligned}
+\Beta\left(p,q\right)=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\,\mathrm{d}t\left(p,q> 0\right),;\Beta\left(p,q\right)=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}.
 $$
 
 **Proposition** (Integral Forms of the Gamma and Beta Functions)
 
 $$
-\begin{aligned}
-\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\,\mathrm{d}x&=\Beta\left(a,b\right),\\
-\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm{d}x&=\frac12 \Beta\!\left(\frac{m+1}{2},\frac{n+1}{2}\right).
-\end{aligned}
+\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\,\mathrm{d}x=\Beta\left(a,b\right),;\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm{d}x=\frac12 \Beta\!\left(\frac{m+1}{2},\frac{n+1}{2}\right).
 $$
 
 ## The Trigonometric System and Its Orthogonality
@@ -1127,10 +1092,7 @@ $$
 is pairwise orthogonal on $\left[-\pi,\pi\right]$, i.e. the integral over $\left[-\pi,\pi\right]$ of the product of any two distinct elements is $0$; and
 
 $$
-\begin{aligned}
-\int_{-\pi}^\pi1\,\mathrm{d}x&=2\pi,\\
-\int_{-\pi}^\pi\cos^2 nx\,\mathrm{d}x&=\int_{-\pi}^\pi\sin^2 nx\,\mathrm{d}x=\pi\left(n=1,2,\cdots\right).
-\end{aligned}
+\int_{-\pi}^\pi1\,\mathrm{d}x=2\pi,;\int_{-\pi}^\pi\cos^2 nx\,\mathrm{d}x=\int_{-\pi}^\pi\sin^2 nx\,\mathrm{d}x=\pi\left(n=1,2,\cdots\right).
 $$
 
 ## Fourier Series of Periodic Functions
@@ -1146,10 +1108,7 @@ $$
 where
 
 $$
-\begin{aligned}
-a_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x\left(n=0,1,2,\cdots\right),\\
-b_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x\left(n=1,2,\cdots\right).
-\end{aligned}
+a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x\left(n=0,1,2,\cdots\right),;b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x\left(n=1,2,\cdots\right).
 $$
 
 ## Convergence of Fourier Series
@@ -1163,10 +1122,7 @@ Let $f\left(x\right)$ be periodic with period $2\pi$ and piecewise monotone and 
 The Fourier coefficients of an integrable function $f\left(x\right)$ of period $2\pi$ are
 
 $$
-\begin{aligned}
-a_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,\\
-b_n&=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
-\end{aligned}
+a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,;b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
 $$
 
 **Theorem** (Closure Equation)

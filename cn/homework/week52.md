@@ -44,12 +44,8 @@ $$
 (2)由积分的线性性, 
 
 $$
-\begin{aligned}
 \left\langle\lambda f+\mu g,h\right\rangle
-&=\frac1\pi\int_{-\pi}^\pi\left(\lambda f\left(x\right)+\mu g\left(x\right)\right)h\left(x\right)\,\mathrm{d}x\\
-&=\lambda\cdot\frac1\pi\int_{-\pi}^\pi f\left(x\right)h\left(x\right)\,\mathrm{d}x+\mu\cdot\frac1\pi\int_{-\pi}^\pi g\left(x\right)h\left(x\right)\,\mathrm{d}x\\
-&=\lambda\left\langle f,h\right\rangle+\mu\left\langle g,h\right\rangle.
-\end{aligned}
+=\frac1\pi\int_{-\pi}^\pi\left(\lambda f\left(x\right)+\mu g\left(x\right)\right)h\left(x\right)\,\mathrm{d}x=\lambda\cdot\frac1\pi\int_{-\pi}^\pi f\left(x\right)h\left(x\right)\,\mathrm{d}x+\mu\cdot\frac1\pi\int_{-\pi}^\pi g\left(x\right)h\left(x\right)\,\mathrm{d}x=\lambda\left\langle f,h\right\rangle+\mu\left\langle g,h\right\rangle.
 
 $$
 

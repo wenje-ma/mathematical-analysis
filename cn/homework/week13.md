@@ -252,12 +252,7 @@ $$
 
 求导得
 $$
-\begin{aligned}
-f'\left(x\right)&=\frac{1}{1+\left(\frac{1+x}{1-x}\right)^2}\cdot\frac{\left(1-x\right)+\left(1+x\right)}{\left(1-x\right)^2}-\frac{1}{1+x^2}\\
-&=\frac{\left(1-x\right)^2}{\left(1-x\right)^2+\left(1+x\right)^2}\cdot\frac{2}{\left(1-x\right)^2}-\frac{1}{1+x^2}\\
-&=\frac{2}{\left(1-x\right)^2+\left(1+x\right)^2}-\frac{1}{1+x^2}\\
-&=\frac{1}{1+x^2}-\frac{1}{1+x^2}=0.
-\end{aligned}
+f'\left(x\right)=\frac{1}{1+\left(\frac{1+x}{1-x}\right)^2}\cdot\frac{\left(1-x\right)+\left(1+x\right)}{\left(1-x\right)^2}-\frac{1}{1+x^2}=\frac{\left(1-x\right)^2}{\left(1-x\right)^2+\left(1+x\right)^2}\cdot\frac{2}{\left(1-x\right)^2}-\frac{1}{1+x^2}=\frac{2}{\left(1-x\right)^2+\left(1+x\right)^2}-\frac{1}{1+x^2}=\frac{1}{1+x^2}-\frac{1}{1+x^2}=0.
 $$
 
 由**定理 1.4**（常数定理）, $f\left(x\right)$ 在 $\left(a,b\right)$ 内为常数, 记为 $C$.

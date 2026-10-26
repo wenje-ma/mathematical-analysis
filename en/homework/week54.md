@@ -4,10 +4,8 @@
 
 > **Proposition** (Fourier Coefficients) The Fourier coefficients of an integrable function $f\left(x\right)$ with period $2\pi$ are
 > $$
-\begin{aligned}
-> a_n&=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,\
-> b_n&=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
-\end{aligned}
+> a_n=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm{d}x,\
+> b_n=\frac1\pi\displaystyle\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm{d}x.
 > $$
 
 > **Theorem** (The Closure Equation) Let the Fourier coefficients of $f\left(x\right)$ be $a_n,b_n$. Then

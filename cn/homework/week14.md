@@ -131,10 +131,8 @@ $$
 其中 $\Delta x=x-a$. 证明: 函数 $g\left(x\right)=f\left(x\right)-T\left(x\right)$ 满足
 
 $$
-\begin{aligned}
-g\left(a\right)&=0,g'\left(a\right)=0,g''\left(a\right)=0,\
-f\left(x\right)&=T\left(x\right)+o\left(\left(\Delta x\right)^2\right)\ \left(x\to a\right).
-\end{aligned}
+g\left(a\right)=0,g'\left(a\right)=0,g''\left(a\right)=0,\
+f\left(x\right)=T\left(x\right)+o\left(\left(\Delta x\right)^2\right)\ \left(x\to a\right).
 $$
 
 ### 解答 习题三

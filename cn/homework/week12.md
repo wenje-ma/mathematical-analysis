@@ -53,10 +53,8 @@ $\blacksquare$
 （习题 2.5-4）设 $x=\varphi\left(t\right),y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$. 令 $\Delta t\ne0$,
 
 $$
-\begin{aligned}
-\Delta x&=\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right),\
-\Delta y&=\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right).
-\end{aligned}
+\Delta x=\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right),\
+\Delta y=\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right).
 $$
 
 试证明 $\lim\limits_{\Delta t\to0}\frac{\Delta y}{\Delta x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.

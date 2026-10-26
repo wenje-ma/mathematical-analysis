@@ -67,7 +67,7 @@ $$
 we have
 
 $$
-\begin{aligned}\left(m_1+n_1\sqrt2\right)\pm\left(m_2+n_2\sqrt2\right)&=\left(m_1\pm m_2\right)+\left(n_1\pm n_2\right)\sqrt2\in E,\\\left(m_1+n_1\sqrt2\right)\left(m_2+n_2\sqrt2\right)&=\left(m_1m_2+2n_1n_2\right)+\left(m_1n_2+m_2n_1\right)\sqrt2\in E.\end{aligned}
+\left(m_1+n_1\sqrt2\right)\pm\left(m_2+n_2\sqrt2\right)=\left(m_1\pm m_2\right)+\left(n_1\pm n_2\right)\sqrt2\in E,;\left(m_1+n_1\sqrt2\right)\left(m_2+n_2\sqrt2\right)=\left(m_1m_2+2n_1n_2\right)+\left(m_1n_2+m_2n_1\right)\sqrt2\in E.
 $$
 
 Hence $E$ is closed under addition, subtraction and multiplication. If $m_2+n_2\sqrt2\ne0$, rationalizing gives
