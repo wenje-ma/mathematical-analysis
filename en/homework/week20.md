@@ -1,93 +1,51 @@
-# Assignment 20
+# week20
 
-> **Theorem 3.1** (Integration by Parts Formula) Let $u\left(x\right),v\left(x\right)$ be differentiable. Then
-> $$
-> \int u\left(x\right)\,\mathrm{d}v\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm{d}u\left(x\right).
-> $$
-### Problem 1
+> **Theorem 3.1 (Integration by Parts)**<br>If $u\left(x\right)$ and $v\left(x\right)$ are differentiable, then $\int u\left(x\right)\,\mathrm dv\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm du\left(x\right)$.
 
-(Problem 4.3-1-11) Find the indefinite integral $\displaystyle\int x\csc^2x\,\mathrm{d}x$.
+---
 
-### Solution to Problem 1
+## 4.3-1-11
 
-Let $u=x$, $\mathrm{d}v=\csc^2x\,\mathrm{d}x$, then $\mathrm{d}u=\mathrm{d}x$, $v=-\cot x$. By **Theorem 3.1** (Integration by Parts Formula),
-$$
-\int x\csc^2x\,\mathrm{d}x=-x\cot x+\int\cot x\,\mathrm{d}x=-x\cot x+\ln\left|\sin x\right|+C.
-$$
+Find $\int x\csc^2x\,\mathrm dx$.
 
-$\blacksquare$
-### Problem 2
+### Solution 4.3-1-11
 
-(Problem 4.3-1-13) Find the indefinite integral $\displaystyle\int\sqrt{1+9x^2}\,\mathrm{d}x$.
+Let $u=x$, $\mathrm dv=\csc^2x\,\mathrm dx$. By **Theorem 3.1 (Integration by Parts)**,
 
-### Solution to Problem 2
-
-Let $u=\sqrt{1+9x^2}$, $\mathrm{d}v=\mathrm{d}x$, then
 $$
-\mathrm{d}u=\frac{9x}{\sqrt{1+9x^2}}\,\mathrm{d}x, v=x.
-$$
-
-By **Theorem 3.1** (Integration by Parts Formula),
-$$
-\int\sqrt{1+9x^2}\,\mathrm{d}x=x\sqrt{1+9x^2}-\int\frac{9x^2}{\sqrt{1+9x^2}}\,\mathrm{d}x.
-$$
-
-Rewrite the integrand:
-$$
-\frac{9x^2}{\sqrt{1+9x^2}}=\frac{9x^2+1-1}{\sqrt{1+9x^2}}=\sqrt{1+9x^2}-\frac{1}{\sqrt{1+9x^2}}.
-$$
-
-Substituting gives
-$$
-\int\sqrt{1+9x^2}\,\mathrm{d}x=x\sqrt{1+9x^2}-\int\sqrt{1+9x^2}\,\mathrm{d}x+\int\frac{\mathrm{d}x}{\sqrt{1+9x^2}}.
-$$
-
-Rearranging:
-$$
-2\int\sqrt{1+9x^2}\,\mathrm{d}x=x\sqrt{1+9x^2}+\int\frac{\mathrm{d}x}{\sqrt{1+9x^2}}.
-$$
-
-Moreover,
-$$
-\int\frac{\mathrm{d}x}{\sqrt{1+9x^2}}=\frac13\ln\left(3x+\sqrt{1+9x^2}\right)+C.
-$$
-
-Hence
-$$
-\int\sqrt{1+9x^2}\,\mathrm{d}x=\frac{x}{2}\sqrt{1+9x^2}+\frac16\ln\left(3x+\sqrt{1+9x^2}\right)+C.
+\int x\csc^2x\,\mathrm dx=-x\cot x+\ln\left|\sin x\right|+C.
 $$
 
 $\blacksquare$
-### Problem 3
 
-(Problem 4.3-1-14) Find the indefinite integral $\displaystyle\int\sec^3x\,\mathrm{d}x$.
+---
 
-### Solution to Problem 3
+## 4.3-1-13
 
-Let $u=\sec x$, $\mathrm{d}v=\sec^2x\,\mathrm{d}x$, then $\mathrm{d}u=\sec x\tan x\,\mathrm{d}x$, $v=\tan x$. By **Theorem 3.1** (Integration by Parts Formula),
-$$
-\int\sec^3x\,\mathrm{d}x=\sec x\tan x-\int\sec x\tan^2x\,\mathrm{d}x.
-$$
+Find $\int\sqrt{1+9x^2}\,\mathrm dx$.
 
-Using $\tan^2x=\sec^2x-1$,
-$$
-\int\sec^3x\,\mathrm{d}x=\sec x\tan x-\int\sec x\left(\sec^2x-1\right)\,\mathrm{d}x=\sec x\tan x-\int\sec^3x\,\mathrm{d}x+\int\sec x\,\mathrm{d}x.
-$$
+### Solution 4.3-1-13
 
-Rearranging:
-$$
-2\int\sec^3x\,\mathrm{d}x=\sec x\tan x+\int\sec x\,\mathrm{d}x.
-$$
-
-Moreover,
+Let $u=\sqrt{1+9x^2}$, $\mathrm dv=\mathrm dx$. By **Theorem 3.1 (Integration by Parts)**,
 
 $$
-\displaystyle\int\sec x\,\mathrm{d}x=\ln\left|\sec x+\tan x\right|+C.
+\int\sqrt{1+9x^2}\,\mathrm dx=\frac x2\sqrt{1+9x^2}+\frac16\ln\left(3x+\sqrt{1+9x^2}\right)+C.
 $$
 
-Hence
+$\blacksquare$
+
+---
+
+## 4.3-1-14
+
+Find $\int\sec^3x\,\mathrm dx$.
+
+### Solution 4.3-1-14
+
+Let $u=\sec x$, $\mathrm dv=\sec^2x\,\mathrm dx$. By **Theorem 3.1 (Integration by Parts)** and $\tan^2x=\sec^2x-1$,
+
 $$
-\int\sec^3x\,\mathrm{d}x=\frac12\left(\sec x\tan x+\ln\left|\sec x+\tan x\right|\right)+C.
+\int\sec^3x\,\mathrm dx=\frac12\left(\sec x\tan x+\ln\left|\sec x+\tan x\right|\right)+C.
 $$
 
 $\blacksquare$

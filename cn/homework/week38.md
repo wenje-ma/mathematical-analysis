@@ -1,125 +1,65 @@
-# 作业 38
+# week38
 
-> **定义**（级数收敛）给定数列 $\left\{a_n\right\}$, 作部分和 $S_n=\sum_{k=1}^{n}a_k$. 若 $\lim_{n\to\infty}S_n=S$ 存在且有限, 则称级数 $\sum_{n=1}^{\infty}a_n$ 收敛, $S$ 称为其和; 否则称级数发散.
-> 
-> **定理 1.1**（收敛级数的必要条件）若级数 $\sum_{n=1}^{\infty}a_n$ 收敛, 则 $\lim_{n\to\infty}a_n=0$.
+> **基础知识: 级数收敛的定义**<br>给定数列 $\left\{a_n\right\}$, 作部分和 $S_n=\sum_{k=1}^n a_k$. 若 $\lim_{n\to\infty}S_n=S$ 存在且有限, 则称级数 $\sum a_n$ 收敛, $S$ 为其和; 否则称发散.
 
-### 习题一
+> **定理 1.1 (收敛级数的必要条件)**<br>若级数 $\sum a_n$ 收敛, 则 $\lim_{n\to\infty}a_n=0$.
 
-（习题 10.1-1）证明等比级数
-$$
-a_0+a_0q+a_0q^2+\cdots+a_0q^n+\cdots\left(a_0\ne 0\right)
-$$
-当 $\left|q\right|< 1$ 时收敛, 且有 $a_0+a_0q+\cdots=\frac{a_0}{1-q}$. 当 $\left|q\right|\ge 1$ 时上述级数发散.
+---
 
-### 解答 习题一
+## 10.1-1
 
-该级数的前 $n+1$ 项部分和为
+证明等比级数 $a_0+a_0q+\cdots$ 当 $\left|q\right|< 1$ 时收敛且和为 $\frac{a_0}{1-q}$, 当 $\left|q\right|\ge1$ 时发散.
 
-$$
-S_n=a_0+a_0q+\cdots+a_0q^n=a_0\cdot\frac{1-q^{n+1}}{1-q}, q\ne 1.
-$$
+### 解答 10.1-1
 
-当 $\left|q\right|< 1$ 时, $\lim_{n\to\infty}q^{n+1}=0$, 故由**定义**（级数收敛）, 
+部分和 $S_n=a_0\frac{1-q^{n+1}}{1-q}$. 当 $\left|q\right|< 1$ 时, $q^{n+1}\to0$, 由**基础知识: 级数收敛的定义**, 级数收敛且和为 $\frac{a_0}{1-q}$. 当 $q=1$ 时 $S_n\to\infty$. 当 $\left|q\right|> 1$ 时通项不趋于 $0$, 由**定理 1.1 (收敛级数的必要条件)**, 发散. $\blacksquare$
 
-$$
-\lim_{n\to\infty}S_n=\frac{a_0}{1-q},
-$$
+---
 
-级数收敛且其和为 $\frac{a_0}{1-q}$.
+## 10.1-2-1
 
-当 $q=1$ 时, $S_n=a_0\left(n+1\right)\to\infty$($a_0\ne 0$), 级数发散. 当 $q=-1$ 时, $S_n$ 在 $a_0$ 与 $0$ 之间摆动, 不收敛. 当 $\left|q\right|> 1$ 时, 通项 $a_0q^n$ 不趋于 $0$, 由**定理 1.1**（收敛级数的必要条件）, 级数发散. $\blacksquare$
+讨论 $\sum_{n=1}^\infty\left(\sqrt{n+1}-\sqrt n\right)$ 的收敛性.
 
-### 习题二
+### 解答 10.1-2-1
 
-（习题 10.1-2-1）讨论级数 $\sum_{n=1}^{+\infty}\left(\sqrt{n+1}-\sqrt{n}\right)$ 的收敛性或发散性.
+部分和 $S_N=\sqrt{N+1}-1\to+\infty$. 由**基础知识: 级数收敛的定义**, 级数发散. $\blacksquare$
 
-### 解答 习题二
+---
 
-其部分和为
+## 10.1-2-2
 
-$$
-S_N=\sum_{n=1}^{N}\left(\sqrt{n+1}-\sqrt{n}\right)=\sqrt{N+1}-1.
-$$
+讨论 $\sum_{n=1}^\infty\frac1{\left(2n-1\right)\left(2n+1\right)}$ 的收敛性.
 
-当 $N\to\infty$ 时 $S_N\to+\infty$, 极限不存在有限值, 故由**定义**（级数收敛）, 该级数发散. $\blacksquare$
+### 解答 10.1-2-2
 
-### 习题三
+裂项: $\frac1{\left(2n-1\right)\left(2n+1\right)}=\frac12\left(\frac1{2n-1}-\frac1{2n+1}\right)$. 部分和 $S_N=\frac12\left(1-\frac1{2N+1}\right)\to\frac12$. 由**基础知识: 级数收敛的定义**, 级数收敛. $\blacksquare$
 
-（习题 10.1-2-2）讨论级数 $\sum_{n=1}^{+\infty}\frac{1}{\left(2n-1\right)\left(2n+1\right)}$ 的收敛性或发散性.
+---
 
-### 解答 习题三
+## 10.1-2-3
 
-注意到
+讨论 $\sum_{n=1}^\infty\ln\frac n{n+5}$ 的收敛性.
 
-$$
-\frac{1}{\left(2n-1\right)\left(2n+1\right)}=\frac{1}{2}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right),
-$$
+### 解答 10.1-2-3
 
-故部分和为
+裂项相消后 $S_N=\ln\left(1\cdot2\cdot3\cdot4\cdot5\right)-\ln\left(\left(N+1\right)\cdots\left(N+5\right)\right)\to-\infty$. 由**基础知识: 级数收敛的定义**, 级数发散. $\blacksquare$
 
-$$
-S_N=\frac{1}{2}\sum_{n=1}^{N}\left(\frac{1}{2n-1}-\frac{1}{2n+1}\right)=\frac{1}{2}\left(1-\frac{1}{2N+1}\right).
-$$
+---
 
-当 $N\to\infty$ 时 $S_N\to\frac{1}{2}$, 故由**定义**（级数收敛）, 该级数收敛, 其和为 $\frac{1}{2}$. $\blacksquare$
+## 10.1-2-7
 
-### 习题四
+讨论 $\sum_{n=1}^\infty\cos^2\frac\pi n$ 的收敛性.
 
-（习题 10.1-2-3）讨论级数 $\sum_{n=1}^{+\infty}\ln\frac{n}{n+5}$ 的收敛性或发散性.
+### 解答 10.1-2-7
 
-### 解答 习题四
+通项 $\cos^2\frac\pi n\to1\ne0$. 由**定理 1.1 (收敛级数的必要条件)**, 级数发散. $\blacksquare$
 
-通项为 $\ln n-\ln\left(n+5\right)$, 故部分和为
+---
 
-$$
-S_N=\sum_{n=1}^{N}\left(\ln n-\ln\left(n+5\right)\right)=\ln\left(1\cdot 2\cdot 3\cdot 4\cdot 5\right)-\ln\left(\left(N+1\right)\left(N+2\right)\left(N+3\right)\left(N+4\right)\left(N+5\right)\right).
-$$
+## 10.1-2-8
 
-当 $N\to\infty$ 时后一项的真数趋于 $+\infty$, 从而 $S_N\to-\infty$, 极限不存在有限值. 故由**定义**（级数收敛）, 该级数发散. $\blacksquare$
+讨论 $\sum_{n=1}^\infty\arctan\frac1{2n^2}$ 的收敛性.
 
-### 习题五
+### 解答 10.1-2-8
 
-（习题 10.1-2-7）讨论级数 $\sum_{n=1}^{+\infty}\cos^2\frac{\pi}{n}$ 的收敛性或发散性.
-
-### 解答 习题五
-
-当 $n\to\infty$ 时 $\frac{\pi}{n}\to 0$, 故
-
-$$
-\cos^2\frac{\pi}{n}\to\cos^2 0=1\ne 0.
-$$
-
-由**定理 1.1**（收敛级数的必要条件）, 通项不趋于零, 故该级数发散. $\blacksquare$
-
-### 习题六
-
-（习题 10.1-2-8）讨论级数 $\sum_{n=1}^{+\infty}\arctan\frac{1}{2n^2}$ 的收敛性或发散性.
-
-### 解答 习题六
-
-对 $x\ge 0$ 有 $\arctan x\le x$, 故
-
-$$
-0\le\arctan\frac{1}{2n^2}\le\frac{1}{2n^2}.
-$$
-
-又当 $n\ge 2$ 时, 
-
-$$
-\frac{1}{n^2}\le\frac{1}{n\left(n-1\right)}=\frac{1}{n-1}-\frac{1}{n},
-$$
-
-从而
-
-$$
-\sum_{n=2}^{N}\frac{1}{n^2}\le\sum_{n=2}^{N}\left(\frac{1}{n-1}-\frac{1}{n}\right)=1-\frac{1}{N}< 1.
-$$
-
-正项级数 $\sum\frac{1}{2n^2}$ 的部分和有界, 故收敛. 又
-
-$$
-0\le\sum_{n=1}^{N}\arctan\frac{1}{2n^2}\le\sum_{n=1}^{N}\frac{1}{2n^2}< \frac12,
-$$
-
-故 $\sum\arctan\frac{1}{2n^2}$ 的部分和单调递增且有上界, 由实数域完备性(第一章**命题 1.5**)其极限存在有限, 从而由**定义**（级数收敛）, 该级数收敛. $\blacksquare$
+因 $0\le\arctan\frac1{2n^2}\le\frac1{2n^2}$, 且 $\sum\frac1{2n^2}$ 收敛, 故部分和单调递增且有上界. 由**基础知识: 级数收敛的定义**, 级数收敛. $\blacksquare$
