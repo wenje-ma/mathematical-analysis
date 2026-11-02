@@ -1,27 +1,27 @@
 # week46
 
 > **基础知识: 无穷积分收敛的定义**
->
+> 
 > 若 $\lim_{A\to+\infty}\int_a^A f\left(x\right)\mathrm dx$ 存在, 则称 $\int_a^{+\infty}f\left(x\right)\mathrm dx$ 收敛, 否则发散.
 
 > **基础知识: 绝对收敛与条件收敛的定义**
->
+> 
 > 若 $\int_a^{+\infty}\left|f\left(x\right)\right|\mathrm dx$ 收敛, 则称绝对收敛; 若 $\int_a^{+\infty}f\left(x\right)\mathrm dx$ 收敛但 $\int_a^{+\infty}\left|f\left(x\right)\right|\mathrm dx$ 发散, 则称条件收敛.
 
 > **定理 1.1 (柯西收敛原理)**
->
+> 
 > $\int_a^{+\infty}f\left(x\right)\mathrm dx$ 收敛的充要条件是: 对任意 $\varepsilon> 0$, 存在 $X> 0$, 使 $\left|\int_{A'}^{A''}f\left(x\right)\mathrm dx\right|< \varepsilon$ ($A',A''> X$).
 
 > **例 1.2 (p-积分)**
->
+> 
 > $\int_1^{+\infty}\frac{\mathrm dx}{x^p}$ 当 $p> 1$ 时收敛, 当 $p\le1$ 时发散.
 
 > **定理 1.3 (比较判别法)**
->
+> 
 > 若 $0\le f\left(x\right)\le g\left(x\right)$ ($x\ge X_0$), 则 $\int g$ 收敛蕴含 $\int f$ 收敛, $\int f$ 发散蕴含 $\int g$ 发散.
 
 > **定理 1.6 (狄利克雷判别法)**
->
+> 
 > 若 $f\left(x\right)$ 单调趋于零, 且 $\int_a^A g\left(x\right)\mathrm dx$ 对任意 $A$ 有界, 则 $\int_a^{+\infty}f\left(x\right)g\left(x\right)\mathrm dx$ 收敛.
 
 ---

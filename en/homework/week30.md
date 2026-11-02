@@ -1,7 +1,7 @@
 # week30
 
 > **Theorem 3.1 (Change of Variables in Double Integrals)**
->
+> 
 > $\iint_D f\,\mathrm dx\mathrm dy=\iint_G f\left(x\left(u,v\right),y\left(u,v\right)\right)\left|J\left(u,v\right)\right|\,\mathrm du\mathrm dv$.
 
 ---

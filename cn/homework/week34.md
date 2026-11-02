@@ -1,15 +1,15 @@
 # week34
 
 > **定理 2.2 (格林公式)**
->
+> 
 > 设 $L$ 为逐段光滑的简单闭曲线, 所围区域为 $D$, $P,Q$ 在 $D$ 上有一阶连续偏导数. 则 $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
 
 > **定理 2.4 (积分与路径无关的条件)**
->
+> 
 > 设 $D$ 为单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int P\,\mathrm dx+Q\,\mathrm dy$ 与路径无关的充要条件是 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
 > **定理 2.5 (恰当微分形式)**
->
+> 
 > $P\,\mathrm dx+Q\,\mathrm dy$ 为恰当微分形式的充要条件是 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
 ---

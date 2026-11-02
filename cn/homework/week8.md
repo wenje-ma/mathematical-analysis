@@ -1,15 +1,15 @@
 # week8
 
 > **基础知识: 区间套原理**
->
+> 
 > 设 $\left\{\left[a_n,b_n\right]\right\}$ 为一列闭区间, 满足 $\left[a_{n+1},b_{n+1}\right]\subset\left[a_n,b_n\right]$ 且 $b_n-a_n\to0$, 则存在唯一的实数 $l$ 属于所有区间.
 
 > **定理 8.1 (中间值定理)**
->
+> 
 > 设 $y=f\left(x\right)$ 在闭区间 $\left[a,b\right]$ 上连续, 且 $f\left(a\right)$ 与 $f\left(b\right)$ 反号, 则存在一点 $c\in\left(a,b\right)$ 使得 $f\left(c\right)=0$. 更一般地, $f$ 可取到 $f\left(a\right)$ 与 $f\left(b\right)$ 之间的一切值.
 
 > **定理 8.2 (有界性定理)**
->
+> 
 > 闭区间上的连续函数是有界的, 且达到最大值与最小值.
 
 ---

@@ -1,11 +1,11 @@
 # week37
 
 > **基础知识: 散度的定义**
->
+> 
 > 设向量场 $\boldsymbol F=\left(P,Q,R\right)$, 则 $\operatorname{div}\boldsymbol F=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$.
 
 > **基础知识: 旋度的定义**
->
+> 
 > $\operatorname{rot}\boldsymbol F=\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z},\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x},\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)$.
 
 ---

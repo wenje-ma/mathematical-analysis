@@ -1,11 +1,11 @@
 # week19
 
 > **定理 2.1 (第一换元法则)**
->
+> 
 > 设 $F'\left(u\right)=f\left(u\right)$, 且 $u=\varphi\left(x\right)$ 可导, 则 $\int f\left(\varphi\left(x\right)\right)\varphi'\left(x\right)\,\mathrm dx=F\left(\varphi\left(x\right)\right)+C$.
 
 > **定理 2.2 (第二换元法则)**
->
+> 
 > 设 $x=\varphi\left(t\right)$ 可导且有反函数, 又设 $\int f\left(\varphi\left(t\right)\right)\varphi'\left(t\right)\,\mathrm dt=G\left(t\right)+C$, 则 $\int f\left(x\right)\,\mathrm dx=G\left(\varphi^{-1}\left(x\right)\right)+C$.
 
 ---

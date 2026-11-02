@@ -1,11 +1,11 @@
 # week52
 
 > **基础知识: 内积与范数的定义**
->
+> 
 > 在 $R\left[-\pi,\pi\right]$ 中定义内积 $\left\langle f,g\right\rangle=\frac1\pi\int_{-\pi}^\pi f\left(x\right)g\left(x\right)\mathrm dx$, 范数 $\left|f\right|=\sqrt{\left\langle f,f\right\rangle}$.
 
 > **命题 (三角函数系的正交性)**
->
+> 
 > 三角函数系 $1,\cos x,\sin x,\cos2x,\sin2x,\cdots$ 在 $\left[-\pi,\pi\right]$ 上两两正交, 且 $\int_{-\pi}^\pi1\,\mathrm dx=2\pi$, $\int_{-\pi}^\pi\cos^2nx\,\mathrm dx=\int_{-\pi}^\pi\sin^2nx\,\mathrm dx=\pi$.
 
 ---
@@ -36,7 +36,7 @@
 
 ### 解答 13.1-3
 
-$(\Leftarrow)$ 若 $g=\lambda f$, 直接验证. $(\Rightarrow)$ 若等号成立, 判别式为 $0$, 存在 $\lambda_0$ 使 $\left|f-\lambda_0g\right|^2=0$. 由连续性, $f\equiv\lambda_0g$. $\blacksquare$
+$\left(\Leftarrow\right)$ 若 $g=\lambda f$, 直接验证. $\left(\Rightarrow\right)$ 若等号成立, 判别式为 $0$, 存在 $\lambda_0$ 使 $\left|f-\lambda_0g\right|^2=0$. 由连续性, $f\equiv\lambda_0g$. $\blacksquare$
 
 ---
 

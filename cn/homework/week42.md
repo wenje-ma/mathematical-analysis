@@ -1,15 +1,15 @@
 # week42
 
 > **基础知识: 函数序列一致收敛的定义**
->
+> 
 > 若对任意 $\varepsilon> 0$, 存在 $N$, 当 $n> N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$, 则称 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
 
 > **定理 1.1 (M 判别法)**
->
+> 
 > 若存在 $M_n> 0$, $M_n\to0$, 使 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ 对一切 $x\in X$ 成立, 则 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
 
 > **定理 1.2 (极限函数的连续性)**
->
+> 
 > 若 $\left\{f_n\right\}$ 在区间 $X$ 上一致收敛于 $f$, 且每个 $f_n$ 连续, 则 $f$ 在 $X$ 上连续.
 
 ---

@@ -1,11 +1,11 @@
 # week21
 
 > **Theorem 2.1 (First Substitution Rule)**
->
+> 
 > If $F'\left(u\right)=f\left(u\right)$ and $u=\varphi\left(x\right)$ is differentiable, then $\int f\left(\varphi\left(x\right)\right)\varphi'\left(x\right)\,\mathrm dx=F\left(\varphi\left(x\right)\right)+C$.
 
 > **Theorem 4.1 (Partial Fraction Decomposition)**
->
+> 
 > Any rational function $\frac{P\left(x\right)}{Q\left(x\right)}$ can be decomposed into a polynomial plus partial fractions of the form $\frac{A}{\left(x-a\right)^k}$ or $\frac{Bx+C}{\left(x^2+px+q\right)^m}$.
 
 ---

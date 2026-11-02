@@ -1,15 +1,15 @@
 # week27
 
 > **基础知识: 定积分的比较性质**
->
+> 
 > 设 $f,g$ 在 $\left[a,b\right]$ 上可积, 且 $f\left(x\right)\le g\left(x\right)$, 则 $\int_a^b f\left(x\right)\,\mathrm dx\le\int_a^b g\left(x\right)\,\mathrm dx$.
 
 > **引理 2.1 (分点加密的效应)**
->
+> 
 > 设 $T'$ 是由分割 $T$ 增加有限个分点而形成的分割, 则达布小和不减, 达布大和不增.
 
 > **定理 2.2 (可积的充要条件)**
->
+> 
 > 设 $f$ 在 $\left[a,b\right]$ 上有界. 则 $f$ 黎曼可积的充要条件是 $\lim_{\lambda\left(T\right)\to0}\left[D\left(T\right)-d\left(T\right)\right]=0$.
 
 ---

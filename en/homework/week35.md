@@ -1,15 +1,15 @@
 # week35
 
 > **Basic Knowledge: Computation of First Type Surface Integral**
->
+> 
 > $\iint_S f\,\mathrm dS=\iint_D f\sqrt{EG-F^2}\,\mathrm du\mathrm dv$. For $z=g\left(x,y\right)$, $\mathrm dS=\sqrt{1+g_x^2+g_y^2}\,\mathrm dx\mathrm dy$.
 
 > **Basic Knowledge: Computation of Second Type Surface Integral**
->
+> 
 > $\iint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iint_D\left[P\left(-g_x\right)+Q\left(-g_y\right)+R\right]\mathrm dx\mathrm dy$.
 
 > **Theorem 4.1 (Gauss Divergence Theorem)**
->
+> 
 > $\oiint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
 
 ---

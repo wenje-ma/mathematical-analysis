@@ -1,27 +1,27 @@
 # week3
 
 > **Basic Knowledge: Definition of Sequence Limit**
->
+> 
 > Let $\left\{a_n\right\}$ be a given sequence. If there exists a real number $l$ such that for every $\varepsilon> 0$, no matter how small, there exists a natural number $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$, then $a_n$ is said to have limit $l$, denoted $\lim_{n\to\infty}a_n=l$.
 
 > **Proposition 1.6 (Properties of Absolute Value)**
->
+> 
 > For any $x,y\in\mathbb R$: (1) $\left|x\right|\ge0$, equality iff $x=0$; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
 
 > **Proposition 1.7 (Triangle Inequality)**
->
+> 
 > For any real $a,b,c$: (1) $\left|a-b\right|\ge0$, equality iff $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
 > **Theorem 3.1 (Arithmetic of Limits)**
->
+> 
 > If $\left\{a_n\right\}$ and $\left\{b_n\right\}$ have limits $l_1$ and $l_2$ respectively, then $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
 > **Theorem 3.2 (Completeness of the Real Field)**
->
+> 
 > If $\left\{a_n\right\}$ is a monotone increasing sequence bounded above, then there exists $l\in\mathbb R$ such that $\left\{a_n\right\}$ converges to $l$. In short, a monotone increasing sequence bounded above has a limit.
 
 > **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**
->
+> 
 > If $a$ is any positive number, then $\lim_{n\to\infty}a^{1/n}=1$.
 
 ---
@@ -117,7 +117,7 @@ Given $\varepsilon> 0$, take $N=\left[1/\varepsilon^2\right]+1$. Then for $n> N$
 Find the limit:
 
 $$
-\lim_{n\to\infty}\left(\sqrt[n]{1}+\sqrt[n]{2}+\cdots+\sqrt[n]{100}\right).
+\lim_{n\to\infty}\left(\sqrt\left[n\right]{1}+\sqrt\left[n\right]{2}+\cdots+\sqrt\left[n\right]{100}\right).
 $$
 
 ### Solution 1.3-2-2
@@ -125,13 +125,13 @@ $$
 By **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**, for each $k=1,2,\dots,100$,
 
 $$
-\lim_{n\to\infty}\sqrt[n]{k}=1.
+\lim_{n\to\infty}\sqrt\left[n\right]{k}=1.
 $$
 
 By the addition extension of **Theorem 3.1 (Arithmetic of Limits)** (finite terms),
 
 $$
-\lim_{n\to\infty}\left(\sqrt[n]{1}+\sqrt[n]{2}+\cdots+\sqrt[n]{100}\right)=\sum_{k=1}^{100}1=100.
+\lim_{n\to\infty}\left(\sqrt\left[n\right]{1}+\sqrt\left[n\right]{2}+\cdots+\sqrt\left[n\right]{100}\right)=\sum_{k=1}^{100}1=100.
 $$
 
 $\blacksquare$

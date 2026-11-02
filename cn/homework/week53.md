@@ -1,7 +1,7 @@
 # week53
 
 > **命题 (傅里叶系数)**
->
+> 
 > 以 $2\pi$ 为周期的可积函数 $f\left(x\right)$ 的傅里叶级数为 $f\left(x\right)\sim\frac{a_0}2+\sum_{n=1}^\infty\left(a_n\cos nx+b_n\sin nx\right)$, 其中 $a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm dx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm dx$.
 
 ---

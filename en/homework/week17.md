@@ -1,15 +1,15 @@
 # week17
 
 > **Basic Knowledge: Definition of Convex and Concave Functions**
->
+> 
 > If $f$ satisfies $f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)$ for all $x_1,x_2$ and $t\in\left(0,1\right)$, it is convex; if the inequality reverses, it is concave.
 
 > **Theorem 1.3 (Lagrange Mean Value Theorem)**
->
+> 
 > If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
 > **Theorem 5.1 (Second Derivative Criterion for Convexity)**
->
+> 
 > If $f$ is twice differentiable on $\left(a,b\right)$, then $f$ is convex iff $f''\left(x\right)\ge0$, and concave iff $f''\left(x\right)\le0$.
 
 ---

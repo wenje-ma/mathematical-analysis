@@ -1,11 +1,11 @@
 # week33
 
 > **定理 1.2 (光滑曲线的弧长公式)**
->
+> 
 > 设空间曲线 $L$ 的参数方程为 $x=x\left(t\right)$, $y=y\left(t\right)$, $z=z\left(t\right)$ ($\alpha\le t\le\beta$), 且导数连续. 则弧长 $s=\int_\alpha^\beta\sqrt{\left[x'\left(t\right)\right]^2+\left[y'\left(t\right)\right]^2+\left[z'\left(t\right)\right]^2}\,\mathrm dt$.
 
 > **定理 1.3 (第一型曲线积分的计算)**
->
+> 
 > $\int_L f\left(x,y,z\right)\,\mathrm ds=\int_\alpha^\beta f\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm dt$.
 
 ---

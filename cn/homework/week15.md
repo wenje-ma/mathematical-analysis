@@ -1,15 +1,15 @@
 # week15
 
 > **命题 3.1 (唯一极值点即全局极值点)**
->
+> 
 > 设 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ (或 $\left[a,b\right]$) 上连续. 若 $x_0$ 是 $\left(a,b\right)$ 中唯一的极值点, 则当 $x_0$ 为极大值点时, $f\left(x_0\right)$ 为最大值; 当 $x_0$ 为极小值点时, $f\left(x_0\right)$ 为最小值.
 
 > **定理 3.1 (极值点第一充分条件)**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, 且 $x_0\in\left(a,b\right)$ 是 $f$ 的一个稳定点, 即 $f'\left(x_0\right)=0$. 若存在 $r> 0$, 使得当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)> 0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)< 0$, 则 $f\left(x_0\right)$ 是极大值; 若符号相反, 则 $f\left(x_0\right)$ 是极小值.
 
 > **定理 3.2 (极值点第二充分条件)**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, $x_0\in\left(a,b\right)$ 是其稳定点, 并假定 $f$ 在 $x_0$ 有二阶导数. 若 $f''\left(x_0\right)> 0$, 则 $x_0$ 为极小值点; 若 $f''\left(x_0\right)< 0$, 则 $x_0$ 为极大值点.
 
 ---

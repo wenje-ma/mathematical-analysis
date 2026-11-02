@@ -1,19 +1,19 @@
 # week2
 
 > **基础知识: 函数的定义**
->
+> 
 > 设 $x$ 与 $y$ 是两个变量, 分别在实数集合 $X$ 与 $Y$ 中取值. 假如有一种规则 $f$ 使得对每一个值 $x\in X$ 都能找到一个唯一确定的 $y\in Y$ 与之相对应, 则称 $f$ 是一个函数, 记作 $f:X\to Y$, 并称 $X$ 为 $f$ 的定义域. $Y$ 中一切可能被取到的函数值集合称作 $f$ 的值域, 记作 $f\left(X\right)$.
 
 > **基础知识: 复合函数的定义**
->
+> 
 > 假定有两个函数 $f:X\to Y$ 及 $g:Y^*\to Z$, 并假定 $Y\subset Y^*$. 对于每一个点 $x\in X$, 存在唯一的 $y=f\left(x\right)\in Y$, 再由 $g$ 得到 $z=g\left(y\right)$. 这样确定的从 $X$ 到 $Z$ 的对应 $x\mapsto z$, 其中 $z=g\left(f\left(x\right)\right)$, 称为 $f$ 与 $g$ 的复合函数.
 
 > **基础知识: 周期函数的定义**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\mathbb R$ 上有定义, 且存在一个数 $T\ne 0$ 使得 $f\left(x+T\right)=f\left(x\right)$ 对一切 $x\in\mathbb R$ 成立, 则称 $y=f\left(x\right)$ 是周期函数, 其中 $T$ 称作 $f$ 的一个周期.
 
 > **命题 2.1 (有界函数的充要条件)**
->
+> 
 > 函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M> 0$, 使得 $\left|f\left(x\right)\right|\le M$ 对一切 $x\in X$ 成立.
 
 ---

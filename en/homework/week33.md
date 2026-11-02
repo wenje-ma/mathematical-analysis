@@ -1,11 +1,11 @@
 # week33
 
 > **Theorem 1.2 (Arc Length Formula)**
->
+> 
 > $s=\int_\alpha^\beta\sqrt{\left[x'\left(t\right)\right]^2+\left[y'\left(t\right)\right]^2+\left[z'\left(t\right)\right]^2}\,\mathrm dt$.
 
 > **Theorem 1.3 (Computation of First Type Line Integral)**
->
+> 
 > $\int_L f\,\mathrm ds=\int_\alpha^\beta f\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm dt$.
 
 ---

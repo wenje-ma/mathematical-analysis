@@ -1,15 +1,15 @@
 # week44
 
 > **Theorem 3.2 (Cauchy's Formula for Radius of Convergence)**
->
-> $\frac1R=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}$.
+> 
+> $\frac1R=\limsup_{n\to\infty}\sqrt\left[n\right]{\left|a_n\right|}$.
 
 > **Theorem 3.3 (d'Alembert's Formula for Radius of Convergence)**
->
+> 
 > If $\lim\left|\frac{a_n}{a_{n+1}}\right|=R$, then the radius is $R$.
 
 > **Theorem 3.4 (Uniform Convergence on Closed Intervals)**
->
+> 
 > Power series converge uniformly on closed intervals inside the radius, and can be differentiated and integrated term by term.
 
 ---

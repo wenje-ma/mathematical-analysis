@@ -1,15 +1,15 @@
 # week14
 
 > **Theorem 2.1 (Cauchy Mean Value Theorem)**
->
+> 
 > If $f$ and $g$ are continuous on $\left[a,b\right]$, differentiable on $\left(a,b\right)$, and $g'\left(x\right)\ne0$ for $a< x< b$, then there exists $c\in\left(a,b\right)$ such that $\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}$.
 
 > **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**
->
+> 
 > If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=0$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
 > **Theorem 2.3 (L'Hôpital's Rule, $\frac{\infty}{\infty}$ Case)**
->
+> 
 > If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
 ---

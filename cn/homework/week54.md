@@ -1,15 +1,15 @@
 # week54
 
 > **定理 3.1 (狄利克雷收敛定理)**
->
+> 
 > 设 $f\left(x\right)$ 以 $2\pi$ 为周期且逐段单调有界, 则其傅里叶级数在每点 $x$ 收敛于 $\frac{f\left(x+0\right)+f\left(x-0\right)}2$.
 
 > **命题 (傅里叶系数)**
->
+> 
 > $a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm dx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm dx$.
 
 > **定理 (封闭性方程)**
->
+> 
 > $\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
 
 ---
@@ -36,7 +36,7 @@
 
 ## 13.3-4
 
-利用 $f\left(x\right)=x^2$ ($|x|\le\pi$) 的傅里叶级数求 $\sum\frac{\left(-1\right)^{n+1}}{n^2}$ 及 $\sum\frac1{n^2}$.
+利用 $f\left(x\right)=x^2$ ($\left|x\right|\le\pi$) 的傅里叶级数求 $\sum\frac{\left(-1\right)^{n+1}}{n^2}$ 及 $\sum\frac1{n^2}$.
 
 ### 解答 13.3-4
 

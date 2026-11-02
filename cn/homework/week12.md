@@ -1,7 +1,7 @@
 # week12
 
 > **定理 5.1 (参变量函数求导公式)**
->
+> 
 > 设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$, 则参变量函数的导数为 $\frac{\mathrm dy}{\mathrm dx}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
 
 ---

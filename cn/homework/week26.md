@@ -1,15 +1,15 @@
 # week26
 
 > **基础知识: 定积分的定义**
->
+> 
 > 设 $f$ 定义在 $\left[a,b\right]$ 上. 若存在常数 $I$, 使得对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 只要分割 $T$ 的细度 $\lambda\left(T\right)< \delta$, 不论中间点 $\xi_k$ 如何取, 都有 $\left|\sum f\left(\xi_k\right)\Delta x_k-I\right|< \varepsilon$, 则称 $I$ 为 $f$ 在 $\left[a,b\right]$ 上的定积分, 记作 $\int_a^b f\left(x\right)\,\mathrm dx$.
 
 > **基础知识: 定积分的比较性质**
->
+> 
 > 设 $f,g$ 在 $\left[a,b\right]$ 上可积, 且 $f\left(x\right)\le g\left(x\right)$, 则 $\int_a^b f\left(x\right)\,\mathrm dx\le\int_a^b g\left(x\right)\,\mathrm dx$.
 
 > **定理 1.3 (拉格朗日中值定理)**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
 ---

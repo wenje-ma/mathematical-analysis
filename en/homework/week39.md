@@ -1,19 +1,19 @@
 # week39
 
 > **Theorem 2.2 (Comparison Test)**
->
+> 
 > If $0\le a_n\le b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges. If $\sum a_n$ diverges, then $\sum b_n$ diverges.
 
 > **Theorem 2.3 (Limit Form of Comparison Test)**
->
+> 
 > If $\lim\frac{a_n}{b_n}=l\in\left(0,+\infty\right)$, then both series converge or both diverge.
 
 > **Theorem 2.6 (d'Alembert's Ratio Test)**
->
+> 
 > If $\lim\frac{a_{n+1}}{a_n}=r< 1$, the series converges; if $r> 1$, it diverges.
 
 > **Theorem 2.9 (Integral Test)**
->
+> 
 > If $f$ is positive and decreasing on $\left[1,+\infty\right)$, then $\sum f\left(n\right)$ and $\int_1^\infty f\left(x\right)\,\mathrm dx$ have the same convergence behavior.
 
 ---

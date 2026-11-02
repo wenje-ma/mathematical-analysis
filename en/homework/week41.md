@@ -1,19 +1,19 @@
 # week41
 
 > **Theorem 2.3 (Limit Form of Comparison Test)**
->
+> 
 > If $\lim\frac{a_n}{b_n}=l\in\left(0,+\infty\right)$, both series have the same convergence behavior.
 
 > **Theorem 4.1 (Relation between Infinite Products and Series)**
->
+> 
 > $\prod p_n$ converges iff $\sum\ln p_n$ converges, and $\prod p_n=\exp\left(\sum\ln p_n\right)$.
 
 > **Theorem 4.2 (Same-Sign Infinite Products)**
->
+> 
 > If $\alpha_n\ge0$, then $\prod\left(1+\alpha_n\right)$ converges iff $\sum\alpha_n$ converges.
 
 > **Theorem 4.4 (Absolute Convergence)**
->
+> 
 > $\prod\left(1+\alpha_n\right)$ converges absolutely iff $\sum\left|\alpha_n\right|$ converges.
 
 ---

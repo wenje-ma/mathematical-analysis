@@ -1,7 +1,7 @@
 # week20
 
 > **Theorem 3.1 (Integration by Parts)**
->
+> 
 > If $u\left(x\right)$ and $v\left(x\right)$ are differentiable, then $\int u\left(x\right)\,\mathrm dv\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm du\left(x\right)$.
 
 ---

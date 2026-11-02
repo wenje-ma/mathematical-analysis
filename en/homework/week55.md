@@ -1,11 +1,11 @@
 # week55
 
 > **Theorem 4.1 (Bessel's Inequality)**
->
+> 
 > $\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)\le\frac1\pi\int f^2$.
 
 > **Theorem 4.2 (Parseval's Identity)**
->
+> 
 > $\frac1\pi\int f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
 ---
@@ -42,7 +42,7 @@ $\sum\frac1{n^4}=\frac{\pi^4}{90}$. $\blacksquare$
 
 ## 13.4-7
 
-Use Parseval's identity for $|x|$ to compute $\sum\frac1{\left(2n-1\right)^4}$.
+Use Parseval's identity for $\left|x\right|$ to compute $\sum\frac1{\left(2n-1\right)^4}$.
 
 ### Solution 13.4-7
 

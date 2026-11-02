@@ -1,19 +1,19 @@
 # week7
 
 > **Basic Knowledge: Definition of Continuous Function**
->
+> 
 > Let $y=f\left(x\right)$ be defined on $\left(a,b\right)$. If $\lim_{x\to x_0}f\left(x\right)=f\left(x_0\right)$ at some $x_0\in\left(a,b\right)$, then $f$ is continuous at $x_0$. If continuous at every point, it is continuous on $\left(a,b\right)$.
 
 > **Basic Knowledge: Continuity of Elementary Functions**
->
+> 
 > Elementary functions are continuous on their domains.
 
 > **Proposition 1.7 (Triangle Inequality)**
->
+> 
 > For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
 > **Theorem 7.2 (Continuity of Composite Functions)**
->
+> 
 > If $y=g\left(u\right)$ is continuous at $u_0$ and $u=f\left(x\right)$ is continuous at $x_0$ with $f\left(x_0\right)=u_0$, then $y=g\left(f\left(x\right)\right)$ is continuous at $x_0$.
 
 ---

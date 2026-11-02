@@ -1,15 +1,15 @@
 # week42
 
 > **Basic Knowledge: Definition of Uniform Convergence**
->
+> 
 > $\left\{f_n\right\}$ converges uniformly to $f$ on $X$ if for every $\varepsilon> 0$, there exists $N$ such that $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$ for all $n> N$ and all $x\in X$.
 
 > **Theorem 1.1 (Weierstrass M-Test)**
->
+> 
 > If $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ and $M_n\to0$, then the convergence is uniform.
 
 > **Theorem 1.2 (Continuity of the Limit Function)**
->
+> 
 > If $\left\{f_n\right\}$ converges uniformly to $f$ and each $f_n$ is continuous, then $f$ is continuous.
 
 ---

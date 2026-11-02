@@ -1,27 +1,27 @@
 # week4
 
 > **Basic Knowledge: The Important Limit $e$**
->
+> 
 > $\lim_{n\to\infty}\left(1+\frac1n\right)^n=e$, where $e$ is irrational and $2< e< 3$.
 
 > **Basic Knowledge: Definition of Infinitesimal**
->
+> 
 > A variable whose limit is $0$ is called an infinitesimal.
 
 > **Theorem 3.1 (Arithmetic of Limits)**
->
+> 
 > If $\left\{a_n\right\}$ and $\left\{b_n\right\}$ have limits $l_1$ and $l_2$ respectively, then $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
 > **Theorem 3.2 (Completeness of the Real Field)**
->
+> 
 > If $\left\{a_n\right\}$ is a monotone increasing sequence bounded above, then there exists $l\in\mathbb R$ such that $\left\{a_n\right\}$ converges to $l$.
 
 > **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**
->
+> 
 > If $a$ is any positive number, then $\lim_{n\to\infty}a^{1/n}=1$.
 
 > **Theorem 4.2 (Squeeze Theorem)**
->
+> 
 > Let $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ be three sequences, and suppose there exists $N_0$ such that $c_n\le a_n\le b_n$ for all $n\ge N_0$. If both $c_n$ and $b_n$ converge to the same limit $l$, then $a_n$ also converges to $l$.
 
 ---
@@ -247,7 +247,7 @@ $$
 On the other hand, for all $n$,
 
 $$
-\left(1+\frac1n\right)^n< 1+1+\frac1{2!}+\cdots+\frac1{n!}\quad\text{(since each factor}< 1\text{)},
+\left(1+\frac1n\right)^n< 1+1+\frac1{2!}+\cdots+\frac1{n!}\quad\text{\left(since each factor}< 1\text{\right)},
 $$
 
 so letting $n\to\infty$ gives
@@ -306,7 +306,7 @@ Let $\lim_{n\to\infty}a_n=a$. Prove:
 
 (1) $\lim_{n\to\infty}\frac{\left[na_n\right]}{n}=a$;
 
-(2) If $a> 0$ and $a_n> 0$, then $\lim_{n\to\infty}\sqrt[n]{a_n}=1$.
+(2) If $a> 0$ and $a_n> 0$, then $\lim_{n\to\infty}\sqrt\left[n\right]{a_n}=1$.
 
 ### Solution 1.4-16
 
@@ -324,7 +324,7 @@ $$
 \left(\frac a2\right)^{1/n}< a_n^{1/n}< \left(2a\right)^{1/n}.
 $$
 
-By **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**, both ends tend to $1$. By **Theorem 4.2 (Squeeze Theorem)**, $\sqrt[n]{a_n}\to1$. $\blacksquare$
+By **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**, both ends tend to $1$. By **Theorem 4.2 (Squeeze Theorem)**, $\sqrt\left[n\right]{a_n}\to1$. $\blacksquare$
 
 ---
 

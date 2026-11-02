@@ -1,15 +1,15 @@
 # week44
 
 > **定理 3.2 (收敛半径的柯西公式)**
->
-> 幂级数 $\sum a_nx^n$ 的收敛半径 $R$ 满足 $\frac1R=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}$.
+> 
+> 幂级数 $\sum a_nx^n$ 的收敛半径 $R$ 满足 $\frac1R=\limsup_{n\to\infty}\sqrt\left[n\right]{\left|a_n\right|}$.
 
 > **定理 3.3 (收敛半径的达朗贝尔公式)**
->
+> 
 > 若 $a_n\ne0$ 且 $\lim_{n\to\infty}\left|\frac{a_n}{a_{n+1}}\right|=R$, 则收敛半径为 $R$.
 
 > **定理 3.4 (内闭一致收敛性)**
->
+> 
 > 幂级数在收敛区间内部的任意闭区间上一致收敛, 因而可逐项求导与逐项积分, 且收敛半径不变.
 
 ---

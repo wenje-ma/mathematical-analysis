@@ -1,15 +1,15 @@
 # week51
 
 > **基础知识: 伽马函数的定义**
->
+> 
 > $\Gamma\left(\alpha\right)=\int_0^{+\infty}t^{\alpha-1}e^{-t}\mathrm dt$ ($\alpha> 0$). 递推公式 $\Gamma\left(\alpha+1\right)=\alpha\Gamma\left(\alpha\right)$, $\Gamma\left(1\right)=1$, $\Gamma\left(n+1\right)=n!$, $\Gamma\left(\frac12\right)=\sqrt\pi$.
 
 > **基础知识: 贝塔函数的定义**
->
+> 
 > $\Beta\left(p,q\right)=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\mathrm dt$ ($p,q> 0$), 且 $\Beta\left(p,q\right)=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}$.
 
 > **命题 (伽马与贝塔的积分形式)**
->
+> 
 > $\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
 
 ---

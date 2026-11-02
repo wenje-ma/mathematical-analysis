@@ -1,11 +1,11 @@
 # week37
 
 > **Basic Knowledge: Definition of Divergence**
->
+> 
 > $\operatorname{div}\boldsymbol F=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$.
 
 > **Basic Knowledge: Definition of Curl**
->
+> 
 > $\operatorname{rot}\boldsymbol F=\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z},\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x},\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)$.
 
 ---

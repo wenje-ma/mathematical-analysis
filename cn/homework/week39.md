@@ -1,19 +1,19 @@
 # week39
 
 > **定理 2.2 (比较判别法)**
->
+> 
 > 设 $\sum a_n$ 与 $\sum b_n$ 为正项级数, 且存在 $N_0$ 使 $a_n\le b_n$ ($n\ge N_0$). 若 $\sum b_n$ 收敛, 则 $\sum a_n$ 收敛; 若 $\sum a_n$ 发散, 则 $\sum b_n$ 发散.
 
 > **定理 2.3 (比较判别法的极限形式)**
->
+> 
 > 设 $\sum a_n$ 与 $\sum b_n$ 为正项级数, 且 $\lim_{n\to\infty}\frac{a_n}{b_n}=l$. 当 $0< l< +\infty$ 时两级数同敛散; 当 $l=0$ 且 $\sum b_n$ 收敛时 $\sum a_n$ 收敛; 当 $l=+\infty$ 且 $\sum b_n$ 发散时 $\sum a_n$ 发散.
 
 > **定理 2.6 (达朗贝尔判别法)**
->
+> 
 > 设 $\sum a_n$ 为正项级数. 若 $\lim_{n\to\infty}\frac{a_{n+1}}{a_n}=r$, 则当 $r< 1$ 时收敛, 当 $r> 1$ 时发散.
 
 > **定理 2.9 (积分判别法)**
->
+> 
 > 设 $f\left(x\right)$ 在 $\left[1,+\infty\right)$ 上正, 单调递减. 则 $\sum_{n=1}^\infty f\left(n\right)$ 与 $\int_1^{+\infty}f\left(x\right)\,\mathrm dx$ 同敛散.
 
 ---

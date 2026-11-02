@@ -1,11 +1,11 @@
 # week10
 
 > **Basic Knowledge: Definition of Differential**
->
+> 
 > Let $y=f\left(x\right)$ be defined near $x_0$. If there exists a constant $A$ such that $\Delta y=A\Delta x+o\left(\Delta x\right)$, then $f$ is differentiable at $x_0$, $\mathrm dy=A\Delta x$ is the differential, and $A=f'\left(x_0\right)$.
 
 > **Basic Knowledge: Definition of Higher-Order Infinitesimal**
->
+> 
 > If $\lim_{x\to0}\frac{\alpha\left(x\right)}{\beta\left(x\right)}=0$, then $\alpha\left(x\right)=o\left(\beta\left(x\right)\right)$.
 
 ---

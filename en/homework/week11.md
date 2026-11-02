@@ -1,11 +1,11 @@
 # week11
 
 > **Basic Knowledge: Definition of Higher-Order Derivatives**
->
+> 
 > If $f'\left(x\right)$ is differentiable at $x_0$, its derivative is the second derivative, denoted $f''\left(x_0\right)$ or $\frac{\mathrm d^2f}{\mathrm dx^2}$. In general, $f^{\left(n\right)}\left(x\right)$ is obtained by differentiating $f^{\left(n-1\right)}\left(x\right)$.
 
 > **Basic Knowledge: Leibniz Formula**
->
+> 
 > $\left(uv\right)^{\left(n\right)}=\sum_{k=0}^n\binom nk u^{\left(k\right)}v^{\left(n-k\right)}$.
 
 ---
@@ -20,7 +20,7 @@ Find the $n$-th derivative of:
 
 ### Solution 2.4-1
 
-By **Basic Knowledge: Definition of Higher-Order Derivatives**, the $n$-th derivative is obtained by differentiating the $(n-1)$-th.
+By **Basic Knowledge: Definition of Higher-Order Derivatives**, the $n$-th derivative is obtained by differentiating the $\left(n-1\right)$-th.
 
 (1) By **Basic Knowledge: Leibniz Formula**, with $u=x^2$, $v=e^x$:
 

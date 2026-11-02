@@ -1,15 +1,15 @@
 # week14
 
 > **定理 2.1 (柯西中值定理)**
->
+> 
 > 设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $\left[a,b\right]$ 中连续, 在 $\left(a,b\right)$ 中可导, 且 $g'\left(x\right)\ne0$ ($a< x< b$). 则存在点 $c\in\left(a,b\right)$, 使得 $\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}$.
 
 > **定理 2.2 (洛必达法则, $\frac00$ 型)**
->
+> 
 > 设 $f$ 及 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=0$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
 > **定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**
->
+> 
 > 设 $f$ 与 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
 ---

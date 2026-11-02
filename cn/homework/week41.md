@@ -1,19 +1,19 @@
 # week41
 
 > **定理 2.3 (比较判别法的极限形式)**
->
+> 
 > 设 $\sum a_n$ 与 $\sum b_n$ 为正项级数, 且 $\lim_{n\to\infty}\frac{a_n}{b_n}=l$. 当 $0< l< +\infty$ 时两级数同敛散.
 
 > **定理 4.1 (无穷乘积与级数的关系)**
->
+> 
 > 设 $p_n> 0$, 则 $\prod p_n$ 收敛的充要条件是 $\sum\ln p_n$ 收敛, 且此时 $\prod p_n=\exp\left(\sum\ln p_n\right)$.
 
 > **定理 4.2 (同号项无穷乘积)**
->
+> 
 > 设 $\alpha_n\ge0$ (或 $\alpha_n\le0$), 则 $\prod\left(1+\alpha_n\right)$ 收敛的充要条件是 $\sum\alpha_n$ 收敛.
 
 > **定理 4.4 (绝对收敛)**
->
+> 
 > 设 $\alpha_n\ne-1$, 则 $\prod\left(1+\alpha_n\right)$ 绝对收敛的充要条件是 $\sum\left|\alpha_n\right|$ 收敛.
 
 ---

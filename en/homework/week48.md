@@ -1,7 +1,7 @@
 # week48
 
 > **Theorem 3.3 (Differentiation Under the Integral Sign)**
->
+> 
 > $I'\left(y\right)=\int_a^b f_y\left(x,y\right)\mathrm dx$. If limits depend on $y$, add boundary terms.
 
 ---

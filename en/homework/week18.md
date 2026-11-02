@@ -1,11 +1,11 @@
 # week18
 
 > **Basic Knowledge: Definition of Antiderivative and Indefinite Integral**
->
+> 
 > If $F'\left(x\right)=f\left(x\right)$ on $\left(a,b\right)$, $F$ is an antiderivative of $f$. The collection $F\left(x\right)+C$ is the indefinite integral, denoted $\int f\left(x\right)\,\mathrm dx=F\left(x\right)+C$.
 
 > **Theorem 1.3 (Linearity of Indefinite Integral)**
->
+> 
 > If $f$ and $g$ have antiderivatives, then $\int\left[af\left(x\right)+bg\left(x\right)\right]\mathrm dx=a\int f\left(x\right)\,\mathrm dx+b\int g\left(x\right)\,\mathrm dx$.
 
 ---

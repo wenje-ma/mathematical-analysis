@@ -1,23 +1,23 @@
 # week13
 
 > **定理 1.1 (费马定理)**
->
+> 
 > 设 $f\left(x\right)$ 在一点 $a$ 附近有定义, 且在 $a$ 点可微. 若 $a$ 点为 $y=f\left(x\right)$ 的极值点, 则 $f'\left(a\right)=0$.
 
 > **定理 1.2 (罗尔定理)**
->
+> 
 > 设函数 $y=f\left(x\right)$ 在闭区间 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 中处处可导, 且 $f\left(a\right)=f\left(b\right)$. 则在 $\left(a,b\right)$ 中至少存在一点 $c$, 使得 $f'\left(c\right)=0$.
 
 > **定理 1.3 (拉格朗日中值定理)**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在点 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
 > **定理 1.4 (常数定理)**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中处处可导, 且 $f'\left(x\right)=0$ ($x\in\left(a,b\right)$). 则 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内必为常数.
 
 > **定理 1.5 (单调性判定)**
->
+> 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 可导. 若 $f'\left(x\right)> 0$ ($\ge0$) 对一切 $x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递增 (递增); 若 $f'\left(x\right)< 0$ ($\le0$) 对一切 $x\in\left(a,b\right)$, 则严格递减 (递减).
 
 ---
@@ -96,7 +96,7 @@ $$
 
 (3) 定义域为 $\left[2,+\infty\right)$. $f'\left(x\right)=\frac1{2\sqrt{x-2}}> 0$ ($x> 2$). 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[2,+\infty\right)$ 上严格递增.
 
-(4) $f'\left(x\right)=4x^3-1$. 令 $f'\left(x\right)=0$, 得 $x=\sqrt[3]{\frac14}$. 当 $x< \sqrt[3]{\frac14}$ 时 $f'\left(x\right)< 0$, 当 $x> \sqrt[3]{\frac14}$ 时 $f'\left(x\right)> 0$. 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left(-\infty,\sqrt[3]{\frac14}\right]$ 上严格递减, 在 $\left[\sqrt[3]{\frac14},+\infty\right)$ 上严格递增. $\blacksquare$
+(4) $f'\left(x\right)=4x^3-1$. 令 $f'\left(x\right)=0$, 得 $x=\sqrt\left[3\right]{\frac14}$. 当 $x< \sqrt\left[3\right]{\frac14}$ 时 $f'\left(x\right)< 0$, 当 $x> \sqrt\left[3\right]{\frac14}$ 时 $f'\left(x\right)> 0$. 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left(-\infty,\sqrt\left[3\right]{\frac14}\right]$ 上严格递减, 在 $\left[\sqrt\left[3\right]{\frac14},+\infty\right)$ 上严格递增. $\blacksquare$
 
 ---
 

@@ -1,27 +1,27 @@
 # week6
 
 > **Basic Knowledge: Definition of Function Limit**
->
+> 
 > Let $y=f\left(x\right)$ be defined in a punctured neighborhood of $a$. If there exists $l\in\mathbb R$ such that for every $\varepsilon> 0$ there exists $\delta> 0$ with $0< \left|x-a\right|< \delta$ implying $\left|f\left(x\right)-l\right|< \varepsilon$, then $\lim_{x\to a}f\left(x\right)=l$.
 
 > **Basic Knowledge: The Important Limit $e$ (Function Version)**
->
+> 
 > $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$.
 
 > **Proposition 1.7 (Triangle Inequality)**
->
+> 
 > For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
 > **Theorem 5.1 (Arithmetic of Function Limits)**
->
+> 
 > If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
 > **Proposition 6.1 (Important Limit $\lim_{x\to0}\frac{\sin x}{x}=1$)**
->
+> 
 > $\lim_{x\to0}\frac{\sin x}{x}=1$.
 
 > **Theorem 6.2 (Squeeze Theorem for Functions)**
->
+> 
 > Let $f\left(x\right),g\left(x\right),h\left(x\right)$ be defined in a punctured neighborhood of $a$ with $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. If $\lim g\left(x\right)=\lim h\left(x\right)=l$, then $\lim f\left(x\right)=l$.
 
 ---

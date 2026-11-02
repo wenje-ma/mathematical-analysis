@@ -1,23 +1,23 @@
 # week13
 
 > **Theorem 1.1 (Fermat's Theorem)**
->
+> 
 > If $f\left(x\right)$ is defined near $a$ and differentiable at $a$, and $a$ is an extremum point of $y=f\left(x\right)$, then $f'\left(a\right)=0$.
 
 > **Theorem 1.2 (Rolle's Theorem)**
->
+> 
 > If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$, differentiable on $\left(a,b\right)$, and $f\left(a\right)=f\left(b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=0$.
 
 > **Theorem 1.3 (Lagrange Mean Value Theorem)**
->
+> 
 > If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
 > **Theorem 1.4 (Constant Function Theorem)**
->
+> 
 > If $y=f\left(x\right)$ is differentiable on $\left(a,b\right)$ and $f'\left(x\right)=0$ for all $x\in\left(a,b\right)$, then $f$ is constant on $\left(a,b\right)$.
 
 > **Theorem 1.5 (Monotonicity Criterion)**
->
+> 
 > If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then $f'\left(x\right)> 0$ ($\ge0$) implies strictly increasing (increasing), and $f'\left(x\right)< 0$ ($\le0$) implies strictly decreasing (decreasing).
 
 ---
@@ -84,7 +84,7 @@ Find the intervals of monotonicity:
 
 (3) Domain $\left[2,+\infty\right)$. $f'\left(x\right)=\frac1{2\sqrt{x-2}}> 0$ for $x> 2$. By **Theorem 1.5 (Monotonicity Criterion)**, $f$ is strictly increasing on $\left[2,+\infty\right)$.
 
-(4) $f'\left(x\right)=4x^3-1=0$ gives $x=\sqrt[3]{\frac14}$. By **Theorem 1.5 (Monotonicity Criterion)**, $f$ is strictly decreasing on $\left(-\infty,\sqrt[3]{\frac14}\right]$ and strictly increasing on $\left[\sqrt[3]{\frac14},+\infty\right)$. $\blacksquare$
+(4) $f'\left(x\right)=4x^3-1=0$ gives $x=\sqrt\left[3\right]{\frac14}$. By **Theorem 1.5 (Monotonicity Criterion)**, $f$ is strictly decreasing on $\left(-\infty,\sqrt\left[3\right]{\frac14}\right]$ and strictly increasing on $\left[\sqrt\left[3\right]{\frac14},+\infty\right)$. $\blacksquare$
 
 ---
 
