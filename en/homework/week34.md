@@ -1,10 +1,16 @@
 # week34
 
-> **Theorem 2.2 (Green's Theorem)**<br>$\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
+> **Theorem 2.2 (Green's Theorem)**
+>
+> $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
 
-> **Theorem 2.4 (Path Independence Condition)**<br>The integral is path-independent iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
+> **Theorem 2.4 (Path Independence Condition)**
+>
+> The integral is path-independent iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
-> **Theorem 2.5 (Exact Differential Form)**<br>$P\,\mathrm dx+Q\,\mathrm dy$ is exact iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
+> **Theorem 2.5 (Exact Differential Form)**
+>
+> $P\,\mathrm dx+Q\,\mathrm dy$ is exact iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
 ---
 

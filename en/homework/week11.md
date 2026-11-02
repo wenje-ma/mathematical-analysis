@@ -1,8 +1,12 @@
 # week11
 
-> **Basic Knowledge: Definition of Higher-Order Derivatives**<br>If $f'\left(x\right)$ is differentiable at $x_0$, its derivative is the second derivative, denoted $f''\left(x_0\right)$ or $\frac{\mathrm d^2f}{\mathrm dx^2}$. In general, $f^{\left(n\right)}\left(x\right)$ is obtained by differentiating $f^{\left(n-1\right)}\left(x\right)$.
+> **Basic Knowledge: Definition of Higher-Order Derivatives**
+>
+> If $f'\left(x\right)$ is differentiable at $x_0$, its derivative is the second derivative, denoted $f''\left(x_0\right)$ or $\frac{\mathrm d^2f}{\mathrm dx^2}$. In general, $f^{\left(n\right)}\left(x\right)$ is obtained by differentiating $f^{\left(n-1\right)}\left(x\right)$.
 
-> **Basic Knowledge: Leibniz Formula**<br>$\left(uv\right)^{\left(n\right)}=\sum_{k=0}^n\binom nk u^{\left(k\right)}v^{\left(n-k\right)}$.
+> **Basic Knowledge: Leibniz Formula**
+>
+> $\left(uv\right)^{\left(n\right)}=\sum_{k=0}^n\binom nk u^{\left(k\right)}v^{\left(n-k\right)}$.
 
 ---
 

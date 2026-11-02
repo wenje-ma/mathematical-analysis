@@ -1,10 +1,16 @@
 # week40
 
-> **Theorem 2.2 (Comparison Test)**<br>If $0\le a_n\le b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges.
+> **Theorem 2.2 (Comparison Test)**
+>
+> If $0\le a_n\le b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges.
 
-> **Theorem 3.2 (Dirichlet's Test)**<br>If $\left\{b_n\right\}$ is monotone tending to $0$ and the partial sums of $\sum a_n$ are bounded, then $\sum a_nb_n$ converges.
+> **Theorem 3.2 (Dirichlet's Test)**
+>
+> If $\left\{b_n\right\}$ is monotone tending to $0$ and the partial sums of $\sum a_n$ are bounded, then $\sum a_nb_n$ converges.
 
-> **Theorem 3.3 (Abel's Test)**<br>If $\left\{b_n\right\}$ is monotone and bounded, and $\sum a_n$ converges, then $\sum a_nb_n$ converges.
+> **Theorem 3.3 (Abel's Test)**
+>
+> If $\left\{b_n\right\}$ is monotone and bounded, and $\sum a_n$ converges, then $\sum a_nb_n$ converges.
 
 ---
 

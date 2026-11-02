@@ -1,12 +1,20 @@
 # week43
 
-> **Theorem 2.2 (Weierstrass M-Test)**<br>If $\left|u_n\left(x\right)\right|\le a_n$ and $\sum a_n$ converges, then $\sum u_n\left(x\right)$ converges uniformly.
+> **Theorem 2.2 (Weierstrass M-Test)**
+>
+> If $\left|u_n\left(x\right)\right|\le a_n$ and $\sum a_n$ converges, then $\sum u_n\left(x\right)$ converges uniformly.
 
-> **Theorem 2.4 (Dirichlet's Test)**<br>If partial sums of $\sum a_n\left(x\right)$ are uniformly bounded and $b_n\left(x\right)$ is monotone and uniformly tends to $0$, then $\sum a_nb_n$ converges uniformly.
+> **Theorem 2.4 (Dirichlet's Test)**
+>
+> If partial sums of $\sum a_n\left(x\right)$ are uniformly bounded and $b_n\left(x\right)$ is monotone and uniformly tends to $0$, then $\sum a_nb_n$ converges uniformly.
 
-> **Theorem 2.5 (Continuity of the Sum Function)**<br>If $u_n$ are continuous and $\sum u_n$ converges uniformly, then the sum is continuous.
+> **Theorem 2.5 (Continuity of the Sum Function)**
+>
+> If $u_n$ are continuous and $\sum u_n$ converges uniformly, then the sum is continuous.
 
-> **Theorem 2.7 (Term-by-Term Differentiation)**<br>If $\sum u_n$ converges, $u_n'$ are continuous, and $\sum u_n'$ converges uniformly, then $S'=\sum u_n'$.
+> **Theorem 2.7 (Term-by-Term Differentiation)**
+>
+> If $\sum u_n$ converges, $u_n'$ are continuous, and $\sum u_n'$ converges uniformly, then $S'=\sum u_n'$.
 
 ---
 

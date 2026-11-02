@@ -1,10 +1,16 @@
 # week26
 
-> **Basic Knowledge: Definition of Definite Integral**<br>$I=\int_a^b f\left(x\right)\,\mathrm dx$ if the Riemann sums converge to $I$ as the mesh $\lambda\left(T\right)\to0$, uniformly in the choice of sample points.
+> **Basic Knowledge: Definition of Definite Integral**
+>
+> $I=\int_a^b f\left(x\right)\,\mathrm dx$ if the Riemann sums converge to $I$ as the mesh $\lambda\left(T\right)\to0$, uniformly in the choice of sample points.
 
-> **Basic Knowledge: Comparison Property of Integrals**<br>If $f\le g$ on $\left[a,b\right]$, then $\int_a^b f\le\int_a^b g$.
+> **Basic Knowledge: Comparison Property of Integrals**
+>
+> If $f\le g$ on $\left[a,b\right]$, then $\int_a^b f\le\int_a^b g$.
 
-> **Theorem 1.3 (Lagrange Mean Value Theorem)**<br>If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
+> **Theorem 1.3 (Lagrange Mean Value Theorem)**
+>
+> If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
 ---
 

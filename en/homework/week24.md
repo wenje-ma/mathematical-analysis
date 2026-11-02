@@ -1,8 +1,12 @@
 # week24
 
-> **Theorem 2.1 (Upper/Lower Limit and Existence of Limit)**<br>A bounded sequence $\left\{a_n\right\}$ has a limit iff its upper and lower limits are equal.
+> **Theorem 2.1 (Upper/Lower Limit and Existence of Limit)**
+>
+> A bounded sequence $\left\{a_n\right\}$ has a limit iff its upper and lower limits are equal.
 
-> **Theorem 2.2 (Cauchy Convergence Criterion)**<br>A sequence $\left\{a_n\right\}$ has a limit iff for every $\varepsilon> 0$ there exists $N$ such that $\left|a_n-a_m\right|< \varepsilon$ for all $m,n\ge N$.
+> **Theorem 2.2 (Cauchy Convergence Criterion)**
+>
+> A sequence $\left\{a_n\right\}$ has a limit iff for every $\varepsilon> 0$ there exists $N$ such that $\left|a_n-a_m\right|< \varepsilon$ for all $m,n\ge N$.
 
 ---
 

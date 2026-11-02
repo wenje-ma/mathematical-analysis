@@ -1,14 +1,24 @@
 # week5
 
-> **基础知识: 函数极限的定义**<br>设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\varepsilon> 0$, 无论它多么小, 都存在一个 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \varepsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作 $\lim_{x\to a}f\left(x\right)=l$.
+> **基础知识: 函数极限的定义**
+>
+> 设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\varepsilon> 0$, 无论它多么小, 都存在一个 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \varepsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作 $\lim_{x\to a}f\left(x\right)=l$.
 
-> **基础知识: 单侧极限的定义**<br>若当 $x\to a+0$ (或 $x\to a-0$) 时 $f\left(x\right)$ 以 $l$ 为极限, 则称之为右极限 (或左极限), 记作 $\lim_{x\to a+0}f\left(x\right)=l$ (或 $\lim_{x\to a-0}f\left(x\right)=l$).
+> **基础知识: 单侧极限的定义**
+>
+> 若当 $x\to a+0$ (或 $x\to a-0$) 时 $f\left(x\right)$ 以 $l$ 为极限, 则称之为右极限 (或左极限), 记作 $\lim_{x\to a+0}f\left(x\right)=l$ (或 $\lim_{x\to a-0}f\left(x\right)=l$).
 
-> **基础知识: 极限的保号性**<br>若 $\lim_{x\to a}f\left(x\right)=l$ 且 $l\ne0$, 则存在 $\delta> 0$ 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
+> **基础知识: 极限的保号性**
+>
+> 若 $\lim_{x\to a}f\left(x\right)=l$ 且 $l\ne0$, 则存在 $\delta> 0$ 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
 
-> **命题 1.7 (三角不等式)**<br>对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> **命题 1.7 (三角不等式)**
+>
+> 对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **定理 5.1 (函数极限四则运算)**<br>若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+> **定理 5.1 (函数极限四则运算)**
+>
+> 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
 ---
 

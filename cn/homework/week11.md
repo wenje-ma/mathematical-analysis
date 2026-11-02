@@ -1,8 +1,12 @@
 # week11
 
-> **基础知识: 高阶导数的定义**<br>若 $y=f\left(x\right)$ 的导函数 $f'\left(x\right)$ 在 $x_0$ 点可导, 则其导数称为 $f$ 的二阶导数, 记作 $f''\left(x_0\right)$ 或 $\frac{\mathrm d^2f}{\mathrm dx^2}$. 一般地, $n$ 阶导数 $f^{\left(n\right)}\left(x\right)$ 由 $n-1$ 阶导数再求导得到.
+> **基础知识: 高阶导数的定义**
+>
+> 若 $y=f\left(x\right)$ 的导函数 $f'\left(x\right)$ 在 $x_0$ 点可导, 则其导数称为 $f$ 的二阶导数, 记作 $f''\left(x_0\right)$ 或 $\frac{\mathrm d^2f}{\mathrm dx^2}$. 一般地, $n$ 阶导数 $f^{\left(n\right)}\left(x\right)$ 由 $n-1$ 阶导数再求导得到.
 
-> **基础知识: 莱布尼茨公式**<br>$\left(uv\right)^{\left(n\right)}=\sum_{k=0}^n\binom nk u^{\left(k\right)}v^{\left(n-k\right)}$.
+> **基础知识: 莱布尼茨公式**
+>
+> $\left(uv\right)^{\left(n\right)}=\sum_{k=0}^n\binom nk u^{\left(k\right)}v^{\left(n-k\right)}$.
 
 ---
 

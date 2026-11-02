@@ -1,6 +1,8 @@
 # week48
 
-> **定理 3.3 (积分号下求导)**<br>设 $f\left(x,y\right)$ 与 $f_y\left(x,y\right)$ 连续, 则 $I\left(y\right)=\int_a^b f\left(x,y\right)\mathrm dx$ 可导, 且 $I'\left(y\right)=\int_a^b f_y\left(x,y\right)\mathrm dx$. 若积分限依赖于 $y$, 则补上边界项: $I'\left(y\right)=f\left(b\left(y\right),y\right)b'\left(y\right)-f\left(a\left(y\right),y\right)a'\left(y\right)+\int_{a\left(y\right)}^{b\left(y\right)}f_y\left(x,y\right)\mathrm dx$.
+> **定理 3.3 (积分号下求导)**
+>
+> 设 $f\left(x,y\right)$ 与 $f_y\left(x,y\right)$ 连续, 则 $I\left(y\right)=\int_a^b f\left(x,y\right)\mathrm dx$ 可导, 且 $I'\left(y\right)=\int_a^b f_y\left(x,y\right)\mathrm dx$. 若积分限依赖于 $y$, 则补上边界项: $I'\left(y\right)=f\left(b\left(y\right),y\right)b'\left(y\right)-f\left(a\left(y\right),y\right)a'\left(y\right)+\int_{a\left(y\right)}^{b\left(y\right)}f_y\left(x,y\right)\mathrm dx$.
 
 ---
 

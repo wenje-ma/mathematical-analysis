@@ -1,8 +1,12 @@
 # week55
 
-> **Theorem 4.1 (Bessel's Inequality)**<br>$\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)\le\frac1\pi\int f^2$.
+> **Theorem 4.1 (Bessel's Inequality)**
+>
+> $\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)\le\frac1\pi\int f^2$.
 
-> **Theorem 4.2 (Parseval's Identity)**<br>$\frac1\pi\int f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
+> **Theorem 4.2 (Parseval's Identity)**
+>
+> $\frac1\pi\int f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
 ---
 

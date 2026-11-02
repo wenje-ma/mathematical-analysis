@@ -1,8 +1,12 @@
 # week55
 
-> **定理 4.1 (贝塞尔不等式)**<br>$\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)\le\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx$, 特别地 $\sum a_n^2$ 与 $\sum b_n^2$ 均收敛.
+> **定理 4.1 (贝塞尔不等式)**
+>
+> $\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)\le\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx$, 特别地 $\sum a_n^2$ 与 $\sum b_n^2$ 均收敛.
 
-> **定理 4.2 (封闭性方程/Parseval 等式)**<br>$\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
+> **定理 4.2 (封闭性方程/Parseval 等式)**
+>
+> $\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
 
 ---
 

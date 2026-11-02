@@ -1,16 +1,28 @@
 # week3
 
-> **基础知识: 序列极限的定义**<br>设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|< \varepsilon$, 只要 $n> N$, 则称 $a_n$ 以 $l$ 为极限, 记作 $\lim_{n\to\infty}a_n=l$.
+> **基础知识: 序列极限的定义**
+>
+> 设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|< \varepsilon$, 只要 $n> N$, 则称 $a_n$ 以 $l$ 为极限, 记作 $\lim_{n\to\infty}a_n=l$.
 
-> **命题 1.6 (绝对值的性质)**<br>对于任意的 $x,y\in\mathbb R$, 有: (1) $\left|x\right|\ge0$, 等号当且仅当 $x=0$ 时成立; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
+> **命题 1.6 (绝对值的性质)**
+>
+> 对于任意的 $x,y\in\mathbb R$, 有: (1) $\left|x\right|\ge0$, 等号当且仅当 $x=0$ 时成立; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
 
-> **命题 1.7 (三角不等式)**<br>对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> **命题 1.7 (三角不等式)**
+>
+> 对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **定理 3.1 (极限四则运算定理)**<br>设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
+> **定理 3.1 (极限四则运算定理)**
+>
+> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
-> **定理 3.2 (实数域完备性)**<br>设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限. 简言之, 单调递增有上界的序列有极限.
+> **定理 3.2 (实数域完备性)**
+>
+> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限. 简言之, 单调递增有上界的序列有极限.
 
-> **例 3.3 (正数的 $n$ 次方根趋于 $1$)**<br>设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
+> **例 3.3 (正数的 $n$ 次方根趋于 $1$)**
+>
+> 设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
 
 ---
 

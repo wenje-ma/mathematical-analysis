@@ -1,16 +1,28 @@
 # week46
 
-> **Basic Knowledge: Definition of Improper Integral Convergence**<br>$\int_a^{+\infty}f\left(x\right)\mathrm dx$ converges if $\lim_{A\to+\infty}\int_a^A f\left(x\right)\mathrm dx$ exists.
+> **Basic Knowledge: Definition of Improper Integral Convergence**
+>
+> $\int_a^{+\infty}f\left(x\right)\mathrm dx$ converges if $\lim_{A\to+\infty}\int_a^A f\left(x\right)\mathrm dx$ exists.
 
-> **Basic Knowledge: Absolute and Conditional Convergence**<br>Converges absolutely if $\int\left|f\right|$ converges; converges conditionally if $\int f$ converges but $\int\left|f\right|$ diverges.
+> **Basic Knowledge: Absolute and Conditional Convergence**
+>
+> Converges absolutely if $\int\left|f\right|$ converges; converges conditionally if $\int f$ converges but $\int\left|f\right|$ diverges.
 
-> **Theorem 1.1 (Cauchy Criterion)**<br>The integral converges iff for every $\varepsilon> 0$, there exists $X$ such that $\left|\int_{A'}^{A''}f\right|< \varepsilon$ for $A',A''> X$.
+> **Theorem 1.1 (Cauchy Criterion)**
+>
+> The integral converges iff for every $\varepsilon> 0$, there exists $X$ such that $\left|\int_{A'}^{A''}f\right|< \varepsilon$ for $A',A''> X$.
 
-> **Example 1.2 (p-Integral)**<br>$\int_1^\infty\frac{\mathrm dx}{x^p}$ converges iff $p> 1$.
+> **Example 1.2 (p-Integral)**
+>
+> $\int_1^\infty\frac{\mathrm dx}{x^p}$ converges iff $p> 1$.
 
-> **Theorem 1.3 (Comparison Test)**<br>If $0\le f\le g$, then $\int g$ convergent implies $\int f$ convergent.
+> **Theorem 1.3 (Comparison Test)**
+>
+> If $0\le f\le g$, then $\int g$ convergent implies $\int f$ convergent.
 
-> **Theorem 1.6 (Dirichlet's Test)**<br>If $f$ is monotone tending to $0$ and $\int_a^A g$ is bounded for all $A$, then $\int fg$ converges.
+> **Theorem 1.6 (Dirichlet's Test)**
+>
+> If $f$ is monotone tending to $0$ and $\int_a^A g$ is bounded for all $A$, then $\int fg$ converges.
 
 ---
 

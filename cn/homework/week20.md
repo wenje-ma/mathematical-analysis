@@ -1,6 +1,8 @@
 # week20
 
-> **定理 3.1 (分部积分公式)**<br>设 $u\left(x\right),v\left(x\right)$ 可导, 则 $\int u\left(x\right)\,\mathrm dv\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm du\left(x\right)$.
+> **定理 3.1 (分部积分公式)**
+>
+> 设 $u\left(x\right),v\left(x\right)$ 可导, 则 $\int u\left(x\right)\,\mathrm dv\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm du\left(x\right)$.
 
 ---
 

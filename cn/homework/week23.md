@@ -1,10 +1,16 @@
 # week23
 
-> **基础知识: 上确界与下确界的定义**<br>设 $E$ 为有界集合. 若实数 $\beta$ 满足: (1) $\beta$ 是 $E$ 的上界; (2) 对任意 $\varepsilon> 0$, 存在 $x_0\in E$ 使得 $x_0> \beta-\varepsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
+> **基础知识: 上确界与下确界的定义**
+>
+> 设 $E$ 为有界集合. 若实数 $\beta$ 满足: (1) $\beta$ 是 $E$ 的上界; (2) 对任意 $\varepsilon> 0$, 存在 $x_0\in E$ 使得 $x_0> \beta-\varepsilon$, 则称 $\beta$ 为 $E$ 的上确界, 记作 $\sup E$. 类似地定义下确界 $\inf E$.
 
-> **基础知识: 振幅的定义**<br>设 $f$ 在区间 $I$ 中有定义且有界. 称 $\omega_f\left(I\right)=\sup\left\{f\left(x\right):x\in I\right\}-\inf\left\{f\left(x\right):x\in I\right\}$ 为 $f$ 在 $I$ 上的振幅.
+> **基础知识: 振幅的定义**
+>
+> 设 $f$ 在区间 $I$ 中有定义且有界. 称 $\omega_f\left(I\right)=\sup\left\{f\left(x\right):x\in I\right\}-\inf\left\{f\left(x\right):x\in I\right\}$ 为 $f$ 在 $I$ 上的振幅.
 
-> **定理 1.3 (连续的充要条件)**<br>设 $y=f\left(x\right)$ 在 $x_0$ 点附近为有界函数. 则 $f$ 在 $x_0$ 点连续的充要条件是 $\omega_f\left(x_0\right)=0$.
+> **定理 1.3 (连续的充要条件)**
+>
+> 设 $y=f\left(x\right)$ 在 $x_0$ 点附近为有界函数. 则 $f$ 在 $x_0$ 点连续的充要条件是 $\omega_f\left(x_0\right)=0$.
 
 ---
 

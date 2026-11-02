@@ -1,8 +1,12 @@
 # week31
 
-> **定理 4.2 (三重积分的穿线法)**<br>设 $\Omega=\left\{\left(x,y,z\right):\left(x,y\right)\in D,z_1\left(x,y\right)\le z\le z_2\left(x,y\right)\right\}$. 则 $\iiint_\Omega f\,\mathrm dV=\iint_D\mathrm dx\mathrm dy\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm dz$.
+> **定理 4.2 (三重积分的穿线法)**
+>
+> 设 $\Omega=\left\{\left(x,y,z\right):\left(x,y\right)\in D,z_1\left(x,y\right)\le z\le z_2\left(x,y\right)\right\}$. 则 $\iiint_\Omega f\,\mathrm dV=\iint_D\mathrm dx\mathrm dy\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm dz$.
 
-> **定理 4.4 (三重积分换元公式)**<br>$\iiint_\Omega f\,\mathrm dx\mathrm dy\mathrm dz=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm du\mathrm dv\mathrm dw$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
+> **定理 4.4 (三重积分换元公式)**
+>
+> $\iiint_\Omega f\,\mathrm dx\mathrm dy\mathrm dz=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm du\mathrm dv\mathrm dw$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
 
 ---
 

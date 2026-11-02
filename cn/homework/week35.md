@@ -1,10 +1,16 @@
 # week35
 
-> **基础知识: 第一型曲面积分的计算**<br>设光滑曲面 $S$ 由参数方程给出, $E=x_u^2+y_u^2+z_u^2$, $F=x_ux_v+y_uy_v+z_uz_v$, $G=x_v^2+y_v^2+z_v^2$. 则 $\iint_S f\,\mathrm dS=\iint_D f\sqrt{EG-F^2}\,\mathrm du\mathrm dv$. 特别地, $z=g\left(x,y\right)$ 时 $\mathrm dS=\sqrt{1+g_x^2+g_y^2}\,\mathrm dx\mathrm dy$.
+> **基础知识: 第一型曲面积分的计算**
+>
+> 设光滑曲面 $S$ 由参数方程给出, $E=x_u^2+y_u^2+z_u^2$, $F=x_ux_v+y_uy_v+z_uz_v$, $G=x_v^2+y_v^2+z_v^2$. 则 $\iint_S f\,\mathrm dS=\iint_D f\sqrt{EG-F^2}\,\mathrm du\mathrm dv$. 特别地, $z=g\left(x,y\right)$ 时 $\mathrm dS=\sqrt{1+g_x^2+g_y^2}\,\mathrm dx\mathrm dy$.
 
-> **基础知识: 第二型曲面积分的计算**<br>设 $S:z=g\left(x,y\right)$, 取上侧. 则 $\iint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iint_D\left[P\left(-g_x\right)+Q\left(-g_y\right)+R\right]\mathrm dx\mathrm dy$.
+> **基础知识: 第二型曲面积分的计算**
+>
+> 设 $S:z=g\left(x,y\right)$, 取上侧. 则 $\iint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iint_D\left[P\left(-g_x\right)+Q\left(-g_y\right)+R\right]\mathrm dx\mathrm dy$.
 
-> **定理 4.1 (奥-高公式)**<br>设 $S$ 为空间闭区域 $\Omega$ 的边界曲面外侧, $P,Q,R$ 在 $\Omega$ 上有一阶连续偏导数. 则 $\oiint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
+> **定理 4.1 (奥-高公式)**
+>
+> 设 $S$ 为空间闭区域 $\Omega$ 的边界曲面外侧, $P,Q,R$ 在 $\Omega$ 上有一阶连续偏导数. 则 $\oiint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
 
 ---
 

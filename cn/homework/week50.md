@@ -1,8 +1,12 @@
 # week50
 
-> **定理 4.3 (魏尔斯特拉斯判别法)**<br>若 $\left|f\left(x,y\right)\right|\le F\left(x\right)$ 且瑕积分 $\int_a^b F\left(x\right)\mathrm dx$ 收敛, 则 $\int_a^b f\left(x,y\right)\mathrm dx$ 关于 $y$ 一致收敛.
+> **定理 4.3 (魏尔斯特拉斯判别法)**
+>
+> 若 $\left|f\left(x,y\right)\right|\le F\left(x\right)$ 且瑕积分 $\int_a^b F\left(x\right)\mathrm dx$ 收敛, 则 $\int_a^b f\left(x,y\right)\mathrm dx$ 关于 $y$ 一致收敛.
 
-> **定理 4.7 (积分次序交换定理)**<br>若 $f\left(x,y\right)$ 连续且保持固定符号, $\int_a^b f\left(x,y\right)\mathrm dx$ 关于 $y\in\left[c,d\right]$ 一致收敛, 则 $\int_c^d\mathrm dy\int_a^b f\,\mathrm dx=\int_a^b\mathrm dx\int_c^d f\,\mathrm dy$.
+> **定理 4.7 (积分次序交换定理)**
+>
+> 若 $f\left(x,y\right)$ 连续且保持固定符号, $\int_a^b f\left(x,y\right)\mathrm dx$ 关于 $y\in\left[c,d\right]$ 一致收敛, 则 $\int_c^d\mathrm dy\int_a^b f\,\mathrm dx=\int_a^b\mathrm dx\int_c^d f\,\mathrm dy$.
 
 ---
 

@@ -1,14 +1,24 @@
 # week49
 
-> **Theorem 4.3 (Weierstrass M-Test for Improper Integrals)**<br>If $\left|f\left(x,y\right)\right|\le F\left(x\right)$ and $\int F$ converges, then $\int f$ converges uniformly.
+> **Theorem 4.3 (Weierstrass M-Test for Improper Integrals)**
+>
+> If $\left|f\left(x,y\right)\right|\le F\left(x\right)$ and $\int F$ converges, then $\int f$ converges uniformly.
 
-> **Theorem 4.4 (Abel's Test)**<br>If $\int f$ converges uniformly and $g$ is monotone and uniformly bounded, then $\int fg$ converges uniformly.
+> **Theorem 4.4 (Abel's Test)**
+>
+> If $\int f$ converges uniformly and $g$ is monotone and uniformly bounded, then $\int fg$ converges uniformly.
 
-> **Example 4.5 (Dirichlet Integral)**<br>$\int_0^\infty\frac{\sin x}x\mathrm dx=\frac\pi2$.
+> **Example 4.5 (Dirichlet Integral)**
+>
+> $\int_0^\infty\frac{\sin x}x\mathrm dx=\frac\pi2$.
 
-> **Theorem 4.7 (Interchange of Order of Integration)**<br>Under uniform convergence, $\int_c^d\mathrm dy\int_a^\infty f\,\mathrm dx=\int_a^\infty\mathrm dx\int_c^d f\,\mathrm dy$.
+> **Theorem 4.7 (Interchange of Order of Integration)**
+>
+> Under uniform convergence, $\int_c^d\mathrm dy\int_a^\infty f\,\mathrm dx=\int_a^\infty\mathrm dx\int_c^d f\,\mathrm dy$.
 
-> **Theorem 4.8 (Differentiation Under the Integral Sign)**<br>$I'\left(y\right)=\int_a^\infty f_y\,\mathrm dx$ under uniform convergence of $\int f_y$.
+> **Theorem 4.8 (Differentiation Under the Integral Sign)**
+>
+> $I'\left(y\right)=\int_a^\infty f_y\,\mathrm dx$ under uniform convergence of $\int f_y$.
 
 ---
 

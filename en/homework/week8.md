@@ -1,10 +1,16 @@
 # week8
 
-> **Basic Knowledge: Nested Interval Principle**<br>If $\left\{\left[a_n,b_n\right]\right\}$ is a sequence of closed intervals with $\left[a_{n+1},b_{n+1}\right]\subset\left[a_n,b_n\right]$ and $b_n-a_n\to0$, then there exists a unique real number $l$ belonging to all intervals.
+> **Basic Knowledge: Nested Interval Principle**
+>
+> If $\left\{\left[a_n,b_n\right]\right\}$ is a sequence of closed intervals with $\left[a_{n+1},b_{n+1}\right]\subset\left[a_n,b_n\right]$ and $b_n-a_n\to0$, then there exists a unique real number $l$ belonging to all intervals.
 
-> **Theorem 8.1 (Intermediate Value Theorem)**<br>If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and $f\left(a\right)$ and $f\left(b\right)$ have opposite signs, then there exists $c\in\left(a,b\right)$ with $f\left(c\right)=0$. More generally, $f$ takes every value between $f\left(a\right)$ and $f\left(b\right)$.
+> **Theorem 8.1 (Intermediate Value Theorem)**
+>
+> If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and $f\left(a\right)$ and $f\left(b\right)$ have opposite signs, then there exists $c\in\left(a,b\right)$ with $f\left(c\right)=0$. More generally, $f$ takes every value between $f\left(a\right)$ and $f\left(b\right)$.
 
-> **Theorem 8.2 (Boundedness Theorem)**<br>A continuous function on a closed interval is bounded and attains its maximum and minimum.
+> **Theorem 8.2 (Boundedness Theorem)**
+>
+> A continuous function on a closed interval is bounded and attains its maximum and minimum.
 
 ---
 

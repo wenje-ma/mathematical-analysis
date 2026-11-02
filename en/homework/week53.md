@@ -1,6 +1,8 @@
 # week53
 
-> **Proposition (Fourier Coefficients)**<br>$f\left(x\right)\sim\frac{a_0}2+\sum\left(a_n\cos nx+b_n\sin nx\right)$, where $a_n=\frac1\pi\int_{-\pi}^\pi f\cos nx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\sin nx$.
+> **Proposition (Fourier Coefficients)**
+>
+> $f\left(x\right)\sim\frac{a_0}2+\sum\left(a_n\cos nx+b_n\sin nx\right)$, where $a_n=\frac1\pi\int_{-\pi}^\pi f\cos nx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\sin nx$.
 
 ---
 

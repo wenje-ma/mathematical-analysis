@@ -1,10 +1,16 @@
 # week25
 
-> **基础知识: 一致连续的定义**<br>设 $y=f\left(x\right)$ 在区间 $X$ 上有定义. 如果对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 使得 $X$ 中任意两点 $x_1,x_2$, 只要 $\left|x_1-x_2\right|< \delta$, 就有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$, 则称 $f$ 在 $X$ 上一致连续.
+> **基础知识: 一致连续的定义**
+>
+> 设 $y=f\left(x\right)$ 在区间 $X$ 上有定义. 如果对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 使得 $X$ 中任意两点 $x_1,x_2$, 只要 $\left|x_1-x_2\right|< \delta$, 就有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$, 则称 $f$ 在 $X$ 上一致连续.
 
-> **定理 1.3 (拉格朗日中值定理)**<br>设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
+> **定理 1.3 (拉格朗日中值定理)**
+>
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-> **定理 3.2 (有限覆盖定理)**<br>设 $\mathcal{F}=\left\{I_\alpha\right\}$ 是闭区间 $\left[a,b\right]$ 的任意一个开覆盖, 则存在 $\mathcal{F}$ 中的有限个元素 $I_{\alpha_1},\cdots,I_{\alpha_n}$, 使得 $\left[a,b\right]\subset\bigcup_{k=1}^n I_{\alpha_k}$.
+> **定理 3.2 (有限覆盖定理)**
+>
+> 设 $\mathcal{F}=\left\{I_\alpha\right\}$ 是闭区间 $\left[a,b\right]$ 的任意一个开覆盖, 则存在 $\mathcal{F}$ 中的有限个元素 $I_{\alpha_1},\cdots,I_{\alpha_n}$, 使得 $\left[a,b\right]\subset\bigcup_{k=1}^n I_{\alpha_k}$.
 
 ---
 

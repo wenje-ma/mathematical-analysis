@@ -1,6 +1,8 @@
 # week12
 
-> **Theorem 5.1 (Parametric Differentiation Formula)**<br>If $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ are differentiable at $t_0$ with $\varphi'\left(t_0\right)\ne0$, then $\frac{\mathrm dy}{\mathrm dx}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
+> **Theorem 5.1 (Parametric Differentiation Formula)**
+>
+> If $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ are differentiable at $t_0$ with $\varphi'\left(t_0\right)\ne0$, then $\frac{\mathrm dy}{\mathrm dx}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
 
 ---
 

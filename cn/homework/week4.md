@@ -1,16 +1,28 @@
 # week4
 
-> **基础知识: 重要极限数 $e$**<br>$\lim_{n\to\infty}\left(1+\frac1n\right)^n=e$, 其中 $e$ 为无理数, $2< e< 3$.
+> **基础知识: 重要极限数 $e$**
+>
+> $\lim_{n\to\infty}\left(1+\frac1n\right)^n=e$, 其中 $e$ 为无理数, $2< e< 3$.
 
-> **基础知识: 无穷小量的定义**<br>以 $0$ 为其极限的变量称作无穷小量.
+> **基础知识: 无穷小量的定义**
+>
+> 以 $0$ 为其极限的变量称作无穷小量.
 
-> **定理 3.1 (极限四则运算定理)**<br>设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
+> **定理 3.1 (极限四则运算定理)**
+>
+> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
-> **定理 3.2 (实数域完备性)**<br>设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限.
+> **定理 3.2 (实数域完备性)**
+>
+> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限.
 
-> **例 3.3 (正数的 $n$ 次方根趋于 $1$)**<br>设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
+> **例 3.3 (正数的 $n$ 次方根趋于 $1$)**
+>
+> 设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
 
-> **定理 4.2 (夹逼定理)**<br>设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le a_n\le b_n$ 对一切 $n\ge N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
+> **定理 4.2 (夹逼定理)**
+>
+> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le a_n\le b_n$ 对一切 $n\ge N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
 
 ---
 

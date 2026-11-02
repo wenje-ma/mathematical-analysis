@@ -1,12 +1,20 @@
 # week43
 
-> **定理 2.2 (魏尔斯特拉斯 M 判别法)**<br>若 $\left|u_n\left(x\right)\right|\le a_n$ 对一切 $x\in X$ 成立, 且 $\sum a_n$ 收敛, 则 $\sum u_n\left(x\right)$ 在 $X$ 上一致收敛.
+> **定理 2.2 (魏尔斯特拉斯 M 判别法)**
+>
+> 若 $\left|u_n\left(x\right)\right|\le a_n$ 对一切 $x\in X$ 成立, 且 $\sum a_n$ 收敛, 则 $\sum u_n\left(x\right)$ 在 $X$ 上一致收敛.
 
-> **定理 2.4 (狄利克雷判别法)**<br>若 $\sum a_n\left(x\right)$ 的部分和一致有界, $b_n\left(x\right)$ 单调且一致趋于零, 则 $\sum a_n\left(x\right)b_n\left(x\right)$ 一致收敛.
+> **定理 2.4 (狄利克雷判别法)**
+>
+> 若 $\sum a_n\left(x\right)$ 的部分和一致有界, $b_n\left(x\right)$ 单调且一致趋于零, 则 $\sum a_n\left(x\right)b_n\left(x\right)$ 一致收敛.
 
-> **定理 2.5 (和函数的连续性)**<br>若 $u_n\left(x\right)$ 连续且 $\sum u_n\left(x\right)$ 一致收敛, 则和函数 $S\left(x\right)$ 连续.
+> **定理 2.5 (和函数的连续性)**
+>
+> 若 $u_n\left(x\right)$ 连续且 $\sum u_n\left(x\right)$ 一致收敛, 则和函数 $S\left(x\right)$ 连续.
 
-> **定理 2.7 (逐项求导定理)**<br>若 $\sum u_n\left(x\right)$ 收敛, $u_n'\left(x\right)$ 连续, 且 $\sum u_n'\left(x\right)$ 一致收敛, 则 $S'\left(x\right)=\sum u_n'\left(x\right)$.
+> **定理 2.7 (逐项求导定理)**
+>
+> 若 $\sum u_n\left(x\right)$ 收敛, $u_n'\left(x\right)$ 连续, 且 $\sum u_n'\left(x\right)$ 一致收敛, 则 $S'\left(x\right)=\sum u_n'\left(x\right)$.
 
 ---
 

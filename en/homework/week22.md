@@ -1,6 +1,8 @@
 # week22
 
-> **Theorem 5.1 (Integrals of Rational Trigonometric Expressions)**<br>The integral of $R\left(\sin x,\cos x\right)$ can always be rationalized by the substitution $t=\tan\frac x2$, with $\sin x=\frac{2t}{1+t^2}$, $\cos x=\frac{1-t^2}{1+t^2}$, $\mathrm dx=\frac{2\mathrm dt}{1+t^2}$.
+> **Theorem 5.1 (Integrals of Rational Trigonometric Expressions)**
+>
+> The integral of $R\left(\sin x,\cos x\right)$ can always be rationalized by the substitution $t=\tan\frac x2$, with $\sin x=\frac{2t}{1+t^2}$, $\cos x=\frac{1-t^2}{1+t^2}$, $\mathrm dx=\frac{2\mathrm dt}{1+t^2}$.
 
 ---
 

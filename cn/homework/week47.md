@@ -1,12 +1,20 @@
 # week47
 
-> **基础知识: 瑕积分收敛的定义**<br>若 $\lim_{\eta\to0+}\int_{a+\eta}^b f\left(x\right)\mathrm dx$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\mathrm dx$ 收敛, 否则发散.
+> **基础知识: 瑕积分收敛的定义**
+>
+> 若 $\lim_{\eta\to0+}\int_{a+\eta}^b f\left(x\right)\mathrm dx$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\mathrm dx$ 收敛, 否则发散.
 
-> **基础知识: 绝对收敛与条件收敛的定义**<br>若 $\int_a^b\left|f\left(x\right)\right|\mathrm dx$ 收敛则称绝对收敛; 若 $\int_a^b f\left(x\right)\mathrm dx$ 收敛而 $\int_a^b\left|f\left(x\right)\right|\mathrm dx$ 发散则称条件收敛.
+> **基础知识: 绝对收敛与条件收敛的定义**
+>
+> 若 $\int_a^b\left|f\left(x\right)\right|\mathrm dx$ 收敛则称绝对收敛; 若 $\int_a^b f\left(x\right)\mathrm dx$ 收敛而 $\int_a^b\left|f\left(x\right)\right|\mathrm dx$ 发散则称条件收敛.
 
-> **基础知识: 柯西主值的定义**<br>若 $\lim_{\eta\to0+}\left[\int_a^{c-\eta}f\left(x\right)\mathrm dx+\int_{c+\eta}^b f\left(x\right)\mathrm dx\right]$ 存在, 则称该瑕积分在柯西主值意义下收敛.
+> **基础知识: 柯西主值的定义**
+>
+> 若 $\lim_{\eta\to0+}\left[\int_a^{c-\eta}f\left(x\right)\mathrm dx+\int_{c+\eta}^b f\left(x\right)\mathrm dx\right]$ 存在, 则称该瑕积分在柯西主值意义下收敛.
 
-> **例 2.2 (瑕 p-积分)**<br>$\int_a^b\frac{\mathrm dx}{\left(x-a\right)^p}$ 当 $p< 1$ 时收敛, 当 $p\ge1$ 时发散.
+> **例 2.2 (瑕 p-积分)**
+>
+> $\int_a^b\frac{\mathrm dx}{\left(x-a\right)^p}$ 当 $p< 1$ 时收敛, 当 $p\ge1$ 时发散.
 
 ---
 

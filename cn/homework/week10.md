@@ -1,8 +1,12 @@
 # week10
 
-> **基础知识: 微分的定义**<br>设 $y=f\left(x\right)$ 在 $x_0$ 附近有定义. 若存在常数 $A$, 使得 $\Delta y=A\Delta x+o\left(\Delta x\right)$, 则称 $f$ 在 $x_0$ 可微, $\mathrm dy=A\Delta x$ 称为微分, 且 $A=f'\left(x_0\right)$.
+> **基础知识: 微分的定义**
+>
+> 设 $y=f\left(x\right)$ 在 $x_0$ 附近有定义. 若存在常数 $A$, 使得 $\Delta y=A\Delta x+o\left(\Delta x\right)$, 则称 $f$ 在 $x_0$ 可微, $\mathrm dy=A\Delta x$ 称为微分, 且 $A=f'\left(x_0\right)$.
 
-> **基础知识: 高阶无穷小的定义**<br>若 $\lim_{x\to0}\frac{\alpha\left(x\right)}{\beta\left(x\right)}=0$, 则称 $\alpha\left(x\right)=o\left(\beta\left(x\right)\right)$.
+> **基础知识: 高阶无穷小的定义**
+>
+> 若 $\lim_{x\to0}\frac{\alpha\left(x\right)}{\beta\left(x\right)}=0$, 则称 $\alpha\left(x\right)=o\left(\beta\left(x\right)\right)$.
 
 ---
 

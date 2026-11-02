@@ -1,8 +1,12 @@
 # week50
 
-> **Theorem 4.3 (Weierstrass M-Test for Improper Integrals)**<br>If $\left|f\left(x,y\right)\right|\le F\left(x\right)$ and $\int_a^b F$ converges, then $\int_a^b f$ converges uniformly.
+> **Theorem 4.3 (Weierstrass M-Test for Improper Integrals)**
+>
+> If $\left|f\left(x,y\right)\right|\le F\left(x\right)$ and $\int_a^b F$ converges, then $\int_a^b f$ converges uniformly.
 
-> **Theorem 4.7 (Interchange of Order)**<br>Under uniform convergence and fixed sign, $\int_c^d\mathrm dy\int_a^b f=\int_a^b\mathrm dx\int_c^d f$.
+> **Theorem 4.7 (Interchange of Order)**
+>
+> Under uniform convergence and fixed sign, $\int_c^d\mathrm dy\int_a^b f=\int_a^b\mathrm dx\int_c^d f$.
 
 ---
 

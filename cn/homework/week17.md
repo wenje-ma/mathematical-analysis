@@ -1,10 +1,16 @@
 # week17
 
-> **基础知识: 凸函数与凹函数的定义**<br>设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 有 $f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)$, 则称 $f$ 为凸函数. 若不等式反向, 则称 $f$ 为凹函数.
+> **基础知识: 凸函数与凹函数的定义**
+>
+> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 有 $f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)$, 则称 $f$ 为凸函数. 若不等式反向, 则称 $f$ 为凹函数.
 
-> **定理 1.3 (拉格朗日中值定理)**<br>设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在点 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
+> **定理 1.3 (拉格朗日中值定理)**
+>
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在点 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-> **定理 5.1 (凸函数的二阶导数判别)**<br>设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上二阶可导. 则 $f$ 为凸函数的充要条件是 $f''\left(x\right)\ge0$; $f$ 为凹函数的充要条件是 $f''\left(x\right)\le0$.
+> **定理 5.1 (凸函数的二阶导数判别)**
+>
+> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上二阶可导. 则 $f$ 为凸函数的充要条件是 $f''\left(x\right)\ge0$; $f$ 为凹函数的充要条件是 $f''\left(x\right)\le0$.
 
 ---
 

@@ -1,14 +1,24 @@
 # week5
 
-> **Basic Knowledge: Definition of Function Limit**<br>Let $y=f\left(x\right)$ be defined in a punctured neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of $a$. If there exists $l\in\mathbb R$ such that for every $\varepsilon> 0$ there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \varepsilon$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted $\lim_{x\to a}f\left(x\right)=l$.
+> **Basic Knowledge: Definition of Function Limit**
+>
+> Let $y=f\left(x\right)$ be defined in a punctured neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of $a$. If there exists $l\in\mathbb R$ such that for every $\varepsilon> 0$ there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \varepsilon$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted $\lim_{x\to a}f\left(x\right)=l$.
 
-> **Basic Knowledge: Definition of One-Sided Limits**<br>If $f\left(x\right)$ has limit $l$ as $x\to a+0$ (resp. $x\to a-0$), it is called the right (resp. left) limit, denoted $\lim_{x\to a+0}f\left(x\right)=l$ (resp. $\lim_{x\to a-0}f\left(x\right)=l$).
+> **Basic Knowledge: Definition of One-Sided Limits**
+>
+> If $f\left(x\right)$ has limit $l$ as $x\to a+0$ (resp. $x\to a-0$), it is called the right (resp. left) limit, denoted $\lim_{x\to a+0}f\left(x\right)=l$ (resp. $\lim_{x\to a-0}f\left(x\right)=l$).
 
-> **Basic Knowledge: Sign Preservation of Limits**<br>If $\lim_{x\to a}f\left(x\right)=l$ and $l\ne0$, then there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
+> **Basic Knowledge: Sign Preservation of Limits**
+>
+> If $\lim_{x\to a}f\left(x\right)=l$ and $l\ne0$, then there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
 
-> **Proposition 1.7 (Triangle Inequality)**<br>For any real $a,b,c$: (1) $\left|a-b\right|\ge0$, equality iff $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> **Proposition 1.7 (Triangle Inequality)**
+>
+> For any real $a,b,c$: (1) $\left|a-b\right|\ge0$, equality iff $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **Theorem 5.1 (Arithmetic of Function Limits)**<br>If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+> **Theorem 5.1 (Arithmetic of Function Limits)**
+>
+> If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
 ---
 

@@ -1,10 +1,16 @@
 # week29
 
-> **Basic Knowledge: Comparison Property of Double Integrals**<br>If $f\le g$ on $D$, then $\iint_D f\le\iint_D g$.
+> **Basic Knowledge: Comparison Property of Double Integrals**
+>
+> If $f\le g$ on $D$, then $\iint_D f\le\iint_D g$.
 
-> **Theorem 2.1 (Reduction to Iterated Integrals)**<br>$\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
+> **Theorem 2.1 (Reduction to Iterated Integrals)**
+>
+> $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
 
-> **Theorem 2.2 (Double Integrals in Polar Coordinates)**<br>$\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
+> **Theorem 2.2 (Double Integrals in Polar Coordinates)**
+>
+> $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
 
 ---
 

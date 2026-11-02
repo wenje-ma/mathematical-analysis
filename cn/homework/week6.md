@@ -1,16 +1,28 @@
 # week6
 
-> **基础知识: 函数极限的定义**<br>设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在 $l\in\mathbb R$, 对于任意 $\varepsilon> 0$, 存在 $\delta> 0$, 使得 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$, 则称 $\lim_{x\to a}f\left(x\right)=l$.
+> **基础知识: 函数极限的定义**
+>
+> 设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在 $l\in\mathbb R$, 对于任意 $\varepsilon> 0$, 存在 $\delta> 0$, 使得 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$, 则称 $\lim_{x\to a}f\left(x\right)=l$.
 
-> **基础知识: 重要极限数 $e$ 的函数版本**<br>$\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$.
+> **基础知识: 重要极限数 $e$ 的函数版本**
+>
+> $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$.
 
-> **命题 1.7 (三角不等式)**<br>对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> **命题 1.7 (三角不等式)**
+>
+> 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **定理 5.1 (函数极限四则运算)**<br>若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+> **定理 5.1 (函数极限四则运算)**
+>
+> 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin x}{x}=1$)**<br>$\lim_{x\to0}\frac{\sin x}{x}=1$.
+> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin x}{x}=1$)**
+>
+> $\lim_{x\to0}\frac{\sin x}{x}=1$.
 
-> **定理 6.2 (函数的夹逼定理)**<br>设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. 若 $\lim g\left(x\right)=\lim h\left(x\right)=l$, 则 $\lim f\left(x\right)=l$.
+> **定理 6.2 (函数的夹逼定理)**
+>
+> 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. 若 $\lim g\left(x\right)=\lim h\left(x\right)=l$, 则 $\lim f\left(x\right)=l$.
 
 ---
 

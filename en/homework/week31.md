@@ -1,8 +1,12 @@
 # week31
 
-> **Theorem 4.2 (Triple Integral by Cross-Section)**<br>$\iiint_\Omega f\,\mathrm dV=\iint_D\mathrm dx\mathrm dy\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm dz$.
+> **Theorem 4.2 (Triple Integral by Cross-Section)**
+>
+> $\iiint_\Omega f\,\mathrm dV=\iint_D\mathrm dx\mathrm dy\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm dz$.
 
-> **Theorem 4.4 (Change of Variables in Triple Integrals)**<br>$\iiint_\Omega f=\iiint_{\Omega'}f\left(x\left(u,v,w\right),\dots\right)\left|J\right|\,\mathrm du\mathrm dv\mathrm dw$. Cylindrical: $\left|J\right|=r$. Spherical: $\left|J\right|=\rho^2\sin\varphi$.
+> **Theorem 4.4 (Change of Variables in Triple Integrals)**
+>
+> $\iiint_\Omega f=\iiint_{\Omega'}f\left(x\left(u,v,w\right),\dots\right)\left|J\right|\,\mathrm du\mathrm dv\mathrm dw$. Cylindrical: $\left|J\right|=r$. Spherical: $\left|J\right|=\rho^2\sin\varphi$.
 
 ---
 

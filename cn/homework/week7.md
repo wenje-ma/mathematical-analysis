@@ -1,12 +1,20 @@
 # week7
 
-> **基础知识: 连续函数的定义**<br>假定 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内有定义. 若在一点 $x_0\in\left(a,b\right)$ 处 $\lim_{x\to x_0}f\left(x\right)=f\left(x_0\right)$, 则称 $y=f\left(x\right)$ 在 $x_0$ 点连续. 若在每一点都连续, 则称它在 $\left(a,b\right)$ 上连续.
+> **基础知识: 连续函数的定义**
+>
+> 假定 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内有定义. 若在一点 $x_0\in\left(a,b\right)$ 处 $\lim_{x\to x_0}f\left(x\right)=f\left(x_0\right)$, 则称 $y=f\left(x\right)$ 在 $x_0$ 点连续. 若在每一点都连续, 则称它在 $\left(a,b\right)$ 上连续.
 
-> **基础知识: 初等函数的连续性**<br>初等函数在其定义域内是连续的.
+> **基础知识: 初等函数的连续性**
+>
+> 初等函数在其定义域内是连续的.
 
-> **命题 1.7 (三角不等式)**<br>对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> **命题 1.7 (三角不等式)**
+>
+> 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **定理 7.2 (复合函数连续性)**<br>若 $y=g\left(u\right)$ 在 $u_0$ 点连续, $u=f\left(x\right)$ 在 $x_0$ 点连续且 $f\left(x_0\right)=u_0$, 则复合函数 $y=g\left(f\left(x\right)\right)$ 在 $x_0$ 点连续.
+> **定理 7.2 (复合函数连续性)**
+>
+> 若 $y=g\left(u\right)$ 在 $u_0$ 点连续, $u=f\left(x\right)$ 在 $x_0$ 点连续且 $f\left(x_0\right)=u_0$, 则复合函数 $y=g\left(f\left(x\right)\right)$ 在 $x_0$ 点连续.
 
 ---
 

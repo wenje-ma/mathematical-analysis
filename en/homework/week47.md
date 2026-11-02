@@ -1,12 +1,20 @@
 # week47
 
-> **Basic Knowledge: Definition of Improper Integral (Singular Point)**<br>Converges if $\lim_{\eta\to0+}\int_{a+\eta}^b f$ exists.
+> **Basic Knowledge: Definition of Improper Integral (Singular Point)**
+>
+> Converges if $\lim_{\eta\to0+}\int_{a+\eta}^b f$ exists.
 
-> **Basic Knowledge: Absolute and Conditional Convergence**<br>Absolute if $\int\left|f\right|$ converges; conditional if $\int f$ converges but $\int\left|f\right|$ diverges.
+> **Basic Knowledge: Absolute and Conditional Convergence**
+>
+> Absolute if $\int\left|f\right|$ converges; conditional if $\int f$ converges but $\int\left|f\right|$ diverges.
 
-> **Basic Knowledge: Cauchy Principal Value**<br>The symmetric limit $\lim_{\eta\to0+}\left[\int_a^{c-\eta}f+\int_{c+\eta}^b f\right]$.
+> **Basic Knowledge: Cauchy Principal Value**
+>
+> The symmetric limit $\lim_{\eta\to0+}\left[\int_a^{c-\eta}f+\int_{c+\eta}^b f\right]$.
 
-> **Example 2.2 (Singular p-Integral)**<br>$\int_a^b\frac{\mathrm dx}{\left(x-a\right)^p}$ converges iff $p< 1$.
+> **Example 2.2 (Singular p-Integral)**
+>
+> $\int_a^b\frac{\mathrm dx}{\left(x-a\right)^p}$ converges iff $p< 1$.
 
 ---
 

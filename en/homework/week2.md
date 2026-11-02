@@ -1,12 +1,20 @@
 # week2
 
-> **Basic Knowledge: Definition of a Function**<br>Let $x$ and $y$ be two variables taking values in sets $X$ and $Y$ respectively. If there is a rule $f$ such that to each $x\in X$ there corresponds a unique $y\in Y$, then $f$ is called a function, denoted $f:X\to Y$; $X$ is called the domain of $f$. The set of all function values attainable in $Y$ is called the range of $f$, denoted $f\left(X\right)$.
+> **Basic Knowledge: Definition of a Function**
+>
+> Let $x$ and $y$ be two variables taking values in sets $X$ and $Y$ respectively. If there is a rule $f$ such that to each $x\in X$ there corresponds a unique $y\in Y$, then $f$ is called a function, denoted $f:X\to Y$; $X$ is called the domain of $f$. The set of all function values attainable in $Y$ is called the range of $f$, denoted $f\left(X\right)$.
 
-> **Basic Knowledge: Definition of a Composite Function**<br>Suppose there are two functions $f:X\to Y$ and $g:Y^*\to Z$ with $Y\subset Y^*$. For each $x\in X$, there is a unique $y=f\left(x\right)\in Y$, and then $g$ gives $z=g\left(y\right)$. The correspondence $x\mapsto z$ from $X$ to $Z$, where $z=g\left(f\left(x\right)\right)$, is called the composite function of $f$ and $g$.
+> **Basic Knowledge: Definition of a Composite Function**
+>
+> Suppose there are two functions $f:X\to Y$ and $g:Y^*\to Z$ with $Y\subset Y^*$. For each $x\in X$, there is a unique $y=f\left(x\right)\in Y$, and then $g$ gives $z=g\left(y\right)$. The correspondence $x\mapsto z$ from $X$ to $Z$, where $z=g\left(f\left(x\right)\right)$, is called the composite function of $f$ and $g$.
 
-> **Basic Knowledge: Definition of a Periodic Function**<br>Let $y=f\left(x\right)$ be defined on $\mathbb R$. If there exists a number $T\ne 0$ such that $f\left(x+T\right)=f\left(x\right)$ for all $x\in\mathbb R$, then $y=f\left(x\right)$ is called a periodic function, and $T$ is called a period of $f$.
+> **Basic Knowledge: Definition of a Periodic Function**
+>
+> Let $y=f\left(x\right)$ be defined on $\mathbb R$. If there exists a number $T\ne 0$ such that $f\left(x+T\right)=f\left(x\right)$ for all $x\in\mathbb R$, then $y=f\left(x\right)$ is called a periodic function, and $T$ is called a period of $f$.
 
-> **Proposition 2.1 (Necessary and Sufficient Condition for a Bounded Function)**<br>A function $f:X\to Y$ is bounded if and only if there exists $M> 0$ such that $\left|f\left(x\right)\right|\le M$ for all $x\in X$.
+> **Proposition 2.1 (Necessary and Sufficient Condition for a Bounded Function)**
+>
+> A function $f:X\to Y$ is bounded if and only if there exists $M> 0$ such that $\left|f\left(x\right)\right|\le M$ for all $x\in X$.
 
 ---
 

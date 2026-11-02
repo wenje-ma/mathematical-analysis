@@ -1,10 +1,16 @@
 # week54
 
-> **定理 3.1 (狄利克雷收敛定理)**<br>设 $f\left(x\right)$ 以 $2\pi$ 为周期且逐段单调有界, 则其傅里叶级数在每点 $x$ 收敛于 $\frac{f\left(x+0\right)+f\left(x-0\right)}2$.
+> **定理 3.1 (狄利克雷收敛定理)**
+>
+> 设 $f\left(x\right)$ 以 $2\pi$ 为周期且逐段单调有界, 则其傅里叶级数在每点 $x$ 收敛于 $\frac{f\left(x+0\right)+f\left(x-0\right)}2$.
 
-> **命题 (傅里叶系数)**<br>$a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm dx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm dx$.
+> **命题 (傅里叶系数)**
+>
+> $a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm dx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm dx$.
 
-> **定理 (封闭性方程)**<br>$\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
+> **定理 (封闭性方程)**
+>
+> $\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
 
 ---
 

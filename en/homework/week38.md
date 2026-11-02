@@ -1,8 +1,12 @@
 # week38
 
-> **Basic Knowledge: Definition of Convergent Series**<br>If the partial sums $S_n=\sum_{k=1}^n a_k$ converge to a finite limit $S$, then $\sum a_n$ converges.
+> **Basic Knowledge: Definition of Convergent Series**
+>
+> If the partial sums $S_n=\sum_{k=1}^n a_k$ converge to a finite limit $S$, then $\sum a_n$ converges.
 
-> **Theorem 1.1 (Necessary Condition for Convergence)**<br>If $\sum a_n$ converges, then $\lim_{n\to\infty}a_n=0$.
+> **Theorem 1.1 (Necessary Condition for Convergence)**
+>
+> If $\sum a_n$ converges, then $\lim_{n\to\infty}a_n=0$.
 
 ---
 

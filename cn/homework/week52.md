@@ -1,8 +1,12 @@
 # week52
 
-> **基础知识: 内积与范数的定义**<br>在 $R\left[-\pi,\pi\right]$ 中定义内积 $\left\langle f,g\right\rangle=\frac1\pi\int_{-\pi}^\pi f\left(x\right)g\left(x\right)\mathrm dx$, 范数 $\left|f\right|=\sqrt{\left\langle f,f\right\rangle}$.
+> **基础知识: 内积与范数的定义**
+>
+> 在 $R\left[-\pi,\pi\right]$ 中定义内积 $\left\langle f,g\right\rangle=\frac1\pi\int_{-\pi}^\pi f\left(x\right)g\left(x\right)\mathrm dx$, 范数 $\left|f\right|=\sqrt{\left\langle f,f\right\rangle}$.
 
-> **命题 (三角函数系的正交性)**<br>三角函数系 $1,\cos x,\sin x,\cos2x,\sin2x,\cdots$ 在 $\left[-\pi,\pi\right]$ 上两两正交, 且 $\int_{-\pi}^\pi1\,\mathrm dx=2\pi$, $\int_{-\pi}^\pi\cos^2nx\,\mathrm dx=\int_{-\pi}^\pi\sin^2nx\,\mathrm dx=\pi$.
+> **命题 (三角函数系的正交性)**
+>
+> 三角函数系 $1,\cos x,\sin x,\cos2x,\sin2x,\cdots$ 在 $\left[-\pi,\pi\right]$ 上两两正交, 且 $\int_{-\pi}^\pi1\,\mathrm dx=2\pi$, $\int_{-\pi}^\pi\cos^2nx\,\mathrm dx=\int_{-\pi}^\pi\sin^2nx\,\mathrm dx=\pi$.
 
 ---
 

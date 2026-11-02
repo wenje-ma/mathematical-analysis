@@ -1,6 +1,8 @@
 # week30
 
-> **定理 3.1 (二重积分的变量替换公式)**<br>设 $f$ 在 $D$ 上连续, 变换 $F:\left(u,v\right)\mapsto\left(x\left(u,v\right),y\left(u,v\right)\right)$ 是 $G$ 到 $D$ 的一一映射, 雅可比行列式 $J\left(u,v\right)\ne0$. 则 $\iint_D f\,\mathrm dx\mathrm dy=\iint_G f\left(x\left(u,v\right),y\left(u,v\right)\right)\left|J\left(u,v\right)\right|\,\mathrm du\mathrm dv$.
+> **定理 3.1 (二重积分的变量替换公式)**
+>
+> 设 $f$ 在 $D$ 上连续, 变换 $F:\left(u,v\right)\mapsto\left(x\left(u,v\right),y\left(u,v\right)\right)$ 是 $G$ 到 $D$ 的一一映射, 雅可比行列式 $J\left(u,v\right)\ne0$. 则 $\iint_D f\,\mathrm dx\mathrm dy=\iint_G f\left(x\left(u,v\right),y\left(u,v\right)\right)\left|J\left(u,v\right)\right|\,\mathrm du\mathrm dv$.
 
 ---
 

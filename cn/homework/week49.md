@@ -1,14 +1,24 @@
 # week49
 
-> **定理 4.3 (魏尔斯特拉斯判别法)**<br>若 $\left|f\left(x,y\right)\right|\le F\left(x\right)$ 且 $\int_a^{+\infty}F\left(x\right)\mathrm dx$ 收敛, 则 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 关于 $y$ 一致收敛.
+> **定理 4.3 (魏尔斯特拉斯判别法)**
+>
+> 若 $\left|f\left(x,y\right)\right|\le F\left(x\right)$ 且 $\int_a^{+\infty}F\left(x\right)\mathrm dx$ 收敛, 则 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 关于 $y$ 一致收敛.
 
-> **定理 4.4 (阿贝尔判别法)**<br>若 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 一致收敛, $g\left(x,y\right)$ 关于 $x$ 单调且一致有界, 则 $\int_a^{+\infty}fg\,\mathrm dx$ 一致收敛.
+> **定理 4.4 (阿贝尔判别法)**
+>
+> 若 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 一致收敛, $g\left(x,y\right)$ 关于 $x$ 单调且一致有界, 则 $\int_a^{+\infty}fg\,\mathrm dx$ 一致收敛.
 
-> **例 4.5 (狄利克雷积分)**<br>$\int_0^{+\infty}\frac{\sin x}{x}\mathrm dx=\frac\pi2$. 一般地, $\int_0^{+\infty}\frac{\sin\left(kx\right)}x\mathrm dx=\frac\pi2\operatorname{sgn}\left(k\right)$.
+> **例 4.5 (狄利克雷积分)**
+>
+> $\int_0^{+\infty}\frac{\sin x}{x}\mathrm dx=\frac\pi2$. 一般地, $\int_0^{+\infty}\frac{\sin\left(kx\right)}x\mathrm dx=\frac\pi2\operatorname{sgn}\left(k\right)$.
 
-> **定理 4.7 (积分次序交换定理)**<br>若 $f$ 连续且 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 关于 $y\in\left[c,d\right]$ 一致收敛, 则 $\int_c^d\mathrm dy\int_a^{+\infty}f\,\mathrm dx=\int_a^{+\infty}\mathrm dx\int_c^d f\,\mathrm dy$.
+> **定理 4.7 (积分次序交换定理)**
+>
+> 若 $f$ 连续且 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 关于 $y\in\left[c,d\right]$ 一致收敛, 则 $\int_c^d\mathrm dy\int_a^{+\infty}f\,\mathrm dx=\int_a^{+\infty}\mathrm dx\int_c^d f\,\mathrm dy$.
 
-> **定理 4.8 (积分号下求导)**<br>若 $f$ 与 $f_y$ 连续, $\int_a^{+\infty}f$ 收敛, $\int_a^{+\infty}f_y$ 一致收敛, 则 $I'\left(y\right)=\int_a^{+\infty}f_y\,\mathrm dx$.
+> **定理 4.8 (积分号下求导)**
+>
+> 若 $f$ 与 $f_y$ 连续, $\int_a^{+\infty}f$ 收敛, $\int_a^{+\infty}f_y$ 一致收敛, 则 $I'\left(y\right)=\int_a^{+\infty}f_y\,\mathrm dx$.
 
 ---
 

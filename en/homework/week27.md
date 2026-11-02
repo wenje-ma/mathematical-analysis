@@ -1,10 +1,16 @@
 # week27
 
-> **Basic Knowledge: Comparison Property of Integrals**<br>If $f\le g$ on $\left[a,b\right]$, then $\int_a^b f\le\int_a^b g$.
+> **Basic Knowledge: Comparison Property of Integrals**
+>
+> If $f\le g$ on $\left[a,b\right]$, then $\int_a^b f\le\int_a^b g$.
 
-> **Lemma 2.1 (Effect of Refining a Partition)**<br>Adding points to a partition decreases the upper sum and increases the lower sum.
+> **Lemma 2.1 (Effect of Refining a Partition)**
+>
+> Adding points to a partition decreases the upper sum and increases the lower sum.
 
-> **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**<br>$f$ is Riemann integrable iff $\lim_{\lambda\to0}\left[D\left(T\right)-d\left(T\right)\right]=0$.
+> **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**
+>
+> $f$ is Riemann integrable iff $\lim_{\lambda\to0}\left[D\left(T\right)-d\left(T\right)\right]=0$.
 
 ---
 

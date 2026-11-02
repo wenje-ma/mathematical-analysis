@@ -1,8 +1,12 @@
 # week45
 
-> **基础知识: 基本展开式**<br>$e^x=\sum_{n=0}^\infty\frac{x^n}{n!}$; $\ln\left(1+x\right)=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}x^n}{n}$; $\cos x=\sum_{n=0}^\infty\frac{\left(-1\right)^nx^{2n}}{\left(2n\right)!}$.
+> **基础知识: 基本展开式**
+>
+> $e^x=\sum_{n=0}^\infty\frac{x^n}{n!}$; $\ln\left(1+x\right)=\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}x^n}{n}$; $\cos x=\sum_{n=0}^\infty\frac{\left(-1\right)^nx^{2n}}{\left(2n\right)!}$.
 
-> **定理 4.1 (泰勒级数)**<br>若 $f\left(x\right)$ 可展开为幂级数 $\sum a_n\left(x-x_0\right)^n$, 则 $a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$, 展开唯一.
+> **定理 4.1 (泰勒级数)**
+>
+> 若 $f\left(x\right)$ 可展开为幂级数 $\sum a_n\left(x-x_0\right)^n$, 则 $a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$, 展开唯一.
 
 ---
 

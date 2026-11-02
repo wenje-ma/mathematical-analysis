@@ -1,16 +1,28 @@
 # week1
 
-> **Basic Knowledge: The Concept of a Field**<br>Roughly speaking, if a set of numbers is closed under addition, subtraction, multiplication, and division (divisor nonzero), and satisfies the commutative, associative, and distributive laws, then it is called a field.
+> **Basic Knowledge: The Concept of a Field**
+>
+> Roughly speaking, if a set of numbers is closed under addition, subtraction, multiplication, and division (divisor nonzero), and satisfies the commutative, associative, and distributive laws, then it is called a field.
 
-> **Basic Knowledge: The Concept of Completeness**<br>An ordered number field is called complete (or continuous) if it satisfies the following requirement: for any monotone increasing bounded sequence $\left\{x_n\right\}$, there exists a number $a$ in the field such that $x_n$ can approach $a$ arbitrarily closely.
+> **Basic Knowledge: The Concept of Completeness**
+>
+> An ordered number field is called complete (or continuous) if it satisfies the following requirement: for any monotone increasing bounded sequence $\left\{x_n\right\}$, there exists a number $a$ in the field such that $x_n$ can approach $a$ arbitrarily closely.
 
-> **Basic Knowledge: The Concept of Bounded Sets**<br>Let $E\subset\mathbb R$. If there exists $M$ such that $x\le M$ for all $x\in E$, then $E$ is said to be bounded above; if there exists $m$ such that $x\ge m$ for all $x\in E$, then $E$ is said to be bounded below; a set that is both bounded above and bounded below is called a bounded set.
+> **Basic Knowledge: The Concept of Bounded Sets**
+>
+> Let $E\subset\mathbb R$. If there exists $M$ such that $x\le M$ for all $x\in E$, then $E$ is said to be bounded above; if there exists $m$ such that $x\ge m$ for all $x\in E$, then $E$ is said to be bounded below; a set that is both bounded above and bounded below is called a bounded set.
 
-> **Proposition 1.3 ($\sqrt2$ Is Irrational)**<br>$\sqrt2$ is not a rational number.
+> **Proposition 1.3 ($\sqrt2$ Is Irrational)**
+>
+> $\sqrt2$ is not a rational number.
 
-> **Proposition 1.6 (Properties of Absolute Value)**<br>For any $x,y\in\mathbb R$: (1) $\left|x\right|\ge0$, with equality if and only if $x=0$; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
+> **Proposition 1.6 (Properties of Absolute Value)**
+>
+> For any $x,y\in\mathbb R$: (1) $\left|x\right|\ge0$, with equality if and only if $x=0$; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
 
-> **Proposition 1.7 (Triangle Inequality)**<br>For any real numbers $a,b,c$: (1) $\left|a-b\right|\ge0$, with equality if and only if $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> **Proposition 1.7 (Triangle Inequality)**
+>
+> For any real numbers $a,b,c$: (1) $\left|a-b\right|\ge0$, with equality if and only if $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
 ---
 

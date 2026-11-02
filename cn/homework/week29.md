@@ -1,10 +1,16 @@
 # week29
 
-> **基础知识: 二重积分的比较性质**<br>若 $f\le g$ 在 $D$ 上, 则 $\iint_D f\le\iint_D g$.
+> **基础知识: 二重积分的比较性质**
+>
+> 若 $f\le g$ 在 $D$ 上, 则 $\iint_D f\le\iint_D g$.
 
-> **定理 2.1 (化二重积分为累次积分)**<br>设 $f$ 在 $D=\left\{\left(x,y\right):a\le x\le b,\varphi_1\left(x\right)\le y\le\varphi_2\left(x\right)\right\}$ 上连续, 则 $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
+> **定理 2.1 (化二重积分为累次积分)**
+>
+> 设 $f$ 在 $D=\left\{\left(x,y\right):a\le x\le b,\varphi_1\left(x\right)\le y\le\varphi_2\left(x\right)\right\}$ 上连续, 则 $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
 
-> **定理 2.2 (极坐标下的二重积分)**<br>$\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
+> **定理 2.2 (极坐标下的二重积分)**
+>
+> $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
 
 ---
 

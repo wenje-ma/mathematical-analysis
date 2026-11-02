@@ -1,10 +1,16 @@
 # week54
 
-> **Theorem 3.1 (Dirichlet's Convergence Theorem)**<br>The Fourier series converges to $\frac{f\left(x+0\right)+f\left(x-0\right)}2$ at every point.
+> **Theorem 3.1 (Dirichlet's Convergence Theorem)**
+>
+> The Fourier series converges to $\frac{f\left(x+0\right)+f\left(x-0\right)}2$ at every point.
 
-> **Proposition (Fourier Coefficients)**<br>$a_n=\frac1\pi\int_{-\pi}^\pi f\cos nx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\sin nx$.
+> **Proposition (Fourier Coefficients)**
+>
+> $a_n=\frac1\pi\int_{-\pi}^\pi f\cos nx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\sin nx$.
 
-> **Theorem (Parseval's Identity)**<br>$\frac1\pi\int_{-\pi}^\pi f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
+> **Theorem (Parseval's Identity)**
+>
+> $\frac1\pi\int_{-\pi}^\pi f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
 ---
 
