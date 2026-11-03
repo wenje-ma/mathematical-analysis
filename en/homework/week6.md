@@ -1,13 +1,5 @@
 # week6
 
-> **Basic Knowledge: Definition of Function Limit**
-> 
-> Let $y=f\left(x\right)$ be defined in a punctured neighborhood of $a$. If there exists $l\in\mathbb R$ such that for every $\varepsilon> 0$ there exists $\delta> 0$ with $0< \left|x-a\right|< \delta$ implying $\left|f\left(x\right)-l\right|< \varepsilon$, then $\lim_{x\to a}f\left(x\right)=l$.
-
-> **Basic Knowledge: The Important Limit $e$ (Function Version)**
-> 
-> $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$.
-
 > **Proposition 1.7 (Triangle Inequality)**
 > 
 > For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
@@ -32,7 +24,7 @@ Prove by $\varepsilon$-$\delta$ language: if $\lim_{x\to a}f\left(x\right)=l$ an
 
 ### Solution 1.6-2
 
-Take $\varepsilon=\frac l2> 0$. By **Basic Knowledge: Definition of Function Limit**, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac l2$. By **Proposition 1.7 (Triangle Inequality)**,
+Take $\varepsilon=\frac l2> 0$. By Definition of Function Limit, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac l2$. By **Proposition 1.7 (Triangle Inequality)**,
 
 $$
 f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
@@ -112,7 +104,7 @@ $$
 \left(\frac{1+x}{1-x}\right)^{1/x}=\left[\left(1+\frac{2x}{1-x}\right)^{\frac{1-x}{2x}}\right]^{\frac2{1-x}}.
 $$
 
-The base tends to $e$ and the exponent $\frac2{1-x}\to2$. By **Basic Knowledge: The Important Limit $e$ (Function Version)** and **Theorem 6.2 (Squeeze Theorem for Functions)**, the limit is $e^2$. $\blacksquare$
+The base tends to $e$ and the exponent $\frac2{1-x}\to2$. By The Important Limit $e$ (Function Version) and **Theorem 6.2 (Squeeze Theorem for Functions)**, the limit is $e^2$. $\blacksquare$
 
 ---
 
@@ -126,7 +118,7 @@ $$
 \left(1-5y\right)^{1/y}=\left[\left(1+\frac1{-1/\left(5y\right)}\right)^{-1/\left(5y\right)}\right]^{-5}.
 $$
 
-The base tends to $e$ and the exponent is $-5$. By **Basic Knowledge: The Important Limit $e$ (Function Version)**, the limit is $e^{-5}=\frac1{e^5}$. $\blacksquare$
+The base tends to $e$ and the exponent is $-5$. By The Important Limit $e$ (Function Version), the limit is $e^{-5}=\frac1{e^5}$. $\blacksquare$
 
 ---
 

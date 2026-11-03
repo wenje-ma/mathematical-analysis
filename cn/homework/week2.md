@@ -1,17 +1,5 @@
 # week2
 
-> **基础知识: 函数的定义**
-> 
-> 设 $x$ 与 $y$ 是两个变量, 分别在实数集合 $X$ 与 $Y$ 中取值. 假如有一种规则 $f$ 使得对每一个值 $x\in X$ 都能找到一个唯一确定的 $y\in Y$ 与之相对应, 则称 $f$ 是一个函数, 记作 $f:X\to Y$, 并称 $X$ 为 $f$ 的定义域. $Y$ 中一切可能被取到的函数值集合称作 $f$ 的值域, 记作 $f\left(X\right)$.
-
-> **基础知识: 复合函数的定义**
-> 
-> 假定有两个函数 $f:X\to Y$ 及 $g:Y^*\to Z$, 并假定 $Y\subset Y^*$. 对于每一个点 $x\in X$, 存在唯一的 $y=f\left(x\right)\in Y$, 再由 $g$ 得到 $z=g\left(y\right)$. 这样确定的从 $X$ 到 $Z$ 的对应 $x\mapsto z$, 其中 $z=g\left(f\left(x\right)\right)$, 称为 $f$ 与 $g$ 的复合函数.
-
-> **基础知识: 周期函数的定义**
-> 
-> 设 $y=f\left(x\right)$ 在 $\mathbb R$ 上有定义, 且存在一个数 $T\ne 0$ 使得 $f\left(x+T\right)=f\left(x\right)$ 对一切 $x\in\mathbb R$ 成立, 则称 $y=f\left(x\right)$ 是周期函数, 其中 $T$ 称作 $f$ 的一个周期.
-
 > **命题 2.1 (有界函数的充要条件)**
 > 
 > 函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M> 0$, 使得 $\left|f\left(x\right)\right|\le M$ 对一切 $x\in X$ 成立.
@@ -78,7 +66,7 @@ $$
 
 ### 解答 1.2-2
 
-(1) 当 $x\in\left(0,5\right)$ 时, $x^2\in\left(0,25\right)$, 故 $1+x^2\in\left(1,26\right)$, 从而 $\sqrt{1+x^2}\in\left(1,\sqrt{26}\right)$. 由**基础知识: 函数的定义**, $f\left(X\right)=\left(1,\sqrt{26}\right)$.
+(1) 当 $x\in\left(0,5\right)$ 时, $x^2\in\left(0,25\right)$, 故 $1+x^2\in\left(1,26\right)$, 从而 $\sqrt{1+x^2}\in\left(1,\sqrt{26}\right)$. 由函数的定义, $f\left(X\right)=\left(1,\sqrt{26}\right)$.
 
 (2) 当 $x$ 遍历 $\mathbb R\backslash\left\{0\right\}$ 时, $\frac1x$ 遍历 $\mathbb R\backslash\left\{0\right\}$. 而 $\sin t$ 在 $t\in\mathbb R$ 上的值域为 $\left[-1,1\right]$, 去掉一个点 $t=0$ (对应 $\sin0=0$) 不影响值域 ($0$ 仍可取到, 如 $t=\pi$). 故 $f\left(X\right)=\left[-1,1\right]$.
 
@@ -124,7 +112,7 @@ $\blacksquare$
 
 ### 解答 1.2-10
 
-由**基础知识: 周期函数的定义**, 只需验证 $y\left(x+\pi\right)=y\left(x\right)$. 因
+由周期函数的定义, 只需验证 $y\left(x+\pi\right)=y\left(x\right)$. 因
 
 $$
 \sin^2\left(x+\pi\right)=\left(\sin\left(x+\pi\right)\right)^2=\left(-\sin x\right)^2=\sin^2 x,
@@ -142,7 +130,7 @@ $$
 \left[\frac43\sin^2\left(x+\pi\right)\right]=\left[\frac43\sin^2 x\right].
 $$
 
-即 $y\left(x+\pi\right)=y\left(x\right)$. 由**基础知识: 周期函数的定义**, $\pi$ 是 $y$ 的一个周期. $\blacksquare$
+即 $y\left(x+\pi\right)=y\left(x\right)$. 由周期函数的定义, $\pi$ 是 $y$ 的一个周期. $\blacksquare$
 
 ---
 
@@ -158,7 +146,7 @@ $$
 
 ### 解答 1.2-11
 
-先求 $f\left(g\left(x\right)\right)$. 由**基础知识: 复合函数的定义**:
+先求 $f\left(g\left(x\right)\right)$. 由复合函数的定义:
 
 - 当 $x\le0$ 时, $g\left(x\right)=x\le0$, 故 $f\left(g\left(x\right)\right)=f\left(x\right)=e^x$;
 - 当 $x> 0$ 时, $g\left(x\right)=-x^2< 0$, 故

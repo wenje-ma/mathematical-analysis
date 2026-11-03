@@ -1,13 +1,5 @@
 # week7
 
-> **Basic Knowledge: Definition of Continuous Function**
-> 
-> Let $y=f\left(x\right)$ be defined on $\left(a,b\right)$. If $\lim_{x\to x_0}f\left(x\right)=f\left(x_0\right)$ at some $x_0\in\left(a,b\right)$, then $f$ is continuous at $x_0$. If continuous at every point, it is continuous on $\left(a,b\right)$.
-
-> **Basic Knowledge: Continuity of Elementary Functions**
-> 
-> Elementary functions are continuous on their domains.
-
 > **Proposition 1.7 (Triangle Inequality)**
 > 
 > For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
@@ -62,7 +54,7 @@ Prove by $\varepsilon$-$\delta$ language: if $y=f\left(x\right)$ is continuous a
 
 ### Solution 1.7-2-2
 
-By **Basic Knowledge: Definition of Continuous Function**, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-a\right|< \delta$ implies $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. By **Proposition 1.7 (Triangle Inequality)**,
+By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-a\right|< \delta$ implies $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. By **Proposition 1.7 (Triangle Inequality)**,
 
 $$
 \left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
@@ -116,7 +108,7 @@ $$
 
 ### Solution 1.7-4
 
-Let $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By **Basic Knowledge: Definition of Continuous Function**, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-c\right|< \delta$ implies $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. Since $g\left(t\right)\to c$, there exists $T> 0$ such that $t> T$ implies $\left|g\left(t\right)-c\right|< \delta$. Thus for $t> T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$, i.e. $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+Let $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-c\right|< \delta$ implies $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. Since $g\left(t\right)\to c$, there exists $T> 0$ such that $t> T$ implies $\left|g\left(t\right)-c\right|< \delta$. Thus for $t> T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$, i.e. $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ---
 

@@ -1,9 +1,5 @@
 # week25
 
-> **基础知识: 一致连续的定义**
-> 
-> 设 $y=f\left(x\right)$ 在区间 $X$ 上有定义. 如果对任意 $\varepsilon> 0$, 存在 $\delta> 0$, 使得 $X$ 中任意两点 $x_1,x_2$, 只要 $\left|x_1-x_2\right|< \delta$, 就有 $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$, 则称 $f$ 在 $X$ 上一致连续.
-
 > **定理 1.3 (拉格朗日中值定理)**
 > 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
@@ -68,7 +64,7 @@ $$
 \left|\sin x_1-\sin x_2\right|=\left|\cos\xi\right|\cdot\left|x_1-x_2\right|\le\left|x_1-x_2\right|.
 $$
 
-对任意 $\varepsilon> 0$, 取 $\delta=\varepsilon$. 由**基础知识: 一致连续的定义**, $\sin x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
+对任意 $\varepsilon> 0$, 取 $\delta=\varepsilon$. 由一致连续的定义, $\sin x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
 
 ---
 
@@ -78,7 +74,7 @@ $$
 
 ### 解答 5.3-6
 
-由**定理 1.3 (拉格朗日中值定理)**, $\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|$. 取 $\delta=\varepsilon$. 由**基础知识: 一致连续的定义**, $\cos x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
+由**定理 1.3 (拉格朗日中值定理)**, $\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|$. 取 $\delta=\varepsilon$. 由一致连续的定义, $\cos x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
 
 ---
 
@@ -94,7 +90,7 @@ $$
 \left|f\left(x_1\right)-f\left(x_2\right)\right|\le\left|\sin3x_1-\sin3x_2\right|+5\left|x_1-x_2\right|\le3\left|x_1-x_2\right|+5\left|x_1-x_2\right|=8\left|x_1-x_2\right|.
 $$
 
-取 $\delta=\frac\varepsilon8$. 由**基础知识: 一致连续的定义**, $f$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
+取 $\delta=\frac\varepsilon8$. 由一致连续的定义, $f$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
 
 ---
 
@@ -108,7 +104,7 @@ $$
 
 ### 解答 5.3-8
 
-(1) 对任意 $\varepsilon> 0$, 取 $\delta=\left(\frac\varepsilon H\right)^{1/\alpha}$. 则 $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le H\delta^\alpha=\varepsilon$. 由**基础知识: 一致连续的定义**, $f$ 一致连续.
+(1) 对任意 $\varepsilon> 0$, 取 $\delta=\left(\frac\varepsilon H\right)^{1/\alpha}$. 则 $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le H\delta^\alpha=\varepsilon$. 由一致连续的定义, $f$ 一致连续.
 
 (2) 设 $\left|f'\left(x\right)\right|\le M$. 由**定理 1.3 (拉格朗日中值定理)**,
 

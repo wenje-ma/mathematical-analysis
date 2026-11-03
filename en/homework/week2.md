@@ -1,17 +1,5 @@
 # week2
 
-> **Basic Knowledge: Definition of a Function**
-> 
-> Let $x$ and $y$ be two variables taking values in sets $X$ and $Y$ respectively. If there is a rule $f$ such that to each $x\in X$ there corresponds a unique $y\in Y$, then $f$ is called a function, denoted $f:X\to Y$; $X$ is called the domain of $f$. The set of all function values attainable in $Y$ is called the range of $f$, denoted $f\left(X\right)$.
-
-> **Basic Knowledge: Definition of a Composite Function**
-> 
-> Suppose there are two functions $f:X\to Y$ and $g:Y^*\to Z$ with $Y\subset Y^*$. For each $x\in X$, there is a unique $y=f\left(x\right)\in Y$, and then $g$ gives $z=g\left(y\right)$. The correspondence $x\mapsto z$ from $X$ to $Z$, where $z=g\left(f\left(x\right)\right)$, is called the composite function of $f$ and $g$.
-
-> **Basic Knowledge: Definition of a Periodic Function**
-> 
-> Let $y=f\left(x\right)$ be defined on $\mathbb R$. If there exists a number $T\ne 0$ such that $f\left(x+T\right)=f\left(x\right)$ for all $x\in\mathbb R$, then $y=f\left(x\right)$ is called a periodic function, and $T$ is called a period of $f$.
-
 > **Proposition 2.1 (Necessary and Sufficient Condition for a Bounded Function)**
 > 
 > A function $f:X\to Y$ is bounded if and only if there exists $M> 0$ such that $\left|f\left(x\right)\right|\le M$ for all $x\in X$.
@@ -78,7 +66,7 @@ $$
 
 ### Solution 1.2-2
 
-(1) When $x\in\left(0,5\right)$, $x^2\in\left(0,25\right)$, so $1+x^2\in\left(1,26\right)$, and thus $\sqrt{1+x^2}\in\left(1,\sqrt{26}\right)$. By **Basic Knowledge: Definition of a Function**, $f\left(X\right)=\left(1,\sqrt{26}\right)$.
+(1) When $x\in\left(0,5\right)$, $x^2\in\left(0,25\right)$, so $1+x^2\in\left(1,26\right)$, and thus $\sqrt{1+x^2}\in\left(1,\sqrt{26}\right)$. By Definition of a Function, $f\left(X\right)=\left(1,\sqrt{26}\right)$.
 
 (2) As $x$ ranges over $\mathbb R\backslash\left\{0\right\}$, $\frac1x$ ranges over $\mathbb R\backslash\left\{0\right\}$. The range of $\sin t$ over $t\in\mathbb R$ is $\left[-1,1\right]$; removing one point $t=0$ (where $\sin0=0$) does not change the range ($0$ is still attainable, e.g. at $t=\pi$). Hence $f\left(X\right)=\left[-1,1\right]$.
 
@@ -124,7 +112,7 @@ Consider the function $y=\left[\frac43\sin^2 x\right]$, where $\left[\ \right]$ 
 
 ### Solution 1.2-10
 
-By **Basic Knowledge: Definition of a Periodic Function**, it suffices to verify $y\left(x+\pi\right)=y\left(x\right)$. Since
+By Definition of a Periodic Function, it suffices to verify $y\left(x+\pi\right)=y\left(x\right)$. Since
 
 $$
 \sin^2\left(x+\pi\right)=\left(\sin\left(x+\pi\right)\right)^2=\left(-\sin x\right)^2=\sin^2 x,
@@ -142,7 +130,7 @@ $$
 \left[\frac43\sin^2\left(x+\pi\right)\right]=\left[\frac43\sin^2 x\right].
 $$
 
-That is, $y\left(x+\pi\right)=y\left(x\right)$. By **Basic Knowledge: Definition of a Periodic Function**, $\pi$ is a period of $y$. $\blacksquare$
+That is, $y\left(x+\pi\right)=y\left(x\right)$. By Definition of a Periodic Function, $\pi$ is a period of $y$. $\blacksquare$
 
 ---
 
@@ -158,7 +146,7 @@ Find the piecewise expressions for $f\left(g\left(x\right)\right)$ and $g\left(f
 
 ### Solution 1.2-11
 
-First find $f\left(g\left(x\right)\right)$. By **Basic Knowledge: Definition of a Composite Function**:
+First find $f\left(g\left(x\right)\right)$. By Definition of a Composite Function:
 
 - When $x\le0$, $g\left(x\right)=x\le0$, so $f\left(g\left(x\right)\right)=f\left(x\right)=e^x$;
 - When $x> 0$, $g\left(x\right)=-x^2< 0$, so

@@ -1,17 +1,5 @@
 # week1
 
-> **Basic Knowledge: The Concept of a Field**
-> 
-> Roughly speaking, if a set of numbers is closed under addition, subtraction, multiplication, and division (divisor nonzero), and satisfies the commutative, associative, and distributive laws, then it is called a field.
-
-> **Basic Knowledge: The Concept of Completeness**
-> 
-> An ordered number field is called complete (or continuous) if it satisfies the following requirement: for any monotone increasing bounded sequence $\left\{x_n\right\}$, there exists a number $a$ in the field such that $x_n$ can approach $a$ arbitrarily closely.
-
-> **Basic Knowledge: The Concept of Bounded Sets**
-> 
-> Let $E\subset\mathbb R$. If there exists $M$ such that $x\le M$ for all $x\in E$, then $E$ is said to be bounded above; if there exists $m$ such that $x\ge m$ for all $x\in E$, then $E$ is said to be bounded below; a set that is both bounded above and bounded below is called a bounded set.
-
 > **Proposition 1.3 ($\sqrt2$ Is Irrational)**
 > 
 > $\sqrt2$ is not a rational number.
@@ -70,11 +58,11 @@ $$
 \frac{m_1+n_1\sqrt2}{m_2+n_2\sqrt2}=\frac{m_1m_2-2n_1n_2}{m_2^2-2n_2^2}+\frac{n_1m_2-m_1n_2}{m_2^2-2n_2^2}\sqrt2\in E,
 $$
 
-where $m_2^2-2n_2^2\ne0$ (otherwise $\sqrt2=m_2/n_2\in\mathbb Q$, contradicting **Proposition 1.3 ($\sqrt2$ Is Irrational)**). These operations clearly satisfy the commutative, associative, and distributive laws; hence by **Basic Knowledge: The Concept of a Field**, $E$ is a number field.
+where $m_2^2-2n_2^2\ne0$ (otherwise $\sqrt2=m_2/n_2\in\mathbb Q$, contradicting **Proposition 1.3 ($\sqrt2$ Is Irrational)**). These operations clearly satisfy the commutative, associative, and distributive laws; hence by The Concept of a Field, $E$ is a number field.
 
 (2) $E$ is not complete. Indeed, $\sqrt3\notin E$: if $\sqrt3=m+n\sqrt2$, squaring gives $3=m^2+2n^2+2mn\sqrt2$. If $mn\ne0$, then $\sqrt2=\frac{3-m^2-2n^2}{2mn}\in\mathbb Q$, a contradiction; if $n=0$, then $\sqrt3=m\in\mathbb Q$, a contradiction; if $m=0$, then $\sqrt3=n\sqrt2$, and squaring gives $n^2=\frac32\notin\mathbb Q$, a contradiction. Hence $\sqrt3\notin E$.
 
-Take the $n$-digit truncation $x_n$ of $\sqrt3$. Then $x_n\in\mathbb Q\subset E$ (taking $m=x_n$, $n=0$), and $\left\{x_n\right\}$ is monotone increasing and bounded above (e.g. $x_n< 2$), but $\left\{x_n\right\}$ approaches $\sqrt3\notin E$. Thus by **Basic Knowledge: The Concept of Completeness**, $E$ is not complete. $\blacksquare$
+Take the $n$-digit truncation $x_n$ of $\sqrt3$. Then $x_n\in\mathbb Q\subset E$ (taking $m=x_n$, $n=0$), and $\left\{x_n\right\}$ is monotone increasing and bounded above (e.g. $x_n< 2$), but $\left\{x_n\right\}$ approaches $\sqrt3\notin E$. Thus by The Concept of Completeness, $E$ is not complete. $\blacksquare$
 
 ---
 
@@ -200,9 +188,9 @@ $$
 
 ### Solution 1.1-11
 
-(1) $E=\left\{e,e^2,e^3,\dots\right\}$. Since $e^n\ge e$, $E$ is bounded below (e.g. $m=e$); since $e^n$ grows without bound as $n$ increases, $E$ is not bounded above. By **Basic Knowledge: The Concept of Bounded Sets**, $E$ is bounded below but not above, and is not a bounded set.
+(1) $E=\left\{e,e^2,e^3,\dots\right\}$. Since $e^n\ge e$, $E$ is bounded below (e.g. $m=e$); since $e^n$ grows without bound as $n$ increases, $E$ is not bounded above. By The Concept of Bounded Sets, $E$ is bounded below but not above, and is not a bounded set.
 
-(2) For $n\in\mathbb N$, $\frac{n^2+10^{10}}{n^2+1}=1+\frac{10^{10}-1}{n^2+1}$. Since $n^2+1\ge1$, $1< \frac{n^2+10^{10}}{n^2+1}\le10^{10}$, i.e. $E\subset\left(1,10^{10}\right]$. Thus $E$ is both bounded above and below; by **Basic Knowledge: The Concept of Bounded Sets**, $E$ is a bounded set.
+(2) For $n\in\mathbb N$, $\frac{n^2+10^{10}}{n^2+1}=1+\frac{10^{10}-1}{n^2+1}$. Since $n^2+1\ge1$, $1< \frac{n^2+10^{10}}{n^2+1}\le10^{10}$, i.e. $E\subset\left(1,10^{10}\right]$. Thus $E$ is both bounded above and below; by The Concept of Bounded Sets, $E$ is a bounded set.
 
 (3) For $x\ge1$, rationalizing gives
 

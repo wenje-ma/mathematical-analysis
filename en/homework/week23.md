@@ -1,13 +1,5 @@
 # week23
 
-> **Basic Knowledge: Definition of Supremum and Infimum**
-> 
-> If $\beta$ is an upper bound of $E$ and for every $\varepsilon> 0$ there exists $x_0\in E$ with $x_0> \beta-\varepsilon$, then $\beta=\sup E$. Similarly for $\inf E$.
-
-> **Basic Knowledge: Definition of Oscillation**
-> 
-> $\omega_f\left(I\right)=\sup\left\{f\left(x\right):x\in I\right\}-\inf\left\{f\left(x\right):x\in I\right\}$.
-
 > **Theorem 1.3 (Necessary and Sufficient Condition for Continuity)**
 > 
 > $f$ is continuous at $x_0$ iff $\omega_f\left(x_0\right)=0$.
@@ -24,7 +16,7 @@ Prove:
 
 ### Solution 5.1-4
 
-(1) Since $f\left(x\right)\le\sup f$ and $g\left(x\right)\le\sup g$, their sum is bounded above by $\sup f+\sup g$. By **Basic Knowledge: Definition of Supremum and Infimum**, $\sup\left\{f+g\right\}\le\sup f+\sup g$.
+(1) Since $f\left(x\right)\le\sup f$ and $g\left(x\right)\le\sup g$, their sum is bounded above by $\sup f+\sup g$. By Definition of Supremum and Infimum, $\sup\left\{f+g\right\}\le\sup f+\sup g$.
 
 (2) Similarly, $\inf\left\{f+g\right\}\ge\inf f+\inf g$. $\blacksquare$
 

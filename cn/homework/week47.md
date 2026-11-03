@@ -1,17 +1,5 @@
 # week47
 
-> **基础知识: 瑕积分收敛的定义**
-> 
-> 若 $\lim_{\eta\to0+}\int_{a+\eta}^b f\left(x\right)\mathrm dx$ 存在, 则称瑕积分 $\int_a^b f\left(x\right)\mathrm dx$ 收敛, 否则发散.
-
-> **基础知识: 绝对收敛与条件收敛的定义**
-> 
-> 若 $\int_a^b\left|f\left(x\right)\right|\mathrm dx$ 收敛则称绝对收敛; 若 $\int_a^b f\left(x\right)\mathrm dx$ 收敛而 $\int_a^b\left|f\left(x\right)\right|\mathrm dx$ 发散则称条件收敛.
-
-> **基础知识: 柯西主值的定义**
-> 
-> 若 $\lim_{\eta\to0+}\left[\int_a^{c-\eta}f\left(x\right)\mathrm dx+\int_{c+\eta}^b f\left(x\right)\mathrm dx\right]$ 存在, 则称该瑕积分在柯西主值意义下收敛.
-
 > **例 2.2 (瑕 p-积分)**
 > 
 > $\int_a^b\frac{\mathrm dx}{\left(x-a\right)^p}$ 当 $p< 1$ 时收敛, 当 $p\ge1$ 时发散.
@@ -24,7 +12,7 @@
 
 ### 解答 12.2-1-1
 
-分部积分得 $-1-\eta\ln\eta+\eta\to-1$. 由**基础知识: 瑕积分收敛的定义**, 收敛且值为 $-1$. $\blacksquare$
+分部积分得 $-1-\eta\ln\eta+\eta\to-1$. 由瑕积分收敛的定义, 收敛且值为 $-1$. $\blacksquare$
 
 ---
 
@@ -94,7 +82,7 @@ $x=0$ 端收敛当且仅当 $\min\left(p,q\right)< 1$; $+\infty$ 端收敛当且
 
 ### 解答 12.2-3
 
-由 $2\left|f\right|\le1+f^2$, 得 $\left|f\right|\le\frac12+\frac{f^2}2$. 由**基础知识: 绝对收敛与条件收敛的定义**, 绝对收敛. 反之不然, 反例 $f\left(x\right)=\frac1{\sqrt x}$. $\blacksquare$
+由 $2\left|f\right|\le1+f^2$, 得 $\left|f\right|\le\frac12+\frac{f^2}2$. 由绝对收敛与条件收敛的定义, 绝对收敛. 反之不然, 反例 $f\left(x\right)=\frac1{\sqrt x}$. $\blacksquare$
 
 ---
 
@@ -104,7 +92,7 @@ $x=0$ 端收敛当且仅当 $\min\left(p,q\right)< 1$; $+\infty$ 端收敛当且
 
 ### 解答 12.2-4-1
 
-由**基础知识: 柯西主值的定义**, $\mathrm{CPV}=\lim_{\eta\to0+}\left(\ln\eta-\ln1+\ln1-\ln\eta\right)=0$. 收敛且主值为 $0$. $\blacksquare$
+由柯西主值的定义, $\mathrm{CPV}=\lim_{\eta\to0+}\left(\ln\eta-\ln1+\ln1-\ln\eta\right)=0$. 收敛且主值为 $0$. $\blacksquare$
 
 ---
 
@@ -114,4 +102,4 @@ $x=0$ 端收敛当且仅当 $\min\left(p,q\right)< 1$; $+\infty$ 端收敛当且
 
 ### 解答 12.2-4-2
 
-由**基础知识: 柯西主值的定义**, 主值 $=\lim_{\eta\to0+}\ln\frac{-\ln\left(1-\eta\right)}{\ln\left(1+\eta\right)}=\ln1=0$. 收敛且主值为 $0$. $\blacksquare$
+由柯西主值的定义, 主值 $=\lim_{\eta\to0+}\ln\frac{-\ln\left(1-\eta\right)}{\ln\left(1+\eta\right)}=\ln1=0$. 收敛且主值为 $0$. $\blacksquare$

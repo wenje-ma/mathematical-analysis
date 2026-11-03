@@ -1,17 +1,5 @@
 # week5
 
-> **Basic Knowledge: Definition of Function Limit**
-> 
-> Let $y=f\left(x\right)$ be defined in a punctured neighborhood $\left(a-r,a+r\right)\backslash\left\{a\right\}$ of $a$. If there exists $l\in\mathbb R$ such that for every $\varepsilon> 0$ there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \varepsilon$, then $f\left(x\right)$ is said to have limit $l$ as $x\to a$, denoted $\lim_{x\to a}f\left(x\right)=l$.
-
-> **Basic Knowledge: Definition of One-Sided Limits**
-> 
-> If $f\left(x\right)$ has limit $l$ as $x\to a+0$ (resp. $x\to a-0$), it is called the right (resp. left) limit, denoted $\lim_{x\to a+0}f\left(x\right)=l$ (resp. $\lim_{x\to a-0}f\left(x\right)=l$).
-
-> **Basic Knowledge: Sign Preservation of Limits**
-> 
-> If $\lim_{x\to a}f\left(x\right)=l$ and $l\ne0$, then there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
-
 > **Proposition 1.7 (Triangle Inequality)**
 > 
 > For any real $a,b,c$: (1) $\left|a-b\right|\ge0$, equality iff $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
@@ -42,7 +30,7 @@ $$
 \left|\cos x-\cos a\right|\le\left|x-a\right|< \varepsilon.
 $$
 
-By **Basic Knowledge: Definition of Function Limit**, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
+By Definition of Function Limit, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
 
 ---
 
@@ -62,7 +50,7 @@ $$
 \left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}< \varepsilon.
 $$
 
-By the $x\to+\infty$ version of **Basic Knowledge: Definition of Function Limit**, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
+By the $x\to+\infty$ version of Definition of Function Limit, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
 ---
 
@@ -78,7 +66,7 @@ $$
 0< 2-x< \delta\Rightarrow x> \sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}< \varepsilon.
 $$
 
-By **Basic Knowledge: Definition of One-Sided Limits**, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
+By Definition of One-Sided Limits, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
 
 ---
 
@@ -96,7 +84,7 @@ $$
 \delta=\min\left\{-\log_a\left(1-\varepsilon\right),\log_a\left(1+\varepsilon\right)\right\}> 0,
 $$
 
-then for $0< \left|x\right|< \delta$, $\left|a^x-1\right|< \varepsilon$. By **Basic Knowledge: Definition of Function Limit**, $\lim_{x\to0}a^x=1$. $\blacksquare$
+then for $0< \left|x\right|< \delta$, $\left|a^x-1\right|< \varepsilon$. By Definition of Function Limit, $\lim_{x\to0}a^x=1$. $\blacksquare$
 
 ---
 
@@ -106,13 +94,13 @@ Let $\lim_{x\to a}f\left(x\right)=l$ and $l\ne0$. Prove that $y=\frac1{f\left(x\
 
 ### Solution 1.5-4
 
-Take $\varepsilon=\frac{\left|l\right|}{2}$. By **Basic Knowledge: Definition of Function Limit**, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac{\left|l\right|}{2}$. By **Proposition 1.7 (Triangle Inequality)**,
+Take $\varepsilon=\frac{\left|l\right|}{2}$. By Definition of Function Limit, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac{\left|l\right|}{2}$. By **Proposition 1.7 (Triangle Inequality)**,
 
 $$
 \left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|> \left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
 $$
 
-Hence $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, i.e. $\frac1{f\left(x\right)}$ is bounded as $x\to a$. This is a corollary of **Basic Knowledge: Sign Preservation of Limits**. $\blacksquare$
+Hence $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, i.e. $\frac1{f\left(x\right)}$ is bounded as $x\to a$. This is a corollary of Sign Preservation of Limits. $\blacksquare$
 
 ---
 
@@ -122,7 +110,7 @@ Let $\lim_{x\to2}f\left(x\right)=l$. Prove that $f\left(y^2\right)\to l$ as $y\t
 
 ### Solution 1.5-5
 
-Given $\varepsilon> 0$, by **Basic Knowledge: Definition of Function Limit**, there exists $\delta_1> 0$ such that $0< \left|x-2\right|< \delta_1$ implies $\left|f\left(x\right)-l\right|< \varepsilon$. Setting $x=y^2$, we need $0< \left|y^2-2\right|< \delta_1$.
+Given $\varepsilon> 0$, by Definition of Function Limit, there exists $\delta_1> 0$ such that $0< \left|x-2\right|< \delta_1$ implies $\left|f\left(x\right)-l\right|< \varepsilon$. Setting $x=y^2$, we need $0< \left|y^2-2\right|< \delta_1$.
 
 Since $y\to\sqrt2$, restrict to $\left|y-\sqrt2\right|< 1$, so $\left|y+\sqrt2\right|\le2\sqrt2+1$. Take $\delta=\min\left\{1,\frac{\delta_1}{2\sqrt2+1}\right\}$. Then for $0< \left|y-\sqrt2\right|< \delta$,
 
@@ -130,7 +118,7 @@ $$
 \left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|< \delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
 $$
 
-and $y^2\ne2$ (since $y\to\sqrt2$ with $y\ne\sqrt2$). Hence $\left|f\left(y^2\right)-l\right|< \varepsilon$. By **Basic Knowledge: Definition of Function Limit**, $f\left(y^2\right)\to l$. $\blacksquare$
+and $y^2\ne2$ (since $y\to\sqrt2$ with $y\ne\sqrt2$). Hence $\left|f\left(y^2\right)-l\right|< \varepsilon$. By Definition of Function Limit, $f\left(y^2\right)\to l$. $\blacksquare$
 
 ---
 

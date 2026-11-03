@@ -1,13 +1,5 @@
 # week46
 
-> **Basic Knowledge: Definition of Improper Integral Convergence**
-> 
-> $\int_a^{+\infty}f\left(x\right)\mathrm dx$ converges if $\lim_{A\to+\infty}\int_a^A f\left(x\right)\mathrm dx$ exists.
-
-> **Basic Knowledge: Absolute and Conditional Convergence**
-> 
-> Converges absolutely if $\int\left|f\right|$ converges; converges conditionally if $\int f$ converges but $\int\left|f\right|$ diverges.
-
 > **Theorem 1.1 (Cauchy Criterion)**
 > 
 > The integral converges iff for every $\varepsilon> 0$, there exists $X$ such that $\left|\int_{A'}^{A''}f\right|< \varepsilon$ for $A',A''> X$.

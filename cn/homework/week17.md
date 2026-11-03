@@ -1,9 +1,5 @@
 # week17
 
-> **基础知识: 凸函数与凹函数的定义**
-> 
-> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中有定义. 若对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 有 $f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)$, 则称 $f$ 为凸函数. 若不等式反向, 则称 $f$ 为凹函数.
-
 > **定理 1.3 (拉格朗日中值定理)**
 > 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在点 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
@@ -44,7 +40,7 @@
 
 ### 解答 3.5-2
 
-(1) 令 $f\left(x\right)=\arctan x$. 则 $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}$. 当 $x> 0$ 时 $f''\left(x\right)< 0$, 故 $f$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由**基础知识: 凸函数与凹函数的定义**, 取 $t=\frac12$, 得
+(1) 令 $f\left(x\right)=\arctan x$. 则 $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}$. 当 $x> 0$ 时 $f''\left(x\right)< 0$, 故 $f$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由凸函数与凹函数的定义, 取 $t=\frac12$, 得
 
 $$
 f\left(\frac{a+b}2\right)\ge\frac{f\left(a\right)+f\left(b\right)}2,
@@ -52,7 +48,7 @@ $$
 
 即 $2\arctan\frac{a+b}2\ge\arctan a+\arctan b$.
 
-(2) 由 $f\left(x\right)=\ln x$ 为凹函数 ($f''\left(x\right)=-\frac1{x^2}< 0$), 由**基础知识: 凸函数与凹函数的定义**,
+(2) 由 $f\left(x\right)=\ln x$ 为凹函数 ($f''\left(x\right)=-\frac1{x^2}< 0$), 由凸函数与凹函数的定义,
 
 $$
 \alpha\ln a+\beta\ln b+\gamma\ln c\le\ln\left(\alpha a+\beta b+\gamma c\right).

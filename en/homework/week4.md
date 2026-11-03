@@ -1,13 +1,5 @@
 # week4
 
-> **Basic Knowledge: The Important Limit $e$**
-> 
-> $\lim_{n\to\infty}\left(1+\frac1n\right)^n=e$, where $e$ is irrational and $2< e< 3$.
-
-> **Basic Knowledge: Definition of Infinitesimal**
-> 
-> A variable whose limit is $0$ is called an infinitesimal.
-
 > **Theorem 3.1 (Arithmetic of Limits)**
 > 
 > If $\left\{a_n\right\}$ and $\left\{b_n\right\}$ have limits $l_1$ and $l_2$ respectively, then $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
@@ -46,7 +38,7 @@ $$
 \left(1+\frac1{n+1}\right)^{n-1}=\left[\left(1+\frac1{n+1}\right)^{n+1}\right]^{\frac{n-1}{n+1}}.
 $$
 
-By **Basic Knowledge: The Important Limit $e$** and **Theorem 3.1 (Arithmetic of Limits)**, the base tends to $e$ and the exponent $\frac{n-1}{n+1}\to1$, so the limit is $e$.
+By The Important Limit $e$ and **Theorem 3.1 (Arithmetic of Limits)**, the base tends to $e$ and the exponent $\frac{n-1}{n+1}\to1$, so the limit is $e$.
 
 (2)
 
@@ -68,7 +60,7 @@ $$
 \left(1+\frac3{3n+1}\right)^n=\left[\left(1+\frac3{3n+1}\right)^{\frac{3n+1}{3}}\right]^{\frac{3n}{3n+1}}.
 $$
 
-By **Basic Knowledge: The Important Limit $e$**, the base tends to $e$ and the exponent $\frac{3n}{3n+1}\to1$, so the limit is $e$.
+By The Important Limit $e$, the base tends to $e$ and the exponent $\frac{3n}{3n+1}\to1$, so the limit is $e$.
 
 (4)
 
@@ -76,7 +68,7 @@ $$
 \left(\frac{n+3}{n+1}\right)^{n+1}=\left(1+\frac2{n+1}\right)^{n+1}=\left[\left(1+\frac2{n+1}\right)^{\frac{n+1}{2}}\right]^2.
 $$
 
-By **Basic Knowledge: The Important Limit $e$**, the base tends to $e$, so the limit is $e^2$. $\blacksquare$
+By The Important Limit $e$, the base tends to $e$, so the limit is $e^2$. $\blacksquare$
 
 ---
 
@@ -168,7 +160,7 @@ $$
 
 ### Solution 1.4-5
 
-By 1.4-4, $\left(1+\frac1n\right)^n$ is strictly increasing and its limit is $e$ by **Basic Knowledge: The Important Limit $e$**, so for all $n$,
+By 1.4-4, $\left(1+\frac1n\right)^n$ is strictly increasing and its limit is $e$ by The Important Limit $e$, so for all $n$,
 
 $$
 \left(1+\frac1n\right)^n< e.
@@ -238,7 +230,7 @@ $$
 \left(1+\frac1n\right)^n> 1+1+\sum_{k=2}^m\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
 $$
 
-Letting $n\to\infty$, by **Basic Knowledge: The Important Limit $e$** and **Theorem 3.1 (Arithmetic of Limits)**, the left side tends to $e$ and the right side to $1+1+\frac1{2!}+\cdots+\frac1{m!}$, so
+Letting $n\to\infty$, by The Important Limit $e$ and **Theorem 3.1 (Arithmetic of Limits)**, the left side tends to $e$ and the right side to $1+1+\frac1{2!}+\cdots+\frac1{m!}$, so
 
 $$
 e\ge1+1+\frac1{2!}+\cdots+\frac1{m!}.

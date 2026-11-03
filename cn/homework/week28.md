@@ -1,9 +1,5 @@
 # week28
 
-> **基础知识: 二重积分的基本性质**
-> 
-> (1) 积分对区域的可加性: 若 $D=D_1\cup D_2$ 互不重叠, 则 $\iint_D f=\iint_{D_1}f+\iint_{D_2}f$; (2) 积分保持不等号: 若 $f\le g$, 则 $\iint_D f\le\iint_D g$; (3) 积分中值定理: 若 $f$ 在 $D$ 上连续, 则存在 $\left(x_0,y_0\right)\in D$ 使 $\iint_D f=f\left(x_0,y_0\right)\cdot S$.
-
 > **命题 1.3 (可求面积的充要条件)**
 > 
 > $E$ 可求面积的充要条件是 $\partial E$ 为零面积集合. 特别地, 边界为逐段光滑曲线的有界区域可求面积.
@@ -50,7 +46,7 @@ $$
 
 ### 解答 8.1-4
 
-直线段 $\gamma$ 是逐段光滑曲线, 由**命题 1.3 (可求面积的充要条件)**, $\gamma$ 是零面积集合. 由**基础知识: 二重积分的基本性质** (可加性),
+直线段 $\gamma$ 是逐段光滑曲线, 由**命题 1.3 (可求面积的充要条件)**, $\gamma$ 是零面积集合. 由二重积分的基本性质 (可加性),
 
 $$
 \iint_D f=\iint_{D\setminus\gamma}f+\iint_\gamma f=\iint_{D\setminus\gamma}f.
@@ -76,7 +72,7 @@ $$
 
 ### 解答 8.1-8
 
-因 $f$ 连续, 由**定理 1.5 (连续函数可积)**, $f$ 在 $D$ 上可积, 且有最大值 $M$ 与最小值 $m$. 由 $mg\le fg\le Mg$ 及**基础知识: 二重积分的基本性质** (比较性质),
+因 $f$ 连续, 由**定理 1.5 (连续函数可积)**, $f$ 在 $D$ 上可积, 且有最大值 $M$ 与最小值 $m$. 由 $mg\le fg\le Mg$ 及二重积分的基本性质 (比较性质),
 
 $$
 m\iint_D g\le\iint_D fg\le M\iint_D g.
@@ -92,7 +88,7 @@ $$
 
 ### 解答 8.1-9
 
-反设存在 $\left(x_0,y_0\right)$ 使 $f\left(x_0,y_0\right)> 0$. 由连续性, 在 $R_\delta$ 内 $f> \frac{f\left(x_0,y_0\right)}2$. 由**基础知识: 二重积分的基本性质** (比较性质),
+反设存在 $\left(x_0,y_0\right)$ 使 $f\left(x_0,y_0\right)> 0$. 由连续性, 在 $R_\delta$ 内 $f> \frac{f\left(x_0,y_0\right)}2$. 由二重积分的基本性质 (比较性质),
 
 $$
 \iint_D f\ge\iint_{R_\delta}f\ge\frac{f\left(x_0,y_0\right)}2\cdot\left|R_\delta\right|> 0,

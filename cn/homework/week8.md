@@ -1,9 +1,5 @@
 # week8
 
-> **基础知识: 区间套原理**
-> 
-> 设 $\left\{\left[a_n,b_n\right]\right\}$ 为一列闭区间, 满足 $\left[a_{n+1},b_{n+1}\right]\subset\left[a_n,b_n\right]$ 且 $b_n-a_n\to0$, 则存在唯一的实数 $l$ 属于所有区间.
-
 > **定理 8.1 (中间值定理)**
 > 
 > 设 $y=f\left(x\right)$ 在闭区间 $\left[a,b\right]$ 上连续, 且 $f\left(a\right)$ 与 $f\left(b\right)$ 反号, 则存在一点 $c\in\left(a,b\right)$ 使得 $f\left(c\right)=0$. 更一般地, $f$ 可取到 $f\left(a\right)$ 与 $f\left(b\right)$ 之间的一切值.
@@ -108,7 +104,7 @@ $$
 b_n-a_n=\frac{b-a}{2^n}\to0.
 $$
 
-由**基础知识: 区间套原理**, 存在唯一 $c\in\bigcap\left[a_n,b_n\right]$. 对任意 $\delta> 0$, 当 $n$ 充分大时 $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, 而 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点, 故 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中必有 $E$ 的点. $\blacksquare$
+由区间套原理, 存在唯一 $c\in\bigcap\left[a_n,b_n\right]$. 对任意 $\delta> 0$, 当 $n$ 充分大时 $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, 而 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点, 故 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中必有 $E$ 的点. $\blacksquare$
 
 ---
 
@@ -120,7 +116,7 @@ $$
 
 设 $E\subset\left[a,b\right]$, 其中 $b$ 为 $E$ 的一个上界. 将 $\left[a,b\right]$ 平分为两个闭区间. 若右半区间含 $E$ 的上界, 则取右半; 否则取左半 (此时左半右端点为新的上界). 如此继续, 得区间套 $\left\{\left[a_n,b_n\right]\right\}$, 每个 $b_n$ 为 $E$ 的上界, 每个 $a_n$ 不是 $E$ 的上界.
 
-由**基础知识: 区间套原理**, 存在唯一 $M_0\in\bigcap\left[a_n,b_n\right]$. 因 $b_n\to M_0$ 且 $b_n$ 为上界, 对任意 $x\in E$, $x\le b_n$, 令 $n\to\infty$ 得 $x\le M_0$, 即 $M_0$ 为上界. 又若 $M$ 为任一上界, 则 $M\ge a_n$ 对一切 $n$ (因 $a_n$ 不是上界, 存在 $x\in E$ 使 $x> a_n$, 而 $M\ge x$), 故 $M\ge M_0$. $\blacksquare$
+由区间套原理, 存在唯一 $M_0\in\bigcap\left[a_n,b_n\right]$. 因 $b_n\to M_0$ 且 $b_n$ 为上界, 对任意 $x\in E$, $x\le b_n$, 令 $n\to\infty$ 得 $x\le M_0$, 即 $M_0$ 为上界. 又若 $M$ 为任一上界, 则 $M\ge a_n$ 对一切 $n$ (因 $a_n$ 不是上界, 存在 $x\in E$ 使 $x> a_n$, 而 $M\ge x$), 故 $M\ge M_0$. $\blacksquare$
 
 ---
 

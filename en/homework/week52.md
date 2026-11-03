@@ -1,9 +1,5 @@
 # week52
 
-> **Basic Knowledge: Inner Product and Norm**
-> 
-> $\left\langle f,g\right\rangle=\frac1\pi\int_{-\pi}^\pi f\left(x\right)g\left(x\right)\mathrm dx$, $\left|f\right|=\sqrt{\left\langle f,f\right\rangle}$.
-
 > **Proposition (Orthogonality of Trigonometric System)**
 > 
 > $1,\cos x,\sin x,\cdots$ are pairwise orthogonal on $\left[-\pi,\pi\right]$, with $\int1=2\pi$, $\int\cos^2nx=\int\sin^2nx=\pi$.

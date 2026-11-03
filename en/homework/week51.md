@@ -1,13 +1,5 @@
 # week51
 
-> **Basic Knowledge: Gamma Function**
-> 
-> $\Gamma\left(\alpha\right)=\int_0^\infty t^{\alpha-1}e^{-t}\mathrm dt$. Recurrence: $\Gamma\left(\alpha+1\right)=\alpha\Gamma\left(\alpha\right)$, $\Gamma\left(\frac12\right)=\sqrt\pi$.
-
-> **Basic Knowledge: Beta Function**
-> 
-> $\Beta\left(p,q\right)=\int_0^1 t^{p-1}\left(1-t\right)^{q-1}\mathrm dt=\frac{\Gamma\left(p\right)\Gamma\left(q\right)}{\Gamma\left(p+q\right)}$.
-
 > **Proposition (Integral Forms)**
 > 
 > $\int_0^\infty\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.

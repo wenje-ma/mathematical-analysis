@@ -1,9 +1,5 @@
 # week3
 
-> **基础知识: 序列极限的定义**
-> 
-> 设 $\left\{a_n\right\}$ 是一个给定的序列. 若存在一个实数 $l$, 对于任意给定的正数 $\varepsilon$, 无论它多么小, 都存在一个自然数 $N$, 使得 $\left|a_n-l\right|< \varepsilon$, 只要 $n> N$, 则称 $a_n$ 以 $l$ 为极限, 记作 $\lim_{n\to\infty}a_n=l$.
-
 > **命题 1.6 (绝对值的性质)**
 > 
 > 对于任意的 $x,y\in\mathbb R$, 有: (1) $\left|x\right|\ge0$, 等号当且仅当 $x=0$ 时成立; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
@@ -38,7 +34,7 @@ $$
 \frac{2n-5}{3n+100}=\frac{2-5/n}{3+100/n}.
 $$
 
-当 $n\to\infty$ 时, $5/n\to0$, $100/n\to0$ (由**基础知识: 序列极限的定义**, 对任意 $\varepsilon> 0$, 取 $N> 5/\varepsilon$ 则 $\left|5/n\right|< \varepsilon$). 由**定理 3.1 (极限四则运算定理)**,
+当 $n\to\infty$ 时, $5/n\to0$, $100/n\to0$ (由序列极限的定义, 对任意 $\varepsilon> 0$, 取 $N> 5/\varepsilon$ 则 $\left|5/n\right|< \varepsilon$). 由**定理 3.1 (极限四则运算定理)**,
 
 $$
 \lim_{n\to\infty}\frac{2n-5}{3n+100}=\frac{\lim\left(2-5/n\right)}{\lim\left(3+100/n\right)}=\frac23.
@@ -66,7 +62,7 @@ $$
 \left|\frac{n!}{n^n}-0\right|\le\frac1n< \varepsilon.
 $$
 
-由**基础知识: 序列极限的定义**, $\lim_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
+由序列极限的定义, $\lim_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
 ---
 
@@ -108,7 +104,7 @@ $$
 0\le\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\le\frac{n}{n^{3/2}}=\frac1{\sqrt n}.
 $$
 
-任给 $\varepsilon> 0$, 取 $N=\left[1/\varepsilon^2\right]+1$, 则当 $n> N$ 时 $\frac1{\sqrt n}< \varepsilon$. 由**基础知识: 序列极限的定义**, 原式趋于 $0$. $\blacksquare$
+任给 $\varepsilon> 0$, 取 $N=\left[1/\varepsilon^2\right]+1$, 则当 $n> N$ 时 $\frac1{\sqrt n}< \varepsilon$. 由序列极限的定义, 原式趋于 $0$. $\blacksquare$
 
 ---
 
@@ -246,9 +242,9 @@ $$
 
 ### 解答 1.3-3
 
-(1) 任给 $\varepsilon> 0$, 由**基础知识: 序列极限的定义**, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n> N'$ 时 $n+k> N$, 从而 $\left|a_{n+k}-l\right|< \varepsilon$. 故 $\lim_{n\to\infty}a_{n+k}=l$.
+(1) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n> N'$ 时 $n+k> N$, 从而 $\left|a_{n+k}-l\right|< \varepsilon$. 故 $\lim_{n\to\infty}a_{n+k}=l$.
 
-(2) 任给 $\varepsilon> 0$, 由**基础知识: 序列极限的定义**, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n> N'$ 时 $2n> N$ 且 $2n-1> N$, 从而 $\left|a_{2n}-l\right|< \varepsilon$ 且 $\left|a_{2n-1}-l\right|< \varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
+(2) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n> N'$ 时 $2n> N$ 且 $2n-1> N$, 从而 $\left|a_{2n}-l\right|< \varepsilon$ 且 $\left|a_{2n-1}-l\right|< \varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
 
 ---
 
@@ -258,13 +254,13 @@ $$
 
 ### 解答 1.3-4
 
-由**命题 1.7 (三角不等式)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\varepsilon> 0$, 由**基础知识: 序列极限的定义**, 存在 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 于是当 $n> N$ 时
+由**命题 1.7 (三角不等式)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\varepsilon> 0$, 由序列极限的定义, 存在 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 于是当 $n> N$ 时
 
 $$
 \left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|< \varepsilon.
 $$
 
-由**基础知识: 序列极限的定义**, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
+由序列极限的定义, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
 
 ---
 

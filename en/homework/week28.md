@@ -1,9 +1,5 @@
 # week28
 
-> **Basic Knowledge: Properties of Double Integrals**
-> 
-> (1) Additivity over regions; (2) monotonicity: $f\le g\Rightarrow\iint_D f\le\iint_D g$; (3) Mean value theorem: $\iint_D f=f\left(x_0,y_0\right)\cdot S$.
-
 > **Proposition 1.3 (Necessary and Sufficient Condition for Measurable Area)**
 > 
 > $E$ is measurable iff $\partial E$ has zero area.

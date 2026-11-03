@@ -1,9 +1,5 @@
 # week8
 
-> **Basic Knowledge: Nested Interval Principle**
-> 
-> If $\left\{\left[a_n,b_n\right]\right\}$ is a sequence of closed intervals with $\left[a_{n+1},b_{n+1}\right]\subset\left[a_n,b_n\right]$ and $b_n-a_n\to0$, then there exists a unique real number $l$ belonging to all intervals.
-
 > **Theorem 8.1 (Intermediate Value Theorem)**
 > 
 > If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and $f\left(a\right)$ and $f\left(b\right)$ have opposite signs, then there exists $c\in\left(a,b\right)$ with $f\left(c\right)=0$. More generally, $f$ takes every value between $f\left(a\right)$ and $f\left(b\right)$.
@@ -108,7 +104,7 @@ $$
 b_n-a_n=\frac{b-a}{2^n}\to0.
 $$
 
-By **Basic Knowledge: Nested Interval Principle**, there exists a unique $c\in\bigcap\left[a_n,b_n\right]$. For any $\delta> 0$, for large $n$, $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$ and contains infinitely many points of $E$, so $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ contains points of $E$. $\blacksquare$
+By Nested Interval Principle, there exists a unique $c\in\bigcap\left[a_n,b_n\right]$. For any $\delta> 0$, for large $n$, $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$ and contains infinitely many points of $E$, so $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ contains points of $E$. $\blacksquare$
 
 ---
 
@@ -120,7 +116,7 @@ Let $E$ be a nonempty set in $\mathbb R$ bounded above. Prove that $E$ has a lea
 
 Let $E\subset\left[a,b\right]$ where $b$ is an upper bound. Split $\left[a,b\right]$ into two halves. If the right half contains an upper bound, take it; otherwise take the left half (its right endpoint is then a new upper bound). Continuing gives a nested sequence $\left\{\left[a_n,b_n\right]\right\}$ where each $b_n$ is an upper bound and each $a_n$ is not.
 
-By **Basic Knowledge: Nested Interval Principle**, there exists a unique $M_0\in\bigcap\left[a_n,b_n\right]$. Since $b_n\to M_0$ and each $b_n$ is an upper bound, for any $x\in E$, $x\le b_n$; letting $n\to\infty$ gives $x\le M_0$, so $M_0$ is an upper bound. If $M$ is any upper bound, then $M\ge a_n$ for all $n$ (since $a_n$ is not an upper bound, there is $x\in E$ with $x> a_n$, and $M\ge x$), so $M\ge M_0$. $\blacksquare$
+By Nested Interval Principle, there exists a unique $M_0\in\bigcap\left[a_n,b_n\right]$. Since $b_n\to M_0$ and each $b_n$ is an upper bound, for any $x\in E$, $x\le b_n$; letting $n\to\infty$ gives $x\le M_0$, so $M_0$ is an upper bound. If $M$ is any upper bound, then $M\ge a_n$ for all $n$ (since $a_n$ is not an upper bound, there is $x\in E$ with $x> a_n$, and $M\ge x$), so $M\ge M_0$. $\blacksquare$
 
 ---
 

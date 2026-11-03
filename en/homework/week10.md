@@ -1,13 +1,5 @@
 # week10
 
-> **Basic Knowledge: Definition of Differential**
-> 
-> Let $y=f\left(x\right)$ be defined near $x_0$. If there exists a constant $A$ such that $\Delta y=A\Delta x+o\left(\Delta x\right)$, then $f$ is differentiable at $x_0$, $\mathrm dy=A\Delta x$ is the differential, and $A=f'\left(x_0\right)$.
-
-> **Basic Knowledge: Definition of Higher-Order Infinitesimal**
-> 
-> If $\lim_{x\to0}\frac{\alpha\left(x\right)}{\beta\left(x\right)}=0$, then $\alpha\left(x\right)=o\left(\beta\left(x\right)\right)$.
-
 ---
 
 ## 2.3-1-2
@@ -20,7 +12,7 @@ $$
 \sqrt{2+x}-\sqrt2=\frac{x}{\sqrt{2+x}+\sqrt2}\sim\frac{x}{2\sqrt2}.
 $$
 
-Thus $y\sim\frac{x^2}{2\sqrt2}$; by **Basic Knowledge: Definition of Higher-Order Infinitesimal**, $y$ is a second-order infinitesimal in $x$. $\blacksquare$
+Thus $y\sim\frac{x^2}{2\sqrt2}$; by Definition of Higher-Order Infinitesimal, $y$ is a second-order infinitesimal in $x$. $\blacksquare$
 
 ---
 
@@ -30,7 +22,7 @@ As $x\to0$, determine the order of the infinitesimal $y=\ln\left(1+x^2\right)+x^
 
 ### Solution 2.3-1-4
 
-$\ln\left(1+x^2\right)\sim x^2$ and $x^3=o\left(x^2\right)$. By **Basic Knowledge: Definition of Higher-Order Infinitesimal**, $y\sim x^2$, which is second-order. $\blacksquare$
+$\ln\left(1+x^2\right)\sim x^2$ and $x^3=o\left(x^2\right)$. By Definition of Higher-Order Infinitesimal, $y\sim x^2$, which is second-order. $\blacksquare$
 
 ---
 
@@ -136,7 +128,7 @@ Compute the approximate value of $\tan\left(\frac\pi4+0.01\right)$.
 
 ### Solution 2.3-6
 
-Let $f\left(x\right)=\tan x$, $x_0=\frac\pi4$, $\Delta x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. By the approximation formula from **Basic Knowledge: Definition of Differential**,
+Let $f\left(x\right)=\tan x$, $x_0=\frac\pi4$, $\Delta x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. By the approximation formula from Definition of Differential,
 
 $$
 f\left(x_0+\Delta x\right)\approx f\left(x_0\right)+f'\left(x_0\right)\Delta x,

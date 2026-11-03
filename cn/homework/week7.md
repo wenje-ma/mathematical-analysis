@@ -1,13 +1,5 @@
 # week7
 
-> **基础知识: 连续函数的定义**
-> 
-> 假定 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内有定义. 若在一点 $x_0\in\left(a,b\right)$ 处 $\lim_{x\to x_0}f\left(x\right)=f\left(x_0\right)$, 则称 $y=f\left(x\right)$ 在 $x_0$ 点连续. 若在每一点都连续, 则称它在 $\left(a,b\right)$ 上连续.
-
-> **基础知识: 初等函数的连续性**
-> 
-> 初等函数在其定义域内是连续的.
-
 > **命题 1.7 (三角不等式)**
 > 
 > 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
@@ -62,7 +54,7 @@ $$
 
 ### 解答 1.7-2-2
 
-由**基础知识: 连续函数的定义**, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. 由**命题 1.7 (三角不等式)**,
+由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. 由**命题 1.7 (三角不等式)**,
 
 $$
 \left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
@@ -116,7 +108,7 @@ $$
 
 ### 解答 1.7-4
 
-设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由**基础知识: 连续函数的定义**, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-c\right|< \delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. 又因 $g\left(t\right)\to c$, 存在 $T> 0$, 当 $t> T$ 时 $\left|g\left(t\right)-c\right|< \delta$. 于是当 $t> T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-c\right|< \delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. 又因 $g\left(t\right)\to c$, 存在 $T> 0$, 当 $t> T$ 时 $\left|g\left(t\right)-c\right|< \delta$. 于是当 $t> T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ---
 

@@ -1,17 +1,5 @@
 # week5
 
-> **基础知识: 函数极限的定义**
-> 
-> 设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在一个实数 $l$, 对于任意给定的 $\varepsilon> 0$, 无论它多么小, 都存在一个 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \varepsilon$, 则称当 $x\to a$ 时 $f\left(x\right)$ 以 $l$ 为极限, 记作 $\lim_{x\to a}f\left(x\right)=l$.
-
-> **基础知识: 单侧极限的定义**
-> 
-> 若当 $x\to a+0$ (或 $x\to a-0$) 时 $f\left(x\right)$ 以 $l$ 为极限, 则称之为右极限 (或左极限), 记作 $\lim_{x\to a+0}f\left(x\right)=l$ (或 $\lim_{x\to a-0}f\left(x\right)=l$).
-
-> **基础知识: 极限的保号性**
-> 
-> 若 $\lim_{x\to a}f\left(x\right)=l$ 且 $l\ne0$, 则存在 $\delta> 0$ 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)\right|> \frac{\left|l\right|}{2}$.
-
 > **命题 1.7 (三角不等式)**
 > 
 > 对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
@@ -42,7 +30,7 @@ $$
 \left|\cos x-\cos a\right|\le\left|x-a\right|< \varepsilon.
 $$
 
-由**基础知识: 函数极限的定义**, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
+由函数极限的定义, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
 
 ---
 
@@ -62,7 +50,7 @@ $$
 \left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}< \varepsilon.
 $$
 
-由**基础知识: 函数极限的定义** 的 $x\to+\infty$ 版本, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
+由函数极限的定义 的 $x\to+\infty$ 版本, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
 ---
 
@@ -78,7 +66,7 @@ $$
 0< 2-x< \delta\Rightarrow x> \sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}< \varepsilon.
 $$
 
-由**基础知识: 单侧极限的定义**, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
+由单侧极限的定义, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
 
 ---
 
@@ -96,7 +84,7 @@ $$
 \delta=\min\left\{-\log_a\left(1-\varepsilon\right),\log_a\left(1+\varepsilon\right)\right\}> 0,
 $$
 
-则当 $0< \left|x\right|< \delta$ 时 $\left|a^x-1\right|< \varepsilon$. 由**基础知识: 函数极限的定义**, $\lim_{x\to0}a^x=1$. $\blacksquare$
+则当 $0< \left|x\right|< \delta$ 时 $\left|a^x-1\right|< \varepsilon$. 由函数极限的定义, $\lim_{x\to0}a^x=1$. $\blacksquare$
 
 ---
 
@@ -106,13 +94,13 @@ $$
 
 ### 解答 1.5-4
 
-取 $\varepsilon=\frac{\left|l\right|}{2}$. 由**基础知识: 函数极限的定义**, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \frac{\left|l\right|}{2}$. 由**命题 1.7 (三角不等式)**,
+取 $\varepsilon=\frac{\left|l\right|}{2}$. 由函数极限的定义, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \frac{\left|l\right|}{2}$. 由**命题 1.7 (三角不等式)**,
 
 $$
 \left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|> \left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
 $$
 
-于是 $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, 即 $\frac1{f\left(x\right)}$ 当 $x\to a$ 时有界. 此即**基础知识: 极限的保号性** 的推论. $\blacksquare$
+于是 $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, 即 $\frac1{f\left(x\right)}$ 当 $x\to a$ 时有界. 此即极限的保号性 的推论. $\blacksquare$
 
 ---
 
@@ -122,7 +110,7 @@ $$
 
 ### 解答 1.5-5
 
-任给 $\varepsilon> 0$, 由**基础知识: 函数极限的定义**, 存在 $\delta_1> 0$, 使得当 $0< \left|x-2\right|< \delta_1$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$. 令 $x=y^2$, 则需 $0< \left|y^2-2\right|< \delta_1$.
+任给 $\varepsilon> 0$, 由函数极限的定义, 存在 $\delta_1> 0$, 使得当 $0< \left|x-2\right|< \delta_1$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$. 令 $x=y^2$, 则需 $0< \left|y^2-2\right|< \delta_1$.
 
 因 $y\to\sqrt2$, 可限制 $\left|y-\sqrt2\right|< 1$, 此时 $\left|y+\sqrt2\right|\le2\sqrt2+1$. 取 $\delta=\min\left\{1,\frac{\delta_1}{2\sqrt2+1}\right\}$, 则当 $0< \left|y-\sqrt2\right|< \delta$ 时,
 
@@ -130,7 +118,7 @@ $$
 \left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|< \delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
 $$
 
-且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|< \varepsilon$. 由**基础知识: 函数极限的定义**, $f\left(y^2\right)\to l$. $\blacksquare$
+且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|< \varepsilon$. 由函数极限的定义, $f\left(y^2\right)\to l$. $\blacksquare$
 
 ---
 

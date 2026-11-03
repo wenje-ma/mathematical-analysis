@@ -1,13 +1,5 @@
 # week32
 
-> **基础知识: 质心坐标公式**
-> 
-> 设物体占据区域 $\Omega$, 密度为 $\rho$, 质量 $m=\iiint_\Omega\rho\,\mathrm dV$, 则质心坐标为 $x_0=\frac1m\iiint_\Omega x\rho\,\mathrm dV$, $y_0=\frac1m\iiint_\Omega y\rho\,\mathrm dV$, $z_0=\frac1m\iiint_\Omega z\rho\,\mathrm dV$.
-
-> **基础知识: 转动惯量公式**
-> 
-> 物体关于 $z$ 轴的转动惯量为 $J_z=\iiint_\Omega\left(x^2+y^2\right)\rho\,\mathrm dV$.
-
 > **命题 5.1 (曲面面积公式)**
 > 
 > 设 $z=f\left(x,y\right)$ 在 $D$ 上有连续一阶偏导数, 则曲面面积 $S=\iint_D\sqrt{1+f_x^2+f_y^2}\,\mathrm dx\mathrm dy$.
@@ -52,7 +44,7 @@ $\blacksquare$
 
 ### 解答 8.5-3
 
-体积 $V=\frac{\pi abc}{6}$. 用广义球坐标, 由**基础知识: 质心坐标公式**,
+体积 $V=\frac{\pi abc}{6}$. 用广义球坐标, 由质心坐标公式,
 
 $$
 z_0=\frac{\iiint z\,\mathrm dV}{V}=\frac{3c}{8}.
@@ -68,7 +60,7 @@ $$
 
 ### 解答 8.5-6
 
-由**基础知识: 转动惯量公式**,
+由转动惯量公式,
 
 $$
 J_z=\rho\iiint_\Omega\left(x^2+y^2\right)\,\mathrm dV=\frac{2\rho a^5}{3}.

@@ -1,9 +1,5 @@
 # week18
 
-> **基础知识: 原函数与不定积分的定义**
-> 
-> 设 $y=f\left(x\right)$ 定义在 $\left(a,b\right)$ 区间之中. 若 $F\left(x\right)$ 在 $\left(a,b\right)$ 中可微, 且 $F'\left(x\right)=f\left(x\right)$ 对一切 $x\in\left(a,b\right)$ 成立, 则称 $F$ 是 $f$ 的一个原函数. $f$ 的一切原函数 $F\left(x\right)+C$ 称作 $f$ 的不定积分, 记作 $\int f\left(x\right)\,\mathrm dx=F\left(x\right)+C$.
-
 > **定理 1.3 (不定积分的线性法则)**
 > 
 > 设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在某个区间中有原函数. 则 $\int\left[af\left(x\right)+bg\left(x\right)\right]\mathrm dx=a\int f\left(x\right)\,\mathrm dx+b\int g\left(x\right)\,\mathrm dx$, 其中 $a,b$ 是两个任意常数.
@@ -134,7 +130,7 @@ $$
 \left(\frac1a\arctan\frac xa\right)'=\frac1a\cdot\frac1{1+\left(x/a\right)^2}\cdot\frac1a=\frac1{a^2+x^2}.
 $$
 
-由**基础知识: 原函数与不定积分的定义**, 右端即为被积函数的一个原函数. 故 $\int\frac{\mathrm dx}{x^2+a^2}=\frac1a\arctan\frac xa+C$. $\blacksquare$
+由原函数与不定积分的定义, 右端即为被积函数的一个原函数. 故 $\int\frac{\mathrm dx}{x^2+a^2}=\frac1a\arctan\frac xa+C$. $\blacksquare$
 
 ---
 
@@ -150,4 +146,4 @@ $$
 \left(\arcsin\frac xa\right)'=\frac1{\sqrt{1-\left(x/a\right)^2}}\cdot\frac1a=\frac1{\sqrt{a^2-x^2}}.
 $$
 
-由**基础知识: 原函数与不定积分的定义**, 右端即为被积函数的一个原函数. 故 $\int\frac{\mathrm dx}{\sqrt{a^2-x^2}}=\arcsin\frac xa+C$. $\blacksquare$
+由原函数与不定积分的定义, 右端即为被积函数的一个原函数. 故 $\int\frac{\mathrm dx}{\sqrt{a^2-x^2}}=\arcsin\frac xa+C$. $\blacksquare$

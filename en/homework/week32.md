@@ -1,13 +1,5 @@
 # week32
 
-> **Basic Knowledge: Center of Mass Formula**
-> 
-> $x_0=\frac1m\iiint_\Omega x\rho\,\mathrm dV$, etc.
-
-> **Basic Knowledge: Moment of Inertia Formula**
-> 
-> $J_z=\iiint_\Omega\left(x^2+y^2\right)\rho\,\mathrm dV$.
-
 > **Proposition 5.1 (Surface Area Formula)**
 > 
 > $S=\iint_D\sqrt{1+f_x^2+f_y^2}\,\mathrm dx\mathrm dy$.
@@ -40,7 +32,7 @@ Find the center of mass of the first-octant ellipsoid.
 
 ### Solution 8.5-3
 
-By symmetry and **Basic Knowledge: Center of Mass Formula**, $\left(\frac{3a}{8},\frac{3b}{8},\frac{3c}{8}\right)$. $\blacksquare$
+By symmetry and Center of Mass Formula, $\left(\frac{3a}{8},\frac{3b}{8},\frac{3c}{8}\right)$. $\blacksquare$
 
 ---
 

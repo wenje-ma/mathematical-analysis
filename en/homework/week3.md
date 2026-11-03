@@ -1,9 +1,5 @@
 # week3
 
-> **Basic Knowledge: Definition of Sequence Limit**
-> 
-> Let $\left\{a_n\right\}$ be a given sequence. If there exists a real number $l$ such that for every $\varepsilon> 0$, no matter how small, there exists a natural number $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$, then $a_n$ is said to have limit $l$, denoted $\lim_{n\to\infty}a_n=l$.
-
 > **Proposition 1.6 (Properties of Absolute Value)**
 > 
 > For any $x,y\in\mathbb R$: (1) $\left|x\right|\ge0$, equality iff $x=0$; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
@@ -38,7 +34,7 @@ $$
 \frac{2n-5}{3n+100}=\frac{2-5/n}{3+100/n}.
 $$
 
-As $n\to\infty$, $5/n\to0$ and $100/n\to0$ (by **Basic Knowledge: Definition of Sequence Limit**, for any $\varepsilon> 0$, take $N> 5/\varepsilon$ so that $\left|5/n\right|< \varepsilon$). By **Theorem 3.1 (Arithmetic of Limits)**,
+As $n\to\infty$, $5/n\to0$ and $100/n\to0$ (by Definition of Sequence Limit, for any $\varepsilon> 0$, take $N> 5/\varepsilon$ so that $\left|5/n\right|< \varepsilon$). By **Theorem 3.1 (Arithmetic of Limits)**,
 
 $$
 \lim_{n\to\infty}\frac{2n-5}{3n+100}=\frac{\lim\left(2-5/n\right)}{\lim\left(3+100/n\right)}=\frac23.
@@ -66,7 +62,7 @@ $$
 \left|\frac{n!}{n^n}-0\right|\le\frac1n< \varepsilon.
 $$
 
-By **Basic Knowledge: Definition of Sequence Limit**, $\lim_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
+By Definition of Sequence Limit, $\lim_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
 ---
 
@@ -108,7 +104,7 @@ $$
 0\le\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\le\frac{n}{n^{3/2}}=\frac1{\sqrt n}.
 $$
 
-Given $\varepsilon> 0$, take $N=\left[1/\varepsilon^2\right]+1$. Then for $n> N$, $\frac1{\sqrt n}< \varepsilon$. By **Basic Knowledge: Definition of Sequence Limit**, the expression tends to $0$. $\blacksquare$
+Given $\varepsilon> 0$, take $N=\left[1/\varepsilon^2\right]+1$. Then for $n> N$, $\frac1{\sqrt n}< \varepsilon$. By Definition of Sequence Limit, the expression tends to $0$. $\blacksquare$
 
 ---
 
@@ -246,9 +242,9 @@ $$
 
 ### Solution 1.3-3
 
-(1) Given $\varepsilon> 0$, by **Basic Knowledge: Definition of Sequence Limit**, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$. Take $N'=\max\left(1,N-k+1\right)$. Then for $n> N'$, $n+k> N$, so $\left|a_{n+k}-l\right|< \varepsilon$. Hence $\lim_{n\to\infty}a_{n+k}=l$.
+(1) Given $\varepsilon> 0$, by Definition of Sequence Limit, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$. Take $N'=\max\left(1,N-k+1\right)$. Then for $n> N'$, $n+k> N$, so $\left|a_{n+k}-l\right|< \varepsilon$. Hence $\lim_{n\to\infty}a_{n+k}=l$.
 
-(2) Given $\varepsilon> 0$, by **Basic Knowledge: Definition of Sequence Limit**, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$. Take $N'=\left[N/2\right]+1$. Then for $n> N'$, $2n> N$ and $2n-1> N$, so $\left|a_{2n}-l\right|< \varepsilon$ and $\left|a_{2n-1}-l\right|< \varepsilon$. Both subsequences converge to $l$. $\blacksquare$
+(2) Given $\varepsilon> 0$, by Definition of Sequence Limit, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$. Take $N'=\left[N/2\right]+1$. Then for $n> N'$, $2n> N$ and $2n-1> N$, so $\left|a_{2n}-l\right|< \varepsilon$ and $\left|a_{2n-1}-l\right|< \varepsilon$. Both subsequences converge to $l$. $\blacksquare$
 
 ---
 
@@ -258,13 +254,13 @@ Let $\lim_{n\to\infty}a_n=l$. Prove: $\lim_{n\to\infty}\left|a_n\right|=\left|l\
 
 ### Solution 1.3-4
 
-By **Proposition 1.7 (Triangle Inequality)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. Given $\varepsilon> 0$, by **Basic Knowledge: Definition of Sequence Limit**, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ for $n> N$. Then for $n> N$,
+By **Proposition 1.7 (Triangle Inequality)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. Given $\varepsilon> 0$, by Definition of Sequence Limit, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ for $n> N$. Then for $n> N$,
 
 $$
 \left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|< \varepsilon.
 $$
 
-By **Basic Knowledge: Definition of Sequence Limit**, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
+By Definition of Sequence Limit, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
 
 ---
 

@@ -1,13 +1,5 @@
 # week4
 
-> **基础知识: 重要极限数 $e$**
-> 
-> $\lim_{n\to\infty}\left(1+\frac1n\right)^n=e$, 其中 $e$ 为无理数, $2< e< 3$.
-
-> **基础知识: 无穷小量的定义**
-> 
-> 以 $0$ 为其极限的变量称作无穷小量.
-
 > **定理 3.1 (极限四则运算定理)**
 > 
 > 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
@@ -46,7 +38,7 @@ $$
 \left(1+\frac1{n+1}\right)^{n-1}=\left[\left(1+\frac1{n+1}\right)^{n+1}\right]^{\frac{n-1}{n+1}}.
 $$
 
-由**基础知识: 重要极限数 $e$** 及**定理 3.1 (极限四则运算定理)**, 底数趋于 $e$, 指数 $\frac{n-1}{n+1}\to1$, 故极限为 $e$.
+由重要极限数 $e$ 及**定理 3.1 (极限四则运算定理)**, 底数趋于 $e$, 指数 $\frac{n-1}{n+1}\to1$, 故极限为 $e$.
 
 (2)
 
@@ -68,7 +60,7 @@ $$
 \left(1+\frac3{3n+1}\right)^n=\left[\left(1+\frac3{3n+1}\right)^{\frac{3n+1}{3}}\right]^{\frac{3n}{3n+1}}.
 $$
 
-由**基础知识: 重要极限数 $e$**, 底数趋于 $e$, 指数 $\frac{3n}{3n+1}\to1$, 故极限为 $e$.
+由重要极限数 $e$, 底数趋于 $e$, 指数 $\frac{3n}{3n+1}\to1$, 故极限为 $e$.
 
 (4)
 
@@ -76,7 +68,7 @@ $$
 \left(\frac{n+3}{n+1}\right)^{n+1}=\left(1+\frac2{n+1}\right)^{n+1}=\left[\left(1+\frac2{n+1}\right)^{\frac{n+1}{2}}\right]^2.
 $$
 
-由**基础知识: 重要极限数 $e$**, 底数趋于 $e$, 故极限为 $e^2$. $\blacksquare$
+由重要极限数 $e$, 底数趋于 $e$, 故极限为 $e^2$. $\blacksquare$
 
 ---
 
@@ -168,7 +160,7 @@ $$
 
 ### 解答 1.4-5
 
-由 1.4-4, $\left(1+\frac1n\right)^n$ 严格递增, 且由**基础知识: 重要极限数 $e$** 其极限为 $e$, 故对一切 $n$ 有
+由 1.4-4, $\left(1+\frac1n\right)^n$ 严格递增, 且由重要极限数 $e$ 其极限为 $e$, 故对一切 $n$ 有
 
 $$
 \left(1+\frac1n\right)^n< e.
@@ -238,7 +230,7 @@ $$
 \left(1+\frac1n\right)^n> 1+1+\sum_{k=2}^m\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
 $$
 
-令 $n\to\infty$, 由**基础知识: 重要极限数 $e$** 及**定理 3.1 (极限四则运算定理)**, 左端趋于 $e$, 右端趋于 $1+1+\frac1{2!}+\cdots+\frac1{m!}$, 故
+令 $n\to\infty$, 由重要极限数 $e$ 及**定理 3.1 (极限四则运算定理)**, 左端趋于 $e$, 右端趋于 $1+1+\frac1{2!}+\cdots+\frac1{m!}$, 故
 
 $$
 e\ge1+1+\frac1{2!}+\cdots+\frac1{m!}.

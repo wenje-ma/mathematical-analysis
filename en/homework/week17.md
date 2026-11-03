@@ -1,9 +1,5 @@
 # week17
 
-> **Basic Knowledge: Definition of Convex and Concave Functions**
-> 
-> If $f$ satisfies $f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)$ for all $x_1,x_2$ and $t\in\left(0,1\right)$, it is convex; if the inequality reverses, it is concave.
-
 > **Theorem 1.3 (Lagrange Mean Value Theorem)**
 > 
 > If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
@@ -44,7 +40,7 @@ Use convexity to prove:
 
 ### Solution 3.5-2
 
-(1) $f\left(x\right)=\arctan x$ has $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}< 0$ for $x> 0$, so it is concave. By **Basic Knowledge: Definition of Convex and Concave Functions** with $t=\frac12$,
+(1) $f\left(x\right)=\arctan x$ has $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}< 0$ for $x> 0$, so it is concave. By Definition of Convex and Concave Functions with $t=\frac12$,
 
 $$
 f\left(\frac{a+b}2\right)\ge\frac{f\left(a\right)+f\left(b\right)}2.

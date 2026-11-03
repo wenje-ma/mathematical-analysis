@@ -1,9 +1,5 @@
 # week45
 
-> **Basic Knowledge: Basic Expansions**
-> 
-> $e^x=\sum\frac{x^n}{n!}$; $\ln\left(1+x\right)=\sum\frac{\left(-1\right)^{n-1}x^n}{n}$; $\cos x=\sum\frac{\left(-1\right)^nx^{2n}}{\left(2n\right)!}$.
-
 > **Theorem 4.1 (Taylor Series)**
 > 
 > If $f$ has a power series expansion, then the coefficients are uniquely determined: $a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$.

@@ -1,9 +1,5 @@
 # week42
 
-> **基础知识: 函数序列一致收敛的定义**
-> 
-> 若对任意 $\varepsilon> 0$, 存在 $N$, 当 $n> N$ 时, 对一切 $x\in X$ 均有 $\left|f_n\left(x\right)-f\left(x\right)\right|< \varepsilon$, 则称 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
-
 > **定理 1.1 (M 判别法)**
 > 
 > 若存在 $M_n> 0$, $M_n\to0$, 使 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ 对一切 $x\in X$ 成立, 则 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
@@ -20,7 +16,7 @@
 
 ### 解答 11.1-1-1
 
-极限函数 $f\left(x\right)\equiv0$. 取 $x_n=\frac1n$, 则 $\left|f_n\left(x_n\right)\right|=\frac12\not\to0$. 由**基础知识: 函数序列一致收敛的定义**, 不一致收敛. $\blacksquare$
+极限函数 $f\left(x\right)\equiv0$. 取 $x_n=\frac1n$, 则 $\left|f_n\left(x_n\right)\right|=\frac12\not\to0$. 由函数序列一致收敛的定义, 不一致收敛. $\blacksquare$
 
 ---
 
@@ -40,7 +36,7 @@
 
 ### 解答 11.1-1-5
 
-极限函数 $f\left(x\right)\equiv0$. 取 $x_n=\frac1{\sqrt{2n}}$, 则 $\left|f_n\left(x_n\right)\right|=\sqrt{\frac n{2e}}\to+\infty$. 由**基础知识: 函数序列一致收敛的定义**, 不一致收敛. $\blacksquare$
+极限函数 $f\left(x\right)\equiv0$. 取 $x_n=\frac1{\sqrt{2n}}$, 则 $\left|f_n\left(x_n\right)\right|=\sqrt{\frac n{2e}}\to+\infty$. 由函数序列一致收敛的定义, 不一致收敛. $\blacksquare$
 
 ---
 
@@ -60,7 +56,7 @@
 
 ### 解答 11.1-3
 
-取 $x_n=n$, 则 $\left|f_n\left(x_n\right)-e^{x_n}\right|=e^n-2^n\to+\infty$. 由**基础知识: 函数序列一致收敛的定义**, 不一致收敛. $\blacksquare$
+取 $x_n=n$, 则 $\left|f_n\left(x_n\right)-e^{x_n}\right|=e^n-2^n\to+\infty$. 由函数序列一致收敛的定义, 不一致收敛. $\blacksquare$
 
 ---
 
@@ -80,4 +76,4 @@
 
 ### 解答 11.1-5
 
-必要性: 由一致收敛性直接得 $M_n< \varepsilon$. 充分性: 由 $M_n\to0$, 对一切 $x$ 有 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n< \varepsilon$. 由**基础知识: 函数序列一致收敛的定义**, 一致收敛. $\blacksquare$
+必要性: 由一致收敛性直接得 $M_n< \varepsilon$. 充分性: 由 $M_n\to0$, 对一切 $x$ 有 $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n< \varepsilon$. 由函数序列一致收敛的定义, 一致收敛. $\blacksquare$

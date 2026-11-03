@@ -1,9 +1,5 @@
 # week29
 
-> **Basic Knowledge: Comparison Property of Double Integrals**
-> 
-> If $f\le g$ on $D$, then $\iint_D f\le\iint_D g$.
-
 > **Theorem 2.1 (Reduction to Iterated Integrals)**
 > 
 > $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
@@ -94,6 +90,6 @@ Prove:
 
 (1) By **Theorem 2.1 (Reduction to Iterated Integrals)**.
 
-(2) Since $D_a\subset R_a\subset D_{\sqrt2 a}$, by **Basic Knowledge: Comparison Property of Double Integrals**.
+(2) Since $D_a\subset R_a\subset D_{\sqrt2 a}$, by Comparison Property of Double Integrals.
 
 (3) $J\left(a\right)=\frac\pi4\left(1-e^{-a^2}\right)$. Squeeze theorem gives the result. $\blacksquare$

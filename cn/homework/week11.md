@@ -1,13 +1,5 @@
 # week11
 
-> **基础知识: 高阶导数的定义**
-> 
-> 若 $y=f\left(x\right)$ 的导函数 $f'\left(x\right)$ 在 $x_0$ 点可导, 则其导数称为 $f$ 的二阶导数, 记作 $f''\left(x_0\right)$ 或 $\frac{\mathrm d^2f}{\mathrm dx^2}$. 一般地, $n$ 阶导数 $f^{\left(n\right)}\left(x\right)$ 由 $n-1$ 阶导数再求导得到.
-
-> **基础知识: 莱布尼茨公式**
-> 
-> $\left(uv\right)^{\left(n\right)}=\sum_{k=0}^n\binom nk u^{\left(k\right)}v^{\left(n-k\right)}$.
-
 ---
 
 ## 2.4-1
@@ -20,9 +12,9 @@
 
 ### 解答 2.4-1
 
-由**基础知识: 高阶导数的定义**, $n$ 阶导数由 $n-1$ 阶导数再求导得到.
+由高阶导数的定义, $n$ 阶导数由 $n-1$ 阶导数再求导得到.
 
-(1) 由**基础知识: 莱布尼茨公式**, 其中 $u=x^2$, $v=e^x$.
+(1) 由莱布尼茨公式, 其中 $u=x^2$, $v=e^x$.
 
 $$
 u'=2x,\quad u''=2,\quad u^{\left(k\right)}=0\quad\left(k\ge3\right).
@@ -134,7 +126,7 @@ $$
 W'=f'_{11}f_{22}+f_{11}f'_{22}-f'_{12}f_{21}-f_{12}f'_{21}=\begin{vmatrix}f'_{11}&f'_{12}\\f_{21}&f_{22}\end{vmatrix}+\begin{vmatrix}f_{11}&f_{12}\\f'_{21}&f'_{22}\end{vmatrix}.
 $$
 
-一般地, 由**基础知识: 莱布尼茨公式**,
+一般地, 由莱布尼茨公式,
 
 $$
 W^{\left(n\right)}\left(x\right)=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(n-k\right)}\\f_{21}&f_{22}\end{vmatrix}+\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}&f_{12}\\f_{21}^{\left(k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.

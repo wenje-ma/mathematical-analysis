@@ -1,13 +1,5 @@
 # week46
 
-> **基础知识: 无穷积分收敛的定义**
-> 
-> 若 $\lim_{A\to+\infty}\int_a^A f\left(x\right)\mathrm dx$ 存在, 则称 $\int_a^{+\infty}f\left(x\right)\mathrm dx$ 收敛, 否则发散.
-
-> **基础知识: 绝对收敛与条件收敛的定义**
-> 
-> 若 $\int_a^{+\infty}\left|f\left(x\right)\right|\mathrm dx$ 收敛, 则称绝对收敛; 若 $\int_a^{+\infty}f\left(x\right)\mathrm dx$ 收敛但 $\int_a^{+\infty}\left|f\left(x\right)\right|\mathrm dx$ 发散, 则称条件收敛.
-
 > **定理 1.1 (柯西收敛原理)**
 > 
 > $\int_a^{+\infty}f\left(x\right)\mathrm dx$ 收敛的充要条件是: 对任意 $\varepsilon> 0$, 存在 $X> 0$, 使 $\left|\int_{A'}^{A''}f\left(x\right)\mathrm dx\right|< \varepsilon$ ($A',A''> X$).
@@ -32,7 +24,7 @@
 
 ### 解答 12.1-1-1
 
-分部积分得 $-\frac{\ln A}A+1-\frac1A\to1$. 由**基础知识: 无穷积分收敛的定义**, 收敛且值为 $1$. $\blacksquare$
+分部积分得 $-\frac{\ln A}A+1-\frac1A\to1$. 由无穷积分收敛的定义, 收敛且值为 $1$. $\blacksquare$
 
 ---
 
@@ -116,7 +108,7 @@ $\arctan A\to\frac\pi2$. 收敛. $\blacksquare$
 
 ### 解答 12.1-4
 
-作代换 $u=-x$ 与 $u=x+a$, 由**基础知识: 无穷积分收敛的定义**, 等式成立. $\blacksquare$
+作代换 $u=-x$ 与 $u=x+a$, 由无穷积分收敛的定义, 等式成立. $\blacksquare$
 
 ---
 
@@ -126,4 +118,4 @@ $\arctan A\to\frac\pi2$. 收敛. $\blacksquare$
 
 ### 解答 12.1-5
 
-$\sum_{n=1}^N a_n=\int_1^{N+1}f\left(x\right)\mathrm dx$. 由 $f\left(x\right)\to0$, 相邻整数点之间的积分差趋于零. 由**基础知识: 无穷积分收敛的定义**, 等价成立. $\blacksquare$
+$\sum_{n=1}^N a_n=\int_1^{N+1}f\left(x\right)\mathrm dx$. 由 $f\left(x\right)\to0$, 相邻整数点之间的积分差趋于零. 由无穷积分收敛的定义, 等价成立. $\blacksquare$

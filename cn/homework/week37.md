@@ -1,13 +1,5 @@
 # week37
 
-> **基础知识: 散度的定义**
-> 
-> 设向量场 $\boldsymbol F=\left(P,Q,R\right)$, 则 $\operatorname{div}\boldsymbol F=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$.
-
-> **基础知识: 旋度的定义**
-> 
-> $\operatorname{rot}\boldsymbol F=\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z},\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x},\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)$.
-
 ---
 
 ## 9.5-1
@@ -20,7 +12,7 @@
 
 ### 解答 9.5-1
 
-(1) 由**基础知识: 散度的定义**, $\operatorname{div}\boldsymbol F=5-2x$. 由**基础知识: 旋度的定义**, $\operatorname{rot}\boldsymbol F=\left(0,0,-2y\right)$.
+(1) 由散度的定义, $\operatorname{div}\boldsymbol F=5-2x$. 由旋度的定义, $\operatorname{rot}\boldsymbol F=\left(0,0,-2y\right)$.
 
 (2) $\operatorname{div}\boldsymbol F=10x+2y+2z$, $\operatorname{rot}\boldsymbol F=\left(0,0,0\right)$. $\blacksquare$
 
@@ -32,7 +24,7 @@
 
 ### 解答 9.5-2
 
-由**基础知识: 散度的定义**, 展开 $\frac{\partial\left(\Phi P\right)}{\partial x}+\frac{\partial\left(\Phi Q\right)}{\partial y}+\frac{\partial\left(\Phi R\right)}{\partial z}$, 合并同类项即得. $\blacksquare$
+由散度的定义, 展开 $\frac{\partial\left(\Phi P\right)}{\partial x}+\frac{\partial\left(\Phi Q\right)}{\partial y}+\frac{\partial\left(\Phi R\right)}{\partial z}$, 合并同类项即得. $\blacksquare$
 
 ---
 
@@ -42,7 +34,7 @@
 
 ### 解答 9.5-3
 
-由**基础知识: 旋度的定义**, 计算第一个分量:
+由旋度的定义, 计算第一个分量:
 
 $$
 \frac{\partial\left(\Phi R\right)}{\partial y}-\frac{\partial\left(\Phi Q\right)}{\partial z}=\Phi\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)+\left(R\frac{\partial\Phi}{\partial y}-Q\frac{\partial\Phi}{\partial z}\right).
@@ -58,7 +50,7 @@ $$
 
 ### 解答 9.5-4
 
-由**基础知识: 旋度的定义**, $\operatorname{rot}\left(\operatorname{grad}\Phi\right)$ 的每个分量均为二阶混合偏导数之差. 因二阶混合偏导数连续, 与求导次序无关, 故各分量均为 $0$. $\blacksquare$
+由旋度的定义, $\operatorname{rot}\left(\operatorname{grad}\Phi\right)$ 的每个分量均为二阶混合偏导数之差. 因二阶混合偏导数连续, 与求导次序无关, 故各分量均为 $0$. $\blacksquare$
 
 ---
 
@@ -68,4 +60,4 @@ $$
 
 ### 解答 9.5-5
 
-由**基础知识: 散度的定义** 与**基础知识: 旋度的定义**, 展开后各项两两抵消. 因二阶混合偏导数连续, 与求导次序无关, 故结果为 $0$. $\blacksquare$
+由散度的定义 与旋度的定义, 展开后各项两两抵消. 因二阶混合偏导数连续, 与求导次序无关, 故结果为 $0$. $\blacksquare$

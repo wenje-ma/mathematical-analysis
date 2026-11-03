@@ -1,13 +1,5 @@
 # week10
 
-> **基础知识: 微分的定义**
-> 
-> 设 $y=f\left(x\right)$ 在 $x_0$ 附近有定义. 若存在常数 $A$, 使得 $\Delta y=A\Delta x+o\left(\Delta x\right)$, 则称 $f$ 在 $x_0$ 可微, $\mathrm dy=A\Delta x$ 称为微分, 且 $A=f'\left(x_0\right)$.
-
-> **基础知识: 高阶无穷小的定义**
-> 
-> 若 $\lim_{x\to0}\frac{\alpha\left(x\right)}{\beta\left(x\right)}=0$, 则称 $\alpha\left(x\right)=o\left(\beta\left(x\right)\right)$.
-
 ---
 
 ## 2.3-1-2
@@ -20,7 +12,7 @@ $$
 \sqrt{2+x}-\sqrt2=\frac{x}{\sqrt{2+x}+\sqrt2}\sim\frac{x}{2\sqrt2}.
 $$
 
-故 $y\sim\frac{x^2}{2\sqrt2}$, 由**基础知识: 高阶无穷小的定义** 知 $y$ 是 $x$ 的二阶无穷小量. $\blacksquare$
+故 $y\sim\frac{x^2}{2\sqrt2}$, 由高阶无穷小的定义 知 $y$ 是 $x$ 的二阶无穷小量. $\blacksquare$
 
 ---
 
@@ -30,7 +22,7 @@ $$
 
 ### 解答 2.3-1-4
 
-$\ln\left(1+x^2\right)\sim x^2$, 而 $x^3=o\left(x^2\right)$. 由**基础知识: 高阶无穷小的定义**, $y\sim x^2$, 是二阶无穷小量. $\blacksquare$
+$\ln\left(1+x^2\right)\sim x^2$, 而 $x^3=o\left(x^2\right)$. 由高阶无穷小的定义, $y\sim x^2$, 是二阶无穷小量. $\blacksquare$
 
 ---
 
@@ -136,7 +128,7 @@ $\mathrm d\left(-\ln\left|\cos x\right|\right)=\frac{\sin x}{\cos x}\mathrm dx$.
 
 ### 解答 2.3-6
 
-令 $f\left(x\right)=\tan x$, 取 $x_0=\frac\pi4$, $\Delta x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. 由**基础知识: 微分的定义** 导出的近似公式
+令 $f\left(x\right)=\tan x$, 取 $x_0=\frac\pi4$, $\Delta x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. 由微分的定义 导出的近似公式
 
 $$
 f\left(x_0+\Delta x\right)\approx f\left(x_0\right)+f'\left(x_0\right)\Delta x,

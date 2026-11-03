@@ -1,9 +1,5 @@
 # week25
 
-> **Basic Knowledge: Definition of Uniform Continuity**
-> 
-> $f$ is uniformly continuous on $X$ if for every $\varepsilon> 0$ there exists $\delta> 0$ such that $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$ whenever $\left|x_1-x_2\right|< \delta$.
-
 > **Theorem 1.3 (Lagrange Mean Value Theorem)**
 > 
 > If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.

@@ -1,13 +1,5 @@
 # week6
 
-> **基础知识: 函数极限的定义**
-> 
-> 设 $y=f\left(x\right)$ 在 $a$ 点的一个空心邻域 $\left(a-r,a+r\right)\backslash\left\{a\right\}$ 内有定义. 若存在 $l\in\mathbb R$, 对于任意 $\varepsilon> 0$, 存在 $\delta> 0$, 使得 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$, 则称 $\lim_{x\to a}f\left(x\right)=l$.
-
-> **基础知识: 重要极限数 $e$ 的函数版本**
-> 
-> $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$.
-
 > **命题 1.7 (三角不等式)**
 > 
 > 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
@@ -32,7 +24,7 @@
 
 ### 解答 1.6-2
 
-取 $\varepsilon=\frac l2> 0$. 由**基础知识: 函数极限的定义**, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \frac l2$. 由**命题 1.7 (三角不等式)**,
+取 $\varepsilon=\frac l2> 0$. 由函数极限的定义, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \frac l2$. 由**命题 1.7 (三角不等式)**,
 
 $$
 f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
@@ -112,7 +104,7 @@ $$
 \left(\frac{1+x}{1-x}\right)^{1/x}=\left[\left(1+\frac{2x}{1-x}\right)^{\frac{1-x}{2x}}\right]^{\frac2{1-x}}.
 $$
 
-底数趋于 $e$, 指数 $\frac2{1-x}\to2$. 由**基础知识: 重要极限数 $e$ 的函数版本** 及**定理 6.2 (函数的夹逼定理)** 相关运算, 极限为 $e^2$. $\blacksquare$
+底数趋于 $e$, 指数 $\frac2{1-x}\to2$. 由重要极限数 $e$ 的函数版本 及**定理 6.2 (函数的夹逼定理)** 相关运算, 极限为 $e^2$. $\blacksquare$
 
 ---
 
@@ -126,7 +118,7 @@ $$
 \left(1-5y\right)^{1/y}=\left[\left(1+\frac1{-1/\left(5y\right)}\right)^{-1/\left(5y\right)}\right]^{-5}.
 $$
 
-底数趋于 $e$, 指数为 $-5$. 由**基础知识: 重要极限数 $e$ 的函数版本**, 极限为 $e^{-5}=\frac1{e^5}$. $\blacksquare$
+底数趋于 $e$, 指数为 $-5$. 由重要极限数 $e$ 的函数版本, 极限为 $e^{-5}=\frac1{e^5}$. $\blacksquare$
 
 ---
 
