@@ -54,7 +54,7 @@ $\blacksquare$
 
 ### 解答 9.3-6
 
-由对称性, $\bar x=\bar y=\bar z$. 曲面面积 $=\frac{\pi a^2}{2}$. 计算得 $\bar z=\frac a2$. 质心为 $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
+由对称性, $\overline x=\overline y=\overline z$. 曲面面积 $=\frac{\pi a^2}{2}$. 计算得 $\overline z=\frac a2$. 质心为 $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
 
 ---
 
