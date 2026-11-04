@@ -1,117 +1,207 @@
 # week8
 
-> **Theorem 8.1 (Intermediate Value Theorem)**
+> **Proposition 1.7 (Triangle Inequality)**
 > 
-> If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and $f\left(a\right)$ and $f\left(b\right)$ have opposite signs, then there exists $c\in\left(a,b\right)$ with $f\left(c\right)=0$. More generally, $f$ takes every value between $f\left(a\right)$ and $f\left(b\right)$.
+> For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **Theorem 8.2 (Boundedness Theorem)**
+> **Theorem 5.1 (Arithmetic of Function Limits)**
 > 
-> A continuous function on a closed interval is bounded and attains its maximum and minimum.
+> If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-## 1.8-2
+> **Proposition 6.1 (Important Limit $\lim_{x\to0}\frac{\sin x}{x}=1$)**
+> 
+> $\lim_{x\to0}\frac{\sin x}{x}=1$.
 
-Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and let $x_1,x_2,x_3\in\left(a,b\right)$ with $x_1< x_2< x_3$. Set
+> **Theorem 6.2 (Squeeze Theorem for Functions)**
+> 
+> Let $f\left(x\right),g\left(x\right),h\left(x\right)$ be defined in a punctured neighborhood of $a$ with $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. If $\lim g\left(x\right)=\lim h\left(x\right)=l$, then $\lim f\left(x\right)=l$.
 
-$$
-\eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
-$$
+> **Theorem 7.2 (Continuity of Composite Functions)**
+> 
+> If $y=g\left(u\right)$ is continuous at $u_0$ and $u=f\left(x\right)$ is continuous at $x_0$ with $f\left(x_0\right)=u_0$, then $y=g\left(f\left(x\right)\right)$ is continuous at $x_0$.
 
-Prove that there exists $\xi\in\left[x_1,x_3\right]$ such that $f\left(\xi\right)=\eta$.
+## 1.6-4-3
 
-### Solution 1.8-2
+Find: $\lim_{x\to0}\left(\frac{1+x}{1-x}\right)^{1/x}$.
 
-$f$ is continuous on $\left[x_1,x_3\right]$. By **Theorem 8.2 (Boundedness Theorem)**, let the max be $M$ and min be $m$. Then $m\le f\left(x_i\right)\le M$, so $m\le\eta\le M$. By **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left[x_1,x_3\right]$ with $f\left(\xi\right)=\eta$. $\blacksquare$
-
-## 1.8-3
-
-Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$ with $\lim_{x\to+\infty}f\left(x\right)=l$ and $l> f\left(a\right)$. Prove that for any $\eta$ with $f\left(a\right)< \eta< l$, there exists $\xi\in\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$.
-
-### Solution 1.8-3
-
-Since $\lim_{x\to+\infty}f\left(x\right)=l> \eta$, there exists $A> a$ such that $x> A$ implies $f\left(x\right)> \eta$. Take $b> A$, so $f\left(a\right)< \eta< f\left(b\right)$. Since $f$ is continuous on $\left[a,b\right]$, by **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ with $f\left(\xi\right)=\eta$. $\blacksquare$
-
-## 1.8-4
-
-Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$ and $\lim_{x\to+\infty}f\left(x\right)$ exists. Prove $f$ is bounded on $\left[a,+\infty\right)$.
-
-### Solution 1.8-4
-
-Let $\lim_{x\to+\infty}f\left(x\right)=l$. There exists $A> a$ such that $x> A$ implies $\left|f\left(x\right)-l\right|< 1$, i.e. $\left|f\left(x\right)\right|< \left|l\right|+1$. On $\left[a,A\right]$, by **Theorem 8.2 (Boundedness Theorem)**, $f$ is bounded, say $\left|f\left(x\right)\right|\le M$. Take $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$; then $\left|f\left(x\right)\right|\le\widetilde M$ for all $x\in\left[a,+\infty\right)$. $\blacksquare$
-
-## 1.8-5
-
-Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and let $x_1,x_2\in\left(a,b\right)$ with $x_1< x_2$, $m_1> 0$, $m_2> 0$. Prove that there exists $\xi\in\left(a,b\right)$ such that
+### Solution to 1.6-4-3
 
 $$
-f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}.
+\left(\frac{1+x}{1-x}\right)^{1/x}=\left[\left(1+\frac{2x}{1-x}\right)^{\frac{1-x}{2x}}\right]^{\frac2{1-x}}.
 $$
 
-### Solution 1.8-5
+The base tends to $e$ and the exponent $\frac2{1-x}\to2$. By The Important Limit $e$ (Function Version) and **Theorem 6.2 (Squeeze Theorem for Functions)**, the limit is $e^2$. $\blacksquare$
 
-Let the max and min of $f$ on $\left[x_1,x_2\right]$ be $M$ and $m$. Then
+## 1.6-4-5
 
-$$
-m=\frac{m_1m+m_2m}{m_1+m_2}\le\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}\le\frac{m_1M+m_2M}{m_1+m_2}=M.
-$$
+Find: $\lim_{y\to0}\left(1-5y\right)^{1/y}$.
 
-By **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left[x_1,x_2\right]\subset\left(a,b\right)$ with $f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$. $\blacksquare$
-
-## 1.8-6
-
-Let $f:\left[0,1\right]\to\left[0,1\right]$ be continuous. Prove that it has at least one fixed point in $\left[0,1\right]$, i.e. there exists $x_0\in\left[0,1\right]$ with $f\left(x_0\right)=x_0$.
-
-### Solution 1.8-6
-
-Let $g\left(x\right)=f\left(x\right)-x$. Then $g\left(0\right)=f\left(0\right)\ge0$ and $g\left(1\right)=f\left(1\right)-1\le0$. By **Theorem 8.1 (Intermediate Value Theorem)**, there exists $x_0\in\left[0,1\right]$ with $g\left(x_0\right)=0$, i.e. $f\left(x_0\right)=x_0$. $\blacksquare$
-
-## 1.8-7
-
-Let $y=f\left(x\right)$ be continuous on $\left[a,b\right]$ with $f\left(a\right)=f\left(b\right)$. Prove that there exist two points $x_1,x_2\in\left[a,b\right]$ such that $\left|x_1-x_2\right|=\frac12\left(b-a\right)$ and $f\left(x_1\right)=f\left(x_2\right)$.
-
-### Solution 1.8-7
-
-Let $d=\frac{b-a}2$ and consider $g\left(x\right)=f\left(x+d\right)-f\left(x\right)$ for $x\in\left[a,b-d\right]=\left[a,a+d\right]$. Then
+### Solution to 1.6-4-5
 
 $$
-g\left(a\right)=f\left(a+d\right)-f\left(a\right),\quad g\left(a+d\right)=f\left(b\right)-f\left(a+d\right)=f\left(a\right)-f\left(a+d\right)=-g\left(a\right).
+\left(1-5y\right)^{1/y}=\left[\left(1+\frac1{-1/\left(5y\right)}\right)^{-1/\left(5y\right)}\right]^{-5}.
 $$
 
-If $g\left(a\right)=0$, take $x_1=a$, $x_2=a+d$. Otherwise $g\left(a\right)$ and $g\left(a+d\right)$ have opposite signs; by **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left(a,a+d\right)$ with $g\left(\xi\right)=0$, i.e. $f\left(\xi+d\right)=f\left(\xi\right)$. Taking $x_1=\xi$, $x_2=\xi+d$, we have $\left|x_1-x_2\right|=d=\frac{b-a}2$. $\blacksquare$
+The base tends to $e$ and the exponent is $-5$. By The Important Limit $e$ (Function Version), the limit is $e^{-5}=\frac1{e^5}$. $\blacksquare$
 
-## 1.8-8
+## 1.6-4-6
 
-Let $E$ be a bounded infinite set in $\mathbb R$. Prove that there exists $c\in\mathbb R$ such that every punctured neighborhood $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ contains points of $E$.
+Find: $\lim_{x\to\infty}\left(1+\frac1x\right)^{x+100}$.
 
-### Solution 1.8-8
-
-Since $E$ is bounded, $E\subset\left[a,b\right]$. Split $\left[a,b\right]$ into two closed halves; at least one contains infinitely many points of $E$, call it $\left[a_1,b_1\right]$. Continuing gives a nested sequence $\left\{\left[a_n,b_n\right]\right\}$, each containing infinitely many points of $E$, with
+### Solution to 1.6-4-6
 
 $$
-b_n-a_n=\frac{b-a}{2^n}\to0.
+\left(1+\frac1x\right)^{x+100}=\left(1+\frac1x\right)^x\cdot\left(1+\frac1x\right)^{100}\to e\cdot1=e.
 $$
 
-By Nested Interval Principle, there exists a unique $c\in\bigcap\left[a_n,b_n\right]$. For any $\delta> 0$, for large $n$, $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$ and contains infinitely many points of $E$, so $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ contains points of $E$. $\blacksquare$
+$\blacksquare$
 
-## 1.8-9
+## 1.6-5
 
-Let $E$ be a nonempty set in $\mathbb R$ bounded above. Prove that $E$ has a least upper bound, i.e. there exists $M_0$ which is an upper bound of $E$ and satisfies $M_0\le M$ for every upper bound $M$ of $E$.
-
-### Solution 1.8-9
-
-Let $E\subset\left[a,b\right]$ where $b$ is an upper bound. Split $\left[a,b\right]$ into two halves. If the right half contains an upper bound, take it; otherwise take the left half (its right endpoint is then a new upper bound). Continuing gives a nested sequence $\left\{\left[a_n,b_n\right]\right\}$ where each $b_n$ is an upper bound and each $a_n$ is not.
-
-By Nested Interval Principle, there exists a unique $M_0\in\bigcap\left[a_n,b_n\right]$. Since $b_n\to M_0$ and each $b_n$ is an upper bound, for any $x\in E$, $x\le b_n$; letting $n\to\infty$ gives $x\le M_0$, so $M_0$ is an upper bound. If $M$ is any upper bound, then $M\ge a_n$ for all $n$ (since $a_n$ is not an upper bound, there is $x\in E$ with $x> a_n$, and $M\ge x$), so $M\ge M_0$. $\blacksquare$
-
-## 1.8-11
-
-Let $y=f\left(x\right)$ be defined near $a$ with $\lim_{x\to a}f\left(x\right)=0$, and let $y=g\left(x\right)$ be defined near $a$ and bounded. Prove $\lim_{x\to a}f\left(x\right)g\left(x\right)=0$.
-
-### Solution 1.8-11
-
-Let $\left|g\left(x\right)\right|\le M$. Given $\varepsilon> 0$, since $f\left(x\right)\to0$, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)\right|< \varepsilon/M$. Then
+Find constants $a$ and $b$ such that
 
 $$
-\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|< \varepsilon.
+\lim_{x\to+\infty}\left[\frac{x^2+1}{x+1}-\left(ax+b\right)\right]=0.
 $$
 
-Hence $\lim f\left(x\right)g\left(x\right)=0$. $\blacksquare$
+Explain the geometric meaning.
+
+### Solution to 1.6-5
+
+$$
+\frac{x^2+1}{x+1}-ax-b=\frac{x^2+1-\left(ax+b\right)\left(x+1\right)}{x+1}=\frac{\left(1-a\right)x^2-\left(a+b\right)x+1-b}{x+1}.
+$$
+
+For this to tend to $0$, the numerator must have lower degree than the denominator, so $1-a=0$ and $a+b=0$, giving $a=1$, $b=-1$.
+
+Geometrically, the line $y=x-1$ is the oblique asymptote of the curve $y=\frac{x^2+1}{x+1}$ as $x\to+\infty$. $\blacksquare$
+
+## 1.6-7
+
+Prove $\lim_{x\to+\infty}\left(1+\frac1x\right)^{x^2}=+\infty$.
+
+### Solution to 1.6-7
+
+$$
+\left(1+\frac1x\right)^{x^2}=\left[\left(1+\frac1x\right)^x\right]^x.
+$$
+
+For sufficiently large $x$, $\left(1+\frac1x\right)^x> 2$ (since it tends to $e> 2$), so $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. The limit is $+\infty$. $\blacksquare$
+
+## 1.6-9
+
+Let $\lim_{x\to+\infty}\frac{f\left(x\right)}x=0$ and $f\left(x\right)> 0$ ($x> 0$). Prove $\lim_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
+
+### Solution to 1.6-9
+
+Taking logarithms,
+
+$$
+\left(1+\frac1x\right)^{f\left(x\right)}=e^{f\left(x\right)\ln\left(1+1/x\right)}.
+$$
+
+Since
+
+$$
+0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
+$$
+
+by **Theorem 6.2 (Squeeze Theorem for Functions)**, the exponent tends to $0$. By continuity of $e^t$, the limit is $e^0=1$. $\blacksquare$
+
+## 1.6-10
+
+Let $y=D\left(x\right)$ be the Dirichlet function. Prove that for any $a\in\mathbb R$, $\lim_{x\to a}D\left(x\right)$ does not exist.
+
+### Solution to 1.6-10
+
+Take a rational sequence $\left\{r_n\right\}$ and an irrational sequence $\left\{s_n\right\}$, both converging to $a$ (by density of rationals and irrationals). Then $D\left(r_n\right)=1\to1$ and $D\left(s_n\right)=0\to0$. The two subsequential limits differ; by the Heine principle, $\lim_{x\to a}D\left(x\right)$ does not exist. $\blacksquare$
+
+## 1.6-11
+
+Find: $\lim_{x\to+\infty}\frac{\left(\ln x\right)^5}{x}$.
+
+### Solution to 1.6-11
+
+Substitute $y=\ln x$, so $x=e^y$, and as $x\to+\infty$, $y\to+\infty$. The expression becomes $\lim_{y\to+\infty}\frac{y^5}{e^y}=0$ (the exponential grows faster than any power). $\blacksquare$
+
+## 1.7-1
+
+Find the discontinuities and their types:
+
+(1) $y=\operatorname{sgn}\left(\sin x\right)$;
+
+(2)
+
+$$
+y=f\left(x\right)=\begin{cases}x^2e^x,&x> 0,\\sin\frac{\pi}{1+x^2},&x< 0,\\1,&x=0;\end{cases}
+$$
+
+(3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
+
+(4)
+
+$$
+y=f\left(x\right)=\begin{cases}e^{\sin\frac1x},&x\ne0,\\0,&x=0.\end{cases}
+$$
+
+### Solution to 1.7-1
+
+(1) At $x=k\pi$ ($k\in\mathbb Z$), $\sin x=0$, and the left/right limits of $\operatorname{sgn}\left(\sin x\right)$ are $1$ and $-1$ (or vice versa), so these are first-kind (jump) discontinuities. All other points are continuous.
+
+(2) As $x\to0+0$, $f\left(x\right)=x^2e^x\to0$; as $x\to0-0$,
+
+$$
+f\left(x\right)=\sin\frac{\pi}{1+x^2}\to\sin\pi=0.
+$$
+
+But $f\left(0\right)=1$, so $x=0$ is a removable discontinuity (first kind).
+
+(3) $x-\left[x\right]=\left\{x\right\}$ is the fractional part; at integers the left/right limits are $\cos0=1$ and $\cos\pi=-1$, so integers are jump discontinuities (first kind). Other points are continuous.
+
+(4) As $x\to0$, $\frac1x$ oscillates, $\sin\frac1x$ oscillates in $\left[-1,1\right]$, and $e^{\sin\left(1/x\right)}$ oscillates between $e^{-1}$ and $e$; the limit does not exist, so $x=0$ is a second-kind (oscillating) discontinuity. $\blacksquare$
+
+## 1.7-2-2
+
+Prove by $\varepsilon$-$\delta$ language: if $y=f\left(x\right)$ is continuous at $a$, then $y=\left|f\left(x\right)\right|$ is continuous at $a$.
+
+### Solution to 1.7-2-2
+
+By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-a\right|< \delta$ implies $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. By **Proposition 1.7 (Triangle Inequality)**,
+
+$$
+\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
+$$
+
+Thus $\left|f\left(x\right)\right|$ is continuous at $a$. $\blacksquare$
+
+## 1.7-3
+
+Use continuity of elementary functions to find:
+
+(1) $\lim_{x\to0}\cos\left(\sqrt{1+x^2}-1\right)$;
+
+(2) $\lim_{x\to0}e^{\frac{\sin x}{\sin2x}}$;
+
+(3) $\lim_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
+
+(4) $\lim_{x\to5}x^{\sqrt x}$;
+
+(5) $\lim_{x\to\infty}\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}$.
+
+### Solution to 1.7-3
+
+(1) By **Theorem 7.2 (Continuity of Composite Functions)**, $\lim_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$, so the expression $=\cos0=1$.
+
+(2) $\frac{\sin x}{\sin2x}\to\frac12$; by continuity of $e^u$, the expression $=e^{1/2}=\sqrt e$.
+
+(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$; by continuity of $\arctan u$, the expression $=\arctan1=\frac\pi4$.
+
+(4) $x^{\sqrt x}=e^{\sqrt x\ln x}$; $\sqrt x\ln x\to\sqrt5\ln5$; by continuity, the expression $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
+
+(5)
+
+$$
+\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}=\left[\left(1+\frac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt x\right)\left(x+1\right)}{x^2}}.
+$$
+
+The base tends to $e$ and the exponent to $1$, so the expression $=e$. $\blacksquare$

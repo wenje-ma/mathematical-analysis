@@ -1,157 +1,111 @@
 # week19
 
-> **Theorem 2.1 (First Substitution Rule)**
+> **Theorem 1.3 (Lagrange Mean Value Theorem)**
 > 
-> If $F'\left(u\right)=f\left(u\right)$ and $u=\varphi\left(x\right)$ is differentiable, then $\int f\left(\varphi\left(x\right)\right)\varphi'\left(x\right)\,\mathrm dx=F\left(\varphi\left(x\right)\right)+C$.
+> If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-> **Theorem 2.2 (Second Substitution Rule)**
+> **Theorem 1.3 (Linearity of Indefinite Integral)**
 > 
-> If $x=\varphi\left(t\right)$ is differentiable with inverse, and $\int f\left(\varphi\left(t\right)\right)\varphi'\left(t\right)\,\mathrm dt=G\left(t\right)+C$, then $\int f\left(x\right)\,\mathrm dx=G\left(\varphi^{-1}\left(x\right)\right)+C$.
+> If $f$ and $g$ have antiderivatives, then $\int\left[af\left(x\right)+bg\left(x\right)\right]\mathrm dx=a\int f\left(x\right)\,\mathrm dx+b\int g\left(x\right)\,\mathrm dx$.
 
-## 4.2-1-2
+> **Theorem 5.1 (Second Derivative Criterion for Convexity)**
+> 
+> If $f$ is twice differentiable on $\left(a,b\right)$, then $f$ is convex iff $f''\left(x\right)\ge0$, and concave iff $f''\left(x\right)\le0$.
 
-Find $\int\sqrt{2x+3}\,\mathrm dx$.
+## 3.5-3
 
-### Solution 4.2-1-2
+Let $f$ and $g$ be convex on $\left(a,b\right)$. Prove $F\left(x\right)=\max\left\{f\left(x\right),g\left(x\right)\right\}$ is convex.
 
-Let $u=2x+3$. By **Theorem 2.1 (First Substitution Rule)**,
+### Solution to 3.5-3
 
-$$
-\int\sqrt{2x+3}\,\mathrm dx=\frac13\left(2x+3\right)^{3/2}+C.
-$$
-
-$\blacksquare$
-
-## 4.2-1-4
-
-Find $\int\frac{\mathrm dx}{\left(x-1\right)^5}$.
-
-### Solution 4.2-1-4
-
-Let $u=x-1$. By **Theorem 2.1 (First Substitution Rule)**,
+For any $x_1,x_2$ and $t\in\left(0,1\right)$, since both $f$ and $g$ are convex,
 
 $$
-\int\frac{\mathrm dx}{\left(x-1\right)^5}=-\frac1{4\left(x-1\right)^4}+C.
+f\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right),
 $$
 
-$\blacksquare$
-
-## 4.2-1-6
-
-Find $\int\mathrm{sh}\,x\,\mathrm dx$.
-
-### Solution 4.2-1-6
-
-Since $\left(\mathrm{ch}\,x\right)'=\mathrm{sh}\,x$, $\int\mathrm{sh}\,x\,\mathrm dx=\mathrm{ch}\,x+C$. $\blacksquare$
-
-## 4.2-1-8
-
-Find $\int\frac{\mathrm dx}{a^2+b^2x^2}$ ($a,b> 0$).
-
-### Solution 4.2-1-8
-
-Let $u=\frac{bx}{a}$. By **Theorem 2.1 (First Substitution Rule)**,
-
 $$
-\int\frac{\mathrm dx}{a^2+b^2x^2}=\frac1{ab}\arctan\frac{bx}{a}+C.
+g\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
 $$
 
-$\blacksquare$
+Taking the max gives $F\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. $\blacksquare$
 
-## 4.2-1-10
+## 3.5-5
 
-Find $\int\frac{\mathrm dx}{\sin x+\cos x}$.
+Let $f\left(u\right)$ be convex and increasing on $\mathbb R$, and $g\left(x\right)$ be convex on $\left(a,b\right)$. Prove $f\left(g\left(x\right)\right)$ is convex.
 
-### Solution 4.2-1-10
+### Solution to 3.5-5
 
-Using $\sin x+\cos x=\sqrt2\sin\left(x+\frac\pi4\right)$ and letting $u=x+\frac\pi4$,
-
-$$
-\int\frac{\mathrm dx}{\sin x+\cos x}=\frac1{\sqrt2}\ln\left|\csc u-\cot u\right|+C.
-$$
-
-$\blacksquare$
-
-## 4.2-2-1
-
-Find $\int\sqrt{a^2-x^2}\,\mathrm dx$ ($a> 0$).
-
-### Solution 4.2-2-1
-
-Let $x=a\sin t$. By **Theorem 2.2 (Second Substitution Rule)**,
+Since $g$ is convex, $g\left(tx_1+\left(1-t\right)x_2\right)\le tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)$. Since $f$ is increasing,
 
 $$
-\int\sqrt{a^2-x^2}\,\mathrm dx=\frac{a^2}2\arcsin\frac xa+\frac x2\sqrt{a^2-x^2}+C.
+f\left(g\left(tx_1+\left(1-t\right)x_2\right)\right)\le f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right).
 $$
 
-$\blacksquare$
-
-## 4.2-2-3
-
-Find $\int\frac{\mathrm dx}{\sqrt{x^2+a^2}}$ ($a> 0$).
-
-### Solution 4.2-2-3
-
-Let $x=a\tan t$. By **Theorem 2.2 (Second Substitution Rule)**,
+Since $f$ is convex,
 
 $$
-\int\frac{\mathrm dx}{\sqrt{x^2+a^2}}=\ln\left(x+\sqrt{x^2+a^2}\right)+C'.
+f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right)\le tf\left(g\left(x_1\right)\right)+\left(1-t\right)f\left(g\left(x_2\right)\right).
+$$
+
+Thus $f\left(g\left(x\right)\right)$ is convex. $\blacksquare$
+
+## 3.5-6
+
+Let $f$ be differentiable, convex, and bounded on $\mathbb R$. Prove $f$ is constant.
+
+### Solution to 3.5-6
+
+By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $f''\ge0$, so $f'$ is increasing. If $f'\left(x_0\right)> 0$, then for $x> x_0$, by **Theorem 1.3 (Lagrange Mean Value Theorem)**, $f\left(x\right)\ge f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty$, contradicting boundedness. If $f'\left(x_0\right)< 0$, similarly $f\left(x\right)\to+\infty$ as $x\to-\infty$. Hence $f'\equiv0$ and $f$ is constant. $\blacksquare$
+
+## 3.5-7-1
+
+Sketch $y=\frac{\left(x+1\right)^3}{\left(x-1\right)^2}$.
+
+### Solution to 3.5-7-1
+
+Domain $\left(-\infty,1\right)\cup\left(1,+\infty\right)$. Vertical asymptote $x=1$, oblique asymptote $y=x+5$. $y'=\frac{\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^3}$; $x=5$ is a local minimum with value $\frac{27}2$. $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$; concave for $x< -1$, convex for $x> -1$; inflection point $\left(-1,0\right)$. $\blacksquare$
+
+## 3.5-7-2
+
+Sketch $y=xe^{-x}$.
+
+### Solution to 3.5-7-2
+
+Domain $\mathbb R$. Horizontal asymptote $y=0$ as $x\to+\infty$. $y'=\left(1-x\right)e^{-x}$; $x=1$ is a local maximum with value $\frac1e$. $y''=\left(x-2\right)e^{-x}$; concave for $x< 2$, convex for $x> 2$; inflection point $\left(2,2e^{-2}\right)$. $\blacksquare$
+
+## 3.5-7-3
+
+Sketch $y=xe^{-x^2}$.
+
+### Solution to 3.5-7-3
+
+Domain $\mathbb R$, odd function. Horizontal asymptote $y=0$. $y'=\left(1-2x^2\right)e^{-x^2}$; local minimum at $x=-\frac1{\sqrt2}$ with value $-\frac1{\sqrt{2e}}$, local maximum at $x=\frac1{\sqrt2}$ with value $\frac1{\sqrt{2e}}$. $y''=2x\left(2x^2-3\right)e^{-x^2}$; inflection points at $\left(0,0\right)$ and $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$. $\blacksquare$
+
+## 4.1-1-1
+
+Find $\int\left(x^3+4\right)\,\mathrm dx$.
+
+### Solution to 4.1-1-1
+
+By **Theorem 1.3 (Linearity of Indefinite Integral)**,
+
+$$
+\int\left(x^3+4\right)\,\mathrm dx=\frac{x^4}4+4x+C.
 $$
 
 $\blacksquare$
 
-## 4.2-2-5
+## 4.1-1-4
 
-Find $\int\sqrt{x^2-a^2}\,\mathrm dx$ ($a> 0$).
+Find $\int\tan^2x\,\mathrm dx$.
 
-### Solution 4.2-2-5
+### Solution to 4.1-1-4
 
-Let $x=a\sec t$. By **Theorem 2.2 (Second Substitution Rule)**,
-
-$$
-\int\sqrt{x^2-a^2}\,\mathrm dx=\frac x2\sqrt{x^2-a^2}-\frac{a^2}2\ln\left|x+\sqrt{x^2-a^2}\right|+C.
-$$
-
-$\blacksquare$
-
-## 4.2-2-7
-
-Find $\int\frac{\mathrm dx}{x\sqrt{a^2-x^2}}$ ($a> 0$).
-
-### Solution 4.2-2-7
-
-Let $x=a\sin t$. By **Theorem 2.2 (Second Substitution Rule)**,
+Using $\tan^2x=\sec^2x-1$ and **Theorem 1.3 (Linearity of Indefinite Integral)**,
 
 $$
-\int\frac{\mathrm dx}{x\sqrt{a^2-x^2}}=\frac1a\ln\left|\frac{a-\sqrt{a^2-x^2}}x\right|+C.
-$$
-
-$\blacksquare$
-
-## 4.2-2-9
-
-Find $\int\sqrt{7+x-x^2}\,\mathrm dx$.
-
-### Solution 4.2-2-9
-
-Completing the square: $7+x-x^2=\frac{29}4-\left(x-\frac12\right)^2$. Let $u=x-\frac12$. By **Theorem 2.1 (First Substitution Rule)** and 4.2-2-1,
-
-$$
-\int\sqrt{7+x-x^2}\,\mathrm dx=\frac{29}8\arcsin\frac{2x-1}{\sqrt{29}}+\frac{2x-1}4\sqrt{7+x-x^2}+C.
-$$
-
-$\blacksquare$
-
-## 4.2-2-11
-
-Find $\int\frac{\mathrm dx}{x^2\sqrt{x^2+a^2}}$ ($a> 0$).
-
-### Solution 4.2-2-11
-
-Let $x=a\tan t$. By **Theorem 2.2 (Second Substitution Rule)**,
-
-$$
-\int\frac{\mathrm dx}{x^2\sqrt{x^2+a^2}}=-\frac{\sqrt{x^2+a^2}}{a^2x}+C.
+\int\tan^2x\,\mathrm dx=\tan x-x+C.
 $$
 
 $\blacksquare$

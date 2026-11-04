@@ -6,7 +6,11 @@
 
 > **命题 1.7 (三角不等式)**
 > 
-> 对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+
+> **命题 2.1 (有界函数的充要条件)**
+> 
+> 函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M> 0$, 使得 $\left|f\left(x\right)\right|\le M$ 对一切 $x\in X$ 成立.
 
 > **定理 3.1 (极限四则运算定理)**
 > 
@@ -14,11 +18,110 @@
 
 > **定理 3.2 (实数域完备性)**
 > 
-> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限. 简言之, 单调递增有上界的序列有极限.
+> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限.
 
 > **例 3.3 (正数的 $n$ 次方根趋于 $1$)**
 > 
 > 设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
+
+## 1.2-11
+
+设
+
+$$
+f\left(x\right)=\begin{cases}e^x,&x\le0,\\ x,&x> 0;\end{cases}\quad g\left(x\right)=\begin{cases}x,&x\le0,\\ -x^2,&x> 0;\end{cases}
+$$
+
+求 $f\left(g\left(x\right)\right)$ 及 $g\left(f\left(x\right)\right)$ 的分段表示式, 并计算 $f\left(g\left(1\right)\right)$ 的值.
+
+### 解答 1.2-11
+
+先求 $f\left(g\left(x\right)\right)$. 由复合函数的定义:
+
+- 当 $x\le0$ 时, $g\left(x\right)=x\le0$, 故 $f\left(g\left(x\right)\right)=f\left(x\right)=e^x$;
+- 当 $x> 0$ 时, $g\left(x\right)=-x^2< 0$, 故
+
+$$
+f\left(g\left(x\right)\right)=f\left(-x^2\right)=e^{-x^2}.
+$$
+
+因此
+
+$$
+f\left(g\left(x\right)\right)=\begin{cases}e^x,&x\le0,\\ e^{-x^2},&x> 0.\end{cases}
+$$
+
+再求 $g\left(f\left(x\right)\right)$:
+
+- 当 $x\le0$ 时, $f\left(x\right)=e^x> 0$ (因 $x\le0$ 时 $0< e^x\le1$), 故
+
+$$
+g\left(f\left(x\right)\right)=g\left(e^x\right)=-\left(e^x\right)^2=-e^{2x};
+$$
+
+- 当 $x> 0$ 时, $f\left(x\right)=x> 0$, 故 $g\left(f\left(x\right)\right)=g\left(x\right)=-x^2$.
+
+因此
+
+$$
+g\left(f\left(x\right)\right)=\begin{cases}-e^{2x},&x\le0,\\ -x^2,&x> 0.\end{cases}
+$$
+
+最后, $g\left(1\right)=-1^2=-1$, 故
+
+$$
+f\left(g\left(1\right)\right)=f\left(-1\right)=e^{-1}=\frac1e.
+$$
+
+$\blacksquare$
+
+## 1.2-14
+
+判断下列函数是否为有界函数:
+
+(1) $y=5\sin e^x+10^{10}$;
+
+(2)
+
+$$
+y=\sqrt{x+10}-\sqrt{x}\quad\left(x> 0\right);
+$$
+
+(3) $y=\operatorname{ch}x$;
+
+(4)
+
+$$
+y=\ln\left(x+\sqrt{x^2+1}\right)\quad\left(x> 0\right).
+$$
+
+### 解答 1.2-14
+
+(1) 对任意 $x\in\mathbb R$, $\left|\sin e^x\right|\le1$, 故 $\left|5\sin e^x\right|\le5$, 从而
+
+$$
+\left|y\right|=\left|5\sin e^x+10^{10}\right|\le5+10^{10}.
+$$
+
+取 $M=5+10^{10}$, 由**命题 2.1 (有界函数的充要条件)**, $y=5\sin e^x+10^{10}$ 是有界函数.
+
+(2) 对 $x> 0$, 有理化得
+
+$$
+\sqrt{x+10}-\sqrt{x}=\frac{10}{\sqrt{x+10}+\sqrt{x}}.
+$$
+
+因分母 $\sqrt{x+10}+\sqrt{x}> \sqrt{10}$ ($x> 0$), 故 $0< y< \frac{10}{\sqrt{10}}=\sqrt{10}$. 取 $M=\sqrt{10}$, 由**命题 2.1 (有界函数的充要条件)**, $y=\sqrt{x+10}-\sqrt{x}$ 是有界函数.
+
+(3) $y=\operatorname{ch}x=\frac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$, 故 $y\to+\infty$, 不存在常数 $M> 0$ 使 $\left|y\right|\le M$ 对一切 $x\in\mathbb R$ 成立. 由**命题 2.1 (有界函数的充要条件)**, $y=\operatorname{ch}x$ 不是有界函数.
+
+(4) 当 $x\to+\infty$ 时, $x+\sqrt{x^2+1}\sim2x$, 故
+
+$$
+y=\ln\left(x+\sqrt{x^2+1}\right)\sim\ln\left(2x\right)\to+\infty,
+$$
+
+不存在常数 $M> 0$ 使 $\left|y\right|\le M$ 对一切 $x> 0$ 成立. 由**命题 2.1 (有界函数的充要条件)**, $y=\ln\left(x+\sqrt{x^2+1}\right)$ 不是有界函数. $\blacksquare$
 
 ## 1.3-1-2
 
@@ -121,157 +224,3 @@ $$
 $$
 
 $\blacksquare$
-
-## 1.3-2-4
-
-求极限: $\lim_{n\to\infty}\frac{\frac12+\frac1{2^2}+\cdots+\frac1{2^n}}{\frac13+\frac1{3^2}+\cdots+\frac1{3^n}}$.
-
-### 解答 1.3-2-4
-
-分子为等比级数:
-
-$$
-\sum_{k=1}^n\frac1{2^k}=\frac12\cdot\frac{1-\left(1/2\right)^n}{1-1/2}=1-\left(\frac12\right)^n\to1.
-$$
-
-分母为等比级数:
-
-$$
-\sum_{k=1}^n\frac1{3^k}=\frac13\cdot\frac{1-\left(1/3\right)^n}{1-1/3}=\frac12\left[1-\left(\frac13\right)^n\right]\to\frac12.
-$$
-
-由**定理 3.1 (极限四则运算定理)**,
-
-$$
-\lim_{n\to\infty}\frac{\text{分子}}{\text{分母}}=\frac1{1/2}=2.
-$$
-
-$\blacksquare$
-
-## 1.3-2-6
-
-求极限: $\lim_{n\to\infty}\frac{n^3+3n^2-100}{4n^3-n+2}$.
-
-### 解答 1.3-2-6
-
-分子分母同除以 $n^3$:
-
-$$
-\frac{n^3+3n^2-100}{4n^3-n+2}=\frac{1+3/n-100/n^3}{4-1/n^2+2/n^3}.
-$$
-
-当 $n\to\infty$ 时 $3/n\to0$, $100/n^3\to0$, $1/n^2\to0$, $2/n^3\to0$. 由**定理 3.1 (极限四则运算定理)**,
-
-$$
-\lim_{n\to\infty}\frac{n^3+3n^2-100}{4n^3-n+2}=\frac14.
-$$
-
-$\blacksquare$
-
-## 1.3-2-8
-
-求极限: $\lim_{n\to\infty}\left(1+\frac1n\right)^{-2n}$.
-
-### 解答 1.3-2-8
-
-$$
-\left(1+\frac1n\right)^{-2n}=\frac1{\left[\left(1+\frac1n\right)^n\right]^2}.
-$$
-
-由**定理 3.2 (实数域完备性)**, 单调递增有上界的序列 $\left\{\left(1+\frac1n\right)^n\right\}$ 有极限, 记为 $e$. 由**定理 3.1 (极限四则运算定理)**,
-
-$$
-\lim_{n\to\infty}\left(1+\frac1n\right)^{-2n}=\frac1{e^2}=e^{-2}.
-$$
-
-$\blacksquare$
-
-## 1.3-2-10
-
-求极限: $\lim_{n\to\infty}\sin\left(\pi\sqrt{n^2+1}\right)$.
-
-### 解答 1.3-2-10
-
-$$
-\sin\left(\pi\sqrt{n^2+1}\right)=\sin\left(n\pi+\pi\left(\sqrt{n^2+1}-n\right)\right)=\left(-1\right)^n\sin\left(\pi\left(\sqrt{n^2+1}-n\right)\right).
-$$
-
-由 $\left|\sin t\right|\le\left|t\right|$,
-
-$$
-\left|\sin\left(\pi\sqrt{n^2+1}\right)\right|=\left|\sin\left(\pi\left(\sqrt{n^2+1}-n\right)\right)\right|\le\pi\left(\sqrt{n^2+1}-n\right)=\frac{\pi}{\sqrt{n^2+1}+n}\to0.
-$$
-
-由**命题 1.6 (绝对值的性质)** 及夹逼思想, $\lim_{n\to\infty}\sin\left(\pi\sqrt{n^2+1}\right)=0$. $\blacksquare$
-
-## 1.3-3
-
-根据极限的定义证明下列事实:
-
-(1) 若 $\lim_{n\to\infty}a_n=l$, 则对于任意正整数 $k$, 都有
-
-$$
-\lim_{n\to\infty}a_{n+k}=l;
-$$
-
-(2) 若 $\lim_{n\to\infty}a_n=l$, 则有
-
-$$
-\lim_{n\to\infty}a_{2n-1}=l,\quad\lim_{n\to\infty}a_{2n}=l.
-$$
-
-### 解答 1.3-3
-
-(1) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n> N'$ 时 $n+k> N$, 从而 $\left|a_{n+k}-l\right|< \varepsilon$. 故 $\lim_{n\to\infty}a_{n+k}=l$.
-
-(2) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n> N'$ 时 $2n> N$ 且 $2n-1> N$, 从而 $\left|a_{2n}-l\right|< \varepsilon$ 且 $\left|a_{2n-1}-l\right|< \varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
-
-## 1.3-4
-
-设 $\lim_{n\to\infty}a_n=l$, 证明: $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$.
-
-### 解答 1.3-4
-
-由**命题 1.7 (三角不等式)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\varepsilon> 0$, 由序列极限的定义, 存在 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 于是当 $n> N$ 时
-
-$$
-\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|< \varepsilon.
-$$
-
-由序列极限的定义, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
-
-## 1.3-5
-
-令 $x_1> \sqrt2$, $x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)$, $n=1,2,\cdots$. 证明:
-
-(1) $x_n\ge\sqrt2$;
-
-(2) $\left\{x_n\right\}$ 单调递减;
-
-(3) $\lim_{n\to\infty}x_n$ 存在, 且 $\lim_{n\to\infty}x_n=\sqrt2$.
-
-### 解答 1.3-5
-
-(1) 由算术-几何平均不等式,
-
-$$
-x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)\ge\sqrt{x_n\cdot\frac2{x_n}}=\sqrt2.
-$$
-
-由归纳法, $x_n\ge\sqrt2$ 对一切 $n$ 成立 ($x_1> \sqrt2$ 为基始).
-
-(2)
-
-$$
-x_{n+1}-x_n=\frac12\left(\frac2{x_n}-x_n\right)=\frac{2-x_n^2}{2x_n}.
-$$
-
-由 (1) $x_n^2\ge2$, 故 $x_{n+1}-x_n\le0$, 即 $\left\{x_n\right\}$ 单调递减.
-
-(3) $\left\{x_n\right\}$ 单调递减且有下界 $\sqrt2$, 由**定理 3.2 (实数域完备性)** 的递减版本, $\lim_{n\to\infty}x_n$ 存在, 设为 $l$. 在 $x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)$ 两边取极限, 由**定理 3.1 (极限四则运算定理)** 得
-
-$$
-l=\frac12\left(l+\frac2l\right),
-$$
-
-即 $l^2=2$. 又 $l\ge\sqrt2> 0$, 故 $l=\sqrt2$. $\blacksquare$

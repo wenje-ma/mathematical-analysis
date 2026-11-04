@@ -4,130 +4,154 @@
 > 
 > 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **定理 7.2 (复合函数连续性)**
+> **定理 5.1 (函数极限四则运算)**
 > 
-> 若 $y=g\left(u\right)$ 在 $u_0$ 点连续, $u=f\left(x\right)$ 在 $x_0$ 点连续且 $f\left(x_0\right)=u_0$, 则复合函数 $y=g\left(f\left(x\right)\right)$ 在 $x_0$ 点连续.
+> 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-## 1.7-1
+> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin x}{x}=1$)**
+> 
+> $\lim_{x\to0}\frac{\sin x}{x}=1$.
 
-指出下列函数的间断点及其类型:
+> **定理 6.2 (函数的夹逼定理)**
+> 
+> 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. 若 $\lim g\left(x\right)=\lim h\left(x\right)=l$, 则 $\lim f\left(x\right)=l$.
 
-(1) $y=\operatorname{sgn}\left(\sin x\right)$;
+## 1.5-5
+
+设 $\lim_{x\to2}f\left(x\right)=l$, 证明: $y\to\sqrt2$ 时, $f\left(y^2\right)\to l$.
+
+### 解答 1.5-5
+
+任给 $\varepsilon> 0$, 由函数极限的定义, 存在 $\delta_1> 0$, 使得当 $0< \left|x-2\right|< \delta_1$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$. 令 $x=y^2$, 则需 $0< \left|y^2-2\right|< \delta_1$.
+
+因 $y\to\sqrt2$, 可限制 $\left|y-\sqrt2\right|< 1$, 此时 $\left|y+\sqrt2\right|\le2\sqrt2+1$. 取 $\delta=\min\left\{1,\frac{\delta_1}{2\sqrt2+1}\right\}$, 则当 $0< \left|y-\sqrt2\right|< \delta$ 时,
+
+$$
+\left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|< \delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
+$$
+
+且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|< \varepsilon$. 由函数极限的定义, $f\left(y^2\right)\to l$. $\blacksquare$
+
+## 1.5-6
+
+讨论下列函数在 $x=0$ 点的左右极限:
+
+(1) $y=\left[x\right]\cdot\left(1+x\right)$;
+
+(2) $y=\cos x\cdot\operatorname{sgn}x$;
+
+(3) $y=\frac{\left|x\right|}{x}\cdot\frac1{1+x^n}$.
+
+### 解答 1.5-6
+
+(1) 当 $x\to0+0$ 时 $\left[x\right]=0$, 故 $y=0$, 右极限为 $0$. 当 $x\to0-0$ 时 $\left[x\right]=-1$, 故 $y=-\left(1+x\right)\to-1$, 左极限为 $-1$.
+
+(2) 当 $x\to0+0$ 时 $\operatorname{sgn}x=1$, 故 $y=\cos x\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\operatorname{sgn}x=-1$, 故 $y=-\cos x\to-1$, 左极限为 $-1$.
+
+(3) 当 $x\to0+0$ 时 $\frac{\left|x\right|}{x}=1$, 且 $\frac1{1+x^n}\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\frac{\left|x\right|}{x}=-1$, 且 $\frac1{1+x^n}\to1$ (因 $x^n\to0$), 左极限为 $-1$. $\blacksquare$
+
+## 1.5-7
+
+求极限:
+
+(1) $\lim_{x\to-1}\left(\frac1{x+1}-\frac3{x^3+1}\right)$;
+
+(2) $\lim_{x\to0}\frac{\sqrt{a^2+x}-a}{x}$ ($a> 0$).
+
+### 解答 1.5-7
+
+(1) 由因式分解 $x^3+1=\left(x+1\right)\left(x^2-x+1\right)$,
+
+$$
+\frac1{x+1}-\frac3{x^3+1}=\frac{x^2-x+1-3}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{x^2-x-2}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{\left(x-2\right)\left(x+1\right)}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{x-2}{x^2-x+1}.
+$$
+
+由**定理 5.1 (函数极限四则运算)**,
+
+$$
+\lim_{x\to-1}\frac{x-2}{x^2-x+1}=\frac{-1-2}{1+1+1}=-1.
+$$
+
+(2) 分子有理化:
+
+$$
+\frac{\sqrt{a^2+x}-a}{x}=\frac{\left(\sqrt{a^2+x}-a\right)\left(\sqrt{a^2+x}+a\right)}{x\left(\sqrt{a^2+x}+a\right)}=\frac{x}{x\left(\sqrt{a^2+x}+a\right)}=\frac1{\sqrt{a^2+x}+a}.
+$$
+
+由**定理 5.1 (函数极限四则运算)** 及 $\lim_{x\to0}\sqrt{a^2+x}=a$,
+
+$$
+\lim_{x\to0}\frac{\sqrt{a^2+x}-a}{x}=\frac1{2a}.
+$$
+
+$\blacksquare$
+
+## 1.6-2
+
+用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim_{x\to a}f\left(x\right)=l$ 且 $l> 0$, 则存在 $\delta> 0$, 使得 $f\left(x\right)> \frac l2$, 只要 $0< \left|x-a\right|< \delta$.
+
+### 解答 1.6-2
+
+取 $\varepsilon=\frac l2> 0$. 由函数极限的定义, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-l\right|< \frac l2$. 由**命题 1.7 (三角不等式)**,
+
+$$
+f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
+$$
+
+故 $f\left(x\right)> \frac l2$. $\blacksquare$
+
+## 1.6-3
+
+利用极限 $\lim_{x\to0}\frac{\sin x}{x}=1$ 求下列极限:
+
+(1) $\lim_{x\to0}\frac{\sin\alpha x}{\sin\beta x}$ ($\beta\ne0$);
+
+(2) $\lim_{x\to0}\frac{\tan3x-\tan5x}{\sin2x}$;
+
+(3) $\lim_{x\to0}\frac{1-\cos x}{x^2}$;
+
+(4) $\lim_{x\to a}\frac{\sin x-\sin a}{x-a}$.
+
+### 解答 1.6-3
+
+(1) $\frac{\sin\alpha x}{\sin\beta x}=\frac{\alpha}{\beta}\cdot\frac{\sin\alpha x}{\alpha x}\cdot\frac{\beta x}{\sin\beta x}$. 由**命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin x}{x}=1$)** 及**定理 5.1 (函数极限四则运算)**, 极限为 $\frac{\alpha}{\beta}$.
 
 (2)
 
 $$
-y=f\left(x\right)=\begin{cases}x^2e^x,&x> 0,\\sin\frac{\pi}{1+x^2},&x< 0,\\1,&x=0;\end{cases}
+\tan3x-\tan5x=\frac{\sin3x}{\cos3x}-\frac{\sin5x}{\cos5x}=\frac{\sin3x\cos5x-\cos3x\sin5x}{\cos3x\cos5x}=\frac{-\sin2x}{\cos3x\cos5x}.
 $$
 
-(3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
+故原式 $=\frac{-1}{\cos3x\cos5x}\to-1$.
+
+(3) $1-\cos x=2\sin^2\frac x2$, 故
+
+$$
+\frac{1-\cos x}{x^2}=\frac{2\sin^2\left(x/2\right)}{x^2}=\frac12\left(\frac{\sin\left(x/2\right)}{x/2}\right)^2\to\frac12.
+$$
 
 (4)
 
 $$
-y=f\left(x\right)=\begin{cases}e^{\sin\frac1x},&x\ne0,\\0,&x=0.\end{cases}
+\sin x-\sin a=2\cos\frac{x+a}2\sin\frac{x-a}2,
 $$
 
-### 解答 1.7-1
-
-(1) 当 $x=k\pi$ ($k\in\mathbb Z$) 时 $\sin x=0$, $\operatorname{sgn}\left(\sin x\right)$ 左右极限分别为 $1$ 与 $-1$ (或反之), 为第一类间断点 (跳跃间断点). 其余点连续.
-
-(2) $x\to0+0$ 时 $f\left(x\right)=x^2e^x\to0$; $x\to0-0$ 时
+故
 
 $$
-f\left(x\right)=\sin\frac{\pi}{1+x^2}\to\sin\pi=0.
+\frac{\sin x-\sin a}{x-a}=\cos\frac{x+a}2\cdot\frac{\sin\left(x-a\right)/2}{\left(x-a\right)/2}\to\cos a.
 $$
 
-但 $f\left(0\right)=1$, 故 $x=0$ 为可去间断点 (第一类).
+$\blacksquare$
 
-(3) $x-\left[x\right]=\left\{x\right\}$ 为小数部分, 在整数点处左右极限分别为 $\cos0=1$ 与 $\cos\pi=-1$, 故整数点为跳跃间断点 (第一类). 其余点连续.
+## 1.6-4-1
 
-(4) $x\to0$ 时 $\frac1x$ 振荡, $\sin\frac1x$ 在 $\left[-1,1\right]$ 内振荡, $e^{\sin\left(1/x\right)}$ 在 $e^{-1}$ 与 $e$ 之间振荡, 极限不存在, 故 $x=0$ 为第二类间断点 (振荡间断点). $\blacksquare$
+利用 $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$ 求极限: $\lim_{x\to\infty}\left(1+\frac3x\right)^x\cdot\left(1+\frac5x\right)^x$.
 
-## 1.7-2-2
-
-试用 $\varepsilon$-$\delta$ 语言证明: 若 $y=f\left(x\right)$ 在 $a$ 点连续, 则 $y=\left|f\left(x\right)\right|$ 在 $a$ 点连续.
-
-### 解答 1.7-2-2
-
-由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. 由**命题 1.7 (三角不等式)**,
+### 解答 1.6-4-1
 
 $$
-\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
+\left(1+\frac3x\right)^x=\left[\left(1+\frac3x\right)^{x/3}\right]^3\to e^3,\quad\left(1+\frac5x\right)^x=\left[\left(1+\frac5x\right)^{x/5}\right]^5\to e^5.
 $$
 
-故 $\left|f\left(x\right)\right|$ 在 $a$ 点连续. $\blacksquare$
-
-## 1.7-3
-
-利用初等函数的连续性求下列极限:
-
-(1) $\lim_{x\to0}\cos\left(\sqrt{1+x^2}-1\right)$;
-
-(2) $\lim_{x\to0}e^{\frac{\sin x}{\sin2x}}$;
-
-(3) $\lim_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
-
-(4) $\lim_{x\to5}x^{\sqrt x}$;
-
-(5) $\lim_{x\to\infty}\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}$.
-
-### 解答 1.7-3
-
-(1) 由**定理 7.2 (复合函数连续性)**, $\lim_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$, 故原式 $=\cos0=1$.
-
-(2) $\frac{\sin x}{\sin2x}\to\frac12$, 由 $e^u$ 的连续性, 原式 $=e^{1/2}=\sqrt e$.
-
-(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$, 由 $\arctan u$ 的连续性, 原式 $=\arctan1=\frac\pi4$.
-
-(4) $x^{\sqrt x}=e^{\sqrt x\ln x}$, $\sqrt x\ln x\to\sqrt5\ln5$, 由连续性, 原式 $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
-
-(5)
-
-$$
-\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}=\left[\left(1+\frac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt x\right)\left(x+1\right)}{x^2}}.
-$$
-
-底数趋于 $e$, 指数趋于 $1$, 故原式 $=e$. $\blacksquare$
-
-## 1.7-4
-
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x=g\left(t\right)$ 当 $t\to\infty$ 时有极限, 且极限落在 $\left(a,b\right)$ 之中. 试证明
-
-$$
-\lim_{t\to\infty}f\left(g\left(t\right)\right)=f\left(\lim_{t\to\infty}g\left(t\right)\right).
-$$
-
-### 解答 1.7-4
-
-设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-c\right|< \delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. 又因 $g\left(t\right)\to c$, 存在 $T> 0$, 当 $t> T$ 时 $\left|g\left(t\right)-c\right|< \delta$. 于是当 $t> T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
-
-## 1.7-5
-
-设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在实数域 $\mathbb R$ 中有定义且连续. 假定 $f\left(x\right)=g\left(x\right)$ 对一切 $x\in\mathbb Q$ 成立, 试证明 $f\left(x\right)\equiv g\left(x\right)$ 对一切 $x\in\mathbb R$ 成立.
-
-### 解答 1.7-5
-
-任取 $x_0\in\mathbb R$. 由有理数的稠密性, 存在有理序列 $\left\{r_n\right\}$ 使 $r_n\to x_0$. 因 $f,g$ 连续,
-
-$$
-f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n\right)=g\left(x_0\right).
-$$
-
-故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv g$. $\blacksquare$
-
-## 1.7-6
-
-设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot e^{t_2}$ 的条件下, 证明下列极限等式:
-
-$$
-\lim_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}.
-$$
-
-### 解答 1.7-6
-
-$$
-\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=\left(1+\frac{t_1+t_2+t_1t_2/x}{x}\right)^x=\left[\left(1+\frac{t_1+t_2+o\left(1\right)}{x}\right)^{\frac{x}{t_1+t_2+o\left(1\right)}}\right]^{t_1+t_2+o\left(1\right)}.
-$$
-
-底数趋于 $e$, 指数趋于 $t_1+t_2$. 由指数函数连续性, 极限为 $e^{t_1+t_2}$. $\blacksquare$
+由**定理 5.1 (函数极限四则运算)**, 乘积的极限为 $e^3\cdot e^5=e^8$. $\blacksquare$

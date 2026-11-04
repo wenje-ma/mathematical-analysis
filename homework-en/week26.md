@@ -1,59 +1,99 @@
 # week26
 
-> **Theorem 1.3 (Lagrange Mean Value Theorem)**
+> **Proposition 1.3 (Necessary and Sufficient Condition for Measurable Area)**
 > 
-> If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
+> $E$ is measurable iff $\partial E$ has zero area.
 
-## 6.1-2
+> **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**
+> 
+> $f$ is integrable on $D$ iff $\lim_{\lambda\to0}\sum_i\omega_i\Delta\sigma_i=0$.
 
-Compute the Riemann sums for $y=x$ and $y=x^2$ on $\left[0,1\right]$ ($n$ equal subintervals, right endpoints) and take $n\to\infty$.
+> **Theorem 1.5 (Continuous Functions Are Integrable)**
+> 
+> If $D$ is a bounded closed region with zero-area boundary and $f$ is continuous on $D$, then $f$ is integrable.
 
-### Solution 6.1-2
+> **Theorem 2.1 (Reduction to Iterated Integrals)**
+> 
+> $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
 
-For $y=x$: $\frac{n+1}{2n}\to\frac12$, so $\int_0^1 x\,\mathrm dx=\frac12$.
+> **Theorem 2.2 (Double Integrals in Polar Coordinates)**
+> 
+> $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
 
-For $y=x^2$: $\frac{\left(n+1\right)\left(2n+1\right)}{6n^2}\to\frac13$, so $\int_0^1 x^2\,\mathrm dx=\frac13$. $\blacksquare$
+## 8.1-3
 
-## 6.1-3
+Prove the Dirichlet function $D\left(x,y\right)$ is not integrable on $\left[0,1\right]^2$.
 
-Express the area as an integral; find $\int_c^d\varphi+\int_a^b\psi$.
+### Solution to 8.1-3
 
-### Solution 6.1-3
+Every subregion contains both rational and irrational points, so $\omega_i=1$. The oscillation sum equals $1$, not $0$. By **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**, not integrable. $\blacksquare$
 
-The area is $\int_c^d\varphi\left(y\right)\,\mathrm dy$. The sum equals $bd-ac$. $\blacksquare$
+## 8.1-4
 
-## 6.1-5
+Prove: modifying $f$ on a line segment $\gamma$ does not change the integral.
 
-Prove: $f$ is integrable iff the lower and upper Darboux sums converge to the same limit.
+### Solution to 8.1-4
 
-### Solution 6.1-5
+By **Proposition 1.3 (Necessary and Sufficient Condition for Measurable Area)**, $\gamma$ has zero area. By additivity, the integral over $\gamma$ is $0$. $\blacksquare$
 
-**Necessity**: if $f$ is integrable with integral $I$, then both lower and upper sums approach $I$.
+## 8.1-5
 
-**Sufficiency**: if both limits equal $I$, then by squeeze theorem any Riemann sum approaches $I$. $\blacksquare$
+Prove: if $f$ is integrable, then $\left|f\right|$ is integrable.
 
-## 6.1-6
+### Solution to 8.1-5
 
-Prove:
+Since $\omega_{\left|f\right|}\le\omega_f$, **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)** gives integrability. $\blacksquare$
 
-(1) $\frac\pi2\le\int_0^{\pi/2}\left(1+\sin x\right)\,\mathrm dx\le\pi$;
+## 8.1-8
 
-(2) $\sqrt2\le\int_0^1\sqrt{2+x-x^2}\,\mathrm dx\le\frac32$.
+Prove: there exists $\left(x_0,y_0\right)$ such that $\iint_D fg=f\left(x_0,y_0\right)\iint_D g$.
 
-### Solution 6.1-6
+### Solution to 8.1-8
 
-By the comparison property of integrals. $\blacksquare$
+By **Theorem 1.5 (Continuous Functions Are Integrable)**, $f$ has max $M$ and min $m$. By monotonicity, $m\iint_D g\le\iint_D fg\le M\iint_D g$. The intermediate value theorem gives the result. $\blacksquare$
 
-## 6.1-8
+## 8.1-9
 
-Prove: $\int_a^b f\left(x\right)\,\mathrm dx=F\left(b\right)-F\left(a\right)$.
+Let $f\ge0$ be continuous on $D$ with $\iint_D f=0$. Prove $f\equiv0$.
 
-### Solution 6.1-8
+### Solution to 8.1-9
 
-For any partition, by **Theorem 1.3 (Lagrange Mean Value Theorem)**,
+If $f\left(x_0,y_0\right)> 0$, continuity gives a neighborhood where $f> \frac{f\left(x_0,y_0\right)}2$. By monotonicity, the integral is positive. $\blacksquare$
 
-$$
-F\left(b\right)-F\left(a\right)=\sum f\left(\xi_k\right)\Delta x_k.
-$$
+## 8.2-2
 
-Taking the limit gives the result. $\blacksquare$
+Change the order of integration.
+
+### Solution to 8.2-2
+
+(1) $\int_0^1\mathrm dx\int_{x^2}^x f\,\mathrm dy$.
+
+(2) $\int_1^2\mathrm dy\int_1^y f\,\mathrm dx+\int_2^4\mathrm dy\int_{y/2}^2 f\,\mathrm dx$.
+
+(3) $\int_0^5\mathrm dy\int_0^y f\,\mathrm dx+\int_5^{10}\mathrm dy\int_0^{10-y}f\,\mathrm dx$.
+
+(4) $\int_1^e\mathrm dy\int_0^{\ln y}f\,\mathrm dx$. $\blacksquare$
+
+## 8.2-3
+
+Compute.
+
+### Solution to 8.2-3
+
+(1) $\frac\pi4$. (2) $\frac{33}{140}$. (3) $\frac12$. (4) $\frac16$. $\blacksquare$
+
+## 8.2-4
+
+Compute.
+
+### Solution to 8.2-4
+
+(1) $2$. (2) $4-\sin4$. $\blacksquare$
+
+## 8.2-5
+
+Use polar coordinates.
+
+### Solution to 8.2-5
+
+(1) $\pi\left(1-\ln2\right)$. (2) $2$. (3) $\frac\pi4\left[\left(1+R^2\right)\ln\left(1+R^2\right)-R^2\right]$. $\blacksquare$

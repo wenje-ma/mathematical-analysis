@@ -1,55 +1,157 @@
 # week36
 
-> **定理 4.1 (奥-高公式)**
+> **定理 3.1 (狄利克雷收敛定理)**
 > 
-> 设 $S$ 是分片光滑的封闭曲面, 所围区域为 $\Omega$, $P,Q,R$ 在 $\Omega$ 中有一阶连续偏导数. 则 $\oiint_{S^+}P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
+> 设 $f\left(x\right)$ 以 $2\pi$ 为周期且逐段单调有界, 则其傅里叶级数在每点 $x$ 收敛于 $\frac{f\left(x+0\right)+f\left(x-0\right)}2$.
 
-> **定理 4.2 (斯托克斯公式)**
+> **定理 4.1 (贝塞尔不等式)**
 > 
-> 设 $S$ 为分片光滑的双侧曲面, 边界 $L$ 为分段光滑闭曲线, $L$ 的定向与 $S$ 的法向量构成右手系. 则 $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy+R\,\mathrm dz=\iint_{S^+}\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)\mathrm dy\mathrm dz+\left(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right)\mathrm dz\mathrm dx+\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
+> $\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)\le\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx$, 特别地 $\sum a_n^2$ 与 $\sum b_n^2$ 均收敛.
 
-## 9.4-1
+> **定理 4.2 (封闭性方程/Parseval 等式)**
+> 
+> $\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
 
-求 $\oiint_{S^+}xz^2\,\mathrm dy\mathrm dz+\left(x^2y-z^3\right)\,\mathrm dz\mathrm dx+\left(2xy+y^2z\right)\,\mathrm dx\mathrm dy$, 其中 $S^+$ 为半球区域全表面外侧.
+> **命题 (伽马与贝塔的积分形式)**
+> 
+> $\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
 
-### 解答 9.4-1
+> **命题 (三角函数系的正交性)**
+> 
+> 三角函数系 $1,\cos x,\sin x,\cos2x,\sin2x,\cdots$ 在 $\left[-\pi,\pi\right]$ 上两两正交, 且 $\int_{-\pi}^\pi1\,\mathrm dx=2\pi$, $\int_{-\pi}^\pi\cos^2nx\,\mathrm dx=\int_{-\pi}^\pi\sin^2nx\,\mathrm dx=\pi$.
 
-由**定理 4.1 (奥-高公式)**, 被积散度为 $z^2+x^2+y^2$. 用球坐标,
+> **命题 (傅里叶系数)**
+> 
+> $a_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\cos nx\,\mathrm dx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\left(x\right)\sin nx\,\mathrm dx$.
 
-$$
-I=\frac{2\pi a^5}{5}.
-$$
+> **定理 (封闭性方程)**
+> 
+> $\frac1\pi\int_{-\pi}^\pi f^2\left(x\right)\mathrm dx=\frac{a_0^2}2+\sum_{n=1}^\infty\left(a_n^2+b_n^2\right)$.
 
-$\blacksquare$
+## 12.6-2
 
-## 9.4-3
+证明 $\Gamma\left(\alpha\right)$ 在 $\left(0,+\infty\right)$ 上不一致收敛.
 
-求 $\oiint_{S^+}x^3\,\mathrm dy\mathrm dz+y^3\,\mathrm dz\mathrm dx+z^3\,\mathrm dx\mathrm dy$, $S^+$ 为球面外侧.
+### 解答 12.6-2
 
-### 解答 9.4-3
+取 $\alpha_n=\frac1n\to0+$, 则 $\int_0^{1/n}t^{\alpha_n-1}e^{-t}\mathrm dt\to1\ne0$. 故不满足一致收敛的柯西条件. $\blacksquare$
 
-由**定理 4.1 (奥-高公式)**, $I=3\iiint_\Omega\left(x^2+y^2+z^2\right)\mathrm dV=\frac{12\pi a^5}{5}$. $\blacksquare$
+## 13.1-1
 
-## 9.4-5
+证明内积的对称性与线性性.
 
-求 $\oiint_{S^+}\boldsymbol F\cdot\boldsymbol n\,\mathrm dS$, 其中 $\boldsymbol F=\left(x^4,y^4,z^4\right)$, $S^+$ 为锥面侧面.
+### 解答 13.1-1
 
-### 解答 9.4-5
+由内积与范数的定义 及积分的线性性, $\left\langle f,g\right\rangle=\left\langle g,f\right\rangle$, $\left\langle\lambda f+\mu g,h\right\rangle=\lambda\left\langle f,h\right\rangle+\mu\left\langle g,h\right\rangle$. $\blacksquare$
 
-补上顶面 $S_1$. 由**定理 4.1 (奥-高公式)**, 散度为 $4\left(x^3+y^3+z^3\right)$. 由对称性 $x^3,y^3$ 项为 $0$. 三重积分 $=\frac{2\pi h^6}{3}$. 顶面贡献 $=\pi h^6$. 故原式 $=-\frac{\pi h^6}{3}$. $\blacksquare$
+## 13.1-2
 
-## 9.4-7
+证明柯西-施瓦茨不等式: $\left|\left\langle f,g\right\rangle\right|\le\left|f\right|\cdot\left|g\right|$.
 
-求 $\oint_{L^+}y^2\,\mathrm dx+xy\,\mathrm dy+xz\,\mathrm dz$, 其中 $L$ 为圆柱面与平面 $y=z$ 的交线.
+### 解答 13.1-2
 
-### 解答 9.4-7
+对任意 $\lambda$, $\left|f-\lambda g\right|^2\ge0$, 展开得关于 $\lambda$ 的二次三项式恒非负, 判别式不大于 $0$, 即得. $\blacksquare$
 
-旋度 $\nabla\times\boldsymbol F=\left(0,-z,-y\right)$. 取曲面 $S$ 为平面 $y=z$ 上的区域. 由**定理 4.2 (斯托克斯公式)**, 因 $z=y$, 被积表达式为 $0$. 故 $\oint_{L^+}=0$. $\blacksquare$
+## 13.1-3
 
-## 9.4-8
+证明等号成立当且仅当 $f,g$ 线性相关.
 
-求 $\oint_{L^+}\left(y^2+z^2-x^2\right)\,\mathrm dx+\left(x^2+z^2-y^2\right)\,\mathrm dy+\left(x^2+y^2-z^2\right)\,\mathrm dz$.
+### 解答 13.1-3
 
-### 解答 9.4-8
+$\left(\Leftarrow\right)$ 若 $g=\lambda f$, 直接验证. $\left(\Rightarrow\right)$ 若等号成立, 判别式为 $0$, 存在 $\lambda_0$ 使 $\left|f-\lambda_0g\right|^2=0$. 由连续性, $f\equiv\lambda_0g$. $\blacksquare$
 
-旋度 $\nabla\times\boldsymbol F=2\left(y-z,z-x,x-y\right)$. 取曲面 $S$ 为上半球面. 由**定理 4.2 (斯托克斯公式)**, 化简后被积函数为 $2\left(R-\frac{Ry}{z}\right)$. 由对称性, $y/z$ 项积分为 $0$. 故 $\oint_{L^+}=2\pi Rr^2$. $\blacksquare$
+## 13.1-7
+
+证明 $c_1+c_2\cos x+c_3\sin x\equiv0$ 蕴含 $c_1=c_2=c_3=0$, 并推广到任意有穷个元素线性无关.
+
+### 解答 13.1-7
+
+两端分别乘以 $1,\cos x,\sin x$ 并积分. 由**命题 (三角函数系的正交性)**, 交叉项为零, 得 $2\pi c_1=0$, $\pi c_2=0$, $\pi c_3=0$. 推广同理. $\blacksquare$
+
+## 13.2-1-1
+
+求 $f\left(x\right)=x^2$ ($-\pi\le x\le\pi$) 的傅里叶级数.
+
+### 解答 13.2-1-1
+
+由**命题 (傅里叶系数)**, $a_0=\frac{2\pi^2}3$, $a_n=\frac{4\left(-1\right)^n}{n^2}$, $b_n=0$. 故 $x^2\sim\frac{\pi^2}3+4\sum_{n=1}^\infty\frac{\left(-1\right)^n}{n^2}\cos nx$. $\blacksquare$
+
+## 13.2-1-3
+
+求 $f\left(x\right)=\sin^4x$ 的傅里叶级数.
+
+### 解答 13.2-1-3
+
+三角恒等变换得 $\sin^4x=\frac38-\frac12\cos2x+\frac18\cos4x$. 由**命题 (傅里叶系数)** 直接读出系数. $\blacksquare$
+
+## 13.2-1-5
+
+求 $f\left(x\right)=\begin{cases}0,&-\pi\le x< 0\\ x,&0\le x\le\pi\end{cases}$ 的傅里叶级数.
+
+### 解答 13.2-1-5
+
+由**命题 (傅里叶系数)**, $a_0=\frac\pi2$, $a_n=\frac{\left(-1\right)^n-1}{n^2\pi}$, $b_n=\frac{\left(-1\right)^{n+1}}n$. 故 $f\left(x\right)\sim\frac\pi4-\frac2\pi\sum_{k=0}^\infty\frac{\cos\left(2k+1\right)x}{\left(2k+1\right)^2}+\sum_{n=1}^\infty\frac{\left(-1\right)^{n+1}}n\sin nx$. $\blacksquare$
+
+## 13.2-7
+
+证明: 若 $f\left(x+\pi\right)=f\left(x\right)$, 则 $a_{2n-1}=b_{2n-1}=0$; 若 $f\left(x+\pi\right)=-f\left(x\right)$, 则 $a_{2n}=b_{2n}=0$.
+
+### 解答 13.2-7
+
+拆积分并作代换 $x=t-\pi$, 利用 $\cos\left(n\left(t-\pi\right)\right)=\left(-1\right)^n\cos nt$. 条件 (i) 时 $\left(-1\right)^n+1=0$ ($n$ 奇); 条件 (ii) 时 $1-\left(-1\right)^n=0$ ($n$ 偶). $\blacksquare$
+
+## 13.3-1
+
+证明: 当 $0< x< \pi$ 时 $1=\frac12+\frac2\pi\sum_{n=0}^\infty\frac{\sin\left(2n+1\right)x}{2n+1}$, 并推出 $\frac\pi4=\sum_{n=0}^\infty\frac{\left(-1\right)^n}{2n+1}$.
+
+### 解答 13.3-1
+
+由**命题 (傅里叶系数)**, $a_0=1$, $a_n=0$, $b_n=\frac{1-\left(-1\right)^n}{n\pi}$. 由**定理 3.1 (狄利克雷收敛定理)**, 连续点处等式成立. 取 $x=\frac\pi2$ 得 $\frac\pi4=\sum\frac{\left(-1\right)^n}{2n+1}$. $\blacksquare$
+
+## 13.3-3
+
+求 $f\left(x\right)=\left(\pi-\left|x\right|\right)^2$ 的傅里叶级数, 并求 $\sum\frac1{n^2}$ 与 $\sum\frac1{n^4}$.
+
+### 解答 13.3-3
+
+由**命题 (傅里叶系数)**, $a_0=\frac{2\pi^2}3$, $a_n=\frac4{n^2}$. 在 $x=0$ 处由**定理 3.1 (狄利克雷收敛定理)**, $\pi^2=\frac{\pi^2}3+4\sum\frac1{n^2}$, 得 $\sum\frac1{n^2}=\frac{\pi^2}6$. 由**定理 (封闭性方程)**, 得 $\sum\frac1{n^4}=\frac{\pi^4}{90}$. $\blacksquare$
+
+## 13.3-4
+
+利用 $f\left(x\right)=x^2$ ($\left|x\right|\le\pi$) 的傅里叶级数求 $\sum\frac{\left(-1\right)^{n+1}}{n^2}$ 及 $\sum\frac1{n^2}$.
+
+### 解答 13.3-4
+
+$x^2\sim\frac{\pi^2}3+4\sum\frac{\left(-1\right)^n}{n^2}\cos nx$. 取 $x=\pi$ 得 $\sum\frac1{n^2}=\frac{\pi^2}6$; 取 $x=0$ 得 $\sum\frac{\left(-1\right)^{n+1}}{n^2}=\frac{\pi^2}{12}$. $\blacksquare$
+
+## 13.4-1
+
+证明 $\sum\frac{a_n}{n}$ 及 $\sum\frac{b_n}{n}$ 收敛.
+
+### 解答 13.4-1
+
+由**定理 4.1 (贝塞尔不等式)**, $\sum\left(a_n^2+b_n^2\right)< \infty$. 由柯西-施瓦茨不等式, $\sum\left|\frac{a_n}n\right|\le\left(\sum a_n^2\right)^{1/2}\left(\sum\frac1{n^2}\right)^{1/2}< \infty$. 故绝对收敛. $\blacksquare$
+
+## 13.4-2
+
+说明 $\frac{a_0}2+\sum\frac1{\ln n\cdot\ln\ln n}\cos nx$ 处处收敛但不是任何可积函数的傅里叶级数.
+
+### 解答 13.4-2
+
+收敛性: 由狄利克雷判别法. 不是傅里叶级数: 由**定理 4.1 (贝塞尔不等式)** 与 13.4-1, 必须 $\sum\frac{a_n}n$ 收敛, 但 $\sum\frac1{n\ln n\cdot\ln\ln n}$ 由积分判别法发散. $\blacksquare$
+
+## 13.4-5
+
+利用 $f\left(x\right)=x^2$ 的 Parseval 等式求 $\sum\frac1{n^4}$.
+
+### 解答 13.4-5
+
+由**定理 4.2 (封闭性方程/Parseval 等式)**, $\frac{2\pi^4}5=\frac{2\pi^4}9+16\sum\frac1{n^4}$, 得 $\sum\frac1{n^4}=\frac{\pi^4}{90}$. $\blacksquare$
+
+## 13.4-7
+
+利用 $f\left(x\right)=\left|x\right|$ 的 Parseval 等式求 $\sum\frac1{\left(2n-1\right)^4}$.
+
+### 解答 13.4-7
+
+由**定理 4.2 (封闭性方程/Parseval 等式)**, $\frac{2\pi^2}3=\frac{\pi^2}2+\frac{16}{\pi^2}\sum\frac1{\left(2n-1\right)^4}$, 得 $\sum\frac1{\left(2n-1\right)^4}=\frac{\pi^4}{96}$. $\blacksquare$

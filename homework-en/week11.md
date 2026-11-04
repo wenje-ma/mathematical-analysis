@@ -1,5 +1,195 @@
 # week11
 
+> **Theorem 2.1 (Chain Rule)**
+> 
+> If $y=f\left(u\right)$ is differentiable at $u$ and $u=g\left(x\right)$ is differentiable at $x$, then $y=f\left(g\left(x\right)\right)$ is differentiable at $x$ and $\frac{\mathrm dy}{\mathrm dx}=\frac{\mathrm dy}{\mathrm du}\cdot\frac{\mathrm du}{\mathrm dx}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
+
+## 2.2-3-14
+
+Differentiate: $y=x^{\sqrt x}$.
+
+### Solution to 2.2-3-14
+
+Taking logs: $\ln y=\sqrt x\ln x$. Differentiating both sides:
+
+$$
+\frac{y'}y=\frac1{2\sqrt x}\ln x+\frac{\sqrt x}{x}=\frac{\ln x}{2\sqrt x}+\frac1{\sqrt x}.
+$$
+
+Thus
+
+$$
+y'=x^{\sqrt x}\left(\frac{\ln x}{2\sqrt x}+\frac1{\sqrt x}\right).
+$$
+
+$\blacksquare$
+
+## 2.2-5
+
+A flywheel of radius $r$ rotates at constant angular velocity $\omega$, connected to a piston by a rod of length $a$ ($a> r$). Let $x=x\left(t\right)$ be the distance from the flywheel center to the piston endpoint at time $t$, with $x\left(0\right)=a+r$. Find $x\left(t\right)$, $x'\left(t\right)$, and $x'\left(0\right)$.
+
+### Solution to 2.2-5
+
+Let the flywheel angle be $\theta\left(t\right)=\omega t$. Geometrically,
+
+$$
+x\left(t\right)=r\cos\omega t+\sqrt{a^2-r^2\sin^2\omega t}.
+$$
+
+Differentiating,
+
+$$
+x'\left(t\right)=-r\omega\sin\omega t+\frac{-2r^2\omega\sin\omega t\cos\omega t}{2\sqrt{a^2-r^2\sin^2\omega t}}=-r\omega\sin\omega t\left(1+\frac{r\cos\omega t}{\sqrt{a^2-r^2\sin^2\omega t}}\right).
+$$
+
+At $t=0$, $\sin0=0$, so $x'\left(0\right)=0$. $\blacksquare$
+
+## 2.2-6
+
+Let $y=y\left(x\right)$ be the implicit function defined by the following equations. Find its derivative:
+
+(1) $x^2+y^2=R^2$ ($y\ne0$);
+
+(2) $y^2-2xy-x^2-2x=4$ ($y\ne x$).
+
+### Solution to 2.2-6
+
+(1) Differentiating both sides w.r.t. $x$: $2x+2yy'=0$, so $y'=-\frac{x}{y}$.
+
+(2) Differentiating both sides w.r.t. $x$:
+
+$$
+2yy'-2\left(y+xy'\right)-2x-2=0,
+$$
+
+which simplifies to
+
+$$
+\left(2y-2x\right)y'=2y+2x+2,
+$$
+
+so $y'=\frac{y+x+1}{y-x}$. $\blacksquare$
+
+## 2.3-1-2
+
+As $x\to0$, determine the order of the infinitesimal $y=\left(\sqrt{2+x}-\sqrt2\right)x$.
+
+### Solution to 2.3-1-2
+
+$$
+\sqrt{2+x}-\sqrt2=\frac{x}{\sqrt{2+x}+\sqrt2}\sim\frac{x}{2\sqrt2}.
+$$
+
+Thus $y\sim\frac{x^2}{2\sqrt2}$; by Definition of Higher-Order Infinitesimal, $y$ is a second-order infinitesimal in $x$. $\blacksquare$
+
+## 2.3-1-4
+
+As $x\to0$, determine the order of the infinitesimal $y=\ln\left(1+x^2\right)+x^3$.
+
+### Solution to 2.3-1-4
+
+$\ln\left(1+x^2\right)\sim x^2$ and $x^3=o\left(x^2\right)$. By Definition of Higher-Order Infinitesimal, $y\sim x^2$, which is second-order. $\blacksquare$
+
+## 2.3-3-1
+
+Compute the differential at $x_0$: $f\left(x\right)=x^2\arcsin x$, $x_0=0$.
+
+### Solution to 2.3-3-1
+
+$$
+f'\left(x\right)=2x\arcsin x+\frac{x^2}{\sqrt{1-x^2}}.
+$$
+
+$f'\left(0\right)=0$. Hence $\mathrm df\big|_{x_0=0}=0\cdot\mathrm dx=0$. $\blacksquare$
+
+## 2.3-3-4
+
+Compute the differential at $x_0$: $f\left(x\right)=x\ln\left(1+x\right)$, $x_0=0$.
+
+### Solution to 2.3-3-4
+
+$f'\left(x\right)=\ln\left(1+x\right)+\frac{x}{1+x}$. $f'\left(0\right)=0$. Hence $\mathrm df\big|_{x_0=0}=0$. $\blacksquare$
+
+## 2.3-4-2
+
+Find the differential: $f\left(x\right)=\ln\left(x+\sqrt{x^2+1}\right)$.
+
+### Solution to 2.3-4-2
+
+$$
+f'\left(x\right)=\frac1{x+\sqrt{x^2+1}}\cdot\left(1+\frac{x}{\sqrt{x^2+1}}\right)=\frac1{x+\sqrt{x^2+1}}\cdot\frac{\sqrt{x^2+1}+x}{\sqrt{x^2+1}}=\frac1{\sqrt{x^2+1}}.
+$$
+
+Hence $\mathrm df=\frac1{\sqrt{x^2+1}}\mathrm dx$. $\blacksquare$
+
+## 2.3-4-4
+
+Find the differential: $f\left(x\right)=\sqrt{1+x^2}+\sqrt x\sin x$.
+
+### Solution to 2.3-4-4
+
+$$
+f'\left(x\right)=\frac{x}{\sqrt{1+x^2}}+\frac1{2\sqrt x}\sin x+\sqrt x\cos x.
+$$
+
+Hence
+
+$$
+\mathrm df=\left(\frac{x}{\sqrt{1+x^2}}+\frac{\sin x}{2\sqrt x}+\sqrt x\cos x\right)\mathrm dx.
+$$
+
+$\blacksquare$
+
+## 2.3-5-1
+
+Fill in: $\mathrm d\left(\right)=x^n\mathrm dx$.
+
+### Solution to 2.3-5-1
+
+$$
+\mathrm d\left(\frac{x^{n+1}}{n+1}\right)=x^n\mathrm dx\quad\left(n\ne-1\right).
+$$
+
+$\blacksquare$
+
+## 2.3-5-3
+
+Fill in: $\mathrm d\left(\right)=\left(e^x+\sin2x\right)\mathrm dx$.
+
+### Solution to 2.3-5-3
+
+$$
+\mathrm d\left(e^x-\frac12\cos2x\right)=\left(e^x+\sin2x\right)\mathrm dx.
+$$
+
+$\blacksquare$
+
+## 2.3-5-5
+
+Fill in: $\mathrm d\left(\right)=\frac{\sin x}{\cos x}\mathrm dx$.
+
+### Solution to 2.3-5-5
+
+$\mathrm d\left(-\ln\left|\cos x\right|\right)=\frac{\sin x}{\cos x}\mathrm dx$. $\blacksquare$
+
+## 2.3-6
+
+Compute the approximate value of $\tan\left(\frac\pi4+0.01\right)$.
+
+### Solution to 2.3-6
+
+Let $f\left(x\right)=\tan x$, $x_0=\frac\pi4$, $\Delta x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. By the approximation formula from Definition of Differential,
+
+$$
+f\left(x_0+\Delta x\right)\approx f\left(x_0\right)+f'\left(x_0\right)\Delta x,
+$$
+
+$$
+\tan\left(\frac\pi4+0.01\right)\approx\tan\frac\pi4+2\times0.01=1+0.02=1.02.
+$$
+
+$\blacksquare$
+
 ## 2.4-1
 
 Find the $n$-th derivative of:
@@ -8,7 +198,7 @@ Find the $n$-th derivative of:
 
 (4) $y=x\ln\left(1+x\right)$.
 
-### Solution 2.4-1
+### Solution to 2.4-1
 
 By Definition of Higher-Order Derivatives, the $n$-th derivative is obtained by differentiating the $\left(n-1\right)$-th.
 
@@ -40,94 +230,6 @@ Simplifying,
 
 $$
 y^{\left(n\right)}=\left(-1\right)^n\frac{\left(n-2\right)!}{\left(1+x\right)^{n-1}}\cdot\frac{x}{1+x}\quad\left(n\ge2\right).
-$$
-
-$\blacksquare$
-
-## 2.4-4
-
-Let
-
-$$
-y=\begin{cases}e^{-1/x^2},&x\ne0,\\0,&x=0.\end{cases}
-$$
-
-Prove that both the first and second derivatives at $0$ are $0$.
-
-### Solution 2.4-4
-
-First derivative:
-
-$$
-f'\left(0\right)=\lim_{x\to0}\frac{e^{-1/x^2}-0}{x}=\lim_{t\to\infty}\frac{t}{e^{t^2}}=0\quad\left(\text{with }t=1/x,\text{ exponential grows faster than powers}\right).
-$$
-
-Second derivative: for $x\ne0$, $f'\left(x\right)=\frac2{x^3}e^{-1/x^2}$. Thus
-
-$$
-f''\left(0\right)=\lim_{x\to0}\frac{f'\left(x\right)-0}{x}=\lim_{x\to0}\frac{2e^{-1/x^2}}{x^4}=\lim_{t\to\infty}\frac{2t^4}{e^{t^2}}=0.
-$$
-
-$\blacksquare$
-
-## 2.4-6
-
-Let $y=\frac{ax+b}{cx+d}$ with $ad-bc=1$. Prove:
-
-(1) $y'=\frac1{\left(cx+d\right)^2}$;
-
-(2) $y^{\left(n\right)}=\left(-1\right)^{n+1}\cdot\frac{n!\,c^{n-1}}{\left(cx+d\right)^{n+1}}$.
-
-### Solution 2.4-6
-
-(1)
-
-$$
-y'=\frac{a\left(cx+d\right)-c\left(ax+b\right)}{\left(cx+d\right)^2}=\frac{ad-bc}{\left(cx+d\right)^2}=\frac1{\left(cx+d\right)^2}.
-$$
-
-(2) Induction on $n$. The base $n=1$ is (1). Assume $y^{\left(n\right)}=\left(-1\right)^{n+1}\frac{n!c^{n-1}}{\left(cx+d\right)^{n+1}}$. Then
-
-$$
-y^{\left(n+1\right)}=\left(-1\right)^{n+1}n!c^{n-1}\cdot\left(-\left(n+1\right)\right)c\cdot\left(cx+d\right)^{-\left(n+2\right)}=\left(-1\right)^{n+2}\frac{\left(n+1\right)!c^n}{\left(cx+d\right)^{n+2}}.
-$$
-
-The induction is complete. $\blacksquare$
-
-## 2.4-7
-
-Let $f_{ij}\left(x\right)$ ($i,j=1,2$) be infinitely differentiable on $\left(a,b\right)$. Set
-
-$$
-W\left(x\right)=\begin{vmatrix}f_{11}\left(x\right)&f_{12}\left(x\right)\\f_{21}\left(x\right)&f_{22}\left(x\right)\end{vmatrix}.
-$$
-
-Prove
-
-$$
-W'\left(x\right)=\begin{vmatrix}f'_{11}&f'_{12}\\f_{21}&f_{22}\end{vmatrix}+\begin{vmatrix}f_{11}&f_{12}\\f'_{21}&f'_{22}\end{vmatrix},
-$$
-
-and give a formula for $W^{\left(n\right)}\left(x\right)$.
-
-### Solution 2.4-7
-
-$W=f_{11}f_{22}-f_{12}f_{21}$. Differentiating,
-
-$$
-W'=f'_{11}f_{22}+f_{11}f'_{22}-f'_{12}f_{21}-f_{12}f'_{21}=\begin{vmatrix}f'_{11}&f'_{12}\\f_{21}&f_{22}\end{vmatrix}+\begin{vmatrix}f_{11}&f_{12}\\f'_{21}&f'_{22}\end{vmatrix}.
-$$
-
-In general, by Leibniz Formula,
-
-$$
-W^{\left(n\right)}\left(x\right)=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(n-k\right)}\\f_{21}&f_{22}\end{vmatrix}+\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}&f_{12}\\f_{21}^{\left(k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
-$$
-
-Or more compactly,
-
-$$
-W^{\left(n\right)}=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(k\right)}\\f_{21}^{\left(n-k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
 $$
 
 $\blacksquare$

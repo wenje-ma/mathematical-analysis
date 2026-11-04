@@ -1,117 +1,207 @@
 # week8
 
-> **定理 8.1 (中间值定理)**
+> **命题 1.7 (三角不等式)**
 > 
-> 设 $y=f\left(x\right)$ 在闭区间 $\left[a,b\right]$ 上连续, 且 $f\left(a\right)$ 与 $f\left(b\right)$ 反号, 则存在一点 $c\in\left(a,b\right)$ 使得 $f\left(c\right)=0$. 更一般地, $f$ 可取到 $f\left(a\right)$ 与 $f\left(b\right)$ 之间的一切值.
+> 对于任意实数 $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **定理 8.2 (有界性定理)**
+> **定理 5.1 (函数极限四则运算)**
 > 
-> 闭区间上的连续函数是有界的, 且达到最大值与最小值.
+> 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-## 1.8-2
+> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin x}{x}=1$)**
+> 
+> $\lim_{x\to0}\frac{\sin x}{x}=1$.
 
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点, $x_1< x_2< x_3$. 令
+> **定理 6.2 (函数的夹逼定理)**
+> 
+> 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. 若 $\lim g\left(x\right)=\lim h\left(x\right)=l$, 则 $\lim f\left(x\right)=l$.
 
-$$
-\eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
-$$
+> **定理 7.2 (复合函数连续性)**
+> 
+> 若 $y=g\left(u\right)$ 在 $u_0$ 点连续, $u=f\left(x\right)$ 在 $x_0$ 点连续且 $f\left(x_0\right)=u_0$, 则复合函数 $y=g\left(f\left(x\right)\right)$ 在 $x_0$ 点连续.
 
-证明: 在 $\left[x_1,x_3\right]$ 中存在一点 $\xi$, 使得 $f\left(\xi\right)=\eta$.
+## 1.6-4-3
 
-### 解答 1.8-2
+求极限: $\lim_{x\to0}\left(\frac{1+x}{1-x}\right)^{1/x}$.
 
-$f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, 设最大值为 $M$, 最小值为 $m$. 则 $m\le f\left(x_i\right)\le M$, 故 $m\le\eta\le M$. 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_3\right]$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
-
-## 1.8-3
-
-设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 中连续, 并且 $\lim_{x\to+\infty}f\left(x\right)=l$, 且 $l> f\left(a\right)$. 证明: 对于任一数 $\eta$ 满足 $f\left(a\right)< \eta< l$, 一定存在一个点 $\xi\in\left(a,+\infty\right)$, 使得 $f\left(\xi\right)=\eta$.
-
-### 解答 1.8-3
-
-因 $\lim_{x\to+\infty}f\left(x\right)=l> \eta$, 存在 $A> a$ 使得当 $x> A$ 时 $f\left(x\right)> \eta$. 取 $b> A$, 则 $f\left(a\right)< \eta< f\left(b\right)$. 又 $f$ 在 $\left[a,b\right]$ 上连续, 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
-
-## 1.8-4
-
-设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 上连续, 且 $\lim_{x\to+\infty}f\left(x\right)$ 存在. 证明: $f$ 在 $\left[a,+\infty\right)$ 上为有界函数.
-
-### 解答 1.8-4
-
-设 $\lim_{x\to+\infty}f\left(x\right)=l$. 存在 $A> a$ 使得当 $x> A$ 时 $\left|f\left(x\right)-l\right|< 1$, 即 $\left|f\left(x\right)\right|< \left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2 (有界性定理)**, $f$ 有界, 设 $\left|f\left(x\right)\right|\le M$. 取 $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde M$. $\blacksquare$
-
-## 1.8-5
-
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x_1,x_2\in\left(a,b\right)$, $x_1< x_2$, $m_1> 0$, $m_2> 0$. 证明: 存在一点 $\xi\in\left(a,b\right)$, 使得
+### 解答 1.6-4-3
 
 $$
-f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}.
+\left(\frac{1+x}{1-x}\right)^{1/x}=\left[\left(1+\frac{2x}{1-x}\right)^{\frac{1-x}{2x}}\right]^{\frac2{1-x}}.
 $$
 
-### 解答 1.8-5
+底数趋于 $e$, 指数 $\frac2{1-x}\to2$. 由重要极限数 $e$ 的函数版本 及**定理 6.2 (函数的夹逼定理)** 相关运算, 极限为 $e^2$. $\blacksquare$
 
-设 $f$ 在 $\left[x_1,x_2\right]$ 上的最大值为 $M$, 最小值为 $m$. 则
+## 1.6-4-5
 
-$$
-m=\frac{m_1m+m_2m}{m_1+m_2}\le\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}\le\frac{m_1M+m_2M}{m_1+m_2}=M.
-$$
+求极限: $\lim_{y\to0}\left(1-5y\right)^{1/y}$.
 
-由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_2\right]\subset\left(a,b\right)$ 使 $f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}$. $\blacksquare$
-
-## 1.8-6
-
-设 $f:\left[0,1\right]\to\left[0,1\right]$ 为连续映射. 证明: 它在 $\left[0,1\right]$ 中至少有一个不动点, 也即存在一个点 $x_0\in\left[0,1\right]$, 使得 $f\left(x_0\right)=x_0$.
-
-### 解答 1.8-6
-
-令 $g\left(x\right)=f\left(x\right)-x$. 则 $g\left(0\right)=f\left(0\right)\ge0$, $g\left(1\right)=f\left(1\right)-1\le0$. 由**定理 8.1 (中间值定理)**, 存在 $x_0\in\left[0,1\right]$ 使 $g\left(x_0\right)=0$, 即 $f\left(x_0\right)=x_0$. $\blacksquare$
-
-## 1.8-7
-
-设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 且 $f\left(a\right)=f\left(b\right)$. 证明: 在 $\left[a,b\right]$ 中一定存在两点 $x_1$ 与 $x_2$, 使得 $\left|x_1-x_2\right|=\frac12\left(b-a\right)$, 且 $f\left(x_1\right)=f\left(x_2\right)$.
-
-### 解答 1.8-7
-
-令 $d=\frac{b-a}2$, 考虑辅助函数 $g\left(x\right)=f\left(x+d\right)-f\left(x\right)$, $x\in\left[a,b-d\right]=\left[a,a+d\right]$. 则
+### 解答 1.6-4-5
 
 $$
-g\left(a\right)=f\left(a+d\right)-f\left(a\right),\quad g\left(a+d\right)=f\left(b\right)-f\left(a+d\right)=f\left(a\right)-f\left(a+d\right)=-g\left(a\right).
+\left(1-5y\right)^{1/y}=\left[\left(1+\frac1{-1/\left(5y\right)}\right)^{-1/\left(5y\right)}\right]^{-5}.
 $$
 
-若 $g\left(a\right)=0$, 则取 $x_1=a$, $x_2=a+d$ 即可. 若 $g\left(a\right)\ne0$, 则 $g\left(a\right)$ 与 $g\left(a+d\right)$ 反号, 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left(a,a+d\right)$ 使 $g\left(\xi\right)=0$, 即 $f\left(\xi+d\right)=f\left(\xi\right)$. 取 $x_1=\xi$, $x_2=\xi+d$, 则 $\left|x_1-x_2\right|=d=\frac{b-a}2$. $\blacksquare$
+底数趋于 $e$, 指数为 $-5$. 由重要极限数 $e$ 的函数版本, 极限为 $e^{-5}=\frac1{e^5}$. $\blacksquare$
 
-## 1.8-8
+## 1.6-4-6
 
-设 $E$ 为 $\mathbb R$ 中一个有界无穷集合. 证明: 存在一点 $c\in\mathbb R$, 使得 $c$ 点的任何一个空心邻域 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中都有 $E$ 的点.
+求极限: $\lim_{x\to\infty}\left(1+\frac1x\right)^{x+100}$.
 
-### 解答 1.8-8
-
-因 $E$ 有界, 设 $E\subset\left[a,b\right]$. 将 $\left[a,b\right]$ 平分为两个闭区间, 其中至少一个包含 $E$ 的无穷多个点, 记为 $\left[a_1,b_1\right]$. 如此继续, 得区间套 $\left\{\left[a_n,b_n\right]\right\}$, 每个 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点, 且
+### 解答 1.6-4-6
 
 $$
-b_n-a_n=\frac{b-a}{2^n}\to0.
+\left(1+\frac1x\right)^{x+100}=\left(1+\frac1x\right)^x\cdot\left(1+\frac1x\right)^{100}\to e\cdot1=e.
 $$
 
-由区间套原理, 存在唯一 $c\in\bigcap\left[a_n,b_n\right]$. 对任意 $\delta> 0$, 当 $n$ 充分大时 $\left[a_n,b_n\right]\subset\left(c-\delta,c+\delta\right)$, 而 $\left[a_n,b_n\right]$ 含 $E$ 的无穷多点, 故 $\left(c-\delta,c+\delta\right)\backslash\left\{c\right\}$ 中必有 $E$ 的点. $\blacksquare$
+$\blacksquare$
 
-## 1.8-9
+## 1.6-5
 
-设 $E$ 为 $\mathbb R$ 中非空有上界的集合. 证明: $E$ 的上界中有最小上界, 也即存在 $M_0$, $M_0$ 本身是 $E$ 的上界, 而对于 $E$ 的任意一个上界 $M$, 都有 $M_0\le M$.
-
-### 解答 1.8-9
-
-设 $E\subset\left[a,b\right]$, 其中 $b$ 为 $E$ 的一个上界. 将 $\left[a,b\right]$ 平分为两个闭区间. 若右半区间含 $E$ 的上界, 则取右半; 否则取左半 (此时左半右端点为新的上界). 如此继续, 得区间套 $\left\{\left[a_n,b_n\right]\right\}$, 每个 $b_n$ 为 $E$ 的上界, 每个 $a_n$ 不是 $E$ 的上界.
-
-由区间套原理, 存在唯一 $M_0\in\bigcap\left[a_n,b_n\right]$. 因 $b_n\to M_0$ 且 $b_n$ 为上界, 对任意 $x\in E$, $x\le b_n$, 令 $n\to\infty$ 得 $x\le M_0$, 即 $M_0$ 为上界. 又若 $M$ 为任一上界, 则 $M\ge a_n$ 对一切 $n$ (因 $a_n$ 不是上界, 存在 $x\in E$ 使 $x> a_n$, 而 $M\ge x$), 故 $M\ge M_0$. $\blacksquare$
-
-## 1.8-11
-
-设 $y=f\left(x\right)$ 在 $a$ 点附近有定义, 且有极限 $\lim_{x\to a}f\left(x\right)=0$. 又设 $y=g\left(x\right)$ 在 $a$ 点附近有定义, 且是有界函数. 证明: $\lim_{x\to a}f\left(x\right)g\left(x\right)=0$.
-
-### 解答 1.8-11
-
-设 $\left|g\left(x\right)\right|\le M$. 任给 $\varepsilon> 0$, 因 $f\left(x\right)\to0$, 存在 $\delta> 0$ 使得当 $0< \left|x-a\right|< \delta$ 时 $\left|f\left(x\right)\right|< \varepsilon/M$. 于是
+求出常数 $a$ 与 $b$, 使
 
 $$
-\left|f\left(x\right)g\left(x\right)\right|\le M\left|f\left(x\right)\right|< \varepsilon.
+\lim_{x\to+\infty}\left[\frac{x^2+1}{x+1}-\left(ax+b\right)\right]=0.
 $$
 
-故 $\lim f\left(x\right)g\left(x\right)=0$. $\blacksquare$
+试说明几何意义.
+
+### 解答 1.6-5
+
+$$
+\frac{x^2+1}{x+1}-ax-b=\frac{x^2+1-\left(ax+b\right)\left(x+1\right)}{x+1}=\frac{\left(1-a\right)x^2-\left(a+b\right)x+1-b}{x+1}.
+$$
+
+要使其趋于 $0$, 分子次数必须低于分母次数, 故 $1-a=0$ 且 $a+b=0$. 解得 $a=1$, $b=-1$.
+
+几何意义: 直线 $y=x-1$ 是曲线 $y=\frac{x^2+1}{x+1}$ 当 $x\to+\infty$ 时的斜渐近线. $\blacksquare$
+
+## 1.6-7
+
+证明 $\lim_{x\to+\infty}\left(1+\frac1x\right)^{x^2}=+\infty$.
+
+### 解答 1.6-7
+
+$$
+\left(1+\frac1x\right)^{x^2}=\left[\left(1+\frac1x\right)^x\right]^x.
+$$
+
+当 $x$ 充分大时 $\left(1+\frac1x\right)^x> 2$ (因趋于 $e> 2$), 故 $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. 因此极限为 $+\infty$. $\blacksquare$
+
+## 1.6-9
+
+设 $\lim_{x\to+\infty}\frac{f\left(x\right)}x=0$, 且 $f\left(x\right)> 0$ ($x> 0$). 证明 $\lim_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
+
+### 解答 1.6-9
+
+取对数:
+
+$$
+\left(1+\frac1x\right)^{f\left(x\right)}=e^{f\left(x\right)\ln\left(1+1/x\right)}.
+$$
+
+因
+
+$$
+0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
+$$
+
+由**定理 6.2 (函数的夹逼定理)**, 指数趋于 $0$. 由 $e^t$ 的连续性, 原极限为 $e^0=1$. $\blacksquare$
+
+## 1.6-10
+
+设 $y=D\left(x\right)$ 为狄利克雷函数. 证明: 对于任意一点 $a\in\mathbb R$, 极限 $\lim_{x\to a}D\left(x\right)$ 不存在.
+
+### 解答 1.6-10
+
+取有理序列 $\left\{r_n\right\}$ 和无理序列 $\left\{s_n\right\}$, 均以 $a$ 为极限 (由有理数与无理数的稠密性). 则 $D\left(r_n\right)=1\to1$, $D\left(s_n\right)=0\to0$. 两子序列极限不同, 由函数极限与序列极限的归结原则, $\lim_{x\to a}D\left(x\right)$ 不存在. $\blacksquare$
+
+## 1.6-11
+
+求极限: $\lim_{x\to+\infty}\frac{\left(\ln x\right)^5}{x}$.
+
+### 解答 1.6-11
+
+作变量替换 $y=\ln x$, 则 $x=e^y$, 当 $x\to+\infty$ 时 $y\to+\infty$. 原式化为 $\lim_{y\to+\infty}\frac{y^5}{e^y}=0$ (指数函数增长快于任何幂函数). $\blacksquare$
+
+## 1.7-1
+
+指出下列函数的间断点及其类型:
+
+(1) $y=\operatorname{sgn}\left(\sin x\right)$;
+
+(2)
+
+$$
+y=f\left(x\right)=\begin{cases}x^2e^x,&x> 0,\\sin\frac{\pi}{1+x^2},&x< 0,\\1,&x=0;\end{cases}
+$$
+
+(3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
+
+(4)
+
+$$
+y=f\left(x\right)=\begin{cases}e^{\sin\frac1x},&x\ne0,\\0,&x=0.\end{cases}
+$$
+
+### 解答 1.7-1
+
+(1) 当 $x=k\pi$ ($k\in\mathbb Z$) 时 $\sin x=0$, $\operatorname{sgn}\left(\sin x\right)$ 左右极限分别为 $1$ 与 $-1$ (或反之), 为第一类间断点 (跳跃间断点). 其余点连续.
+
+(2) $x\to0+0$ 时 $f\left(x\right)=x^2e^x\to0$; $x\to0-0$ 时
+
+$$
+f\left(x\right)=\sin\frac{\pi}{1+x^2}\to\sin\pi=0.
+$$
+
+但 $f\left(0\right)=1$, 故 $x=0$ 为可去间断点 (第一类).
+
+(3) $x-\left[x\right]=\left\{x\right\}$ 为小数部分, 在整数点处左右极限分别为 $\cos0=1$ 与 $\cos\pi=-1$, 故整数点为跳跃间断点 (第一类). 其余点连续.
+
+(4) $x\to0$ 时 $\frac1x$ 振荡, $\sin\frac1x$ 在 $\left[-1,1\right]$ 内振荡, $e^{\sin\left(1/x\right)}$ 在 $e^{-1}$ 与 $e$ 之间振荡, 极限不存在, 故 $x=0$ 为第二类间断点 (振荡间断点). $\blacksquare$
+
+## 1.7-2-2
+
+试用 $\varepsilon$-$\delta$ 语言证明: 若 $y=f\left(x\right)$ 在 $a$ 点连续, 则 $y=\left|f\left(x\right)\right|$ 在 $a$ 点连续.
+
+### 解答 1.7-2-2
+
+由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-a\right|< \delta$ 时 $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. 由**命题 1.7 (三角不等式)**,
+
+$$
+\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
+$$
+
+故 $\left|f\left(x\right)\right|$ 在 $a$ 点连续. $\blacksquare$
+
+## 1.7-3
+
+利用初等函数的连续性求下列极限:
+
+(1) $\lim_{x\to0}\cos\left(\sqrt{1+x^2}-1\right)$;
+
+(2) $\lim_{x\to0}e^{\frac{\sin x}{\sin2x}}$;
+
+(3) $\lim_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
+
+(4) $\lim_{x\to5}x^{\sqrt x}$;
+
+(5) $\lim_{x\to\infty}\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}$.
+
+### 解答 1.7-3
+
+(1) 由**定理 7.2 (复合函数连续性)**, $\lim_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$, 故原式 $=\cos0=1$.
+
+(2) $\frac{\sin x}{\sin2x}\to\frac12$, 由 $e^u$ 的连续性, 原式 $=e^{1/2}=\sqrt e$.
+
+(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$, 由 $\arctan u$ 的连续性, 原式 $=\arctan1=\frac\pi4$.
+
+(4) $x^{\sqrt x}=e^{\sqrt x\ln x}$, $\sqrt x\ln x\to\sqrt5\ln5$, 由连续性, 原式 $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
+
+(5)
+
+$$
+\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}=\left[\left(1+\frac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt x\right)\left(x+1\right)}{x^2}}.
+$$
+
+底数趋于 $e$, 指数趋于 $1$, 故原式 $=e$. $\blacksquare$

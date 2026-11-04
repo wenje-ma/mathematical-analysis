@@ -4,130 +4,154 @@
 > 
 > For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
-> **Theorem 7.2 (Continuity of Composite Functions)**
+> **Theorem 5.1 (Arithmetic of Function Limits)**
 > 
-> If $y=g\left(u\right)$ is continuous at $u_0$ and $u=f\left(x\right)$ is continuous at $x_0$ with $f\left(x_0\right)=u_0$, then $y=g\left(f\left(x\right)\right)$ is continuous at $x_0$.
+> If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-## 1.7-1
+> **Proposition 6.1 (Important Limit $\lim_{x\to0}\frac{\sin x}{x}=1$)**
+> 
+> $\lim_{x\to0}\frac{\sin x}{x}=1$.
 
-Find the discontinuities and their types:
+> **Theorem 6.2 (Squeeze Theorem for Functions)**
+> 
+> Let $f\left(x\right),g\left(x\right),h\left(x\right)$ be defined in a punctured neighborhood of $a$ with $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. If $\lim g\left(x\right)=\lim h\left(x\right)=l$, then $\lim f\left(x\right)=l$.
 
-(1) $y=\operatorname{sgn}\left(\sin x\right)$;
+## 1.5-5
+
+Let $\lim_{x\to2}f\left(x\right)=l$. Prove that $f\left(y^2\right)\to l$ as $y\to\sqrt2$.
+
+### Solution to 1.5-5
+
+Given $\varepsilon> 0$, by Definition of Function Limit, there exists $\delta_1> 0$ such that $0< \left|x-2\right|< \delta_1$ implies $\left|f\left(x\right)-l\right|< \varepsilon$. Setting $x=y^2$, we need $0< \left|y^2-2\right|< \delta_1$.
+
+Since $y\to\sqrt2$, restrict to $\left|y-\sqrt2\right|< 1$, so $\left|y+\sqrt2\right|\le2\sqrt2+1$. Take $\delta=\min\left\{1,\frac{\delta_1}{2\sqrt2+1}\right\}$. Then for $0< \left|y-\sqrt2\right|< \delta$,
+
+$$
+\left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|< \delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
+$$
+
+and $y^2\ne2$ (since $y\to\sqrt2$ with $y\ne\sqrt2$). Hence $\left|f\left(y^2\right)-l\right|< \varepsilon$. By Definition of Function Limit, $f\left(y^2\right)\to l$. $\blacksquare$
+
+## 1.5-6
+
+Discuss the left and right limits at $x=0$ of:
+
+(1) $y=\left[x\right]\cdot\left(1+x\right)$;
+
+(2) $y=\cos x\cdot\operatorname{sgn}x$;
+
+(3) $y=\frac{\left|x\right|}{x}\cdot\frac1{1+x^n}$.
+
+### Solution to 1.5-6
+
+(1) As $x\to0+0$, $\left[x\right]=0$, so $y=0$, right limit $0$. As $x\to0-0$, $\left[x\right]=-1$, so $y=-\left(1+x\right)\to-1$, left limit $-1$.
+
+(2) As $x\to0+0$, $\operatorname{sgn}x=1$, so $y=\cos x\to1$, right limit $1$. As $x\to0-0$, $\operatorname{sgn}x=-1$, so $y=-\cos x\to-1$, left limit $-1$.
+
+(3) As $x\to0+0$, $\frac{\left|x\right|}{x}=1$ and $\frac1{1+x^n}\to1$, right limit $1$. As $x\to0-0$, $\frac{\left|x\right|}{x}=-1$ and $\frac1{1+x^n}\to1$ (since $x^n\to0$), left limit $-1$. $\blacksquare$
+
+## 1.5-7
+
+Find the limits:
+
+(1) $\lim_{x\to-1}\left(\frac1{x+1}-\frac3{x^3+1}\right)$;
+
+(2) $\lim_{x\to0}\frac{\sqrt{a^2+x}-a}{x}$ ($a> 0$).
+
+### Solution to 1.5-7
+
+(1) By factorization $x^3+1=\left(x+1\right)\left(x^2-x+1\right)$,
+
+$$
+\frac1{x+1}-\frac3{x^3+1}=\frac{x^2-x+1-3}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{x^2-x-2}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{\left(x-2\right)\left(x+1\right)}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{x-2}{x^2-x+1}.
+$$
+
+By **Theorem 5.1 (Arithmetic of Function Limits)**,
+
+$$
+\lim_{x\to-1}\frac{x-2}{x^2-x+1}=\frac{-1-2}{1+1+1}=-1.
+$$
+
+(2) Rationalizing the numerator,
+
+$$
+\frac{\sqrt{a^2+x}-a}{x}=\frac{\left(\sqrt{a^2+x}-a\right)\left(\sqrt{a^2+x}+a\right)}{x\left(\sqrt{a^2+x}+a\right)}=\frac{x}{x\left(\sqrt{a^2+x}+a\right)}=\frac1{\sqrt{a^2+x}+a}.
+$$
+
+By **Theorem 5.1 (Arithmetic of Function Limits)** and $\lim_{x\to0}\sqrt{a^2+x}=a$,
+
+$$
+\lim_{x\to0}\frac{\sqrt{a^2+x}-a}{x}=\frac1{2a}.
+$$
+
+$\blacksquare$
+
+## 1.6-2
+
+Prove by $\varepsilon$-$\delta$ language: if $\lim_{x\to a}f\left(x\right)=l$ and $l> 0$, then there exists $\delta> 0$ such that $f\left(x\right)> \frac l2$ whenever $0< \left|x-a\right|< \delta$.
+
+### Solution to 1.6-2
+
+Take $\varepsilon=\frac l2> 0$. By Definition of Function Limit, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac l2$. By **Proposition 1.7 (Triangle Inequality)**,
+
+$$
+f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
+$$
+
+Thus $f\left(x\right)> \frac l2$. $\blacksquare$
+
+## 1.6-3
+
+Use $\lim_{x\to0}\frac{\sin x}{x}=1$ to find:
+
+(1) $\lim_{x\to0}\frac{\sin\alpha x}{\sin\beta x}$ ($\beta\ne0$);
+
+(2) $\lim_{x\to0}\frac{\tan3x-\tan5x}{\sin2x}$;
+
+(3) $\lim_{x\to0}\frac{1-\cos x}{x^2}$;
+
+(4) $\lim_{x\to a}\frac{\sin x-\sin a}{x-a}$.
+
+### Solution to 1.6-3
+
+(1) $\frac{\sin\alpha x}{\sin\beta x}=\frac{\alpha}{\beta}\cdot\frac{\sin\alpha x}{\alpha x}\cdot\frac{\beta x}{\sin\beta x}$. By **Proposition 6.1 (Important Limit $\lim_{x\to0}\frac{\sin x}{x}=1$)** and **Theorem 5.1 (Arithmetic of Function Limits)**, the limit is $\frac{\alpha}{\beta}$.
 
 (2)
 
 $$
-y=f\left(x\right)=\begin{cases}x^2e^x,&x> 0,\\sin\frac{\pi}{1+x^2},&x< 0,\\1,&x=0;\end{cases}
+\tan3x-\tan5x=\frac{\sin3x}{\cos3x}-\frac{\sin5x}{\cos5x}=\frac{\sin3x\cos5x-\cos3x\sin5x}{\cos3x\cos5x}=\frac{-\sin2x}{\cos3x\cos5x}.
 $$
 
-(3) $y=\cos\left\{\left(x-\left[x\right]\right)\pi\right\}$;
+The expression $=\frac{-1}{\cos3x\cos5x}\to-1$.
+
+(3) $1-\cos x=2\sin^2\frac x2$, so
+
+$$
+\frac{1-\cos x}{x^2}=\frac{2\sin^2\left(x/2\right)}{x^2}=\frac12\left(\frac{\sin\left(x/2\right)}{x/2}\right)^2\to\frac12.
+$$
 
 (4)
 
 $$
-y=f\left(x\right)=\begin{cases}e^{\sin\frac1x},&x\ne0,\\0,&x=0.\end{cases}
+\sin x-\sin a=2\cos\frac{x+a}2\sin\frac{x-a}2,
 $$
 
-### Solution 1.7-1
-
-(1) At $x=k\pi$ ($k\in\mathbb Z$), $\sin x=0$, and the left/right limits of $\operatorname{sgn}\left(\sin x\right)$ are $1$ and $-1$ (or vice versa), so these are first-kind (jump) discontinuities. All other points are continuous.
-
-(2) As $x\to0+0$, $f\left(x\right)=x^2e^x\to0$; as $x\to0-0$,
+so
 
 $$
-f\left(x\right)=\sin\frac{\pi}{1+x^2}\to\sin\pi=0.
+\frac{\sin x-\sin a}{x-a}=\cos\frac{x+a}2\cdot\frac{\sin\left(x-a\right)/2}{\left(x-a\right)/2}\to\cos a.
 $$
 
-But $f\left(0\right)=1$, so $x=0$ is a removable discontinuity (first kind).
+$\blacksquare$
 
-(3) $x-\left[x\right]=\left\{x\right\}$ is the fractional part; at integers the left/right limits are $\cos0=1$ and $\cos\pi=-1$, so integers are jump discontinuities (first kind). Other points are continuous.
+## 1.6-4-1
 
-(4) As $x\to0$, $\frac1x$ oscillates, $\sin\frac1x$ oscillates in $\left[-1,1\right]$, and $e^{\sin\left(1/x\right)}$ oscillates between $e^{-1}$ and $e$; the limit does not exist, so $x=0$ is a second-kind (oscillating) discontinuity. $\blacksquare$
+Use $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$ to find: $\lim_{x\to\infty}\left(1+\frac3x\right)^x\cdot\left(1+\frac5x\right)^x$.
 
-## 1.7-2-2
-
-Prove by $\varepsilon$-$\delta$ language: if $y=f\left(x\right)$ is continuous at $a$, then $y=\left|f\left(x\right)\right|$ is continuous at $a$.
-
-### Solution 1.7-2-2
-
-By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-a\right|< \delta$ implies $\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon$. By **Proposition 1.7 (Triangle Inequality)**,
+### Solution to 1.6-4-1
 
 $$
-\left|\left|f\left(x\right)\right|-\left|f\left(a\right)\right|\right|\le\left|f\left(x\right)-f\left(a\right)\right|< \varepsilon.
+\left(1+\frac3x\right)^x=\left[\left(1+\frac3x\right)^{x/3}\right]^3\to e^3,\quad\left(1+\frac5x\right)^x=\left[\left(1+\frac5x\right)^{x/5}\right]^5\to e^5.
 $$
 
-Thus $\left|f\left(x\right)\right|$ is continuous at $a$. $\blacksquare$
-
-## 1.7-3
-
-Use continuity of elementary functions to find:
-
-(1) $\lim_{x\to0}\cos\left(\sqrt{1+x^2}-1\right)$;
-
-(2) $\lim_{x\to0}e^{\frac{\sin x}{\sin2x}}$;
-
-(3) $\lim_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
-
-(4) $\lim_{x\to5}x^{\sqrt x}$;
-
-(5) $\lim_{x\to\infty}\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}$.
-
-### Solution 1.7-3
-
-(1) By **Theorem 7.2 (Continuity of Composite Functions)**, $\lim_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$, so the expression $=\cos0=1$.
-
-(2) $\frac{\sin x}{\sin2x}\to\frac12$; by continuity of $e^u$, the expression $=e^{1/2}=\sqrt e$.
-
-(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$; by continuity of $\arctan u$, the expression $=\arctan1=\frac\pi4$.
-
-(4) $x^{\sqrt x}=e^{\sqrt x\ln x}$; $\sqrt x\ln x\to\sqrt5\ln5$; by continuity, the expression $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
-
-(5)
-
-$$
-\left(1+\frac1x+\frac1{x^2}\right)^{x+\sqrt x}=\left[\left(1+\frac{x+1}{x^2}\right)^{\frac{x^2}{x+1}}\right]^{\frac{\left(x+\sqrt x\right)\left(x+1\right)}{x^2}}.
-$$
-
-The base tends to $e$ and the exponent to $1$, so the expression $=e$. $\blacksquare$
-
-## 1.7-4
-
-Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and $x=g\left(t\right)$ have a limit as $t\to\infty$ lying in $\left(a,b\right)$. Prove
-
-$$
-\lim_{t\to\infty}f\left(g\left(t\right)\right)=f\left(\lim_{t\to\infty}g\left(t\right)\right).
-$$
-
-### Solution 1.7-4
-
-Let $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-c\right|< \delta$ implies $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. Since $g\left(t\right)\to c$, there exists $T> 0$ such that $t> T$ implies $\left|g\left(t\right)-c\right|< \delta$. Thus for $t> T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$, i.e. $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
-
-## 1.7-5
-
-Let $f\left(x\right)$ and $g\left(x\right)$ be defined and continuous on $\mathbb R$. Suppose $f\left(x\right)=g\left(x\right)$ for all $x\in\mathbb Q$. Prove $f\left(x\right)\equiv g\left(x\right)$ for all $x\in\mathbb R$.
-
-### Solution 1.7-5
-
-Take any $x_0\in\mathbb R$. By density of rationals, there is a rational sequence $\left\{r_n\right\}$ with $r_n\to x_0$. Since $f,g$ are continuous,
-
-$$
-f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n\right)=g\left(x_0\right).
-$$
-
-Thus $f\left(x_0\right)=g\left(x_0\right)$. Since $x_0$ is arbitrary, $f\equiv g$. $\blacksquare$
-
-## 1.7-6
-
-Let $t_1$ and $t_2$ be arbitrary real numbers. Without using $e^{t_1+t_2}=e^{t_1}\cdot e^{t_2}$, prove
-
-$$
-\lim_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}.
-$$
-
-### Solution 1.7-6
-
-$$
-\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=\left(1+\frac{t_1+t_2+t_1t_2/x}{x}\right)^x=\left[\left(1+\frac{t_1+t_2+o\left(1\right)}{x}\right)^{\frac{x}{t_1+t_2+o\left(1\right)}}\right]^{t_1+t_2+o\left(1\right)}.
-$$
-
-The base tends to $e$ and the exponent to $t_1+t_2$. By continuity of the exponential, the limit is $e^{t_1+t_2}$. $\blacksquare$
+By **Theorem 5.1 (Arithmetic of Function Limits)**, the product is $e^3\cdot e^5=e^8$. $\blacksquare$

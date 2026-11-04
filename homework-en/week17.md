@@ -1,119 +1,147 @@
 # week17
 
-> **Theorem 1.3 (Lagrange Mean Value Theorem)**
+> **Proposition 3.1 (Unique Extremum is Global)**
 > 
-> If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
+> If $f$ is continuous on $\left(a,b\right)$ (or $\left[a,b\right]$) and $x_0$ is the only extremum point, then it is the global maximum (if a local max) or global minimum (if a local min).
 
-> **Theorem 5.1 (Second Derivative Criterion for Convexity)**
+> **Theorem 3.1 (First Sufficient Condition for Extrema)**
 > 
-> If $f$ is twice differentiable on $\left(a,b\right)$, then $f$ is convex iff $f''\left(x\right)\ge0$, and concave iff $f''\left(x\right)\le0$.
+> If $f$ is differentiable on $\left(a,b\right)$ with $f'\left(x_0\right)=0$, and $f'> 0$ on $\left(x_0-r,x_0\right)$ while $f'< 0$ on $\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local maximum; if the signs are reversed, it is a local minimum.
 
-## 3.5-1-1
+> **Theorem 3.2 (Second Sufficient Condition for Extrema)**
+> 
+> If $f'\left(x_0\right)=0$ and $f''\left(x_0\right)$ exists, then $f''\left(x_0\right)> 0$ implies $x_0$ is a local minimum, and $f''\left(x_0\right)< 0$ implies $x_0$ is a local maximum.
 
-Find the convexity intervals and inflection points of $y=xe^x$.
+> **Theorem 4.1 (Local Taylor Expansion)**
+> 
+> If $f$ has $n$ derivatives at $x_0$, then $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\left(\left(x-x_0\right)^n\right)$ as $x\to x_0$.
 
-### Solution 3.5-1-1
+> **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**
+> 
+> If $f$ has $n$ continuous derivatives on $\left[a,b\right]$ and $n+1$ derivatives on $\left(a,b\right)$, then for any $x,x_0\in\left[a,b\right]$, there exists $\xi$ between $x_0$ and $x$ such that $f\left(x\right)=f\left(x_0\right)+\cdots+\frac{f^{\left(n+1\right)}\left(\xi\right)}{\left(n+1\right)!}\left(x-x_0\right)^{n+1}$.
 
-$y'=\left(1+x\right)e^x$, $y''=\left(2+x\right)e^x$. Setting $y''=0$ gives $x=-2$. By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $y$ is concave on $\left(-\infty,-2\right]$ and convex on $\left[-2,+\infty\right)$. The inflection point is $\left(-2,-2e^{-2}\right)$. $\blacksquare$
+## 3.3-5
 
-## 3.5-1-4
+Prove $x^\alpha-\alpha x+\alpha-1\le0$ for all $x> 0$, where $0< \alpha< 1$.
 
-Find the convexity intervals and inflection points of $y=x\ln x$.
+### Solution to 3.3-5
 
-### Solution 3.5-1-4
+Let $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$. Then $f'\left(x\right)=\alpha\left(x^{\alpha-1}-1\right)=0$ gives $x=1$. For $0< x< 1$, $f'> 0$; for $x> 1$, $f'< 0$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, $x=1$ is a maximum. Since $f\left(1\right)=0$, by **Proposition 3.1 (Unique Extremum is Global)**, $f\left(x\right)\le0$. $\blacksquare$
 
-Domain $\left(0,+\infty\right)$. $y''=\frac1x> 0$. By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $y=x\ln x$ is convex on $\left(0,+\infty\right)$ with no inflection points. $\blacksquare$
+## 3.3-6
 
-## 3.5-2
+Prove: if $a,b> 0$, $p,q> 1$, and $\frac1p+\frac1q=1$, then $a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}$.
 
-Use convexity to prove:
+### Solution to 3.3-6
 
-(1) $2\arctan\frac{a+b}2\ge\arctan a+\arctan b$ for $a,b> 0$;
-
-(2) $a^\alpha b^\beta c^\gamma\le\alpha a+\beta b+\gamma c$ for $a,b,c> 0$, $\alpha+\beta+\gamma=1$.
-
-### Solution 3.5-2
-
-(1) $f\left(x\right)=\arctan x$ has $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}< 0$ for $x> 0$, so it is concave. By Definition of Convex and Concave Functions with $t=\frac12$,
-
-$$
-f\left(\frac{a+b}2\right)\ge\frac{f\left(a\right)+f\left(b\right)}2.
-$$
-
-(2) $f\left(x\right)=\ln x$ is concave ($f''=-\frac1{x^2}< 0$). By concavity,
+Taking $\alpha=\frac1p$ in 3.3-5 and substituting $x=\frac{a}{b}$, multiplying by $b$, and simplifying using $1-\frac1p=\frac1q$, we obtain
 
 $$
-\alpha\ln a+\beta\ln b+\gamma\ln c\le\ln\left(\alpha a+\beta b+\gamma c\right),
+a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}.
 $$
 
-which gives the weighted AM-GM inequality. $\blacksquare$
+This is Young's inequality. $\blacksquare$
 
-## 3.5-3
+## 3.3-7
 
-Let $f$ and $g$ be convex on $\left(a,b\right)$. Prove $F\left(x\right)=\max\left\{f\left(x\right),g\left(x\right)\right\}$ is convex.
+Let $\triangle ABC$ have sides $a,b,c$ with $b=c$ and perimeter $a+b+c=2l$. When is the area maximized?
 
-### Solution 3.5-3
+### Solution to 3.3-7
 
-For any $x_1,x_2$ and $t\in\left(0,1\right)$, since both $f$ and $g$ are convex,
-
-$$
-f\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right),
-$$
+Since $b=c$, the triangle is isosceles with $b=l-\frac a2$. The area is
 
 $$
-g\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
+S=\frac12 a\sqrt{l^2-la}.
 $$
 
-Taking the max gives $F\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. $\blacksquare$
+Maximizing $S^2=\frac14\left(l^2a^2-la^3\right)$, the derivative $\left(S^2\right)'=\frac{la}{4}\left(2l-3a\right)=0$ gives $a=\frac{2l}{3}$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, this is a maximum. Then $b=c=\frac{2l}{3}$, so the area is maximized when the triangle is equilateral. $\blacksquare$
 
-## 3.5-5
+## 3.3-8
 
-Let $f\left(u\right)$ be convex and increasing on $\mathbb R$, and $g\left(x\right)$ be convex on $\left(a,b\right)$. Prove $f\left(g\left(x\right)\right)$ is convex.
+Let $f\left(x\right)=\sin^p x+\cos^p x$. Find its maximum and minimum on $\left[0,\frac\pi2\right]$.
 
-### Solution 3.5-5
+### Solution to 3.3-8
 
-Since $g$ is convex, $g\left(tx_1+\left(1-t\right)x_2\right)\le tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)$. Since $f$ is increasing,
-
-$$
-f\left(g\left(tx_1+\left(1-t\right)x_2\right)\right)\le f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right).
-$$
-
-Since $f$ is convex,
+Differentiating,
 
 $$
-f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right)\le tf\left(g\left(x_1\right)\right)+\left(1-t\right)f\left(g\left(x_2\right)\right).
+f'\left(x\right)=p\sin x\cos x\left(\sin^{p-2}x-\cos^{p-2}x\right).
 $$
 
-Thus $f\left(g\left(x\right)\right)$ is convex. $\blacksquare$
+The critical point in $\left(0,\frac\pi2\right)$ is $x=\frac\pi4$. The values are $f\left(0\right)=1$, $f\left(\frac\pi4\right)=2^{1-p/2}$, $f\left(\frac\pi2\right)=1$. For $p> 2$, the maximum is $1$ (at endpoints) and the minimum is $2^{1-p/2}$ (at $x=\frac\pi4$). $\blacksquare$
 
-## 3.5-6
+## 3.4-1-2
 
-Let $f$ be differentiable, convex, and bounded on $\mathbb R$. Prove $f$ is constant.
+Write the local Taylor formula of $y=\frac1{1-x}$ at $x=0$.
 
-### Solution 3.5-6
+### Solution to 3.4-1-2
 
-By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $f''\ge0$, so $f'$ is increasing. If $f'\left(x_0\right)> 0$, then for $x> x_0$, by **Theorem 1.3 (Lagrange Mean Value Theorem)**, $f\left(x\right)\ge f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty$, contradicting boundedness. If $f'\left(x_0\right)< 0$, similarly $f\left(x\right)\to+\infty$ as $x\to-\infty$. Hence $f'\equiv0$ and $f$ is constant. $\blacksquare$
+Since $f^{\left(n\right)}\left(x\right)=\frac{n!}{\left(1-x\right)^{n+1}}$, we have $f^{\left(n\right)}\left(0\right)=n!$. By **Theorem 4.1 (Local Taylor Expansion)**,
 
-## 3.5-7-1
+$$
+\frac1{1-x}=1+x+x^2+\cdots+x^n+o\left(x^n\right).
+$$
 
-Sketch $y=\frac{\left(x+1\right)^3}{\left(x-1\right)^2}$.
+$\blacksquare$
 
-### Solution 3.5-7-1
+## 3.4-1-4
 
-Domain $\left(-\infty,1\right)\cup\left(1,+\infty\right)$. Vertical asymptote $x=1$, oblique asymptote $y=x+5$. $y'=\frac{\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^3}$; $x=5$ is a local minimum with value $\frac{27}2$. $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$; concave for $x< -1$, convex for $x> -1$; inflection point $\left(-1,0\right)$. $\blacksquare$
+Write the local Taylor formula of $y=\arctan x$ at $x=0$ up to $x^5$.
 
-## 3.5-7-2
+### Solution to 3.4-1-4
 
-Sketch $y=xe^{-x}$.
+Computing derivatives at $0$: $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=-2$, $f^{\left(4\right)}\left(0\right)=0$, $f^{\left(5\right)}\left(0\right)=24$. By **Theorem 4.1 (Local Taylor Expansion)**,
 
-### Solution 3.5-7-2
+$$
+\arctan x=x-\frac{x^3}3+\frac{x^5}5+o\left(x^5\right).
+$$
 
-Domain $\mathbb R$. Horizontal asymptote $y=0$ as $x\to+\infty$. $y'=\left(1-x\right)e^{-x}$; $x=1$ is a local maximum with value $\frac1e$. $y''=\left(x-2\right)e^{-x}$; concave for $x< 2$, convex for $x> 2$; inflection point $\left(2,2e^{-2}\right)$. $\blacksquare$
+$\blacksquare$
 
-## 3.5-7-3
+## 3.4-1-5
 
-Sketch $y=xe^{-x^2}$.
+Write the local Taylor formula of $y=\tan x$ at $x=0$ up to $x^3$.
 
-### Solution 3.5-7-3
+### Solution to 3.4-1-5
 
-Domain $\mathbb R$, odd function. Horizontal asymptote $y=0$. $y'=\left(1-2x^2\right)e^{-x^2}$; local minimum at $x=-\frac1{\sqrt2}$ with value $-\frac1{\sqrt{2e}}$, local maximum at $x=\frac1{\sqrt2}$ with value $\frac1{\sqrt{2e}}$. $y''=2x\left(2x^2-3\right)e^{-x^2}$; inflection points at $\left(0,0\right)$ and $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$. $\blacksquare$
+Computing: $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=2$. By **Theorem 4.1 (Local Taylor Expansion)**,
+
+$$
+\tan x=x+\frac{x^3}3+o\left(x^3\right).
+$$
+
+$\blacksquare$
+
+## 3.4-4
+
+Expand $y=\sin\left(x+\alpha\right)$ at $\alpha=0$ using Taylor formula with Lagrange remainder, and estimate the remainder.
+
+### Solution to 3.4-4
+
+Treating $x$ as constant and differentiating w.r.t. $\alpha$, by **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**,
+
+$$
+\sin\left(x+\alpha\right)=\sin x+\left(\cos x\right)\alpha-\frac{\sin\left(x+\xi\right)}2\alpha^2,
+$$
+
+where $\xi$ is between $0$ and $\alpha$. The remainder satisfies $\left|r\left(\alpha\right)\right|\le\frac{\alpha^2}2$. $\blacksquare$
+
+## 3.4-5
+
+Expand $y=x+\frac{x^3}3$ at $x=\pm1$. Explain why the remainder of any polynomial's Taylor expansion is $0$.
+
+### Solution to 3.4-5
+
+$f'\left(x\right)=1+x^2$, $f''\left(x\right)=2x$, $f'''\left(x\right)=2$, $f^{\left(4\right)}\left(x\right)=0$. At $x=1$,
+
+$$
+x+\frac{x^3}3=\frac43+2\left(x-1\right)+\left(x-1\right)^2+\frac13\left(x-1\right)^3.
+$$
+
+At $x=-1$,
+
+$$
+x+\frac{x^3}3=-\frac43+2\left(x+1\right)-\left(x+1\right)^2+\frac13\left(x+1\right)^3.
+$$
+
+For any polynomial $P_n$ of degree $n$, $P_n^{\left(n+1\right)}\equiv0$. By **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**, the remainder is $0$. $\blacksquare$

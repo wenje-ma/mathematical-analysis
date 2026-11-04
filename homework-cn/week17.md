@@ -1,161 +1,173 @@
 # week17
 
-> **定理 1.3 (拉格朗日中值定理)**
+> **命题 3.1 (唯一极值点即全局极值点)**
 > 
-> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在点 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
+> 设 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ (或 $\left[a,b\right]$) 上连续. 若 $x_0$ 是 $\left(a,b\right)$ 中唯一的极值点, 则当 $x_0$ 为极大值点时, $f\left(x_0\right)$ 为最大值; 当 $x_0$ 为极小值点时, $f\left(x_0\right)$ 为最小值.
 
-> **定理 5.1 (凸函数的二阶导数判别)**
+> **定理 3.1 (极值点第一充分条件)**
 > 
-> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上二阶可导. 则 $f$ 为凸函数的充要条件是 $f''\left(x\right)\ge0$; $f$ 为凹函数的充要条件是 $f''\left(x\right)\le0$.
+> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, 且 $x_0\in\left(a,b\right)$ 是 $f$ 的一个稳定点, 即 $f'\left(x_0\right)=0$. 若存在 $r> 0$, 使得当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)> 0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)< 0$, 则 $f\left(x_0\right)$ 是极大值; 若符号相反, 则 $f\left(x_0\right)$ 是极小值.
 
-## 3.5-1-1
+> **定理 3.2 (极值点第二充分条件)**
+> 
+> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, $x_0\in\left(a,b\right)$ 是其稳定点, 并假定 $f$ 在 $x_0$ 有二阶导数. 若 $f''\left(x_0\right)> 0$, 则 $x_0$ 为极小值点; 若 $f''\left(x_0\right)< 0$, 则 $x_0$ 为极大值点.
 
-求出函数 $y=xe^x$ 的凸凹性区间及拐点.
+> **定理 4.1 (局部泰勒展开式)**
+> 
+> 设 $y=f\left(x\right)$ 在 $x_0$ 点附近有定义, 且有 $n$ 阶导数 $f^{\left(n\right)}\left(x_0\right)$. 则 $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\left(\left(x-x_0\right)^n\right)$ ($x\to x_0$).
 
-### 解答 3.5-1-1
+> **定理 4.2 (带拉格朗日余项的泰勒公式)**
+> 
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上有 $n$ 阶连续导数, 在 $\left(a,b\right)$ 中有 $n+1$ 阶导数. 则对任意 $x,x_0\in\left[a,b\right]$, 存在介于 $x_0$ 与 $x$ 之间的点 $\xi$, 使得 $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n+1\right)}\left(\xi\right)}{\left(n+1\right)!}\left(x-x_0\right)^{n+1}$.
 
-求导得 $y'=\left(1+x\right)e^x$, $y''=\left(2+x\right)e^x$. 令 $y''=0$, 得 $x=-2$. 当 $x< -2$ 时 $y''< 0$ (凹); 当 $x> -2$ 时 $y''> 0$ (凸). 拐点为 $\left(-2,-2e^{-2}\right)$. 由**定理 5.1 (凸函数的二阶导数判别)**, $y=xe^x$ 在 $\left(-\infty,-2\right]$ 上为凹函数, 在 $\left[-2,+\infty\right)$ 上为凸函数. $\blacksquare$
+## 3.3-5
 
-## 3.5-1-4
+证明不等式: $x^\alpha-\alpha x+\alpha-1\le0$ 对一切 $x> 0$, 其中 $0< \alpha< 1$.
 
-求出函数 $y=x\ln x$ 的凸凹性区间及拐点.
+### 解答 3.3-5
 
-### 解答 3.5-1-4
-
-定义域为 $\left(0,+\infty\right)$. $y'=\ln x+1$, $y''=\frac1x> 0$. 由**定理 5.1 (凸函数的二阶导数判别)**, $y=x\ln x$ 在 $\left(0,+\infty\right)$ 上为凸函数, 无拐点. $\blacksquare$
-
-## 3.5-2
-
-利用凸函数概念证明下列不等式:
-
-(1) 设 $a> 0$, $b> 0$, 证明 $2\arctan\frac{a+b}2\ge\arctan a+\arctan b$;
-
-(2) 若 $a,b,c$ 均为正数, 证明 $a^\alpha b^\beta c^\gamma\le\alpha a+\beta b+\gamma c$, 其中 $\alpha+\beta+\gamma=1$, $\alpha,\beta,\gamma> 0$.
-
-### 解答 3.5-2
-
-(1) 令 $f\left(x\right)=\arctan x$. 则 $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}$. 当 $x> 0$ 时 $f''\left(x\right)< 0$, 故 $f$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由凸函数与凹函数的定义, 取 $t=\frac12$, 得
+令 $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$ ($x> 0$). 求导得
 
 $$
-f\left(\frac{a+b}2\right)\ge\frac{f\left(a\right)+f\left(b\right)}2,
+f'\left(x\right)=\alpha x^{\alpha-1}-\alpha=\alpha\left(x^{\alpha-1}-1\right).
 $$
 
-即 $2\arctan\frac{a+b}2\ge\arctan a+\arctan b$.
+令 $f'\left(x\right)=0$, 得 $x=1$. 当 $0< x< 1$ 时 $f'\left(x\right)> 0$, 当 $x> 1$ 时 $f'\left(x\right)< 0$. 由**定理 3.1 (极值点第一充分条件)**, $x=1$ 为极大值点. 又 $f\left(1\right)=0$. 由**命题 3.1 (唯一极值点即全局极值点)**, $f\left(1\right)=0$ 为最大值. 故 $f\left(x\right)\le0$. $\blacksquare$
 
-(2) 由 $f\left(x\right)=\ln x$ 为凹函数 ($f''\left(x\right)=-\frac1{x^2}< 0$), 由凸函数与凹函数的定义,
+## 3.3-6
 
-$$
-\alpha\ln a+\beta\ln b+\gamma\ln c\le\ln\left(\alpha a+\beta b+\gamma c\right).
-$$
+证明: 设 $a> 0$, $b> 0$, $p> 1$, $q> 1$, 且 $\frac1p+\frac1q=1$, 则 $a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}$.
 
-即 $a^\alpha b^\beta c^\gamma\le\alpha a+\beta b+\gamma c$. 此即加权 AM-GM 不等式. $\blacksquare$
+### 解答 3.3-6
 
-## 3.5-3
-
-设 $f\left(x\right)$ 与 $g\left(x\right)$ 均为 $\left(a,b\right)$ 中的凸函数. 令 $F\left(x\right)=\max\left\{f\left(x\right),g\left(x\right)\right\}$, 则 $F\left(x\right)$ 也是凸函数.
-
-### 解答 3.5-3
-
-对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 需证
+在 3.3-5 中取 $\alpha=\frac1p$, 则 $1-\alpha=\frac1q$. 对任意 $x> 0$,
 
 $$
-F\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
+x^{1/p}-\frac1p x+\frac1p-1\le0.
 $$
 
-因 $g,f$ 均为凸函数,
+令 $x=\frac{a}{b}$, 代入并两边乘以 $b$, 整理得
 
 $$
-f\left(tx_1+\left(1-t\right)x_2\right)\le tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right),
+a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}.
 $$
 
-$$
-g\left(tx_1+\left(1-t\right)x_2\right)\le tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
-$$
+此即杨氏不等式. $\blacksquare$
 
-两式右端相同, 故 $\max\left\{f\left(\cdot\right),g\left(\cdot\right)\right\}\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. 故 $F$ 为凸函数. $\blacksquare$
+## 3.3-7
 
-## 3.5-5
+设 $\triangle ABC$ 的边分别为 $a,b$ 与 $c$. 假定 $b=c$, 且 $a+b+c=2l$, 其中 $l$ 为一定数. 问 $\triangle ABC$ 何时面积最大?
 
-设 $f\left(u\right)$ 在 $\left(-\infty,+\infty\right)$ 中是凸函数且递增. 又设 $g\left(x\right)$ 在 $\left(a,b\right)$ 区间上为凸函数, 证明复合函数 $f\left(g\left(x\right)\right)$ 是凸函数.
+### 解答 3.3-7
 
-### 解答 3.5-5
-
-对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 因 $g$ 为凸函数,
+因 $b=c$, 三角形为等腰三角形. 由 $a+2b=2l$, 得 $b=l-\frac a2$. 面积为
 
 $$
-g\left(tx_1+\left(1-t\right)x_2\right)\le t g\left(x_1\right)+\left(1-t\right)g\left(x_2\right).
+S=\frac12 a\sqrt{b^2-\frac{a^2}{4}}=\frac12 a\sqrt{l^2-la}.
 $$
 
-又因 $f$ 为递增函数,
+为求最大值, 只需最大化 $S^2=\frac14\left(l^2a^2-la^3\right)$. 求导得
 
 $$
-f\left(g\left(tx_1+\left(1-t\right)x_2\right)\right)\le f\left(t g\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right).
+\left(S^2\right)'=\frac{la}{4}\left(2l-3a\right).
 $$
 
-再由 $f$ 为凸函数,
+令 $\left(S^2\right)'=0$, 得 $a=\frac{2l}{3}$. 当 $0< a< \frac{2l}{3}$ 时 $\left(S^2\right)'> 0$, 当 $\frac{2l}{3}< a< 2l$ 时 $\left(S^2\right)'< 0$. 由**定理 3.1 (极值点第一充分条件)**, $a=\frac{2l}{3}$ 为极大值点. 此时 $b=c=\frac{2l}{3}$, 即三角形为等边三角形时面积最大. $\blacksquare$
+
+## 3.3-8
+
+设 $f\left(x\right)=\sin^p x+\cos^p x$, 求它在 $\left[0,\frac\pi2\right]$ 上的最大值与最小值.
+
+### 解答 3.3-8
+
+求导得
 
 $$
-f\left(t g\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right)\le t f\left(g\left(x_1\right)\right)+\left(1-t\right)f\left(g\left(x_2\right)\right).
+f'\left(x\right)=p\sin x\cos x\left(\sin^{p-2}x-\cos^{p-2}x\right).
 $$
 
-合起来即得 $f\left(g\left(x\right)\right)$ 为凸函数. $\blacksquare$
+令 $f'\left(x\right)=0$, 在 $\left(0,\frac\pi2\right)$ 内得 $x=\frac\pi4$. 计算各点函数值:
 
-## 3.5-6
+- $f\left(0\right)=1$,
+- $f\left(\frac\pi4\right)=2^{1-p/2}$,
+- $f\left(\frac\pi2\right)=1$.
 
-设 $f\left(x\right)$ 在 $\left(-\infty,+\infty\right)$ 中是可微的凸函数, 且有界. 证明 $f\left(x\right)$ 为常数.
+当 $p> 2$ 时, $2^{1-p/2}< 1$. 故最大值为 $1$ (在端点处达到), 最小值为 $2^{1-p/2}$ (在 $x=\frac\pi4$ 处达到). $\blacksquare$
 
-### 解答 3.5-6
+## 3.4-1-2
 
-因 $f$ 为凸函数, 由**定理 5.1 (凸函数的二阶导数判别)**, $f''\left(x\right)\ge0$, 故 $f'\left(x\right)$ 为递增函数.
+写出函数 $y=\frac1{1-x}$ 在 $x=0$ 点的局部泰勒公式.
 
-反证: 假定存在 $x_0$ 使得 $f'\left(x_0\right)\ne0$. 若 $f'\left(x_0\right)> 0$, 因 $f'$ 递增, 当 $x> x_0$ 时 $f'\left(x\right)\ge f'\left(x_0\right)> 0$. 由**定理 1.3 (拉格朗日中值定理)**,
+### 解答 3.4-1-2
+
+对 $f\left(x\right)=\frac1{1-x}$ 求各阶导数: $f^{\left(n\right)}\left(x\right)=\frac{n!}{\left(1-x\right)^{n+1}}$. 故 $f^{\left(n\right)}\left(0\right)=n!$. 由**定理 4.1 (局部泰勒展开式)**,
 
 $$
-f\left(x\right)=f\left(x_0\right)+f'\left(\xi\right)\left(x-x_0\right)\ge f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty,
+\frac1{1-x}=1+x+x^2+\cdots+x^n+o\left(x^n\right)\quad\left(x\to0\right).
 $$
 
-与 $f$ 有界矛盾. 若 $f'\left(x_0\right)< 0$, 同理当 $x< x_0$ 时 $f'\left(x\right)\le f'\left(x_0\right)< 0$, 推出 $f\left(x\right)\to+\infty$ ($x\to-\infty$), 同样矛盾.
+$\blacksquare$
 
-故 $f'\left(x\right)\equiv0$, 即 $f$ 为常数. $\blacksquare$
+## 3.4-1-4
 
-## 3.5-7-1
+写出函数 $y=\arctan x$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^5$ 为止).
 
-作函数 $y=\frac{\left(x+1\right)^3}{\left(x-1\right)^2}$ 的图形.
+### 解答 3.4-1-4
 
-### 解答 3.5-7-1
+计算得 $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=-2$, $f^{\left(4\right)}\left(0\right)=0$, $f^{\left(5\right)}\left(0\right)=24$. 由**定理 4.1 (局部泰勒展开式)**,
 
-**定义域**: $\left(-\infty,1\right)\cup\left(1,+\infty\right)$.
+$$
+\arctan x=x-\frac{x^3}{3}+\frac{x^5}{5}+o\left(x^5\right)\quad\left(x\to0\right).
+$$
 
-**渐近线**: $\lim_{x\to1}y=\infty$, 故 $x=1$ 为垂直渐近线. 又 $\lim_{x\to\infty}\frac yx=1$, $\lim_{x\to\infty}\left(y-x\right)=5$, 故斜渐近线为 $y=x+5$.
+$\blacksquare$
 
-**单调区间与极值**: $y'=\frac{\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^3}$. 令 $y'=0$, 得 $x=-1$ 或 $x=5$. 当 $x< 5$ 时 $y'\le0$ (除 $x=-1$ 外), 当 $x> 5$ 时 $y'> 0$. 故 $x=5$ 为极小值点, 极小值 $y\left(5\right)=\frac{27}2$. $x=-1$ 不是极值点.
+## 3.4-1-5
 
-**凸凹性与拐点**: $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$. 当 $x< -1$ 时 $y''< 0$ (凹); 当 $x> -1$ 且 $x\ne1$ 时 $y''> 0$ (凸). 拐点为 $\left(-1,0\right)$. $\blacksquare$
+写出函数 $y=\tan x$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^3$ 为止).
 
-## 3.5-7-2
+### 解答 3.4-1-5
 
-作函数 $y=xe^{-x}$ 的图形.
+计算得 $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=2$. 由**定理 4.1 (局部泰勒展开式)**,
 
-### 解答 3.5-7-2
+$$
+\tan x=x+\frac{x^3}{3}+o\left(x^3\right)\quad\left(x\to0\right).
+$$
 
-**定义域**: $\left(-\infty,+\infty\right)$.
+$\blacksquare$
 
-**渐近线**: $\lim_{x\to+\infty}xe^{-x}=0$, 故 $y=0$ 为水平渐近线.
+## 3.4-4
 
-**单调区间与极值**: $y'=\left(1-x\right)e^{-x}$. 令 $y'=0$, 得 $x=1$. 当 $x< 1$ 时 $y'> 0$, 当 $x> 1$ 时 $y'< 0$. 故 $x=1$ 为极大值点, 极大值 $y\left(1\right)=\frac1e$.
+将 $y=\sin\left(x+\alpha\right)$ 在 $\alpha=0$ 点展开成带拉格朗日余项的泰勒公式, 并估计余项大小.
 
-**凸凹性与拐点**: $y''=\left(x-2\right)e^{-x}$. 令 $y''=0$, 得 $x=2$. 当 $x< 2$ 时 $y''< 0$ (凹); 当 $x> 2$ 时 $y''> 0$ (凸). 拐点为 $\left(2,2e^{-2}\right)$. $\blacksquare$
+### 解答 3.4-4
 
-## 3.5-7-3
+将 $x$ 视作常数, 对 $\alpha$ 求导: $\frac{\mathrm d}{\mathrm d\alpha}\sin\left(x+\alpha\right)=\cos\left(x+\alpha\right)$, $\frac{\mathrm d^2}{\mathrm d\alpha^2}\sin\left(x+\alpha\right)=-\sin\left(x+\alpha\right)$. 在 $\alpha=0$ 处, $\sin x$ 与 $\cos x$. 由**定理 4.2 (带拉格朗日余项的泰勒公式)**,
 
-作函数 $y=xe^{-x^2}$ 的图形.
+$$
+\sin\left(x+\alpha\right)=\sin x+\left(\cos x\right)\alpha-\frac{\sin\left(x+\xi\right)}2\alpha^2,
+$$
 
-### 解答 3.5-7-3
+其中 $\xi$ 介于 $0$ 与 $\alpha$ 之间. 余项 $r\left(\alpha\right)=-\frac{\sin\left(x+\xi\right)}2\alpha^2$, 故 $\left|r\left(\alpha\right)\right|\le\frac{\alpha^2}2$. $\blacksquare$
 
-**定义域**: $\left(-\infty,+\infty\right)$. 函数为奇函数, 图形关于原点对称.
+## 3.4-5
 
-**渐近线**: $\lim_{x\to\pm\infty}xe^{-x^2}=0$, 故 $y=0$ 为水平渐近线.
+将 $y=x+\frac{x^3}3$ 在 $x=\pm1$ 点展成泰勒公式. 说明: 任何多项式 $P_n\left(x\right)$ 在任何一点 $a$ 的 $n$ 次泰勒展开式之余项为 $0$.
 
-**单调区间与极值**: $y'=\left(1-2x^2\right)e^{-x^2}$. 令 $y'=0$, 得 $x=\pm\frac1{\sqrt2}$. 当 $x< -\frac1{\sqrt2}$ 时 $y'< 0$; 当 $-\frac1{\sqrt2}< x< \frac1{\sqrt2}$ 时 $y'> 0$; 当 $x> \frac1{\sqrt2}$ 时 $y'< 0$. 故 $x=-\frac1{\sqrt2}$ 为极小值点, 极小值 $-\frac1{\sqrt{2e}}$; $x=\frac1{\sqrt2}$ 为极大值点, 极大值 $\frac1{\sqrt{2e}}$.
+### 解答 3.4-5
 
-**凸凹性与拐点**: $y''=2x\left(2x^2-3\right)e^{-x^2}$. 令 $y''=0$, 得 $x=0$ 或 $x=\pm\sqrt{\frac32}$. 拐点为 $\left(0,0\right)$ 及 $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$. $\blacksquare$
+$f'\left(x\right)=1+x^2$, $f''\left(x\right)=2x$, $f'''\left(x\right)=2$, $f^{\left(4\right)}\left(x\right)=0$.
+
+在 $x=1$ 处: $f\left(1\right)=\frac43$, $f'\left(1\right)=2$, $f''\left(1\right)=2$, $f'''\left(1\right)=2$. 由**定理 4.1 (局部泰勒展开式)**,
+
+$$
+x+\frac{x^3}3=\frac43+2\left(x-1\right)+\left(x-1\right)^2+\frac13\left(x-1\right)^3.
+$$
+
+在 $x=-1$ 处:
+
+$$
+x+\frac{x^3}3=-\frac43+2\left(x+1\right)-\left(x+1\right)^2+\frac13\left(x+1\right)^3.
+$$
+
+对于一般多项式 $P_n\left(x\right)$, $P_n^{\left(n+1\right)}\left(x\right)\equiv0$. 由**定理 4.2 (带拉格朗日余项的泰勒公式)**, 余项 $R_n\left(x\right)=0$. 即多项式的泰勒展开式是精确的. $\blacksquare$

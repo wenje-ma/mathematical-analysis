@@ -1,188 +1,195 @@
 # week15
 
-> **命题 3.1 (唯一极值点即全局极值点)**
+> **定理 1.1 (费马定理)**
 > 
-> 设 $y=f\left(x\right)$ 在区间 $\left(a,b\right)$ (或 $\left[a,b\right]$) 上连续. 若 $x_0$ 是 $\left(a,b\right)$ 中唯一的极值点, 则当 $x_0$ 为极大值点时, $f\left(x_0\right)$ 为最大值; 当 $x_0$ 为极小值点时, $f\left(x_0\right)$ 为最小值.
+> 设 $f\left(x\right)$ 在一点 $a$ 附近有定义, 且在 $a$ 点可微. 若 $a$ 点为 $y=f\left(x\right)$ 的极值点, 则 $f'\left(a\right)=0$.
 
-> **定理 3.1 (极值点第一充分条件)**
+> **定理 1.2 (罗尔定理)**
 > 
-> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, 且 $x_0\in\left(a,b\right)$ 是 $f$ 的一个稳定点, 即 $f'\left(x_0\right)=0$. 若存在 $r> 0$, 使得当 $x\in\left(x_0-r,x_0\right)$ 时 $f'\left(x\right)> 0$, 当 $x\in\left(x_0,x_0+r\right)$ 时 $f'\left(x\right)< 0$, 则 $f\left(x_0\right)$ 是极大值; 若符号相反, 则 $f\left(x_0\right)$ 是极小值.
+> 设函数 $y=f\left(x\right)$ 在闭区间 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 中处处可导, 且 $f\left(a\right)=f\left(b\right)$. 则在 $\left(a,b\right)$ 中至少存在一点 $c$, 使得 $f'\left(c\right)=0$.
 
-> **定理 3.2 (极值点第二充分条件)**
+> **定理 1.3 (拉格朗日中值定理)**
 > 
-> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, $x_0\in\left(a,b\right)$ 是其稳定点, 并假定 $f$ 在 $x_0$ 有二阶导数. 若 $f''\left(x_0\right)> 0$, 则 $x_0$ 为极小值点; 若 $f''\left(x_0\right)< 0$, 则 $x_0$ 为极大值点.
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-## 3.3-1-1
+> **定理 1.4 (常数定理)**
+> 
+> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中处处可导, 且 $f'\left(x\right)=0$ ($x\in\left(a,b\right)$). 则 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内必为常数.
 
-求函数 $y=x\left(3x^2-5\right)^2$ 的稳定点, 并判断这些稳定点是否为极值点.
+> **定理 1.5 (单调性判定)**
+> 
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 可导. 若 $f'\left(x\right)> 0$ ($\ge0$) 对一切 $x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递增 (递增); 若 $f'\left(x\right)< 0$ ($\le0$) 对一切 $x\in\left(a,b\right)$, 则严格递减 (递减).
 
-### 解答 3.3-1-1
+> **定理 2.1 (柯西中值定理)**
+> 
+> 设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $\left[a,b\right]$ 中连续, 在 $\left(a,b\right)$ 中可导, 且 $g'\left(x\right)\ne0$ ($a< x< b$). 则存在点 $c\in\left(a,b\right)$, 使得 $\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}$.
+
+> **定理 2.2 (洛必达法则, $\frac00$ 型)**
+> 
+> 设 $f$ 及 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=0$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
+
+> **定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**
+> 
+> 设 $f$ 与 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
+
+## 3.1-14
+
+设
+
+$$
+f\left(x\right)=\arctan\frac{1+x}{1-x}-\arctan x,
+$$
+
+又设 $\left(a,b\right)$ 是不包含 $x=1$ 的任意一个区间. 证明 $f\left(x\right)=C$ 对一切 $x\in\left(a,b\right)$ 成立, $C$ 为常数. 令 $\left(a,b\right)=\left(-\infty,1\right)$, 试证这时 $C=\frac\pi4$. 又问: 当 $x\in\left(1,+\infty\right)$ 时, $C$ 为何值?
+
+### 解答 3.1-14
 
 求导得
 
 $$
-y'=\left(3x^2-5\right)^2+x\cdot2\left(3x^2-5\right)\cdot6x=\left(3x^2-5\right)\left(15x^2-5\right)=5\left(3x^2-5\right)\left(3x^2-1\right).
+f'\left(x\right)=\frac{1}{1+\left(\frac{1+x}{1-x}\right)^2}\cdot\frac{2}{\left(1-x\right)^2}-\frac1{1+x^2}=\frac{2}{\left(1-x\right)^2+\left(1+x\right)^2}-\frac1{1+x^2}=\frac1{1+x^2}-\frac1{1+x^2}=0.
 $$
 
-令 $y'=0$, 得稳定点 $x=\pm\sqrt{\frac53}$, $\pm\frac1{\sqrt3}$.
+由**定理 1.4 (常数定理)**, $f\left(x\right)$ 在 $\left(a,b\right)$ 内为常数, 记为 $C$.
 
-再求二阶导数:
-
-$$
-y''=30x\left(30x^2-26\right).
-$$
-
-代入各稳定点:
-
-- $x=\sqrt{\frac53}$: $y''> 0$, 故为极小值点.
-- $x=-\sqrt{\frac53}$: $y''< 0$, 故为极大值点.
-- $x=\frac1{\sqrt3}$: $y''< 0$, 故为极大值点.
-- $x=-\frac1{\sqrt3}$: $y''> 0$, 故为极小值点.
-
-由**定理 3.2 (极值点第二充分条件)**, 上述判断成立. $\blacksquare$
-
-## 3.3-1-3
-
-求函数 $y=x\ln x$ ($x> 0$) 的稳定点, 并判断这些稳定点是否为极值点.
-
-### 解答 3.3-1-3
-
-求导得 $y'=\ln x+1$. 令 $y'=0$, 得 $x=\frac1e$.
-
-再求二阶导数: $y''=\frac1x> 0$ ($x> 0$). 故 $y''\left(\frac1e\right)=e> 0$. 由**定理 3.2 (极值点第二充分条件)**, $x=\frac1e$ 为极小值点, 极小值为 $y\left(\frac1e\right)=-\frac1e$. $\blacksquare$
-
-## 3.3-2
-
-设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续. 假定 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内有唯一极值点. 证明: (1) 函数在该极值点附近一定是严格极大或严格极小; (2) 若该极值点为极大值点, 则一定是最大值点; 若为极小值点, 则一定是最小值点.
-
-### 解答 3.3-2
-
-(1) 设 $x_0\in\left(a,b\right)$ 为唯一极值点. 若 $x_0$ 不是严格极大值点, 则存在一列点 $x_n\to x_0$ ($x_n\ne x_0$) 使得 $f\left(x_n\right)\ge f\left(x_0\right)$. 但若在 $x_0$ 的任意邻域内都有函数值等于 $f\left(x_0\right)$ 的点, 则 $f$ 在 $x_0$ 附近为常数, 从而有无穷多个极值点, 与唯一性矛盾. 故 $x_0$ 必为严格极大值点 (或严格极小值点).
-
-(2) 设 $x_0$ 为极大值点. 反证: 假定 $f\left(x_0\right)$ 不是 $\left[a,b\right]$ 上的最大值, 则存在 $x_1\in\left[a,b\right]$ 使得 $f\left(x_1\right)> f\left(x_0\right)$. 考虑闭区间 $\left[x_0,x_1\right]$ 上的连续函数 $f$. 因 $f\left(x_1\right)> f\left(x_0\right)$ 且 $x_0$ 为严格极大值点, 故 $f$ 在 $\left(x_0,x_1\right)$ 内某点达到最小值, 该点即为极小值点. 这与 $x_0$ 是唯一极值点矛盾.
-
-故 $f\left(x_0\right)$ 必为最大值. 极小值点的情形类似. 此即**命题 3.1 (唯一极值点即全局极值点)**. $\blacksquare$
-
-## 3.3-3
-
-(光的折射定律) 设有甲, 乙两种介质, 其交界面为一平面. 假设光自甲种介质中之 $A$ 点发出, 经过两种介质的交界面到达乙种介质中的 $B$ 点处. 从物理学上我们知道, 光所走的路径一定满足折射定律: $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$, 其中 $\alpha$ 是光的入射角, $\beta$ 是折射角, $v_1,v_2$ 分别为光在甲, 乙两种介质中的速度. 证明光所走的路径是时间最少的路径.
-
-### 解答 3.3-3
-
-设交界面为 $x$ 轴, $A=\left(0,a\right)$ (甲介质, $y> 0$), $B=\left(d,-b\right)$ (乙介质, $y< 0$). 设光在交界面上的入射点为 $P=\left(x,0\right)$.
-
-总时间为
+当 $\left(a,b\right)=\left(-\infty,1\right)$ 时, 取 $x=0$, 则
 
 $$
-T\left(x\right)=\frac{\sqrt{x^2+a^2}}{v_1}+\frac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}.
+f\left(0\right)=\arctan1-\arctan0=\frac\pi4.
 $$
 
-求导得
+故 $C=\frac\pi4$, 即
 
 $$
-T'\left(x\right)=\frac{x}{v_1\sqrt{x^2+a^2}}-\frac{d-x}{v_2\sqrt{\left(d-x\right)^2+b^2}}=\frac{\sin\alpha}{v_1}-\frac{\sin\beta}{v_2}.
+\arctan\frac{1+x}{1-x}=\arctan x+\frac\pi4\quad\left(x< 1\right).
 $$
 
-令 $T'\left(x\right)=0$, 得 $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$, 即折射定律. 又
+当 $x\in\left(1,+\infty\right)$ 时, 取 $x\to+\infty$, 则 $\frac{1+x}{1-x}\to-1$, $\arctan\frac{1+x}{1-x}\to-\frac\pi4$, 而 $\arctan x\to\frac\pi2$. 故
 
 $$
-T''\left(x\right)=\frac{a^2}{v_1\left(x^2+a^2\right)^{3/2}}+\frac{b^2}{v_2\left(\left(d-x\right)^2+b^2\right)^{3/2}}> 0,
+C=\lim_{x\to+\infty}f\left(x\right)=-\frac\pi4-\frac\pi2=-\frac{3\pi}4.
 $$
 
-故 $T'\left(x\right)=0$ 的点为极小值点. 由**命题 3.1 (唯一极值点即全局极值点)**, 该点即为时间最少的路径. $\blacksquare$
+$\blacksquare$
 
-## 3.3-4
+## 3.2-1
 
-设一电灯可以沿铅垂线 $OB$ 移动, $OA$ 是一条水平线, 长度为 $a$. 问灯距离 $O$ 点多高时, $A$ 点有最大的照度?
+求下列未定式的极限:
 
-### 解答 3.3-4
+(1) $\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}$ ($a\ne0$, $b\ne0$);
 
-设灯距离 $O$ 点的高度为 $h$. 照度 $J$ 与光线入射角的余弦成正比, 与距离的平方成反比. 光线从灯到 $A$ 点 $\left(a,0\right)$ 的距离为 $r=\sqrt{a^2+h^2}$, 入射角 $\theta$ (光线与铅垂线的夹角) 满足 $\cos\theta=\frac{h}{r}$. 故
+(2) $\lim_{x\to0}\frac{a^x-1}{x}$ ($a> 0$);
 
-$$
-J\left(h\right)=C\cdot\frac{\cos\theta}{r^2}=\frac{Ch}{\left(a^2+h^2\right)^{3/2}},
-$$
+(3) $\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}$;
 
-其中 $C> 0$ 为比例常数.
+(4) $\lim_{x\to0+}x^x$;
 
-求导得
+(5) $\lim_{x\to0+}x\ln x$;
 
-$$
-J'\left(h\right)=C\cdot\frac{a^2-2h^2}{\left(a^2+h^2\right)^{5/2}}.
-$$
+(6) $\lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}$;
 
-令 $J'\left(h\right)=0$, 得 $h=\frac{a}{\sqrt2}$. 当 $h< \frac{a}{\sqrt2}$ 时 $J'\left(h\right)> 0$, 当 $h> \frac{a}{\sqrt2}$ 时 $J'\left(h\right)< 0$. 由**定理 3.1 (极值点第一充分条件)**, $h=\frac{a}{\sqrt2}$ 为极大值点. 由**命题 3.1 (唯一极值点即全局极值点)**, 此时 $A$ 点照度最大. $\blacksquare$
+(7) $\lim_{x\to0+}\left(\sin x\right)^{\sin x}$.
 
-## 3.3-5
+### 解答 3.2-1
 
-证明不等式: $x^\alpha-\alpha x+\alpha-1\le0$ 对一切 $x> 0$, 其中 $0< \alpha< 1$.
-
-### 解答 3.3-5
-
-令 $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$ ($x> 0$). 求导得
+(1) 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
 
 $$
-f'\left(x\right)=\alpha x^{\alpha-1}-\alpha=\alpha\left(x^{\alpha-1}-1\right).
+\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}=\lim_{x\to0}\frac{\frac{-a\sin ax}{\cos ax}}{\frac{-b\sin bx}{\cos bx}}=\lim_{x\to0}\frac{a\tan ax}{b\tan bx}=\frac{a^2}{b^2}.
 $$
 
-令 $f'\left(x\right)=0$, 得 $x=1$. 当 $0< x< 1$ 时 $f'\left(x\right)> 0$, 当 $x> 1$ 时 $f'\left(x\right)< 0$. 由**定理 3.1 (极值点第一充分条件)**, $x=1$ 为极大值点. 又 $f\left(1\right)=0$. 由**命题 3.1 (唯一极值点即全局极值点)**, $f\left(1\right)=0$ 为最大值. 故 $f\left(x\right)\le0$. $\blacksquare$
-
-## 3.3-6
-
-证明: 设 $a> 0$, $b> 0$, $p> 1$, $q> 1$, 且 $\frac1p+\frac1q=1$, 则 $a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}$.
-
-### 解答 3.3-6
-
-在 3.3-5 中取 $\alpha=\frac1p$, 则 $1-\alpha=\frac1q$. 对任意 $x> 0$,
+(2) 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
 
 $$
-x^{1/p}-\frac1p x+\frac1p-1\le0.
+\lim_{x\to0}\frac{a^x-1}{x}=\lim_{x\to0}\frac{a^x\ln a}{1}=\ln a.
 $$
 
-令 $x=\frac{a}{b}$, 代入并两边乘以 $b$, 整理得
+(3) 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
 
 $$
-a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}.
+\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}=\lim_{x\to0}\frac{\sec^2x-1}{1-\frac1{\sqrt{1-x^2}}}.
 $$
 
-此即杨氏不等式. $\blacksquare$
+分子 $\sec^2x-1=\tan^2x\sim x^2$. 分母 $1-\frac1{\sqrt{1-x^2}}\sim-\frac{x^2}{2}$. 故极限为 $\frac{x^2}{-x^2/2}=-2$.
 
-## 3.3-7
+(4) 这是 $0^0$ 型. 令 $y=x^x$, 则 $\ln y=x\ln x$. 由 (5) 知 $\lim_{x\to0+}x\ln x=0$, 故 $\lim_{x\to0+}x^x=e^0=1$.
 
-设 $\triangle ABC$ 的边分别为 $a,b$ 与 $c$. 假定 $b=c$, 且 $a+b+c=2l$, 其中 $l$ 为一定数. 问 $\triangle ABC$ 何时面积最大?
-
-### 解答 3.3-7
-
-因 $b=c$, 三角形为等腰三角形. 由 $a+2b=2l$, 得 $b=l-\frac a2$. 面积为
+(5) 这是 $0\cdot\infty$ 型. 改写为 $\frac{\infty}{\infty}$ 后应用**定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**:
 
 $$
-S=\frac12 a\sqrt{b^2-\frac{a^2}{4}}=\frac12 a\sqrt{l^2-la}.
+\lim_{x\to0+}x\ln x=\lim_{x\to0+}\frac{\ln x}{1/x}=\lim_{x\to0+}\frac{1/x}{-1/x^2}=\lim_{x\to0+}\left(-x\right)=0.
 $$
 
-为求最大值, 只需最大化 $S^2=\frac14\left(l^2a^2-la^3\right)$. 求导得
+(6) 这是 $\frac{\infty}{\infty}$ 型. 由**定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**,
 
 $$
-\left(S^2\right)'=\frac{la}{4}\left(2l-3a\right).
+\lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}=\lim_{x\to0+}\frac{\cot x}{2x}=\lim_{x\to0+}\frac{\cos x}{2x\sin x}=+\infty.
 $$
 
-令 $\left(S^2\right)'=0$, 得 $a=\frac{2l}{3}$. 当 $0< a< \frac{2l}{3}$ 时 $\left(S^2\right)'> 0$, 当 $\frac{2l}{3}< a< 2l$ 时 $\left(S^2\right)'< 0$. 由**定理 3.1 (极值点第一充分条件)**, $a=\frac{2l}{3}$ 为极大值点. 此时 $b=c=\frac{2l}{3}$, 即三角形为等边三角形时面积最大. $\blacksquare$
+(7) 这是 $0^0$ 型. 令 $y=\left(\sin x\right)^{\sin x}$, 则 $\ln y=\sin x\ln\left(\sin x\right)$. 由 (5) 的结果 (将 $x$ 换成 $\sin x$), $\lim_{x\to0+}\sin x\ln\left(\sin x\right)=0$. 故 $\lim_{x\to0+}\left(\sin x\right)^{\sin x}=e^0=1$. $\blacksquare$
 
-## 3.3-8
+## 3.2-2
 
-设 $f\left(x\right)=\sin^p x+\cos^p x$, 求它在 $\left[0,\frac\pi2\right]$ 上的最大值与最小值.
+若 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在, 能否说明 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}$ 也不存在? 试考察 $f\left(x\right)=x^2\sin\frac1x$ 及 $g\left(x\right)=x$ 在 $x\to0$ 时的情况.
 
-### 解答 3.3-8
+### 解答 3.2-2
 
-求导得
+不能. 取 $f\left(x\right)=x^2\sin\frac1x$, $g\left(x\right)=x$, $x\to0$.
+
+首先,
 
 $$
-f'\left(x\right)=p\sin x\cos x\left(\sin^{p-2}x-\cos^{p-2}x\right).
+\lim_{x\to0}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to0}x\sin\frac1x=0.
 $$
 
-令 $f'\left(x\right)=0$, 在 $\left(0,\frac\pi2\right)$ 内得 $x=\frac\pi4$. 计算各点函数值:
+而
 
-- $f\left(0\right)=1$,
-- $f\left(\frac\pi4\right)=2^{1-p/2}$,
-- $f\left(\frac\pi2\right)=1$.
+$$
+f'\left(x\right)=2x\sin\frac1x-\cos\frac1x,\quad g'\left(x\right)=1.
+$$
 
-当 $p> 2$ 时, $2^{1-p/2}< 1$. 故最大值为 $1$ (在端点处达到), 最小值为 $2^{1-p/2}$ (在 $x=\frac\pi4$ 处达到). $\blacksquare$
+于是 $\frac{f'\left(x\right)}{g'\left(x\right)}=2x\sin\frac1x-\cos\frac1x$. 当 $x\to0$ 时, $2x\sin\frac1x\to0$, 但 $\cos\frac1x$ 振荡无极限. 故 $\lim_{x\to0}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在.
+
+这说明: $\lim\frac{f'}{g'}$ 不存在时, $\lim\frac{f}{g}$ 仍可能存在, 即洛必达法则的逆命题不成立. $\blacksquare$
+
+## 3.2-4
+
+设 $y=f\left(x\right)$ 在 $a$ 点有二阶导数, 并令
+
+$$
+T\left(x\right)=f\left(a\right)+f'\left(a\right)\Delta x+\frac{f''\left(a\right)}2\left(\Delta x\right)^2,
+$$
+
+其中 $\Delta x=x-a$. 证明: 函数 $g\left(x\right)=f\left(x\right)-T\left(x\right)$ 满足 $g\left(a\right)=0$, $g'\left(a\right)=0$, $g''\left(a\right)=0$, 且 $f\left(x\right)=T\left(x\right)+o\left(\left(\Delta x\right)^2\right)$ ($x\to a$).
+
+### 解答 3.2-4
+
+由 $T\left(x\right)$ 的定义, $T\left(a\right)=f\left(a\right)$, $T'\left(x\right)=f'\left(a\right)+f''\left(a\right)\Delta x$, $T''\left(x\right)=f''\left(a\right)$.
+
+计算得
+
+$$
+g\left(a\right)=f\left(a\right)-T\left(a\right)=0,
+$$
+
+$$
+g'\left(a\right)=f'\left(a\right)-T'\left(a\right)=0,
+$$
+
+$$
+g''\left(a\right)=f''\left(a\right)-T''\left(a\right)=0.
+$$
+
+下面证明 $g\left(x\right)=o\left(\left(\Delta x\right)^2\right)$. 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
+
+$$
+\lim_{\Delta x\to0}\frac{g\left(x\right)}{\left(\Delta x\right)^2}=\lim_{\Delta x\to0}\frac{g'\left(x\right)}{2\Delta x}.
+$$
+
+右端仍是 $\frac00$ 型. 再用一次**定理 2.2 (洛必达法则, $\frac00$ 型)**,
+
+$$
+\lim_{\Delta x\to0}\frac{g'\left(x\right)}{2\Delta x}=\lim_{\Delta x\to0}\frac{g''\left(x\right)}2=\frac{g''\left(a\right)}2=0.
+$$
+
+这里用到了 $g''$ 在 $a$ 点的连续性. 故 $g\left(x\right)=o\left(\left(\Delta x\right)^2\right)$, 即 $f\left(x\right)=T\left(x\right)+o\left(\left(x-a\right)^2\right)$. $\blacksquare$

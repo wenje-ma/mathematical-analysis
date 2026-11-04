@@ -1,163 +1,209 @@
 # week5
 
-> **命题 1.7 (三角不等式)**
+> **定理 3.1 (极限四则运算定理)**
 > 
-> 对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
-> **定理 5.1 (函数极限四则运算)**
+> **定理 3.2 (实数域完备性)**
 > 
-> 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限.
 
-## 1.5-1-2
+> **例 3.3 (正数的 $n$ 次方根趋于 $1$)**
+> 
+> 设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
 
-利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to a}\cos x=\cos a$.
+> **定理 4.2 (夹逼定理)**
+> 
+> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le a_n\le b_n$ 对一切 $n\ge N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
 
-### 解答 1.5-1-2
+## 1.4-3-2
 
-由和差化积公式,
-
-$$
-\left|\cos x-\cos a\right|=2\left|\sin\frac{x+a}2\right|\left|\sin\frac{x-a}2\right|\le2\cdot1\cdot\frac{\left|x-a\right|}2=\left|x-a\right|,
-$$
-
-其中用到 $\left|\sin t\right|\le\left|t\right|$ 对一切 $t$ 成立.
-
-任给 $\varepsilon> 0$, 取 $\delta=\varepsilon$, 则当 $0< \left|x-a\right|< \delta$ 时,
+利用单调有界序列有极限, 证明序列
 
 $$
-\left|\cos x-\cos a\right|\le\left|x-a\right|< \varepsilon.
+a_n=\frac1{n+1}+\frac1{n+2}+\cdots+\frac1{2n}
 $$
 
-由函数极限的定义, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
+的极限存在.
 
-## 1.5-1-3
+### 解答 1.4-3-2
 
-利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$.
-
-### 解答 1.5-1-3
+先证 $\left\{a_n\right\}$ 单调递增:
 
 $$
-\left|\frac{6x+5}{x+1}-6\right|=\left|\frac{6x+5-6\left(x+1\right)}{x+1}\right|=\frac1{x+1}.
+a_{n+1}-a_n=\frac1{2n+1}+\frac1{2n+2}-\frac1{n+1}=\frac1{2n+1}-\frac1{2n+2}> 0.
 $$
 
-任给 $\varepsilon> 0$, 取 $X=\frac1\varepsilon-1$, 则当 $x> X$ 时,
+故 $\left\{a_n\right\}$ 单调递增.
+
+再证有上界:
 
 $$
-\left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}< \varepsilon.
+a_n=\sum_{k=n+1}^{2n}\frac1k\le\frac{n}{n+1}< 1.
 $$
 
-由函数极限的定义 的 $x\to+\infty$ 版本, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
+由**定理 3.2 (实数域完备性)**, 单调递增有上界的序列有极限, 故 $\lim_{n\to\infty}a_n$ 存在. $\blacksquare$
 
-## 1.5-1-5
+## 1.4-4
 
-利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to2-0}\sqrt{4-x^2}=0$.
+令 $0< a< b$, $n$ 为正整数. 证明:
 
-### 解答 1.5-1-5
-
-$\left|\sqrt{4-x^2}-0\right|=\sqrt{4-x^2}$. 要使 $\sqrt{4-x^2}< \varepsilon$, 只需 $4-x^2< \varepsilon^2$, 即 $x^2> 4-\varepsilon^2$. 因 $x\to2-0$ 时 $x< 2$, 故只需 $x> \sqrt{4-\varepsilon^2}$. 取 $\delta=2-\sqrt{4-\varepsilon^2}$, 则当 $2-\delta< x< 2$ 时,
+(1)
 
 $$
-0< 2-x< \delta\Rightarrow x> \sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}< \varepsilon.
+\left(n+1\right)a^n< \frac{b^{n+1}-a^{n+1}}{b-a}< \left(n+1\right)b^n;
 $$
 
-由单侧极限的定义, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
+(2) 令 $a=1+\frac1{n+1}$, $b=1+\frac1n$, 由上式推出 $\left(1+\frac1n\right)^n$ 严格递增, $\left(1+\frac1n\right)^{n+1}$ 严格递减.
 
-## 1.5-1-7
+### 解答 1.4-4
 
-设 $a> 0$, 证明 $\lim_{x\to0}a^x=1$.
-
-### 解答 1.5-1-7
-
-不妨设 $a> 1$ ($0< a< 1$ 时同理). 要使 $\left|a^x-1\right|< \varepsilon$, 即 $1-\varepsilon< a^x< 1+\varepsilon$. 假设 $0< \varepsilon< 1$, 则左边 $a^x> 1-\varepsilon> 0$, 取对数得 $x> \log_a\left(1-\varepsilon\right)$; 右边 $a^x< 1+\varepsilon$ 得 $x< \log_a\left(1+\varepsilon\right)$.
-
-取
+(1) 由因式分解,
 
 $$
-\delta=\min\left\{-\log_a\left(1-\varepsilon\right),\log_a\left(1+\varepsilon\right)\right\}> 0,
+\frac{b^{n+1}-a^{n+1}}{b-a}=b^n+b^{n-1}a+\cdots+ba^{n-1}+a^n=\sum_{k=0}^n b^{n-k}a^k.
 $$
 
-则当 $0< \left|x\right|< \delta$ 时 $\left|a^x-1\right|< \varepsilon$. 由函数极限的定义, $\lim_{x\to0}a^x=1$. $\blacksquare$
-
-## 1.5-4
-
-设 $\lim_{x\to a}f\left(x\right)=l$, 且 $l\ne0$. 证明函数 $y=\frac1{f\left(x\right)}$ 当 $x\to a$ 时为有界变量.
-
-### 解答 1.5-4
-
-取 $\varepsilon=\frac{\left|l\right|}{2}$. 由函数极限的定义, 存在 $\delta> 0$, 使得当 $0< \left|x-a\right|< \delta$ 时, $\left|f\left(x\right)-l\right|< \frac{\left|l\right|}{2}$. 由**命题 1.7 (三角不等式)**,
+因 $0< a< b$, 对每一项 $b^{n-k}a^k$ 有 $a^n< b^{n-k}a^k< b^n$. 求和得
 
 $$
-\left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|> \left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
+\left(n+1\right)a^n< \sum_{k=0}^n b^{n-k}a^k< \left(n+1\right)b^n,
 $$
 
-于是 $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, 即 $\frac1{f\left(x\right)}$ 当 $x\to a$ 时有界. 此即极限的保号性 的推论. $\blacksquare$
+即 (1) 成立.
 
-## 1.5-5
+(2) 取 $a=1+\frac1{n+1}$, $b=1+\frac1n$, 则 $b-a=\frac1{n\left(n+1\right)}$.
 
-设 $\lim_{x\to2}f\left(x\right)=l$, 证明: $y\to\sqrt2$ 时, $f\left(y^2\right)\to l$.
-
-### 解答 1.5-5
-
-任给 $\varepsilon> 0$, 由函数极限的定义, 存在 $\delta_1> 0$, 使得当 $0< \left|x-2\right|< \delta_1$ 时 $\left|f\left(x\right)-l\right|< \varepsilon$. 令 $x=y^2$, 则需 $0< \left|y^2-2\right|< \delta_1$.
-
-因 $y\to\sqrt2$, 可限制 $\left|y-\sqrt2\right|< 1$, 此时 $\left|y+\sqrt2\right|\le2\sqrt2+1$. 取 $\delta=\min\left\{1,\frac{\delta_1}{2\sqrt2+1}\right\}$, 则当 $0< \left|y-\sqrt2\right|< \delta$ 时,
+由 (1) 的右半: $\frac{b^{n+1}-a^{n+1}}{b-a}< \left(n+1\right)b^n$, 即 $n\left(b^{n+1}-a^{n+1}\right)< b^n$. 整理得 $nb^{n+1}-b^n< na^{n+1}$, 即 $b^n\left(nb-1\right)< na^{n+1}$. 代入 $nb=n+1$, 得 $b^n\cdot n< na^{n+1}$, 即 $b^n< a^{n+1}$, 亦即
 
 $$
-\left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|< \delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
+\left(1+\frac1n\right)^n< \left(1+\frac1{n+1}\right)^{n+1},
 $$
 
-且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|< \varepsilon$. 由函数极限的定义, $f\left(y^2\right)\to l$. $\blacksquare$
+故 $\left(1+\frac1n\right)^n$ 严格递增.
 
-## 1.5-6
-
-讨论下列函数在 $x=0$ 点的左右极限:
-
-(1) $y=\left[x\right]\cdot\left(1+x\right)$;
-
-(2) $y=\cos x\cdot\operatorname{sgn}x$;
-
-(3) $y=\frac{\left|x\right|}{x}\cdot\frac1{1+x^n}$.
-
-### 解答 1.5-6
-
-(1) 当 $x\to0+0$ 时 $\left[x\right]=0$, 故 $y=0$, 右极限为 $0$. 当 $x\to0-0$ 时 $\left[x\right]=-1$, 故 $y=-\left(1+x\right)\to-1$, 左极限为 $-1$.
-
-(2) 当 $x\to0+0$ 时 $\operatorname{sgn}x=1$, 故 $y=\cos x\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\operatorname{sgn}x=-1$, 故 $y=-\cos x\to-1$, 左极限为 $-1$.
-
-(3) 当 $x\to0+0$ 时 $\frac{\left|x\right|}{x}=1$, 且 $\frac1{1+x^n}\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\frac{\left|x\right|}{x}=-1$, 且 $\frac1{1+x^n}\to1$ (因 $x^n\to0$), 左极限为 $-1$. $\blacksquare$
-
-## 1.5-7
-
-求极限:
-
-(1) $\lim_{x\to-1}\left(\frac1{x+1}-\frac3{x^3+1}\right)$;
-
-(2) $\lim_{x\to0}\frac{\sqrt{a^2+x}-a}{x}$ ($a> 0$).
-
-### 解答 1.5-7
-
-(1) 由因式分解 $x^3+1=\left(x+1\right)\left(x^2-x+1\right)$,
+由 (1) 的左半: $\left(n+1\right)a^n< \frac{b^{n+1}-a^{n+1}}{b-a}$, 即 $a^n< n\left(b^{n+1}-a^{n+1}\right)$. 整理得 $a^n+na^{n+1}< nb^{n+1}$, 代入化简可得 $a^{n+2}< b^{n+1}$, 亦即
 
 $$
-\frac1{x+1}-\frac3{x^3+1}=\frac{x^2-x+1-3}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{x^2-x-2}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{\left(x-2\right)\left(x+1\right)}{\left(x+1\right)\left(x^2-x+1\right)}=\frac{x-2}{x^2-x+1}.
+\left(1+\frac1{n+1}\right)^{n+2}< \left(1+\frac1n\right)^{n+1},
 $$
 
-由**定理 5.1 (函数极限四则运算)**,
+故 $\left(1+\frac1n\right)^{n+1}$ 严格递减. $\blacksquare$
+
+## 1.4-5
+
+证明
 
 $$
-\lim_{x\to-1}\frac{x-2}{x^2-x+1}=\frac{-1-2}{1+1+1}=-1.
+\left(1+\frac1n\right)^n< e< \left(1+\frac1n\right)^{n+1},\quad n=1,2,\cdots.
 $$
 
-(2) 分子有理化:
+### 解答 1.4-5
+
+由 1.4-4, $\left(1+\frac1n\right)^n$ 严格递增, 且由重要极限数 $e$ 其极限为 $e$, 故对一切 $n$ 有
 
 $$
-\frac{\sqrt{a^2+x}-a}{x}=\frac{\left(\sqrt{a^2+x}-a\right)\left(\sqrt{a^2+x}+a\right)}{x\left(\sqrt{a^2+x}+a\right)}=\frac{x}{x\left(\sqrt{a^2+x}+a\right)}=\frac1{\sqrt{a^2+x}+a}.
+\left(1+\frac1n\right)^n< e.
 $$
 
-由**定理 5.1 (函数极限四则运算)** 及 $\lim_{x\to0}\sqrt{a^2+x}=a$,
+同理, $\left(1+\frac1n\right)^{n+1}$ 严格递减, 其极限为
 
 $$
-\lim_{x\to0}\frac{\sqrt{a^2+x}-a}{x}=\frac1{2a}.
+\lim_{n\to\infty}\left(1+\frac1n\right)^{n+1}=\lim_{n\to\infty}\left(1+\frac1n\right)^n\cdot\left(1+\frac1n\right)=e\cdot1=e,
+$$
+
+故对一切 $n$ 有
+
+$$
+e< \left(1+\frac1n\right)^{n+1}.
+$$
+
+合并得
+
+$$
+\left(1+\frac1n\right)^n< e< \left(1+\frac1n\right)^{n+1}.
 $$
 
 $\blacksquare$
+
+## 1.4-6
+
+设 $\left\{a_n\right\}$ 为递增序列, 而 $\left\{b_n\right\}$ 为递减序列, 并假定 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$. 证明 $\lim a_n$ 与 $\lim b_n$ 都存在, 且相等.
+
+### 解答 1.4-6
+
+因 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$, 存在 $N$ 使得当 $n> N$ 时 $\left|a_n-b_n\right|< 1$, 即 $a_n< b_n+1$. 又 $\left\{b_n\right\}$ 递减, 故 $b_n\le b_1$, 从而 $a_n< b_1+1$ ($n> N$). 对 $n\le N$, $a_n$ 取有限个值有界. 故 $\left\{a_n\right\}$ 递增且有上界, 由**定理 3.2 (实数域完备性)**, $\lim_{n\to\infty}a_n=A$ 存在.
+
+同理, 当 $n> N$ 时 $b_n> a_n-1\ge a_1-1$ (因 $a_n\ge a_1$), 故 $\left\{b_n\right\}$ 递减且有下界. 由**定理 3.2 (实数域完备性)** 的递减版本, $\lim_{n\to\infty}b_n=B$ 存在.
+
+最后,
+
+$$
+A-B=\lim_{n\to\infty}\left(a_n-b_n\right)=0,
+$$
+
+故 $A=B$. $\blacksquare$
+
+## 1.4-9
+
+证明
+
+$$
+e=\lim_{n\to\infty}\left(1+1+\frac1{2!}+\cdots+\frac1{n!}\right).
+$$
+
+### 解答 1.4-9
+
+由二项式展开,
+
+$$
+\left(1+\frac1n\right)^n=\sum_{k=0}^n\binom nk\frac1{n^k}=1+1+\sum_{k=2}^n\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
+$$
+
+对任意固定的 $m\ge2$, 当 $n> m$ 时,
+
+$$
+\left(1+\frac1n\right)^n> 1+1+\sum_{k=2}^m\frac1{k!}\left(1-\frac1n\right)\left(1-\frac2n\right)\cdots\left(1-\frac{k-1}n\right).
+$$
+
+令 $n\to\infty$, 由重要极限数 $e$ 及**定理 3.1 (极限四则运算定理)**, 左端趋于 $e$, 右端趋于 $1+1+\frac1{2!}+\cdots+\frac1{m!}$, 故
+
+$$
+e\ge1+1+\frac1{2!}+\cdots+\frac1{m!}.
+$$
+
+另一方面, 对一切 $n$,
+
+$$
+\left(1+\frac1n\right)^n< 1+1+\frac1{2!}+\cdots+\frac1{n!}\quad\text{\left(因各项因子}< 1\text{\right)},
+$$
+
+令 $n\to\infty$ 得
+
+$$
+e\le\lim_{n\to\infty}\left(1+1+\frac1{2!}+\cdots+\frac1{n!}\right).
+$$
+
+结合两方面,
+
+$$
+e=\lim_{n\to\infty}\left(1+1+\frac1{2!}+\cdots+\frac1{n!}\right).
+$$
+
+$\blacksquare$
+
+## 1.4-10
+
+利用上题结果证明 $2< e< 3$.
+
+### 解答 1.4-10
+
+由 1.4-9, $e=\sum_{k=0}^{\infty}\frac1{k!}> 1+1=2$.
+
+又对 $k\ge2$, $k!=2\cdot3\cdots k\ge2^{k-1}$, 故 $\frac1{k!}\le\frac1{2^{k-1}}$. 于是
+
+$$
+e=1+1+\sum_{k=2}^{\infty}\frac1{k!}\le2+\sum_{k=2}^{\infty}\frac1{2^{k-1}}=2+1=3.
+$$
+
+且等号不可能成立 (因 $k=3$ 时 $1/6< 1/4$), 故 $e< 3$. 综上 $2< e< 3$. $\blacksquare$

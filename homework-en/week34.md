@@ -1,69 +1,169 @@
 # week34
 
-> **Theorem 2.2 (Green's Theorem)**
+> **Theorem 1.1 (Cauchy Criterion)**
 > 
-> $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
+> The integral converges iff for every $\varepsilon> 0$, there exists $X$ such that $\left|\int_{A'}^{A''}f\right|< \varepsilon$ for $A',A''> X$.
 
-> **Theorem 2.4 (Path Independence Condition)**
+> **Example 1.2 (p-Integral)**
 > 
-> The integral is path-independent iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
+> $\int_1^\infty\frac{\mathrm dx}{x^p}$ converges iff $p> 1$.
 
-> **Theorem 2.5 (Exact Differential Form)**
+> **Theorem 1.3 (Comparison Test)**
 > 
-> $P\,\mathrm dx+Q\,\mathrm dy$ is exact iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
+> If $0\le f\le g$, then $\int g$ convergent implies $\int f$ convergent.
 
-## 9.2-1
+> **Theorem 1.6 (Dirichlet's Test)**
+> 
+> If $f$ is monotone tending to $0$ and $\int_a^A g$ is bounded for all $A$, then $\int fg$ converges.
 
-Compute $\oint_{L^+}x^2\,\mathrm dy-y^2\,\mathrm dx$.
+> **Example 2.2 (Singular p-Integral)**
+> 
+> $\int_a^b\frac{\mathrm dx}{\left(x-a\right)^p}$ converges iff $p< 1$.
 
-### Solution 9.2-1
+> **Theorem 3.3 (Differentiation Under the Integral Sign)**
+> 
+> $I'\left(y\right)=\int_a^b f_y\left(x,y\right)\mathrm dx$. If limits depend on $y$, add boundary terms.
 
-By symmetry, the integral is $0$. $\blacksquare$
+## 12.1-3
 
-## 9.2-2
+Evaluate $I_1=\int_0^\infty e^{-xt}\sin t\mathrm dt$ and $I_2=\int_0^\infty e^{-xt}\cos t\mathrm dt$.
 
-Compute the line integral along $y=\left|x\right|$.
+### Solution to 12.1-3
 
-### Solution 9.2-2
+$I_1=\frac1{x^2+1}$, $I_2=\frac x{x^2+1}$. $\blacksquare$
 
-$\frac{41}{6}$. $\blacksquare$
+## 12.1-4
 
-## 9.2-3
+Prove translation and reflection invariance.
 
-Apply Green's theorem.
+### Solution to 12.1-4
 
-### Solution 9.2-3
+By substitution. $\blacksquare$
 
-(1) $\frac{\pi R^4}{2}$. (2) $\frac{25}{6}$. (3) $\pi a^2$. $\blacksquare$
+## 12.1-5
 
-## 9.2-4
+Prove: $\int_1^\infty f$ converges iff $\sum a_n$ converges, where $a_n=\int_n^{n+1}f$.
 
-Prove: $\oint_{L^+}f\left(xy\right)\left(y\,\mathrm dx+x\,\mathrm dy\right)=0$.
+### Solution to 12.1-5
 
-### Solution 9.2-4
+By partial sums and $f\left(x\right)\to0$. $\blacksquare$
 
-Since $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$, Green's theorem gives $0$. $\blacksquare$
+## 12.2-1-1
 
-## 9.2-5-3
+Evaluate $\int_0^1\ln x\mathrm dx$.
 
-Compute $\int_{\left(0,0\right)}^{\left(a,b\right)}e^x\cos y\,\mathrm dx-e^x\sin y\,\mathrm dy$.
+### Solution to 12.2-1-1
 
-### Solution 9.2-5-3
+$-1$. $\blacksquare$
 
-Since $d\left(e^x\cos y\right)=e^x\cos y\,\mathrm dx-e^x\sin y\,\mathrm dy$, the result is $e^a\cos b-1$. $\blacksquare$
+## 12.2-1-3
 
-## 9.2-6
+Evaluate $\int_{-1}^1\frac{\mathrm dx}{\sqrt{1-x^2}}$.
 
-Prove: $\oint_{L_r^+}\frac{x\,\mathrm dy-y\,\mathrm dx}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$.
+### Solution to 12.2-1-3
 
-### Solution 9.2-6
+$\pi$. $\blacksquare$
 
-The ellipse area is $\frac{\pi r^2}{AB}$. Hence the integral is $\frac{2\pi}{AB}$. $\blacksquare$
+## 12.2-1-5
 
-## 9.2-7
+Discuss $\int_0^1\frac{\mathrm dx}{x\ln^2x}$.
 
-Prove the same for any closed curve enclosing the origin.
+### Solution to 12.2-1-5
 
-### Solution 9.2-7
+Diverges. $\blacksquare$
 
-By Green's theorem on the doubly connected region, the integral equals that over a small ellipse $L_r$. $\blacksquare$
+## 12.2-2-1
+
+Discuss $\int_0^\infty\frac{\mathrm dx}{\sqrt x\left(1+x\right)}$.
+
+### Solution to 12.2-2-1
+
+Converges, value $\pi$. $\blacksquare$
+
+## 12.2-2-3
+
+Discuss $\int_0^\infty\frac{\mathrm dx}{x^p+x^q}$.
+
+### Solution to 12.2-2-3
+
+Converges iff $\min\left(p,q\right)< 1< \max\left(p,q\right)$. $\blacksquare$
+
+## 12.2-2-5
+
+Discuss $\int_0^{\pi/2}\frac{\mathrm dx}{\sin^2x\cos^2x}$.
+
+### Solution to 12.2-2-5
+
+Diverges. $\blacksquare$
+
+## 12.2-2-7
+
+Discuss $\int_0^1 x^p\left(1-x\right)^q\mathrm dx$.
+
+### Solution to 12.2-2-7
+
+Converges for all $p> 0,q> 0$. $\blacksquare$
+
+## 12.2-3
+
+Prove: $\int f^2$ convergent implies $\int\left|f\right|$ convergent.
+
+### Solution to 12.2-3
+
+By $2\left|f\right|\le1+f^2$. Converse is false. $\blacksquare$
+
+## 12.2-4-1
+
+Find the Cauchy principal value of $\int_0^2\frac{\mathrm dx}{x-1}$.
+
+### Solution to 12.2-4-1
+
+$0$. $\blacksquare$
+
+## 12.2-4-2
+
+Find the Cauchy principal value of $\int_{1/2}^2\frac{\mathrm dx}{x\ln x}$.
+
+### Solution to 12.2-4-2
+
+$0$. $\blacksquare$
+
+## 12.3-2-5
+
+Find $I'\left(y\right)$ for $I\left(y\right)=\int_{\sin y}^{\cos y}e^{y\sqrt{1-x^2}}\mathrm dx$.
+
+### Solution to 12.3-2-5
+
+$I'\left(y\right)=\int_{\sin y}^{\cos y}\sqrt{1-x^2}e^{y\sqrt{1-x^2}}\mathrm dx-e^{y\sin y}\sin y-e^{y\cos y}\cos y$. $\blacksquare$
+
+## 12.3-2-6
+
+Find $I'\left(y\right)$ for $I\left(y\right)=\int_0^{x/y}y\sin\left(xy\right)\mathrm dx$.
+
+### Solution to 12.3-2-6
+
+$I'\left(y\right)=0$. $\blacksquare$
+
+## 12.3-2-7
+
+Find $I'\left(y\right)$ for $I\left(y\right)=\int_0^{y^2}\sin\left(x^2+y^2\right)\mathrm dx$.
+
+### Solution to 12.3-2-7
+
+$I'\left(y\right)=\int_0^{y^2}2y\cos\left(x^2+y^2\right)\mathrm dx+2y\sin\left(y^4+y^2\right)$. $\blacksquare$
+
+## 12.3-2-8
+
+Find $I'\left(y\right)$ for $I\left(y\right)=\int_0^y\frac{\ln\left(1+xy\right)}x\mathrm dx$.
+
+### Solution to 12.3-2-8
+
+$I'\left(y\right)=\frac{\ln\left(1+y^2\right)}y+\int_0^y\frac{\mathrm dx}{1+xy}$. $\blacksquare$
+
+## 12.3-4-1
+
+Evaluate $I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos x+r^2\right)\mathrm dx$.
+
+### Solution to 12.3-4-1
+
+$I\left(r\right)=0$. $\blacksquare$

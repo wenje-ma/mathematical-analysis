@@ -1,141 +1,167 @@
 # week15
 
-> **Proposition 3.1 (Unique Extremum is Global)**
+> **Theorem 1.1 (Fermat's Theorem)**
 > 
-> If $f$ is continuous on $\left(a,b\right)$ (or $\left[a,b\right]$) and $x_0$ is the only extremum point, then it is the global maximum (if a local max) or global minimum (if a local min).
+> If $f\left(x\right)$ is defined near $a$ and differentiable at $a$, and $a$ is an extremum point of $y=f\left(x\right)$, then $f'\left(a\right)=0$.
 
-> **Theorem 3.1 (First Sufficient Condition for Extrema)**
+> **Theorem 1.2 (Rolle's Theorem)**
 > 
-> If $f$ is differentiable on $\left(a,b\right)$ with $f'\left(x_0\right)=0$, and $f'> 0$ on $\left(x_0-r,x_0\right)$ while $f'< 0$ on $\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local maximum; if the signs are reversed, it is a local minimum.
+> If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$, differentiable on $\left(a,b\right)$, and $f\left(a\right)=f\left(b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=0$.
 
-> **Theorem 3.2 (Second Sufficient Condition for Extrema)**
+> **Theorem 1.3 (Lagrange Mean Value Theorem)**
 > 
-> If $f'\left(x_0\right)=0$ and $f''\left(x_0\right)$ exists, then $f''\left(x_0\right)> 0$ implies $x_0$ is a local minimum, and $f''\left(x_0\right)< 0$ implies $x_0$ is a local maximum.
+> If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-## 3.3-1-1
+> **Theorem 1.4 (Constant Function Theorem)**
+> 
+> If $y=f\left(x\right)$ is differentiable on $\left(a,b\right)$ and $f'\left(x\right)=0$ for all $x\in\left(a,b\right)$, then $f$ is constant on $\left(a,b\right)$.
 
-Find the stationary points of $y=x\left(3x^2-5\right)^2$ and classify them.
+> **Theorem 1.5 (Monotonicity Criterion)**
+> 
+> If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then $f'\left(x\right)> 0$ ($\ge0$) implies strictly increasing (increasing), and $f'\left(x\right)< 0$ ($\le0$) implies strictly decreasing (decreasing).
 
-### Solution 3.3-1-1
+> **Theorem 2.1 (Cauchy Mean Value Theorem)**
+> 
+> If $f$ and $g$ are continuous on $\left[a,b\right]$, differentiable on $\left(a,b\right)$, and $g'\left(x\right)\ne0$ for $a< x< b$, then there exists $c\in\left(a,b\right)$ such that $\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}$.
+
+> **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**
+> 
+> If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=0$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
+
+> **Theorem 2.3 (L'Hôpital's Rule, $\frac{\infty}{\infty}$ Case)**
+> 
+> If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
+
+## 3.1-14
+
+Let
+
+$$
+f\left(x\right)=\arctan\frac{1+x}{1-x}-\arctan x.
+$$
+
+On any interval $\left(a,b\right)$ not containing $x=1$, prove $f\left(x\right)=C$ constant. For $\left(a,b\right)=\left(-\infty,1\right)$, show $C=\frac\pi4$. What is $C$ on $\left(1,+\infty\right)$?
+
+### Solution to 3.1-14
 
 Differentiating,
 
 $$
-y'=5\left(3x^2-5\right)\left(3x^2-1\right).
+f'\left(x\right)=\frac{2}{\left(1-x\right)^2+\left(1+x\right)^2}-\frac1{1+x^2}=\frac1{1+x^2}-\frac1{1+x^2}=0.
 $$
 
-Setting $y'=0$ gives $x=\pm\sqrt{\frac53}$, $\pm\frac1{\sqrt3}$. The second derivative is
+By **Theorem 1.4 (Constant Function Theorem)**, $f$ is constant on $\left(a,b\right)$.
+
+On $\left(-\infty,1\right)$, take $x=0$: $f\left(0\right)=\arctan1=\frac\pi4$, so $C=\frac\pi4$.
+
+On $\left(1,+\infty\right)$, as $x\to+\infty$, $\frac{1+x}{1-x}\to-1$ so $\arctan\frac{1+x}{1-x}\to-\frac\pi4$, while $\arctan x\to\frac\pi2$. Thus
 
 $$
-y''=30x\left(30x^2-26\right).
+C=-\frac\pi4-\frac\pi2=-\frac{3\pi}4.
 $$
 
-At $x=\sqrt{\frac53}$ and $x=-\frac1{\sqrt3}$, $y''> 0$ (local minima); at $x=-\sqrt{\frac53}$ and $x=\frac1{\sqrt3}$, $y''< 0$ (local maxima). By **Theorem 3.2 (Second Sufficient Condition for Extrema)**, the classification holds. $\blacksquare$
+$\blacksquare$
 
-## 3.3-1-3
+## 3.2-1
 
-Find the stationary points of $y=x\ln x$ ($x> 0$) and classify them.
+Find the limits:
 
-### Solution 3.3-1-3
+(1) $\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}$ ($a\ne0$, $b\ne0$);
 
-$y'=\ln x+1=0$ gives $x=\frac1e$. Since $y''=\frac1x> 0$, by **Theorem 3.2 (Second Sufficient Condition for Extrema)**, $x=\frac1e$ is a local minimum with value $-\frac1e$. $\blacksquare$
+(2) $\lim_{x\to0}\frac{a^x-1}{x}$ ($a> 0$);
 
-## 3.3-2
+(3) $\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}$;
 
-Let $f$ be continuous on $\left[a,b\right]$ with a unique extremum point in $\left(a,b\right)$. Prove: (1) it is a strict local max or min; (2) if it is a local max, it is the global maximum; if a local min, the global minimum.
+(4) $\lim_{x\to0+}x^x$;
 
-### Solution 3.3-2
+(5) $\lim_{x\to0+}x\ln x$;
 
-(1) Let $x_0$ be the unique extremum. If it is not a strict local maximum, then there are points arbitrarily close with $f\left(x\right)\ge f\left(x_0\right)$, which would force $f$ to be locally constant, yielding infinitely many extrema, contradicting uniqueness. Hence $x_0$ is strict.
+(6) $\lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}$;
 
-(2) Suppose $x_0$ is a local maximum. If $f\left(x_0\right)$ is not the global maximum, there exists $x_1$ with $f\left(x_1\right)> f\left(x_0\right)$. On $\left[x_0,x_1\right]$, since $f\left(x_1\right)> f\left(x_0\right)$ and $x_0$ is a strict local max, the minimum is attained at an interior point, giving a local minimum, contradicting uniqueness. Hence $f\left(x_0\right)$ is the global maximum. This is **Proposition 3.1 (Unique Extremum is Global)**. $\blacksquare$
+(7) $\lim_{x\to0+}\left(\sin x\right)^{\sin x}$.
 
-## 3.3-3
+### Solution to 3.2-1
 
-(Snell's Law) Light travels from medium I to medium II with speeds $v_1$ and $v_2$. Snell's law states $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$. Prove that the actual path minimizes travel time.
-
-### Solution 3.3-3
-
-Let the interface be the $x$-axis, $A=\left(0,a\right)$, $B=\left(d,-b\right)$, and the entry point be $P=\left(x,0\right)$. Total time:
+(1) This is $\frac00$. By **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**,
 
 $$
-T\left(x\right)=\frac{\sqrt{x^2+a^2}}{v_1}+\frac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}.
+\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}=\lim_{x\to0}\frac{\frac{-a\sin ax}{\cos ax}}{\frac{-b\sin bx}{\cos bx}}=\frac{a^2}{b^2}.
 $$
 
-Differentiating,
+(2) This is $\frac00$. By **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**,
 
 $$
-T'\left(x\right)=\frac{\sin\alpha}{v_1}-\frac{\sin\beta}{v_2}.
+\lim_{x\to0}\frac{a^x-1}{x}=\lim_{x\to0}\frac{a^x\ln a}{1}=\ln a.
 $$
 
-Setting $T'\left(x\right)=0$ gives $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$, i.e. Snell's law. Since $T''\left(x\right)> 0$, this is a minimum. By **Proposition 3.1 (Unique Extremum is Global)**, it is the global minimum time. $\blacksquare$
-
-## 3.3-4
-
-A lamp moves along a vertical line $OB$, and $OA$ is a horizontal segment of length $a$. At what height above $O$ is the illumination at $A$ maximized?
-
-### Solution 3.3-4
-
-Let the height be $h$. Illumination is proportional to $\cos\theta/r^2$ where $r=\sqrt{a^2+h^2}$ and $\cos\theta=h/r$. Thus
+(3) This is $\frac00$. By **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**,
 
 $$
-J\left(h\right)=\frac{Ch}{\left(a^2+h^2\right)^{3/2}}.
+\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}=\lim_{x\to0}\frac{\tan^2x}{1-\frac1{\sqrt{1-x^2}}}.
 $$
 
-Differentiating,
+The numerator $\sim x^2$ and the denominator $\sim-\frac{x^2}{2}$, so the limit is $-2$.
+
+(4) This is $0^0$. Let $y=x^x$; $\ln y=x\ln x$. By (5), $\lim_{x\to0+}x\ln x=0$, so $\lim_{x\to0+}x^x=1$.
+
+(5) This is $0\cdot\infty$. Rewriting and applying **Theorem 2.3 (L'Hôpital's Rule, $\frac{\infty}{\infty}$ Case)**,
 
 $$
-J'\left(h\right)=C\cdot\frac{a^2-2h^2}{\left(a^2+h^2\right)^{5/2}}.
+\lim_{x\to0+}x\ln x=\lim_{x\to0+}\frac{\ln x}{1/x}=\lim_{x\to0+}\frac{1/x}{-1/x^2}=0.
 $$
 
-Setting $J'\left(h\right)=0$ gives $h=\frac{a}{\sqrt2}$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, this is a maximum. By **Proposition 3.1 (Unique Extremum is Global)**, it is the global maximum. $\blacksquare$
-
-## 3.3-5
-
-Prove $x^\alpha-\alpha x+\alpha-1\le0$ for all $x> 0$, where $0< \alpha< 1$.
-
-### Solution 3.3-5
-
-Let $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$. Then $f'\left(x\right)=\alpha\left(x^{\alpha-1}-1\right)=0$ gives $x=1$. For $0< x< 1$, $f'> 0$; for $x> 1$, $f'< 0$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, $x=1$ is a maximum. Since $f\left(1\right)=0$, by **Proposition 3.1 (Unique Extremum is Global)**, $f\left(x\right)\le0$. $\blacksquare$
-
-## 3.3-6
-
-Prove: if $a,b> 0$, $p,q> 1$, and $\frac1p+\frac1q=1$, then $a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}$.
-
-### Solution 3.3-6
-
-Taking $\alpha=\frac1p$ in 3.3-5 and substituting $x=\frac{a}{b}$, multiplying by $b$, and simplifying using $1-\frac1p=\frac1q$, we obtain
+(6) This is $\frac{\infty}{\infty}$. By **Theorem 2.3 (L'Hôpital's Rule, $\frac{\infty}{\infty}$ Case)**,
 
 $$
-a^{1/p}b^{1/q}\le\frac{a}{p}+\frac{b}{q}.
+\lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}=\lim_{x\to0+}\frac{\cot x}{2x}=+\infty.
 $$
 
-This is Young's inequality. $\blacksquare$
+(7) This is $0^0$. Let $y=\left(\sin x\right)^{\sin x}$; $\ln y=\sin x\ln\left(\sin x\right)$. By (5) with $x$ replaced by $\sin x$, the limit is $e^0=1$. $\blacksquare$
 
-## 3.3-7
+## 3.2-2
 
-Let $\triangle ABC$ have sides $a,b,c$ with $b=c$ and perimeter $a+b+c=2l$. When is the area maximized?
+If $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ does not exist, does it follow that $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}$ does not exist? Consider $f\left(x\right)=x^2\sin\frac1x$ and $g\left(x\right)=x$ as $x\to0$.
 
-### Solution 3.3-7
+### Solution to 3.2-2
 
-Since $b=c$, the triangle is isosceles with $b=l-\frac a2$. The area is
-
-$$
-S=\frac12 a\sqrt{l^2-la}.
-$$
-
-Maximizing $S^2=\frac14\left(l^2a^2-la^3\right)$, the derivative $\left(S^2\right)'=\frac{la}{4}\left(2l-3a\right)=0$ gives $a=\frac{2l}{3}$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, this is a maximum. Then $b=c=\frac{2l}{3}$, so the area is maximized when the triangle is equilateral. $\blacksquare$
-
-## 3.3-8
-
-Let $f\left(x\right)=\sin^p x+\cos^p x$. Find its maximum and minimum on $\left[0,\frac\pi2\right]$.
-
-### Solution 3.3-8
-
-Differentiating,
+No. Take $f\left(x\right)=x^2\sin\frac1x$, $g\left(x\right)=x$.
 
 $$
-f'\left(x\right)=p\sin x\cos x\left(\sin^{p-2}x-\cos^{p-2}x\right).
+\lim_{x\to0}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to0}x\sin\frac1x=0.
 $$
 
-The critical point in $\left(0,\frac\pi2\right)$ is $x=\frac\pi4$. The values are $f\left(0\right)=1$, $f\left(\frac\pi4\right)=2^{1-p/2}$, $f\left(\frac\pi2\right)=1$. For $p> 2$, the maximum is $1$ (at endpoints) and the minimum is $2^{1-p/2}$ (at $x=\frac\pi4$). $\blacksquare$
+But
+
+$$
+f'\left(x\right)=2x\sin\frac1x-\cos\frac1x,\quad g'\left(x\right)=1.
+$$
+
+Thus $\frac{f'\left(x\right)}{g'\left(x\right)}=2x\sin\frac1x-\cos\frac1x$. As $x\to0$, $2x\sin\frac1x\to0$ but $\cos\frac1x$ oscillates without limit. Hence $\lim\frac{f'}{g'}$ does not exist while $\lim\frac{f}{g}$ does. The converse of L'Hôpital's rule is false. $\blacksquare$
+
+## 3.2-4
+
+Let $f$ have a second derivative at $a$ and set
+
+$$
+T\left(x\right)=f\left(a\right)+f'\left(a\right)\Delta x+\frac{f''\left(a\right)}2\left(\Delta x\right)^2,
+$$
+
+where $\Delta x=x-a$. Prove that $g\left(x\right)=f\left(x\right)-T\left(x\right)$ satisfies $g\left(a\right)=g'\left(a\right)=g''\left(a\right)=0$ and $f\left(x\right)=T\left(x\right)+o\left(\left(\Delta x\right)^2\right)$ as $x\to a$.
+
+### Solution to 3.2-4
+
+From the definition, $T\left(a\right)=f\left(a\right)$, $T'\left(x\right)=f'\left(a\right)+f''\left(a\right)\Delta x$, $T''\left(x\right)=f''\left(a\right)$.
+
+Thus
+
+$$
+g\left(a\right)=0,\quad g'\left(a\right)=0,\quad g''\left(a\right)=0.
+$$
+
+To show $g\left(x\right)=o\left(\left(\Delta x\right)^2\right)$, we compute $\lim_{\Delta x\to0}\frac{g\left(x\right)}{\left(\Delta x\right)^2}$, which is $\frac00$. By **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**,
+
+$$
+\lim\frac{g\left(x\right)}{\left(\Delta x\right)^2}=\lim\frac{g'\left(x\right)}{2\Delta x}=\lim\frac{g''\left(x\right)}2=\frac{g''\left(a\right)}2=0.
+$$
+
+Hence $f\left(x\right)=T\left(x\right)+o\left(\left(x-a\right)^2\right)$. $\blacksquare$

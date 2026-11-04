@@ -4,188 +4,166 @@
 > 
 > For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
+> **Theorem 3.1 (Arithmetic of Limits)**
+> 
+> If $\left\{a_n\right\}$ and $\left\{b_n\right\}$ have limits $l_1$ and $l_2$ respectively, then $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
+
+> **Theorem 3.2 (Completeness of the Real Field)**
+> 
+> If $\left\{a_n\right\}$ is a monotone increasing sequence bounded above, then there exists $l\in\mathbb R$ such that $\left\{a_n\right\}$ converges to $l$.
+
+> **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**
+> 
+> If $a$ is any positive number, then $\lim_{n\to\infty}a^{1/n}=1$.
+
+> **Theorem 4.2 (Squeeze Theorem)**
+> 
+> Let $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ be three sequences, and suppose there exists $N_0$ such that $c_n\le a_n\le b_n$ for all $n\ge N_0$. If both $c_n$ and $b_n$ converge to the same limit $l$, then $a_n$ also converges to $l$.
+
 > **Theorem 5.1 (Arithmetic of Function Limits)**
 > 
 > If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-> **Proposition 6.1 (Important Limit $\lim_{x\to0}\frac{\sin x}{x}=1$)**
-> 
-> $\lim_{x\to0}\frac{\sin x}{x}=1$.
+## 1.4-14
 
-> **Theorem 6.2 (Squeeze Theorem for Functions)**
-> 
-> Let $f\left(x\right),g\left(x\right),h\left(x\right)$ be defined in a punctured neighborhood of $a$ with $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. If $\lim g\left(x\right)=\lim h\left(x\right)=l$, then $\lim f\left(x\right)=l$.
+Let $\left\{a_n\right\}$ be an infinitesimal and $\left\{b_n\right\}$ be bounded, i.e. there exists $M> 0$ such that $\left|b_n\right|\le M$ for all $n$. Prove $\lim_{n\to\infty}a_nb_n=0$.
 
-## 1.6-2
+### Solution to 1.4-14
 
-Prove by $\varepsilon$-$\delta$ language: if $\lim_{x\to a}f\left(x\right)=l$ and $l> 0$, then there exists $\delta> 0$ such that $f\left(x\right)> \frac l2$ whenever $0< \left|x-a\right|< \delta$.
-
-### Solution 1.6-2
-
-Take $\varepsilon=\frac l2> 0$. By Definition of Function Limit, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac l2$. By **Proposition 1.7 (Triangle Inequality)**,
+Since $\left\{a_n\right\}$ is an infinitesimal, $\lim_{n\to\infty}a_n=0$. Since $\left|b_n\right|\le M$,
 
 $$
-f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\right|> l-\frac l2=\frac l2.
+0\le\left|a_nb_n\right|\le M\left|a_n\right|.
 $$
 
-Thus $f\left(x\right)> \frac l2$. $\blacksquare$
+As $n\to\infty$, $M\left|a_n\right|\to0$ and the left side $0\to0$. By **Theorem 4.2 (Squeeze Theorem)**, $\lim_{n\to\infty}\left|a_nb_n\right|=0$, i.e. $\lim_{n\to\infty}a_nb_n=0$. $\blacksquare$
 
-## 1.6-3
+## 1.4-16
 
-Use $\lim_{x\to0}\frac{\sin x}{x}=1$ to find:
+Let $\lim_{n\to\infty}a_n=a$. Prove:
 
-(1) $\lim_{x\to0}\frac{\sin\alpha x}{\sin\beta x}$ ($\beta\ne0$);
+(1) $\lim_{n\to\infty}\frac{\left[na_n\right]}{n}=a$;
 
-(2) $\lim_{x\to0}\frac{\tan3x-\tan5x}{\sin2x}$;
+(2) If $a> 0$ and $a_n> 0$, then $\lim_{n\to\infty}\sqrt\left[n\right]{a_n}=1$.
 
-(3) $\lim_{x\to0}\frac{1-\cos x}{x^2}$;
+### Solution to 1.4-16
 
-(4) $\lim_{x\to a}\frac{\sin x-\sin a}{x-a}$.
-
-### Solution 1.6-3
-
-(1) $\frac{\sin\alpha x}{\sin\beta x}=\frac{\alpha}{\beta}\cdot\frac{\sin\alpha x}{\alpha x}\cdot\frac{\beta x}{\sin\beta x}$. By **Proposition 6.1 (Important Limit $\lim_{x\to0}\frac{\sin x}{x}=1$)** and **Theorem 5.1 (Arithmetic of Function Limits)**, the limit is $\frac{\alpha}{\beta}$.
-
-(2)
+(1) By the floor function, $na_n-1< \left[na_n\right]\le na_n$, so
 
 $$
-\tan3x-\tan5x=\frac{\sin3x}{\cos3x}-\frac{\sin5x}{\cos5x}=\frac{\sin3x\cos5x-\cos3x\sin5x}{\cos3x\cos5x}=\frac{-\sin2x}{\cos3x\cos5x}.
+a_n-\frac1n< \frac{\left[na_n\right]}{n}\le a_n.
 $$
 
-The expression $=\frac{-1}{\cos3x\cos5x}\to-1$.
+As $n\to\infty$, $a_n\to a$ and $a_n-\frac1n\to a$ (since $\frac1n\to0$). By **Theorem 4.2 (Squeeze Theorem)**, $\frac{\left[na_n\right]}{n}\to a$.
 
-(3) $1-\cos x=2\sin^2\frac x2$, so
-
-$$
-\frac{1-\cos x}{x^2}=\frac{2\sin^2\left(x/2\right)}{x^2}=\frac12\left(\frac{\sin\left(x/2\right)}{x/2}\right)^2\to\frac12.
-$$
-
-(4)
+(2) Since $a_n\to a> 0$, there exists $N$ such that for $n> N$, $\frac a2< a_n< 2a$. Thus
 
 $$
-\sin x-\sin a=2\cos\frac{x+a}2\sin\frac{x-a}2,
+\left(\frac a2\right)^{1/n}< a_n^{1/n}< \left(2a\right)^{1/n}.
 $$
 
-so
+By **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**, both ends tend to $1$. By **Theorem 4.2 (Squeeze Theorem)**, $\sqrt\left[n\right]{a_n}\to1$. $\blacksquare$
+
+## 1.4-18
+
+Prove $\lim_{n\to\infty}\left(1+\frac1{n^2}\right)^n=1$.
+
+### Solution to 1.4-18
+
+By the binomial expansion,
 
 $$
-\frac{\sin x-\sin a}{x-a}=\cos\frac{x+a}2\cdot\frac{\sin\left(x-a\right)/2}{\left(x-a\right)/2}\to\cos a.
+\left(1+\frac1{n^2}\right)^n=\sum_{k=0}^n\binom nk\frac1{n^{2k}}=1+\frac1n+\sum_{k=2}^n\binom nk\frac1{n^{2k}}.
 $$
 
-$\blacksquare$
-
-## 1.6-4-1
-
-Use $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$ to find: $\lim_{x\to\infty}\left(1+\frac3x\right)^x\cdot\left(1+\frac5x\right)^x$.
-
-### Solution 1.6-4-1
+For $k\ge2$, $\binom nk\le\frac{n^k}{k!}$, so
 
 $$
-\left(1+\frac3x\right)^x=\left[\left(1+\frac3x\right)^{x/3}\right]^3\to e^3,\quad\left(1+\frac5x\right)^x=\left[\left(1+\frac5x\right)^{x/5}\right]^5\to e^5.
+0\le\left(1+\frac1{n^2}\right)^n-1\le\frac1n+\frac1{n^2}\sum_{k=2}^n\frac1{k!}\le\frac1n+\frac{e-2}{n^2}.
 $$
 
-By **Theorem 5.1 (Arithmetic of Function Limits)**, the product is $e^3\cdot e^5=e^8$. $\blacksquare$
+The right side tends to $0$ as $n\to\infty$. By **Theorem 4.2 (Squeeze Theorem)**, $\left(1+\frac1{n^2}\right)^n\to1$. $\blacksquare$
 
-## 1.6-4-3
+## 1.5-1-2
 
-Find: $\lim_{x\to0}\left(\frac{1+x}{1-x}\right)^{1/x}$.
+Prove by $\varepsilon$-$\delta$ language: $\lim_{x\to a}\cos x=\cos a$.
 
-### Solution 1.6-4-3
+### Solution to 1.5-1-2
 
-$$
-\left(\frac{1+x}{1-x}\right)^{1/x}=\left[\left(1+\frac{2x}{1-x}\right)^{\frac{1-x}{2x}}\right]^{\frac2{1-x}}.
-$$
-
-The base tends to $e$ and the exponent $\frac2{1-x}\to2$. By The Important Limit $e$ (Function Version) and **Theorem 6.2 (Squeeze Theorem for Functions)**, the limit is $e^2$. $\blacksquare$
-
-## 1.6-4-5
-
-Find: $\lim_{y\to0}\left(1-5y\right)^{1/y}$.
-
-### Solution 1.6-4-5
+Using sum-to-product identities,
 
 $$
-\left(1-5y\right)^{1/y}=\left[\left(1+\frac1{-1/\left(5y\right)}\right)^{-1/\left(5y\right)}\right]^{-5}.
+\left|\cos x-\cos a\right|=2\left|\sin\frac{x+a}2\right|\left|\sin\frac{x-a}2\right|\le2\cdot1\cdot\frac{\left|x-a\right|}2=\left|x-a\right|,
 $$
 
-The base tends to $e$ and the exponent is $-5$. By The Important Limit $e$ (Function Version), the limit is $e^{-5}=\frac1{e^5}$. $\blacksquare$
+using $\left|\sin t\right|\le\left|t\right|$ for all $t$.
 
-## 1.6-4-6
-
-Find: $\lim_{x\to\infty}\left(1+\frac1x\right)^{x+100}$.
-
-### Solution 1.6-4-6
+Given $\varepsilon> 0$, take $\delta=\varepsilon$. Then for $0< \left|x-a\right|< \delta$,
 
 $$
-\left(1+\frac1x\right)^{x+100}=\left(1+\frac1x\right)^x\cdot\left(1+\frac1x\right)^{100}\to e\cdot1=e.
+\left|\cos x-\cos a\right|\le\left|x-a\right|< \varepsilon.
 $$
 
-$\blacksquare$
+By Definition of Function Limit, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
 
-## 1.6-5
+## 1.5-1-3
 
-Find constants $a$ and $b$ such that
+Prove by $\varepsilon$-$\delta$ language: $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$.
 
-$$
-\lim_{x\to+\infty}\left[\frac{x^2+1}{x+1}-\left(ax+b\right)\right]=0.
-$$
-
-Explain the geometric meaning.
-
-### Solution 1.6-5
+### Solution to 1.5-1-3
 
 $$
-\frac{x^2+1}{x+1}-ax-b=\frac{x^2+1-\left(ax+b\right)\left(x+1\right)}{x+1}=\frac{\left(1-a\right)x^2-\left(a+b\right)x+1-b}{x+1}.
+\left|\frac{6x+5}{x+1}-6\right|=\left|\frac{6x+5-6\left(x+1\right)}{x+1}\right|=\frac1{x+1}.
 $$
 
-For this to tend to $0$, the numerator must have lower degree than the denominator, so $1-a=0$ and $a+b=0$, giving $a=1$, $b=-1$.
-
-Geometrically, the line $y=x-1$ is the oblique asymptote of the curve $y=\frac{x^2+1}{x+1}$ as $x\to+\infty$. $\blacksquare$
-
-## 1.6-7
-
-Prove $\lim_{x\to+\infty}\left(1+\frac1x\right)^{x^2}=+\infty$.
-
-### Solution 1.6-7
+Given $\varepsilon> 0$, take $X=\frac1\varepsilon-1$. Then for $x> X$,
 
 $$
-\left(1+\frac1x\right)^{x^2}=\left[\left(1+\frac1x\right)^x\right]^x.
+\left|\frac{6x+5}{x+1}-6\right|=\frac1{x+1}< \varepsilon.
 $$
 
-For sufficiently large $x$, $\left(1+\frac1x\right)^x> 2$ (since it tends to $e> 2$), so $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. The limit is $+\infty$. $\blacksquare$
+By the $x\to+\infty$ version of Definition of Function Limit, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
-## 1.6-9
+## 1.5-1-5
 
-Let $\lim_{x\to+\infty}\frac{f\left(x\right)}x=0$ and $f\left(x\right)> 0$ ($x> 0$). Prove $\lim_{x\to+\infty}\left(1+\frac1x\right)^{f\left(x\right)}=1$.
+Prove by $\varepsilon$-$\delta$ language: $\lim_{x\to2-0}\sqrt{4-x^2}=0$.
 
-### Solution 1.6-9
+### Solution to 1.5-1-5
 
-Taking logarithms,
-
-$$
-\left(1+\frac1x\right)^{f\left(x\right)}=e^{f\left(x\right)\ln\left(1+1/x\right)}.
-$$
-
-Since
+$\left|\sqrt{4-x^2}-0\right|=\sqrt{4-x^2}$. To make $\sqrt{4-x^2}< \varepsilon$, it suffices that $4-x^2< \varepsilon^2$, i.e. $x^2> 4-\varepsilon^2$. Since $x\to2-0$ means $x< 2$, it suffices that $x> \sqrt{4-\varepsilon^2}$. Take $\delta=2-\sqrt{4-\varepsilon^2}$. Then for $2-\delta< x< 2$,
 
 $$
-0< f\left(x\right)\ln\left(1+\frac1x\right)< f\left(x\right)\cdot\frac1x\to0,
+0< 2-x< \delta\Rightarrow x> \sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}< \varepsilon.
 $$
 
-by **Theorem 6.2 (Squeeze Theorem for Functions)**, the exponent tends to $0$. By continuity of $e^t$, the limit is $e^0=1$. $\blacksquare$
+By Definition of One-Sided Limits, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
 
-## 1.6-10
+## 1.5-1-7
 
-Let $y=D\left(x\right)$ be the Dirichlet function. Prove that for any $a\in\mathbb R$, $\lim_{x\to a}D\left(x\right)$ does not exist.
+Let $a> 0$. Prove $\lim_{x\to0}a^x=1$.
 
-### Solution 1.6-10
+### Solution to 1.5-1-7
 
-Take a rational sequence $\left\{r_n\right\}$ and an irrational sequence $\left\{s_n\right\}$, both converging to $a$ (by density of rationals and irrationals). Then $D\left(r_n\right)=1\to1$ and $D\left(s_n\right)=0\to0$. The two subsequential limits differ; by the Heine principle, $\lim_{x\to a}D\left(x\right)$ does not exist. $\blacksquare$
+Assume $a> 1$ (the case $0< a< 1$ is analogous). To make $\left|a^x-1\right|< \varepsilon$, i.e. $1-\varepsilon< a^x< 1+\varepsilon$. For $0< \varepsilon< 1$, the left inequality $a^x> 1-\varepsilon> 0$ gives $x> \log_a\left(1-\varepsilon\right)$; the right inequality $a^x< 1+\varepsilon$ gives $x< \log_a\left(1+\varepsilon\right)$.
 
-## 1.6-11
+Take
 
-Find: $\lim_{x\to+\infty}\frac{\left(\ln x\right)^5}{x}$.
+$$
+\delta=\min\left\{-\log_a\left(1-\varepsilon\right),\log_a\left(1+\varepsilon\right)\right\}> 0,
+$$
 
-### Solution 1.6-11
+then for $0< \left|x\right|< \delta$, $\left|a^x-1\right|< \varepsilon$. By Definition of Function Limit, $\lim_{x\to0}a^x=1$. $\blacksquare$
 
-Substitute $y=\ln x$, so $x=e^y$, and as $x\to+\infty$, $y\to+\infty$. The expression becomes $\lim_{y\to+\infty}\frac{y^5}{e^y}=0$ (the exponential grows faster than any power). $\blacksquare$
+## 1.5-4
+
+Let $\lim_{x\to a}f\left(x\right)=l$ and $l\ne0$. Prove that $y=\frac1{f\left(x\right)}$ is bounded as $x\to a$.
+
+### Solution to 1.5-4
+
+Take $\varepsilon=\frac{\left|l\right|}{2}$. By Definition of Function Limit, there exists $\delta> 0$ such that $0< \left|x-a\right|< \delta$ implies $\left|f\left(x\right)-l\right|< \frac{\left|l\right|}{2}$. By **Proposition 1.7 (Triangle Inequality)**,
+
+$$
+\left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|> \left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
+$$
+
+Hence $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, i.e. $\frac1{f\left(x\right)}$ is bounded as $x\to a$. This is a corollary of Sign Preservation of Limits. $\blacksquare$

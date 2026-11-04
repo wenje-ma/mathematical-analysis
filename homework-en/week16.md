@@ -1,155 +1,117 @@
 # week16
 
-> **Theorem 4.1 (Local Taylor Expansion)**
+> **Theorem 2.1 (Cauchy Mean Value Theorem)**
 > 
-> If $f$ has $n$ derivatives at $x_0$, then $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\left(\left(x-x_0\right)^n\right)$ as $x\to x_0$.
+> If $f$ and $g$ are continuous on $\left[a,b\right]$, differentiable on $\left(a,b\right)$, and $g'\left(x\right)\ne0$ for $a< x< b$, then there exists $c\in\left(a,b\right)$ such that $\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}$.
 
-> **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**
+> **Theorem 2.2 (L'Hôpital's Rule, $\frac00$ Case)**
 > 
-> If $f$ has $n$ continuous derivatives on $\left[a,b\right]$ and $n+1$ derivatives on $\left(a,b\right)$, then for any $x,x_0\in\left[a,b\right]$, there exists $\xi$ between $x_0$ and $x$ such that $f\left(x\right)=f\left(x_0\right)+\cdots+\frac{f^{\left(n+1\right)}\left(\xi\right)}{\left(n+1\right)!}\left(x-x_0\right)^{n+1}$.
+> If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=0$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
-## 3.4-1-2
+> **Theorem 2.3 (L'Hôpital's Rule, $\frac{\infty}{\infty}$ Case)**
+> 
+> If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
-Write the local Taylor formula of $y=\frac1{1-x}$ at $x=0$.
+> **Proposition 3.1 (Unique Extremum is Global)**
+> 
+> If $f$ is continuous on $\left(a,b\right)$ (or $\left[a,b\right]$) and $x_0$ is the only extremum point, then it is the global maximum (if a local max) or global minimum (if a local min).
 
-### Solution 3.4-1-2
+> **Theorem 3.1 (First Sufficient Condition for Extrema)**
+> 
+> If $f$ is differentiable on $\left(a,b\right)$ with $f'\left(x_0\right)=0$, and $f'> 0$ on $\left(x_0-r,x_0\right)$ while $f'< 0$ on $\left(x_0,x_0+r\right)$, then $f\left(x_0\right)$ is a local maximum; if the signs are reversed, it is a local minimum.
 
-Since $f^{\left(n\right)}\left(x\right)=\frac{n!}{\left(1-x\right)^{n+1}}$, we have $f^{\left(n\right)}\left(0\right)=n!$. By **Theorem 4.1 (Local Taylor Expansion)**,
+> **Theorem 3.2 (Second Sufficient Condition for Extrema)**
+> 
+> If $f'\left(x_0\right)=0$ and $f''\left(x_0\right)$ exists, then $f''\left(x_0\right)> 0$ implies $x_0$ is a local minimum, and $f''\left(x_0\right)< 0$ implies $x_0$ is a local maximum.
 
-$$
-\frac1{1-x}=1+x+x^2+\cdots+x^n+o\left(x^n\right).
-$$
+## 3.2-6
 
-$\blacksquare$
+Find $c$ such that $\lim_{x\to\infty}\left(\frac{x+c}{x-c}\right)^x=e^2$.
 
-## 3.4-1-4
+### Solution to 3.2-6
 
-Write the local Taylor formula of $y=\arctan x$ at $x=0$ up to $x^5$.
-
-### Solution 3.4-1-4
-
-Computing derivatives at $0$: $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=-2$, $f^{\left(4\right)}\left(0\right)=0$, $f^{\left(5\right)}\left(0\right)=24$. By **Theorem 4.1 (Local Taylor Expansion)**,
-
-$$
-\arctan x=x-\frac{x^3}3+\frac{x^5}5+o\left(x^5\right).
-$$
-
-$\blacksquare$
-
-## 3.4-1-5
-
-Write the local Taylor formula of $y=\tan x$ at $x=0$ up to $x^3$.
-
-### Solution 3.4-1-5
-
-Computing: $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=2$. By **Theorem 4.1 (Local Taylor Expansion)**,
+This is $1^\infty$. Let $y=\left(\frac{x+c}{x-c}\right)^x$. Then
 
 $$
-\tan x=x+\frac{x^3}3+o\left(x^3\right).
+\ln y=x\ln\left(1+\frac{2c}{x-c}\right)\sim x\cdot\frac{2c}{x-c}\to2c.
 $$
 
-$\blacksquare$
+Thus $\lim y=e^{2c}$. Setting $e^{2c}=e^2$ gives $c=1$. $\blacksquare$
 
-## 3.4-4
+## 3.3-1-1
 
-Expand $y=\sin\left(x+\alpha\right)$ at $\alpha=0$ using Taylor formula with Lagrange remainder, and estimate the remainder.
+Find the stationary points of $y=x\left(3x^2-5\right)^2$ and classify them.
 
-### Solution 3.4-4
+### Solution to 3.3-1-1
 
-Treating $x$ as constant and differentiating w.r.t. $\alpha$, by **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**,
-
-$$
-\sin\left(x+\alpha\right)=\sin x+\left(\cos x\right)\alpha-\frac{\sin\left(x+\xi\right)}2\alpha^2,
-$$
-
-where $\xi$ is between $0$ and $\alpha$. The remainder satisfies $\left|r\left(\alpha\right)\right|\le\frac{\alpha^2}2$. $\blacksquare$
-
-## 3.4-5
-
-Expand $y=x+\frac{x^3}3$ at $x=\pm1$. Explain why the remainder of any polynomial's Taylor expansion is $0$.
-
-### Solution 3.4-5
-
-$f'\left(x\right)=1+x^2$, $f''\left(x\right)=2x$, $f'''\left(x\right)=2$, $f^{\left(4\right)}\left(x\right)=0$. At $x=1$,
+Differentiating,
 
 $$
-x+\frac{x^3}3=\frac43+2\left(x-1\right)+\left(x-1\right)^2+\frac13\left(x-1\right)^3.
+y'=5\left(3x^2-5\right)\left(3x^2-1\right).
 $$
 
-At $x=-1$,
+Setting $y'=0$ gives $x=\pm\sqrt{\frac53}$, $\pm\frac1{\sqrt3}$. The second derivative is
 
 $$
-x+\frac{x^3}3=-\frac43+2\left(x+1\right)-\left(x+1\right)^2+\frac13\left(x+1\right)^3.
+y''=30x\left(30x^2-26\right).
 $$
 
-For any polynomial $P_n$ of degree $n$, $P_n^{\left(n+1\right)}\equiv0$. By **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**, the remainder is $0$. $\blacksquare$
+At $x=\sqrt{\frac53}$ and $x=-\frac1{\sqrt3}$, $y''> 0$ (local minima); at $x=-\sqrt{\frac53}$ and $x=\frac1{\sqrt3}$, $y''< 0$ (local maxima). By **Theorem 3.2 (Second Sufficient Condition for Extrema)**, the classification holds. $\blacksquare$
 
-## 3.4-7
+## 3.3-1-3
 
-Prove that the derivative of the $\left(n+1\right)$-th Taylor polynomial of $f$ at $a$ equals the $n$-th Taylor polynomial of $f'$ at $a$.
+Find the stationary points of $y=x\ln x$ ($x> 0$) and classify them.
 
-### Solution 3.4-7
+### Solution to 3.3-1-3
 
-Differentiating $T_{n+1}\left(x\right)=f\left(a\right)+f'\left(a\right)\left(x-a\right)+\cdots+\frac{f^{\left(n+1\right)}\left(a\right)}{\left(n+1\right)!}\left(x-a\right)^{n+1}$ gives
+$y'=\ln x+1=0$ gives $x=\frac1e$. Since $y''=\frac1x> 0$, by **Theorem 3.2 (Second Sufficient Condition for Extrema)**, $x=\frac1e$ is a local minimum with value $-\frac1e$. $\blacksquare$
 
-$$
-T_{n+1}'\left(x\right)=f'\left(a\right)+f''\left(a\right)\left(x-a\right)+\cdots+\frac{f^{\left(n+1\right)}\left(a\right)}{n!}\left(x-a\right)^n,
-$$
+## 3.3-2
 
-which is exactly the $n$-th Taylor polynomial of $f'$. $\blacksquare$
+Let $f$ be continuous on $\left[a,b\right]$ with a unique extremum point in $\left(a,b\right)$. Prove: (1) it is a strict local max or min; (2) if it is a local max, it is the global maximum; if a local min, the global minimum.
 
-## 3.4-10
+### Solution to 3.3-2
 
-Prove that as $x\to0$, $\arctan x=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right)$.
+(1) Let $x_0$ be the unique extremum. If it is not a strict local maximum, then there are points arbitrarily close with $f\left(x\right)\ge f\left(x_0\right)$, which would force $f$ to be locally constant, yielding infinitely many extrema, contradicting uniqueness. Hence $x_0$ is strict.
 
-### Solution 3.4-10
+(2) Suppose $x_0$ is a local maximum. If $f\left(x_0\right)$ is not the global maximum, there exists $x_1$ with $f\left(x_1\right)> f\left(x_0\right)$. On $\left[x_0,x_1\right]$, since $f\left(x_1\right)> f\left(x_0\right)$ and $x_0$ is a strict local max, the minimum is attained at an interior point, giving a local minimum, contradicting uniqueness. Hence $f\left(x_0\right)$ is the global maximum. This is **Proposition 3.1 (Unique Extremum is Global)**. $\blacksquare$
 
-Since $f'\left(x\right)=\frac1{1+x^2}$, substituting $-x^2$ into the geometric expansion (3.4-1-2) gives
+## 3.3-3
 
-$$
-\frac1{1+x^2}=1-x^2+x^4-\cdots+\left(-1\right)^m x^{2m}+o\left(x^{2m}\right).
-$$
+(Snell's Law) Light travels from medium I to medium II with speeds $v_1$ and $v_2$. Snell's law states $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$. Prove that the actual path minimizes travel time.
 
-Integrating term by term (by 3.4-7),
+### Solution to 3.3-3
+
+Let the interface be the $x$-axis, $A=\left(0,a\right)$, $B=\left(d,-b\right)$, and the entry point be $P=\left(x,0\right)$. Total time:
 
 $$
-\arctan x=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right).
+T\left(x\right)=\frac{\sqrt{x^2+a^2}}{v_1}+\frac{\sqrt{\left(d-x\right)^2+b^2}}{v_2}.
 $$
 
-$\blacksquare$
-
-## 3.4-11
-
-Let $f\left(x\right)=x^{1/5}$, $x=32$, $\Delta x=0.16$. Given $f\left(32\right)+f'\left(32\right)\Delta x=2.002$, prove that the absolute error is less than $10^{-6}$.
-
-### Solution 3.4-11
-
-The error is the Lagrange remainder:
+Differentiating,
 
 $$
-\left|R_1\right|=\frac2{25}\xi^{-9/5}\cdot\left(0.16\right)^2.
+T'\left(x\right)=\frac{\sin\alpha}{v_1}-\frac{\sin\beta}{v_2}.
 $$
 
-Since $\xi> 32$, $\xi^{-9/5}< 2^{-9}=\frac1{512}$. Thus
+Setting $T'\left(x\right)=0$ gives $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$, i.e. Snell's law. Since $T''\left(x\right)> 0$, this is a minimum. By **Proposition 3.1 (Unique Extremum is Global)**, it is the global minimum time. $\blacksquare$
+
+## 3.3-4
+
+A lamp moves along a vertical line $OB$, and $OA$ is a horizontal segment of length $a$. At what height above $O$ is the illumination at $A$ maximized?
+
+### Solution to 3.3-4
+
+Let the height be $h$. Illumination is proportional to $\cos\theta/r^2$ where $r=\sqrt{a^2+h^2}$ and $\cos\theta=h/r$. Thus
 
 $$
-\left|R_1\right|< \frac2{25}\cdot\frac1{512}\cdot0.0256=4\times10^{-6}.
+J\left(h\right)=\frac{Ch}{\left(a^2+h^2\right)^{3/2}}.
 $$
 
-$\blacksquare$
-
-## 3.4-12
-
-Let $f'\left(x_0\right)=\cdots=f^{\left(n-1\right)}\left(x_0\right)=0$ and $f^{\left(n\right)}\left(x_0\right)\ne0$. Prove: if $n$ is odd, $x_0$ is not an extremum; if $n$ is even and $f^{\left(n\right)}\left(x_0\right)> 0$, $x_0$ is a local minimum; if $f^{\left(n\right)}\left(x_0\right)< 0$, it is a local maximum.
-
-### Solution 3.4-12
-
-By **Theorem 4.1 (Local Taylor Expansion)**,
+Differentiating,
 
 $$
-f\left(x\right)-f\left(x_0\right)=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\left(\left(x-x_0\right)^n\right).
+J'\left(h\right)=C\cdot\frac{a^2-2h^2}{\left(a^2+h^2\right)^{5/2}}.
 $$
 
-If $n$ is odd, $\left(x-x_0\right)^n$ changes sign on either side of $x_0$, so $f\left(x\right)-f\left(x_0\right)$ changes sign; $x_0$ is not an extremum.
-
-If $n$ is even, $\left(x-x_0\right)^n> 0$ for $x\ne x_0$. If $f^{\left(n\right)}\left(x_0\right)> 0$, then $f\left(x\right)> f\left(x_0\right)$, so $x_0$ is a local minimum. If $f^{\left(n\right)}\left(x_0\right)< 0$, then $f\left(x\right)< f\left(x_0\right)$, so $x_0$ is a local maximum. $\blacksquare$
+Setting $J'\left(h\right)=0$ gives $h=\frac{a}{\sqrt2}$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, this is a maximum. By **Proposition 3.1 (Unique Extremum is Global)**, it is the global maximum. $\blacksquare$

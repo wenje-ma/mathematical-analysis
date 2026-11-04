@@ -6,17 +6,17 @@
 
 > **Proposition 1.6 (Properties of Absolute Value)**
 > 
-> For any $x,y\in\mathbb R$: (1) $\left|x\right|\ge0$, with equality if and only if $x=0$; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
+> For any $x,y\in\mathbb R$: (1) $\left|x\right|\ge0$, equality iff $x=0$; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
 
 > **Proposition 1.7 (Triangle Inequality)**
 > 
-> For any real numbers $a,b,c$: (1) $\left|a-b\right|\ge0$, with equality if and only if $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
+> For any real $a,b,c$, $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
 ## 1.1-3
 
 Prove that $\sqrt2+\sqrt3$ is irrational.
 
-### Solution 1.1-3
+### Solution to 1.1-3
 
 By contradiction. Suppose $\sqrt2+\sqrt3$ is rational. Then there exists $r\in\mathbb Q$ such that $\sqrt2+\sqrt3=r$, so $\sqrt3=r-\sqrt2$. Squaring both sides gives
 
@@ -36,7 +36,7 @@ $$
 
 is a number field. Also determine whether this field is complete.
 
-### Solution 1.1-4
+### Solution to 1.1-4
 
 (1) First prove that $E$ is a field. For any $m_1+n_1\sqrt2$, $m_2+n_2\sqrt2\in E$,
 
@@ -70,7 +70,7 @@ $$
 
 What conditions must $a,b,r_1,r_2$ satisfy for $E_1\cap E_2\ne\varnothing$?
 
-### Solution 1.1-6
+### Solution to 1.1-6
 
 $E_1$ is the set of points on the number line whose distance from $a$ exceeds $r_1$, and $E_2$ is the open interval $\left(b-r_2,b+r_2\right)$ whose distance from $b$ is less than $r_2$.
 
@@ -100,7 +100,7 @@ Solve the following inequalities:
 
 (4) $\left|x+2\right|< 1$.
 
-### Solution 1.1-7
+### Solution to 1.1-7
 
 (1) From $\left|x^2-1\right|< 8$ we get $-8< x^2-1< 8$, i.e. $-7< x^2< 9$. Since $x^2\ge0$ always, it suffices that $x^2< 9$; by **Proposition 1.6 (Properties of Absolute Value)**, $\left|x\right|< 3$, i.e. $-3< x< 3$.
 
@@ -132,7 +132,7 @@ $$
 \left|a-b\right|\ge\left|\left|a-c\right|-\left|b-c\right|\right|.
 $$
 
-### Solution 1.1-9
+### Solution to 1.1-9
 
 (1) Write $a+2b+c=\left(a+b\right)+\left(b+c\right)$. By **Proposition 1.6 (Properties of Absolute Value)**(3),
 
@@ -174,7 +174,7 @@ $$
 E=\left\{\left(-1\right)^nn^2-n:n\in\mathbb N\right\}.
 $$
 
-### Solution 1.1-11
+### Solution to 1.1-11
 
 (1) $E=\left\{e,e^2,e^3,\dots\right\}$. Since $e^n\ge e$, $E$ is bounded below (e.g. $m=e$); since $e^n$ grows without bound as $n$ increases, $E$ is not bounded above. By The Concept of Bounded Sets, $E$ is bounded below but not above, and is not a bounded set.
 

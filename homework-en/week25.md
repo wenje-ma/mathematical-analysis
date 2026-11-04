@@ -4,68 +4,106 @@
 > 
 > If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-> **Theorem 3.2 (Heine-Borel Covering Theorem)**
+> **Proposition 1.3 (Necessary and Sufficient Condition for Measurable Area)**
 > 
-> Any open cover of a closed interval $\left[a,b\right]$ has a finite subcover.
+> $E$ is measurable iff $\partial E$ has zero area.
 
-## 5.3-2
+> **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**
+> 
+> $f$ is integrable on $D$ iff $\lim_{\lambda\to0}\sum_i\omega_i\Delta\sigma_i=0$.
 
-Prove $f\left(x\right)=\frac1x$ is not uniformly continuous on $\left(0,1\right)$.
+> **Theorem 1.5 (Continuous Functions Are Integrable)**
+> 
+> If $D$ is a bounded closed region with zero-area boundary and $f$ is continuous on $D$, then $f$ is integrable.
 
-### Solution 5.3-2
+> **Lemma 2.1 (Effect of Refining a Partition)**
+> 
+> Adding points to a partition decreases the upper sum and increases the lower sum.
 
-Take $\varepsilon_0=1$. For any $\delta> 0$, take $x_1=\frac\delta2$, $x_2=\frac\delta3$. Then $\left|x_1-x_2\right|< \delta$ but $\left|f\left(x_1\right)-f\left(x_2\right)\right|=\frac1\delta> 1$ when $\delta< 1$. $\blacksquare$
+> **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**
+> 
+> $f$ is Riemann integrable iff $\lim_{\lambda\to0}\left[D\left(T\right)-d\left(T\right)\right]=0$.
 
-## 5.3-3
+## 6.1-3
 
-Construct an open cover of $E=\left\{\frac1n\right\}$ with no finite subcover.
+Express the area as an integral; find $\int_c^d\varphi+\int_a^b\psi$.
 
-### Solution 5.3-3
+### Solution to 6.1-3
 
-Take $I_n=\left(\frac1n-\frac1{4n^2},\frac1n+\frac1{4n^2}\right)$. Any finite subcollection covers only finitely many points. $\blacksquare$
+The area is $\int_c^d\varphi\left(y\right)\,\mathrm dy$. The sum equals $bd-ac$. $\blacksquare$
 
-## 5.3-4
+## 6.1-5
 
-Prove every open cover of $E=\left\{\frac1n\right\}\cup\left\{0\right\}$ has a finite subcover.
+Prove: $f$ is integrable iff the lower and upper Darboux sums converge to the same limit.
 
-### Solution 5.3-4
+### Solution to 6.1-5
 
-Since $0\in E$, some open set $I_0$ contains a neighborhood $\left(-\delta,\delta\right)$ of $0$. Choose $N$ with $\frac1N< \delta$. Then $I_0$ covers all $\frac1n$ for $n> N$. The remaining finitely many points are covered by finitely many additional sets. $\blacksquare$
+**Necessity**: if $f$ is integrable with integral $I$, then both lower and upper sums approach $I$.
 
-## 5.3-5
+**Sufficiency**: if both limits equal $I$, then by squeeze theorem any Riemann sum approaches $I$. $\blacksquare$
 
-Prove $\sin x$ is uniformly continuous on $\mathbb R$.
-
-### Solution 5.3-5
-
-By **Theorem 1.3 (Lagrange Mean Value Theorem)**, $\left|\sin x_1-\sin x_2\right|\le\left|x_1-x_2\right|$. Take $\delta=\varepsilon$. $\blacksquare$
-
-## 5.3-6
-
-Prove $\cos x$ is uniformly continuous on $\mathbb R$.
-
-### Solution 5.3-6
-
-By **Theorem 1.3 (Lagrange Mean Value Theorem)**, $\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|$. Take $\delta=\varepsilon$. $\blacksquare$
-
-## 5.3-7
-
-Prove $f\left(x\right)=\sin 3x+5x+1$ is uniformly continuous on $\mathbb R$.
-
-### Solution 5.3-7
-
-$\left|f\left(x_1\right)-f\left(x_2\right)\right|\le8\left|x_1-x_2\right|$. Take $\delta=\frac\varepsilon8$. $\blacksquare$
-
-## 5.3-8
+## 6.1-6
 
 Prove:
 
-(1) A Holder continuous function is uniformly continuous;
+(1) $\frac\pi2\le\int_0^{\pi/2}\left(1+\sin x\right)\,\mathrm dx\le\pi$;
 
-(2) If $f$ is differentiable with bounded derivative, then $f$ satisfies the Holder condition with $\alpha=1$.
+(2) $\sqrt2\le\int_0^1\sqrt{2+x-x^2}\,\mathrm dx\le\frac32$.
 
-### Solution 5.3-8
+### Solution to 6.1-6
 
-(1) Take $\delta=\left(\frac\varepsilon H\right)^{1/\alpha}$. Then $\left|f\left(x_1\right)-f\left(x_2\right)\right|< \varepsilon$.
+By the comparison property of integrals. $\blacksquare$
 
-(2) By **Theorem 1.3 (Lagrange Mean Value Theorem)**, $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le M\left|x_1-x_2\right|$. $\blacksquare$
+## 6.1-8
+
+Prove: $\int_a^b f\left(x\right)\,\mathrm dx=F\left(b\right)-F\left(a\right)$.
+
+### Solution to 6.1-8
+
+For any partition, by **Theorem 1.3 (Lagrange Mean Value Theorem)**,
+
+$$
+F\left(b\right)-F\left(a\right)=\sum f\left(\xi_k\right)\Delta x_k.
+$$
+
+Taking the limit gives the result. $\blacksquare$
+
+## 6.2-1
+
+Prove: if $f$ is integrable on $\left[a,b\right]$, then it is integrable on any subinterval $\left[c,d\right]$.
+
+### Solution to 6.2-1
+
+By **Lemma 2.1 (Effect of Refining a Partition)**, the oscillation sum on $\left[c,d\right]$ is bounded by that on $\left[a,b\right]$. By **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**, it tends to $0$. $\blacksquare$
+
+## 6.2-2
+
+Prove: if $f$ and $g$ are integrable, then $f\cdot g$ is integrable.
+
+### Solution to 6.2-2
+
+Using $\omega_{fg}\le M\omega_g+N\omega_f$ and **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$
+
+## 6.2-4
+
+Let $f$ be continuous, $f\ge0$. Prove $\int_a^b f=0$ iff $f\equiv0$.
+
+### Solution to 6.2-4
+
+If $f\left(x_0\right)> 0$, continuity gives a neighborhood where $f> \frac{f\left(x_0\right)}2$. By comparison property, the integral is positive. $\blacksquare$
+
+## 6.2-6
+
+Prove: if $f$ is integrable, then $\left|f\right|$ is integrable and $\left|\int_a^b f\right|\le\int_a^b\left|f\right|$.
+
+### Solution to 6.2-6
+
+Since $\omega_{\left|f\right|}\le\omega_f$, **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)** gives integrability of $\left|f\right|$. The inequality follows from $-\left|f\right|\le f\le\left|f\right|$ and the comparison property. $\blacksquare$
+
+## 8.1-2
+
+Prove: if $f$ and $g$ are integrable on $D$, then $f\cdot g$ is integrable.
+
+### Solution to 8.1-2
+
+Using $\omega_{fg}\le A\omega_g+B\omega_f$ and **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$

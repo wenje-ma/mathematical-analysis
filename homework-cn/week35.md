@@ -1,99 +1,169 @@
 # week35
 
-> **定理 4.1 (奥-高公式)**
+> **定理 3.3 (积分号下求导)**
 > 
-> 设 $S$ 为空间闭区域 $\Omega$ 的边界曲面外侧, $P,Q,R$ 在 $\Omega$ 上有一阶连续偏导数. 则 $\oiint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
+> 设 $f\left(x,y\right)$ 与 $f_y\left(x,y\right)$ 连续, 则 $I\left(y\right)=\int_a^b f\left(x,y\right)\mathrm dx$ 可导, 且 $I'\left(y\right)=\int_a^b f_y\left(x,y\right)\mathrm dx$. 若积分限依赖于 $y$, 则补上边界项: $I'\left(y\right)=f\left(b\left(y\right),y\right)b'\left(y\right)-f\left(a\left(y\right),y\right)a'\left(y\right)+\int_{a\left(y\right)}^{b\left(y\right)}f_y\left(x,y\right)\mathrm dx$.
 
-## 9.3-1
+> **定理 4.3 (魏尔斯特拉斯判别法)**
+> 
+> 若 $\left|f\left(x,y\right)\right|\le F\left(x\right)$ 且瑕积分 $\int_a^b F\left(x\right)\mathrm dx$ 收敛, 则 $\int_a^b f\left(x,y\right)\mathrm dx$ 关于 $y$ 一致收敛.
 
-求 $\iint_S\left(y+x\right)\,\mathrm dS$, 其中 $S$ 为立方体表面.
+> **定理 4.4 (阿贝尔判别法)**
+> 
+> 若 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 一致收敛, $g\left(x,y\right)$ 关于 $x$ 单调且一致有界, 则 $\int_a^{+\infty}fg\,\mathrm dx$ 一致收敛.
 
-### 解答 9.3-1
+> **例 4.5 (狄利克雷积分)**
+> 
+> $\int_0^{+\infty}\frac{\sin x}{x}\mathrm dx=\frac\pi2$. 一般地, $\int_0^{+\infty}\frac{\sin\left(kx\right)}x\mathrm dx=\frac\pi2\operatorname{sgn}\left(k\right)$.
 
-由对称性, $\iint_S x=\iint_S y$. 分别计算六个面得 $\iint_S x=3$. 故原式 $=6$. $\blacksquare$
+> **定理 4.7 (积分次序交换定理)**
+> 
+> 若 $f$ 连续且 $\int_a^{+\infty}f\left(x,y\right)\mathrm dx$ 关于 $y\in\left[c,d\right]$ 一致收敛, 则 $\int_c^d\mathrm dy\int_a^{+\infty}f\,\mathrm dx=\int_a^{+\infty}\mathrm dx\int_c^d f\,\mathrm dy$.
 
-## 9.3-3
+> **定理 4.8 (积分号下求导)**
+> 
+> 若 $f$ 与 $f_y$ 连续, $\int_a^{+\infty}f$ 收敛, $\int_a^{+\infty}f_y$ 一致收敛, 则 $I'\left(y\right)=\int_a^{+\infty}f_y\,\mathrm dx$.
 
-求 $\oiint_S\left(xy+z\right)^2\,\mathrm dS$, 其中 $S$ 为球面 $x^2+y^2+z^2=R^2$.
+> **命题 (伽马与贝塔的积分形式)**
+> 
+> $\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
 
-### 解答 9.3-3
+## 12.3-6
 
-展开: $\left(xy+z\right)^2=x^2y^2+2xyz+z^2$. 由对称性, $2xyz$ 积分为 $0$. 故
+设 $I\left(\alpha\right)=\int_0^{2\pi}\ln\left(1-\alpha\cos\theta\right)\mathrm d\theta$ ($\left|\alpha\right|< 1$). 证明 $I'\left(\alpha\right)=\frac{2\pi\left(\sqrt{1-\alpha^2}-1\right)}{\alpha\sqrt{1-\alpha^2}}$ 并推出 $I\left(\alpha\right)=2\pi\ln\frac{1+\sqrt{1-\alpha^2}}2$.
 
-$$
-\oiint_S\left(xy+z\right)^2=\frac{4\pi R^6}{15}+\frac{4\pi R^4}{3}.
-$$
+### 解答 12.3-6
 
-$\blacksquare$
+由**定理 3.3 (积分号下求导)**, $I'\left(\alpha\right)=\int_0^{2\pi}\frac{-\cos\theta}{1-\alpha\cos\theta}\mathrm d\theta$. 分解被积函数并利用标准积分 $\int_0^{2\pi}\frac{\mathrm d\theta}{1-\alpha\cos\theta}=\frac{2\pi}{\sqrt{1-\alpha^2}}$, 得 $I'\left(\alpha\right)=\frac{2\pi\left(\sqrt{1-\alpha^2}-1\right)}{\alpha\sqrt{1-\alpha^2}}$. 积分并利用 $I\left(0\right)=0$, 得 $I\left(\alpha\right)=2\pi\ln\frac{1+\sqrt{1-\alpha^2}}2$. $\blacksquare$
 
-## 9.3-5
+## 12.4-1-1
 
-求抛物面薄壳 $z=\frac12\left(x^2+y^2\right)$ ($0\le z\le1$) 的质量, 面密度 $\rho=x+y+z$.
+讨论 $\int_0^{+\infty}e^{-\alpha x^2}\mathrm dx$ 在 $\alpha\in\left[\alpha_0,+\infty\right)$ 上的一致收敛性.
 
-### 解答 9.3-5
+### 解答 12.4-1-1
 
-由第一型曲面积分的计算, $\mathrm dS=\sqrt{1+x^2+y^2}\,\mathrm dx\mathrm dy$. 由对称性, $x,y$ 项积分为 $0$. 用极坐标,
+因 $e^{-\alpha x^2}\le e^{-\alpha_0x^2}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛. $\blacksquare$
 
-$$
-M=\frac{\pi\left(12\sqrt3+2\right)}{15}.
-$$
+## 12.4-1-3
 
-$\blacksquare$
+讨论 $\int_1^{+\infty}e^{-xy}\frac{\cos x}{x}\mathrm dx$ 在 $y\in\left[0,+\infty\right)$ 上的一致收敛性.
 
-## 9.3-6
+### 解答 12.4-1-3
 
-求第一卦限球面 $x^2+y^2+z^2=a^2$ 的质心坐标.
+$\int_1^{+\infty}\frac{\cos x}{x}\mathrm dx$ 收敛且不含 $y$, $e^{-xy}$ 单调且一致有界. 由**定理 4.4 (阿贝尔判别法)**, 一致收敛. $\blacksquare$
 
-### 解答 9.3-6
+## 12.4-1-5
 
-由对称性, $\overline x=\overline y=\overline z$. 曲面面积 $=\frac{\pi a^2}{2}$. 计算得 $\overline z=\frac a2$. 质心为 $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
+讨论 $\int_0^{+\infty}e^{-x^2y^2}\cos x\,\mathrm dx$ 在 $y\in\left[y_0,+\infty\right)$ 上的一致收敛性.
 
-## 9.3-7
+### 解答 12.4-1-5
 
-求 $I=\iint_S y\left(x-z\right)\,\mathrm dy\mathrm dz+x^2\,\mathrm dz\mathrm dx+\left(y^2+zx\right)\,\mathrm dx\mathrm dy$, 其中 $S$ 为立方体外侧.
+因 $\left|e^{-x^2y^2}\cos x\right|\le e^{-x^2y_0^2}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛. $\blacksquare$
 
-### 解答 9.3-7
+## 12.4-2-1
 
-由**定理 4.1 (奥-高公式)**,
+求 $\int_0^{+\infty}\frac{e^{-ax}-e^{-bx}}x\mathrm dx$ ($0< a< b$).
 
-$$
-I=\iiint_\Omega\left(y+0+x\right)\mathrm dV=a^4.
-$$
+### 解答 12.4-2-1
 
-$\blacksquare$
+由 $\frac{e^{-ax}-e^{-bx}}x=\int_a^b e^{-xy}\mathrm dy$, 及**定理 4.7 (积分次序交换定理)**, $I=\int_a^b\frac{\mathrm dy}y=\ln\frac ba$. $\blacksquare$
 
-## 9.3-8
+## 12.4-2-2
 
-求 $I=\iint_S\left(y-z\right)x\,\mathrm dy\mathrm dz+\left(x-y\right)\,\mathrm dx\mathrm dy$, 其中 $S$ 为圆柱面外侧.
+求 $\int_0^{+\infty}\frac{\sin\left(\alpha x\right)\cos\left(\beta x\right)}x\mathrm dx$.
 
-### 解答 9.3-8
+### 解答 12.4-2-2
 
-由**定理 4.1 (奥-高公式)**, $I=\iiint_\Omega\left(y-z\right)\mathrm dV$. 用柱坐标, 由对称性 $y$ 项为 $0$, 得
+利用三角恒等式及**例 4.5 (狄利克雷积分)**, 得 $I=\begin{cases}0,&\alpha< \beta\\ \frac\pi4,&\alpha=\beta\\ \frac\pi2,&\alpha> \beta\end{cases}$. $\blacksquare$
 
-$$
-I=-\frac{9\pi}{2}.
-$$
+## 12.4-2-4
 
-$\blacksquare$
+求 $\int_0^{+\infty}\frac{1-\cos\left(\alpha x\right)}x e^{-x}\mathrm dx$.
 
-## 9.3-9
+### 解答 12.4-2-4
 
-求 $I=\iint_S\left(y-z\right)\,\mathrm dy\mathrm dz+\left(z-x\right)\,\mathrm dz\mathrm dx+\left(x-y\right)\,\mathrm dx\mathrm dy$.
+由**定理 4.8 (积分号下求导)**, $I'\left(\alpha\right)=\int_0^{+\infty}e^{-x}\sin\left(\alpha x\right)\mathrm dx=\frac{\alpha}{1+\alpha^2}$. 积分并利用 $I\left(0\right)=0$, 得 $I\left(\alpha\right)=\frac12\ln\left(1+\alpha^2\right)$. $\blacksquare$
 
-### 解答 9.3-9
+## 12.4-5
 
-由第二型曲面积分的计算, 代入上侧公式. 由对称性, 奇函数项积分为 $0$. 故 $I=\pi Rr^2$. $\blacksquare$
+证明迪尼定理: 若 $u_n\left(x\right)\ge0$ 连续, $\sum u_n\left(x\right)$ 点态收敛于连续函数 $S\left(x\right)$, 则一致收敛.
 
-## 9.3-10
+### 解答 12.4-5
 
-求 $I=\iint_S x\,\mathrm dy\mathrm dz+y\,\mathrm dz\mathrm dx+z\,\mathrm dx\mathrm dy$, 其中 $S$ 为椭球面外侧.
+令余项 $R_N\left(x\right)=S\left(x\right)-S_N\left(x\right)$. 反证: 若不一致收敛, 则存在 $x_k\to x_0$ 使 $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. 由单调性与连续性, 对任意 $m$, $R_m\left(x_0\right)\ge\varepsilon_0$, 与 $R_m\left(x_0\right)\to0$ 矛盾. $\blacksquare$
 
-### 解答 9.3-10
+## 12.5-1-1
 
-由**定理 4.1 (奥-高公式)**,
+讨论 $\int_0^1\frac{\sin x}{x^\alpha}\mathrm dx$ 在 (i) $\alpha\le\alpha_0< 2$; (ii) $\alpha< 2$ 上的一致收敛性.
 
-$$
-I=3\iiint_\Omega\mathrm dV=4\pi abc.
-$$
+### 解答 12.5-1-1
 
-$\blacksquare$
+(i) 因 $\left|\frac{\sin x}{x^\alpha}\right|\le x^{1-\alpha_0}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
+
+(ii) 取 $\alpha_n=2-\frac1n$, 则 $\int_0^{1/n}\frac{\sin x}{x^{\alpha_n}}\mathrm dx\to1\ne0$. 故在 $\alpha< 2$ 上不一致收敛. $\blacksquare$
+
+## 12.5-1-2
+
+讨论 $\int_0^1 x^{p-1}\mathrm dx$ 在 (i) $p\ge p_0> 0$; (ii) $p> 0$ 上的一致收敛性.
+
+### 解答 12.5-1-2
+
+(i) 因 $x^{p-1}\le x^{p_0-1}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
+
+(ii) 取 $p_n=\frac1n$, 则 $\int_0^{1/n}x^{p_n-1}\mathrm dx\to1\ne0$. 故在 $p> 0$ 上不一致收敛. $\blacksquare$
+
+## 12.5-2-1
+
+求 $\int_0^1\frac{x^b-x^a}{\ln x}\mathrm dx$ ($a> -1,b> -1$).
+
+### 解答 12.5-2-1
+
+由 $\frac{x^b-x^a}{\ln x}=\int_a^b x^y\mathrm dy$, 及**定理 4.7 (积分次序交换定理)**, $I=\int_a^b\frac{\mathrm dy}{y+1}=\ln\frac{1+b}{1+a}$. $\blacksquare$
+
+## 12.6-1-1
+
+计算 $\int_0^{+\infty}\frac{4\sqrt x}{\left(1+x\right)^2}\mathrm dx$.
+
+### 解答 12.6-1-1
+
+由**命题 (伽马与贝塔的积分形式)**, $a=\frac32$, $b=\frac12$. 由伽马函数的定义, $\Gamma\left(\frac32\right)=\frac{\sqrt\pi}2$, $\Gamma\left(\frac12\right)=\sqrt\pi$. 故原式 $=4\cdot\frac{\pi}2=2\pi$. $\blacksquare$
+
+## 12.6-1-2
+
+计算 $\int_0^{+\infty}x^{-1/2}e^{-\alpha x}\mathrm dx$ ($\alpha> 0$).
+
+### 解答 12.6-1-2
+
+代换 $t=\alpha x$, 由伽马函数的定义, 得 $\sqrt{\frac\pi\alpha}$. $\blacksquare$
+
+## 12.6-1-3
+
+计算 $\int_0^1 x^8\sqrt{1-x^3}\mathrm dx$.
+
+### 解答 12.6-1-3
+
+代换 $t=x^3$, 得 $\frac13\Beta\left(3,\frac32\right)=\frac{16}{315}$. $\blacksquare$
+
+## 12.6-1-4
+
+计算 $\int_0^{\pi/2}\sin^6x\cos^4x\,\mathrm dx$.
+
+### 解答 12.6-1-4
+
+由**命题 (伽马与贝塔的积分形式)**, $=\frac12\Beta\left(\frac72,\frac52\right)=\frac{3\pi}{512}$. $\blacksquare$
+
+## 12.6-1-9
+
+计算 $\int_0^1\frac{\mathrm dx}{\sqrt{1-x^4}}$.
+
+### 解答 12.6-1-9
+
+代换 $t=x^4$, 得 $\frac14\Beta\left(\frac14,\frac12\right)$. $\blacksquare$
+
+## 12.6-1-10
+
+计算 $\int_0^{+\infty}\frac{\mathrm dx}{1+x^3}$.
+
+### 解答 12.6-1-10
+
+代换 $u=x^3$, 得 $\frac13\Beta\left(\frac13,\frac23\right)=\frac13\Gamma\left(\frac13\right)\Gamma\left(\frac23\right)$. $\blacksquare$

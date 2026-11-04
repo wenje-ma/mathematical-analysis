@@ -1,81 +1,149 @@
 # week29
 
-> **Theorem 2.1 (Reduction to Iterated Integrals)**
+> **Theorem 2.2 (Green's Theorem)**
 > 
-> $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
+> $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
 
-> **Theorem 2.2 (Double Integrals in Polar Coordinates)**
+> **Theorem 2.4 (Path Independence Condition)**
 > 
-> $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
+> The integral is path-independent iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
-## 8.2-2
+> **Theorem 2.5 (Exact Differential Form)**
+> 
+> $P\,\mathrm dx+Q\,\mathrm dy$ is exact iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
-Change the order of integration.
+> **Theorem 4.1 (Gauss Divergence Theorem)**
+> 
+> $\oiint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
 
-### Solution 8.2-2
+> **Theorem 4.2 (Stokes' Theorem)**
+> 
+> $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy+R\,\mathrm dz=\iint_{S^+}\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)\mathrm dy\mathrm dz+\cdots$.
 
-(1) $\int_0^1\mathrm dx\int_{x^2}^x f\,\mathrm dy$.
+## 9.2-5-3
 
-(2) $\int_1^2\mathrm dy\int_1^y f\,\mathrm dx+\int_2^4\mathrm dy\int_{y/2}^2 f\,\mathrm dx$.
+Compute $\int_{\left(0,0\right)}^{\left(a,b\right)}e^x\cos y\,\mathrm dx-e^x\sin y\,\mathrm dy$.
 
-(3) $\int_0^5\mathrm dy\int_0^y f\,\mathrm dx+\int_5^{10}\mathrm dy\int_0^{10-y}f\,\mathrm dx$.
+### Solution to 9.2-5-3
 
-(4) $\int_1^e\mathrm dy\int_0^{\ln y}f\,\mathrm dx$. $\blacksquare$
+Since $d\left(e^x\cos y\right)=e^x\cos y\,\mathrm dx-e^x\sin y\,\mathrm dy$, the result is $e^a\cos b-1$. $\blacksquare$
 
-## 8.2-3
+## 9.2-6
 
-Compute.
+Prove: $\oint_{L_r^+}\frac{x\,\mathrm dy-y\,\mathrm dx}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$.
 
-### Solution 8.2-3
+### Solution to 9.2-6
 
-(1) $\frac\pi4$. (2) $\frac{33}{140}$. (3) $\frac12$. (4) $\frac16$. $\blacksquare$
+The ellipse area is $\frac{\pi r^2}{AB}$. Hence the integral is $\frac{2\pi}{AB}$. $\blacksquare$
 
-## 8.2-4
+## 9.2-7
 
-Compute.
+Prove the same for any closed curve enclosing the origin.
 
-### Solution 8.2-4
+### Solution to 9.2-7
 
-(1) $2$. (2) $4-\sin4$. $\blacksquare$
+By Green's theorem on the doubly connected region, the integral equals that over a small ellipse $L_r$. $\blacksquare$
 
-## 8.2-5
+## 9.3-1
 
-Use polar coordinates.
+Compute $\iint_S\left(y+x\right)\,\mathrm dS$ over the cube surface.
 
-### Solution 8.2-5
+### Solution to 9.3-1
 
-(1) $\pi\left(1-\ln2\right)$. (2) $2$. (3) $\frac\pi4\left[\left(1+R^2\right)\ln\left(1+R^2\right)-R^2\right]$. $\blacksquare$
+By symmetry, $=6$. $\blacksquare$
 
-## 8.2-6
+## 9.3-3
 
-Compute $\iint_D e^{-x^2-y^2}$ on the quarter annulus.
+Compute $\oiint_S\left(xy+z\right)^2$ over the sphere.
 
-### Solution 8.2-6
+### Solution to 9.3-3
 
-$\frac\pi4\left(e^{-1}-e^{-4}\right)$. $\blacksquare$
+$\frac{4\pi R^6}{15}+\frac{4\pi R^4}{3}$. $\blacksquare$
 
-## 8.2-7
+## 9.3-5
 
-Compute.
+Find the mass of the paraboloid shell.
 
-### Solution 8.2-7
+### Solution to 9.3-5
 
-(1) $-6\pi^2$. (2) $\frac\pi2$. (3) $\frac{\pi a^4}{8}$. (4) $4-\pi^2$. $\blacksquare$
+$\frac{\pi\left(12\sqrt3+2\right)}{15}$. $\blacksquare$
 
-## 8.2-8
+## 9.3-6
 
-Prove:
+Find the center of mass of the first-octant spherical shell.
 
-(1) $\left[I\left(a\right)\right]^2=\iint_{R_a}e^{-x^2-y^2}$;
+### Solution to 9.3-6
 
-(2) $J\left(a\right)\le\left[I\left(a\right)\right]^2\le J\left(\sqrt2 a\right)$;
+$\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
 
-(3) $\lim_{a\to\infty}\int_0^a e^{-x^2}\,\mathrm dx=\frac{\sqrt\pi}2$.
+## 9.3-7
 
-### Solution 8.2-8
+Compute the surface integral over the cube.
 
-(1) By **Theorem 2.1 (Reduction to Iterated Integrals)**.
+### Solution to 9.3-7
 
-(2) Since $D_a\subset R_a\subset D_{\sqrt2 a}$, by Comparison Property of Double Integrals.
+By **Theorem 4.1 (Gauss Divergence Theorem)**, $I=a^4$. $\blacksquare$
 
-(3) $J\left(a\right)=\frac\pi4\left(1-e^{-a^2}\right)$. Squeeze theorem gives the result. $\blacksquare$
+## 9.3-8
+
+Compute over the cylinder.
+
+### Solution to 9.3-8
+
+$I=-\frac{9\pi}{2}$. $\blacksquare$
+
+## 9.3-9
+
+Compute the surface integral.
+
+### Solution to 9.3-9
+
+$I=\pi Rr^2$. $\blacksquare$
+
+## 9.3-10
+
+Compute over the ellipsoid.
+
+### Solution to 9.3-10
+
+By **Theorem 4.1 (Gauss Divergence Theorem)**, $I=4\pi abc$. $\blacksquare$
+
+## 9.4-1
+
+Compute the surface integral over the hemisphere boundary.
+
+### Solution to 9.4-1
+
+By **Theorem 4.1 (Gauss Divergence Theorem)**, $I=\frac{2\pi a^5}{5}$. $\blacksquare$
+
+## 9.4-3
+
+Compute over the sphere.
+
+### Solution to 9.4-3
+
+$I=\frac{12\pi a^5}{5}$. $\blacksquare$
+
+## 9.4-5
+
+Compute the flux through the cone surface.
+
+### Solution to 9.4-5
+
+$-\frac{\pi h^6}{3}$. $\blacksquare$
+
+## 9.4-7
+
+Compute the line integral around the intersection.
+
+### Solution to 9.4-7
+
+By **Theorem 4.2 (Stokes' Theorem)**, the integral is $0$. $\blacksquare$
+
+## 9.4-8
+
+Compute the line integral.
+
+### Solution to 9.4-8
+
+By **Theorem 4.2 (Stokes' Theorem)**, $2\pi Rr^2$. $\blacksquare$

@@ -1,155 +1,125 @@
 # week14
 
-> **定理 2.1 (柯西中值定理)**
+> **定理 1.1 (费马定理)**
 > 
-> 设 $y=f\left(x\right)$ 与 $y=g\left(x\right)$ 在 $\left[a,b\right]$ 中连续, 在 $\left(a,b\right)$ 中可导, 且 $g'\left(x\right)\ne0$ ($a< x< b$). 则存在点 $c\in\left(a,b\right)$, 使得 $\frac{f\left(b\right)-f\left(a\right)}{g\left(b\right)-g\left(a\right)}=\frac{f'\left(c\right)}{g'\left(c\right)}$.
+> 设 $f\left(x\right)$ 在一点 $a$ 附近有定义, 且在 $a$ 点可微. 若 $a$ 点为 $y=f\left(x\right)$ 的极值点, 则 $f'\left(a\right)=0$.
 
-> **定理 2.2 (洛必达法则, $\frac00$ 型)**
+> **定理 1.2 (罗尔定理)**
 > 
-> 设 $f$ 及 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=0$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
+> 设函数 $y=f\left(x\right)$ 在闭区间 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 中处处可导, 且 $f\left(a\right)=f\left(b\right)$. 则在 $\left(a,b\right)$ 中至少存在一点 $c$, 使得 $f'\left(c\right)=0$.
 
-> **定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**
+> **定理 1.3 (拉格朗日中值定理)**
 > 
-> 设 $f$ 与 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 内可导. 则存在 $c\in\left(a,b\right)$, 使得 $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
-## 3.2-1
+> **定理 1.4 (常数定理)**
+> 
+> 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中处处可导, 且 $f'\left(x\right)=0$ ($x\in\left(a,b\right)$). 则 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 内必为常数.
 
-求下列未定式的极限:
+> **定理 1.5 (单调性判定)**
+> 
+> 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 可导. 若 $f'\left(x\right)> 0$ ($\ge0$) 对一切 $x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递增 (递增); 若 $f'\left(x\right)< 0$ ($\le0$) 对一切 $x\in\left(a,b\right)$, 则严格递减 (递减).
 
-(1) $\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}$ ($a\ne0$, $b\ne0$);
+## 3.1-6
 
-(2) $\lim_{x\to0}\frac{a^x-1}{x}$ ($a> 0$);
+证明下列不等式:
 
-(3) $\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}$;
+(1) $\ln\left(1+x\right)< x$ ($x> 0$);
 
-(4) $\lim_{x\to0+}x^x$;
+(2) $\cos x> 1-\frac{x^2}{2}$ ($x\ne0$);
 
-(5) $\lim_{x\to0+}x\ln x$;
+(3) $\sin x< x$ ($x> 0$);
 
-(6) $\lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}$;
+(4) $\tan x> x$ ($0< x< \frac\pi2$).
 
-(7) $\lim_{x\to0+}\left(\sin x\right)^{\sin x}$.
+### 解答 3.1-6
 
-### 解答 3.2-1
-
-(1) 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
-
-$$
-\lim_{x\to0}\frac{\ln\left(\cos ax\right)}{\ln\left(\cos bx\right)}=\lim_{x\to0}\frac{\frac{-a\sin ax}{\cos ax}}{\frac{-b\sin bx}{\cos bx}}=\lim_{x\to0}\frac{a\tan ax}{b\tan bx}=\frac{a^2}{b^2}.
-$$
-
-(2) 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
+(1) 令 $f\left(x\right)=\ln\left(1+x\right)-x$. 则 $f\left(0\right)=0$, 且
 
 $$
-\lim_{x\to0}\frac{a^x-1}{x}=\lim_{x\to0}\frac{a^x\ln a}{1}=\ln a.
+f'\left(x\right)=\frac1{1+x}-1=-\frac{x}{1+x}< 0\quad\left(x> 0\right).
 $$
 
-(3) 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
+由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上严格递减. 故当 $x> 0$ 时 $f\left(x\right)< f\left(0\right)=0$, 即 $\ln\left(1+x\right)< x$.
+
+(2) 令 $f\left(x\right)=\cos x-1+\frac{x^2}{2}$. 则 $f\left(0\right)=0$, 且 $f'\left(x\right)=-\sin x+x$. 由 (3), 当 $x> 0$ 时 $\sin x< x$, 故 $f'\left(x\right)=x-\sin x> 0$. 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上严格递增. 故当 $x> 0$ 时 $f\left(x\right)> f\left(0\right)=0$, 即 $\cos x> 1-\frac{x^2}{2}$. 当 $x< 0$ 时由偶函数性质得同样结论.
+
+(3) 令 $f\left(x\right)=x-\sin x$. 则 $f\left(0\right)=0$, 且 $f'\left(x\right)=1-\cos x\ge0$, 且 $f'\left(x\right)=0$ 仅在孤立点 $x=2k\pi$ 处成立. 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上严格递增. 故当 $x> 0$ 时 $f\left(x\right)> f\left(0\right)=0$, 即 $\sin x< x$.
+
+(4) 令 $f\left(x\right)=\tan x-x$. 则 $f\left(0\right)=0$, 且
 
 $$
-\lim_{x\to0}\frac{\tan x-x}{x-\arcsin x}=\lim_{x\to0}\frac{\sec^2x-1}{1-\frac1{\sqrt{1-x^2}}}.
+f'\left(x\right)=\sec^2x-1=\tan^2x> 0\quad\left(0< x< \frac\pi2\right).
 $$
 
-分子 $\sec^2x-1=\tan^2x\sim x^2$. 分母 $1-\frac1{\sqrt{1-x^2}}\sim-\frac{x^2}{2}$. 故极限为 $\frac{x^2}{-x^2/2}=-2$.
+由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,\frac\pi2\right)$ 上严格递增. 故当 $0< x< \frac\pi2$ 时 $f\left(x\right)> f\left(0\right)=0$, 即 $\tan x> x$. $\blacksquare$
 
-(4) 这是 $0^0$ 型. 令 $y=x^x$, 则 $\ln y=x\ln x$. 由 (5) 知 $\lim_{x\to0+}x\ln x=0$, 故 $\lim_{x\to0+}x^x=e^0=1$.
+## 3.1-8
 
-(5) 这是 $0\cdot\infty$ 型. 改写为 $\frac{\infty}{\infty}$ 后应用**定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**:
+设 $f\left(x\right)$ 在 $x_0$ 点的一个邻域 $U$ 内连续, 并在 $x_0$ 点的空心邻域 $U\setminus\left\{x_0\right\}$ 中可导. 试证明: 若极限 $\lim_{x\to x_0}f'\left(x\right)$ 存在, 则 $f\left(x\right)$ 在 $x_0$ 点可导, 且 $f'\left(x_0\right)=\lim_{x\to x_0}f'\left(x\right)$.
 
-$$
-\lim_{x\to0+}x\ln x=\lim_{x\to0+}\frac{\ln x}{1/x}=\lim_{x\to0+}\frac{1/x}{-1/x^2}=\lim_{x\to0+}\left(-x\right)=0.
-$$
+### 解答 3.1-8
 
-(6) 这是 $\frac{\infty}{\infty}$ 型. 由**定理 2.3 (洛必达法则, $\frac{\infty}{\infty}$ 型)**,
+设 $\lim_{x\to x_0}f'\left(x\right)=A$. 对任意 $x\in U\setminus\left\{x_0\right\}$, 在以 $x_0$ 与 $x$ 为端点的闭区间上应用**定理 1.3 (拉格朗日中值定理)**, 存在介于 $x_0$ 与 $x$ 之间的点 $\xi$, 使得
 
 $$
-\lim_{x\to0+}\frac{\ln\left(\sin x\right)}{x^2}=\lim_{x\to0+}\frac{\cot x}{2x}=\lim_{x\to0+}\frac{\cos x}{2x\sin x}=+\infty.
+f\left(x\right)-f\left(x_0\right)=f'\left(\xi\right)\left(x-x_0\right).
 $$
 
-(7) 这是 $0^0$ 型. 令 $y=\left(\sin x\right)^{\sin x}$, 则 $\ln y=\sin x\ln\left(\sin x\right)$. 由 (5) 的结果 (将 $x$ 换成 $\sin x$), $\lim_{x\to0+}\sin x\ln\left(\sin x\right)=0$. 故 $\lim_{x\to0+}\left(\sin x\right)^{\sin x}=e^0=1$. $\blacksquare$
-
-## 3.2-2
-
-若 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在, 能否说明 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}$ 也不存在? 试考察 $f\left(x\right)=x^2\sin\frac1x$ 及 $g\left(x\right)=x$ 在 $x\to0$ 时的情况.
-
-### 解答 3.2-2
-
-不能. 取 $f\left(x\right)=x^2\sin\frac1x$, $g\left(x\right)=x$, $x\to0$.
-
-首先,
+于是
 
 $$
-\lim_{x\to0}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to0}x\sin\frac1x=0.
+\frac{f\left(x\right)-f\left(x_0\right)}{x-x_0}=f'\left(\xi\right).
 $$
 
-而
+当 $x\to x_0$ 时, $\xi\to x_0$. 由题设 $\lim_{x\to x_0}f'\left(x\right)=A$, 故
 
 $$
-f'\left(x\right)=2x\sin\frac1x-\cos\frac1x,\quad g'\left(x\right)=1.
+\lim_{x\to x_0}\frac{f\left(x\right)-f\left(x_0\right)}{x-x_0}=\lim_{\xi\to x_0}f'\left(\xi\right)=A.
 $$
 
-于是 $\frac{f'\left(x\right)}{g'\left(x\right)}=2x\sin\frac1x-\cos\frac1x$. 当 $x\to0$ 时, $2x\sin\frac1x\to0$, 但 $\cos\frac1x$ 振荡无极限. 故 $\lim_{x\to0}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在.
+由导数的定义, $f$ 在 $x_0$ 点可导, 且 $f'\left(x_0\right)=A=\lim_{x\to x_0}f'\left(x\right)$. $\blacksquare$
 
-这说明: $\lim\frac{f'}{g'}$ 不存在时, $\lim\frac{f}{g}$ 仍可能存在, 即洛必达法则的逆命题不成立. $\blacksquare$
+## 3.1-10
 
-## 3.2-4
+证明达布定理: 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导. 若存在 $x_1,x_2\in\left(a,b\right)$, 使得 $f'\left(x_1\right)> 0$, $f'\left(x_2\right)< 0$, 则 $x_1$ 与 $x_2$ 之间有一点 $c$, 使得 $f'\left(c\right)=0$.
 
-设 $y=f\left(x\right)$ 在 $a$ 点有二阶导数, 并令
+### 解答 3.1-10
 
-$$
-T\left(x\right)=f\left(a\right)+f'\left(a\right)\Delta x+\frac{f''\left(a\right)}2\left(\Delta x\right)^2,
-$$
-
-其中 $\Delta x=x-a$. 证明: 函数 $g\left(x\right)=f\left(x\right)-T\left(x\right)$ 满足 $g\left(a\right)=0$, $g'\left(a\right)=0$, $g''\left(a\right)=0$, 且 $f\left(x\right)=T\left(x\right)+o\left(\left(\Delta x\right)^2\right)$ ($x\to a$).
-
-### 解答 3.2-4
-
-由 $T\left(x\right)$ 的定义, $T\left(a\right)=f\left(a\right)$, $T'\left(x\right)=f'\left(a\right)+f''\left(a\right)\Delta x$, $T''\left(x\right)=f''\left(a\right)$.
-
-计算得
+不妨设 $x_1< x_2$. 由 $f'\left(x_1\right)> 0$, 根据导数定义, 存在 $\delta_1> 0$, 使得当 $x\in\left(x_1,x_1+\delta_1\right)$ 时
 
 $$
-g\left(a\right)=f\left(a\right)-T\left(a\right)=0,
+\frac{f\left(x\right)-f\left(x_1\right)}{x-x_1}> 0,
 $$
 
-$$
-g'\left(a\right)=f'\left(a\right)-T'\left(a\right)=0,
-$$
+即 $f\left(x\right)> f\left(x_1\right)$. 同理, 由 $f'\left(x_2\right)< 0$, 存在 $\delta_2> 0$, 使得当 $x\in\left(x_2-\delta_2,x_2\right)$ 时
 
 $$
-g''\left(a\right)=f''\left(a\right)-T''\left(a\right)=0.
+\frac{f\left(x\right)-f\left(x_2\right)}{x-x_2}< 0.
 $$
 
-下面证明 $g\left(x\right)=o\left(\left(\Delta x\right)^2\right)$. 这是 $\frac00$ 型. 由**定理 2.2 (洛必达法则, $\frac00$ 型)**,
+因 $x-x_2< 0$, 故 $f\left(x\right)-f\left(x_2\right)> 0$, 即 $f\left(x\right)> f\left(x_2\right)$.
+
+考虑 $f$ 在闭区间 $\left[x_1,x_2\right]$ 上的最大值. 由上述讨论, $f$ 在 $x_1$ 右侧附近的点处函数值大于 $f\left(x_1\right)$, 故最大值不在 $x_1$ 处达到; 同理, 最大值不在 $x_2$ 处达到. 因此最大值在某点 $c\in\left(x_1,x_2\right)$ 处达到, 即 $c$ 为极大值点. 又 $f$ 在 $\left(a,b\right)$ 内可导, 由**定理 1.1 (费马定理)**, $f'\left(c\right)=0$. $\blacksquare$
+
+## 3.1-11
+
+证明: 若 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 区间中可导, 且 $f'\left(x\right)\ne0$, 则 $f$ 在 $\left(a,b\right)$ 中要么严格递增, 要么严格递减.
+
+### 解答 3.1-11
+
+用反证法. 假定 $f$ 在 $\left(a,b\right)$ 中既不严格递增也不严格递减. 则由**定理 1.3 (拉格朗日中值定理)**, 存在两点使得 $f$ 的增量为正, 又存在两点使得 $f$ 的增量为负, 故 $f'$ 在某处取正值, 在某处取负值. 由 3.1-10 的达布定理, $f'$ 必取零值, 与 $f'\left(x\right)\ne0$ 矛盾. 故 $f$ 只能严格递增或严格递减. $\blacksquare$
+
+## 3.1-13
+
+证明不等式 $e^x> 1+x$ ($x> 0$).
+
+### 解答 3.1-13
+
+令 $f\left(x\right)=e^x-1-x$. 则 $f\left(0\right)=0$, 且
 
 $$
-\lim_{\Delta x\to0}\frac{g\left(x\right)}{\left(\Delta x\right)^2}=\lim_{\Delta x\to0}\frac{g'\left(x\right)}{2\Delta x}.
+f'\left(x\right)=e^x-1> 0\quad\left(x> 0\right).
 $$
 
-右端仍是 $\frac00$ 型. 再用一次**定理 2.2 (洛必达法则, $\frac00$ 型)**,
-
-$$
-\lim_{\Delta x\to0}\frac{g'\left(x\right)}{2\Delta x}=\lim_{\Delta x\to0}\frac{g''\left(x\right)}2=\frac{g''\left(a\right)}2=0.
-$$
-
-这里用到了 $g''$ 在 $a$ 点的连续性. 故 $g\left(x\right)=o\left(\left(\Delta x\right)^2\right)$, 即 $f\left(x\right)=T\left(x\right)+o\left(\left(x-a\right)^2\right)$. $\blacksquare$
-
-## 3.2-6
-
-设 $c$ 为常数, 问 $c$ 为何值时, 有 $\lim_{x\to\infty}\left(\frac{x+c}{x-c}\right)^x=e^2$.
-
-### 解答 3.2-6
-
-这是 $1^\infty$ 型. 令 $y=\left(\frac{x+c}{x-c}\right)^x$, 则
-
-$$
-\ln y=x\ln\frac{x+c}{x-c}=x\ln\left(1+\frac{2c}{x-c}\right).
-$$
-
-当 $x\to\infty$ 时, $\frac{2c}{x-c}\to0$, 利用等价无穷小 $\ln\left(1+t\right)\sim t$, 得
-
-$$
-\ln y\sim x\cdot\frac{2c}{x-c}=\frac{2cx}{x-c}\to2c.
-$$
-
-故 $\lim_{x\to\infty}y=e^{2c}$. 由题设 $e^{2c}=e^2$, 得 $2c=2$, 即 $c=1$. $\blacksquare$
+由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上严格递增. 故当 $x> 0$ 时 $f\left(x\right)> f\left(0\right)=0$, 即 $e^x> 1+x$. $\blacksquare$
