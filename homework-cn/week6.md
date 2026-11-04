@@ -16,8 +16,6 @@
 > 
 > 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. 若 $\lim g\left(x\right)=\lim h\left(x\right)=l$, 则 $\lim f\left(x\right)=l$.
 
----
-
 ## 1.6-2
 
 用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim_{x\to a}f\left(x\right)=l$ 且 $l> 0$, 则存在 $\delta> 0$, 使得 $f\left(x\right)> \frac l2$, 只要 $0< \left|x-a\right|< \delta$.
@@ -31,8 +29,6 @@ f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\ri
 $$
 
 故 $f\left(x\right)> \frac l2$. $\blacksquare$
-
----
 
 ## 1.6-3
 
@@ -78,8 +74,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.6-4-1
 
 利用 $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$ 求极限: $\lim_{x\to\infty}\left(1+\frac3x\right)^x\cdot\left(1+\frac5x\right)^x$.
@@ -91,8 +85,6 @@ $$
 $$
 
 由**定理 5.1 (函数极限四则运算)**, 乘积的极限为 $e^3\cdot e^5=e^8$. $\blacksquare$
-
----
 
 ## 1.6-4-3
 
@@ -106,8 +98,6 @@ $$
 
 底数趋于 $e$, 指数 $\frac2{1-x}\to2$. 由重要极限数 $e$ 的函数版本 及**定理 6.2 (函数的夹逼定理)** 相关运算, 极限为 $e^2$. $\blacksquare$
 
----
-
 ## 1.6-4-5
 
 求极限: $\lim_{y\to0}\left(1-5y\right)^{1/y}$.
@@ -120,8 +110,6 @@ $$
 
 底数趋于 $e$, 指数为 $-5$. 由重要极限数 $e$ 的函数版本, 极限为 $e^{-5}=\frac1{e^5}$. $\blacksquare$
 
----
-
 ## 1.6-4-6
 
 求极限: $\lim_{x\to\infty}\left(1+\frac1x\right)^{x+100}$.
@@ -133,8 +121,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.6-5
 
@@ -156,8 +142,6 @@ $$
 
 几何意义: 直线 $y=x-1$ 是曲线 $y=\frac{x^2+1}{x+1}$ 当 $x\to+\infty$ 时的斜渐近线. $\blacksquare$
 
----
-
 ## 1.6-7
 
 证明 $\lim_{x\to+\infty}\left(1+\frac1x\right)^{x^2}=+\infty$.
@@ -169,8 +153,6 @@ $$
 $$
 
 当 $x$ 充分大时 $\left(1+\frac1x\right)^x> 2$ (因趋于 $e> 2$), 故 $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. 因此极限为 $+\infty$. $\blacksquare$
-
----
 
 ## 1.6-9
 
@@ -192,8 +174,6 @@ $$
 
 由**定理 6.2 (函数的夹逼定理)**, 指数趋于 $0$. 由 $e^t$ 的连续性, 原极限为 $e^0=1$. $\blacksquare$
 
----
-
 ## 1.6-10
 
 设 $y=D\left(x\right)$ 为狄利克雷函数. 证明: 对于任意一点 $a\in\mathbb R$, 极限 $\lim_{x\to a}D\left(x\right)$ 不存在.
@@ -201,8 +181,6 @@ $$
 ### 解答 1.6-10
 
 取有理序列 $\left\{r_n\right\}$ 和无理序列 $\left\{s_n\right\}$, 均以 $a$ 为极限 (由有理数与无理数的稠密性). 则 $D\left(r_n\right)=1\to1$, $D\left(s_n\right)=0\to0$. 两子序列极限不同, 由函数极限与序列极限的归结原则, $\lim_{x\to a}D\left(x\right)$ 不存在. $\blacksquare$
-
----
 
 ## 1.6-11
 

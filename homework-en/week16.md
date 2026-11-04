@@ -8,8 +8,6 @@
 > 
 > If $f$ has $n$ continuous derivatives on $\left[a,b\right]$ and $n+1$ derivatives on $\left(a,b\right)$, then for any $x,x_0\in\left[a,b\right]$, there exists $\xi$ between $x_0$ and $x$ such that $f\left(x\right)=f\left(x_0\right)+\cdots+\frac{f^{\left(n+1\right)}\left(\xi\right)}{\left(n+1\right)!}\left(x-x_0\right)^{n+1}$.
 
----
-
 ## 3.4-1-2
 
 Write the local Taylor formula of $y=\frac1{1-x}$ at $x=0$.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 3.4-1-4
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 3.4-1-5
 
 Write the local Taylor formula of $y=\tan x$ at $x=0$ up to $x^3$.
@@ -56,8 +50,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 3.4-4
 
 Expand $y=\sin\left(x+\alpha\right)$ at $\alpha=0$ using Taylor formula with Lagrange remainder, and estimate the remainder.
@@ -71,8 +63,6 @@ $$
 $$
 
 where $\xi$ is between $0$ and $\alpha$. The remainder satisfies $\left|r\left(\alpha\right)\right|\le\frac{\alpha^2}2$. $\blacksquare$
-
----
 
 ## 3.4-5
 
@@ -94,8 +84,6 @@ $$
 
 For any polynomial $P_n$ of degree $n$, $P_n^{\left(n+1\right)}\equiv0$. By **Theorem 4.2 (Taylor Formula with Lagrange Remainder)**, the remainder is $0$. $\blacksquare$
 
----
-
 ## 3.4-7
 
 Prove that the derivative of the $\left(n+1\right)$-th Taylor polynomial of $f$ at $a$ equals the $n$-th Taylor polynomial of $f'$ at $a$.
@@ -109,8 +97,6 @@ T_{n+1}'\left(x\right)=f'\left(a\right)+f''\left(a\right)\left(x-a\right)+\cdots
 $$
 
 which is exactly the $n$-th Taylor polynomial of $f'$. $\blacksquare$
-
----
 
 ## 3.4-10
 
@@ -132,8 +118,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 3.4-11
 
 Let $f\left(x\right)=x^{1/5}$, $x=32$, $\Delta x=0.16$. Given $f\left(32\right)+f'\left(32\right)\Delta x=2.002$, prove that the absolute error is less than $10^{-6}$.
@@ -153,8 +137,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 3.4-12
 

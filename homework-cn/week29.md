@@ -8,8 +8,6 @@
 > 
 > $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
 
----
-
 ## 8.2-2
 
 改变下列累次积分的积分次序:
@@ -31,8 +29,6 @@
 (3) 分段: $y\in\left[0,5\right]$ 时 $0\le x\le y$; $y\in\left[5,10\right]$ 时 $0\le x\le10-y$. 故原式 $=\int_0^5\mathrm dy\int_0^y f\,\mathrm dx+\int_5^{10}\mathrm dy\int_0^{10-y}f\,\mathrm dx$.
 
 (4) 由 $e^x\le y\le e$ 得 $0\le x\le\ln y$. 故原式 $=\int_1^e\mathrm dy\int_0^{\ln y}f\,\mathrm dx$. $\blacksquare$
-
----
 
 ## 8.2-3
 
@@ -56,8 +52,6 @@
 
 (4) $\iint_D\sqrt{1-x^4}=\int_0^1 x^3\sqrt{1-x^4}\,\mathrm dx=\frac16$. $\blacksquare$
 
----
-
 ## 8.2-4
 
 计算下列累次积分:
@@ -71,8 +65,6 @@
 (1) 交换次序: $\int_0^\pi\mathrm dy\int_0^y\frac{\sin y}{y}\,\mathrm dx=\int_0^\pi\sin y\,\mathrm dy=2$.
 
 (2) 交换次序: $\int_0^2\mathrm dy\int_0^y 2y^2\sin\left(xy\right)\,\mathrm dx=\int_0^2 2y\left[1-\cos\left(y^2\right)\right]\mathrm dy=4-\sin4$. $\blacksquare$
-
----
 
 ## 8.2-5
 
@@ -92,8 +84,6 @@
 
 (3) 第一象限四分之一圆盘. $=\frac\pi4\left[\left(1+R^2\right)\ln\left(1+R^2\right)-R^2\right]$. $\blacksquare$
 
----
-
 ## 8.2-6
 
 求 $\iint_D e^{-x^2-y^2}\,\mathrm dx\mathrm dy$, 其中 $D$ 为圆环 $1\le x^2+y^2\le4$ 在第一象限部分.
@@ -107,8 +97,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.2-7
 
@@ -131,8 +119,6 @@ $\blacksquare$
 (3) 双纽线, $=\frac{\pi a^4}{8}$.
 
 (4) $=4-\pi^2$. $\blacksquare$
-
----
 
 ## 8.2-8
 

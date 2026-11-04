@@ -8,8 +8,6 @@
 > 
 > If $\left\{f_n\right\}$ converges uniformly to $f$ and each $f_n$ is continuous, then $f$ is continuous.
 
----
-
 ## 11.1-1-1
 
 Discuss $f_n\left(x\right)=\frac1{1+nx}$ on $\left(0,1\right)$.
@@ -17,8 +15,6 @@ Discuss $f_n\left(x\right)=\frac1{1+nx}$ on $\left(0,1\right)$.
 ### Solution 11.1-1-1
 
 Not uniformly convergent since $\sup\left|f_n\right|=1\not\to0$. $\blacksquare$
-
----
 
 ## 11.1-1-3
 
@@ -28,8 +24,6 @@ Discuss $f_n\left(x\right)=\frac{\sin\left(nx+n\right)}n$ on $\mathbb R$.
 
 Uniformly convergent by the M-test. $\blacksquare$
 
----
-
 ## 11.1-1-5
 
 Discuss $f_n\left(x\right)=nxe^{-nx^2}$ on $\left[0,1\right]$.
@@ -37,8 +31,6 @@ Discuss $f_n\left(x\right)=nxe^{-nx^2}$ on $\left[0,1\right]$.
 ### Solution 11.1-1-5
 
 Not uniformly convergent since $\sup\left|f_n\right|\to\infty$. $\blacksquare$
-
----
 
 ## 11.1-2
 
@@ -48,8 +40,6 @@ Prove the interchange of limits.
 
 Using the Cauchy criterion and triangle inequality. $\blacksquare$
 
----
-
 ## 11.1-3
 
 Prove $\left(1+\frac xn\right)^n$ does not converge uniformly to $e^x$ on $\left[0,+\infty\right)$.
@@ -58,8 +48,6 @@ Prove $\left(1+\frac xn\right)^n$ does not converge uniformly to $e^x$ on $\left
 
 Since $\left|\left(1+1\right)^n-e^n\right|\to+\infty$. $\blacksquare$
 
----
-
 ## 11.1-4
 
 Prove uniform convergence on $\left[0,A\right]$.
@@ -67,8 +55,6 @@ Prove uniform convergence on $\left[0,A\right]$.
 ### Solution 11.1-4
 
 By the M-test with $M_n=\frac{A^2e^A}{2n}$. $\blacksquare$
-
----
 
 ## 11.1-5
 

@@ -20,8 +20,6 @@
 > 
 > If $a$ is any positive number, then $\lim_{n\to\infty}a^{1/n}=1$.
 
----
-
 ## 1.3-1-2
 
 Prove by $\varepsilon$-$N$ language: $\lim_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
@@ -41,8 +39,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.3-1-4
 
@@ -64,8 +60,6 @@ $$
 
 By Definition of Sequence Limit, $\lim_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
----
-
 ## 1.3-1-6
 
 Prove by $\varepsilon$-$N$ language: $\lim_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
@@ -86,8 +80,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-1-8
 
 Prove by $\varepsilon$-$N$ language:
@@ -105,8 +97,6 @@ $$
 $$
 
 Given $\varepsilon> 0$, take $N=\left[1/\varepsilon^2\right]+1$. Then for $n> N$, $\frac1{\sqrt n}< \varepsilon$. By Definition of Sequence Limit, the expression tends to $0$. $\blacksquare$
-
----
 
 ## 1.3-2-2
 
@@ -131,8 +121,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.3-2-4
 
@@ -160,8 +148,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-2-6
 
 Find the limit: $\lim_{n\to\infty}\frac{n^3+3n^2-100}{4n^3-n+2}$.
@@ -182,8 +168,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-2-8
 
 Find the limit: $\lim_{n\to\infty}\left(1+\frac1n\right)^{-2n}$.
@@ -202,8 +186,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-2-10
 
 Find the limit: $\lim_{n\to\infty}\sin\left(\pi\sqrt{n^2+1}\right)$.
@@ -221,8 +203,6 @@ $$
 $$
 
 By **Proposition 1.6 (Properties of Absolute Value)** and the squeeze principle, $\lim_{n\to\infty}\sin\left(\pi\sqrt{n^2+1}\right)=0$. $\blacksquare$
-
----
 
 ## 1.3-3
 
@@ -246,8 +226,6 @@ $$
 
 (2) Given $\varepsilon> 0$, by Definition of Sequence Limit, there exists $N$ such that $\left|a_n-l\right|< \varepsilon$ whenever $n> N$. Take $N'=\left[N/2\right]+1$. Then for $n> N'$, $2n> N$ and $2n-1> N$, so $\left|a_{2n}-l\right|< \varepsilon$ and $\left|a_{2n-1}-l\right|< \varepsilon$. Both subsequences converge to $l$. $\blacksquare$
 
----
-
 ## 1.3-4
 
 Let $\lim_{n\to\infty}a_n=l$. Prove: $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$.
@@ -261,8 +239,6 @@ $$
 $$
 
 By Definition of Sequence Limit, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
-
----
 
 ## 1.3-5
 

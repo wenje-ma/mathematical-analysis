@@ -8,8 +8,6 @@
 > 
 > $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
 
----
-
 ## 8.2-2
 
 Change the order of integration.
@@ -24,8 +22,6 @@ Change the order of integration.
 
 (4) $\int_1^e\mathrm dy\int_0^{\ln y}f\,\mathrm dx$. $\blacksquare$
 
----
-
 ## 8.2-3
 
 Compute.
@@ -33,8 +29,6 @@ Compute.
 ### Solution 8.2-3
 
 (1) $\frac\pi4$. (2) $\frac{33}{140}$. (3) $\frac12$. (4) $\frac16$. $\blacksquare$
-
----
 
 ## 8.2-4
 
@@ -44,8 +38,6 @@ Compute.
 
 (1) $2$. (2) $4-\sin4$. $\blacksquare$
 
----
-
 ## 8.2-5
 
 Use polar coordinates.
@@ -53,8 +45,6 @@ Use polar coordinates.
 ### Solution 8.2-5
 
 (1) $\pi\left(1-\ln2\right)$. (2) $2$. (3) $\frac\pi4\left[\left(1+R^2\right)\ln\left(1+R^2\right)-R^2\right]$. $\blacksquare$
-
----
 
 ## 8.2-6
 
@@ -64,8 +54,6 @@ Compute $\iint_D e^{-x^2-y^2}$ on the quarter annulus.
 
 $\frac\pi4\left(e^{-1}-e^{-4}\right)$. $\blacksquare$
 
----
-
 ## 8.2-7
 
 Compute.
@@ -73,8 +61,6 @@ Compute.
 ### Solution 8.2-7
 
 (1) $-6\pi^2$. (2) $\frac\pi2$. (3) $\frac{\pi a^4}{8}$. (4) $4-\pi^2$. $\blacksquare$
-
----
 
 ## 8.2-8
 

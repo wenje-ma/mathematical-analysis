@@ -8,8 +8,6 @@
 > 
 > $f$ is Riemann integrable iff $\lim_{\lambda\to0}\left[D\left(T\right)-d\left(T\right)\right]=0$.
 
----
-
 ## 6.2-1
 
 Prove: if $f$ is integrable on $\left[a,b\right]$, then it is integrable on any subinterval $\left[c,d\right]$.
@@ -17,8 +15,6 @@ Prove: if $f$ is integrable on $\left[a,b\right]$, then it is integrable on any 
 ### Solution 6.2-1
 
 By **Lemma 2.1 (Effect of Refining a Partition)**, the oscillation sum on $\left[c,d\right]$ is bounded by that on $\left[a,b\right]$. By **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**, it tends to $0$. $\blacksquare$
-
----
 
 ## 6.2-2
 
@@ -28,8 +24,6 @@ Prove: if $f$ and $g$ are integrable, then $f\cdot g$ is integrable.
 
 Using $\omega_{fg}\le M\omega_g+N\omega_f$ and **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$
 
----
-
 ## 6.2-4
 
 Let $f$ be continuous, $f\ge0$. Prove $\int_a^b f=0$ iff $f\equiv0$.
@@ -37,8 +31,6 @@ Let $f$ be continuous, $f\ge0$. Prove $\int_a^b f=0$ iff $f\equiv0$.
 ### Solution 6.2-4
 
 If $f\left(x_0\right)> 0$, continuity gives a neighborhood where $f> \frac{f\left(x_0\right)}2$. By comparison property, the integral is positive. $\blacksquare$
-
----
 
 ## 6.2-6
 

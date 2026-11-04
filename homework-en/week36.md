@@ -8,8 +8,6 @@
 > 
 > $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy+R\,\mathrm dz=\iint_{S^+}\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)\mathrm dy\mathrm dz+\cdots$.
 
----
-
 ## 9.4-1
 
 Compute the surface integral over the hemisphere boundary.
@@ -17,8 +15,6 @@ Compute the surface integral over the hemisphere boundary.
 ### Solution 9.4-1
 
 By **Theorem 4.1 (Gauss Divergence Theorem)**, $I=\frac{2\pi a^5}{5}$. $\blacksquare$
-
----
 
 ## 9.4-3
 
@@ -28,8 +24,6 @@ Compute over the sphere.
 
 $I=\frac{12\pi a^5}{5}$. $\blacksquare$
 
----
-
 ## 9.4-5
 
 Compute the flux through the cone surface.
@@ -38,8 +32,6 @@ Compute the flux through the cone surface.
 
 $-\frac{\pi h^6}{3}$. $\blacksquare$
 
----
-
 ## 9.4-7
 
 Compute the line integral around the intersection.
@@ -47,8 +39,6 @@ Compute the line integral around the intersection.
 ### Solution 9.4-7
 
 By **Theorem 4.2 (Stokes' Theorem)**, the integral is $0$. $\blacksquare$
-
----
 
 ## 9.4-8
 

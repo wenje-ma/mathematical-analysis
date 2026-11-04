@@ -8,8 +8,6 @@
 > 
 > $\int_L f\left(x,y,z\right)\,\mathrm ds=\int_\alpha^\beta f\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm dt$.
 
----
-
 ## 9.1-1
 
 求旋轮线第一拱 $x=a\left(t-\sin t\right)$, $y=a\left(1-\cos t\right)$ ($0\le t\le2\pi$) 的弧长.
@@ -23,8 +21,6 @@ $$
 $$
 
 故 $s=\int_0^{2\pi}2a\sin\frac t2\,\mathrm dt=8a$. $\blacksquare$
-
----
 
 ## 9.1-3
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.1-4
 
 求 $\oint_L xy\,\mathrm ds$, 其中 $L$ 为正方形 $\left|x\right|+\left|y\right|=a$.
@@ -56,8 +50,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.1-7
 
 求 $\int_L xy\,\mathrm ds$, 其中 $L$ 为椭圆 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$ 在第一象限部分.
@@ -71,8 +63,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 9.1-8
 

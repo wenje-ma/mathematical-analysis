@@ -8,8 +8,6 @@
 > 
 > If $f$ is twice differentiable on $\left(a,b\right)$, then $f$ is convex iff $f''\left(x\right)\ge0$, and concave iff $f''\left(x\right)\le0$.
 
----
-
 ## 3.5-1-1
 
 Find the convexity intervals and inflection points of $y=xe^x$.
@@ -18,8 +16,6 @@ Find the convexity intervals and inflection points of $y=xe^x$.
 
 $y'=\left(1+x\right)e^x$, $y''=\left(2+x\right)e^x$. Setting $y''=0$ gives $x=-2$. By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $y$ is concave on $\left(-\infty,-2\right]$ and convex on $\left[-2,+\infty\right)$. The inflection point is $\left(-2,-2e^{-2}\right)$. $\blacksquare$
 
----
-
 ## 3.5-1-4
 
 Find the convexity intervals and inflection points of $y=x\ln x$.
@@ -27,8 +23,6 @@ Find the convexity intervals and inflection points of $y=x\ln x$.
 ### Solution 3.5-1-4
 
 Domain $\left(0,+\infty\right)$. $y''=\frac1x> 0$. By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $y=x\ln x$ is convex on $\left(0,+\infty\right)$ with no inflection points. $\blacksquare$
-
----
 
 ## 3.5-2
 
@@ -54,8 +48,6 @@ $$
 
 which gives the weighted AM-GM inequality. $\blacksquare$
 
----
-
 ## 3.5-3
 
 Let $f$ and $g$ be convex on $\left(a,b\right)$. Prove $F\left(x\right)=\max\left\{f\left(x\right),g\left(x\right)\right\}$ is convex.
@@ -73,8 +65,6 @@ g\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\l
 $$
 
 Taking the max gives $F\left(tx_1+\left(1-t\right)x_2\right)\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. $\blacksquare$
-
----
 
 ## 3.5-5
 
@@ -96,8 +86,6 @@ $$
 
 Thus $f\left(g\left(x\right)\right)$ is convex. $\blacksquare$
 
----
-
 ## 3.5-6
 
 Let $f$ be differentiable, convex, and bounded on $\mathbb R$. Prove $f$ is constant.
@@ -105,8 +93,6 @@ Let $f$ be differentiable, convex, and bounded on $\mathbb R$. Prove $f$ is cons
 ### Solution 3.5-6
 
 By **Theorem 5.1 (Second Derivative Criterion for Convexity)**, $f''\ge0$, so $f'$ is increasing. If $f'\left(x_0\right)> 0$, then for $x> x_0$, by **Theorem 1.3 (Lagrange Mean Value Theorem)**, $f\left(x\right)\ge f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty$, contradicting boundedness. If $f'\left(x_0\right)< 0$, similarly $f\left(x\right)\to+\infty$ as $x\to-\infty$. Hence $f'\equiv0$ and $f$ is constant. $\blacksquare$
-
----
 
 ## 3.5-7-1
 
@@ -116,8 +102,6 @@ Sketch $y=\frac{\left(x+1\right)^3}{\left(x-1\right)^2}$.
 
 Domain $\left(-\infty,1\right)\cup\left(1,+\infty\right)$. Vertical asymptote $x=1$, oblique asymptote $y=x+5$. $y'=\frac{\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^3}$; $x=5$ is a local minimum with value $\frac{27}2$. $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$; concave for $x< -1$, convex for $x> -1$; inflection point $\left(-1,0\right)$. $\blacksquare$
 
----
-
 ## 3.5-7-2
 
 Sketch $y=xe^{-x}$.
@@ -125,8 +109,6 @@ Sketch $y=xe^{-x}$.
 ### Solution 3.5-7-2
 
 Domain $\mathbb R$. Horizontal asymptote $y=0$ as $x\to+\infty$. $y'=\left(1-x\right)e^{-x}$; $x=1$ is a local maximum with value $\frac1e$. $y''=\left(x-2\right)e^{-x}$; concave for $x< 2$, convex for $x> 2$; inflection point $\left(2,2e^{-2}\right)$. $\blacksquare$
-
----
 
 ## 3.5-7-3
 

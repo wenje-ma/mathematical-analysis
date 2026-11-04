@@ -8,8 +8,6 @@
 > 
 > If $x=\varphi\left(t\right)$ is differentiable with inverse, and $\int f\left(\varphi\left(t\right)\right)\varphi'\left(t\right)\,\mathrm dt=G\left(t\right)+C$, then $\int f\left(x\right)\,\mathrm dx=G\left(\varphi^{-1}\left(x\right)\right)+C$.
 
----
-
 ## 4.2-1-2
 
 Find $\int\sqrt{2x+3}\,\mathrm dx$.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-1-4
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-1-6
 
 Find $\int\mathrm{sh}\,x\,\mathrm dx$.
@@ -49,8 +43,6 @@ Find $\int\mathrm{sh}\,x\,\mathrm dx$.
 ### Solution 4.2-1-6
 
 Since $\left(\mathrm{ch}\,x\right)'=\mathrm{sh}\,x$, $\int\mathrm{sh}\,x\,\mathrm dx=\mathrm{ch}\,x+C$. $\blacksquare$
-
----
 
 ## 4.2-1-8
 
@@ -66,8 +58,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-1-10
 
 Find $\int\frac{\mathrm dx}{\sin x+\cos x}$.
@@ -81,8 +71,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-2-1
 
@@ -98,8 +86,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-2-3
 
 Find $\int\frac{\mathrm dx}{\sqrt{x^2+a^2}}$ ($a> 0$).
@@ -113,8 +99,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-2-5
 
@@ -130,8 +114,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-2-7
 
 Find $\int\frac{\mathrm dx}{x\sqrt{a^2-x^2}}$ ($a> 0$).
@@ -146,8 +128,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-2-9
 
 Find $\int\sqrt{7+x-x^2}\,\mathrm dx$.
@@ -161,8 +141,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-2-11
 

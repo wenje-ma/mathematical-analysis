@@ -8,8 +8,6 @@
 > 
 > $\iiint_\Omega f\,\mathrm dx\mathrm dy\mathrm dz=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm du\mathrm dv\mathrm dw$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
 
----
-
 ## 8.4-1
 
 计算 $\iiint_\Omega z^2\,\mathrm dV$, 其中 $\Omega$ 为单位球.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.4-2
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 8.4-3
 
 计算 $\iiint_\Omega\left(x+y+z\right)^3\,\mathrm dV$, 其中 $\Omega$ 为球体 $x^2+y^2+z^2\le R^2$.
@@ -55,8 +49,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.4-5
 
@@ -72,8 +64,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 8.4-6
 
 计算 $\iiint_\Omega\left(x^2+y^2\right)\,\mathrm dV$, 其中 $\Omega=\left\{x^2+y^2\le z\le1\right\}$.
@@ -87,8 +77,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.4-8
 
@@ -104,8 +92,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 8.4-9
 
 计算 $\iiint_\Omega\sqrt{x^2+y^2+z^2}\,\mathrm dV$, 其中 $\Omega$ 为球面 $x^2+y^2+z^2=x$ 内部.
@@ -119,8 +105,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.4-10
 

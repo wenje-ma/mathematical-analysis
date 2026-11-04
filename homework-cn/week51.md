@@ -4,8 +4,6 @@
 > 
 > $\int_0^{+\infty}\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
 
----
-
 ## 12.6-1-1
 
 计算 $\int_0^{+\infty}\frac{4\sqrt x}{\left(1+x\right)^2}\mathrm dx$.
@@ -13,8 +11,6 @@
 ### 解答 12.6-1-1
 
 由**命题 (伽马与贝塔的积分形式)**, $a=\frac32$, $b=\frac12$. 由伽马函数的定义, $\Gamma\left(\frac32\right)=\frac{\sqrt\pi}2$, $\Gamma\left(\frac12\right)=\sqrt\pi$. 故原式 $=4\cdot\frac{\pi}2=2\pi$. $\blacksquare$
-
----
 
 ## 12.6-1-2
 
@@ -24,8 +20,6 @@
 
 代换 $t=\alpha x$, 由伽马函数的定义, 得 $\sqrt{\frac\pi\alpha}$. $\blacksquare$
 
----
-
 ## 12.6-1-3
 
 计算 $\int_0^1 x^8\sqrt{1-x^3}\mathrm dx$.
@@ -33,8 +27,6 @@
 ### 解答 12.6-1-3
 
 代换 $t=x^3$, 得 $\frac13\Beta\left(3,\frac32\right)=\frac{16}{315}$. $\blacksquare$
-
----
 
 ## 12.6-1-4
 
@@ -44,8 +36,6 @@
 
 由**命题 (伽马与贝塔的积分形式)**, $=\frac12\Beta\left(\frac72,\frac52\right)=\frac{3\pi}{512}$. $\blacksquare$
 
----
-
 ## 12.6-1-9
 
 计算 $\int_0^1\frac{\mathrm dx}{\sqrt{1-x^4}}$.
@@ -54,8 +44,6 @@
 
 代换 $t=x^4$, 得 $\frac14\Beta\left(\frac14,\frac12\right)$. $\blacksquare$
 
----
-
 ## 12.6-1-10
 
 计算 $\int_0^{+\infty}\frac{\mathrm dx}{1+x^3}$.
@@ -63,8 +51,6 @@
 ### 解答 12.6-1-10
 
 代换 $u=x^3$, 得 $\frac13\Beta\left(\frac13,\frac23\right)=\frac13\Gamma\left(\frac13\right)\Gamma\left(\frac23\right)$. $\blacksquare$
-
----
 
 ## 12.6-2
 

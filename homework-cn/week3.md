@@ -20,8 +20,6 @@
 > 
 > 设 $a$ 是任意的正数, 则 $\lim_{n\to\infty}a^{1/n}=1$.
 
----
-
 ## 1.3-1-2
 
 用 $\varepsilon$-$N$ 语言证明: $\lim_{n\to\infty}\frac{2n-5}{3n+100}=\frac23$.
@@ -41,8 +39,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.3-1-4
 
@@ -64,8 +60,6 @@ $$
 
 由序列极限的定义, $\lim_{n\to\infty}\frac{n!}{n^n}=0$. $\blacksquare$
 
----
-
 ## 1.3-1-6
 
 用 $\varepsilon$-$N$ 语言证明: $\lim_{n\to\infty}\frac{n^2+1}{2n^2-7n}=\frac12$.
@@ -86,8 +80,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-1-8
 
 用 $\varepsilon$-$N$ 语言证明:
@@ -105,8 +97,6 @@ $$
 $$
 
 任给 $\varepsilon> 0$, 取 $N=\left[1/\varepsilon^2\right]+1$, 则当 $n> N$ 时 $\frac1{\sqrt n}< \varepsilon$. 由序列极限的定义, 原式趋于 $0$. $\blacksquare$
-
----
 
 ## 1.3-2-2
 
@@ -131,8 +121,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.3-2-4
 
@@ -160,8 +148,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-2-6
 
 求极限: $\lim_{n\to\infty}\frac{n^3+3n^2-100}{4n^3-n+2}$.
@@ -182,8 +168,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-2-8
 
 求极限: $\lim_{n\to\infty}\left(1+\frac1n\right)^{-2n}$.
@@ -202,8 +186,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.3-2-10
 
 求极限: $\lim_{n\to\infty}\sin\left(\pi\sqrt{n^2+1}\right)$.
@@ -221,8 +203,6 @@ $$
 $$
 
 由**命题 1.6 (绝对值的性质)** 及夹逼思想, $\lim_{n\to\infty}\sin\left(\pi\sqrt{n^2+1}\right)=0$. $\blacksquare$
-
----
 
 ## 1.3-3
 
@@ -246,8 +226,6 @@ $$
 
 (2) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n> N'$ 时 $2n> N$ 且 $2n-1> N$, 从而 $\left|a_{2n}-l\right|< \varepsilon$ 且 $\left|a_{2n-1}-l\right|< \varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
 
----
-
 ## 1.3-4
 
 设 $\lim_{n\to\infty}a_n=l$, 证明: $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$.
@@ -261,8 +239,6 @@ $$
 $$
 
 由序列极限的定义, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
-
----
 
 ## 1.3-5
 

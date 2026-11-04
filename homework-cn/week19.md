@@ -8,8 +8,6 @@
 > 
 > 设 $x=\varphi\left(t\right)$ 可导且有反函数, 又设 $\int f\left(\varphi\left(t\right)\right)\varphi'\left(t\right)\,\mathrm dt=G\left(t\right)+C$, 则 $\int f\left(x\right)\,\mathrm dx=G\left(\varphi^{-1}\left(x\right)\right)+C$.
 
----
-
 ## 4.2-1-2
 
 求不定积分 $\int\sqrt{2x+3}\,\mathrm dx$.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-1-4
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-1-6
 
 求不定积分 $\int\mathrm{sh}\,x\,\mathrm dx$.
@@ -49,8 +43,6 @@ $\blacksquare$
 ### 解答 4.2-1-6
 
 由 $\left(\mathrm{ch}\,x\right)'=\mathrm{sh}\,x$, $\int\mathrm{sh}\,x\,\mathrm dx=\mathrm{ch}\,x+C$. $\blacksquare$
-
----
 
 ## 4.2-1-8
 
@@ -66,8 +58,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-1-10
 
 求不定积分 $\int\frac{\mathrm dx}{\sin x+\cos x}$.
@@ -81,8 +71,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-2-1
 
@@ -104,8 +92,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-2-3
 
 求不定积分 $\int\frac{\mathrm dx}{\sqrt{x^2+a^2}}$ ($a> 0$).
@@ -125,8 +111,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-2-5
 
@@ -148,8 +132,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-2-7
 
 求不定积分 $\int\frac{\mathrm dx}{x\sqrt{a^2-x^2}}$ ($a> 0$).
@@ -170,8 +152,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.2-2-9
 
 求不定积分 $\int\sqrt{7+x-x^2}\,\mathrm dx$.
@@ -185,8 +165,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.2-2-11
 

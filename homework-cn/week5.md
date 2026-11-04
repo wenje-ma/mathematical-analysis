@@ -8,8 +8,6 @@
 > 
 > 若 $\lim f\left(x\right)=l_1$, $\lim g\left(x\right)=l_2$, 则 $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
----
-
 ## 1.5-1-2
 
 利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to a}\cos x=\cos a$.
@@ -32,8 +30,6 @@ $$
 
 由函数极限的定义, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
 
----
-
 ## 1.5-1-3
 
 利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$.
@@ -52,8 +48,6 @@ $$
 
 由函数极限的定义 的 $x\to+\infty$ 版本, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
----
-
 ## 1.5-1-5
 
 利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to2-0}\sqrt{4-x^2}=0$.
@@ -67,8 +61,6 @@ $$
 $$
 
 由单侧极限的定义, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
-
----
 
 ## 1.5-1-7
 
@@ -86,8 +78,6 @@ $$
 
 则当 $0< \left|x\right|< \delta$ 时 $\left|a^x-1\right|< \varepsilon$. 由函数极限的定义, $\lim_{x\to0}a^x=1$. $\blacksquare$
 
----
-
 ## 1.5-4
 
 设 $\lim_{x\to a}f\left(x\right)=l$, 且 $l\ne0$. 证明函数 $y=\frac1{f\left(x\right)}$ 当 $x\to a$ 时为有界变量.
@@ -101,8 +91,6 @@ $$
 $$
 
 于是 $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, 即 $\frac1{f\left(x\right)}$ 当 $x\to a$ 时有界. 此即极限的保号性 的推论. $\blacksquare$
-
----
 
 ## 1.5-5
 
@@ -119,8 +107,6 @@ $$
 $$
 
 且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|< \varepsilon$. 由函数极限的定义, $f\left(y^2\right)\to l$. $\blacksquare$
-
----
 
 ## 1.5-6
 
@@ -139,8 +125,6 @@ $$
 (2) 当 $x\to0+0$ 时 $\operatorname{sgn}x=1$, 故 $y=\cos x\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\operatorname{sgn}x=-1$, 故 $y=-\cos x\to-1$, 左极限为 $-1$.
 
 (3) 当 $x\to0+0$ 时 $\frac{\left|x\right|}{x}=1$, 且 $\frac1{1+x^n}\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\frac{\left|x\right|}{x}=-1$, 且 $\frac1{1+x^n}\to1$ (因 $x^n\to0$), 左极限为 $-1$. $\blacksquare$
-
----
 
 ## 1.5-7
 

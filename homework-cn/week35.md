@@ -4,8 +4,6 @@
 > 
 > 设 $S$ 为空间闭区域 $\Omega$ 的边界曲面外侧, $P,Q,R$ 在 $\Omega$ 上有一阶连续偏导数. 则 $\oiint_S P\,\mathrm dy\mathrm dz+Q\,\mathrm dz\mathrm dx+R\,\mathrm dx\mathrm dy=\iiint_\Omega\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm dV$.
 
----
-
 ## 9.3-1
 
 求 $\iint_S\left(y+x\right)\,\mathrm dS$, 其中 $S$ 为立方体表面.
@@ -13,8 +11,6 @@
 ### 解答 9.3-1
 
 由对称性, $\iint_S x=\iint_S y$. 分别计算六个面得 $\iint_S x=3$. 故原式 $=6$. $\blacksquare$
-
----
 
 ## 9.3-3
 
@@ -30,8 +26,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.3-5
 
 求抛物面薄壳 $z=\frac12\left(x^2+y^2\right)$ ($0\le z\le1$) 的质量, 面密度 $\rho=x+y+z$.
@@ -46,8 +40,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.3-6
 
 求第一卦限球面 $x^2+y^2+z^2=a^2$ 的质心坐标.
@@ -55,8 +47,6 @@ $\blacksquare$
 ### 解答 9.3-6
 
 由对称性, $\overline x=\overline y=\overline z$. 曲面面积 $=\frac{\pi a^2}{2}$. 计算得 $\overline z=\frac a2$. 质心为 $\left(\frac a2,\frac a2,\frac a2\right)$. $\blacksquare$
-
----
 
 ## 9.3-7
 
@@ -72,8 +62,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.3-8
 
 求 $I=\iint_S\left(y-z\right)x\,\mathrm dy\mathrm dz+\left(x-y\right)\,\mathrm dx\mathrm dy$, 其中 $S$ 为圆柱面外侧.
@@ -88,8 +76,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.3-9
 
 求 $I=\iint_S\left(y-z\right)\,\mathrm dy\mathrm dz+\left(z-x\right)\,\mathrm dz\mathrm dx+\left(x-y\right)\,\mathrm dx\mathrm dy$.
@@ -97,8 +83,6 @@ $\blacksquare$
 ### 解答 9.3-9
 
 由第二型曲面积分的计算, 代入上侧公式. 由对称性, 奇函数项积分为 $0$. 故 $I=\pi Rr^2$. $\blacksquare$
-
----
 
 ## 9.3-10
 

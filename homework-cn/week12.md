@@ -4,8 +4,6 @@
 > 
 > 设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$, 则参变量函数的导数为 $\frac{\mathrm dy}{\mathrm dx}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
 
----
-
 ## 2.5-1-2
 
 求下列参变量函数的导数 $\frac{\mathrm dy}{\mathrm dx}$: $\begin{cases}x=t\ln t,\\y=e^t.\end{cases}$
@@ -20,8 +18,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.5-1-4
 
 求下列参变量函数的导数 $\frac{\mathrm dy}{\mathrm dx}$: $\begin{cases}x=\cos^4t,\\y=\sin^4t.\end{cases}$
@@ -35,8 +31,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 2.5-3
 
@@ -55,8 +49,6 @@ y-\frac{\sqrt2-1}2=\left(1-\frac{\sqrt2}2\right)\left(x-\frac12\right).
 $$
 
 $\blacksquare$
-
----
 
 ## 2.5-4
 

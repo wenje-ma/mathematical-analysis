@@ -8,8 +8,6 @@
 > 
 > Any rational function $\frac{P\left(x\right)}{Q\left(x\right)}$ can be decomposed into a polynomial plus partial fractions of the form $\frac{A}{\left(x-a\right)^k}$ or $\frac{Bx+C}{\left(x^2+px+q\right)^m}$.
 
----
-
 ## 4.4-2
 
 Find $\int\frac{x^3}{x^2+x-6}\,\mathrm dx$.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.4-4
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.4-6
 
 Find $\int\frac{2x^2-5}{x^4-5x^2+6}\,\mathrm dx$.
@@ -55,8 +49,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.4-8
 
@@ -72,8 +64,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.4-10
 
 Find $\int\frac{x^3}{\left(x-1\right)^2}\,\mathrm dx$.
@@ -88,8 +78,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.4-12
 
 Find $\int\frac{e^t}{e^{2t}+5e^t+6}\,\mathrm dt$.
@@ -103,8 +91,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.4-14
 

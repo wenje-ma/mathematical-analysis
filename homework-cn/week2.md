@@ -4,8 +4,6 @@
 > 
 > 函数 $f:X\to Y$ 为有界函数的充分与必要条件是存在一个 $M> 0$, 使得 $\left|f\left(x\right)\right|\le M$ 对一切 $x\in X$ 成立.
 
----
-
 ## 1.2-1
 
 求下列函数的定义域:
@@ -37,8 +35,6 @@ x\in\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right],\quad k\in\mathbb Z.
 $$
 
 故定义域为 $\displaystyle\bigcup_{k\in\mathbb Z}\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right]$. $\blacksquare$
-
----
 
 ## 1.2-2
 
@@ -74,8 +70,6 @@ $$
 
 (4) $f'\left(x\right)=3x^2+1> 0$, 故 $f$ 在 $\mathbb R$ 上严格单调递增. 又当 $x\to-\infty$ 时 $f\left(x\right)\to-\infty$, 当 $x\to+\infty$ 时 $f\left(x\right)\to+\infty$. 故由介值性, $f\left(X\right)=\mathbb R$. $\blacksquare$
 
----
-
 ## 1.2-6
 
 设 $f:\left[a,b\right]\to\left[a,b\right]$ 是满足下列条件的一个函数:
@@ -104,8 +98,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.2-10
 
 考虑函数 $y=\left[\frac43\sin^2 x\right]$, 其中 $\left[\ \right]$ 表示括号内的量的整数部分. 证明这函数以 $\pi$ 为周期.
@@ -131,8 +123,6 @@ $$
 $$
 
 即 $y\left(x+\pi\right)=y\left(x\right)$. 由周期函数的定义, $\pi$ 是 $y$ 的一个周期. $\blacksquare$
-
----
 
 ## 1.2-11
 
@@ -184,8 +174,6 @@ f\left(g\left(1\right)\right)=f\left(-1\right)=e^{-1}=\frac1e.
 $$
 
 $\blacksquare$
-
----
 
 ## 1.2-14
 

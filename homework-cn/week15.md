@@ -12,8 +12,6 @@
 > 
 > 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导, $x_0\in\left(a,b\right)$ 是其稳定点, 并假定 $f$ 在 $x_0$ 有二阶导数. 若 $f''\left(x_0\right)> 0$, 则 $x_0$ 为极小值点; 若 $f''\left(x_0\right)< 0$, 则 $x_0$ 为极大值点.
 
----
-
 ## 3.3-1-1
 
 求函数 $y=x\left(3x^2-5\right)^2$ 的稳定点, 并判断这些稳定点是否为极值点.
@@ -43,8 +41,6 @@ $$
 
 由**定理 3.2 (极值点第二充分条件)**, 上述判断成立. $\blacksquare$
 
----
-
 ## 3.3-1-3
 
 求函数 $y=x\ln x$ ($x> 0$) 的稳定点, 并判断这些稳定点是否为极值点.
@@ -54,8 +50,6 @@ $$
 求导得 $y'=\ln x+1$. 令 $y'=0$, 得 $x=\frac1e$.
 
 再求二阶导数: $y''=\frac1x> 0$ ($x> 0$). 故 $y''\left(\frac1e\right)=e> 0$. 由**定理 3.2 (极值点第二充分条件)**, $x=\frac1e$ 为极小值点, 极小值为 $y\left(\frac1e\right)=-\frac1e$. $\blacksquare$
-
----
 
 ## 3.3-2
 
@@ -68,8 +62,6 @@ $$
 (2) 设 $x_0$ 为极大值点. 反证: 假定 $f\left(x_0\right)$ 不是 $\left[a,b\right]$ 上的最大值, 则存在 $x_1\in\left[a,b\right]$ 使得 $f\left(x_1\right)> f\left(x_0\right)$. 考虑闭区间 $\left[x_0,x_1\right]$ 上的连续函数 $f$. 因 $f\left(x_1\right)> f\left(x_0\right)$ 且 $x_0$ 为严格极大值点, 故 $f$ 在 $\left(x_0,x_1\right)$ 内某点达到最小值, 该点即为极小值点. 这与 $x_0$ 是唯一极值点矛盾.
 
 故 $f\left(x_0\right)$ 必为最大值. 极小值点的情形类似. 此即**命题 3.1 (唯一极值点即全局极值点)**. $\blacksquare$
-
----
 
 ## 3.3-3
 
@@ -99,8 +91,6 @@ $$
 
 故 $T'\left(x\right)=0$ 的点为极小值点. 由**命题 3.1 (唯一极值点即全局极值点)**, 该点即为时间最少的路径. $\blacksquare$
 
----
-
 ## 3.3-4
 
 设一电灯可以沿铅垂线 $OB$ 移动, $OA$ 是一条水平线, 长度为 $a$. 问灯距离 $O$ 点多高时, $A$ 点有最大的照度?
@@ -123,8 +113,6 @@ $$
 
 令 $J'\left(h\right)=0$, 得 $h=\frac{a}{\sqrt2}$. 当 $h< \frac{a}{\sqrt2}$ 时 $J'\left(h\right)> 0$, 当 $h> \frac{a}{\sqrt2}$ 时 $J'\left(h\right)< 0$. 由**定理 3.1 (极值点第一充分条件)**, $h=\frac{a}{\sqrt2}$ 为极大值点. 由**命题 3.1 (唯一极值点即全局极值点)**, 此时 $A$ 点照度最大. $\blacksquare$
 
----
-
 ## 3.3-5
 
 证明不等式: $x^\alpha-\alpha x+\alpha-1\le0$ 对一切 $x> 0$, 其中 $0< \alpha< 1$.
@@ -138,8 +126,6 @@ f'\left(x\right)=\alpha x^{\alpha-1}-\alpha=\alpha\left(x^{\alpha-1}-1\right).
 $$
 
 令 $f'\left(x\right)=0$, 得 $x=1$. 当 $0< x< 1$ 时 $f'\left(x\right)> 0$, 当 $x> 1$ 时 $f'\left(x\right)< 0$. 由**定理 3.1 (极值点第一充分条件)**, $x=1$ 为极大值点. 又 $f\left(1\right)=0$. 由**命题 3.1 (唯一极值点即全局极值点)**, $f\left(1\right)=0$ 为最大值. 故 $f\left(x\right)\le0$. $\blacksquare$
-
----
 
 ## 3.3-6
 
@@ -161,8 +147,6 @@ $$
 
 此即杨氏不等式. $\blacksquare$
 
----
-
 ## 3.3-7
 
 设 $\triangle ABC$ 的边分别为 $a,b$ 与 $c$. 假定 $b=c$, 且 $a+b+c=2l$, 其中 $l$ 为一定数. 问 $\triangle ABC$ 何时面积最大?
@@ -182,8 +166,6 @@ $$
 $$
 
 令 $\left(S^2\right)'=0$, 得 $a=\frac{2l}{3}$. 当 $0< a< \frac{2l}{3}$ 时 $\left(S^2\right)'> 0$, 当 $\frac{2l}{3}< a< 2l$ 时 $\left(S^2\right)'< 0$. 由**定理 3.1 (极值点第一充分条件)**, $a=\frac{2l}{3}$ 为极大值点. 此时 $b=c=\frac{2l}{3}$, 即三角形为等边三角形时面积最大. $\blacksquare$
-
----
 
 ## 3.3-8
 

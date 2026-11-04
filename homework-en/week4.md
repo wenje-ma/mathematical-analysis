@@ -16,8 +16,6 @@
 > 
 > Let $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ be three sequences, and suppose there exists $N_0$ such that $c_n\le a_n\le b_n$ for all $n\ge N_0$. If both $c_n$ and $b_n$ converge to the same limit $l$, then $a_n$ also converges to $l$.
 
----
-
 ## 1.4-1
 
 Find the following limits:
@@ -70,8 +68,6 @@ $$
 
 By The Important Limit $e$, the base tends to $e$, so the limit is $e^2$. $\blacksquare$
 
----
-
 ## 1.4-3-2
 
 Using the fact that a monotone bounded sequence has a limit, prove that the sequence
@@ -99,8 +95,6 @@ a_n=\sum_{k=n+1}^{2n}\frac1k\le\frac{n}{n+1}< 1.
 $$
 
 By **Theorem 3.2 (Completeness of the Real Field)**, the increasing sequence bounded above has a limit, so $\lim_{n\to\infty}a_n$ exists. $\blacksquare$
-
----
 
 ## 1.4-4
 
@@ -148,8 +142,6 @@ $$
 
 so $\left(1+\frac1n\right)^{n+1}$ is strictly decreasing. $\blacksquare$
 
----
-
 ## 1.4-5
 
 Prove
@@ -186,8 +178,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.4-6
 
 Let $\left\{a_n\right\}$ be increasing and $\left\{b_n\right\}$ be decreasing, with $\lim_{n\to\infty}\left(a_n-b_n\right)=0$. Prove that both $\lim a_n$ and $\lim b_n$ exist and are equal.
@@ -205,8 +195,6 @@ A-B=\lim_{n\to\infty}\left(a_n-b_n\right)=0,
 $$
 
 so $A=B$. $\blacksquare$
-
----
 
 ## 1.4-9
 
@@ -256,8 +244,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.4-10
 
 Using the result above, prove $2< e< 3$.
@@ -274,8 +260,6 @@ $$
 
 Equality cannot hold (since for $k=3$, $1/6< 1/4$), so $e< 3$. Therefore $2< e< 3$. $\blacksquare$
 
----
-
 ## 1.4-14
 
 Let $\left\{a_n\right\}$ be an infinitesimal and $\left\{b_n\right\}$ be bounded, i.e. there exists $M> 0$ such that $\left|b_n\right|\le M$ for all $n$. Prove $\lim_{n\to\infty}a_nb_n=0$.
@@ -289,8 +273,6 @@ $$
 $$
 
 As $n\to\infty$, $M\left|a_n\right|\to0$ and the left side $0\to0$. By **Theorem 4.2 (Squeeze Theorem)**, $\lim_{n\to\infty}\left|a_nb_n\right|=0$, i.e. $\lim_{n\to\infty}a_nb_n=0$. $\blacksquare$
-
----
 
 ## 1.4-16
 
@@ -317,8 +299,6 @@ $$
 $$
 
 By **Example 3.3 (The $n$-th Root of a Positive Number Tends to 1)**, both ends tend to $1$. By **Theorem 4.2 (Squeeze Theorem)**, $\sqrt\left[n\right]{a_n}\to1$. $\blacksquare$
-
----
 
 ## 1.4-18
 

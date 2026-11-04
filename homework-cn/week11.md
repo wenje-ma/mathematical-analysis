@@ -1,7 +1,5 @@
 # week11
 
----
-
 ## 2.4-1
 
 求下列函数的 $n$ 阶导数:
@@ -46,8 +44,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.4-4
 
 设有函数
@@ -74,8 +70,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.4-6
 
 设 $y=\frac{ax+b}{cx+d}$, 其中 $ad-bc=1$. 证明:
@@ -99,8 +93,6 @@ y^{\left(n+1\right)}=\left(-1\right)^{n+1}n!c^{n-1}\cdot\left(-\left(n+1\right)\
 $$
 
 归纳完成. $\blacksquare$
-
----
 
 ## 2.4-7
 

@@ -4,8 +4,6 @@
 > 
 > $\iint_D f\,\mathrm dx\mathrm dy=\iint_G f\left(x\left(u,v\right),y\left(u,v\right)\right)\left|J\left(u,v\right)\right|\,\mathrm du\mathrm dv$.
 
----
-
 ## 8.3-1
 
 Compute $\iint_D\left(\sqrt{y/x}+\sqrt{xy}\right)$ using a change of variables.
@@ -20,8 +18,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 8.3-4
 
 Compute $\iint_D\left(x+y\right)$.
@@ -35,8 +31,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.3-6
 

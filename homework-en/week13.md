@@ -20,8 +20,6 @@
 > 
 > If $y=f\left(x\right)$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then $f'\left(x\right)> 0$ ($\ge0$) implies strictly increasing (increasing), and $f'\left(x\right)< 0$ ($\le0$) implies strictly decreasing (decreasing).
 
----
-
 ## 3.1-1
 
 Let $y=f\left(x\right)$ be differentiable on $\left(-\infty,+\infty\right)$ with $\lim_{x\to-\infty}f\left(x\right)=\lim_{x\to+\infty}f\left(x\right)$. Prove that there exists $c\in\left(-\infty,+\infty\right)$ such that $f'\left(c\right)=0$.
@@ -44,8 +42,6 @@ $$
 
 On $\left[-A,A\right]$, since $f\left(-A\right)< f\left(x_0\right)$ and $f\left(A\right)< f\left(x_0\right)$ while $x_0\in\left(-A,A\right)$, the maximum of $f$ on $\left[-A,A\right]$ is attained at some interior point $c\in\left(-A,A\right)$. Thus $c$ is a local maximum. Since $f$ is differentiable on $\left(-A,A\right)$, by **Theorem 1.1 (Fermat's Theorem)**, $f'\left(c\right)=0$. $\blacksquare$
 
----
-
 ## 3.1-2
 
 Let $p\left(x\right)=x^n+qx+r$ ($n\in\mathbb N$, $q,r\in\mathbb R$). Prove: if $n$ is even, $p$ has at most two real roots; if $n$ is odd, at most three.
@@ -61,8 +57,6 @@ $$
 But $p'\left(x\right)=nx^{n-1}+q$; since $n-1$ is odd, $nx^{n-1}+q=0$ has at most one real root. Contradiction. Thus $n$ even implies at most two roots.
 
 Now suppose $n$ is odd and $p$ has at least four roots $x_1< x_2< x_3< x_4$. By **Theorem 1.2 (Rolle's Theorem)**, there exist $\xi_1\in\left(x_1,x_2\right)$, $\xi_2\in\left(x_2,x_3\right)$, $\xi_3\in\left(x_3,x_4\right)$ with $p'\left(\xi_i\right)=0$. Applying Rolle again to $p'$, there exist $\eta_1\in\left(\xi_1,\xi_2\right)$ and $\eta_2\in\left(\xi_2,\xi_3\right)$ with $p''\left(\eta_1\right)=p''\left(\eta_2\right)=0$. But $p''\left(x\right)=n\left(n-1\right)x^{n-2}$; since $n-2$ is odd, this has only one root $x=0$. Contradiction. Thus $n$ odd implies at most three roots. $\blacksquare$
-
----
 
 ## 3.1-4
 
@@ -86,8 +80,6 @@ Find the intervals of monotonicity:
 
 (4) $f'\left(x\right)=4x^3-1=0$ gives $x=\sqrt\left[3\right]{\frac14}$. By **Theorem 1.5 (Monotonicity Criterion)**, $f$ is strictly decreasing on $\left(-\infty,\sqrt\left[3\right]{\frac14}\right]$ and strictly increasing on $\left[\sqrt\left[3\right]{\frac14},+\infty\right)$. $\blacksquare$
 
----
-
 ## 3.1-5
 
 Let $f$ and $g$ be continuous on $\left[a,b\right]$, differentiable on $\left(a,b\right)$, with $f'\left(x\right)> g'\left(x\right)$ and $f\left(a\right)=g\left(a\right)$. Prove $f\left(x\right)> g\left(x\right)$ for all $x\in\left(a,b\right]$.
@@ -95,8 +87,6 @@ Let $f$ and $g$ be continuous on $\left[a,b\right]$, differentiable on $\left(a,
 ### Solution 3.1-5
 
 Let $h\left(x\right)=f\left(x\right)-g\left(x\right)$. Then $h'\left(x\right)=f'\left(x\right)-g'\left(x\right)> 0$ on $\left(a,b\right)$. By **Theorem 1.5 (Monotonicity Criterion)**, $h$ is strictly increasing on $\left[a,b\right]$. Since $h\left(a\right)=0$, for $x\in\left(a,b\right]$, $h\left(x\right)> h\left(a\right)=0$, i.e. $f\left(x\right)> g\left(x\right)$. $\blacksquare$
-
----
 
 ## 3.1-6
 
@@ -120,8 +110,6 @@ Prove:
 
 (4) Let $f\left(x\right)=\tan x-x$. $f\left(0\right)=0$, $f'\left(x\right)=\tan^2x> 0$ for $0< x< \frac\pi2$. By **Theorem 1.5 (Monotonicity Criterion)**, $f$ is strictly increasing, so $f\left(x\right)> 0$, i.e. $\tan x> x$. $\blacksquare$
 
----
-
 ## 3.1-8
 
 Let $f$ be continuous near $x_0$ and differentiable on $U\setminus\left\{x_0\right\}$. If $\lim_{x\to x_0}f'\left(x\right)$ exists, prove $f$ is differentiable at $x_0$ and $f'\left(x_0\right)=\lim_{x\to x_0}f'\left(x\right)$.
@@ -142,8 +130,6 @@ $$
 
 Thus $f'\left(x_0\right)=A$. $\blacksquare$
 
----
-
 ## 3.1-10
 
 Prove Darboux's theorem: if $f$ is differentiable on $\left(a,b\right)$ and $f'\left(x_1\right)> 0$, $f'\left(x_2\right)< 0$ for some $x_1,x_2\in\left(a,b\right)$, then there exists $c$ between them with $f'\left(c\right)=0$.
@@ -154,8 +140,6 @@ Assume $x_1< x_2$. From $f'\left(x_1\right)> 0$, there exists $\delta_1> 0$ such
 
 Thus the maximum of $f$ on $\left[x_1,x_2\right]$ is not attained at either endpoint, but at some interior point $c\in\left(x_1,x_2\right)$. Since $f$ is differentiable, by **Theorem 1.1 (Fermat's Theorem)**, $f'\left(c\right)=0$. $\blacksquare$
 
----
-
 ## 3.1-11
 
 Prove: if $f$ is differentiable on $\left(a,b\right)$ and $f'\left(x\right)\ne0$, then $f$ is either strictly increasing or strictly decreasing.
@@ -164,8 +148,6 @@ Prove: if $f$ is differentiable on $\left(a,b\right)$ and $f'\left(x\right)\ne0$
 
 Suppose not. Then by **Theorem 1.3 (Lagrange Mean Value Theorem)**, $f'$ takes both positive and negative values. By Darboux's theorem (3.1-10), $f'$ must take the value $0$, contradicting $f'\left(x\right)\ne0$. Hence $f$ is strictly increasing or strictly decreasing. $\blacksquare$
 
----
-
 ## 3.1-13
 
 Prove $e^x> 1+x$ for $x> 0$.
@@ -173,8 +155,6 @@ Prove $e^x> 1+x$ for $x> 0$.
 ### Solution 3.1-13
 
 Let $f\left(x\right)=e^x-1-x$. $f\left(0\right)=0$, $f'\left(x\right)=e^x-1> 0$ for $x> 0$. By **Theorem 1.5 (Monotonicity Criterion)**, $f$ is strictly increasing, so $f\left(x\right)> f\left(0\right)=0$, i.e. $e^x> 1+x$. $\blacksquare$
-
----
 
 ## 3.1-14
 

@@ -4,8 +4,6 @@
 > 
 > 设 $u\left(x\right),v\left(x\right)$ 可导, 则 $\int u\left(x\right)\,\mathrm dv\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm du\left(x\right)$.
 
----
-
 ## 4.3-1-11
 
 求不定积分 $\int x\csc^2x\,\mathrm dx$.
@@ -19,8 +17,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.3-1-13
 
@@ -47,8 +43,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.3-1-14
 

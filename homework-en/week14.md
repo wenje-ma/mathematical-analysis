@@ -12,8 +12,6 @@
 > 
 > If $f$ and $g$ are defined and differentiable in a punctured neighborhood of $a$, $g'\left(x\right)\ne0$, $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, and $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ exists, then $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
----
-
 ## 3.2-1
 
 Find the limits:
@@ -70,8 +68,6 @@ $$
 
 (7) This is $0^0$. Let $y=\left(\sin x\right)^{\sin x}$; $\ln y=\sin x\ln\left(\sin x\right)$. By (5) with $x$ replaced by $\sin x$, the limit is $e^0=1$. $\blacksquare$
 
----
-
 ## 3.2-2
 
 If $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ does not exist, does it follow that $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}$ does not exist? Consider $f\left(x\right)=x^2\sin\frac1x$ and $g\left(x\right)=x$ as $x\to0$.
@@ -91,8 +87,6 @@ f'\left(x\right)=2x\sin\frac1x-\cos\frac1x,\quad g'\left(x\right)=1.
 $$
 
 Thus $\frac{f'\left(x\right)}{g'\left(x\right)}=2x\sin\frac1x-\cos\frac1x$. As $x\to0$, $2x\sin\frac1x\to0$ but $\cos\frac1x$ oscillates without limit. Hence $\lim\frac{f'}{g'}$ does not exist while $\lim\frac{f}{g}$ does. The converse of L'Hôpital's rule is false. $\blacksquare$
-
----
 
 ## 3.2-4
 
@@ -121,8 +115,6 @@ $$
 $$
 
 Hence $f\left(x\right)=T\left(x\right)+o\left(\left(x-a\right)^2\right)$. $\blacksquare$
-
----
 
 ## 3.2-6
 

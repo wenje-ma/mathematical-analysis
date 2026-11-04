@@ -8,8 +8,6 @@
 > 
 > 任何有理函数 $\frac{P\left(x\right)}{Q\left(x\right)}$ 都可以分解为一个多项式与若干部分分式之和, 其中每个部分分式形如 $\frac{A}{\left(x-a\right)^k}$ 或 $\frac{Bx+C}{\left(x^2+px+q\right)^m}$ ($p^2-4q< 0$).
 
----
-
 ## 4.4-2
 
 求不定积分 $\int\frac{x^3}{x^2+x-6}\,\mathrm dx$.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.4-4
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.4-6
 
 求不定积分 $\int\frac{2x^2-5}{x^4-5x^2+6}\,\mathrm dx$.
@@ -55,8 +49,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.4-8
 
@@ -72,8 +64,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.4-10
 
 求不定积分 $\int\frac{x^3}{\left(x-1\right)^2}\,\mathrm dx$.
@@ -88,8 +78,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.4-12
 
 求不定积分 $\int\frac{e^t}{e^{2t}+5e^t+6}\,\mathrm dt$.
@@ -103,8 +91,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.4-14
 

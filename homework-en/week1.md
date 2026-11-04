@@ -12,8 +12,6 @@
 > 
 > For any real numbers $a,b,c$: (1) $\left|a-b\right|\ge0$, with equality if and only if $a=b$; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
----
-
 ## 1.1-3
 
 Prove that $\sqrt2+\sqrt3$ is irrational.
@@ -27,8 +25,6 @@ $$
 $$
 
 i.e. $\sqrt2=\frac{r^2-1}{2r}$. If $r\ne0$, then the right-hand side $\frac{r^2-1}{2r}$ is rational, so $\sqrt2\in\mathbb Q$, contradicting **Proposition 1.3 ($\sqrt2$ Is Irrational)**. If $r=0$, then $\sqrt2+\sqrt3=0$, which is also impossible. Hence $\sqrt2+\sqrt3$ is not rational, i.e. $\sqrt2+\sqrt3$ is irrational. $\blacksquare$
-
----
 
 ## 1.1-4
 
@@ -64,8 +60,6 @@ where $m_2^2-2n_2^2\ne0$ (otherwise $\sqrt2=m_2/n_2\in\mathbb Q$, contradicting 
 
 Take the $n$-digit truncation $x_n$ of $\sqrt3$. Then $x_n\in\mathbb Q\subset E$ (taking $m=x_n$, $n=0$), and $\left\{x_n\right\}$ is monotone increasing and bounded above (e.g. $x_n< 2$), but $\left\{x_n\right\}$ approaches $\sqrt3\notin E$. Thus by The Concept of Completeness, $E$ is not complete. $\blacksquare$
 
----
-
 ## 1.1-6
 
 Let
@@ -94,8 +88,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.1-7
 
 Solve the following inequalities:
@@ -123,8 +115,6 @@ $$
 giving $x> 0$.
 
 (4) By **Proposition 1.6 (Properties of Absolute Value)**(1)(3), $\left|x+2\right|< 1$ means $-1< x+2< 1$, giving $-3< x< -1$. $\blacksquare$
-
----
 
 ## 1.1-9
 
@@ -163,8 +153,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.1-11
 

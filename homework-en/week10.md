@@ -1,7 +1,5 @@
 # week10
 
----
-
 ## 2.3-1-2
 
 As $x\to0$, determine the order of the infinitesimal $y=\left(\sqrt{2+x}-\sqrt2\right)x$.
@@ -14,8 +12,6 @@ $$
 
 Thus $y\sim\frac{x^2}{2\sqrt2}$; by Definition of Higher-Order Infinitesimal, $y$ is a second-order infinitesimal in $x$. $\blacksquare$
 
----
-
 ## 2.3-1-4
 
 As $x\to0$, determine the order of the infinitesimal $y=\ln\left(1+x^2\right)+x^3$.
@@ -23,8 +19,6 @@ As $x\to0$, determine the order of the infinitesimal $y=\ln\left(1+x^2\right)+x^
 ### Solution 2.3-1-4
 
 $\ln\left(1+x^2\right)\sim x^2$ and $x^3=o\left(x^2\right)$. By Definition of Higher-Order Infinitesimal, $y\sim x^2$, which is second-order. $\blacksquare$
-
----
 
 ## 2.3-3-1
 
@@ -38,8 +32,6 @@ $$
 
 $f'\left(0\right)=0$. Hence $\mathrm df\big|_{x_0=0}=0\cdot\mathrm dx=0$. $\blacksquare$
 
----
-
 ## 2.3-3-4
 
 Compute the differential at $x_0$: $f\left(x\right)=x\ln\left(1+x\right)$, $x_0=0$.
@@ -47,8 +39,6 @@ Compute the differential at $x_0$: $f\left(x\right)=x\ln\left(1+x\right)$, $x_0=
 ### Solution 2.3-3-4
 
 $f'\left(x\right)=\ln\left(1+x\right)+\frac{x}{1+x}$. $f'\left(0\right)=0$. Hence $\mathrm df\big|_{x_0=0}=0$. $\blacksquare$
-
----
 
 ## 2.3-4-2
 
@@ -61,8 +51,6 @@ f'\left(x\right)=\frac1{x+\sqrt{x^2+1}}\cdot\left(1+\frac{x}{\sqrt{x^2+1}}\right
 $$
 
 Hence $\mathrm df=\frac1{\sqrt{x^2+1}}\mathrm dx$. $\blacksquare$
-
----
 
 ## 2.3-4-4
 
@@ -82,8 +70,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.3-5-1
 
 Fill in: $\mathrm d\left(\right)=x^n\mathrm dx$.
@@ -95,8 +81,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 2.3-5-3
 
@@ -110,8 +94,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.3-5-5
 
 Fill in: $\mathrm d\left(\right)=\frac{\sin x}{\cos x}\mathrm dx$.
@@ -119,8 +101,6 @@ Fill in: $\mathrm d\left(\right)=\frac{\sin x}{\cos x}\mathrm dx$.
 ### Solution 2.3-5-5
 
 $\mathrm d\left(-\ln\left|\cos x\right|\right)=\frac{\sin x}{\cos x}\mathrm dx$. $\blacksquare$
-
----
 
 ## 2.3-6
 

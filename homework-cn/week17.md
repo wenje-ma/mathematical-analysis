@@ -8,8 +8,6 @@
 > 
 > 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上二阶可导. 则 $f$ 为凸函数的充要条件是 $f''\left(x\right)\ge0$; $f$ 为凹函数的充要条件是 $f''\left(x\right)\le0$.
 
----
-
 ## 3.5-1-1
 
 求出函数 $y=xe^x$ 的凸凹性区间及拐点.
@@ -18,8 +16,6 @@
 
 求导得 $y'=\left(1+x\right)e^x$, $y''=\left(2+x\right)e^x$. 令 $y''=0$, 得 $x=-2$. 当 $x< -2$ 时 $y''< 0$ (凹); 当 $x> -2$ 时 $y''> 0$ (凸). 拐点为 $\left(-2,-2e^{-2}\right)$. 由**定理 5.1 (凸函数的二阶导数判别)**, $y=xe^x$ 在 $\left(-\infty,-2\right]$ 上为凹函数, 在 $\left[-2,+\infty\right)$ 上为凸函数. $\blacksquare$
 
----
-
 ## 3.5-1-4
 
 求出函数 $y=x\ln x$ 的凸凹性区间及拐点.
@@ -27,8 +23,6 @@
 ### 解答 3.5-1-4
 
 定义域为 $\left(0,+\infty\right)$. $y'=\ln x+1$, $y''=\frac1x> 0$. 由**定理 5.1 (凸函数的二阶导数判别)**, $y=x\ln x$ 在 $\left(0,+\infty\right)$ 上为凸函数, 无拐点. $\blacksquare$
-
----
 
 ## 3.5-2
 
@@ -56,8 +50,6 @@ $$
 
 即 $a^\alpha b^\beta c^\gamma\le\alpha a+\beta b+\gamma c$. 此即加权 AM-GM 不等式. $\blacksquare$
 
----
-
 ## 3.5-3
 
 设 $f\left(x\right)$ 与 $g\left(x\right)$ 均为 $\left(a,b\right)$ 中的凸函数. 令 $F\left(x\right)=\max\left\{f\left(x\right),g\left(x\right)\right\}$, 则 $F\left(x\right)$ 也是凸函数.
@@ -81,8 +73,6 @@ g\left(tx_1+\left(1-t\right)x_2\right)\le tg\left(x_1\right)+\left(1-t\right)g\l
 $$
 
 两式右端相同, 故 $\max\left\{f\left(\cdot\right),g\left(\cdot\right)\right\}\le tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. 故 $F$ 为凸函数. $\blacksquare$
-
----
 
 ## 3.5-5
 
@@ -110,8 +100,6 @@ $$
 
 合起来即得 $f\left(g\left(x\right)\right)$ 为凸函数. $\blacksquare$
 
----
-
 ## 3.5-6
 
 设 $f\left(x\right)$ 在 $\left(-\infty,+\infty\right)$ 中是可微的凸函数, 且有界. 证明 $f\left(x\right)$ 为常数.
@@ -130,8 +118,6 @@ $$
 
 故 $f'\left(x\right)\equiv0$, 即 $f$ 为常数. $\blacksquare$
 
----
-
 ## 3.5-7-1
 
 作函数 $y=\frac{\left(x+1\right)^3}{\left(x-1\right)^2}$ 的图形.
@@ -146,8 +132,6 @@ $$
 
 **凸凹性与拐点**: $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$. 当 $x< -1$ 时 $y''< 0$ (凹); 当 $x> -1$ 且 $x\ne1$ 时 $y''> 0$ (凸). 拐点为 $\left(-1,0\right)$. $\blacksquare$
 
----
-
 ## 3.5-7-2
 
 作函数 $y=xe^{-x}$ 的图形.
@@ -161,8 +145,6 @@ $$
 **单调区间与极值**: $y'=\left(1-x\right)e^{-x}$. 令 $y'=0$, 得 $x=1$. 当 $x< 1$ 时 $y'> 0$, 当 $x> 1$ 时 $y'< 0$. 故 $x=1$ 为极大值点, 极大值 $y\left(1\right)=\frac1e$.
 
 **凸凹性与拐点**: $y''=\left(x-2\right)e^{-x}$. 令 $y''=0$, 得 $x=2$. 当 $x< 2$ 时 $y''< 0$ (凹); 当 $x> 2$ 时 $y''> 0$ (凸). 拐点为 $\left(2,2e^{-2}\right)$. $\blacksquare$
-
----
 
 ## 3.5-7-3
 

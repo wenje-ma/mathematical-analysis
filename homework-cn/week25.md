@@ -8,8 +8,6 @@
 > 
 > 设 $\mathcal{F}=\left\{I_\alpha\right\}$ 是闭区间 $\left[a,b\right]$ 的任意一个开覆盖, 则存在 $\mathcal{F}$ 中的有限个元素 $I_{\alpha_1},\cdots,I_{\alpha_n}$, 使得 $\left[a,b\right]\subset\bigcup_{k=1}^n I_{\alpha_k}$.
 
----
-
 ## 5.3-2
 
 设 $f\left(x\right)=\frac1x$ ($0< x< 1$). 直接从定义出发, 证明 $f$ 在 $\left(0,1\right)$ 中不一致连续.
@@ -24,8 +22,6 @@ $$
 
 当 $\delta< 1$ 时, $\frac1\delta> 1=\varepsilon_0$. 故 $f$ 在 $\left(0,1\right)$ 中不一致连续. $\blacksquare$
 
----
-
 ## 5.3-3
 
 设集合 $E=\left\{\frac1n:n=1,2,\cdots\right\}$. 试构造 $E$ 的一个开覆盖, 但不能从中选出有限个元素覆盖住 $E$.
@@ -35,8 +31,6 @@ $$
 对每个 $n$, 取开区间 $I_n=\left(\frac1n-\frac1{4n^2},\frac1n+\frac1{4n^2}\right)$. 显然 $\frac1n\in I_n$, 故 $E\subset\bigcup_{n=1}^\infty I_n$.
 
 但任意有限个 $I_{n_1},\cdots,I_{n_k}$ 只能覆盖有限个点. 设 $N=\max\left\{n_1,\cdots,n_k\right\}$, 则当 $n> N$ 时 $\frac1n\notin\bigcup_{i=1}^k I_{n_i}$. 故不能选出有限子覆盖. $\blacksquare$
-
----
 
 ## 5.3-4
 
@@ -49,8 +43,6 @@ $$
 取 $N$ 使得 $\frac1N< \delta$. 则当 $n> N$ 时 $\frac1n\in I_0$. 对每个 $n=1,\cdots,N$, 存在 $I_n\in\mathcal{F}$ 使得 $\frac1n\in I_n$.
 
 于是 $\left\{I_0,I_1,\cdots,I_N\right\}$ 是有限子覆盖. $\blacksquare$
-
----
 
 ## 5.3-5
 
@@ -66,8 +58,6 @@ $$
 
 对任意 $\varepsilon> 0$, 取 $\delta=\varepsilon$. 由一致连续的定义, $\sin x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
 
----
-
 ## 5.3-6
 
 证明: $y=\cos x$ 在 $\mathbb R$ 上一致连续.
@@ -75,8 +65,6 @@ $$
 ### 解答 5.3-6
 
 由**定理 1.3 (拉格朗日中值定理)**, $\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|$. 取 $\delta=\varepsilon$. 由一致连续的定义, $\cos x$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
-
----
 
 ## 5.3-7
 
@@ -91,8 +79,6 @@ $$
 $$
 
 取 $\delta=\frac\varepsilon8$. 由一致连续的定义, $f$ 在 $\mathbb R$ 上一致连续. $\blacksquare$
-
----
 
 ## 5.3-8
 

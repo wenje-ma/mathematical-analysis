@@ -4,8 +4,6 @@
 > 
 > 设 $y=f\left(u\right)$ 在 $u$ 处可导, $u=g\left(x\right)$ 在 $x$ 处可导, 则复合函数 $y=f\left(g\left(x\right)\right)$ 在 $x$ 处可导, 且 $\frac{\mathrm dy}{\mathrm dx}=\frac{\mathrm dy}{\mathrm du}\cdot\frac{\mathrm du}{\mathrm dx}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
 
----
-
 ## 2.2-2
 
 设 $f\left(x\right)=1+x^2$, 求 $f'\left(\sin x\right)$ 及 $\left[f\left(\sin x\right)\right]'$.
@@ -22,8 +20,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-2
 
 求导函数: $y=\sqrt{1+x^2}$.
@@ -35,8 +31,6 @@ y'=\frac1{2\sqrt{1+x^2}}\cdot\left(1+x^2\right)'=\frac{2x}{2\sqrt{1+x^2}}=\frac{
 $$
 
 $\blacksquare$
-
----
 
 ## 2.2-3-4
 
@@ -50,8 +44,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-6
 
 求导函数: $y=\frac12\left(e^x-e^{-x}\right)$.
@@ -63,8 +55,6 @@ y'=\frac12\left(e^x-\left(-e^{-x}\right)\right)=\frac12\left(e^x+e^{-x}\right).
 $$
 
 $\blacksquare$
-
----
 
 ## 2.2-3-8
 
@@ -78,8 +68,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-10
 
 求导函数: $y=e^x+e^{x^2}+\cos x^2$.
@@ -92,8 +80,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-12
 
 求导函数: $y=\arctan x^2$.
@@ -105,8 +91,6 @@ y'=\frac1{1+\left(x^2\right)^2}\cdot2x=\frac{2x}{1+x^4}.
 $$
 
 $\blacksquare$
-
----
 
 ## 2.2-3-14
 
@@ -128,8 +112,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-5
 
 飞轮半径为 $r$, 以固定角速度 $\omega$ 旋转, 连杆长为 $a$ ($a> r$). 设 $x=x\left(t\right)$ 为时刻 $t$ 飞轮中心至活塞端点的距离, $x\left(0\right)=a+r$. 试给出 $x\left(t\right)$ 的表达式, 并求出 $x'\left(t\right)$ 及 $x'\left(0\right)$.
@@ -149,8 +131,6 @@ x'\left(t\right)=-r\omega\sin\omega t+\frac{-2r^2\omega\sin\omega t\cos\omega t}
 $$
 
 代入 $t=0$: $\sin0=0$, 故 $x'\left(0\right)=0$. $\blacksquare$
-
----
 
 ## 2.2-6
 

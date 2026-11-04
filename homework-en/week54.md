@@ -12,8 +12,6 @@
 > 
 > $\frac1\pi\int_{-\pi}^\pi f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
----
-
 ## 13.3-1
 
 Prove $1=\frac12+\frac2\pi\sum\frac{\sin\left(2n+1\right)x}{2n+1}$ and $\frac\pi4=\sum\frac{\left(-1\right)^n}{2n+1}$.
@@ -22,8 +20,6 @@ Prove $1=\frac12+\frac2\pi\sum\frac{\sin\left(2n+1\right)x}{2n+1}$ and $\frac\pi
 
 By the Dirichlet theorem and setting $x=\frac\pi2$. $\blacksquare$
 
----
-
 ## 13.3-3
 
 Find the Fourier series of $\left(\pi-\left|x\right|\right)^2$ and compute $\sum\frac1{n^2}$, $\sum\frac1{n^4}$.
@@ -31,8 +27,6 @@ Find the Fourier series of $\left(\pi-\left|x\right|\right)^2$ and compute $\sum
 ### Solution 13.3-3
 
 $\sum\frac1{n^2}=\frac{\pi^2}6$, $\sum\frac1{n^4}=\frac{\pi^4}{90}$. $\blacksquare$
-
----
 
 ## 13.3-4
 

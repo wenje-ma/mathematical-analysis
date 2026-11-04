@@ -8,8 +8,6 @@
 > 
 > If $\lim f\left(x\right)=l_1$ and $\lim g\left(x\right)=l_2$, then $\lim\left(f\pm g\right)=l_1\pm l_2$, $\lim\left(f\cdot g\right)=l_1\cdot l_2$, and when $l_2\ne0$, $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
----
-
 ## 1.5-1-2
 
 Prove by $\varepsilon$-$\delta$ language: $\lim_{x\to a}\cos x=\cos a$.
@@ -32,8 +30,6 @@ $$
 
 By Definition of Function Limit, $\lim_{x\to a}\cos x=\cos a$. $\blacksquare$
 
----
-
 ## 1.5-1-3
 
 Prove by $\varepsilon$-$\delta$ language: $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$.
@@ -52,8 +48,6 @@ $$
 
 By the $x\to+\infty$ version of Definition of Function Limit, $\lim_{x\to+\infty}\frac{6x+5}{x+1}=6$. $\blacksquare$
 
----
-
 ## 1.5-1-5
 
 Prove by $\varepsilon$-$\delta$ language: $\lim_{x\to2-0}\sqrt{4-x^2}=0$.
@@ -67,8 +61,6 @@ $$
 $$
 
 By Definition of One-Sided Limits, $\lim_{x\to2-0}\sqrt{4-x^2}=0$. $\blacksquare$
-
----
 
 ## 1.5-1-7
 
@@ -86,8 +78,6 @@ $$
 
 then for $0< \left|x\right|< \delta$, $\left|a^x-1\right|< \varepsilon$. By Definition of Function Limit, $\lim_{x\to0}a^x=1$. $\blacksquare$
 
----
-
 ## 1.5-4
 
 Let $\lim_{x\to a}f\left(x\right)=l$ and $l\ne0$. Prove that $y=\frac1{f\left(x\right)}$ is bounded as $x\to a$.
@@ -101,8 +91,6 @@ $$
 $$
 
 Hence $\left|\frac1{f\left(x\right)}\right|< \frac2{\left|l\right|}$, i.e. $\frac1{f\left(x\right)}$ is bounded as $x\to a$. This is a corollary of Sign Preservation of Limits. $\blacksquare$
-
----
 
 ## 1.5-5
 
@@ -119,8 +107,6 @@ $$
 $$
 
 and $y^2\ne2$ (since $y\to\sqrt2$ with $y\ne\sqrt2$). Hence $\left|f\left(y^2\right)-l\right|< \varepsilon$. By Definition of Function Limit, $f\left(y^2\right)\to l$. $\blacksquare$
-
----
 
 ## 1.5-6
 
@@ -139,8 +125,6 @@ Discuss the left and right limits at $x=0$ of:
 (2) As $x\to0+0$, $\operatorname{sgn}x=1$, so $y=\cos x\to1$, right limit $1$. As $x\to0-0$, $\operatorname{sgn}x=-1$, so $y=-\cos x\to-1$, left limit $-1$.
 
 (3) As $x\to0+0$, $\frac{\left|x\right|}{x}=1$ and $\frac1{1+x^n}\to1$, right limit $1$. As $x\to0-0$, $\frac{\left|x\right|}{x}=-1$ and $\frac1{1+x^n}\to1$ (since $x^n\to0$), left limit $-1$. $\blacksquare$
-
----
 
 ## 1.5-7
 

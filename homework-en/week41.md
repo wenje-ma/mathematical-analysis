@@ -16,8 +16,6 @@
 > 
 > $\prod\left(1+\alpha_n\right)$ converges absolutely iff $\sum\left|\alpha_n\right|$ converges.
 
----
-
 ## 10.4-1-2
 
 Discuss $\prod\sqrt{\frac{n^2+1}{n^2-1}}$.
@@ -25,8 +23,6 @@ Discuss $\prod\sqrt{\frac{n^2+1}{n^2-1}}$.
 ### Solution 10.4-1-2
 
 Converges by comparison with $\sum\frac1{n^2}$. $\blacksquare$
-
----
 
 ## 10.4-1-4
 
@@ -36,8 +32,6 @@ Discuss $\prod\left(1+\frac{x^n}{2^n}\right)$.
 
 Converges for $\left|x\right|< 2$, diverges otherwise. $\blacksquare$
 
----
-
 ## 10.4-1-6
 
 Discuss $\prod\cos\frac1n$.
@@ -45,8 +39,6 @@ Discuss $\prod\cos\frac1n$.
 ### Solution 10.4-1-6
 
 Since $\ln\cos\frac1n\sim-\frac1{2n^2}$, converges. $\blacksquare$
-
----
 
 ## 10.4-1-8
 
@@ -56,8 +48,6 @@ Discuss $\prod\left(1+\frac1{\sqrt n}\right)$.
 
 Diverges since $\sum\frac1{\sqrt n}$ diverges. $\blacksquare$
 
----
-
 ## 10.4-2
 
 Prove: if $\sum\alpha_n^2$ converges, then $\prod\cos\alpha_n$ converges.
@@ -66,8 +56,6 @@ Prove: if $\sum\alpha_n^2$ converges, then $\prod\cos\alpha_n$ converges.
 
 Since $\ln\cos\alpha_n\sim-\frac{\alpha_n^2}{2}$. $\blacksquare$
 
----
-
 ## 10.4-3
 
 Prove: if $\sum\left|\alpha_n\right|$ converges, then $\prod\tan\left(\frac\pi4+\alpha_n\right)$ converges absolutely.
@@ -75,8 +63,6 @@ Prove: if $\sum\left|\alpha_n\right|$ converges, then $\prod\tan\left(\frac\pi4+
 ### Solution 10.4-3
 
 Since $\left|\tan\left(\frac\pi4+\alpha_n\right)-1\right|\sim2\left|\alpha_n\right|$. $\blacksquare$
-
----
 
 ## 10.4-5
 

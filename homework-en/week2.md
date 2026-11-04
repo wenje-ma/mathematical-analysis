@@ -4,8 +4,6 @@
 > 
 > A function $f:X\to Y$ is bounded if and only if there exists $M> 0$ such that $\left|f\left(x\right)\right|\le M$ for all $x\in X$.
 
----
-
 ## 1.2-1
 
 Find the domains of the following functions:
@@ -37,8 +35,6 @@ x\in\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right],\quad k\in\mathbb Z.
 $$
 
 The domain is $\displaystyle\bigcup_{k\in\mathbb Z}\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right]$. $\blacksquare$
-
----
 
 ## 1.2-2
 
@@ -74,8 +70,6 @@ $$
 
 (4) $f'\left(x\right)=3x^2+1> 0$, so $f$ is strictly increasing on $\mathbb R$. Moreover, as $x\to-\infty$, $f\left(x\right)\to-\infty$, and as $x\to+\infty$, $f\left(x\right)\to+\infty$. By the intermediate value property, $f\left(X\right)=\mathbb R$. $\blacksquare$
 
----
-
 ## 1.2-6
 
 Let $f:\left[a,b\right]\to\left[a,b\right]$ satisfy
@@ -104,8 +98,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.2-10
 
 Consider the function $y=\left[\frac43\sin^2 x\right]$, where $\left[\ \right]$ denotes the integer part. Prove that this function has period $\pi$.
@@ -131,8 +123,6 @@ $$
 $$
 
 That is, $y\left(x+\pi\right)=y\left(x\right)$. By Definition of a Periodic Function, $\pi$ is a period of $y$. $\blacksquare$
-
----
 
 ## 1.2-11
 
@@ -184,8 +174,6 @@ f\left(g\left(1\right)\right)=f\left(-1\right)=e^{-1}=\frac1e.
 $$
 
 $\blacksquare$
-
----
 
 ## 1.2-14
 

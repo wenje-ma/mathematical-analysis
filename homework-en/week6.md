@@ -16,8 +16,6 @@
 > 
 > Let $f\left(x\right),g\left(x\right),h\left(x\right)$ be defined in a punctured neighborhood of $a$ with $h\left(x\right)\le f\left(x\right)\le g\left(x\right)$. If $\lim g\left(x\right)=\lim h\left(x\right)=l$, then $\lim f\left(x\right)=l$.
 
----
-
 ## 1.6-2
 
 Prove by $\varepsilon$-$\delta$ language: if $\lim_{x\to a}f\left(x\right)=l$ and $l> 0$, then there exists $\delta> 0$ such that $f\left(x\right)> \frac l2$ whenever $0< \left|x-a\right|< \delta$.
@@ -31,8 +29,6 @@ f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge l-\left|f\left(x\right)-l\ri
 $$
 
 Thus $f\left(x\right)> \frac l2$. $\blacksquare$
-
----
 
 ## 1.6-3
 
@@ -78,8 +74,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.6-4-1
 
 Use $\lim_{x\to\infty}\left(1+\frac1x\right)^x=e$ to find: $\lim_{x\to\infty}\left(1+\frac3x\right)^x\cdot\left(1+\frac5x\right)^x$.
@@ -91,8 +85,6 @@ $$
 $$
 
 By **Theorem 5.1 (Arithmetic of Function Limits)**, the product is $e^3\cdot e^5=e^8$. $\blacksquare$
-
----
 
 ## 1.6-4-3
 
@@ -106,8 +98,6 @@ $$
 
 The base tends to $e$ and the exponent $\frac2{1-x}\to2$. By The Important Limit $e$ (Function Version) and **Theorem 6.2 (Squeeze Theorem for Functions)**, the limit is $e^2$. $\blacksquare$
 
----
-
 ## 1.6-4-5
 
 Find: $\lim_{y\to0}\left(1-5y\right)^{1/y}$.
@@ -120,8 +110,6 @@ $$
 
 The base tends to $e$ and the exponent is $-5$. By The Important Limit $e$ (Function Version), the limit is $e^{-5}=\frac1{e^5}$. $\blacksquare$
 
----
-
 ## 1.6-4-6
 
 Find: $\lim_{x\to\infty}\left(1+\frac1x\right)^{x+100}$.
@@ -133,8 +121,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.6-5
 
@@ -156,8 +142,6 @@ For this to tend to $0$, the numerator must have lower degree than the denominat
 
 Geometrically, the line $y=x-1$ is the oblique asymptote of the curve $y=\frac{x^2+1}{x+1}$ as $x\to+\infty$. $\blacksquare$
 
----
-
 ## 1.6-7
 
 Prove $\lim_{x\to+\infty}\left(1+\frac1x\right)^{x^2}=+\infty$.
@@ -169,8 +153,6 @@ $$
 $$
 
 For sufficiently large $x$, $\left(1+\frac1x\right)^x> 2$ (since it tends to $e> 2$), so $\left(1+\frac1x\right)^{x^2}> 2^x\to+\infty$. The limit is $+\infty$. $\blacksquare$
-
----
 
 ## 1.6-9
 
@@ -192,8 +174,6 @@ $$
 
 by **Theorem 6.2 (Squeeze Theorem for Functions)**, the exponent tends to $0$. By continuity of $e^t$, the limit is $e^0=1$. $\blacksquare$
 
----
-
 ## 1.6-10
 
 Let $y=D\left(x\right)$ be the Dirichlet function. Prove that for any $a\in\mathbb R$, $\lim_{x\to a}D\left(x\right)$ does not exist.
@@ -201,8 +181,6 @@ Let $y=D\left(x\right)$ be the Dirichlet function. Prove that for any $a\in\math
 ### Solution 1.6-10
 
 Take a rational sequence $\left\{r_n\right\}$ and an irrational sequence $\left\{s_n\right\}$, both converging to $a$ (by density of rationals and irrationals). Then $D\left(r_n\right)=1\to1$ and $D\left(s_n\right)=0\to0$. The two subsequential limits differ; by the Heine principle, $\lim_{x\to a}D\left(x\right)$ does not exist. $\blacksquare$
-
----
 
 ## 1.6-11
 

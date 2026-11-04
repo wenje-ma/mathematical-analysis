@@ -8,8 +8,6 @@
 > 
 > 设 $f$ 在 $\left[a,b\right]$ 上有界. 则 $f$ 黎曼可积的充要条件是 $\lim_{\lambda\left(T\right)\to0}\left[D\left(T\right)-d\left(T\right)\right]=0$.
 
----
-
 ## 6.2-1
 
 设 $f$ 在 $\left[a,b\right]$ 上可积, 又设 $\left[c,d\right]\subset\left[a,b\right]$. 证明: $f$ 在 $\left[c,d\right]$ 上也可积.
@@ -24,8 +22,6 @@ $$
 
 因 $f$ 在 $\left[a,b\right]$ 上可积, 由**定理 2.2 (可积的充要条件)**, 右端趋于 $0$. 故 $D\left(T'\right)-d\left(T'\right)\to0$. 再由**定理 2.2 (可积的充要条件)**, $f$ 在 $\left[c,d\right]$ 上可积. $\blacksquare$
 
----
-
 ## 6.2-2
 
 设 $f$ 与 $g$ 均在 $\left[a,b\right]$ 中可积. 证明: $f\cdot g$ 在 $\left[a,b\right]$ 中可积.
@@ -39,8 +35,6 @@ $$
 $$
 
 求和得 $\sum\omega_{fg}\Delta x_k\le M\sum\omega_g\Delta x_k+N\sum\omega_f\Delta x_k$. 由**定理 2.2 (可积的充要条件)**, 右端趋于 $0$, 故左端亦趋于 $0$. 故 $f\cdot g$ 可积. $\blacksquare$
-
----
 
 ## 6.2-4
 
@@ -57,8 +51,6 @@ $$
 $$
 
 矛盾. 故 $f\equiv0$. $\blacksquare$
-
----
 
 ## 6.2-6
 

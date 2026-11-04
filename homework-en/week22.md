@@ -4,8 +4,6 @@
 > 
 > The integral of $R\left(\sin x,\cos x\right)$ can always be rationalized by the substitution $t=\tan\frac x2$, with $\sin x=\frac{2t}{1+t^2}$, $\cos x=\frac{1-t^2}{1+t^2}$, $\mathrm dx=\frac{2\mathrm dt}{1+t^2}$.
 
----
-
 ## 4.5-1-1
 
 Find $\int\frac{\mathrm dx}{2+\sin x}$.
@@ -19,8 +17,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.5-1-3
 
@@ -36,8 +32,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.5-1-5
 
 Find $\int\cot^2x\,\mathrm dx$.
@@ -51,8 +45,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.5-1-7
 
@@ -68,8 +60,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.5-1-9
 
 Find $\int\sin^2x\cos^2x\,\mathrm dx$.
@@ -84,8 +74,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.5-1-11
 
 Find $\int\frac{\mathrm dx}{x+2}$.
@@ -97,8 +85,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.5-1-13
 
@@ -113,8 +99,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.5-2
 

@@ -12,8 +12,6 @@
 > 
 > 若 $D$ 是有界闭区域且边界为零面积集合, $f$ 在 $D$ 上连续, 则 $f$ 在 $D$ 上可积.
 
----
-
 ## 8.1-2
 
 设 $f$ 与 $g$ 在有界闭区域 $D$ 上可积. 证明 $f\cdot g$ 在 $D$ 上也可积.
@@ -28,8 +26,6 @@ $$
 
 求和得 $\sum\omega_{fg}\Delta\sigma_i\le A\sum\omega_g\Delta\sigma_i+B\sum\omega_f\Delta\sigma_i$. 由**定理 1.4 (可积的充要条件)**, 右端趋于 $0$, 故左端亦趋于 $0$. 故 $f\cdot g$ 可积. $\blacksquare$
 
----
-
 ## 8.1-3
 
 设 $D\left(x,y\right)=1$ (当 $x,y$ 均为有理数), $D\left(x,y\right)=0$ (其他). 证明 $D$ 在 $R=\left[0,1\right]\times\left[0,1\right]$ 上不可积.
@@ -37,8 +33,6 @@ $$
 ### 解答 8.1-3
 
 对 $R$ 作任意分割, 每个小区域 $D_i$ 中既含有理点又含无理点. 故 $\omega_i=1$. 于是 $D\left(T\right)-d\left(T\right)=\sum\Delta\sigma_i=1$, 不趋于 $0$. 由**定理 1.4 (可积的充要条件)**, $D$ 不可积. $\blacksquare$
-
----
 
 ## 8.1-4
 
@@ -54,8 +48,6 @@ $$
 
 同理 $\iint_D g=\iint_{D\setminus\gamma}g$. 因 $f=g$ 在 $D\setminus\gamma$ 上, 故两者相等. $\blacksquare$
 
----
-
 ## 8.1-5
 
 设 $f$ 在 $D$ 上可积. 证明 $\left|f\right|$ 在 $D$ 上也可积.
@@ -63,8 +55,6 @@ $$
 ### 解答 8.1-5
 
 对每个小区域 $D_i$, 由三角不等式, $\omega_{\left|f\right|}^{\left(i\right)}\le\omega_f^{\left(i\right)}$. 故 $\sum\omega_{\left|f\right|}\Delta\sigma_i\le\sum\omega_f\Delta\sigma_i$. 由**定理 1.4 (可积的充要条件)**, $\left|f\right|$ 可积. $\blacksquare$
-
----
 
 ## 8.1-8
 
@@ -79,8 +69,6 @@ m\iint_D g\le\iint_D fg\le M\iint_D g.
 $$
 
 因 $\iint_D g> 0$, 故 $m\le\frac{\iint_D fg}{\iint_D g}\le M$. 由介值定理, 存在 $\left(x_0,y_0\right)$ 使 $f\left(x_0,y_0\right)=\frac{\iint_D fg}{\iint_D g}$. $\blacksquare$
-
----
 
 ## 8.1-9
 

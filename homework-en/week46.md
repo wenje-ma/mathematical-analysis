@@ -16,8 +16,6 @@
 > 
 > If $f$ is monotone tending to $0$ and $\int_a^A g$ is bounded for all $A$, then $\int fg$ converges.
 
----
-
 ## 12.1-1-1
 
 Evaluate $\int_1^\infty\frac{\ln x}{x^2}\mathrm dx$.
@@ -25,8 +23,6 @@ Evaluate $\int_1^\infty\frac{\ln x}{x^2}\mathrm dx$.
 ### Solution 12.1-1-1
 
 Integration by parts gives $1$. $\blacksquare$
-
----
 
 ## 12.1-1-2
 
@@ -36,8 +32,6 @@ Evaluate $\int_1^\infty e^{-ax}\mathrm dx$.
 
 $\frac{e^{-a}}a$. $\blacksquare$
 
----
-
 ## 12.1-1-3
 
 Evaluate $\int_0^\infty\frac{\mathrm dx}{1+x^2}$.
@@ -45,8 +39,6 @@ Evaluate $\int_0^\infty\frac{\mathrm dx}{1+x^2}$.
 ### Solution 12.1-1-3
 
 $\frac\pi2$. $\blacksquare$
-
----
 
 ## 12.1-1-4
 
@@ -56,8 +48,6 @@ Evaluate $\int_0^\infty xe^{-x}\mathrm dx$.
 
 $1$. $\blacksquare$
 
----
-
 ## 12.1-2-1
 
 Discuss $\int_1^\infty\frac{\sin x}{x^p}\mathrm dx$.
@@ -65,8 +55,6 @@ Discuss $\int_1^\infty\frac{\sin x}{x^p}\mathrm dx$.
 ### Solution 12.1-2-1
 
 Absolutely convergent for $p> 1$, conditionally for $0< p\le1$, divergent for $p\le0$. $\blacksquare$
-
----
 
 ## 12.1-2-3
 
@@ -76,8 +64,6 @@ Discuss $\int_1^\infty\frac{\sqrt x\cos x}{x+3}\mathrm dx$.
 
 Conditionally convergent. $\blacksquare$
 
----
-
 ## 12.1-2-5
 
 Discuss $\int_0^\infty\sin x^2\mathrm dx$.
@@ -85,8 +71,6 @@ Discuss $\int_0^\infty\sin x^2\mathrm dx$.
 ### Solution 12.1-2-5
 
 Conditionally convergent. $\blacksquare$
-
----
 
 ## 12.1-3
 
@@ -96,8 +80,6 @@ Evaluate $I_1=\int_0^\infty e^{-xt}\sin t\mathrm dt$ and $I_2=\int_0^\infty e^{-
 
 $I_1=\frac1{x^2+1}$, $I_2=\frac x{x^2+1}$. $\blacksquare$
 
----
-
 ## 12.1-4
 
 Prove translation and reflection invariance.
@@ -105,8 +87,6 @@ Prove translation and reflection invariance.
 ### Solution 12.1-4
 
 By substitution. $\blacksquare$
-
----
 
 ## 12.1-5
 

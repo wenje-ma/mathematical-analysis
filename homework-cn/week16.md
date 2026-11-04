@@ -8,8 +8,6 @@
 > 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上有 $n$ 阶连续导数, 在 $\left(a,b\right)$ 中有 $n+1$ 阶导数. 则对任意 $x,x_0\in\left[a,b\right]$, 存在介于 $x_0$ 与 $x$ 之间的点 $\xi$, 使得 $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n+1\right)}\left(\xi\right)}{\left(n+1\right)!}\left(x-x_0\right)^{n+1}$.
 
----
-
 ## 3.4-1-2
 
 写出函数 $y=\frac1{1-x}$ 在 $x=0$ 点的局部泰勒公式.
@@ -23,8 +21,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 3.4-1-4
 
@@ -40,8 +36,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 3.4-1-5
 
 写出函数 $y=\tan x$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^3$ 为止).
@@ -56,8 +50,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 3.4-4
 
 将 $y=\sin\left(x+\alpha\right)$ 在 $\alpha=0$ 点展开成带拉格朗日余项的泰勒公式, 并估计余项大小.
@@ -71,8 +63,6 @@ $$
 $$
 
 其中 $\xi$ 介于 $0$ 与 $\alpha$ 之间. 余项 $r\left(\alpha\right)=-\frac{\sin\left(x+\xi\right)}2\alpha^2$, 故 $\left|r\left(\alpha\right)\right|\le\frac{\alpha^2}2$. $\blacksquare$
-
----
 
 ## 3.4-5
 
@@ -95,8 +85,6 @@ x+\frac{x^3}3=-\frac43+2\left(x+1\right)-\left(x+1\right)^2+\frac13\left(x+1\rig
 $$
 
 对于一般多项式 $P_n\left(x\right)$, $P_n^{\left(n+1\right)}\left(x\right)\equiv0$. 由**定理 4.2 (带拉格朗日余项的泰勒公式)**, 余项 $R_n\left(x\right)=0$. 即多项式的泰勒展开式是精确的. $\blacksquare$
-
----
 
 ## 3.4-7
 
@@ -124,8 +112,6 @@ $$
 
 注意到 $\left(f'\right)^{\left(k\right)}\left(a\right)=f^{\left(k+1\right)}\left(a\right)$, 比较两式即得 $T_{n+1}'\left(x\right)=U_n\left(x\right)$. $\blacksquare$
 
----
-
 ## 3.4-10
 
 证明: 当 $x\to0$ 时, $\arctan x=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right)$.
@@ -145,8 +131,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 3.4-11
 
@@ -173,8 +157,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 3.4-12
 

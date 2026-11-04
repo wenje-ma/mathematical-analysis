@@ -4,8 +4,6 @@
 > 
 > If $f$ is continuous on $\left[a,b\right]$ and differentiable on $\left(a,b\right)$, then there exists $c\in\left(a,b\right)$ such that $f'\left(c\right)=\frac{f\left(b\right)-f\left(a\right)}{b-a}$.
 
----
-
 ## 6.1-2
 
 Compute the Riemann sums for $y=x$ and $y=x^2$ on $\left[0,1\right]$ ($n$ equal subintervals, right endpoints) and take $n\to\infty$.
@@ -16,8 +14,6 @@ For $y=x$: $\frac{n+1}{2n}\to\frac12$, so $\int_0^1 x\,\mathrm dx=\frac12$.
 
 For $y=x^2$: $\frac{\left(n+1\right)\left(2n+1\right)}{6n^2}\to\frac13$, so $\int_0^1 x^2\,\mathrm dx=\frac13$. $\blacksquare$
 
----
-
 ## 6.1-3
 
 Express the area as an integral; find $\int_c^d\varphi+\int_a^b\psi$.
@@ -25,8 +21,6 @@ Express the area as an integral; find $\int_c^d\varphi+\int_a^b\psi$.
 ### Solution 6.1-3
 
 The area is $\int_c^d\varphi\left(y\right)\,\mathrm dy$. The sum equals $bd-ac$. $\blacksquare$
-
----
 
 ## 6.1-5
 
@@ -37,8 +31,6 @@ Prove: $f$ is integrable iff the lower and upper Darboux sums converge to the sa
 **Necessity**: if $f$ is integrable with integral $I$, then both lower and upper sums approach $I$.
 
 **Sufficiency**: if both limits equal $I$, then by squeeze theorem any Riemann sum approaches $I$. $\blacksquare$
-
----
 
 ## 6.1-6
 
@@ -51,8 +43,6 @@ Prove:
 ### Solution 6.1-6
 
 By the comparison property of integrals. $\blacksquare$
-
----
 
 ## 6.1-8
 

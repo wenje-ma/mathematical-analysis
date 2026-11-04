@@ -8,8 +8,6 @@
 > 
 > $\frac1\pi\int f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
----
-
 ## 13.4-1
 
 Prove $\sum\frac{a_n}{n}$ and $\sum\frac{b_n}{n}$ converge.
@@ -17,8 +15,6 @@ Prove $\sum\frac{a_n}{n}$ and $\sum\frac{b_n}{n}$ converge.
 ### Solution 13.4-1
 
 By Bessel's inequality and Cauchy-Schwarz. $\blacksquare$
-
----
 
 ## 13.4-2
 
@@ -28,8 +24,6 @@ Explain why the given series is not a Fourier series.
 
 Because $\sum\frac{a_n}{n}$ diverges. $\blacksquare$
 
----
-
 ## 13.4-5
 
 Use Parseval's identity for $x^2$ to compute $\sum\frac1{n^4}$.
@@ -37,8 +31,6 @@ Use Parseval's identity for $x^2$ to compute $\sum\frac1{n^4}$.
 ### Solution 13.4-5
 
 $\sum\frac1{n^4}=\frac{\pi^4}{90}$. $\blacksquare$
-
----
 
 ## 13.4-7
 

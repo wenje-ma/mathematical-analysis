@@ -12,8 +12,6 @@
 > 
 > 设 $f$ 与 $g$ 在 $a$ 点的一个空心邻域内有定义且可导, $g'\left(x\right)\ne0$. 假定 $\lim_{x\to a}f\left(x\right)=\lim_{x\to a}g\left(x\right)=\infty$, 且 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 存在. 则 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}=\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$.
 
----
-
 ## 3.2-1
 
 求下列未定式的极限:
@@ -70,8 +68,6 @@ $$
 
 (7) 这是 $0^0$ 型. 令 $y=\left(\sin x\right)^{\sin x}$, 则 $\ln y=\sin x\ln\left(\sin x\right)$. 由 (5) 的结果 (将 $x$ 换成 $\sin x$), $\lim_{x\to0+}\sin x\ln\left(\sin x\right)=0$. 故 $\lim_{x\to0+}\left(\sin x\right)^{\sin x}=e^0=1$. $\blacksquare$
 
----
-
 ## 3.2-2
 
 若 $\lim_{x\to a}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在, 能否说明 $\lim_{x\to a}\frac{f\left(x\right)}{g\left(x\right)}$ 也不存在? 试考察 $f\left(x\right)=x^2\sin\frac1x$ 及 $g\left(x\right)=x$ 在 $x\to0$ 时的情况.
@@ -95,8 +91,6 @@ $$
 于是 $\frac{f'\left(x\right)}{g'\left(x\right)}=2x\sin\frac1x-\cos\frac1x$. 当 $x\to0$ 时, $2x\sin\frac1x\to0$, 但 $\cos\frac1x$ 振荡无极限. 故 $\lim_{x\to0}\frac{f'\left(x\right)}{g'\left(x\right)}$ 不存在.
 
 这说明: $\lim\frac{f'}{g'}$ 不存在时, $\lim\frac{f}{g}$ 仍可能存在, 即洛必达法则的逆命题不成立. $\blacksquare$
-
----
 
 ## 3.2-4
 
@@ -139,8 +133,6 @@ $$
 $$
 
 这里用到了 $g''$ 在 $a$ 点的连续性. 故 $g\left(x\right)=o\left(\left(\Delta x\right)^2\right)$, 即 $f\left(x\right)=T\left(x\right)+o\left(\left(x-a\right)^2\right)$. $\blacksquare$
-
----
 
 ## 3.2-6
 

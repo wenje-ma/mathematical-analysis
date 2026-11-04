@@ -4,8 +4,6 @@
 > 
 > $f$ is continuous at $x_0$ iff $\omega_f\left(x_0\right)=0$.
 
----
-
 ## 5.1-4
 
 Prove:
@@ -20,8 +18,6 @@ Prove:
 
 (2) Similarly, $\inf\left\{f+g\right\}\ge\inf f+\inf g$. $\blacksquare$
 
----
-
 ## 5.1-5
 
 Prove: $\omega_f\left(I\right)=\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|:x_1,x_2\in I\right\}$.
@@ -29,8 +25,6 @@ Prove: $\omega_f\left(I\right)=\sup\left\{\left|f\left(x_1\right)-f\left(x_2\rig
 ### Solution 5.1-5
 
 Let $M=\sup f$, $m=\inf f$. Then $\omega_f=M-m$. Every $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le M-m$. Conversely, for any $\varepsilon> 0$, there exist $x_1,x_2$ with $f\left(x_1\right)> M-\frac\varepsilon2$, $f\left(x_2\right)< m+\frac\varepsilon2$, giving $\left|f\left(x_1\right)-f\left(x_2\right)\right|> M-m-\varepsilon$. Hence equality. $\blacksquare$
-
----
 
 ## 5.1-6
 
@@ -40,8 +34,6 @@ Let $D\left(x\right)$ be the Dirichlet function. Prove $\omega_D\left(I\right)=1
 
 Any interval contains both rational and irrational points, so $\sup D=1$, $\inf D=0$. Thus $\omega_D\left(I\right)=1$. By **Theorem 1.3 (Necessary and Sufficient Condition for Continuity)**, $D$ is discontinuous everywhere. $\blacksquare$
 
----
-
 ## 5.1-7
 
 Prove that a monotone increasing sequence bounded above has a limit.
@@ -49,8 +41,6 @@ Prove that a monotone increasing sequence bounded above has a limit.
 ### Solution 5.1-7
 
 Let $l=\sup E$ where $E=\left\{a_n\right\}$. For any $\varepsilon> 0$, there exists $N$ with $a_N> l-\varepsilon$. Since $\left\{a_n\right\}$ is increasing, for $n> N$, $l-\varepsilon< a_n\le l$. Hence $\lim_{n\to\infty}a_n=l$. $\blacksquare$
-
----
 
 ## 5.1-9
 

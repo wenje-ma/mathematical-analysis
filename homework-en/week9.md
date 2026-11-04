@@ -4,8 +4,6 @@
 > 
 > If $y=f\left(u\right)$ is differentiable at $u$ and $u=g\left(x\right)$ is differentiable at $x$, then $y=f\left(g\left(x\right)\right)$ is differentiable at $x$ and $\frac{\mathrm dy}{\mathrm dx}=\frac{\mathrm dy}{\mathrm du}\cdot\frac{\mathrm du}{\mathrm dx}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
 
----
-
 ## 2.2-2
 
 Let $f\left(x\right)=1+x^2$. Find $f'\left(\sin x\right)$ and $\left[f\left(\sin x\right)\right]'$.
@@ -22,8 +20,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-2
 
 Differentiate: $y=\sqrt{1+x^2}$.
@@ -35,8 +31,6 @@ y'=\frac1{2\sqrt{1+x^2}}\cdot\left(1+x^2\right)'=\frac{2x}{2\sqrt{1+x^2}}=\frac{
 $$
 
 $\blacksquare$
-
----
 
 ## 2.2-3-4
 
@@ -50,8 +44,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-6
 
 Differentiate: $y=\frac12\left(e^x-e^{-x}\right)$.
@@ -63,8 +55,6 @@ y'=\frac12\left(e^x-\left(-e^{-x}\right)\right)=\frac12\left(e^x+e^{-x}\right).
 $$
 
 $\blacksquare$
-
----
 
 ## 2.2-3-8
 
@@ -78,8 +68,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-10
 
 Differentiate: $y=e^x+e^{x^2}+\cos x^2$.
@@ -92,8 +80,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-3-12
 
 Differentiate: $y=\arctan x^2$.
@@ -105,8 +91,6 @@ y'=\frac1{1+\left(x^2\right)^2}\cdot2x=\frac{2x}{1+x^4}.
 $$
 
 $\blacksquare$
-
----
 
 ## 2.2-3-14
 
@@ -128,8 +112,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.2-5
 
 A flywheel of radius $r$ rotates at constant angular velocity $\omega$, connected to a piston by a rod of length $a$ ($a> r$). Let $x=x\left(t\right)$ be the distance from the flywheel center to the piston endpoint at time $t$, with $x\left(0\right)=a+r$. Find $x\left(t\right)$, $x'\left(t\right)$, and $x'\left(0\right)$.
@@ -149,8 +131,6 @@ x'\left(t\right)=-r\omega\sin\omega t+\frac{-2r^2\omega\sin\omega t\cos\omega t}
 $$
 
 At $t=0$, $\sin0=0$, so $x'\left(0\right)=0$. $\blacksquare$
-
----
 
 ## 2.2-6
 

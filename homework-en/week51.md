@@ -4,8 +4,6 @@
 > 
 > $\int_0^\infty\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
 
----
-
 ## 12.6-1-1
 
 Evaluate $\int_0^\infty\frac{4\sqrt x}{\left(1+x\right)^2}\mathrm dx$.
@@ -13,8 +11,6 @@ Evaluate $\int_0^\infty\frac{4\sqrt x}{\left(1+x\right)^2}\mathrm dx$.
 ### Solution 12.6-1-1
 
 $2\pi$. $\blacksquare$
-
----
 
 ## 12.6-1-2
 
@@ -24,8 +20,6 @@ Evaluate $\int_0^\infty x^{-1/2}e^{-\alpha x}\mathrm dx$.
 
 $\sqrt{\frac\pi\alpha}$. $\blacksquare$
 
----
-
 ## 12.6-1-3
 
 Evaluate $\int_0^1 x^8\sqrt{1-x^3}\mathrm dx$.
@@ -33,8 +27,6 @@ Evaluate $\int_0^1 x^8\sqrt{1-x^3}\mathrm dx$.
 ### Solution 12.6-1-3
 
 $\frac{16}{315}$. $\blacksquare$
-
----
 
 ## 12.6-1-4
 
@@ -44,8 +36,6 @@ Evaluate $\int_0^{\pi/2}\sin^6x\cos^4x\,\mathrm dx$.
 
 $\frac{3\pi}{512}$. $\blacksquare$
 
----
-
 ## 12.6-1-9
 
 Evaluate $\int_0^1\frac{\mathrm dx}{\sqrt{1-x^4}}$.
@@ -54,8 +44,6 @@ Evaluate $\int_0^1\frac{\mathrm dx}{\sqrt{1-x^4}}$.
 
 $\frac14\Beta\left(\frac14,\frac12\right)$. $\blacksquare$
 
----
-
 ## 12.6-1-10
 
 Evaluate $\int_0^\infty\frac{\mathrm dx}{1+x^3}$.
@@ -63,8 +51,6 @@ Evaluate $\int_0^\infty\frac{\mathrm dx}{1+x^3}$.
 ### Solution 12.6-1-10
 
 $\frac13\Gamma\left(\frac13\right)\Gamma\left(\frac23\right)$. $\blacksquare$
-
----
 
 ## 12.6-2
 

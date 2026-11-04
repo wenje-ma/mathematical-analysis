@@ -12,8 +12,6 @@
 > 
 > If $\left\{b_n\right\}$ is monotone and bounded, and $\sum a_n$ converges, then $\sum a_nb_n$ converges.
 
----
-
 ## 10.3-2
 
 Prove: $\sum\frac{\cos nx}{n^p}$ converges absolutely for $p> 1$ and conditionally for $0< p\le1$.
@@ -22,8 +20,6 @@ Prove: $\sum\frac{\cos nx}{n^p}$ converges absolutely for $p> 1$ and conditional
 
 For $p> 1$, by comparison with $\sum\frac1{n^p}$. For $0< p\le1$, not absolutely convergent (since $\left|\cos nx\right|\ge\cos^2nx$), but convergent by Dirichlet's test. $\blacksquare$
 
----
-
 ## 10.3-4
 
 Prove the Dirichlet series has a half-line domain of convergence.
@@ -31,8 +27,6 @@ Prove the Dirichlet series has a half-line domain of convergence.
 ### Solution 10.3-4
 
 By Abel's test applied to $\frac{a_n}{n^x}=\frac{a_n}{n^{x_0}}\cdot\frac1{n^{x-x_0}}$. $\blacksquare$
-
----
 
 ## 10.3-5
 

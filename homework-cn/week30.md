@@ -4,8 +4,6 @@
 > 
 > 设 $f$ 在 $D$ 上连续, 变换 $F:\left(u,v\right)\mapsto\left(x\left(u,v\right),y\left(u,v\right)\right)$ 是 $G$ 到 $D$ 的一一映射, 雅可比行列式 $J\left(u,v\right)\ne0$. 则 $\iint_D f\,\mathrm dx\mathrm dy=\iint_G f\left(x\left(u,v\right),y\left(u,v\right)\right)\left|J\left(u,v\right)\right|\,\mathrm du\mathrm dv$.
 
----
-
 ## 8.3-1
 
 利用适当的坐标变换计算 $\iint_D\left(\sqrt{y/x}+\sqrt{xy}\right)\mathrm dx\mathrm dy$, 其中 $D$ 由 $xy=1$, $xy=9$, $y=x$, $y=4x$ 围成.
@@ -20,8 +18,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 8.3-4
 
 计算 $\iint_D\left(x+y\right)\mathrm dx\mathrm dy$, 其中 $D$ 由 $y=4x^2$, $y=9x^2$, $x=4y^2$, $x=9y^2$ 围成.
@@ -35,8 +31,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 8.3-6
 

@@ -20,8 +20,6 @@
 > 
 > 设 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 可导. 若 $f'\left(x\right)> 0$ ($\ge0$) 对一切 $x\in\left(a,b\right)$, 则 $y=f\left(x\right)$ 在 $\left[a,b\right]$ 上严格递增 (递增); 若 $f'\left(x\right)< 0$ ($\le0$) 对一切 $x\in\left(a,b\right)$, 则严格递减 (递减).
 
----
-
 ## 3.1-1
 
 设 $y=f\left(x\right)$ 在 $\left(-\infty,+\infty\right)$ 内可导, 且 $\lim_{x\to-\infty}f\left(x\right)=\lim_{x\to+\infty}f\left(x\right)$. 证明: 存在一点 $c\in\left(-\infty,+\infty\right)$ 使得 $f'\left(c\right)=0$.
@@ -43,8 +41,6 @@ f\left(x\right)< l+\varepsilon=\frac{f\left(x_0\right)+l}{2}< f\left(x_0\right).
 $$
 
 考虑闭区间 $\left[-A,A\right]$ 上的连续函数 $f$. 由于 $f\left(-A\right)< f\left(x_0\right)$ 且 $f\left(A\right)< f\left(x_0\right)$, 而 $x_0\in\left(-A,A\right)$, 故 $f$ 在 $\left[-A,A\right]$ 上的最大值不在端点处达到, 而在某点 $c\in\left(-A,A\right)$ 处达到. 于是 $c$ 为极大值点. 又 $f$ 在 $\left(-A,A\right)$ 内可导, 由**定理 1.1 (费马定理)**, $f'\left(c\right)=0$. $\blacksquare$
-
----
 
 ## 3.1-2
 
@@ -74,8 +70,6 @@ $$
 
 而 $p''\left(x\right)=n\left(n-1\right)x^{n-2}$. 因 $n$ 为奇数, $n-2$ 亦为奇数, 方程 $n\left(n-1\right)x^{n-2}=0$ 只有一个实根 $x=0$. 这与 $p''\left(\eta_1\right)=p''\left(\eta_2\right)=0$ 且 $\eta_1\ne\eta_2$ 矛盾. 故 $n$ 为奇数时 $p\left(x\right)$ 至多有三个实根. $\blacksquare$
 
----
-
 ## 3.1-4
 
 确定下列函数的单调区间:
@@ -98,8 +92,6 @@ $$
 
 (4) $f'\left(x\right)=4x^3-1$. 令 $f'\left(x\right)=0$, 得 $x=\sqrt\left[3\right]{\frac14}$. 当 $x< \sqrt\left[3\right]{\frac14}$ 时 $f'\left(x\right)< 0$, 当 $x> \sqrt\left[3\right]{\frac14}$ 时 $f'\left(x\right)> 0$. 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left(-\infty,\sqrt\left[3\right]{\frac14}\right]$ 上严格递减, 在 $\left[\sqrt\left[3\right]{\frac14},+\infty\right)$ 上严格递增. $\blacksquare$
 
----
-
 ## 3.1-5
 
 设 $f\left(x\right)$ 与 $g\left(x\right)$ 在 $\left[a,b\right]$ 上连续, 在 $\left(a,b\right)$ 中可导, 且有 $f'\left(x\right)> g'\left(x\right)$. 假定 $f\left(a\right)=g\left(a\right)$, 证明 $f\left(x\right)> g\left(x\right)$ 对一切 $x\in\left(a,b\right]$ 成立.
@@ -119,8 +111,6 @@ h\left(x\right)> h\left(a\right)=0,
 $$
 
 即 $f\left(x\right)-g\left(x\right)> 0$, 亦即 $f\left(x\right)> g\left(x\right)$. $\blacksquare$
-
----
 
 ## 3.1-6
 
@@ -156,8 +146,6 @@ $$
 
 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,\frac\pi2\right)$ 上严格递增. 故当 $0< x< \frac\pi2$ 时 $f\left(x\right)> f\left(0\right)=0$, 即 $\tan x> x$. $\blacksquare$
 
----
-
 ## 3.1-8
 
 设 $f\left(x\right)$ 在 $x_0$ 点的一个邻域 $U$ 内连续, 并在 $x_0$ 点的空心邻域 $U\setminus\left\{x_0\right\}$ 中可导. 试证明: 若极限 $\lim_{x\to x_0}f'\left(x\right)$ 存在, 则 $f\left(x\right)$ 在 $x_0$ 点可导, 且 $f'\left(x_0\right)=\lim_{x\to x_0}f'\left(x\right)$.
@@ -184,8 +172,6 @@ $$
 
 由导数的定义, $f$ 在 $x_0$ 点可导, 且 $f'\left(x_0\right)=A=\lim_{x\to x_0}f'\left(x\right)$. $\blacksquare$
 
----
-
 ## 3.1-10
 
 证明达布定理: 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中可导. 若存在 $x_1,x_2\in\left(a,b\right)$, 使得 $f'\left(x_1\right)> 0$, $f'\left(x_2\right)< 0$, 则 $x_1$ 与 $x_2$ 之间有一点 $c$, 使得 $f'\left(c\right)=0$.
@@ -208,8 +194,6 @@ $$
 
 考虑 $f$ 在闭区间 $\left[x_1,x_2\right]$ 上的最大值. 由上述讨论, $f$ 在 $x_1$ 右侧附近的点处函数值大于 $f\left(x_1\right)$, 故最大值不在 $x_1$ 处达到; 同理, 最大值不在 $x_2$ 处达到. 因此最大值在某点 $c\in\left(x_1,x_2\right)$ 处达到, 即 $c$ 为极大值点. 又 $f$ 在 $\left(a,b\right)$ 内可导, 由**定理 1.1 (费马定理)**, $f'\left(c\right)=0$. $\blacksquare$
 
----
-
 ## 3.1-11
 
 证明: 若 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 区间中可导, 且 $f'\left(x\right)\ne0$, 则 $f$ 在 $\left(a,b\right)$ 中要么严格递增, 要么严格递减.
@@ -217,8 +201,6 @@ $$
 ### 解答 3.1-11
 
 用反证法. 假定 $f$ 在 $\left(a,b\right)$ 中既不严格递增也不严格递减. 则由**定理 1.3 (拉格朗日中值定理)**, 存在两点使得 $f$ 的增量为正, 又存在两点使得 $f$ 的增量为负, 故 $f'$ 在某处取正值, 在某处取负值. 由 3.1-10 的达布定理, $f'$ 必取零值, 与 $f'\left(x\right)\ne0$ 矛盾. 故 $f$ 只能严格递增或严格递减. $\blacksquare$
-
----
 
 ## 3.1-13
 
@@ -233,8 +215,6 @@ f'\left(x\right)=e^x-1> 0\quad\left(x> 0\right).
 $$
 
 由**定理 1.5 (单调性判定)**, $f\left(x\right)$ 在 $\left[0,+\infty\right)$ 上严格递增. 故当 $x> 0$ 时 $f\left(x\right)> f\left(0\right)=0$, 即 $e^x> 1+x$. $\blacksquare$
-
----
 
 ## 3.1-14
 

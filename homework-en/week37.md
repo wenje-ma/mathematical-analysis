@@ -1,7 +1,5 @@
 # week37
 
----
-
 ## 9.5-1
 
 Find div and rot.
@@ -12,8 +10,6 @@ Find div and rot.
 
 (2) $\operatorname{div}\boldsymbol F=10x+2y+2z$, $\operatorname{rot}\boldsymbol F=\left(0,0,0\right)$. $\blacksquare$
 
----
-
 ## 9.5-2
 
 Prove: $\operatorname{div}\left(\Phi\boldsymbol F\right)=\Phi\operatorname{div}\boldsymbol F+\boldsymbol F\cdot\operatorname{grad}\Phi$.
@@ -21,8 +17,6 @@ Prove: $\operatorname{div}\left(\Phi\boldsymbol F\right)=\Phi\operatorname{div}\
 ### Solution 9.5-2
 
 By the product rule for divergence. $\blacksquare$
-
----
 
 ## 9.5-3
 
@@ -32,8 +26,6 @@ Prove: $\operatorname{rot}\left(\Phi\boldsymbol F\right)=\Phi\operatorname{rot}\
 
 By component-wise computation. $\blacksquare$
 
----
-
 ## 9.5-4
 
 Prove: $\operatorname{rot}\left(\operatorname{grad}\Phi\right)=0$.
@@ -41,8 +33,6 @@ Prove: $\operatorname{rot}\left(\operatorname{grad}\Phi\right)=0$.
 ### Solution 9.5-4
 
 Mixed partial derivatives commute. $\blacksquare$
-
----
 
 ## 9.5-5
 

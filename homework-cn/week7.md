@@ -8,8 +8,6 @@
 > 
 > 若 $y=g\left(u\right)$ 在 $u_0$ 点连续, $u=f\left(x\right)$ 在 $x_0$ 点连续且 $f\left(x_0\right)=u_0$, 则复合函数 $y=g\left(f\left(x\right)\right)$ 在 $x_0$ 点连续.
 
----
-
 ## 1.7-1
 
 指出下列函数的间断点及其类型:
@@ -46,8 +44,6 @@ $$
 
 (4) $x\to0$ 时 $\frac1x$ 振荡, $\sin\frac1x$ 在 $\left[-1,1\right]$ 内振荡, $e^{\sin\left(1/x\right)}$ 在 $e^{-1}$ 与 $e$ 之间振荡, 极限不存在, 故 $x=0$ 为第二类间断点 (振荡间断点). $\blacksquare$
 
----
-
 ## 1.7-2-2
 
 试用 $\varepsilon$-$\delta$ 语言证明: 若 $y=f\left(x\right)$ 在 $a$ 点连续, 则 $y=\left|f\left(x\right)\right|$ 在 $a$ 点连续.
@@ -61,8 +57,6 @@ $$
 $$
 
 故 $\left|f\left(x\right)\right|$ 在 $a$ 点连续. $\blacksquare$
-
----
 
 ## 1.7-3
 
@@ -96,8 +90,6 @@ $$
 
 底数趋于 $e$, 指数趋于 $1$, 故原式 $=e$. $\blacksquare$
 
----
-
 ## 1.7-4
 
 设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x=g\left(t\right)$ 当 $t\to\infty$ 时有极限, 且极限落在 $\left(a,b\right)$ 之中. 试证明
@@ -109,8 +101,6 @@ $$
 ### 解答 1.7-4
 
 设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-c\right|< \delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. 又因 $g\left(t\right)\to c$, 存在 $T> 0$, 当 $t> T$ 时 $\left|g\left(t\right)-c\right|< \delta$. 于是当 $t> T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
-
----
 
 ## 1.7-5
 
@@ -125,8 +115,6 @@ f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n
 $$
 
 故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv g$. $\blacksquare$
-
----
 
 ## 1.7-6
 

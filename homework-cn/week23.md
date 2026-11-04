@@ -4,8 +4,6 @@
 > 
 > 设 $y=f\left(x\right)$ 在 $x_0$ 点附近为有界函数. 则 $f$ 在 $x_0$ 点连续的充要条件是 $\omega_f\left(x_0\right)=0$.
 
----
-
 ## 5.1-4
 
 设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 为 $\left[a,b\right]$ 上的有界函数. 证明:
@@ -19,8 +17,6 @@
 (1) 对任意 $x\in\left[a,b\right]$, $f\left(x\right)\le\sup f$, $g\left(x\right)\le\sup g$. 故 $f\left(x\right)+g\left(x\right)\le\sup f+\sup g$. 即 $\sup f+\sup g$ 是 $f+g$ 的一个上界. 由上确界与下确界的定义, 上确界是最小上界, 得 $\sup\left\{f+g\right\}\le\sup f+\sup g$.
 
 (2) 同理, $f\left(x\right)+g\left(x\right)\ge\inf f+\inf g$, 故 $\inf\left\{f+g\right\}\ge\inf f+\inf g$. $\blacksquare$
-
----
 
 ## 5.1-5
 
@@ -36,8 +32,6 @@
 
 综合两方面, $\omega_f\left(I\right)=\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|\right\}$. $\blacksquare$
 
----
-
 ## 5.1-6
 
 设 $y=D\left(x\right)$ 为狄利克雷函数, 即 $D\left(x\right)=0$ ($x$ 为无理数), $D\left(x\right)=1$ ($x$ 为有理数). 证明: $D\left(x\right)$ 在任意区间中的振幅为 $1$, 且在每一点的振幅为 $1$.
@@ -48,8 +42,6 @@
 
 对任意点 $x_0$, 在 $x_0$ 的任意邻域内都既有有理数又有无理数. 故 $\omega_D\left(x_0\right)=1$. 由**定理 1.3 (连续的充要条件)**, $D\left(x\right)$ 在每一点都不连续. $\blacksquare$
 
----
-
 ## 5.1-7
 
 试利用非空有上界必有上确界的定理推出: 单调递增有上界的序列一定有极限.
@@ -59,8 +51,6 @@
 设 $\left\{a_n\right\}$ 单调递增且有上界. 由上确界存在定理, $E=\left\{a_n:n\ge1\right\}$ 有上确界 $l=\sup E$.
 
 对任意 $\varepsilon> 0$, 由上确界与下确界的定义, 存在 $N$ 使得 $a_N> l-\varepsilon$. 又因 $\left\{a_n\right\}$ 单调递增, 当 $n> N$ 时 $a_n\ge a_N> l-\varepsilon$. 另一方面 $a_n\le l< l+\varepsilon$. 故 $\left|a_n-l\right|< \varepsilon$. 由序列极限的定义, $\lim_{n\to\infty}a_n=l$. $\blacksquare$
-
----
 
 ## 5.1-9
 

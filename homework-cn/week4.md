@@ -16,8 +16,6 @@
 > 
 > 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le a_n\le b_n$ 对一切 $n\ge N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
 
----
-
 ## 1.4-1
 
 求下列极限:
@@ -70,8 +68,6 @@ $$
 
 由重要极限数 $e$, 底数趋于 $e$, 故极限为 $e^2$. $\blacksquare$
 
----
-
 ## 1.4-3-2
 
 利用单调有界序列有极限, 证明序列
@@ -99,8 +95,6 @@ a_n=\sum_{k=n+1}^{2n}\frac1k\le\frac{n}{n+1}< 1.
 $$
 
 由**定理 3.2 (实数域完备性)**, 单调递增有上界的序列有极限, 故 $\lim_{n\to\infty}a_n$ 存在. $\blacksquare$
-
----
 
 ## 1.4-4
 
@@ -148,8 +142,6 @@ $$
 
 故 $\left(1+\frac1n\right)^{n+1}$ 严格递减. $\blacksquare$
 
----
-
 ## 1.4-5
 
 证明
@@ -186,8 +178,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.4-6
 
 设 $\left\{a_n\right\}$ 为递增序列, 而 $\left\{b_n\right\}$ 为递减序列, 并假定 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$. 证明 $\lim a_n$ 与 $\lim b_n$ 都存在, 且相等.
@@ -205,8 +195,6 @@ A-B=\lim_{n\to\infty}\left(a_n-b_n\right)=0,
 $$
 
 故 $A=B$. $\blacksquare$
-
----
 
 ## 1.4-9
 
@@ -256,8 +244,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.4-10
 
 利用上题结果证明 $2< e< 3$.
@@ -274,8 +260,6 @@ $$
 
 且等号不可能成立 (因 $k=3$ 时 $1/6< 1/4$), 故 $e< 3$. 综上 $2< e< 3$. $\blacksquare$
 
----
-
 ## 1.4-14
 
 设有两个序列 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$, 其中 $\left\{a_n\right\}$ 为**无穷小量**, 而 $\left\{b_n\right\}$ 为有界序列, 即存在正数 $M$ 使得 $\left|b_n\right|\le M$ 对一切 $n$ 成立. 证明 $\lim_{n\to\infty}a_nb_n=0$.
@@ -289,8 +273,6 @@ $$
 $$
 
 当 $n\to\infty$ 时 $M\left|a_n\right|\to0$, 左端 $0\to0$. 由**定理 4.2 (夹逼定理)**, $\lim_{n\to\infty}\left|a_nb_n\right|=0$, 即 $\lim_{n\to\infty}a_nb_n=0$. $\blacksquare$
-
----
 
 ## 1.4-16
 
@@ -317,8 +299,6 @@ $$
 $$
 
 由**例 3.3 (正数的 $n$ 次方根趋于 $1$)**, 两端均趋于 $1$. 由**定理 4.2 (夹逼定理)**, $\sqrt\left[n\right]{a_n}\to1$. $\blacksquare$
-
----
 
 ## 1.4-18
 

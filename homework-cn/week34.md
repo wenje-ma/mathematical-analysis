@@ -12,8 +12,6 @@
 > 
 > $P\,\mathrm dx+Q\,\mathrm dy$ 为恰当微分形式的充要条件是 $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
 
----
-
 ## 9.2-1
 
 求 $\oint_{L^+}x^2\,\mathrm dy-y^2\,\mathrm dx$, 其中 $L$ 为椭圆周.
@@ -22,8 +20,6 @@
 
 由**定理 2.2 (格林公式)**, 原式 $=\iint_D\left(2x+2y\right)\,\mathrm dx\mathrm dy$. 由对称性, 积分为 $0$. $\blacksquare$
 
----
-
 ## 9.2-2
 
 求 $\int_L\left(x^2+y^2\right)\,\mathrm dx+\left(x^2-y\right)\,\mathrm dy$, 其中 $L$ 为 $y=\left|x\right|$ 上从 $\left(-1,1\right)$ 到 $\left(2,2\right)$ 的弧.
@@ -31,8 +27,6 @@
 ### 解答 9.2-2
 
 分段计算: $L_1$ 上 $=\frac56$, $L_2$ 上 $=6$. 故原式 $=\frac{41}{6}$. $\blacksquare$
-
----
 
 ## 9.2-3
 
@@ -52,8 +46,6 @@
 
 (3) $\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=8$. $=8\cdot\frac{\pi a^2}{8}=\pi a^2$. $\blacksquare$
 
----
-
 ## 9.2-4
 
 证明: $\oint_{L^+}f\left(xy\right)\left(y\,\mathrm dx+x\,\mathrm dy\right)=0$.
@@ -61,8 +53,6 @@
 ### 解答 9.2-4
 
 $P=yf\left(xy\right)$, $Q=xf\left(xy\right)$. 计算得 $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}=f\left(xy\right)+xyf'\left(xy\right)$. 由**定理 2.2 (格林公式)**, 原式 $=0$. $\blacksquare$
-
----
 
 ## 9.2-5-3
 
@@ -78,8 +68,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 9.2-6
 
 证明: $\oint_{L_r^+}\frac{x\,\mathrm dy-y\,\mathrm dx}{A^2x^2+B^2y^2}=\frac{2\pi}{AB}$.
@@ -87,8 +75,6 @@ $\blacksquare$
 ### 解答 9.2-6
 
 在 $L_r$ 上分母为 $r^2$. 由**定理 2.2 (格林公式)** 的推论, $\oint x\,\mathrm dy-y\,\mathrm dx=2m\left(D\right)$. 椭圆面积 $m\left(D\right)=\frac{\pi r^2}{AB}$. 故原式 $=\frac{2\pi}{AB}$. $\blacksquare$
-
----
 
 ## 9.2-7
 

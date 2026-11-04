@@ -4,8 +4,6 @@
 > 
 > If $f$ and $g$ have antiderivatives, then $\int\left[af\left(x\right)+bg\left(x\right)\right]\mathrm dx=a\int f\left(x\right)\,\mathrm dx+b\int g\left(x\right)\,\mathrm dx$.
 
----
-
 ## 4.1-1-1
 
 Find $\int\left(x^3+4\right)\,\mathrm dx$.
@@ -19,8 +17,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.1-1-4
 
@@ -36,8 +32,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-1-6
 
 Find $\int\left(3^x-4^{-x}\right)^2\,\mathrm dx$.
@@ -51,8 +45,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.1-1-8
 
@@ -68,8 +60,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-1-10
 
 Find $\int\left(a\,\mathrm{sh}\,x+b\,\mathrm{ch}\,x\right)\,\mathrm dx$.
@@ -83,8 +73,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.1-1-11
 
@@ -100,8 +88,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-1-12
 
 Find $\int\sin^2\frac x2\,\mathrm dx$.
@@ -116,8 +102,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-2
 
 Prove: $\int\frac{\mathrm dx}{x^2+a^2}=\frac1a\arctan\frac xa+C$ ($a> 0$).
@@ -131,8 +115,6 @@ $$
 $$
 
 By Definition of Antiderivative and Indefinite Integral, this is an antiderivative. $\blacksquare$
-
----
 
 ## 4.1-4
 

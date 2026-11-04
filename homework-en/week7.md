@@ -8,8 +8,6 @@
 > 
 > If $y=g\left(u\right)$ is continuous at $u_0$ and $u=f\left(x\right)$ is continuous at $x_0$ with $f\left(x_0\right)=u_0$, then $y=g\left(f\left(x\right)\right)$ is continuous at $x_0$.
 
----
-
 ## 1.7-1
 
 Find the discontinuities and their types:
@@ -46,8 +44,6 @@ But $f\left(0\right)=1$, so $x=0$ is a removable discontinuity (first kind).
 
 (4) As $x\to0$, $\frac1x$ oscillates, $\sin\frac1x$ oscillates in $\left[-1,1\right]$, and $e^{\sin\left(1/x\right)}$ oscillates between $e^{-1}$ and $e$; the limit does not exist, so $x=0$ is a second-kind (oscillating) discontinuity. $\blacksquare$
 
----
-
 ## 1.7-2-2
 
 Prove by $\varepsilon$-$\delta$ language: if $y=f\left(x\right)$ is continuous at $a$, then $y=\left|f\left(x\right)\right|$ is continuous at $a$.
@@ -61,8 +57,6 @@ $$
 $$
 
 Thus $\left|f\left(x\right)\right|$ is continuous at $a$. $\blacksquare$
-
----
 
 ## 1.7-3
 
@@ -96,8 +90,6 @@ $$
 
 The base tends to $e$ and the exponent to $1$, so the expression $=e$. $\blacksquare$
 
----
-
 ## 1.7-4
 
 Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and $x=g\left(t\right)$ have a limit as $t\to\infty$ lying in $\left(a,b\right)$. Prove
@@ -109,8 +101,6 @@ $$
 ### Solution 1.7-4
 
 Let $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-c\right|< \delta$ implies $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. Since $g\left(t\right)\to c$, there exists $T> 0$ such that $t> T$ implies $\left|g\left(t\right)-c\right|< \delta$. Thus for $t> T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$, i.e. $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
-
----
 
 ## 1.7-5
 
@@ -125,8 +115,6 @@ f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n
 $$
 
 Thus $f\left(x_0\right)=g\left(x_0\right)$. Since $x_0$ is arbitrary, $f\equiv g$. $\blacksquare$
-
----
 
 ## 1.7-6
 

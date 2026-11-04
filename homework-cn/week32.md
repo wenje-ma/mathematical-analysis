@@ -4,8 +4,6 @@
 > 
 > 设 $z=f\left(x,y\right)$ 在 $D$ 上有连续一阶偏导数, 则曲面面积 $S=\iint_D\sqrt{1+f_x^2+f_y^2}\,\mathrm dx\mathrm dy$.
 
----
-
 ## 8.5-1
 
 求锥面 $z=\sqrt{x^2+y^2}$ 被柱面 $z^2=2x$ 所割下部分的面积.
@@ -19,8 +17,6 @@ S=\sqrt2\cdot\pi.
 $$
 
 $\blacksquare$
-
----
 
 ## 8.5-2
 
@@ -36,8 +32,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 8.5-3
 
 求第一卦限中均匀椭球体 $\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}\le1$ 的质心坐标.
@@ -51,8 +45,6 @@ z_0=\frac{\iiint z\,\mathrm dV}{V}=\frac{3c}{8}.
 $$
 
 由对称性, $x_0=\frac{3a}{8}$, $y_0=\frac{3b}{8}$. 质心为 $\left(\frac{3a}{8},\frac{3b}{8},\frac{3c}{8}\right)$. $\blacksquare$
-
----
 
 ## 8.5-6
 

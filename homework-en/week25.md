@@ -8,8 +8,6 @@
 > 
 > Any open cover of a closed interval $\left[a,b\right]$ has a finite subcover.
 
----
-
 ## 5.3-2
 
 Prove $f\left(x\right)=\frac1x$ is not uniformly continuous on $\left(0,1\right)$.
@@ -17,8 +15,6 @@ Prove $f\left(x\right)=\frac1x$ is not uniformly continuous on $\left(0,1\right)
 ### Solution 5.3-2
 
 Take $\varepsilon_0=1$. For any $\delta> 0$, take $x_1=\frac\delta2$, $x_2=\frac\delta3$. Then $\left|x_1-x_2\right|< \delta$ but $\left|f\left(x_1\right)-f\left(x_2\right)\right|=\frac1\delta> 1$ when $\delta< 1$. $\blacksquare$
-
----
 
 ## 5.3-3
 
@@ -28,8 +24,6 @@ Construct an open cover of $E=\left\{\frac1n\right\}$ with no finite subcover.
 
 Take $I_n=\left(\frac1n-\frac1{4n^2},\frac1n+\frac1{4n^2}\right)$. Any finite subcollection covers only finitely many points. $\blacksquare$
 
----
-
 ## 5.3-4
 
 Prove every open cover of $E=\left\{\frac1n\right\}\cup\left\{0\right\}$ has a finite subcover.
@@ -37,8 +31,6 @@ Prove every open cover of $E=\left\{\frac1n\right\}\cup\left\{0\right\}$ has a f
 ### Solution 5.3-4
 
 Since $0\in E$, some open set $I_0$ contains a neighborhood $\left(-\delta,\delta\right)$ of $0$. Choose $N$ with $\frac1N< \delta$. Then $I_0$ covers all $\frac1n$ for $n> N$. The remaining finitely many points are covered by finitely many additional sets. $\blacksquare$
-
----
 
 ## 5.3-5
 
@@ -48,8 +40,6 @@ Prove $\sin x$ is uniformly continuous on $\mathbb R$.
 
 By **Theorem 1.3 (Lagrange Mean Value Theorem)**, $\left|\sin x_1-\sin x_2\right|\le\left|x_1-x_2\right|$. Take $\delta=\varepsilon$. $\blacksquare$
 
----
-
 ## 5.3-6
 
 Prove $\cos x$ is uniformly continuous on $\mathbb R$.
@@ -58,8 +48,6 @@ Prove $\cos x$ is uniformly continuous on $\mathbb R$.
 
 By **Theorem 1.3 (Lagrange Mean Value Theorem)**, $\left|\cos x_1-\cos x_2\right|\le\left|x_1-x_2\right|$. Take $\delta=\varepsilon$. $\blacksquare$
 
----
-
 ## 5.3-7
 
 Prove $f\left(x\right)=\sin 3x+5x+1$ is uniformly continuous on $\mathbb R$.
@@ -67,8 +55,6 @@ Prove $f\left(x\right)=\sin 3x+5x+1$ is uniformly continuous on $\mathbb R$.
 ### Solution 5.3-7
 
 $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le8\left|x_1-x_2\right|$. Take $\delta=\frac\varepsilon8$. $\blacksquare$
-
----
 
 ## 5.3-8
 

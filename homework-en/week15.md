@@ -12,8 +12,6 @@
 > 
 > If $f'\left(x_0\right)=0$ and $f''\left(x_0\right)$ exists, then $f''\left(x_0\right)> 0$ implies $x_0$ is a local minimum, and $f''\left(x_0\right)< 0$ implies $x_0$ is a local maximum.
 
----
-
 ## 3.3-1-1
 
 Find the stationary points of $y=x\left(3x^2-5\right)^2$ and classify them.
@@ -34,8 +32,6 @@ $$
 
 At $x=\sqrt{\frac53}$ and $x=-\frac1{\sqrt3}$, $y''> 0$ (local minima); at $x=-\sqrt{\frac53}$ and $x=\frac1{\sqrt3}$, $y''< 0$ (local maxima). By **Theorem 3.2 (Second Sufficient Condition for Extrema)**, the classification holds. $\blacksquare$
 
----
-
 ## 3.3-1-3
 
 Find the stationary points of $y=x\ln x$ ($x> 0$) and classify them.
@@ -43,8 +39,6 @@ Find the stationary points of $y=x\ln x$ ($x> 0$) and classify them.
 ### Solution 3.3-1-3
 
 $y'=\ln x+1=0$ gives $x=\frac1e$. Since $y''=\frac1x> 0$, by **Theorem 3.2 (Second Sufficient Condition for Extrema)**, $x=\frac1e$ is a local minimum with value $-\frac1e$. $\blacksquare$
-
----
 
 ## 3.3-2
 
@@ -55,8 +49,6 @@ Let $f$ be continuous on $\left[a,b\right]$ with a unique extremum point in $\le
 (1) Let $x_0$ be the unique extremum. If it is not a strict local maximum, then there are points arbitrarily close with $f\left(x\right)\ge f\left(x_0\right)$, which would force $f$ to be locally constant, yielding infinitely many extrema, contradicting uniqueness. Hence $x_0$ is strict.
 
 (2) Suppose $x_0$ is a local maximum. If $f\left(x_0\right)$ is not the global maximum, there exists $x_1$ with $f\left(x_1\right)> f\left(x_0\right)$. On $\left[x_0,x_1\right]$, since $f\left(x_1\right)> f\left(x_0\right)$ and $x_0$ is a strict local max, the minimum is attained at an interior point, giving a local minimum, contradicting uniqueness. Hence $f\left(x_0\right)$ is the global maximum. This is **Proposition 3.1 (Unique Extremum is Global)**. $\blacksquare$
-
----
 
 ## 3.3-3
 
@@ -78,8 +70,6 @@ $$
 
 Setting $T'\left(x\right)=0$ gives $\frac{\sin\alpha}{\sin\beta}=\frac{v_1}{v_2}$, i.e. Snell's law. Since $T''\left(x\right)> 0$, this is a minimum. By **Proposition 3.1 (Unique Extremum is Global)**, it is the global minimum time. $\blacksquare$
 
----
-
 ## 3.3-4
 
 A lamp moves along a vertical line $OB$, and $OA$ is a horizontal segment of length $a$. At what height above $O$ is the illumination at $A$ maximized?
@@ -100,8 +90,6 @@ $$
 
 Setting $J'\left(h\right)=0$ gives $h=\frac{a}{\sqrt2}$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, this is a maximum. By **Proposition 3.1 (Unique Extremum is Global)**, it is the global maximum. $\blacksquare$
 
----
-
 ## 3.3-5
 
 Prove $x^\alpha-\alpha x+\alpha-1\le0$ for all $x> 0$, where $0< \alpha< 1$.
@@ -109,8 +97,6 @@ Prove $x^\alpha-\alpha x+\alpha-1\le0$ for all $x> 0$, where $0< \alpha< 1$.
 ### Solution 3.3-5
 
 Let $f\left(x\right)=x^\alpha-\alpha x+\alpha-1$. Then $f'\left(x\right)=\alpha\left(x^{\alpha-1}-1\right)=0$ gives $x=1$. For $0< x< 1$, $f'> 0$; for $x> 1$, $f'< 0$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, $x=1$ is a maximum. Since $f\left(1\right)=0$, by **Proposition 3.1 (Unique Extremum is Global)**, $f\left(x\right)\le0$. $\blacksquare$
-
----
 
 ## 3.3-6
 
@@ -126,8 +112,6 @@ $$
 
 This is Young's inequality. $\blacksquare$
 
----
-
 ## 3.3-7
 
 Let $\triangle ABC$ have sides $a,b,c$ with $b=c$ and perimeter $a+b+c=2l$. When is the area maximized?
@@ -141,8 +125,6 @@ S=\frac12 a\sqrt{l^2-la}.
 $$
 
 Maximizing $S^2=\frac14\left(l^2a^2-la^3\right)$, the derivative $\left(S^2\right)'=\frac{la}{4}\left(2l-3a\right)=0$ gives $a=\frac{2l}{3}$. By **Theorem 3.1 (First Sufficient Condition for Extrema)**, this is a maximum. Then $b=c=\frac{2l}{3}$, so the area is maximized when the triangle is equilateral. $\blacksquare$
-
----
 
 ## 3.3-8
 

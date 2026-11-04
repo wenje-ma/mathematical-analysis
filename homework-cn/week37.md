@@ -1,7 +1,5 @@
 # week37
 
----
-
 ## 9.5-1
 
 求下列向量场的散度与旋度:
@@ -16,8 +14,6 @@
 
 (2) $\operatorname{div}\boldsymbol F=10x+2y+2z$, $\operatorname{rot}\boldsymbol F=\left(0,0,0\right)$. $\blacksquare$
 
----
-
 ## 9.5-2
 
 证明: $\operatorname{div}\left(\Phi\boldsymbol F\right)=\Phi\operatorname{div}\boldsymbol F+\boldsymbol F\cdot\operatorname{grad}\Phi$.
@@ -25,8 +21,6 @@
 ### 解答 9.5-2
 
 由散度的定义, 展开 $\frac{\partial\left(\Phi P\right)}{\partial x}+\frac{\partial\left(\Phi Q\right)}{\partial y}+\frac{\partial\left(\Phi R\right)}{\partial z}$, 合并同类项即得. $\blacksquare$
-
----
 
 ## 9.5-3
 
@@ -42,8 +36,6 @@ $$
 
 第二项即为 $\operatorname{grad}\Phi\times\boldsymbol F$ 的第一个分量. 同理验证其余分量. $\blacksquare$
 
----
-
 ## 9.5-4
 
 证明: $\operatorname{rot}\left(\operatorname{grad}\Phi\right)=0$.
@@ -51,8 +43,6 @@ $$
 ### 解答 9.5-4
 
 由旋度的定义, $\operatorname{rot}\left(\operatorname{grad}\Phi\right)$ 的每个分量均为二阶混合偏导数之差. 因二阶混合偏导数连续, 与求导次序无关, 故各分量均为 $0$. $\blacksquare$
-
----
 
 ## 9.5-5
 

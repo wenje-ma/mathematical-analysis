@@ -4,8 +4,6 @@
 > 
 > 设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在某个区间中有原函数. 则 $\int\left[af\left(x\right)+bg\left(x\right)\right]\mathrm dx=a\int f\left(x\right)\,\mathrm dx+b\int g\left(x\right)\,\mathrm dx$, 其中 $a,b$ 是两个任意常数.
 
----
-
 ## 4.1-1-1
 
 求不定积分 $\int\left(x^3+4\right)\,\mathrm dx$.
@@ -19,8 +17,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.1-1-4
 
@@ -36,8 +32,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-1-6
 
 求不定积分 $\int\left(3^x-4^{-x}\right)^2\,\mathrm dx$.
@@ -51,8 +45,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.1-1-8
 
@@ -68,8 +60,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-1-10
 
 求不定积分 $\int\left(a\,\mathrm{sh}\,x+b\,\mathrm{ch}\,x\right)\,\mathrm dx$.
@@ -83,8 +73,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.1-1-11
 
@@ -100,8 +88,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-1-12
 
 求不定积分 $\int\sin^2\frac x2\,\mathrm dx$.
@@ -116,8 +102,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.1-2
 
 证明: $\int\frac{\mathrm dx}{x^2+a^2}=\frac1a\arctan\frac xa+C$ ($a> 0$).
@@ -131,8 +115,6 @@ $$
 $$
 
 由原函数与不定积分的定义, 右端即为被积函数的一个原函数. 故 $\int\frac{\mathrm dx}{x^2+a^2}=\frac1a\arctan\frac xa+C$. $\blacksquare$
-
----
 
 ## 4.1-4
 

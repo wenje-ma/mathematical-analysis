@@ -12,8 +12,6 @@
 > 
 > 对于任意实数 $a,b,c$, 有: (1) $\left|a-b\right|\ge0$, 等号当且仅当 $a=b$ 时成立; (2) $\left|a-b\right|=\left|b-a\right|$; (3) $\left|a-c\right|\le\left|a-b\right|+\left|b-c\right|$.
 
----
-
 ## 1.1-3
 
 证明 $\sqrt2+\sqrt3$ 是无理数.
@@ -27,8 +25,6 @@ $$
 $$
 
 即 $\sqrt2=\frac{r^2-1}{2r}$. 若 $r\ne0$, 则右端 $\frac{r^2-1}{2r}$ 是有理数, 故 $\sqrt2\in\mathbb Q$, 这与**命题 1.3 ($\sqrt2$ 为无理数)** 矛盾. 若 $r=0$, 则 $\sqrt2+\sqrt3=0$, 更不可能. 故 $\sqrt2+\sqrt3$ 不是有理数, 即 $\sqrt2+\sqrt3$ 是无理数. $\blacksquare$
-
----
 
 ## 1.1-4
 
@@ -64,8 +60,6 @@ $$
 
 取 $\sqrt3$ 的 $n$ 位不足近似小数 $x_n$, 则 $x_n\in\mathbb Q\subset E$ (取 $m=x_n$, $n=0$), 且 $\left\{x_n\right\}$ 单调递增, 有上界 (如 $x_n< 2$), 但 $\left\{x_n\right\}$ 无限接近 $\sqrt3\notin E$. 于是由完备性的概念, $E$ 不是完备的. $\blacksquare$
 
----
-
 ## 1.1-6
 
 设
@@ -94,8 +88,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 1.1-7
 
 解下列不等式:
@@ -123,8 +115,6 @@ $$
 解得 $x> 0$.
 
 (4) 由**命题 1.6 (绝对值的性质)**(1)(3), $\left|x+2\right|< 1$ 即 $-1< x+2< 1$, 解得 $-3< x< -1$. $\blacksquare$
-
----
 
 ## 1.1-9
 
@@ -163,8 +153,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 1.1-11
 

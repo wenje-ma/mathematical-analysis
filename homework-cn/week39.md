@@ -16,8 +16,6 @@
 > 
 > 设 $f\left(x\right)$ 在 $\left[1,+\infty\right)$ 上正, 单调递减. 则 $\sum_{n=1}^\infty f\left(n\right)$ 与 $\int_1^{+\infty}f\left(x\right)\,\mathrm dx$ 同敛散.
 
----
-
 ## 10.2-1-15
 
 讨论 $\sum_{n=1}^\infty\frac{\left(n!\right)^2}{\left(2n\right)!}$ 的收敛性.
@@ -26,8 +24,6 @@
 
 $\frac{a_{n+1}}{a_n}=\frac{n+1}{2\left(2n+1\right)}\to\frac14< 1$. 由**定理 2.6 (达朗贝尔判别法)**, 级数收敛. $\blacksquare$
 
----
-
 ## 10.2-1-18
 
 讨论 $\sum_{n=3}^\infty\frac1{n\left(\ln\ln n\right)^q}$ ($q> 0$) 的收敛性.
@@ -35,8 +31,6 @@ $\frac{a_{n+1}}{a_n}=\frac{n+1}{2\left(2n+1\right)}\to\frac14< 1$. 由**定理 2
 ### 解答 10.2-1-18
 
 因 $\frac1{n\left(\ln\ln n\right)^q}> \frac1{n\ln n}$, 而 $\sum\frac1{n\ln n}$ 由**定理 2.9 (积分判别法)** 发散. 由**定理 2.2 (比较判别法)**, 原级数发散. $\blacksquare$
-
----
 
 ## 10.2-2
 
@@ -48,8 +42,6 @@ $\frac{a_{n+1}}{a_n}=\frac{n+1}{2\left(2n+1\right)}\to\frac14< 1$. 由**定理 2
 
 (i) $p> 1$ 时收敛; (ii) $p< 1$ 时发散; (iii) $p=1,q> 1$ 时收敛; (iv) $p=1,q\le1$ 时发散. $\blacksquare$
 
----
-
 ## 10.2-6
 
 设 $\lim_{n\to\infty}na_n=l\in\left(0,+\infty\right)$. 证明 $\sum a_n^2$ 收敛而 $\sum a_n$ 发散.
@@ -57,8 +49,6 @@ $\frac{a_{n+1}}{a_n}=\frac{n+1}{2\left(2n+1\right)}\to\frac14< 1$. 由**定理 2
 ### 解答 10.2-6
 
 由 $\lim_{n\to\infty}\frac{a_n}{1/n}=l\in\left(0,+\infty\right)$, 及**定理 2.3 (比较判别法的极限形式)**, $\sum a_n$ 与调和级数同发散. 又 $\lim_{n\to\infty}\frac{a_n^2}{1/n^2}=l^2\in\left(0,+\infty\right)$, 而 $\sum\frac1{n^2}$ 收敛, 故 $\sum a_n^2$ 收敛. $\blacksquare$
-
----
 
 ## 10.2-7
 

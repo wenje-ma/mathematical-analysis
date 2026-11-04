@@ -12,8 +12,6 @@
 > 
 > 设 $\left\{b_n\right\}$ 单调有界, 且 $\sum a_n$ 收敛, 则 $\sum a_nb_n$ 收敛.
 
----
-
 ## 10.3-2
 
 证明: $\sum_{n=1}^\infty\frac{\cos nx}{n^p}$ ($0< x< 2\pi$) 当 $p> 1$ 时绝对收敛, 当 $0< p\le1$ 时条件收敛.
@@ -24,8 +22,6 @@
 
 (2) $0< p\le1$ 时, 由 $\left|\cos nx\right|\ge\cos^2nx=\frac{1+\cos2nx}{2}$, 得 $\frac{\left|\cos nx\right|}{n^p}\ge\frac1{2n^p}+\frac{\cos2nx}{2n^p}$. 因 $\sum\frac1{n^p}$ 发散, 故原级数不绝对收敛. 又 $\sum\cos nx$ 部分和有界, $\frac1{n^p}$ 单调趋于零, 由**定理 3.2 (狄利克雷判别法)**, 原级数收敛. 故条件收敛. $\blacksquare$
 
----
-
 ## 10.3-4
 
 证明狄利克雷级数 $\sum\frac{a_n}{n^x}$ 的收敛域为半无限区间.
@@ -33,8 +29,6 @@
 ### 解答 10.3-4
 
 若 $\sum\frac{a_n}{n^{x_0}}$ 收敛且 $x> x_0$, 则 $\frac{a_n}{n^x}=\frac{a_n}{n^{x_0}}\cdot\frac1{n^{x-x_0}}$, 其中 $\frac1{n^{x-x_0}}$ 单调有界. 由**定理 3.3 (阿贝尔判别法)**, $\sum\frac{a_n}{n^x}$ 收敛. 发散情形同理反证. $\blacksquare$
-
----
 
 ## 10.3-5
 

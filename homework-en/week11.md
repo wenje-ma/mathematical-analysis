@@ -1,7 +1,5 @@
 # week11
 
----
-
 ## 2.4-1
 
 Find the $n$-th derivative of:
@@ -46,8 +44,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.4-4
 
 Let
@@ -74,8 +70,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 2.4-6
 
 Let $y=\frac{ax+b}{cx+d}$ with $ad-bc=1$. Prove:
@@ -99,8 +93,6 @@ y^{\left(n+1\right)}=\left(-1\right)^{n+1}n!c^{n-1}\cdot\left(-\left(n+1\right)\
 $$
 
 The induction is complete. $\blacksquare$
-
----
 
 ## 2.4-7
 

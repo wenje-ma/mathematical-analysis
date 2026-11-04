@@ -4,8 +4,6 @@
 > 
 > If $u\left(x\right)$ and $v\left(x\right)$ are differentiable, then $\int u\left(x\right)\,\mathrm dv\left(x\right)=u\left(x\right)v\left(x\right)-\int v\left(x\right)\,\mathrm du\left(x\right)$.
 
----
-
 ## 4.3-1-11
 
 Find $\int x\csc^2x\,\mathrm dx$.
@@ -20,8 +18,6 @@ $$
 
 $\blacksquare$
 
----
-
 ## 4.3-1-13
 
 Find $\int\sqrt{1+9x^2}\,\mathrm dx$.
@@ -35,8 +31,6 @@ $$
 $$
 
 $\blacksquare$
-
----
 
 ## 4.3-1-14
 
