@@ -46,9 +46,9 @@ $\blacksquare$
 
 ### 解答 6.1-5
 
-**必要性**: 设 $f$ 可积, 积分为 $I$. 对任意 $\varepsilon> 0$, 由定积分的定义, 当 $\lambda\left(T\right)$ 充分小时, 任意黎曼和都接近 $I$. 取 $\xi_i^*$ 接近 $m_i$, 得 $\left|\sum m_i\Delta x_i-I\right|< 2\varepsilon$. 同理 $\left|\sum M_i\Delta x_i-I\right|< 2\varepsilon$.
+必要性: 设 $f$ 可积, 积分为 $I$. 对任意 $\varepsilon> 0$, 由定积分的定义, 当 $\lambda\left(T\right)$ 充分小时, 任意黎曼和都接近 $I$. 取 $\xi_i^*$ 接近 $m_i$, 得 $\left|\sum m_i\Delta x_i-I\right|< 2\varepsilon$. 同理 $\left|\sum M_i\Delta x_i-I\right|< 2\varepsilon$.
 
-**充分性**: 设两极限均为 $I$. 对任意中间点 $\xi_i$, $m_i\le f\left(\xi_i\right)\le M_i$. 由夹逼定理, $\sum f\left(\xi_i\right)\Delta x_i\to I$. 由定积分的定义, $f$ 可积. $\blacksquare$
+充分性: 设两极限均为 $I$. 对任意中间点 $\xi_i$, $m_i\le f\left(\xi_i\right)\le M_i$. 由夹逼定理, $\sum f\left(\xi_i\right)\Delta x_i\to I$. 由定积分的定义, $f$ 可积. $\blacksquare$
 
 ## 6.1-6
 
@@ -118,9 +118,9 @@ $$
 
 ### 解答 6.2-4
 
-**充分性**: 若 $f\equiv0$, 显然成立.
+充分性: 若 $f\equiv0$, 显然成立.
 
-**必要性**: 反设存在 $x_0$ 使 $f\left(x_0\right)> 0$. 由连续性, 在 $x_0$ 的某邻域 $J$ 内 $f\left(x\right)> \frac{f\left(x_0\right)}2$. 由定积分的比较性质,
+必要性: 反设存在 $x_0$ 使 $f\left(x_0\right)> 0$. 由连续性, 在 $x_0$ 的某邻域 $J$ 内 $f\left(x\right)> \frac{f\left(x_0\right)}2$. 由定积分的比较性质,
 
 $$
 \int_a^b f\left(x\right)\,\mathrm dx\ge\int_J f\left(x\right)\,\mathrm dx\ge\frac{f\left(x_0\right)}2\cdot\left|J\right|> 0,
@@ -134,9 +134,9 @@ $$
 
 ### 解答 6.2-6
 
-**可积性**: 对每个小区间 $I_k$, 由三角不等式, $\omega_{\left|f\right|}\left(I_k\right)\le\omega_f\left(I_k\right)$. 故 $\sum\omega_{\left|f\right|}\Delta x_k\le\sum\omega_f\Delta x_k$. 由**定理 2.2 (可积的充要条件)**, $\left|f\right|$ 可积.
+可积性: 对每个小区间 $I_k$, 由三角不等式, $\omega_{\left|f\right|}\left(I_k\right)\le\omega_f\left(I_k\right)$. 故 $\sum\omega_{\left|f\right|}\Delta x_k\le\sum\omega_f\Delta x_k$. 由**定理 2.2 (可积的充要条件)**, $\left|f\right|$ 可积.
 
-**不等式**: 由 $-\left|f\right|\le f\le\left|f\right|$, 及定积分的比较性质,
+不等式: 由 $-\left|f\right|\le f\le\left|f\right|$, 及定积分的比较性质,
 
 $$
 -\int_a^b\left|f\right|\,\mathrm dx\le\int_a^b f\,\mathrm dx\le\int_a^b\left|f\right|\,\mathrm dx,

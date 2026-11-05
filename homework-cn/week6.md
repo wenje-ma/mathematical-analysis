@@ -26,11 +26,11 @@
 
 ## 1.4-14
 
-设有两个序列 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$, 其中 $\left\{a_n\right\}$ 为**无穷小量**, 而 $\left\{b_n\right\}$ 为有界序列, 即存在正数 $M$ 使得 $\left|b_n\right|\le M$ 对一切 $n$ 成立. 证明 $\lim_{n\to\infty}a_nb_n=0$.
+设有两个序列 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$, 其中 $\left\{a_n\right\}$ 为无穷小量, 而 $\left\{b_n\right\}$ 为有界序列, 即存在正数 $M$ 使得 $\left|b_n\right|\le M$ 对一切 $n$ 成立. 证明 $\lim_{n\to\infty}a_nb_n=0$.
 
 ### 解答 1.4-14
 
-因 $\left\{a_n\right\}$ 为**无穷小量**, 即 $\lim_{n\to\infty}a_n=0$. 又 $\left|b_n\right|\le M$, 故
+因 $\left\{a_n\right\}$ 为无穷小量, 即 $\lim_{n\to\infty}a_n=0$. 又 $\left|b_n\right|\le M$, 故
 
 $$
 0\le\left|a_nb_n\right|\le M\left|a_n\right|.

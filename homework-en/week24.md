@@ -30,9 +30,9 @@ Prove: $f\left(x\right)$ has a limit as $x\to a$ iff $\lim_{n\to\infty}f\left(x_
 
 ### Solution to 5.2-9
 
-**Necessity**: follows directly from the definition of functional limit.
+Necessity: follows directly from the definition of functional limit.
 
-**Sufficiency**: by 5.2-8, there exist sequences realizing the upper and lower limits. If all sequence limits agree, then upper and lower limits are equal. By **Theorem 2.1 (Upper/Lower Limit and Existence of Limit)**, the functional limit exists. $\blacksquare$
+Sufficiency: by 5.2-8, there exist sequences realizing the upper and lower limits. If all sequence limits agree, then upper and lower limits are equal. By **Theorem 2.1 (Upper/Lower Limit and Existence of Limit)**, the functional limit exists. $\blacksquare$
 
 ## 5.3-2
 

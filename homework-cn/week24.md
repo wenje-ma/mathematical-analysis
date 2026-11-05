@@ -36,9 +36,9 @@ $$
 
 ### 解答 5.2-9
 
-**必要性**: 设 $\lim_{x\to a}f\left(x\right)=l$. 对任意 $x_n\to a$, 由函数极限与序列极限的关系, $\lim_{n\to\infty}f\left(x_n\right)=l$.
+必要性: 设 $\lim_{x\to a}f\left(x\right)=l$. 对任意 $x_n\to a$, 由函数极限与序列极限的关系, $\lim_{n\to\infty}f\left(x_n\right)=l$.
 
-**充分性**: 由 5.2-8, 存在 $x_n'\to a$ 使得 $\lim f\left(x_n'\right)=\varlimsup f\left(x\right)$, 存在 $x_n''\to a$ 使得 $\lim f\left(x_n''\right)=\varliminf f\left(x\right)$. 由假定, 这两个极限相等, 即 $\varlimsup_{x\to a}f\left(x\right)=\varliminf_{x\to a}f\left(x\right)$. 由**定理 2.1 (上下极限与极限存在)**, $\lim_{x\to a}f\left(x\right)$ 存在. $\blacksquare$
+充分性: 由 5.2-8, 存在 $x_n'\to a$ 使得 $\lim f\left(x_n'\right)=\varlimsup f\left(x\right)$, 存在 $x_n''\to a$ 使得 $\lim f\left(x_n''\right)=\varliminf f\left(x\right)$. 由假定, 这两个极限相等, 即 $\varlimsup_{x\to a}f\left(x\right)=\varliminf_{x\to a}f\left(x\right)$. 由**定理 2.1 (上下极限与极限存在)**, $\lim_{x\to a}f\left(x\right)$ 存在. $\blacksquare$
 
 ## 5.3-2
 

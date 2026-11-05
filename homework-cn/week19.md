@@ -86,13 +86,13 @@ $$
 
 ### 解答 3.5-7-1
 
-**定义域**: $\left(-\infty,1\right)\cup\left(1,+\infty\right)$.
+定义域: $\left(-\infty,1\right)\cup\left(1,+\infty\right)$.
 
-**渐近线**: $\lim_{x\to1}y=\infty$, 故 $x=1$ 为垂直渐近线. 又 $\lim_{x\to\infty}\frac yx=1$, $\lim_{x\to\infty}\left(y-x\right)=5$, 故斜渐近线为 $y=x+5$.
+渐近线: $\lim_{x\to1}y=\infty$, 故 $x=1$ 为垂直渐近线. 又 $\lim_{x\to\infty}\frac yx=1$, $\lim_{x\to\infty}\left(y-x\right)=5$, 故斜渐近线为 $y=x+5$.
 
-**单调区间与极值**: $y'=\frac{\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^3}$. 令 $y'=0$, 得 $x=-1$ 或 $x=5$. 当 $x< 5$ 时 $y'\le0$ (除 $x=-1$ 外), 当 $x> 5$ 时 $y'> 0$. 故 $x=5$ 为极小值点, 极小值 $y\left(5\right)=\frac{27}2$. $x=-1$ 不是极值点.
+单调区间与极值: $y'=\frac{\left(x+1\right)^2\left(x-5\right)}{\left(x-1\right)^3}$. 令 $y'=0$, 得 $x=-1$ 或 $x=5$. 当 $x< 5$ 时 $y'\le0$ (除 $x=-1$ 外), 当 $x> 5$ 时 $y'> 0$. 故 $x=5$ 为极小值点, 极小值 $y\left(5\right)=\frac{27}2$. $x=-1$ 不是极值点.
 
-**凸凹性与拐点**: $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$. 当 $x< -1$ 时 $y''< 0$ (凹); 当 $x> -1$ 且 $x\ne1$ 时 $y''> 0$ (凸). 拐点为 $\left(-1,0\right)$. $\blacksquare$
+凸凹性与拐点: $y''=\frac{16\left(x+1\right)}{\left(x-1\right)^4}$. 当 $x< -1$ 时 $y''< 0$ (凹); 当 $x> -1$ 且 $x\ne1$ 时 $y''> 0$ (凸). 拐点为 $\left(-1,0\right)$. $\blacksquare$
 
 ## 3.5-7-2
 
@@ -100,13 +100,13 @@ $$
 
 ### 解答 3.5-7-2
 
-**定义域**: $\left(-\infty,+\infty\right)$.
+定义域: $\left(-\infty,+\infty\right)$.
 
-**渐近线**: $\lim_{x\to+\infty}xe^{-x}=0$, 故 $y=0$ 为水平渐近线.
+渐近线: $\lim_{x\to+\infty}xe^{-x}=0$, 故 $y=0$ 为水平渐近线.
 
-**单调区间与极值**: $y'=\left(1-x\right)e^{-x}$. 令 $y'=0$, 得 $x=1$. 当 $x< 1$ 时 $y'> 0$, 当 $x> 1$ 时 $y'< 0$. 故 $x=1$ 为极大值点, 极大值 $y\left(1\right)=\frac1e$.
+单调区间与极值: $y'=\left(1-x\right)e^{-x}$. 令 $y'=0$, 得 $x=1$. 当 $x< 1$ 时 $y'> 0$, 当 $x> 1$ 时 $y'< 0$. 故 $x=1$ 为极大值点, 极大值 $y\left(1\right)=\frac1e$.
 
-**凸凹性与拐点**: $y''=\left(x-2\right)e^{-x}$. 令 $y''=0$, 得 $x=2$. 当 $x< 2$ 时 $y''< 0$ (凹); 当 $x> 2$ 时 $y''> 0$ (凸). 拐点为 $\left(2,2e^{-2}\right)$. $\blacksquare$
+凸凹性与拐点: $y''=\left(x-2\right)e^{-x}$. 令 $y''=0$, 得 $x=2$. 当 $x< 2$ 时 $y''< 0$ (凹); 当 $x> 2$ 时 $y''> 0$ (凸). 拐点为 $\left(2,2e^{-2}\right)$. $\blacksquare$
 
 ## 3.5-7-3
 
@@ -114,13 +114,13 @@ $$
 
 ### 解答 3.5-7-3
 
-**定义域**: $\left(-\infty,+\infty\right)$. 函数为奇函数, 图形关于原点对称.
+定义域: $\left(-\infty,+\infty\right)$. 函数为奇函数, 图形关于原点对称.
 
-**渐近线**: $\lim_{x\to\pm\infty}xe^{-x^2}=0$, 故 $y=0$ 为水平渐近线.
+渐近线: $\lim_{x\to\pm\infty}xe^{-x^2}=0$, 故 $y=0$ 为水平渐近线.
 
-**单调区间与极值**: $y'=\left(1-2x^2\right)e^{-x^2}$. 令 $y'=0$, 得 $x=\pm\frac1{\sqrt2}$. 当 $x< -\frac1{\sqrt2}$ 时 $y'< 0$; 当 $-\frac1{\sqrt2}< x< \frac1{\sqrt2}$ 时 $y'> 0$; 当 $x> \frac1{\sqrt2}$ 时 $y'< 0$. 故 $x=-\frac1{\sqrt2}$ 为极小值点, 极小值 $-\frac1{\sqrt{2e}}$; $x=\frac1{\sqrt2}$ 为极大值点, 极大值 $\frac1{\sqrt{2e}}$.
+单调区间与极值: $y'=\left(1-2x^2\right)e^{-x^2}$. 令 $y'=0$, 得 $x=\pm\frac1{\sqrt2}$. 当 $x< -\frac1{\sqrt2}$ 时 $y'< 0$; 当 $-\frac1{\sqrt2}< x< \frac1{\sqrt2}$ 时 $y'> 0$; 当 $x> \frac1{\sqrt2}$ 时 $y'< 0$. 故 $x=-\frac1{\sqrt2}$ 为极小值点, 极小值 $-\frac1{\sqrt{2e}}$; $x=\frac1{\sqrt2}$ 为极大值点, 极大值 $\frac1{\sqrt{2e}}$.
 
-**凸凹性与拐点**: $y''=2x\left(2x^2-3\right)e^{-x^2}$. 令 $y''=0$, 得 $x=0$ 或 $x=\pm\sqrt{\frac32}$. 拐点为 $\left(0,0\right)$ 及 $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$. $\blacksquare$
+凸凹性与拐点: $y''=2x\left(2x^2-3\right)e^{-x^2}$. 令 $y''=0$, 得 $x=0$ 或 $x=\pm\sqrt{\frac32}$. 拐点为 $\left(0,0\right)$ 及 $\left(\pm\sqrt{\frac32},\pm\sqrt{\frac32}e^{-3/2}\right)$. $\blacksquare$
 
 ## 4.1-1-1
 

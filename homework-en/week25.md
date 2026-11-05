@@ -38,9 +38,9 @@ Prove: $f$ is integrable iff the lower and upper Darboux sums converge to the sa
 
 ### Solution to 6.1-5
 
-**Necessity**: if $f$ is integrable with integral $I$, then both lower and upper sums approach $I$.
+Necessity: if $f$ is integrable with integral $I$, then both lower and upper sums approach $I$.
 
-**Sufficiency**: if both limits equal $I$, then by squeeze theorem any Riemann sum approaches $I$. $\blacksquare$
+Sufficiency: if both limits equal $I$, then by squeeze theorem any Riemann sum approaches $I$. $\blacksquare$
 
 ## 6.1-6
 
