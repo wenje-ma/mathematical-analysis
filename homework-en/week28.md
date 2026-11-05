@@ -2,35 +2,35 @@
 
 > **Theorem 1.2 (Arc Length Formula)**
 > 
-> $s=\int_\alpha^\beta\sqrt{\left[x'\left(t\right)\right]^2+\left[y'\left(t\right)\right]^2+\left[z'\left(t\right)\right]^2}\,\mathrm dt$.
+> $s=\int_\alpha^\beta\sqrt{\left[x'\left(t\right)\right]^2+\left[y'\left(t\right)\right]^2+\left[z'\left(t\right)\right]^2}\,\mathrm{d}t$.
 
 > **Theorem 1.3 (Computation of First Type Line Integral)**
 > 
-> $\int_L f\,\mathrm ds=\int_\alpha^\beta f\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm dt$.
+> $\int_Lf\,\mathrm{d}s=\int_\alpha^\beta{f}\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm{d}t$.
 
 > **Theorem 2.2 (Green's Theorem)**
 > 
-> $\oint_{L^+}P\,\mathrm dx+Q\,\mathrm dy=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm dx\mathrm dy$.
+> $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=\iint_D\left(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\right)\mathrm{d}x\mathrm{d}y$.
 
 > **Theorem 2.4 (Path Independence Condition)**
 > 
-> The integral is path-independent iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
+> The integral is path-independent iff $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$.
 
 > **Theorem 2.5 (Exact Differential Form)**
 > 
-> $P\,\mathrm dx+Q\,\mathrm dy$ is exact iff $\frac{\partial Q}{\partial x}=\frac{\partial P}{\partial y}$.
+> $P\,\mathrm{d}x+Q\,\mathrm{d}y$ is exact iff $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$.
 
 > **Theorem 4.2 (Triple Integral by Cross-Section)**
 > 
-> $\iiint_\Omega f\,\mathrm dV=\iint_D\mathrm dx\mathrm dy\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm dz$.
+> $\iiint_\Omega{f}\,\mathrm{d}V=\iint_D\mathrm{d}x\mathrm{d}y\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm{d}z$.
 
 > **Theorem 4.4 (Change of Variables in Triple Integrals)**
 > 
-> $\iiint_\Omega f=\iiint_{\Omega'}f\left(x\left(u,v,w\right),\dots\right)\left|J\right|\,\mathrm du\mathrm dv\mathrm dw$. Cylindrical: $\left|J\right|=r$. Spherical: $\left|J\right|=\rho^2\sin\varphi$.
+> $\iiint_\Omega{f}=\iiint_{\Omega'}f\left(x\left(u,v,w\right),\dots\right)\left|J\right|\,\mathrm{d}u\mathrm{d}v\mathrm{d}w$. Cylindrical: $\left|J\right|=r$. Spherical: $\left|J\right|=\rho^2\sin\varphi$.
 
 > **Proposition 5.1 (Surface Area Formula)**
 > 
-> $S=\iint_D\sqrt{1+f_x^2+f_y^2}\,\mathrm dx\mathrm dy$.
+> $S=\iint_D\sqrt{1+f_x^2+f_y^2}\,\mathrm{d}x\mathrm{d}y$.
 
 ## 8.4-9
 
@@ -46,7 +46,7 @@ Compute $\iiint_\Omega\left(x+1\right)\left(y+1\right)$ over an ellipsoid.
 
 ### Solution to 8.4-10
 
-By symmetry, the result is the volume: $\frac{4\pi abc}{3}$. $\blacksquare$
+By symmetry, the result is the volume: $\frac{4\pi{a}bc}{3}$. $\blacksquare$
 
 ## 8.5-1
 
@@ -62,7 +62,7 @@ Find the area of $az=xy$ inside $x^2+y^2=a^2$.
 
 ### Solution to 8.5-2
 
-$S=\frac{2\pi a^2}{3}\left(2\sqrt2-1\right)$. $\blacksquare$
+$S=\frac{2\pi{a}^2}{3}\left(2\sqrt2-1\right)$. $\blacksquare$
 
 ## 8.5-3
 
@@ -78,7 +78,7 @@ Find the moment of inertia of a cube about the $z$-axis.
 
 ### Solution to 8.5-6
 
-$J_z=\frac{2\rho a^5}{3}$. $\blacksquare$
+$J_z=\frac{2\rho{a}^5}{3}$. $\blacksquare$
 
 ## 9.1-1
 
@@ -94,11 +94,11 @@ Find the arc length of the Archimedean spiral.
 
 ### Solution to 9.1-3
 
-By **Theorem 1.2 (Arc Length Formula)**, $s=a\pi\sqrt{1+4\pi^2}+\frac a2\ln\left(2\pi+\sqrt{1+4\pi^2}\right)$. $\blacksquare$
+By **Theorem 1.2 (Arc Length Formula)**, $s=a\pi\sqrt{1+4\pi^2}+\frac{a}2\ln\left(2\pi+\sqrt{1+4\pi^2}\right)$. $\blacksquare$
 
 ## 9.1-4
 
-Compute $\oint_L xy\,\mathrm ds$ over the diamond $\left|x\right|+\left|y\right|=a$.
+Compute $\oint_Lxy\,\mathrm{d}s$ over the diamond $\left|x\right|+\left|y\right|=a$.
 
 ### Solution to 9.1-4
 
@@ -106,7 +106,7 @@ By symmetry, the integral is $0$. $\blacksquare$
 
 ## 9.1-7
 
-Compute $\int_L xy\,\mathrm ds$ over the first-quadrant ellipse.
+Compute $\int_Lxy\,\mathrm{d}s$ over the first-quadrant ellipse.
 
 ### Solution to 9.1-7
 
@@ -114,15 +114,15 @@ $\frac{ab\left(a^2+ab+b^2\right)}{3\left(a+b\right)}$. $\blacksquare$
 
 ## 9.1-8
 
-Compute $\int_L x^2\,\mathrm ds$.
+Compute $\int_Lx^2\,\mathrm{d}s$.
 
 ### Solution to 9.1-8
 
-$\frac{2\pi a^3}{3}$. $\blacksquare$
+$\frac{2\pi{a}^3}{3}$. $\blacksquare$
 
 ## 9.2-1
 
-Compute $\oint_{L^+}x^2\,\mathrm dy-y^2\,\mathrm dx$.
+Compute $\oint_{L^+}x^2\,\mathrm{d}y-y^2\,\mathrm{d}x$.
 
 ### Solution to 9.2-1
 
@@ -142,12 +142,12 @@ Apply Green's theorem.
 
 ### Solution to 9.2-3
 
-(1) $\frac{\pi R^4}{2}$. (2) $\frac{25}{6}$. (3) $\pi a^2$. $\blacksquare$
+(1) $\frac{\pi{R}^4}{2}$. (2) $\frac{25}{6}$. (3) $\pi{a}^2$. $\blacksquare$
 
 ## 9.2-4
 
-Prove: $\oint_{L^+}f\left(xy\right)\left(y\,\mathrm dx+x\,\mathrm dy\right)=0$.
+Prove: $\oint_{L^+}f\left(xy\right)\left(y\,\mathrm{d}x+x\,\mathrm{d}y\right)=0$.
 
 ### Solution to 9.2-4
 
-Since $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$, Green's theorem gives $0$. $\blacksquare$
+Since $\frac{\partial{P}}{\partial{y}}=\frac{\partial{Q}}{\partial{x}}$, Green's theorem gives $0$. $\blacksquare$

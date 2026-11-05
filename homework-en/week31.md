@@ -2,7 +2,7 @@
 
 > **Theorem 1.1 (Weierstrass M-Test)**
 > 
-> If $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ and $M_n\to0$, then the convergence is uniform.
+> If $\left|f_n\left(x\right)-f\left(x\right)\right|\le{M}_n$ and $M_n\to0$, then the convergence is uniform.
 
 > **Theorem 1.2 (Continuity of the Limit Function)**
 > 
@@ -10,7 +10,7 @@
 
 > **Theorem 2.2 (Comparison Test)**
 > 
-> If $0\le a_n\le b_n$ and $\sum b_n$ converges, then $\sum a_n$ converges.
+> If $0\le{a}_n\le{b}_n$ and $\sum{b}_n$ converges, then $\sum{a}_n$ converges.
 
 > **Theorem 2.3 (Limit Form of Comparison Test)**
 > 
@@ -18,15 +18,15 @@
 
 > **Theorem 3.2 (Dirichlet's Test)**
 > 
-> If $\left\{b_n\right\}$ is monotone tending to $0$ and the partial sums of $\sum a_n$ are bounded, then $\sum a_nb_n$ converges.
+> If $\left\{b_n\right\}$ is monotone tending to $0$ and the partial sums of $\sum{a}_n$ are bounded, then $\sum{a}_nb_n$ converges.
 
 > **Theorem 3.3 (Abel's Test)**
 > 
-> If $\left\{b_n\right\}$ is monotone and bounded, and $\sum a_n$ converges, then $\sum a_nb_n$ converges.
+> If $\left\{b_n\right\}$ is monotone and bounded, and $\sum{a}_n$ converges, then $\sum{a}_nb_n$ converges.
 
 > **Theorem 4.1 (Relation between Infinite Products and Series)**
 > 
-> $\prod p_n$ converges iff $\sum\ln p_n$ converges, and $\prod p_n=\exp\left(\sum\ln p_n\right)$.
+> $\prod{p}_n$ converges iff $\sum\ln{p}_n$ converges, and $\prod{p}_n=\exp\left(\sum\ln{p}_n\right)$.
 
 > **Theorem 4.2 (Same-Sign Infinite Products)**
 > 
@@ -38,11 +38,11 @@
 
 ## 10.3-2
 
-Prove: $\sum\frac{\cos nx}{n^p}$ converges absolutely for $p> 1$ and conditionally for $0< p\le1$.
+Prove: $\sum\frac{\cos{n}x}{n^p}$ converges absolutely for $p>1$ and conditionally for $0<{}p\le1$.
 
 ### Solution to 10.3-2
 
-For $p> 1$, by comparison with $\sum\frac1{n^p}$. For $0< p\le1$, not absolutely convergent (since $\left|\cos nx\right|\ge\cos^2nx$), but convergent by Dirichlet's test. $\blacksquare$
+For $p>1$, by comparison with $\sum\frac1{n^p}$. For $0<{}p\le1$, not absolutely convergent (since $\left|\cos{n}x\right|\ge\cos^2nx$), but convergent by Dirichlet's test. $\blacksquare$
 
 ## 10.3-4
 
@@ -58,7 +58,7 @@ Prove: $S_{2n}=h_{2n}-h_n$, $S_{2n}\to\ln2$, and $\sum\frac{\left(-1\right)^{n-1
 
 ### Solution to 10.3-5
 
-Direct computation and using $h_n=\ln n+\gamma+o\left(1\right)$. $\blacksquare$
+Direct computation and using $h_n=\ln{n}+\gamma+o\left(1\right)$. $\blacksquare$
 
 ## 10.4-1-2
 
@@ -74,7 +74,7 @@ Discuss $\prod\left(1+\frac{x^n}{2^n}\right)$.
 
 ### Solution to 10.4-1-4
 
-Converges for $\left|x\right|< 2$, diverges otherwise. $\blacksquare$
+Converges for $\left|x\right|<2$, diverges otherwise. $\blacksquare$
 
 ## 10.4-1-6
 
@@ -86,11 +86,11 @@ Since $\ln\cos\frac1n\sim-\frac1{2n^2}$, converges. $\blacksquare$
 
 ## 10.4-1-8
 
-Discuss $\prod\left(1+\frac1{\sqrt n}\right)$.
+Discuss $\prod\left(1+\frac1{\sqrt{n}}\right)$.
 
 ### Solution to 10.4-1-8
 
-Diverges since $\sum\frac1{\sqrt n}$ diverges. $\blacksquare$
+Diverges since $\sum\frac1{\sqrt{n}}$ diverges. $\blacksquare$
 
 ## 10.4-2
 
@@ -126,7 +126,7 @@ Not uniformly convergent since $\sup\left|f_n\right|=1\not\to0$. $\blacksquare$
 
 ## 11.1-1-3
 
-Discuss $f_n\left(x\right)=\frac{\sin\left(nx+n\right)}n$ on $\mathbb R$.
+Discuss $f_n\left(x\right)=\frac{\sin\left(nx+n\right)}n$ on $\mathbb{R}$.
 
 ### Solution to 11.1-1-3
 

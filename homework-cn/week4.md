@@ -2,7 +2,7 @@
 
 > **命题 1.6 (绝对值的性质)**
 > 
-> 对于任意的 $x,y\in\mathbb R$, 有: (1) $\left|x\right|\ge0$, 等号当且仅当 $x=0$ 时成立; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
+> 对于任意的 $x,y\in\mathbb{R}$, 有: (1) $\left|x\right|\ge0$, 等号当且仅当 $x=0$ 时成立; (2) $\left|-x\right|=\left|x\right|$; (3) $\left|x+y\right|\le\left|x\right|+\left|y\right|$.
 
 > **命题 1.7 (三角不等式)**
 > 
@@ -10,11 +10,11 @@
 
 > **定理 3.1 (极限四则运算定理)**
 > 
-> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm b_n\right)=l_1\pm l_2$, $\lim\left(a_n\cdot b_n\right)=l_1\cdot l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
+> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm{b}_n\right)=l_1\pm{l}_2$, $\lim\left(a_n\cdot{b}_n\right)=l_1\cdot{l}_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
 > **定理 3.2 (实数域完备性)**
 > 
-> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb R$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限.
+> 设 $\left\{a_n\right\}$ 是一个单调递增有上界的实数序列, 则存在 $l\in\mathbb{R}$, 使得 $\left\{a_n\right\}$ 以 $l$ 为极限.
 
 > **例 3.3 (正数的 $n$ 次方根趋于 $1$)**
 > 
@@ -22,7 +22,7 @@
 
 > **定理 4.2 (夹逼定理)**
 > 
-> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le a_n\le b_n$ 对一切 $n\ge N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
+> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le{a}_n\le{b}_n$ 对一切 $n\ge{N}_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
 
 ## 1.3-2-4
 
@@ -98,7 +98,7 @@ $$
 \sin\left(\pi\sqrt{n^2+1}\right)=\sin\left(n\pi+\pi\left(\sqrt{n^2+1}-n\right)\right)=\left(-1\right)^n\sin\left(\pi\left(\sqrt{n^2+1}-n\right)\right).
 $$
 
-由 $\left|\sin t\right|\le\left|t\right|$,
+由 $\left|\sin{t}\right|\le\left|t\right|$,
 
 $$
 \left|\sin\left(\pi\sqrt{n^2+1}\right)\right|=\left|\sin\left(\pi\left(\sqrt{n^2+1}-n\right)\right)\right|\le\pi\left(\sqrt{n^2+1}-n\right)=\frac{\pi}{\sqrt{n^2+1}+n}\to0.
@@ -124,9 +124,9 @@ $$
 
 ### 解答 1.3-3
 
-(1) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n> N'$ 时 $n+k> N$, 从而 $\left|a_{n+k}-l\right|< \varepsilon$. 故 $\lim_{n\to\infty}a_{n+k}=l$.
+(1) 任给 $\varepsilon>0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n>{}N$ 时 $\left|a_n-l\right|<\varepsilon$. 取 $N'=\max\left(1,N-k+1\right)$, 则当 $n>{}N'$ 时 $n+k>{}N$, 从而 $\left|a_{n+k}-l\right|<\varepsilon$. 故 $\lim_{n\to\infty}a_{n+k}=l$.
 
-(2) 任给 $\varepsilon> 0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n> N'$ 时 $2n> N$ 且 $2n-1> N$, 从而 $\left|a_{2n}-l\right|< \varepsilon$ 且 $\left|a_{2n-1}-l\right|< \varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
+(2) 任给 $\varepsilon>0$, 由序列极限的定义, 存在自然数 $N$ 使得当 $n>{}N$ 时 $\left|a_n-l\right|<\varepsilon$. 取 $N'=\left[N/2\right]+1$, 则当 $n>{}N'$ 时 $2n>{}N$ 且 $2n-1>{}N$, 从而 $\left|a_{2n}-l\right|<\varepsilon$ 且 $\left|a_{2n-1}-l\right|<\varepsilon$. 故两子序列均以 $l$ 为极限. $\blacksquare$
 
 ## 1.3-4
 
@@ -134,17 +134,17 @@ $$
 
 ### 解答 1.3-4
 
-由**命题 1.7 (三角不等式)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\varepsilon> 0$, 由序列极限的定义, 存在 $N$ 使得当 $n> N$ 时 $\left|a_n-l\right|< \varepsilon$. 于是当 $n> N$ 时
+由**命题 1.7 (三角不等式)**, $\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|$. 任给 $\varepsilon>0$, 由序列极限的定义, 存在 $N$ 使得当 $n>{}N$ 时 $\left|a_n-l\right|<\varepsilon$. 于是当 $n>{}N$ 时
 
 $$
-\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|< \varepsilon.
+\left|\left|a_n\right|-\left|l\right|\right|\le\left|a_n-l\right|<\varepsilon.
 $$
 
 由序列极限的定义, $\lim_{n\to\infty}\left|a_n\right|=\left|l\right|$. $\blacksquare$
 
 ## 1.3-5
 
-令 $x_1> \sqrt2$, $x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)$, $n=1,2,\cdots$. 证明:
+令 $x_1>\sqrt2$, $x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)$, $n=1,2,\cdots$. 证明:
 
 (1) $x_n\ge\sqrt2$;
 
@@ -160,7 +160,7 @@ $$
 x_{n+1}=\frac12\left(x_n+\frac2{x_n}\right)\ge\sqrt{x_n\cdot\frac2{x_n}}=\sqrt2.
 $$
 
-由归纳法, $x_n\ge\sqrt2$ 对一切 $n$ 成立 ($x_1> \sqrt2$ 为基始).
+由归纳法, $x_n\ge\sqrt2$ 对一切 $n$ 成立 ($x_1>\sqrt2$ 为基始).
 
 (2)
 
@@ -176,7 +176,7 @@ $$
 l=\frac12\left(l+\frac2l\right),
 $$
 
-即 $l^2=2$. 又 $l\ge\sqrt2> 0$, 故 $l=\sqrt2$. $\blacksquare$
+即 $l^2=2$. 又 $l\ge\sqrt2>0$, 故 $l=\sqrt2$. $\blacksquare$
 
 ## 1.4-1
 
@@ -206,10 +206,10 @@ $$
 \left(1-\frac1{n^2}\right)^{n^2+1}=\left(1-\frac1{n^2}\right)^{n^2}\cdot\left(1-\frac1{n^2}\right).
 $$
 
-令 $m=-n^2$, 则 $\left(1+\frac1m\right)^m\to e$, 故
+令 $m=-n^2$, 则 $\left(1+\frac1m\right)^m\to{e}$, 故
 
 $$
-\left(1-\frac1{n^2}\right)^{n^2}=\left[\left(1+\frac1{-n^2}\right)^{-n^2}\right]^{-1}\to e^{-1},
+\left(1-\frac1{n^2}\right)^{n^2}=\left[\left(1+\frac1{-n^2}\right)^{-n^2}\right]^{-1}\to{e}^{-1},
 $$
 
 且 $\left(1-\frac1{n^2}\right)\to1$. 故极限为 $e^{-1}=\frac1e$.

@@ -2,7 +2,7 @@
 
 > **Theorem 5.1 (Parametric Differentiation Formula)**
 > 
-> If $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ are differentiable at $t_0$ with $\varphi'\left(t_0\right)\ne0$, then $\frac{\mathrm dy}{\mathrm dx}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
+> If $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ are differentiable at $t_0$ with $\varphi'\left(t_0\right)\ne0$, then $\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
 
 ## 2.4-4
 
@@ -19,7 +19,7 @@ Prove that both the first and second derivatives at $0$ are $0$.
 First derivative:
 
 $$
-f'\left(0\right)=\lim_{x\to0}\frac{e^{-1/x^2}-0}{x}=\lim_{t\to\infty}\frac{t}{e^{t^2}}=0\quad\left(\text{with }t=1/x,\text{ exponential grows faster than powers}\right).
+f'\left(0\right)=\lim_{x\to0}\frac{e^{-1/x^2}-0}{x}=\lim_{t\to\infty}\frac{t}{e^{t^2}}=0\quad\left(\text{with~}t=1/x,\text{~exponential~grows~faster~than~powers}\right).
 $$
 
 Second derivative: for $x\ne0$, $f'\left(x\right)=\frac2{x^3}e^{-1/x^2}$. Thus
@@ -81,41 +81,41 @@ $$
 In general, by Leibniz Formula,
 
 $$
-W^{\left(n\right)}\left(x\right)=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(n-k\right)}\\f_{21}&f_{22}\end{vmatrix}+\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}&f_{12}\\f_{21}^{\left(k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
+W^{\left(n\right)}\left(x\right)=\sum_{k=0}^n\binom{n}k\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(n-k\right)}\\f_{21}&f_{22}\end{vmatrix}+\sum_{k=0}^n\binom{n}k\begin{vmatrix}f_{11}&f_{12}\\f_{21}^{\left(k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
 $$
 
 Or more compactly,
 
 $$
-W^{\left(n\right)}=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(k\right)}\\f_{21}^{\left(n-k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
+W^{\left(n\right)}=\sum_{k=0}^n\binom{n}k\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(k\right)}\\f_{21}^{\left(n-k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
 $$
 
 $\blacksquare$
 
 ## 2.5-1-2
 
-Find $\frac{\mathrm dy}{\mathrm dx}$ for: $\begin{cases}x=t\ln t,\\y=e^t.\end{cases}$
+Find $\frac{\mathrm{d}y}{\mathrm{d}x}$ for: $\begin{cases}x=t\ln{t},\\y=e^t.\end{cases}$
 
 ### Solution to 2.5-1-2
 
-$\frac{\mathrm dx}{\mathrm dt}=\ln t+1$, $\frac{\mathrm dy}{\mathrm dt}=e^t$. By **Theorem 5.1 (Parametric Differentiation Formula)**,
+$\frac{\mathrm{d}x}{\mathrm{d}t}=\ln{t}+1$, $\frac{\mathrm{d}y}{\mathrm{d}t}=e^t$. By **Theorem 5.1 (Parametric Differentiation Formula)**,
 
 $$
-\frac{\mathrm dy}{\mathrm dx}=\frac{e^t}{\ln t+1}.
+\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{e^t}{\ln{t}+1}.
 $$
 
 $\blacksquare$
 
 ## 2.5-1-4
 
-Find $\frac{\mathrm dy}{\mathrm dx}$ for: $\begin{cases}x=\cos^4t,\\y=\sin^4t.\end{cases}$
+Find $\frac{\mathrm{d}y}{\mathrm{d}x}$ for: $\begin{cases}x=\cos^4t,\\y=\sin^4t.\end{cases}$
 
 ### Solution to 2.5-1-4
 
-$\frac{\mathrm dx}{\mathrm dt}=-4\cos^3t\sin t$, $\frac{\mathrm dy}{\mathrm dt}=4\sin^3t\cos t$. By **Theorem 5.1 (Parametric Differentiation Formula)**,
+$\frac{\mathrm{d}x}{\mathrm{d}t}=-4\cos^3t\sin{t}$, $\frac{\mathrm{d}y}{\mathrm{d}t}=4\sin^3t\cos{t}$. By **Theorem 5.1 (Parametric Differentiation Formula)**,
 
 $$
-\frac{\mathrm dy}{\mathrm dx}=\frac{4\sin^3t\cos t}{-4\cos^3t\sin t}=-\tan^2t.
+\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{4\sin^3t\cos{t}}{-4\cos^3t\sin{t}}=-\tan^2t.
 $$
 
 $\blacksquare$
@@ -126,7 +126,7 @@ The curve is given by $\begin{cases}x=1-t^2,\\y=t-t^2.\end{cases}$ Find the tang
 
 ### Solution to 2.5-3
 
-$\frac{\mathrm dx}{\mathrm dt}=-2t$, $\frac{\mathrm dy}{\mathrm dt}=1-2t$, $\frac{\mathrm dy}{\mathrm dx}=\frac{1-2t}{-2t}=\frac{2t-1}{2t}$.
+$\frac{\mathrm{d}x}{\mathrm{d}t}=-2t$, $\frac{\mathrm{d}y}{\mathrm{d}t}=1-2t$, $\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{1-2t}{-2t}=\frac{2t-1}{2t}$.
 
 At $t=1$: $x=0$, $y=0$, slope $k=\frac{2-1}{2}=\frac12$. Tangent: $y=\frac12x$.
 
@@ -140,24 +140,24 @@ $\blacksquare$
 
 ## 2.5-4
 
-Let $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ be differentiable at $t_0$ with $\varphi'\left(t_0\right)\ne0$. For $\Delta t\ne0$, set
+Let $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ be differentiable at $t_0$ with $\varphi'\left(t_0\right)\ne0$. For $\Delta{t}\ne0$, set
 
 $$
-\Delta x=\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right),\quad\Delta y=\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right).
+\Delta{x}=\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right),\quad\Delta{y}=\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right).
 $$
 
-Prove $\lim_{\Delta t\to0}\frac{\Delta y}{\Delta x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.
+Prove $\lim_{\Delta{t}\to0}\frac{\Delta{y}}{\Delta{x}}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.
 
 ### Solution to 2.5-4
 
 $$
-\frac{\Delta y}{\Delta x}=\frac{\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right)}{\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right)}=\frac{\frac{\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right)}{\Delta t}}{\frac{\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right)}{\Delta t}}.
+\frac{\Delta{y}}{\Delta{x}}=\frac{\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right)}{\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right)}=\frac{\frac{\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right)}{\Delta{t}}}{\frac{\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right)}{\Delta{t}}}.
 $$
 
-As $\Delta t\to0$, the numerator tends to $\psi'\left(t_0\right)$ and the denominator to $\varphi'\left(t_0\right)\ne0$. By arithmetic of limits,
+As $\Delta{t}\to0$, the numerator tends to $\psi'\left(t_0\right)$ and the denominator to $\varphi'\left(t_0\right)\ne0$. By arithmetic of limits,
 
 $$
-\lim_{\Delta t\to0}\frac{\Delta y}{\Delta x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}.
+\lim_{\Delta{t}\to0}\frac{\Delta{y}}{\Delta{x}}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}.
 $$
 
 $\blacksquare$

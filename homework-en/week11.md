@@ -2,44 +2,44 @@
 
 > **Theorem 2.1 (Chain Rule)**
 > 
-> If $y=f\left(u\right)$ is differentiable at $u$ and $u=g\left(x\right)$ is differentiable at $x$, then $y=f\left(g\left(x\right)\right)$ is differentiable at $x$ and $\frac{\mathrm dy}{\mathrm dx}=\frac{\mathrm dy}{\mathrm du}\cdot\frac{\mathrm du}{\mathrm dx}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
+> If $y=f\left(u\right)$ is differentiable at $u$ and $u=g\left(x\right)$ is differentiable at $x$, then $y=f\left(g\left(x\right)\right)$ is differentiable at $x$ and $\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\mathrm{d}y}{\mathrm{d}u}\cdot\frac{\mathrm{d}u}{\mathrm{d}x}=f'\left(g\left(x\right)\right)g'\left(x\right)$.
 
 ## 2.2-3-14
 
-Differentiate: $y=x^{\sqrt x}$.
+Differentiate: $y=x^{\sqrt{x}}$.
 
 ### Solution to 2.2-3-14
 
-Taking logs: $\ln y=\sqrt x\ln x$. Differentiating both sides:
+Taking logs: $\ln{y}=\sqrt{x}\ln{x}$. Differentiating both sides:
 
 $$
-\frac{y'}y=\frac1{2\sqrt x}\ln x+\frac{\sqrt x}{x}=\frac{\ln x}{2\sqrt x}+\frac1{\sqrt x}.
+\frac{y'}y=\frac1{2\sqrt{x}}\ln{x}+\frac{\sqrt{x}}{x}=\frac{\ln{x}}{2\sqrt{x}}+\frac1{\sqrt{x}}.
 $$
 
 Thus
 
 $$
-y'=x^{\sqrt x}\left(\frac{\ln x}{2\sqrt x}+\frac1{\sqrt x}\right).
+y'=x^{\sqrt{x}}\left(\frac{\ln{x}}{2\sqrt{x}}+\frac1{\sqrt{x}}\right).
 $$
 
 $\blacksquare$
 
 ## 2.2-5
 
-A flywheel of radius $r$ rotates at constant angular velocity $\omega$, connected to a piston by a rod of length $a$ ($a> r$). Let $x=x\left(t\right)$ be the distance from the flywheel center to the piston endpoint at time $t$, with $x\left(0\right)=a+r$. Find $x\left(t\right)$, $x'\left(t\right)$, and $x'\left(0\right)$.
+A flywheel of radius $r$ rotates at constant angular velocity $\omega$, connected to a piston by a rod of length $a$ ($a>{}r$). Let $x=x\left(t\right)$ be the distance from the flywheel center to the piston endpoint at time $t$, with $x\left(0\right)=a+r$. Find $x\left(t\right)$, $x'\left(t\right)$, and $x'\left(0\right)$.
 
 ### Solution to 2.2-5
 
-Let the flywheel angle be $\theta\left(t\right)=\omega t$. Geometrically,
+Let the flywheel angle be $\theta\left(t\right)=\omega{t}$. Geometrically,
 
 $$
-x\left(t\right)=r\cos\omega t+\sqrt{a^2-r^2\sin^2\omega t}.
+x\left(t\right)=r\cos\omega{t}+\sqrt{a^2-r^2\sin^2\omega{t}}.
 $$
 
 Differentiating,
 
 $$
-x'\left(t\right)=-r\omega\sin\omega t+\frac{-2r^2\omega\sin\omega t\cos\omega t}{2\sqrt{a^2-r^2\sin^2\omega t}}=-r\omega\sin\omega t\left(1+\frac{r\cos\omega t}{\sqrt{a^2-r^2\sin^2\omega t}}\right).
+x'\left(t\right)=-r\omega\sin\omega{t}+\frac{-2r^2\omega\sin\omega{t}\cos\omega{t}}{2\sqrt{a^2-r^2\sin^2\omega{t}}}=-r\omega\sin\omega{t}\left(1+\frac{r\cos\omega{t}}{\sqrt{a^2-r^2\sin^2\omega{t}}}\right).
 $$
 
 At $t=0$, $\sin0=0$, so $x'\left(0\right)=0$. $\blacksquare$
@@ -50,7 +50,7 @@ Let $y=y\left(x\right)$ be the implicit function defined by the following equati
 
 (1) $x^2+y^2=R^2$ ($y\ne0$);
 
-(2) $y^2-2xy-x^2-2x=4$ ($y\ne x$).
+(2) $y^2-2xy-x^2-2x=4$ ($y\ne{x}$).
 
 ### Solution to 2.2-6
 
@@ -88,19 +88,19 @@ As $x\to0$, determine the order of the infinitesimal $y=\ln\left(1+x^2\right)+x^
 
 ### Solution to 2.3-1-4
 
-$\ln\left(1+x^2\right)\sim x^2$ and $x^3=o\left(x^2\right)$. By Definition of Higher-Order Infinitesimal, $y\sim x^2$, which is second-order. $\blacksquare$
+$\ln\left(1+x^2\right)\sim{x}^2$ and $x^3=o\left(x^2\right)$. By Definition of Higher-Order Infinitesimal, $y\sim{x}^2$, which is second-order. $\blacksquare$
 
 ## 2.3-3-1
 
-Compute the differential at $x_0$: $f\left(x\right)=x^2\arcsin x$, $x_0=0$.
+Compute the differential at $x_0$: $f\left(x\right)=x^2\arcsin{x}$, $x_0=0$.
 
 ### Solution to 2.3-3-1
 
 $$
-f'\left(x\right)=2x\arcsin x+\frac{x^2}{\sqrt{1-x^2}}.
+f'\left(x\right)=2x\arcsin{x}+\frac{x^2}{\sqrt{1-x^2}}.
 $$
 
-$f'\left(0\right)=0$. Hence $\mathrm df\big|_{x_0=0}=0\cdot\mathrm dx=0$. $\blacksquare$
+$f'\left(0\right)=0$. Hence $\mathrm{d}f\big|_{x_0=0}=0\cdot\mathrm{d}x=0$. $\blacksquare$
 
 ## 2.3-3-4
 
@@ -108,7 +108,7 @@ Compute the differential at $x_0$: $f\left(x\right)=x\ln\left(1+x\right)$, $x_0=
 
 ### Solution to 2.3-3-4
 
-$f'\left(x\right)=\ln\left(1+x\right)+\frac{x}{1+x}$. $f'\left(0\right)=0$. Hence $\mathrm df\big|_{x_0=0}=0$. $\blacksquare$
+$f'\left(x\right)=\ln\left(1+x\right)+\frac{x}{1+x}$. $f'\left(0\right)=0$. Hence $\mathrm{d}f\big|_{x_0=0}=0$. $\blacksquare$
 
 ## 2.3-4-2
 
@@ -120,57 +120,57 @@ $$
 f'\left(x\right)=\frac1{x+\sqrt{x^2+1}}\cdot\left(1+\frac{x}{\sqrt{x^2+1}}\right)=\frac1{x+\sqrt{x^2+1}}\cdot\frac{\sqrt{x^2+1}+x}{\sqrt{x^2+1}}=\frac1{\sqrt{x^2+1}}.
 $$
 
-Hence $\mathrm df=\frac1{\sqrt{x^2+1}}\mathrm dx$. $\blacksquare$
+Hence $\mathrm{d}f=\frac1{\sqrt{x^2+1}}\mathrm{d}x$. $\blacksquare$
 
 ## 2.3-4-4
 
-Find the differential: $f\left(x\right)=\sqrt{1+x^2}+\sqrt x\sin x$.
+Find the differential: $f\left(x\right)=\sqrt{1+x^2}+\sqrt{x}\sin{x}$.
 
 ### Solution to 2.3-4-4
 
 $$
-f'\left(x\right)=\frac{x}{\sqrt{1+x^2}}+\frac1{2\sqrt x}\sin x+\sqrt x\cos x.
+f'\left(x\right)=\frac{x}{\sqrt{1+x^2}}+\frac1{2\sqrt{x}}\sin{x}+\sqrt{x}\cos{x}.
 $$
 
 Hence
 
 $$
-\mathrm df=\left(\frac{x}{\sqrt{1+x^2}}+\frac{\sin x}{2\sqrt x}+\sqrt x\cos x\right)\mathrm dx.
+\mathrm{d}f=\left(\frac{x}{\sqrt{1+x^2}}+\frac{\sin{x}}{2\sqrt{x}}+\sqrt{x}\cos{x}\right)\mathrm{d}x.
 $$
 
 $\blacksquare$
 
 ## 2.3-5-1
 
-Fill in: $\mathrm d\left(\right)=x^n\mathrm dx$.
+Fill in: $\mathrm{d}\left(\right)=x^n\mathrm{d}x$.
 
 ### Solution to 2.3-5-1
 
 $$
-\mathrm d\left(\frac{x^{n+1}}{n+1}\right)=x^n\mathrm dx\quad\left(n\ne-1\right).
+\mathrm{d}\left(\frac{x^{n+1}}{n+1}\right)=x^n\mathrm{d}x\quad\left(n\ne-1\right).
 $$
 
 $\blacksquare$
 
 ## 2.3-5-3
 
-Fill in: $\mathrm d\left(\right)=\left(e^x+\sin2x\right)\mathrm dx$.
+Fill in: $\mathrm{d}\left(\right)=\left(e^x+\sin2x\right)\mathrm{d}x$.
 
 ### Solution to 2.3-5-3
 
 $$
-\mathrm d\left(e^x-\frac12\cos2x\right)=\left(e^x+\sin2x\right)\mathrm dx.
+\mathrm{d}\left(e^x-\frac12\cos2x\right)=\left(e^x+\sin2x\right)\mathrm{d}x.
 $$
 
 $\blacksquare$
 
 ## 2.3-5-5
 
-Fill in: $\mathrm d\left(\right)=\frac{\sin x}{\cos x}\mathrm dx$.
+Fill in: $\mathrm{d}\left(\right)=\frac{\sin{x}}{\cos{x}}\mathrm{d}x$.
 
 ### Solution to 2.3-5-5
 
-$\mathrm d\left(-\ln\left|\cos x\right|\right)=\frac{\sin x}{\cos x}\mathrm dx$. $\blacksquare$
+$\mathrm{d}\left(-\ln\left|\cos{x}\right|\right)=\frac{\sin{x}}{\cos{x}}\mathrm{d}x$. $\blacksquare$
 
 ## 2.3-6
 
@@ -178,10 +178,10 @@ Compute the approximate value of $\tan\left(\frac\pi4+0.01\right)$.
 
 ### Solution to 2.3-6
 
-Let $f\left(x\right)=\tan x$, $x_0=\frac\pi4$, $\Delta x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. By the approximation formula from Definition of Differential,
+Let $f\left(x\right)=\tan{x}$, $x_0=\frac\pi4$, $\Delta{x}=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. By the approximation formula from Definition of Differential,
 
 $$
-f\left(x_0+\Delta x\right)\approx f\left(x_0\right)+f'\left(x_0\right)\Delta x,
+f\left(x_0+\Delta{x}\right)\approx{f}\left(x_0\right)+f'\left(x_0\right)\Delta{x},
 $$
 
 $$
@@ -205,13 +205,13 @@ By Definition of Higher-Order Derivatives, the $n$-th derivative is obtained by 
 (1) By Leibniz Formula, with $u=x^2$, $v=e^x$:
 
 $$
-u'=2x,\quad u''=2,\quad u^{\left(k\right)}=0\quad\left(k\ge3\right).
+u'=2x,\quad{u}''=2,\quad{u}^{\left(k\right)}=0\quad\left(k\ge3\right).
 $$
 
 Thus
 
 $$
-y^{\left(n\right)}=x^2e^x+2nx e^x+n\left(n-1\right)e^x=e^x\left[x^2+2nx+n\left(n-1\right)\right].
+y^{\left(n\right)}=x^2e^x+2nxe^x+n\left(n-1\right)e^x=e^x\left[x^2+2nx+n\left(n-1\right)\right].
 $$
 
 (4) $y'=\ln\left(1+x\right)+\frac{x}{1+x}$.

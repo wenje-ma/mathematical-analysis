@@ -6,27 +6,27 @@
 
 > **Theorem 4.1 (Bessel's Inequality)**
 > 
-> $\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)\le\frac1\pi\int f^2$.
+> $\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)\le\frac1\pi\int{f}^2$.
 
 > **Theorem 4.2 (Parseval's Identity)**
 > 
-> $\frac1\pi\int f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
+> $\frac1\pi\int{f}^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
 > **Proposition (Integral Forms)**
 > 
-> $\int_0^\infty\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm dx=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^m x\cos^n x\,\mathrm dx=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
+> $\int_0^\infty\frac{x^{a-1}}{\left(1+x\right)^{a+b}}\mathrm{d}x=\Beta\left(a,b\right)$; $\int_0^{\pi/2}\sin^mx\cos^nx\,\mathrm{d}x=\frac12\Beta\left(\frac{m+1}2,\frac{n+1}2\right)$.
 
 > **Proposition (Orthogonality of Trigonometric System)**
 > 
-> $1,\cos x,\sin x,\cdots$ are pairwise orthogonal on $\left[-\pi,\pi\right]$, with $\int1=2\pi$, $\int\cos^2nx=\int\sin^2nx=\pi$.
+> $1,\cos{x},\sin{x},\cdots$ are pairwise orthogonal on $\left[-\pi,\pi\right]$, with $\int1=2\pi$, $\int\cos^2nx=\int\sin^2nx=\pi$.
 
 > **Proposition (Fourier Coefficients)**
 > 
-> $a_n=\frac1\pi\int_{-\pi}^\pi f\cos nx$, $b_n=\frac1\pi\int_{-\pi}^\pi f\sin nx$.
+> $a_n=\frac1\pi\int_{-\pi}^\pi{f}\cos{n}x$, $b_n=\frac1\pi\int_{-\pi}^\pi{f}\sin{n}x$.
 
 > **Theorem (Parseval's Identity)**
 > 
-> $\frac1\pi\int_{-\pi}^\pi f^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
+> $\frac1\pi\int_{-\pi}^\pi{f}^2=\frac{a_0^2}2+\sum\left(a_n^2+b_n^2\right)$.
 
 ## 12.6-2
 
@@ -50,7 +50,7 @@ Prove the Cauchy-Schwarz inequality.
 
 ### Solution to 13.1-2
 
-By $\left|f-\lambda g\right|^2\ge0$ and discriminant. $\blacksquare$
+By $\left|f-\lambda{g}\right|^2\ge0$ and discriminant. $\blacksquare$
 
 ## 13.1-3
 
@@ -74,7 +74,7 @@ Find the Fourier series of $f\left(x\right)=x^2$.
 
 ### Solution to 13.2-1-1
 
-$x^2\sim\frac{\pi^2}3+4\sum\frac{\left(-1\right)^n}{n^2}\cos nx$. $\blacksquare$
+$x^2\sim\frac{\pi^2}3+4\sum\frac{\left(-1\right)^n}{n^2}\cos{n}x$. $\blacksquare$
 
 ## 13.2-1-3
 
@@ -90,7 +90,7 @@ Find the Fourier series of the given piecewise function.
 
 ### Solution to 13.2-1-5
 
-$f\left(x\right)\sim\frac\pi4-\frac2\pi\sum\frac{\cos\left(2k+1\right)x}{\left(2k+1\right)^2}+\sum\frac{\left(-1\right)^{n+1}}n\sin nx$. $\blacksquare$
+$f\left(x\right)\sim\frac\pi4-\frac2\pi\sum\frac{\cos\left(2k+1\right)x}{\left(2k+1\right)^2}+\sum\frac{\left(-1\right)^{n+1}}n\sin{n}x$. $\blacksquare$
 
 ## 13.2-7
 

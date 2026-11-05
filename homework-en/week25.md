@@ -6,7 +6,7 @@
 
 > **Proposition 1.3 (Necessary and Sufficient Condition for Measurable Area)**
 > 
-> $E$ is measurable iff $\partial E$ has zero area.
+> $E$ is measurable iff $\partial{E}$ has zero area.
 
 > **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**
 > 
@@ -30,7 +30,7 @@ Express the area as an integral; find $\int_c^d\varphi+\int_a^b\psi$.
 
 ### Solution to 6.1-3
 
-The area is $\int_c^d\varphi\left(y\right)\,\mathrm dy$. The sum equals $bd-ac$. $\blacksquare$
+The area is $\int_c^d\varphi\left(y\right)\,\mathrm{d}y$. The sum equals $bd-ac$. $\blacksquare$
 
 ## 6.1-5
 
@@ -46,9 +46,9 @@ Sufficiency: if both limits equal $I$, then by squeeze theorem any Riemann sum a
 
 Prove:
 
-(1) $\frac\pi2\le\int_0^{\pi/2}\left(1+\sin x\right)\,\mathrm dx\le\pi$;
+(1) $\frac\pi2\le\int_0^{\pi/2}\left(1+\sin{x}\right)\,\mathrm{d}x\le\pi$;
 
-(2) $\sqrt2\le\int_0^1\sqrt{2+x-x^2}\,\mathrm dx\le\frac32$.
+(2) $\sqrt2\le\int_0^1\sqrt{2+x-x^2}\,\mathrm{d}x\le\frac32$.
 
 ### Solution to 6.1-6
 
@@ -56,14 +56,14 @@ By the comparison property of integrals. $\blacksquare$
 
 ## 6.1-8
 
-Prove: $\int_a^b f\left(x\right)\,\mathrm dx=F\left(b\right)-F\left(a\right)$.
+Prove: $\int_a^bf\left(x\right)\,\mathrm{d}x=F\left(b\right)-F\left(a\right)$.
 
 ### Solution to 6.1-8
 
 For any partition, by **Theorem 1.3 (Lagrange Mean Value Theorem)**,
 
 $$
-F\left(b\right)-F\left(a\right)=\sum f\left(\xi_k\right)\Delta x_k.
+F\left(b\right)-F\left(a\right)=\sum{f}\left(\xi_k\right)\Delta{x}_k.
 $$
 
 Taking the limit gives the result. $\blacksquare$
@@ -78,32 +78,32 @@ By **Lemma 2.1 (Effect of Refining a Partition)**, the oscillation sum on $\left
 
 ## 6.2-2
 
-Prove: if $f$ and $g$ are integrable, then $f\cdot g$ is integrable.
+Prove: if $f$ and $g$ are integrable, then $f\cdot{g}$ is integrable.
 
 ### Solution to 6.2-2
 
-Using $\omega_{fg}\le M\omega_g+N\omega_f$ and **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$
+Using $\omega_{fg}\le{M}\omega_g+N\omega_f$ and **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$
 
 ## 6.2-4
 
-Let $f$ be continuous, $f\ge0$. Prove $\int_a^b f=0$ iff $f\equiv0$.
+Let $f$ be continuous, $f\ge0$. Prove $\int_a^bf=0$ iff $f\equiv0$.
 
 ### Solution to 6.2-4
 
-If $f\left(x_0\right)> 0$, continuity gives a neighborhood where $f> \frac{f\left(x_0\right)}2$. By comparison property, the integral is positive. $\blacksquare$
+If $f\left(x_0\right)>0$, continuity gives a neighborhood where $f>\frac{f\left(x_0\right)}2$. By comparison property, the integral is positive. $\blacksquare$
 
 ## 6.2-6
 
-Prove: if $f$ is integrable, then $\left|f\right|$ is integrable and $\left|\int_a^b f\right|\le\int_a^b\left|f\right|$.
+Prove: if $f$ is integrable, then $\left|f\right|$ is integrable and $\left|\int_a^bf\right|\le\int_a^b\left|f\right|$.
 
 ### Solution to 6.2-6
 
-Since $\omega_{\left|f\right|}\le\omega_f$, **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)** gives integrability of $\left|f\right|$. The inequality follows from $-\left|f\right|\le f\le\left|f\right|$ and the comparison property. $\blacksquare$
+Since $\omega_{\left|f\right|}\le\omega_f$, **Theorem 2.2 (Necessary and Sufficient Condition for Integrability)** gives integrability of $\left|f\right|$. The inequality follows from $-\left|f\right|\le{f}\le\left|f\right|$ and the comparison property. $\blacksquare$
 
 ## 8.1-2
 
-Prove: if $f$ and $g$ are integrable on $D$, then $f\cdot g$ is integrable.
+Prove: if $f$ and $g$ are integrable on $D$, then $f\cdot{g}$ is integrable.
 
 ### Solution to 8.1-2
 
-Using $\omega_{fg}\le A\omega_g+B\omega_f$ and **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$
+Using $\omega_{fg}\le{A}\omega_g+B\omega_f$ and **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**, the result follows. $\blacksquare$

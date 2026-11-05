@@ -2,7 +2,7 @@
 
 > **定理 5.1 (参变量函数求导公式)**
 > 
-> 设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$, 则参变量函数的导数为 $\frac{\mathrm dy}{\mathrm dx}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
+> 设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$, 则参变量函数的导数为 $\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{\psi'\left(t\right)}{\varphi'\left(t\right)}$.
 
 ## 2.4-4
 
@@ -19,7 +19,7 @@ $$
 一阶导数:
 
 $$
-f'\left(0\right)=\lim_{x\to0}\frac{e^{-1/x^2}-0}{x}=\lim_{t\to\infty}\frac{t}{e^{t^2}}=0\quad\left(\text{令 }t=1/x,\text{ 指数增长快于幂函数}\right).
+f'\left(0\right)=\lim_{x\to0}\frac{e^{-1/x^2}-0}{x}=\lim_{t\to\infty}\frac{t}{e^{t^2}}=0\quad\left(\text{令~}t=1/x,\text{~指数增长快于幂函数}\right).
 $$
 
 二阶导数: 对 $x\ne0$, $f'\left(x\right)=\frac2{x^3}e^{-1/x^2}$. 故
@@ -81,41 +81,41 @@ $$
 一般地, 由莱布尼茨公式,
 
 $$
-W^{\left(n\right)}\left(x\right)=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(n-k\right)}\\f_{21}&f_{22}\end{vmatrix}+\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}&f_{12}\\f_{21}^{\left(k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
+W^{\left(n\right)}\left(x\right)=\sum_{k=0}^n\binom{n}k\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(n-k\right)}\\f_{21}&f_{22}\end{vmatrix}+\sum_{k=0}^n\binom{n}k\begin{vmatrix}f_{11}&f_{12}\\f_{21}^{\left(k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
 $$
 
 或更简洁地:
 
 $$
-W^{\left(n\right)}=\sum_{k=0}^n\binom nk\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(k\right)}\\f_{21}^{\left(n-k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
+W^{\left(n\right)}=\sum_{k=0}^n\binom{n}k\begin{vmatrix}f_{11}^{\left(k\right)}&f_{12}^{\left(k\right)}\\f_{21}^{\left(n-k\right)}&f_{22}^{\left(n-k\right)}\end{vmatrix}.
 $$
 
 $\blacksquare$
 
 ## 2.5-1-2
 
-求下列参变量函数的导数 $\frac{\mathrm dy}{\mathrm dx}$: $\begin{cases}x=t\ln t,\\y=e^t.\end{cases}$
+求下列参变量函数的导数 $\frac{\mathrm{d}y}{\mathrm{d}x}$: $\begin{cases}x=t\ln{t},\\y=e^t.\end{cases}$
 
 ### 解答 2.5-1-2
 
-$\frac{\mathrm dx}{\mathrm dt}=\ln t+1$, $\frac{\mathrm dy}{\mathrm dt}=e^t$. 由**定理 5.1 (参变量函数求导公式)**,
+$\frac{\mathrm{d}x}{\mathrm{d}t}=\ln{t}+1$, $\frac{\mathrm{d}y}{\mathrm{d}t}=e^t$. 由**定理 5.1 (参变量函数求导公式)**,
 
 $$
-\frac{\mathrm dy}{\mathrm dx}=\frac{e^t}{\ln t+1}.
+\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{e^t}{\ln{t}+1}.
 $$
 
 $\blacksquare$
 
 ## 2.5-1-4
 
-求下列参变量函数的导数 $\frac{\mathrm dy}{\mathrm dx}$: $\begin{cases}x=\cos^4t,\\y=\sin^4t.\end{cases}$
+求下列参变量函数的导数 $\frac{\mathrm{d}y}{\mathrm{d}x}$: $\begin{cases}x=\cos^4t,\\y=\sin^4t.\end{cases}$
 
 ### 解答 2.5-1-4
 
-$\frac{\mathrm dx}{\mathrm dt}=-4\cos^3t\sin t$, $\frac{\mathrm dy}{\mathrm dt}=4\sin^3t\cos t$. 由**定理 5.1 (参变量函数求导公式)**,
+$\frac{\mathrm{d}x}{\mathrm{d}t}=-4\cos^3t\sin{t}$, $\frac{\mathrm{d}y}{\mathrm{d}t}=4\sin^3t\cos{t}$. 由**定理 5.1 (参变量函数求导公式)**,
 
 $$
-\frac{\mathrm dy}{\mathrm dx}=\frac{4\sin^3t\cos t}{-4\cos^3t\sin t}=-\tan^2t.
+\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{4\sin^3t\cos{t}}{-4\cos^3t\sin{t}}=-\tan^2t.
 $$
 
 $\blacksquare$
@@ -126,7 +126,7 @@ $\blacksquare$
 
 ### 解答 2.5-3
 
-$\frac{\mathrm dx}{\mathrm dt}=-2t$, $\frac{\mathrm dy}{\mathrm dt}=1-2t$, $\frac{\mathrm dy}{\mathrm dx}=\frac{1-2t}{-2t}=\frac{2t-1}{2t}$.
+$\frac{\mathrm{d}x}{\mathrm{d}t}=-2t$, $\frac{\mathrm{d}y}{\mathrm{d}t}=1-2t$, $\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{1-2t}{-2t}=\frac{2t-1}{2t}$.
 
 当 $t=1$ 时: $x=0$, $y=0$, 斜率 $k=\frac{2-1}{2}=\frac12$. 切线方程: $y=\frac12x$.
 
@@ -140,24 +140,24 @@ $\blacksquare$
 
 ## 2.5-4
 
-设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$. 令 $\Delta t\ne0$,
+设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$. 令 $\Delta{t}\ne0$,
 
 $$
-\Delta x=\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right),\quad\Delta y=\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right).
+\Delta{x}=\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right),\quad\Delta{y}=\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right).
 $$
 
-试证明 $\lim_{\Delta t\to0}\frac{\Delta y}{\Delta x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.
+试证明 $\lim_{\Delta{t}\to0}\frac{\Delta{y}}{\Delta{x}}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.
 
 ### 解答 2.5-4
 
 $$
-\frac{\Delta y}{\Delta x}=\frac{\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right)}{\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right)}=\frac{\frac{\psi\left(t_0+\Delta t\right)-\psi\left(t_0\right)}{\Delta t}}{\frac{\varphi\left(t_0+\Delta t\right)-\varphi\left(t_0\right)}{\Delta t}}.
+\frac{\Delta{y}}{\Delta{x}}=\frac{\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right)}{\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right)}=\frac{\frac{\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right)}{\Delta{t}}}{\frac{\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right)}{\Delta{t}}}.
 $$
 
-当 $\Delta t\to0$ 时, 分子趋于 $\psi'\left(t_0\right)$, 分母趋于 $\varphi'\left(t_0\right)\ne0$. 由极限四则运算,
+当 $\Delta{t}\to0$ 时, 分子趋于 $\psi'\left(t_0\right)$, 分母趋于 $\varphi'\left(t_0\right)\ne0$. 由极限四则运算,
 
 $$
-\lim_{\Delta t\to0}\frac{\Delta y}{\Delta x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}.
+\lim_{\Delta{t}\to0}\frac{\Delta{y}}{\Delta{x}}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}.
 $$
 
 $\blacksquare$

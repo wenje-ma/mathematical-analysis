@@ -26,25 +26,25 @@ $$
 
 ### Solution to 1.7-4
 
-Let $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By Definition of Continuous Function, given $\varepsilon> 0$, there exists $\delta> 0$ such that $\left|x-c\right|< \delta$ implies $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. Since $g\left(t\right)\to c$, there exists $T> 0$ such that $t> T$ implies $\left|g\left(t\right)-c\right|< \delta$. Thus for $t> T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$, i.e. $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+Let $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. By Definition of Continuous Function, given $\varepsilon>0$, there exists $\delta>0$ such that $\left|x-c\right|<\delta$ implies $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$. Since $g\left(t\right)\to{c}$, there exists $T>0$ such that $t>{}T$ implies $\left|g\left(t\right)-c\right|<\delta$. Thus for $t>{}T$, $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$, i.e. $\lim{f}\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ## 1.7-5
 
-Let $f\left(x\right)$ and $g\left(x\right)$ be defined and continuous on $\mathbb R$. Suppose $f\left(x\right)=g\left(x\right)$ for all $x\in\mathbb Q$. Prove $f\left(x\right)\equiv g\left(x\right)$ for all $x\in\mathbb R$.
+Let $f\left(x\right)$ and $g\left(x\right)$ be defined and continuous on $\mathbb{R}$. Suppose $f\left(x\right)=g\left(x\right)$ for all $x\in\mathbb{Q}$. Prove $f\left(x\right)\equiv{g}\left(x\right)$ for all $x\in\mathbb{R}$.
 
 ### Solution to 1.7-5
 
-Take any $x_0\in\mathbb R$. By density of rationals, there is a rational sequence $\left\{r_n\right\}$ with $r_n\to x_0$. Since $f,g$ are continuous,
+Take any $x_0\in\mathbb{R}$. By density of rationals, there is a rational sequence $\left\{r_n\right\}$ with $r_n\to{x}_0$. Since $f,g$ are continuous,
 
 $$
 f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n\right)=g\left(x_0\right).
 $$
 
-Thus $f\left(x_0\right)=g\left(x_0\right)$. Since $x_0$ is arbitrary, $f\equiv g$. $\blacksquare$
+Thus $f\left(x_0\right)=g\left(x_0\right)$. Since $x_0$ is arbitrary, $f\equiv{g}$. $\blacksquare$
 
 ## 1.7-6
 
-Let $t_1$ and $t_2$ be arbitrary real numbers. Without using $e^{t_1+t_2}=e^{t_1}\cdot e^{t_2}$, prove
+Let $t_1$ and $t_2$ be arbitrary real numbers. Without using $e^{t_1+t_2}=e^{t_1}\cdot{e}^{t_2}$, prove
 
 $$
 \lim_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}.
@@ -60,7 +60,7 @@ The base tends to $e$ and the exponent to $t_1+t_2$. By continuity of the expone
 
 ## 1.8-2
 
-Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and let $x_1,x_2,x_3\in\left(a,b\right)$ with $x_1< x_2< x_3$. Set
+Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and let $x_1,x_2,x_3\in\left(a,b\right)$ with $x_1<{}x_2<{}x_3$. Set
 
 $$
 \eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
@@ -70,15 +70,15 @@ Prove that there exists $\xi\in\left[x_1,x_3\right]$ such that $f\left(\xi\right
 
 ### Solution to 1.8-2
 
-$f$ is continuous on $\left[x_1,x_3\right]$. By **Theorem 8.2 (Boundedness Theorem)**, let the max be $M$ and min be $m$. Then $m\le f\left(x_i\right)\le M$, so $m\le\eta\le M$. By **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left[x_1,x_3\right]$ with $f\left(\xi\right)=\eta$. $\blacksquare$
+$f$ is continuous on $\left[x_1,x_3\right]$. By **Theorem 8.2 (Boundedness Theorem)**, let the max be $M$ and min be $m$. Then $m\le{f}\left(x_i\right)\le{M}$, so $m\le\eta\le{M}$. By **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left[x_1,x_3\right]$ with $f\left(\xi\right)=\eta$. $\blacksquare$
 
 ## 1.8-3
 
-Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$ with $\lim_{x\to+\infty}f\left(x\right)=l$ and $l> f\left(a\right)$. Prove that for any $\eta$ with $f\left(a\right)< \eta< l$, there exists $\xi\in\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$.
+Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$ with $\lim_{x\to+\infty}f\left(x\right)=l$ and $l>{}f\left(a\right)$. Prove that for any $\eta$ with $f\left(a\right)<\eta<{}l$, there exists $\xi\in\left(a,+\infty\right)$ such that $f\left(\xi\right)=\eta$.
 
 ### Solution to 1.8-3
 
-Since $\lim_{x\to+\infty}f\left(x\right)=l> \eta$, there exists $A> a$ such that $x> A$ implies $f\left(x\right)> \eta$. Take $b> A$, so $f\left(a\right)< \eta< f\left(b\right)$. Since $f$ is continuous on $\left[a,b\right]$, by **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ with $f\left(\xi\right)=\eta$. $\blacksquare$
+Since $\lim_{x\to+\infty}f\left(x\right)=l>\eta$, there exists $A>{}a$ such that $x>{}A$ implies $f\left(x\right)>\eta$. Take $b>{}A$, so $f\left(a\right)<\eta<{}f\left(b\right)$. Since $f$ is continuous on $\left[a,b\right]$, by **Theorem 8.1 (Intermediate Value Theorem)**, there exists $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ with $f\left(\xi\right)=\eta$. $\blacksquare$
 
 ## 1.8-4
 
@@ -86,11 +86,11 @@ Let $y=f\left(x\right)$ be continuous on $\left[a,+\infty\right)$ and $\lim_{x\t
 
 ### Solution to 1.8-4
 
-Let $\lim_{x\to+\infty}f\left(x\right)=l$. There exists $A> a$ such that $x> A$ implies $\left|f\left(x\right)-l\right|< 1$, i.e. $\left|f\left(x\right)\right|< \left|l\right|+1$. On $\left[a,A\right]$, by **Theorem 8.2 (Boundedness Theorem)**, $f$ is bounded, say $\left|f\left(x\right)\right|\le M$. Take $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$; then $\left|f\left(x\right)\right|\le\widetilde M$ for all $x\in\left[a,+\infty\right)$. $\blacksquare$
+Let $\lim_{x\to+\infty}f\left(x\right)=l$. There exists $A>{}a$ such that $x>{}A$ implies $\left|f\left(x\right)-l\right|<1$, i.e. $\left|f\left(x\right)\right|<\left|l\right|+1$. On $\left[a,A\right]$, by **Theorem 8.2 (Boundedness Theorem)**, $f$ is bounded, say $\left|f\left(x\right)\right|\le{M}$. Take $\widetilde{M}=\max\left\{M,\left|l\right|+1\right\}$; then $\left|f\left(x\right)\right|\le\widetilde{M}$ for all $x\in\left[a,+\infty\right)$. $\blacksquare$
 
 ## 1.8-5
 
-Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and let $x_1,x_2\in\left(a,b\right)$ with $x_1< x_2$, $m_1> 0$, $m_2> 0$. Prove that there exists $\xi\in\left(a,b\right)$ such that
+Let $y=f\left(x\right)$ be continuous on $\left(a,b\right)$, and let $x_1,x_2\in\left(a,b\right)$ with $x_1<{}x_2$, $m_1>0$, $m_2>0$. Prove that there exists $\xi\in\left(a,b\right)$ such that
 
 $$
 f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}.

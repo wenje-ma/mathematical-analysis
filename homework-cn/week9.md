@@ -26,25 +26,25 @@ $$
 
 ### 解答 1.7-4
 
-设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon> 0$, 存在 $\delta> 0$, 使得当 $\left|x-c\right|< \delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|< \varepsilon$. 又因 $g\left(t\right)\to c$, 存在 $T> 0$, 当 $t> T$ 时 $\left|g\left(t\right)-c\right|< \delta$. 于是当 $t> T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|< \varepsilon$. 即 $\lim f\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
+设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-c\right|<\delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$. 又因 $g\left(t\right)\to{c}$, 存在 $T>0$, 当 $t>{}T$ 时 $\left|g\left(t\right)-c\right|<\delta$. 于是当 $t>{}T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. 即 $\lim{f}\left(g\left(t\right)\right)=f\left(c\right)$. $\blacksquare$
 
 ## 1.7-5
 
-设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在实数域 $\mathbb R$ 中有定义且连续. 假定 $f\left(x\right)=g\left(x\right)$ 对一切 $x\in\mathbb Q$ 成立, 试证明 $f\left(x\right)\equiv g\left(x\right)$ 对一切 $x\in\mathbb R$ 成立.
+设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在实数域 $\mathbb{R}$ 中有定义且连续. 假定 $f\left(x\right)=g\left(x\right)$ 对一切 $x\in\mathbb{Q}$ 成立, 试证明 $f\left(x\right)\equiv{g}\left(x\right)$ 对一切 $x\in\mathbb{R}$ 成立.
 
 ### 解答 1.7-5
 
-任取 $x_0\in\mathbb R$. 由有理数的稠密性, 存在有理序列 $\left\{r_n\right\}$ 使 $r_n\to x_0$. 因 $f,g$ 连续,
+任取 $x_0\in\mathbb{R}$. 由有理数的稠密性, 存在有理序列 $\left\{r_n\right\}$ 使 $r_n\to{x}_0$. 因 $f,g$ 连续,
 
 $$
 f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n\right)=g\left(x_0\right).
 $$
 
-故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv g$. $\blacksquare$
+故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv{g}$. $\blacksquare$
 
 ## 1.7-6
 
-设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot e^{t_2}$ 的条件下, 证明下列极限等式:
+设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot{e}^{t_2}$ 的条件下, 证明下列极限等式:
 
 $$
 \lim_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}.
@@ -60,7 +60,7 @@ $$
 
 ## 1.8-2
 
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点, $x_1< x_2< x_3$. 令
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 上连续. 又设 $x_1,x_2,x_3$ 为 $\left(a,b\right)$ 中三点, $x_1<{}x_2<{}x_3$. 令
 
 $$
 \eta=\frac13\left[f\left(x_1\right)+f\left(x_2\right)+f\left(x_3\right)\right].
@@ -70,15 +70,15 @@ $$
 
 ### 解答 1.8-2
 
-$f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, 设最大值为 $M$, 最小值为 $m$. 则 $m\le f\left(x_i\right)\le M$, 故 $m\le\eta\le M$. 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_3\right]$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
+$f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, 设最大值为 $M$, 最小值为 $m$. 则 $m\le{f}\left(x_i\right)\le{M}$, 故 $m\le\eta\le{M}$. 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_3\right]$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
 
 ## 1.8-3
 
-设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 中连续, 并且 $\lim_{x\to+\infty}f\left(x\right)=l$, 且 $l> f\left(a\right)$. 证明: 对于任一数 $\eta$ 满足 $f\left(a\right)< \eta< l$, 一定存在一个点 $\xi\in\left(a,+\infty\right)$, 使得 $f\left(\xi\right)=\eta$.
+设 $y=f\left(x\right)$ 在 $\left[a,+\infty\right)$ 中连续, 并且 $\lim_{x\to+\infty}f\left(x\right)=l$, 且 $l>{}f\left(a\right)$. 证明: 对于任一数 $\eta$ 满足 $f\left(a\right)<\eta<{}l$, 一定存在一个点 $\xi\in\left(a,+\infty\right)$, 使得 $f\left(\xi\right)=\eta$.
 
 ### 解答 1.8-3
 
-因 $\lim_{x\to+\infty}f\left(x\right)=l> \eta$, 存在 $A> a$ 使得当 $x> A$ 时 $f\left(x\right)> \eta$. 取 $b> A$, 则 $f\left(a\right)< \eta< f\left(b\right)$. 又 $f$ 在 $\left[a,b\right]$ 上连续, 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
+因 $\lim_{x\to+\infty}f\left(x\right)=l>\eta$, 存在 $A>{}a$ 使得当 $x>{}A$ 时 $f\left(x\right)>\eta$. 取 $b>{}A$, 则 $f\left(a\right)<\eta<{}f\left(b\right)$. 又 $f$ 在 $\left[a,b\right]$ 上连续, 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left(a,b\right)\subset\left(a,+\infty\right)$ 使 $f\left(\xi\right)=\eta$. $\blacksquare$
 
 ## 1.8-4
 
@@ -86,11 +86,11 @@ $f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, �
 
 ### 解答 1.8-4
 
-设 $\lim_{x\to+\infty}f\left(x\right)=l$. 存在 $A> a$ 使得当 $x> A$ 时 $\left|f\left(x\right)-l\right|< 1$, 即 $\left|f\left(x\right)\right|< \left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2 (有界性定理)**, $f$ 有界, 设 $\left|f\left(x\right)\right|\le M$. 取 $\widetilde M=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde M$. $\blacksquare$
+设 $\lim_{x\to+\infty}f\left(x\right)=l$. 存在 $A>{}a$ 使得当 $x>{}A$ 时 $\left|f\left(x\right)-l\right|<1$, 即 $\left|f\left(x\right)\right|<\left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2 (有界性定理)**, $f$ 有界, 设 $\left|f\left(x\right)\right|\le{M}$. 取 $\widetilde{M}=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde{M}$. $\blacksquare$
 
 ## 1.8-5
 
-设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x_1,x_2\in\left(a,b\right)$, $x_1< x_2$, $m_1> 0$, $m_2> 0$. 证明: 存在一点 $\xi\in\left(a,b\right)$, 使得
+设 $y=f\left(x\right)$ 在 $\left(a,b\right)$ 中连续. 又设 $x_1,x_2\in\left(a,b\right)$, $x_1<{}x_2$, $m_1>0$, $m_2>0$. 证明: 存在一点 $\xi\in\left(a,b\right)$, 使得
 
 $$
 f\left(\xi\right)=\frac{m_1f\left(x_1\right)+m_2f\left(x_2\right)}{m_1+m_2}.

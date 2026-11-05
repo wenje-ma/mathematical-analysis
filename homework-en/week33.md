@@ -2,19 +2,19 @@
 
 > **Theorem 1.1 (Cauchy Criterion)**
 > 
-> The integral converges iff for every $\varepsilon> 0$, there exists $X$ such that $\left|\int_{A'}^{A''}f\right|< \varepsilon$ for $A',A''> X$.
+> The integral converges iff for every $\varepsilon>0$, there exists $X$ such that $\left|\int_{A'}^{A''}f\right|<\varepsilon$ for $A',A''>{}X$.
 
 > **Example 1.2 (p-Integral)**
 > 
-> $\int_1^\infty\frac{\mathrm dx}{x^p}$ converges iff $p> 1$.
+> $\int_1^\infty\frac{\mathrm{d}x}{x^p}$ converges iff $p>1$.
 
 > **Theorem 1.3 (Comparison Test)**
 > 
-> If $0\le f\le g$, then $\int g$ convergent implies $\int f$ convergent.
+> If $0\le{f}\le{g}$, then $\int{g}$ convergent implies $\int{f}$ convergent.
 
 > **Theorem 1.6 (Dirichlet's Test)**
 > 
-> If $f$ is monotone tending to $0$ and $\int_a^A g$ is bounded for all $A$, then $\int fg$ converges.
+> If $f$ is monotone tending to $0$ and $\int_a^Ag$ is bounded for all $A$, then $\int{f}g$ converges.
 
 > **Theorem 3.2 (Cauchy's Formula for Radius of Convergence)**
 > 
@@ -58,7 +58,7 @@ $\frac1{\left(1-x\right)^2}$. $\blacksquare$
 
 ## 11.3-3-3
 
-Find the sum of $\sum n^2x^n$.
+Find the sum of $\sum{n}^2x^n$.
 
 ### Solution to 11.3-3-3
 
@@ -82,7 +82,7 @@ $-\ln\left(1-x\right)$. $\blacksquare$
 
 ## 11.3-4
 
-Prove: if $\sum a_nx^n$ has radius $R$, then $\sum a_nx^{2n}$ has radius $\sqrt R$.
+Prove: if $\sum{a}_nx^n$ has radius $R$, then $\sum{a}_nx^{2n}$ has radius $\sqrt{R}$.
 
 ### Solution to 11.3-4
 
@@ -90,11 +90,11 @@ Set $y=x^2$. $\blacksquare$
 
 ## 11.3-5
 
-Prove: for any $A> \frac1R$, there exists $C> 0$ such that $\left|a_n\right|\le CA^n$.
+Prove: for any $A>\frac1R$, there exists $C>0$ such that $\left|a_n\right|\le{C}A^n$.
 
 ### Solution to 11.3-5
 
-Choose $r$ with $\frac1A< r< R$. $\blacksquare$
+Choose $r$ with $\frac1A<{}r<{}R$. $\blacksquare$
 
 ## 11.4-1-3
 
@@ -106,11 +106,11 @@ $e^x=e^3\sum\frac{\left(x-3\right)^n}{n!}$. $\blacksquare$
 
 ## 11.4-1-4
 
-Expand $\ln x$ around $x_0=2$.
+Expand $\ln{x}$ around $x_0=2$.
 
 ### Solution to 11.4-1-4
 
-$\ln x=\ln2+\sum\frac{\left(-1\right)^{n-1}}{n\cdot2^n}\left(x-2\right)^n$. $\blacksquare$
+$\ln{x}=\ln2+\sum\frac{\left(-1\right)^{n-1}}{n\cdot2^n}\left(x-2\right)^n$. $\blacksquare$
 
 ## 11.4-1-5
 
@@ -122,7 +122,7 @@ $\cos^2x=\frac12+\sum\frac{\left(-1\right)^n2^{2n-1}}{\left(2n\right)!}x^{2n}$. 
 
 ## 11.4-2
 
-Prove $\sum\frac{x^n}{\left(n+1\right)!}=\frac1x\left(e^x-1\right)$ and $\sum\frac n{\left(n+1\right)!}=1$.
+Prove $\sum\frac{x^n}{\left(n+1\right)!}=\frac1x\left(e^x-1\right)$ and $\sum\frac{n}{\left(n+1\right)!}=1$.
 
 ### Solution to 11.4-2
 
@@ -130,7 +130,7 @@ From the expansion of $e^x$. $\blacksquare$
 
 ## 11.4-3
 
-Prove $\sum\frac n{\left(n+2\right)!}=3-e$.
+Prove $\sum\frac{n}{\left(n+2\right)!}=3-e$.
 
 ### Solution to 11.4-3
 
@@ -138,7 +138,7 @@ By splitting the general term. $\blacksquare$
 
 ## 12.1-1-1
 
-Evaluate $\int_1^\infty\frac{\ln x}{x^2}\mathrm dx$.
+Evaluate $\int_1^\infty\frac{\ln{x}}{x^2}\mathrm{d}x$.
 
 ### Solution to 12.1-1-1
 
@@ -146,7 +146,7 @@ Integration by parts gives $1$. $\blacksquare$
 
 ## 12.1-1-2
 
-Evaluate $\int_1^\infty e^{-ax}\mathrm dx$.
+Evaluate $\int_1^\infty{e}^{-ax}\mathrm{d}x$.
 
 ### Solution to 12.1-1-2
 
@@ -154,7 +154,7 @@ $\frac{e^{-a}}a$. $\blacksquare$
 
 ## 12.1-1-3
 
-Evaluate $\int_0^\infty\frac{\mathrm dx}{1+x^2}$.
+Evaluate $\int_0^\infty\frac{\mathrm{d}x}{1+x^2}$.
 
 ### Solution to 12.1-1-3
 
@@ -162,7 +162,7 @@ $\frac\pi2$. $\blacksquare$
 
 ## 12.1-1-4
 
-Evaluate $\int_0^\infty xe^{-x}\mathrm dx$.
+Evaluate $\int_0^\infty{x}e^{-x}\mathrm{d}x$.
 
 ### Solution to 12.1-1-4
 
@@ -170,15 +170,15 @@ $1$. $\blacksquare$
 
 ## 12.1-2-1
 
-Discuss $\int_1^\infty\frac{\sin x}{x^p}\mathrm dx$.
+Discuss $\int_1^\infty\frac{\sin{x}}{x^p}\mathrm{d}x$.
 
 ### Solution to 12.1-2-1
 
-Absolutely convergent for $p> 1$, conditionally for $0< p\le1$, divergent for $p\le0$. $\blacksquare$
+Absolutely convergent for $p>1$, conditionally for $0<{}p\le1$, divergent for $p\le0$. $\blacksquare$
 
 ## 12.1-2-3
 
-Discuss $\int_1^\infty\frac{\sqrt x\cos x}{x+3}\mathrm dx$.
+Discuss $\int_1^\infty\frac{\sqrt{x}\cos{x}}{x+3}\mathrm{d}x$.
 
 ### Solution to 12.1-2-3
 
@@ -186,7 +186,7 @@ Conditionally convergent. $\blacksquare$
 
 ## 12.1-2-5
 
-Discuss $\int_0^\infty\sin x^2\mathrm dx$.
+Discuss $\int_0^\infty\sin{x}^2\mathrm{d}x$.
 
 ### Solution to 12.1-2-5
 

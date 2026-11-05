@@ -2,7 +2,7 @@
 
 > **Theorem 1.1 (Weierstrass M-Test)**
 > 
-> If $\left|f_n\left(x\right)-f\left(x\right)\right|\le M_n$ and $M_n\to0$, then the convergence is uniform.
+> If $\left|f_n\left(x\right)-f\left(x\right)\right|\le{M}_n$ and $M_n\to0$, then the convergence is uniform.
 
 > **Theorem 1.2 (Continuity of the Limit Function)**
 > 
@@ -10,19 +10,19 @@
 
 > **Theorem 2.2 (Weierstrass M-Test)**
 > 
-> If $\left|u_n\left(x\right)\right|\le a_n$ and $\sum a_n$ converges, then $\sum u_n\left(x\right)$ converges uniformly.
+> If $\left|u_n\left(x\right)\right|\le{a}_n$ and $\sum{a}_n$ converges, then $\sum{u}_n\left(x\right)$ converges uniformly.
 
 > **Theorem 2.4 (Dirichlet's Test)**
 > 
-> If partial sums of $\sum a_n\left(x\right)$ are uniformly bounded and $b_n\left(x\right)$ is monotone and uniformly tends to $0$, then $\sum a_nb_n$ converges uniformly.
+> If partial sums of $\sum{a}_n\left(x\right)$ are uniformly bounded and $b_n\left(x\right)$ is monotone and uniformly tends to $0$, then $\sum{a}_nb_n$ converges uniformly.
 
 > **Theorem 2.5 (Continuity of the Sum Function)**
 > 
-> If $u_n$ are continuous and $\sum u_n$ converges uniformly, then the sum is continuous.
+> If $u_n$ are continuous and $\sum{u}_n$ converges uniformly, then the sum is continuous.
 
 > **Theorem 2.7 (Term-by-Term Differentiation)**
 > 
-> If $\sum u_n$ converges, $u_n'$ are continuous, and $\sum u_n'$ converges uniformly, then $S'=\sum u_n'$.
+> If $\sum{u}_n$ converges, $u_n'$ are continuous, and $\sum{u}_n'$ converges uniformly, then $S'=\sum{u}_n'$.
 
 > **Theorem 3.2 (Cauchy's Formula for Radius of Convergence)**
 > 
@@ -38,7 +38,7 @@
 
 ## 11.1-3
 
-Prove $\left(1+\frac xn\right)^n$ does not converge uniformly to $e^x$ on $\left[0,+\infty\right)$.
+Prove $\left(1+\frac{x}n\right)^n$ does not converge uniformly to $e^x$ on $\left[0,+\infty\right)$.
 
 ### Solution to 11.1-3
 
@@ -90,7 +90,7 @@ Discuss $\sum\left(-1\right)^n\frac{n+x^2}{n^2}$.
 
 ### Solution to 11.2-9
 
-Uniformly convergent on $\left[a,b\right]$, not on $\mathbb R$. $\blacksquare$
+Uniformly convergent on $\left[a,b\right]$, not on $\mathbb{R}$. $\blacksquare$
 
 ## 11.2-10
 
@@ -102,7 +102,7 @@ Uniformly convergent by Dirichlet's test. $\blacksquare$
 
 ## 11.2-11
 
-Discuss $\sum\frac{\sin x\sin nx}{\sqrt{n^2+x^2}}$.
+Discuss $\sum\frac{\sin{x}\sin{n}x}{\sqrt{n^2+x^2}}$.
 
 ### Solution to 11.2-11
 
@@ -110,7 +110,7 @@ Uniformly convergent on $\left[0,2\pi\right]$. $\blacksquare$
 
 ## 11.2-5
 
-Prove $f\left(x\right)=\sum2^n\sin\frac x{3^n}$ has a continuous derivative everywhere.
+Prove $f\left(x\right)=\sum2^n\sin\frac{x}{3^n}$ has a continuous derivative everywhere.
 
 ### Solution to 11.2-5
 
@@ -118,7 +118,7 @@ By the M-test and term-by-term differentiation. $\blacksquare$
 
 ## 11.2-6
 
-Prove $\zeta'\left(x\right)=-\sum\frac{\ln n}{n^x}$.
+Prove $\zeta'\left(x\right)=-\sum\frac{\ln{n}}{n^x}$.
 
 ### Solution to 11.2-6
 
@@ -134,7 +134,7 @@ $R=+\infty$. $\blacksquare$
 
 ## 11.3-1-2
 
-Find the radius of $\sum\frac n{2^n}x^n$.
+Find the radius of $\sum\frac{n}{2^n}x^n$.
 
 ### Solution to 11.3-1-2
 
@@ -158,7 +158,7 @@ $R=4$. $\blacksquare$
 
 ## 11.3-2-2
 
-Find the convergence set of $\sum n^3\left(x-5\right)^n$.
+Find the convergence set of $\sum{n}^3\left(x-5\right)^n$.
 
 ### Solution to 11.3-2-2
 
@@ -166,7 +166,7 @@ $\left(4,6\right)$. $\blacksquare$
 
 ## 11.3-2-4
 
-Find the convergence set of $\sum\frac{\left(-1\right)^n}{\sqrt n}x^n$.
+Find the convergence set of $\sum\frac{\left(-1\right)^n}{\sqrt{n}}x^n$.
 
 ### Solution to 11.3-2-4
 

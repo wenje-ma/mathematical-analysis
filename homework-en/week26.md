@@ -2,7 +2,7 @@
 
 > **Proposition 1.3 (Necessary and Sufficient Condition for Measurable Area)**
 > 
-> $E$ is measurable iff $\partial E$ has zero area.
+> $E$ is measurable iff $\partial{E}$ has zero area.
 
 > **Theorem 1.4 (Necessary and Sufficient Condition for Integrability)**
 > 
@@ -14,11 +14,11 @@
 
 > **Theorem 2.1 (Reduction to Iterated Integrals)**
 > 
-> $\iint_D f\,\mathrm dx\mathrm dy=\int_a^b\mathrm dx\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm dy$.
+> $\iint_Df\,\mathrm{d}x\mathrm{d}y=\int_a^b\mathrm{d}x\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm{d}y$.
 
 > **Theorem 2.2 (Double Integrals in Polar Coordinates)**
 > 
-> $\iint_D f\,\mathrm dx\mathrm dy=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm dr\mathrm d\theta$.
+> $\iint_Df\,\mathrm{d}x\mathrm{d}y=\iint_{D^*}f\left(r\cos\theta,r\sin\theta\right)\,r\,\mathrm{d}r\mathrm{d}\theta$.
 
 ## 8.1-3
 
@@ -46,19 +46,19 @@ Since $\omega_{\left|f\right|}\le\omega_f$, **Theorem 1.4 (Necessary and Suffici
 
 ## 8.1-8
 
-Prove: there exists $\left(x_0,y_0\right)$ such that $\iint_D fg=f\left(x_0,y_0\right)\iint_D g$.
+Prove: there exists $\left(x_0,y_0\right)$ such that $\iint_Dfg=f\left(x_0,y_0\right)\iint_Dg$.
 
 ### Solution to 8.1-8
 
-By **Theorem 1.5 (Continuous Functions Are Integrable)**, $f$ has max $M$ and min $m$. By monotonicity, $m\iint_D g\le\iint_D fg\le M\iint_D g$. The intermediate value theorem gives the result. $\blacksquare$
+By **Theorem 1.5 (Continuous Functions Are Integrable)**, $f$ has max $M$ and min $m$. By monotonicity, $m\iint_Dg\le\iint_Dfg\le{M}\iint_Dg$. The intermediate value theorem gives the result. $\blacksquare$
 
 ## 8.1-9
 
-Let $f\ge0$ be continuous on $D$ with $\iint_D f=0$. Prove $f\equiv0$.
+Let $f\ge0$ be continuous on $D$ with $\iint_Df=0$. Prove $f\equiv0$.
 
 ### Solution to 8.1-9
 
-If $f\left(x_0,y_0\right)> 0$, continuity gives a neighborhood where $f> \frac{f\left(x_0,y_0\right)}2$. By monotonicity, the integral is positive. $\blacksquare$
+If $f\left(x_0,y_0\right)>0$, continuity gives a neighborhood where $f>\frac{f\left(x_0,y_0\right)}2$. By monotonicity, the integral is positive. $\blacksquare$
 
 ## 8.2-2
 
@@ -66,13 +66,13 @@ Change the order of integration.
 
 ### Solution to 8.2-2
 
-(1) $\int_0^1\mathrm dx\int_{x^2}^x f\,\mathrm dy$.
+(1) $\int_0^1\mathrm{d}x\int_{x^2}^xf\,\mathrm{d}y$.
 
-(2) $\int_1^2\mathrm dy\int_1^y f\,\mathrm dx+\int_2^4\mathrm dy\int_{y/2}^2 f\,\mathrm dx$.
+(2) $\int_1^2\mathrm{d}y\int_1^yf\,\mathrm{d}x+\int_2^4\mathrm{d}y\int_{y/2}^2f\,\mathrm{d}x$.
 
-(3) $\int_0^5\mathrm dy\int_0^y f\,\mathrm dx+\int_5^{10}\mathrm dy\int_0^{10-y}f\,\mathrm dx$.
+(3) $\int_0^5\mathrm{d}y\int_0^yf\,\mathrm{d}x+\int_5^{10}\mathrm{d}y\int_0^{10-y}f\,\mathrm{d}x$.
 
-(4) $\int_1^e\mathrm dy\int_0^{\ln y}f\,\mathrm dx$. $\blacksquare$
+(4) $\int_1^e\mathrm{d}y\int_0^{\ln{y}}f\,\mathrm{d}x$. $\blacksquare$
 
 ## 8.2-3
 
