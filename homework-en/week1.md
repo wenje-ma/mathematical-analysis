@@ -189,7 +189,7 @@ $$
 Since $x\ge1$ implies $0<\sqrt{x+1}+\sqrt{x}$,
 
 $$
-0<\sqrt{x+1}-\sqrt{x}\le\sqrt2-1\,\text{\left(maximum~at~}x=1\text{\right)},
+0<\sqrt{x+1}-\sqrt{x}\le\sqrt2-1\;\text{\left(maximum~at~}x=1\text{\right)},
 $$
 
 so $E\subset\left(0,\sqrt2-1\right]$, which is bounded above and below; $E$ is a bounded set.
