@@ -2,7 +2,7 @@
 
 > **定理 2.1 (化二重积分为累次积分)**
 > 
-> 设 $f$ 在 $D=\left\{\left(x,y\right):a\le{x}\le{b},\varphi_1\left(x\right)\le{y}\le\varphi_2\left(x\right)\right\}$ 上连续, 则 $\iint_Df\,\mathrm{d}x\mathrm{d}y=\int_a^b\mathrm{d}x\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm{d}y$.
+> 设 $f$ 在 $D=\left\{\left(x,y\right):a\le{}x\le{}b,\varphi_1\left(x\right)\le{}y\le\varphi_2\left(x\right)\right\}$ 上连续, 则 $\iint_Df\,\mathrm{d}x\mathrm{d}y=\int_a^b\mathrm{d}x\int_{\varphi_1\left(x\right)}^{\varphi_2\left(x\right)}f\left(x,y\right)\,\mathrm{d}y$.
 
 > **定理 2.2 (极坐标下的二重积分)**
 > 
@@ -14,17 +14,17 @@
 
 > **定理 4.2 (三重积分的穿线法)**
 > 
-> 设 $\Omega=\left\{\left(x,y,z\right):\left(x,y\right)\in{D},z_1\left(x,y\right)\le{z}\le{z}_2\left(x,y\right)\right\}$. 则 $\iiint_\Omega{f}\,\mathrm{d}V=\iint_D\mathrm{d}x\mathrm{d}y\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm{d}z$.
+> 设 $\Omega=\left\{\left(x,y,z\right):\left(x,y\right)\in{}D,z_1\left(x,y\right)\le{}z\le{}z_2\left(x,y\right)\right\}$. 则 $\iiint_\Omega{}f\,\mathrm{d}V=\iint_D\mathrm{d}x\mathrm{d}y\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm{d}z$.
 
 > **定理 4.4 (三重积分换元公式)**
 > 
-> $\iiint_\Omega{f}\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm{d}u\mathrm{d}v\mathrm{d}w$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
+> $\iiint_\Omega{}f\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm{d}u\mathrm{d}v\mathrm{d}w$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
 
 ## 8.2-3
 
 计算下列二重积分:
 
-(1) $\iint_Dy\,\mathrm{d}x\mathrm{d}y$, $D$ 由 $y=0$ 及 $y=\sin{x}$ ($0\le{x}\le\pi$) 围成;
+(1) $\iint_Dy\,\mathrm{d}x\mathrm{d}y$, $D$ 由 $y=0$ 及 $y=\sin{}x$ ($0\le{}x\le\pi$) 围成;
 
 (2) $\iint_D\left(x^2+y\right)\,\mathrm{d}x\mathrm{d}y$, $D$ 由 $y=x^2$ 及 $y^2=x$ 围成;
 
@@ -48,13 +48,13 @@ $\blacksquare$
 
 计算下列累次积分:
 
-(1) $\int_0^\pi\mathrm{d}x\int_x^\pi\frac{\sin{y}}{y}\,\mathrm{d}y$;
+(1) $\int_0^\pi\mathrm{d}x\int_x^\pi\frac{\sin{}y}{y}\,\mathrm{d}y$;
 
 (2) $\int_0^2\mathrm{d}x\int_x^22y^2\sin\left(xy\right)\,\mathrm{d}y$.
 
 ### 解答 8.2-4
 
-(1) 交换次序: $\int_0^\pi\mathrm{d}y\int_0^y\frac{\sin{y}}{y}\,\mathrm{d}x=\int_0^\pi\sin{y}\,\mathrm{d}y=2$.
+(1) 交换次序: $\int_0^\pi\mathrm{d}y\int_0^y\frac{\sin{}y}{y}\,\mathrm{d}x=\int_0^\pi\sin{}y\,\mathrm{d}y=2$.
 
 (2) 交换次序: $\int_0^2\mathrm{d}y\int_0^y2y^2\sin\left(xy\right)\,\mathrm{d}x=\int_0^22y\left[1-\cos\left(y^2\right)\right]\mathrm{d}y=4-\sin4$.
 
@@ -82,7 +82,7 @@ $\blacksquare$
 
 ## 8.2-6
 
-求 $\iint_De^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y$, 其中 $D$ 为圆环 $1\le{x}^2+y^2\le4$ 在第一象限部分.
+求 $\iint_De^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y$, 其中 $D$ 为圆环 $1\le{}x^2+y^2\le4$ 在第一象限部分.
 
 ### 解答 8.2-6
 
@@ -98,11 +98,11 @@ $\blacksquare$
 
 计算:
 
-(1) $\iint_D\sin\sqrt{x^2+y^2}\,\mathrm{d}x\mathrm{d}y$, $D=\left\{\pi^2\le{x}^2+y^2\le4\pi^2\right\}$;
+(1) $\iint_D\sin\sqrt{x^2+y^2}\,\mathrm{d}x\mathrm{d}y$, $D=\left\{\pi^2\le{}x^2+y^2\le4\pi^2\right\}$;
 
-(2) $\iint_D\left(x+y\right)\,\mathrm{d}x\mathrm{d}y$, $D=\left\{x^2+y^2\le{x}+y\right\}$;
+(2) $\iint_D\left(x+y\right)\,\mathrm{d}x\mathrm{d}y$, $D=\left\{x^2+y^2\le{}x+y\right\}$;
 
-(3) $\iint_D\left(x^2+y^2\right)\,\mathrm{d}x\mathrm{d}y$, $D=\left\{\left(x^2+y^2\right)^2\le{a}^2\left(x^2-y^2\right)\right\}$;
+(3) $\iint_D\left(x^2+y^2\right)\,\mathrm{d}x\mathrm{d}y$, $D=\left\{\left(x^2+y^2\right)^2\le{}a^2\left(x^2-y^2\right)\right\}$;
 
 (4) $\iint_Dx\,\mathrm{d}x\mathrm{d}y$, $D$ 为阿基米德螺线 $r=\theta$ 与 $\theta=\pi$ 所围区域.
 
@@ -112,7 +112,7 @@ $\blacksquare$
 
 (2) 平移后由对称性, $=\frac\pi2$.
 
-(3) 双纽线, $=\frac{\pi{a}^4}{8}$.
+(3) 双纽线, $=\frac{\pi{}a^4}{8}$.
 
 (4) $=4-\pi^2$.
 
@@ -124,7 +124,7 @@ $\blacksquare$
 
 (1) $\left[I\left(a\right)\right]^2=\iint_{R_a}e^{-x^2-y^2}\,\mathrm{d}x\mathrm{d}y$;
 
-(2) $J\left(a\right)\le\left[I\left(a\right)\right]^2\le{J}\left(\sqrt2a\right)$;
+(2) $J\left(a\right)\le\left[I\left(a\right)\right]^2\le{}J\left(\sqrt2a\right)$;
 
 (3) $\lim_{a\to\infty}\int_0^ae^{-x^2}\,\mathrm{d}x=\frac{\sqrt\pi}2$.
 
@@ -132,7 +132,7 @@ $\blacksquare$
 
 (1) 由**定理 2.1 (化二重积分为累次积分)**, $\left[I\left(a\right)\right]^2=\iint_{R_a}e^{-x^2-y^2}$.
 
-(2) 因 $D_a\subset{R}_a\subset{D}_{\sqrt2a}$, 由二重积分的比较性质, 得 $J\left(a\right)\le\left[I\left(a\right)\right]^2\le{J}\left(\sqrt2a\right)$.
+(2) 因 $D_a\subset{}R_a\subset{}D_{\sqrt2a}$, 由二重积分的比较性质, 得 $J\left(a\right)\le\left[I\left(a\right)\right]^2\le{}J\left(\sqrt2a\right)$.
 
 (3) 由**定理 2.2 (极坐标下的二重积分)**, $J\left(a\right)=\frac\pi4\left(1-e^{-a^2}\right)$. 代入 (2) 并令 $a\to\infty$, 由夹逼定理, $\left[I\left(a\right)\right]^2\to\frac\pi4$, 故 $I\left(a\right)\to\frac{\sqrt\pi}2$.
 
@@ -144,7 +144,7 @@ $\blacksquare$
 
 ### 解答 8.3-1
 
-令 $u=xy$, $v=y/x$. 则 $G=\left\{\left(u,v\right):1\le{u}\le9,1\le{v}\le4\right\}$. 逆变换 $x=\sqrt{u/v}$, $y=\sqrt{uv}$. 雅可比行列式 $\left|J\right|=\frac1{2v}$. 被积函数 $\sqrt{v}+\sqrt{u}$. 由**定理 3.1 (二重积分的变量替换公式)**,
+令 $u=xy$, $v=y/x$. 则 $G=\left\{\left(u,v\right):1\le{}u\le9,1\le{}v\le4\right\}$. 逆变换 $x=\sqrt{u/v}$, $y=\sqrt{uv}$. 雅可比行列式 $\left|J\right|=\frac1{2v}$. 被积函数 $\sqrt{v}+\sqrt{u}$. 由**定理 3.1 (二重积分的变量替换公式)**,
 
 $$
 \iint_D\left(\sqrt{y/x}+\sqrt{xy}\right)=8+\frac{52}{3}\ln2.
@@ -182,35 +182,35 @@ $\blacksquare$
 
 ## 8.4-1
 
-计算 $\iiint_\Omega{z}^2\,\mathrm{d}V$, 其中 $\Omega$ 为单位球.
+计算 $\iiint_\Omega{}z^2\,\mathrm{d}V$, 其中 $\Omega$ 为单位球.
 
 ### 解答 8.4-1
 
-由对称性, $\iiint{z}^2=\frac13\iiint\left(x^2+y^2+z^2\right)$. 用球坐标, 由**定理 4.4 (三重积分换元公式)**,
+由对称性, $\iiint{}z^2=\frac13\iiint\left(x^2+y^2+z^2\right)$. 用球坐标, 由**定理 4.4 (三重积分换元公式)**,
 
 $$
-\iiint_\Omega{z}^2\,\mathrm{d}V=\frac{4\pi}{15}.
+\iiint_\Omega{}z^2\,\mathrm{d}V=\frac{4\pi}{15}.
 $$
 
 $\blacksquare$
 
 ## 8.4-2
 
-计算 $\iiint_\Omega\left(x+y+z\right)\,\mathrm{d}V$, 其中 $\Omega=\left\{x^2+y^2\le4,0\le{z}\le1\right\}$.
+计算 $\iiint_\Omega\left(x+y+z\right)\,\mathrm{d}V$, 其中 $\Omega=\left\{x^2+y^2\le4,0\le{}z\le1\right\}$.
 
 ### 解答 8.4-2
 
-由对称性, $\iiint{x}=\iiint{y}=0$. 用柱坐标, 由**定理 4.4 (三重积分换元公式)**,
+由对称性, $\iiint{}x=\iiint{}y=0$. 用柱坐标, 由**定理 4.4 (三重积分换元公式)**,
 
 $$
-\iiint_\Omega{z}\,\mathrm{d}V=2\pi.
+\iiint_\Omega{}z\,\mathrm{d}V=2\pi.
 $$
 
 $\blacksquare$
 
 ## 8.4-3
 
-计算 $\iiint_\Omega\left(x+y+z\right)^3\,\mathrm{d}V$, 其中 $\Omega$ 为球体 $x^2+y^2+z^2\le{R}^2$.
+计算 $\iiint_\Omega\left(x+y+z\right)^3\,\mathrm{d}V$, 其中 $\Omega$ 为球体 $x^2+y^2+z^2\le{}R^2$.
 
 ### 解答 8.4-3
 
@@ -224,7 +224,7 @@ $\blacksquare$
 
 ## 8.4-5
 
-计算 $\iiint_\Omega\left(x^2+y^2+z^2\right)\,\mathrm{d}V$, 其中 $\Omega=\left\{a^2\le{x}^2+y^2+z^2\le{b}^2\right\}$.
+计算 $\iiint_\Omega\left(x^2+y^2+z^2\right)\,\mathrm{d}V$, 其中 $\Omega=\left\{a^2\le{}x^2+y^2+z^2\le{}b^2\right\}$.
 
 ### 解答 8.4-5
 
@@ -238,7 +238,7 @@ $\blacksquare$
 
 ## 8.4-6
 
-计算 $\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V$, 其中 $\Omega=\left\{x^2+y^2\le{z}\le1\right\}$.
+计算 $\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V$, 其中 $\Omega=\left\{x^2+y^2\le{}z\le1\right\}$.
 
 ### 解答 8.4-6
 

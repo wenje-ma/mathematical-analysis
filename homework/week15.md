@@ -2,31 +2,31 @@
 
 > **定理 1.2 (光滑曲线的弧长公式)**
 > 
-> 设空间曲线 $L$ 的参数方程为 $x=x\left(t\right)$, $y=y\left(t\right)$, $z=z\left(t\right)$ ($\alpha\le{t}\le\beta$), 且导数连续. 则弧长 $s=\int_\alpha^\beta\sqrt{\left[x'\left(t\right)\right]^2+\left[y'\left(t\right)\right]^2+\left[z'\left(t\right)\right]^2}\,\mathrm{d}t$.
+> 设空间曲线 $L$ 的参数方程为 $x=x\left(t\right)$, $y=y\left(t\right)$, $z=z\left(t\right)$ ($\alpha\le{}t\le\beta$), 且导数连续. 则弧长 $s=\int_\alpha^\beta\sqrt{\left[x'\left(t\right)\right]^2+\left[y'\left(t\right)\right]^2+\left[z'\left(t\right)\right]^2}\,\mathrm{d}t$.
 
 > **定理 1.3 (第一型曲线积分的计算)**
 > 
-> $\int_Lf\left(x,y,z\right)\,\mathrm{d}s=\int_\alpha^\beta{f}\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm{d}t$.
+> $\int_Lf\left(x,y,z\right)\,\mathrm{d}s=\int_\alpha^\beta{}f\left(x\left(t\right),y\left(t\right),z\left(t\right)\right)\sqrt{\left[x'\right]^2+\left[y'\right]^2+\left[z'\right]^2}\,\mathrm{d}t$.
 
 > **定理 2.2 (格林公式)**
 > 
-> 设 $L$ 为逐段光滑的简单闭曲线, 所围区域为 $D$, $P,Q$ 在 $D$ 上有一阶连续偏导数. 则 $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=\iint_D\left(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\right)\mathrm{d}x\mathrm{d}y$.
+> 设 $L$ 为逐段光滑的简单闭曲线, 所围区域为 $D$, $P,Q$ 在 $D$ 上有一阶连续偏导数. 则 $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=\iint_D\left(\frac{\partial{}Q}{\partial{}x}-\frac{\partial{}P}{\partial{}y}\right)\mathrm{d}x\mathrm{d}y$.
 
 > **定理 2.4 (积分与路径无关的条件)**
 > 
-> 设 $D$ 为单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int{P}\,\mathrm{d}x+Q\,\mathrm{d}y$ 与路径无关的充要条件是 $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$.
+> 设 $D$ 为单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int{}P\,\mathrm{d}x+Q\,\mathrm{d}y$ 与路径无关的充要条件是 $\frac{\partial{}Q}{\partial{}x}=\frac{\partial{}P}{\partial{}y}$.
 
 > **定理 2.5 (恰当微分形式)**
 > 
-> $P\,\mathrm{d}x+Q\,\mathrm{d}y$ 为恰当微分形式的充要条件是 $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$.
+> $P\,\mathrm{d}x+Q\,\mathrm{d}y$ 为恰当微分形式的充要条件是 $\frac{\partial{}Q}{\partial{}x}=\frac{\partial{}P}{\partial{}y}$.
 
 > **定理 4.2 (三重积分的穿线法)**
 > 
-> 设 $\Omega=\left\{\left(x,y,z\right):\left(x,y\right)\in{D},z_1\left(x,y\right)\le{z}\le{z}_2\left(x,y\right)\right\}$. 则 $\iiint_\Omega{f}\,\mathrm{d}V=\iint_D\mathrm{d}x\mathrm{d}y\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm{d}z$.
+> 设 $\Omega=\left\{\left(x,y,z\right):\left(x,y\right)\in{}D,z_1\left(x,y\right)\le{}z\le{}z_2\left(x,y\right)\right\}$. 则 $\iiint_\Omega{}f\,\mathrm{d}V=\iint_D\mathrm{d}x\mathrm{d}y\int_{z_1\left(x,y\right)}^{z_2\left(x,y\right)}f\,\mathrm{d}z$.
 
 > **定理 4.4 (三重积分换元公式)**
 > 
-> $\iiint_\Omega{f}\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm{d}u\mathrm{d}v\mathrm{d}w$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
+> $\iiint_\Omega{}f\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iiint_{\Omega'}f\left(x\left(u,v,w\right),y\left(u,v,w\right),z\left(u,v,w\right)\right)\left|J\right|\,\mathrm{d}u\mathrm{d}v\mathrm{d}w$. 柱坐标 $\left|J\right|=r$, 球坐标 $\left|J\right|=\rho^2\sin\varphi$.
 
 > **命题 5.1 (曲面面积公式)**
 > 
@@ -55,7 +55,7 @@ $\blacksquare$
 展开: $\left(x+1\right)\left(y+1\right)=xy+x+y+1$. 由对称性, 前三项积分为 $0$. 故
 
 $$
-\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V=\iiint_\Omega1\,\mathrm{d}V=\frac{4\pi{a}bc}{3}.
+\iiint_\Omega\left(x+1\right)\left(y+1\right)\,\mathrm{d}V=\iiint_\Omega1\,\mathrm{d}V=\frac{4\pi{}abc}{3}.
 $$
 
 $\blacksquare$
@@ -83,7 +83,7 @@ $\blacksquare$
 $z=xy/a$, $\sqrt{1+f_x^2+f_y^2}=\sqrt{1+\frac{x^2+y^2}{a^2}}$. 由**命题 5.1 (曲面面积公式)** 并用极坐标,
 
 $$
-S=\frac{2\pi{a}^2}{3}\left(2\sqrt2-1\right).
+S=\frac{2\pi{}a^2}{3}\left(2\sqrt2-1\right).
 $$
 
 $\blacksquare$
@@ -94,10 +94,10 @@ $\blacksquare$
 
 ### 解答 8.5-3
 
-体积 $V=\frac{\pi{a}bc}{6}$. 用广义球坐标, 由质心坐标公式,
+体积 $V=\frac{\pi{}abc}{6}$. 用广义球坐标, 由质心坐标公式,
 
 $$
-z_0=\frac{\iiint{z}\,\mathrm{d}V}{V}=\frac{3c}{8}.
+z_0=\frac{\iiint{}z\,\mathrm{d}V}{V}=\frac{3c}{8}.
 $$
 
 由对称性, $x_0=\frac{3a}{8}$, $y_0=\frac{3b}{8}$. 质心为 $\left(\frac{3a}{8},\frac{3b}{8},\frac{3c}{8}\right)$.
@@ -113,18 +113,18 @@ $\blacksquare$
 由转动惯量公式,
 
 $$
-J_z=\rho\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V=\frac{2\rho{a}^5}{3}.
+J_z=\rho\iiint_\Omega\left(x^2+y^2\right)\,\mathrm{d}V=\frac{2\rho{}a^5}{3}.
 $$
 
 $\blacksquare$
 
 ## 9.1-1
 
-求旋轮线第一拱 $x=a\left(t-\sin{t}\right)$, $y=a\left(1-\cos{t}\right)$ ($0\le{t}\le2\pi$) 的弧长.
+求旋轮线第一拱 $x=a\left(t-\sin{}t\right)$, $y=a\left(1-\cos{}t\right)$ ($0\le{}t\le2\pi$) 的弧长.
 
 ### 解答 9.1-1
 
-$x'=a\left(1-\cos{t}\right)$, $y'=a\sin{t}$. 由**定理 1.2 (光滑曲线的弧长公式)**,
+$x'=a\left(1-\cos{}t\right)$, $y'=a\sin{}t$. 由**定理 1.2 (光滑曲线的弧长公式)**,
 
 $$
 \mathrm{d}s=2a\sin\frac{t}2\,\mathrm{d}t.
@@ -136,7 +136,7 @@ $\blacksquare$
 
 ## 9.1-3
 
-求阿基米德螺线 $x=at\cos{t}$, $y=at\sin{t}$ ($0\le{t}\le2\pi$) 的弧长.
+求阿基米德螺线 $x=at\cos{}t$, $y=at\sin{}t$ ($0\le{}t\le2\pi$) 的弧长.
 
 ### 解答 9.1-3
 
@@ -168,7 +168,7 @@ $\blacksquare$
 
 ### 解答 9.1-7
 
-取参数方程 $x=a\cos{t}$, $y=b\sin{t}$. 由**定理 1.3 (第一型曲线积分的计算)**,
+取参数方程 $x=a\cos{}t$, $y=b\sin{}t$. 由**定理 1.3 (第一型曲线积分的计算)**,
 
 $$
 \int_Lxy\,\mathrm{d}s=\frac{ab\left(a^2+ab+b^2\right)}{3\left(a+b\right)}.
@@ -182,10 +182,10 @@ $\blacksquare$
 
 ### 解答 9.1-8
 
-计算弧微元得 $\mathrm{d}s=a\,\mathrm{d}t$. 由**定理 1.3 (第一型曲线积分的计算)**, 利用 $\int_0^{2\pi}\cos^2t\,\mathrm{d}t=\pi$, $\int_0^{2\pi}\sin{t}\cos{t}\,\mathrm{d}t=0$, 得
+计算弧微元得 $\mathrm{d}s=a\,\mathrm{d}t$. 由**定理 1.3 (第一型曲线积分的计算)**, 利用 $\int_0^{2\pi}\cos^2t\,\mathrm{d}t=\pi$, $\int_0^{2\pi}\sin{}t\cos{}t\,\mathrm{d}t=0$, 得
 
 $$
-\int_Lx^2\,\mathrm{d}s=\frac{2\pi{a}^3}{3}.
+\int_Lx^2\,\mathrm{d}s=\frac{2\pi{}a^3}{3}.
 $$
 
 $\blacksquare$
@@ -218,15 +218,15 @@ $\blacksquare$
 
 (2) $\oint_{L^+}\sqrt{x^2+y^2}\,\mathrm{d}x+y\left[xy+\ln\left(x+\sqrt{x^2+y^2}\right)\right]\mathrm{d}y$, $L$ 为三角形;
 
-(3) $\oint_{L^+}\left(e^x\sin{y}+\sin{x}-8y\right)\,\mathrm{d}x+\left(e^x\cos{y}-\sin{y}\right)\,\mathrm{d}y$, $L$ 为上半圆边界.
+(3) $\oint_{L^+}\left(e^x\sin{}y+\sin{}x-8y\right)\,\mathrm{d}x+\left(e^x\cos{}y-\sin{}y\right)\,\mathrm{d}y$, $L$ 为上半圆边界.
 
 ### 解答 9.2-3
 
-(1) 由**定理 2.2 (格林公式)**, $=\iint_D\left(x^2+y^2\right)=\frac{\pi{R}^4}{2}$.
+(1) 由**定理 2.2 (格林公式)**, $=\iint_D\left(x^2+y^2\right)=\frac{\pi{}R^4}{2}$.
 
-(2) $\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}=y^2$. $=\frac{25}{6}$.
+(2) $\frac{\partial{}Q}{\partial{}x}-\frac{\partial{}P}{\partial{}y}=y^2$. $=\frac{25}{6}$.
 
-(3) $\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}=8$. $=8\cdot\frac{\pi{a}^2}{8}=\pi{a}^2$.
+(3) $\frac{\partial{}Q}{\partial{}x}-\frac{\partial{}P}{\partial{}y}=8$. $=8\cdot\frac{\pi{}a^2}{8}=\pi{}a^2$.
 
 $\blacksquare$
 
@@ -236,6 +236,6 @@ $\blacksquare$
 
 ### 解答 9.2-4
 
-$P=yf\left(xy\right)$, $Q=xf\left(xy\right)$. 计算得 $\frac{\partial{P}}{\partial{y}}=\frac{\partial{Q}}{\partial{x}}=f\left(xy\right)+xyf'\left(xy\right)$. 由**定理 2.2 (格林公式)**, 原式 $=0$.
+$P=yf\left(xy\right)$, $Q=xf\left(xy\right)$. 计算得 $\frac{\partial{}P}{\partial{}y}=\frac{\partial{}Q}{\partial{}x}=f\left(xy\right)+xyf'\left(xy\right)$. 由**定理 2.2 (格林公式)**, 原式 $=0$.
 
 $\blacksquare$

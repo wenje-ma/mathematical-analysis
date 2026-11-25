@@ -6,7 +6,7 @@
 
 > **定理 3.1 (极限四则运算定理)**
 > 
-> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm{b}_n\right)=l_1\pm{l}_2$, $\lim\left(a_n\cdot{b}_n\right)=l_1\cdot{l}_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
+> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm{}b_n\right)=l_1\pm{}l_2$, $\lim\left(a_n\cdot{}b_n\right)=l_1\cdot{}l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
 > **定理 3.2 (实数域完备性)**
 > 
@@ -14,11 +14,11 @@
 
 > **定理 4.2 (夹逼定理)**
 > 
-> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le{a}_n\le{b}_n$ 对一切 $n\ge{N}_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
+> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le{}a_n\le{}b_n$ 对一切 $n\ge{}N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
 
 > **定理 5.1 (函数极限四则运算)**
 > 
-> 若 $\lim{f}\left(x\right)=l_1$, $\lim{g}\left(x\right)=l_2$, 则 $\lim\left(f\pm{g}\right)=l_1\pm{l}_2$, $\lim\left(f\cdot{g}\right)=l_1\cdot{l}_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+> 若 $\lim{}f\left(x\right)=l_1$, $\lim{}g\left(x\right)=l_2$, 则 $\lim\left(f\pm{}g\right)=l_1\pm{}l_2$, $\lim\left(f\cdot{}g\right)=l_1\cdot{}l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
 ## 1.4-16
 
@@ -30,15 +30,15 @@
 
 ### 解答 1.4-16
 
-(1) 由取整函数定义, $na_n-1<\left[na_n\right]\le{n}a_n$, 故
+(1) 由取整函数定义, $na_n-1<\left[na_n\right]\le{}na_n$, 故
 
 $$
-a_n-\frac1n<\frac{\left[na_n\right]}{n}\le{a}_n.
+a_n-\frac1n<\frac{\left[na_n\right]}{n}\le{}a_n.
 $$
 
-当 $n\to\infty$ 时 $a_n\to{a}$, $a_n-\frac1n\to{a}$ (因 $\frac1n\to0$). 由**定理 4.2 (夹逼定理)**, $\frac{\left[na_n\right]}{n}\to{a}$.
+当 $n\to\infty$ 时 $a_n\to{}a$, $a_n-\frac1n\to{}a$ (因 $\frac1n\to0$). 由**定理 4.2 (夹逼定理)**, $\frac{\left[na_n\right]}{n}\to{}a$.
 
-(2) 因 $a_n\to{a}>0$, 存在 $N$ 使得当 $n>N$ 时 $\frac{a}2<{}a_n<2a$. 于是
+(2) 因 $a_n\to{}a>0$, 存在 $N$ 使得当 $n>N$ 时 $\frac{a}2<{}a_n<2a$. 于是
 
 $$
 \left(\frac{a}2\right)^{1/n}<{}a_n^{1/n}<\left(2a\right)^{1/n}.
@@ -72,25 +72,25 @@ $\blacksquare$
 
 ## 1.5-1-2
 
-利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to{a}}\cos{x}=\cos{a}$.
+利用 $\varepsilon$-$\delta$ 语言证明: $\lim_{x\to{}a}\cos{}x=\cos{}a$.
 
 ### 解答 1.5-1-2
 
 由和差化积公式,
 
 $$
-\left|\cos{x}-\cos{a}\right|=2\left|\sin\frac{x+a}2\right|\left|\sin\frac{x-a}2\right|\le2\cdot1\cdot\frac{\left|x-a\right|}2=\left|x-a\right|,
+\left|\cos{}x-\cos{}a\right|=2\left|\sin\frac{x+a}2\right|\left|\sin\frac{x-a}2\right|\le2\cdot1\cdot\frac{\left|x-a\right|}2=\left|x-a\right|,
 $$
 
-其中用到 $\left|\sin{t}\right|\le\left|t\right|$ 对一切 $t$ 成立.
+其中用到 $\left|\sin{}t\right|\le\left|t\right|$ 对一切 $t$ 成立.
 
 任给 $\varepsilon>0$, 取 $\delta=\varepsilon$, 则当 $0<\left|x-a\right|<\delta$ 时,
 
 $$
-\left|\cos{x}-\cos{a}\right|\le\left|x-a\right|<\varepsilon.
+\left|\cos{}x-\cos{}a\right|\le\left|x-a\right|<\varepsilon.
 $$
 
-由函数极限的定义, $\lim_{x\to{a}}\cos{x}=\cos{a}$.
+由函数极限的定义, $\lim_{x\to{}a}\cos{}x=\cos{}a$.
 
 $\blacksquare$
 
@@ -123,7 +123,7 @@ $\blacksquare$
 $\left|\sqrt{4-x^2}-0\right|=\sqrt{4-x^2}$. 要使 $\sqrt{4-x^2}<\varepsilon$, 只需 $4-x^2<\varepsilon^2$, 即 $x^2>4-\varepsilon^2$. 因 $x\to2-0$ 时 $x<2$, 故只需 $x>\sqrt{4-\varepsilon^2}$. 取 $\delta=2-\sqrt{4-\varepsilon^2}$, 则当 $2-\delta<{}x<2$ 时,
 
 $$
-0<2-x<\delta\Rightarrow{x}>\sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}<\varepsilon.
+0<2-x<\delta\Rightarrow{}x>\sqrt{4-\varepsilon^2}\Rightarrow\sqrt{4-x^2}<\varepsilon.
 $$
 
 由单侧极限的定义, $\lim_{x\to2-0}\sqrt{4-x^2}=0$.
@@ -150,7 +150,7 @@ $\blacksquare$
 
 ## 1.5-4
 
-设 $\lim_{x\to{a}}f\left(x\right)=l$, 且 $l\ne0$. 证明函数 $y=\frac1{f\left(x\right)}$ 当 $x\to{a}$ 时为有界变量.
+设 $\lim_{x\to{}a}f\left(x\right)=l$, 且 $l\ne0$. 证明函数 $y=\frac1{f\left(x\right)}$ 当 $x\to{}a$ 时为有界变量.
 
 ### 解答 1.5-4
 
@@ -160,13 +160,13 @@ $$
 \left|f\left(x\right)\right|=\left|l-\left(l-f\left(x\right)\right)\right|\ge\left|l\right|-\left|l-f\left(x\right)\right|>\left|l\right|-\frac{\left|l\right|}{2}=\frac{\left|l\right|}{2}.
 $$
 
-于是 $\left|\frac1{f\left(x\right)}\right|<\frac2{\left|l\right|}$, 即 $\frac1{f\left(x\right)}$ 当 $x\to{a}$ 时有界. 此即极限的保号性 的推论.
+于是 $\left|\frac1{f\left(x\right)}\right|<\frac2{\left|l\right|}$, 即 $\frac1{f\left(x\right)}$ 当 $x\to{}a$ 时有界. 此即极限的保号性 的推论.
 
 $\blacksquare$
 
 ## 1.5-5
 
-设 $\lim_{x\to2}f\left(x\right)=l$, 证明: $y\to\sqrt2$ 时, $f\left(y^2\right)\to{l}$.
+设 $\lim_{x\to2}f\left(x\right)=l$, 证明: $y\to\sqrt2$ 时, $f\left(y^2\right)\to{}l$.
 
 ### 解答 1.5-5
 
@@ -178,7 +178,7 @@ $$
 \left|y^2-2\right|=\left|y-\sqrt2\right|\left|y+\sqrt2\right|<\delta\cdot\left(2\sqrt2+1\right)\le\delta_1,
 $$
 
-且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|<\varepsilon$. 由函数极限的定义, $f\left(y^2\right)\to{l}$.
+且 $y^2\ne2$ (否则 $y=\pm\sqrt2$, 而 $y\to\sqrt2$ 且 $y\ne\sqrt2$ 时 $y^2\ne2$). 故 $\left|f\left(y^2\right)-l\right|<\varepsilon$. 由函数极限的定义, $f\left(y^2\right)\to{}l$.
 
 $\blacksquare$
 
@@ -188,7 +188,7 @@ $\blacksquare$
 
 (1) $y=\left[x\right]\cdot\left(1+x\right)$;
 
-(2) $y=\cos{x}\cdot\operatorname{sgn}x$;
+(2) $y=\cos{}x\cdot\operatorname{sgn}x$;
 
 (3) $y=\frac{\left|x\right|}{x}\cdot\frac1{1+x^n}$.
 
@@ -196,7 +196,7 @@ $\blacksquare$
 
 (1) 当 $x\to0+0$ 时 $\left[x\right]=0$, 故 $y=0$, 右极限为 $0$. 当 $x\to0-0$ 时 $\left[x\right]=-1$, 故 $y=-\left(1+x\right)\to-1$, 左极限为 $-1$.
 
-(2) 当 $x\to0+0$ 时 $\operatorname{sgn}x=1$, 故 $y=\cos{x}\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\operatorname{sgn}x=-1$, 故 $y=-\cos{x}\to-1$, 左极限为 $-1$.
+(2) 当 $x\to0+0$ 时 $\operatorname{sgn}x=1$, 故 $y=\cos{}x\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\operatorname{sgn}x=-1$, 故 $y=-\cos{}x\to-1$, 左极限为 $-1$.
 
 (3) 当 $x\to0+0$ 时 $\frac{\left|x\right|}{x}=1$, 且 $\frac1{1+x^n}\to1$, 右极限为 $1$. 当 $x\to0-0$ 时 $\frac{\left|x\right|}{x}=-1$, 且 $\frac1{1+x^n}\to1$ (因 $x^n\to0$), 左极限为 $-1$.
 
@@ -240,14 +240,14 @@ $\blacksquare$
 
 ## 1.6-2
 
-用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim_{x\to{a}}f\left(x\right)=l$ 且 $l>0$, 则存在 $\delta>0$, 使得 $f\left(x\right)>\frac{l}2$, 只要 $0<\left|x-a\right|<\delta$.
+用 $\varepsilon$-$\delta$ 语言证明: 若 $\lim_{x\to{}a}f\left(x\right)=l$ 且 $l>0$, 则存在 $\delta>0$, 使得 $f\left(x\right)>\frac{l}2$, 只要 $0<\left|x-a\right|<\delta$.
 
 ### 解答 1.6-2
 
 取 $\varepsilon=\frac{l}2>0$. 由函数极限的定义, 存在 $\delta>0$, 使得当 $0<\left|x-a\right|<\delta$ 时 $\left|f\left(x\right)-l\right|<\frac{l}2$. 由**命题 1.7 (三角不等式)**,
 
 $$
-f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge{l}-\left|f\left(x\right)-l\right|>l-\frac{l}2=\frac{l}2.
+f\left(x\right)=l-\left(l-f\left(x\right)\right)\ge{}l-\left|f\left(x\right)-l\right|>l-\frac{l}2=\frac{l}2.
 $$
 
 故 $f\left(x\right)>\frac{l}2$.
@@ -256,19 +256,19 @@ $\blacksquare$
 
 ## 1.6-3
 
-利用极限 $\lim_{x\to0}\frac{\sin{x}}{x}=1$ 求下列极限:
+利用极限 $\lim_{x\to0}\frac{\sin{}x}{x}=1$ 求下列极限:
 
-(1) $\lim_{x\to0}\frac{\sin\alpha{x}}{\sin\beta{x}}$ ($\beta\ne0$);
+(1) $\lim_{x\to0}\frac{\sin\alpha{}x}{\sin\beta{}x}$ ($\beta\ne0$);
 
 (2) $\lim_{x\to0}\frac{\tan3x-\tan5x}{\sin2x}$;
 
-(3) $\lim_{x\to0}\frac{1-\cos{x}}{x^2}$;
+(3) $\lim_{x\to0}\frac{1-\cos{}x}{x^2}$;
 
-(4) $\lim_{x\to{a}}\frac{\sin{x}-\sin{a}}{x-a}$.
+(4) $\lim_{x\to{}a}\frac{\sin{}x-\sin{}a}{x-a}$.
 
 ### 解答 1.6-3
 
-(1) $\frac{\sin\alpha{x}}{\sin\beta{x}}=\frac{\alpha}{\beta}\cdot\frac{\sin\alpha{x}}{\alpha{x}}\cdot\frac{\beta{x}}{\sin\beta{x}}$. 由**命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin{x}}{x}=1$)** 及**定理 5.1 (函数极限四则运算)**, 极限为 $\frac{\alpha}{\beta}$.
+(1) $\frac{\sin\alpha{}x}{\sin\beta{}x}=\frac{\alpha}{\beta}\cdot\frac{\sin\alpha{}x}{\alpha{}x}\cdot\frac{\beta{}x}{\sin\beta{}x}$. 由**命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin{}x}{x}=1$)** 及**定理 5.1 (函数极限四则运算)**, 极限为 $\frac{\alpha}{\beta}$.
 
 (2)
 
@@ -278,22 +278,22 @@ $$
 
 故原式 $=\frac{-1}{\cos3x\cos5x}\to-1$.
 
-(3) $1-\cos{x}=2\sin^2\frac{x}2$, 故
+(3) $1-\cos{}x=2\sin^2\frac{x}2$, 故
 
 $$
-\frac{1-\cos{x}}{x^2}=\frac{2\sin^2\left(x/2\right)}{x^2}=\frac12\left(\frac{\sin\left(x/2\right)}{x/2}\right)^2\to\frac12.
+\frac{1-\cos{}x}{x^2}=\frac{2\sin^2\left(x/2\right)}{x^2}=\frac12\left(\frac{\sin\left(x/2\right)}{x/2}\right)^2\to\frac12.
 $$
 
 (4)
 
 $$
-\sin{x}-\sin{a}=2\cos\frac{x+a}2\sin\frac{x-a}2,
+\sin{}x-\sin{}a=2\cos\frac{x+a}2\sin\frac{x-a}2,
 $$
 
 故
 
 $$
-\frac{\sin{x}-\sin{a}}{x-a}=\cos\frac{x+a}2\cdot\frac{\sin\left(x-a\right)/2}{\left(x-a\right)/2}\to\cos{a}.
+\frac{\sin{}x-\sin{}a}{x-a}=\cos\frac{x+a}2\cdot\frac{\sin\left(x-a\right)/2}{\left(x-a\right)/2}\to\cos{}a.
 $$
 
 $\blacksquare$
@@ -305,10 +305,10 @@ $\blacksquare$
 ### 解答 1.6-4-1
 
 $$
-\left(1+\frac3x\right)^x=\left[\left(1+\frac3x\right)^{x/3}\right]^3\to{e}^3,\quad\left(1+\frac5x\right)^x=\left[\left(1+\frac5x\right)^{x/5}\right]^5\to{e}^5.
+\left(1+\frac3x\right)^x=\left[\left(1+\frac3x\right)^{x/3}\right]^3\to{}e^3,\quad\left(1+\frac5x\right)^x=\left[\left(1+\frac5x\right)^{x/5}\right]^5\to{}e^5.
 $$
 
-由**定理 5.1 (函数极限四则运算)**, 乘积的极限为 $e^3\cdot{e}^5=e^8$.
+由**定理 5.1 (函数极限四则运算)**, 乘积的极限为 $e^3\cdot{}e^5=e^8$.
 
 $\blacksquare$
 
@@ -347,7 +347,7 @@ $\blacksquare$
 ### 解答 1.6-4-6
 
 $$
-\left(1+\frac1x\right)^{x+100}=\left(1+\frac1x\right)^x\cdot\left(1+\frac1x\right)^{100}\to{e}\cdot1=e.
+\left(1+\frac1x\right)^{x+100}=\left(1+\frac1x\right)^x\cdot\left(1+\frac1x\right)^{100}\to{}e\cdot1=e.
 $$
 
 $\blacksquare$

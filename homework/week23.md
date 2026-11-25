@@ -6,7 +6,7 @@
 
 > **定理 4.3 (魏尔斯特拉斯判别法)**
 > 
-> 若 $\left|f\left(x,y\right)\right|\le{F}\left(x\right)$ 且瑕积分 $\int_a^bF\left(x\right)\mathrm{d}x$ 收敛, 则 $\int_a^bf\left(x,y\right)\mathrm{d}x$ 关于 $y$ 一致收敛.
+> 若 $\left|f\left(x,y\right)\right|\le{}F\left(x\right)$ 且瑕积分 $\int_a^bF\left(x\right)\mathrm{d}x$ 收敛, 则 $\int_a^bf\left(x,y\right)\mathrm{d}x$ 关于 $y$ 一致收敛.
 
 > **定理 4.4 (阿贝尔判别法)**
 > 
@@ -22,11 +22,11 @@
 
 ## 12.4-1-5
 
-讨论 $\int_0^{+\infty}e^{-x^2y^2}\cos{x}\,\mathrm{d}x$ 在 $y\in\left[y_0,+\infty\right)$ 上的一致收敛性.
+讨论 $\int_0^{+\infty}e^{-x^2y^2}\cos{}x\,\mathrm{d}x$ 在 $y\in\left[y_0,+\infty\right)$ 上的一致收敛性.
 
 ### 解答 12.4-1-5
 
-因 $\left|e^{-x^2y^2}\cos{x}\right|\le{e}^{-x^2y_0^2}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
+因 $\left|e^{-x^2y^2}\cos{}x\right|\le{}e^{-x^2y_0^2}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
 
 $\blacksquare$
 
@@ -42,7 +42,7 @@ $\blacksquare$
 
 ## 12.4-2-2
 
-求 $\int_0^{+\infty}\frac{\sin\left(\alpha{x}\right)\cos\left(\beta{x}\right)}x\mathrm{d}x$.
+求 $\int_0^{+\infty}\frac{\sin\left(\alpha{}x\right)\cos\left(\beta{}x\right)}x\mathrm{d}x$.
 
 ### 解答 12.4-2-2
 
@@ -52,43 +52,43 @@ $\blacksquare$
 
 ## 12.4-2-4
 
-求 $\int_0^{+\infty}\frac{1-\cos\left(\alpha{x}\right)}xe^{-x}\mathrm{d}x$.
+求 $\int_0^{+\infty}\frac{1-\cos\left(\alpha{}x\right)}xe^{-x}\mathrm{d}x$.
 
 ### 解答 12.4-2-4
 
-由**定理 4.8 (积分号下求导)**, $I'\left(\alpha\right)=\int_0^{+\infty}e^{-x}\sin\left(\alpha{x}\right)\mathrm{d}x=\frac{\alpha}{1+\alpha^2}$. 积分并利用 $I\left(0\right)=0$, 得 $I\left(\alpha\right)=\frac12\ln\left(1+\alpha^2\right)$.
+由**定理 4.8 (积分号下求导)**, $I'\left(\alpha\right)=\int_0^{+\infty}e^{-x}\sin\left(\alpha{}x\right)\mathrm{d}x=\frac{\alpha}{1+\alpha^2}$. 积分并利用 $I\left(0\right)=0$, 得 $I\left(\alpha\right)=\frac12\ln\left(1+\alpha^2\right)$.
 
 $\blacksquare$
 
 ## 12.4-5
 
-证明迪尼定理: 若 $u_n\left(x\right)\ge0$ 连续, $\sum{u}_n\left(x\right)$ 点态收敛于连续函数 $S\left(x\right)$, 则一致收敛.
+证明迪尼定理: 若 $u_n\left(x\right)\ge0$ 连续, $\sum{}u_n\left(x\right)$ 点态收敛于连续函数 $S\left(x\right)$, 则一致收敛.
 
 ### 解答 12.4-5
 
-令余项 $R_N\left(x\right)=S\left(x\right)-S_N\left(x\right)$. 反证: 若不一致收敛, 则存在 $x_k\to{x}_0$ 使 $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. 由单调性与连续性, 对任意 $m$, $R_m\left(x_0\right)\ge\varepsilon_0$, 与 $R_m\left(x_0\right)\to0$ 矛盾.
+令余项 $R_N\left(x\right)=S\left(x\right)-S_N\left(x\right)$. 反证: 若不一致收敛, 则存在 $x_k\to{}x_0$ 使 $R_{N_k}\left(x_k\right)\ge\varepsilon_0$. 由单调性与连续性, 对任意 $m$, $R_m\left(x_0\right)\ge\varepsilon_0$, 与 $R_m\left(x_0\right)\to0$ 矛盾.
 
 $\blacksquare$
 
 ## 12.5-1-1
 
-讨论 $\int_0^1\frac{\sin{x}}{x^\alpha}\mathrm{d}x$ 在 (i) $\alpha\le\alpha_0<2$; (ii) $\alpha<2$ 上的一致收敛性.
+讨论 $\int_0^1\frac{\sin{}x}{x^\alpha}\mathrm{d}x$ 在 (i) $\alpha\le\alpha_0<2$; (ii) $\alpha<2$ 上的一致收敛性.
 
 ### 解答 12.5-1-1
 
-(i) 因 $\left|\frac{\sin{x}}{x^\alpha}\right|\le{x}^{1-\alpha_0}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
+(i) 因 $\left|\frac{\sin{}x}{x^\alpha}\right|\le{}x^{1-\alpha_0}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
 
-(ii) 取 $\alpha_n=2-\frac1n$, 则 $\int_0^{1/n}\frac{\sin{x}}{x^{\alpha_n}}\mathrm{d}x\to1\ne0$. 故在 $\alpha<2$ 上不一致收敛.
+(ii) 取 $\alpha_n=2-\frac1n$, 则 $\int_0^{1/n}\frac{\sin{}x}{x^{\alpha_n}}\mathrm{d}x\to1\ne0$. 故在 $\alpha<2$ 上不一致收敛.
 
 $\blacksquare$
 
 ## 12.5-1-2
 
-讨论 $\int_0^1x^{p-1}\mathrm{d}x$ 在 (i) $p\ge{p}_0>0$; (ii) $p>0$ 上的一致收敛性.
+讨论 $\int_0^1x^{p-1}\mathrm{d}x$ 在 (i) $p\ge{}p_0>0$; (ii) $p>0$ 上的一致收敛性.
 
 ### 解答 12.5-1-2
 
-(i) 因 $x^{p-1}\le{x}^{p_0-1}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
+(i) 因 $x^{p-1}\le{}x^{p_0-1}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
 
 (ii) 取 $p_n=\frac1n$, 则 $\int_0^{1/n}x^{p_n-1}\mathrm{d}x\to1\ne0$. 故在 $p>0$ 上不一致收敛.
 
@@ -96,11 +96,11 @@ $\blacksquare$
 
 ## 12.5-2-1
 
-求 $\int_0^1\frac{x^b-x^a}{\ln{x}}\mathrm{d}x$ ($a>-1,b>-1$).
+求 $\int_0^1\frac{x^b-x^a}{\ln{}x}\mathrm{d}x$ ($a>-1,b>-1$).
 
 ### 解答 12.5-2-1
 
-由 $\frac{x^b-x^a}{\ln{x}}=\int_a^bx^y\mathrm{d}y$, 及**定理 4.7 (积分次序交换定理)**, $I=\int_a^b\frac{\mathrm{d}y}{y+1}=\ln\frac{1+b}{1+a}$.
+由 $\frac{x^b-x^a}{\ln{}x}=\int_a^bx^y\mathrm{d}y$, 及**定理 4.7 (积分次序交换定理)**, $I=\int_a^b\frac{\mathrm{d}y}{y+1}=\ln\frac{1+b}{1+a}$.
 
 $\blacksquare$
 
@@ -116,11 +116,11 @@ $\blacksquare$
 
 ## 12.6-1-2
 
-计算 $\int_0^{+\infty}x^{-1/2}e^{-\alpha{x}}\mathrm{d}x$ ($\alpha>0$).
+计算 $\int_0^{+\infty}x^{-1/2}e^{-\alpha{}x}\mathrm{d}x$ ($\alpha>0$).
 
 ### 解答 12.6-1-2
 
-代换 $t=\alpha{x}$, 由伽马函数的定义, 得 $\sqrt{\frac\pi\alpha}$.
+代换 $t=\alpha{}x$, 由伽马函数的定义, 得 $\sqrt{\frac\pi\alpha}$.
 
 $\blacksquare$
 

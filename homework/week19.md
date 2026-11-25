@@ -2,7 +2,7 @@
 
 > **定理 1.1 (M 判别法)**
 > 
-> 若存在 $M_n>0$, $M_n\to0$, 使 $\left|f_n\left(x\right)-f\left(x\right)\right|\le{M}_n$ 对一切 $x\in{X}$ 成立, 则 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
+> 若存在 $M_n>0$, $M_n\to0$, 使 $\left|f_n\left(x\right)-f\left(x\right)\right|\le{}M_n$ 对一切 $x\in{}X$ 成立, 则 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
 
 > **定理 1.2 (极限函数的连续性)**
 > 
@@ -10,23 +10,23 @@
 
 > **定理 2.2 (魏尔斯特拉斯 M 判别法)**
 > 
-> 若 $\left|u_n\left(x\right)\right|\le{a}_n$ 对一切 $x\in{X}$ 成立, 且 $\sum{a}_n$ 收敛, 则 $\sum{u}_n\left(x\right)$ 在 $X$ 上一致收敛.
+> 若 $\left|u_n\left(x\right)\right|\le{}a_n$ 对一切 $x\in{}X$ 成立, 且 $\sum{}a_n$ 收敛, 则 $\sum{}u_n\left(x\right)$ 在 $X$ 上一致收敛.
 
 > **定理 2.4 (狄利克雷判别法)**
 > 
-> 若 $\sum{a}_n\left(x\right)$ 的部分和一致有界, $b_n\left(x\right)$ 单调且一致趋于零, 则 $\sum{a}_n\left(x\right)b_n\left(x\right)$ 一致收敛.
+> 若 $\sum{}a_n\left(x\right)$ 的部分和一致有界, $b_n\left(x\right)$ 单调且一致趋于零, 则 $\sum{}a_n\left(x\right)b_n\left(x\right)$ 一致收敛.
 
 > **定理 2.5 (和函数的连续性)**
 > 
-> 若 $u_n\left(x\right)$ 连续且 $\sum{u}_n\left(x\right)$ 一致收敛, 则和函数 $S\left(x\right)$ 连续.
+> 若 $u_n\left(x\right)$ 连续且 $\sum{}u_n\left(x\right)$ 一致收敛, 则和函数 $S\left(x\right)$ 连续.
 
 > **定理 2.7 (逐项求导定理)**
 > 
-> 若 $\sum{u}_n\left(x\right)$ 收敛, $u_n'\left(x\right)$ 连续, 且 $\sum{u}_n'\left(x\right)$ 一致收敛, 则 $S'\left(x\right)=\sum{u}_n'\left(x\right)$.
+> 若 $\sum{}u_n\left(x\right)$ 收敛, $u_n'\left(x\right)$ 连续, 且 $\sum{}u_n'\left(x\right)$ 一致收敛, 则 $S'\left(x\right)=\sum{}u_n'\left(x\right)$.
 
 > **定理 3.2 (收敛半径的柯西公式)**
 > 
-> 幂级数 $\sum{a}_nx^n$ 的收敛半径 $R$ 满足 $\frac1R=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}$.
+> 幂级数 $\sum{}a_nx^n$ 的收敛半径 $R$ 满足 $\frac1R=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}$.
 
 > **定理 3.3 (收敛半径的达朗贝尔公式)**
 > 
@@ -38,11 +38,11 @@
 
 ## 11.1-2
 
-设 $f_n$ 在 $\left(a,b\right)$ 内一致收敛于 $f$, 且 $\lim_{x\to{x}_0}f_n\left(x\right)$ 存在. 证明 $\lim_{x\to{x}_0}f\left(x\right)=\lim_{n\to\infty}\lim_{x\to{x}_0}f_n\left(x\right)$.
+设 $f_n$ 在 $\left(a,b\right)$ 内一致收敛于 $f$, 且 $\lim_{x\to{}x_0}f_n\left(x\right)$ 存在. 证明 $\lim_{x\to{}x_0}f\left(x\right)=\lim_{n\to\infty}\lim_{x\to{}x_0}f_n\left(x\right)$.
 
 ### 解答 11.1-2
 
-记 $A_n=\lim_{x\to{x}_0}f_n\left(x\right)$. 由一致收敛性, $\left\{A_n\right\}$ 为柯西列, 设极限为 $A$. 再由三角不等式得 $\left|f\left(x\right)-A\right|<\varepsilon$. 故等式成立.
+记 $A_n=\lim_{x\to{}x_0}f_n\left(x\right)$. 由一致收敛性, $\left\{A_n\right\}$ 为柯西列, 设极限为 $A$. 再由三角不等式得 $\left|f\left(x\right)-A\right|<\varepsilon$. 故等式成立.
 
 $\blacksquare$
 
@@ -62,7 +62,7 @@ $\blacksquare$
 
 ### 解答 11.1-4
 
-由不等式 $0\le{e}^x-\left(1+\frac{x}n\right)^n\le{e}^A\cdot\frac{A^2}{2n}=M_n$, $M_n\to0$. 由**定理 1.1 (M 判别法)**, 一致收敛.
+由不等式 $0\le{}e^x-\left(1+\frac{x}n\right)^n\le{}e^A\cdot\frac{A^2}{2n}=M_n$, $M_n\to0$. 由**定理 1.1 (M 判别法)**, 一致收敛.
 
 $\blacksquare$
 
@@ -72,7 +72,7 @@ $\blacksquare$
 
 ### 解答 11.1-5
 
-必要性: 由一致收敛性直接得 $M_n<\varepsilon$. 充分性: 由 $M_n\to0$, 对一切 $x$ 有 $\left|f_n\left(x\right)-f\left(x\right)\right|\le{M}_n<\varepsilon$. 由函数序列一致收敛的定义, 一致收敛.
+必要性: 由一致收敛性直接得 $M_n<\varepsilon$. 充分性: 由 $M_n\to0$, 对一切 $x$ 有 $\left|f_n\left(x\right)-f\left(x\right)\right|\le{}M_n<\varepsilon$. 由函数序列一致收敛的定义, 一致收敛.
 
 $\blacksquare$
 
@@ -130,11 +130,11 @@ $\blacksquare$
 
 ## 11.2-11
 
-讨论 $\sum\frac{\sin{x}\sin{n}x}{\sqrt{n^2+x^2}}$ 在 $\left[0,2\pi\right]$ 上的一致收敛性.
+讨论 $\sum\frac{\sin{}x\sin{}nx}{\sqrt{n^2+x^2}}$ 在 $\left[0,2\pi\right]$ 上的一致收敛性.
 
 ### 解答 11.2-11
 
-$\sin{x}\sum_{k=1}^N\sin{k}x$ 一致有界. $b_n=\frac{\sin{x}}{\sqrt{n^2+x^2}}\le\frac1n\to0$ 一致. 由**定理 2.4 (狄利克雷判别法)**, 一致收敛.
+$\sin{}x\sum_{k=1}^N\sin{}kx$ 一致有界. $b_n=\frac{\sin{}x}{\sqrt{n^2+x^2}}\le\frac1n\to0$ 一致. 由**定理 2.4 (狄利克雷判别法)**, 一致收敛.
 
 $\blacksquare$
 
@@ -154,7 +154,7 @@ $\blacksquare$
 
 ### 解答 11.2-6
 
-对任意 $a>1$, 在 $\left[a,+\infty\right)$ 上, $\left|\frac{\ln{n}}{n^x}\right|\le\frac{\ln{n}}{n^a}$, 而 $\sum\frac{\ln{n}}{n^a}$ 收敛. 由**定理 2.2 (魏尔斯特拉斯 M 判别法)** 与**定理 2.7 (逐项求导定理)**, $\zeta'\left(x\right)=-\sum\frac{\ln{n}}{n^x}$.
+对任意 $a>1$, 在 $\left[a,+\infty\right)$ 上, $\left|\frac{\ln{}n}{n^x}\right|\le\frac{\ln{}n}{n^a}$, 而 $\sum\frac{\ln{}n}{n^a}$ 收敛. 由**定理 2.2 (魏尔斯特拉斯 M 判别法)** 与**定理 2.7 (逐项求导定理)**, $\zeta'\left(x\right)=-\sum\frac{\ln{}n}{n^x}$.
 
 $\blacksquare$
 

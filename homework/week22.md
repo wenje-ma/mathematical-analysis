@@ -6,7 +6,7 @@
 
 > **定理 1.3 (比较判别法)**
 > 
-> 若 $0\le{f}\left(x\right)\le{g}\left(x\right)$ ($x\ge{X}_0$), 则 $\int{g}$ 收敛蕴含 $\int{f}$ 收敛, $\int{f}$ 发散蕴含 $\int{g}$ 发散.
+> 若 $0\le{}f\left(x\right)\le{}g\left(x\right)$ ($x\ge{}X_0$), 则 $\int{}g$ 收敛蕴含 $\int{}f$ 收敛, $\int{}f$ 发散蕴含 $\int{}g$ 发散.
 
 > **定理 1.6 (狄利克雷判别法)**
 > 
@@ -78,7 +78,7 @@ $\blacksquare$
 
 ## 12.2-4-2
 
-判断 $\int_{1/2}^2\frac{\mathrm{d}x}{x\ln{x}}$ 是否在柯西主值意义下收敛.
+判断 $\int_{1/2}^2\frac{\mathrm{d}x}{x\ln{}x}$ 是否在柯西主值意义下收敛.
 
 ### 解答 12.2-4-2
 
@@ -88,14 +88,14 @@ $\blacksquare$
 
 ## 12.3-2-5
 
-求 $I\left(y\right)=\int_{\sin{y}}^{\cos{y}}e^{y\sqrt{1-x^2}}\mathrm{d}x$ 的导数.
+求 $I\left(y\right)=\int_{\sin{}y}^{\cos{}y}e^{y\sqrt{1-x^2}}\mathrm{d}x$ 的导数.
 
 ### 解答 12.3-2-5
 
 由**定理 3.3 (积分号下求导)**,
 
 $$
-I'\left(y\right)=\int_{\sin{y}}^{\cos{y}}\sqrt{1-x^2}e^{y\sqrt{1-x^2}}\mathrm{d}x-e^{y\sin{y}}\sin{y}-e^{y\cos{y}}\cos{y}.
+I'\left(y\right)=\int_{\sin{}y}^{\cos{}y}\sqrt{1-x^2}e^{y\sqrt{1-x^2}}\mathrm{d}x-e^{y\sin{}y}\sin{}y-e^{y\cos{}y}\cos{}y.
 $$
 
 $\blacksquare$
@@ -132,11 +132,11 @@ $\blacksquare$
 
 ## 12.3-4-1
 
-计算 $I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos{x}+r^2\right)\mathrm{d}x$ ($\left|r\right|<1$).
+计算 $I\left(r\right)=\int_0^\pi\ln\left(1-2r\cos{}x+r^2\right)\mathrm{d}x$ ($\left|r\right|<1$).
 
 ### 解答 12.3-4-1
 
-由**定理 3.3 (积分号下求导)**, $I'\left(r\right)=\int_0^\pi\frac{2r-2\cos{x}}{1-2r\cos{x}+r^2}\mathrm{d}x$. 利用标准积分 $\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos{x}+r^2}=\frac\pi{1-r^2}$, 得 $I'\left(r\right)=0$. 又 $I\left(0\right)=0$, 故 $I\left(r\right)=0$.
+由**定理 3.3 (积分号下求导)**, $I'\left(r\right)=\int_0^\pi\frac{2r-2\cos{}x}{1-2r\cos{}x+r^2}\mathrm{d}x$. 利用标准积分 $\int_0^\pi\frac{\mathrm{d}x}{1-2r\cos{}x+r^2}=\frac\pi{1-r^2}$, 得 $I'\left(r\right)=0$. 又 $I\left(0\right)=0$, 故 $I\left(r\right)=0$.
 
 $\blacksquare$
 
@@ -152,20 +152,20 @@ $\blacksquare$
 
 ## 12.4-1-1
 
-讨论 $\int_0^{+\infty}e^{-\alpha{x}^2}\mathrm{d}x$ 在 $\alpha\in\left[\alpha_0,+\infty\right)$ 上的一致收敛性.
+讨论 $\int_0^{+\infty}e^{-\alpha{}x^2}\mathrm{d}x$ 在 $\alpha\in\left[\alpha_0,+\infty\right)$ 上的一致收敛性.
 
 ### 解答 12.4-1-1
 
-因 $e^{-\alpha{x}^2}\le{e}^{-\alpha_0x^2}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
+因 $e^{-\alpha{}x^2}\le{}e^{-\alpha_0x^2}$, 及**定理 4.3 (魏尔斯特拉斯判别法)**, 一致收敛.
 
 $\blacksquare$
 
 ## 12.4-1-3
 
-讨论 $\int_1^{+\infty}e^{-xy}\frac{\cos{x}}{x}\mathrm{d}x$ 在 $y\in\left[0,+\infty\right)$ 上的一致收敛性.
+讨论 $\int_1^{+\infty}e^{-xy}\frac{\cos{}x}{x}\mathrm{d}x$ 在 $y\in\left[0,+\infty\right)$ 上的一致收敛性.
 
 ### 解答 12.4-1-3
 
-$\int_1^{+\infty}\frac{\cos{x}}{x}\mathrm{d}x$ 收敛且不含 $y$, $e^{-xy}$ 单调且一致有界. 由**定理 4.4 (阿贝尔判别法)**, 一致收敛.
+$\int_1^{+\infty}\frac{\cos{}x}{x}\mathrm{d}x$ 收敛且不含 $y$, $e^{-xy}$ 单调且一致有界. 由**定理 4.4 (阿贝尔判别法)**, 一致收敛.
 
 $\blacksquare$

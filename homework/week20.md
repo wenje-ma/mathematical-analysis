@@ -6,7 +6,7 @@
 
 > **定理 1.3 (比较判别法)**
 > 
-> 若 $0\le{f}\left(x\right)\le{g}\left(x\right)$ ($x\ge{X}_0$), 则 $\int{g}$ 收敛蕴含 $\int{f}$ 收敛, $\int{f}$ 发散蕴含 $\int{g}$ 发散.
+> 若 $0\le{}f\left(x\right)\le{}g\left(x\right)$ ($x\ge{}X_0$), 则 $\int{}g$ 收敛蕴含 $\int{}f$ 收敛, $\int{}f$ 发散蕴含 $\int{}g$ 发散.
 
 > **定理 1.6 (狄利克雷判别法)**
 > 
@@ -14,7 +14,7 @@
 
 > **定理 3.2 (收敛半径的柯西公式)**
 > 
-> 幂级数 $\sum{a}_nx^n$ 的收敛半径 $R$ 满足 $\frac1R=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}$.
+> 幂级数 $\sum{}a_nx^n$ 的收敛半径 $R$ 满足 $\frac1R=\limsup_{n\to\infty}\sqrt[n]{\left|a_n\right|}$.
 
 > **定理 3.3 (收敛半径的达朗贝尔公式)**
 > 
@@ -26,7 +26,7 @@
 
 > **定理 4.1 (泰勒级数)**
 > 
-> 若 $f\left(x\right)$ 可展开为幂级数 $\sum{a}_n\left(x-x_0\right)^n$, 则 $a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$, 展开唯一.
+> 若 $f\left(x\right)$ 可展开为幂级数 $\sum{}a_n\left(x-x_0\right)^n$, 则 $a_n=\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$, 展开唯一.
 
 ## 11.3-1-4
 
@@ -40,7 +40,7 @@ $\blacksquare$
 
 ## 11.3-2-2
 
-求 $\sum{n}^3\left(x-5\right)^n$ 的收敛点集合.
+求 $\sum{}n^3\left(x-5\right)^n$ 的收敛点集合.
 
 ### 解答 11.3-2-2
 
@@ -60,7 +60,7 @@ $\blacksquare$
 
 ## 11.3-2-6
 
-求 $\sum\frac{\left(-1\right)^nx^n}{4^n\ln{n}}$ 的收敛点集合.
+求 $\sum\frac{\left(-1\right)^nx^n}{4^n\ln{}n}$ 的收敛点集合.
 
 ### 解答 11.3-2-6
 
@@ -80,7 +80,7 @@ $\blacksquare$
 
 ## 11.3-2-10
 
-求 $\sum\frac{\left(-1\right)^n\left(2x+3\right)^n}{n\ln{n}}$ 的收敛点集合.
+求 $\sum\frac{\left(-1\right)^n\left(2x+3\right)^n}{n\ln{}n}$ 的收敛点集合.
 
 ### 解答 11.3-2-10
 
@@ -100,11 +100,11 @@ $\blacksquare$
 
 ## 11.3-3-3
 
-求 $\sum{n}^2x^n$ 的和函数.
+求 $\sum{}n^2x^n$ 的和函数.
 
 ### 解答 11.3-3-3
 
-由 $n^2=n\left(n-1\right)+n$ 及**定理 3.4 (内闭一致收敛性)**, 逐项求导两次与一次, 得 $\sum{n}^2x^n=\frac{x\left(1+x\right)}{\left(1-x\right)^3}$.
+由 $n^2=n\left(n-1\right)+n$ 及**定理 3.4 (内闭一致收敛性)**, 逐项求导两次与一次, 得 $\sum{}n^2x^n=\frac{x\left(1+x\right)}{\left(1-x\right)^3}$.
 
 $\blacksquare$
 
@@ -130,21 +130,21 @@ $\blacksquare$
 
 ## 11.3-4
 
-证明: 若 $\sum{a}_nx^n$ 的收敛半径为 $R$, 则 $\sum{a}_nx^{2n}$ 的收敛半径为 $\sqrt{R}$.
+证明: 若 $\sum{}a_nx^n$ 的收敛半径为 $R$, 则 $\sum{}a_nx^{2n}$ 的收敛半径为 $\sqrt{R}$.
 
 ### 解答 11.3-4
 
-令 $y=x^2$. 由**定理 3.2 (收敛半径的柯西公式)**, $\sum{a}_ny^n$ 当 $\left|y\right|<{}R$ 时收敛, 即 $\left|x\right|<\sqrt{R}$.
+令 $y=x^2$. 由**定理 3.2 (收敛半径的柯西公式)**, $\sum{}a_ny^n$ 当 $\left|y\right|<{}R$ 时收敛, 即 $\left|x\right|<\sqrt{R}$.
 
 $\blacksquare$
 
 ## 11.3-5
 
-证明: 若收敛半径为 $R$, 则对任意 $A>\frac1R$, 存在 $C>0$ 使 $\left|a_n\right|\le{C}A^n$.
+证明: 若收敛半径为 $R$, 则对任意 $A>\frac1R$, 存在 $C>0$ 使 $\left|a_n\right|\le{}CA^n$.
 
 ### 解答 11.3-5
 
-取 $r$ 满足 $\frac1A<{}r<{}R$. 因 $a_nr^n\to0$, 有界, 故 $\left|a_n\right|\le{M}r^{-n}$. 取 $C=M\max\left(1,\frac1{rA}\right)$ 即得.
+取 $r$ 满足 $\frac1A<{}r<{}R$. 因 $a_nr^n\to0$, 有界, 故 $\left|a_n\right|\le{}Mr^{-n}$. 取 $C=M\max\left(1,\frac1{rA}\right)$ 即得.
 
 $\blacksquare$
 
@@ -160,11 +160,11 @@ $\blacksquare$
 
 ## 11.4-1-4
 
-求 $f\left(x\right)=\ln{x}$ 在 $x_0=2$ 处的幂级数展开式.
+求 $f\left(x\right)=\ln{}x$ 在 $x_0=2$ 处的幂级数展开式.
 
 ### 解答 11.4-1-4
 
-$\ln{x}=\ln2+\ln\left(1+\frac{x-2}2\right)$. 由基本展开式, $\ln{x}=\ln2+\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n\cdot2^n}\left(x-2\right)^n$, $0<{}x<4$.
+$\ln{}x=\ln2+\ln\left(1+\frac{x-2}2\right)$. 由基本展开式, $\ln{}x=\ln2+\sum_{n=1}^\infty\frac{\left(-1\right)^{n-1}}{n\cdot2^n}\left(x-2\right)^n$, $0<{}x<4$.
 
 $\blacksquare$
 

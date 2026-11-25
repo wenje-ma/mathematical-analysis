@@ -2,34 +2,34 @@
 
 > **定理 2.2 (格林公式)**
 > 
-> 设 $L$ 为逐段光滑的简单闭曲线, 所围区域为 $D$, $P,Q$ 在 $D$ 上有一阶连续偏导数. 则 $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=\iint_D\left(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\right)\mathrm{d}x\mathrm{d}y$.
+> 设 $L$ 为逐段光滑的简单闭曲线, 所围区域为 $D$, $P,Q$ 在 $D$ 上有一阶连续偏导数. 则 $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y=\iint_D\left(\frac{\partial{}Q}{\partial{}x}-\frac{\partial{}P}{\partial{}y}\right)\mathrm{d}x\mathrm{d}y$.
 
 > **定理 2.4 (积分与路径无关的条件)**
 > 
-> 设 $D$ 为单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int{P}\,\mathrm{d}x+Q\,\mathrm{d}y$ 与路径无关的充要条件是 $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$.
+> 设 $D$ 为单连通域, $P,Q$ 在 $D$ 内有一阶连续偏导数. 则 $\int{}P\,\mathrm{d}x+Q\,\mathrm{d}y$ 与路径无关的充要条件是 $\frac{\partial{}Q}{\partial{}x}=\frac{\partial{}P}{\partial{}y}$.
 
 > **定理 2.5 (恰当微分形式)**
 > 
-> $P\,\mathrm{d}x+Q\,\mathrm{d}y$ 为恰当微分形式的充要条件是 $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$.
+> $P\,\mathrm{d}x+Q\,\mathrm{d}y$ 为恰当微分形式的充要条件是 $\frac{\partial{}Q}{\partial{}x}=\frac{\partial{}P}{\partial{}y}$.
 
 > **定理 4.1 (奥-高公式)**
 > 
-> 设 $S$ 为空间闭区域 $\Omega$ 的边界曲面外侧, $P,Q,R$ 在 $\Omega$ 上有一阶连续偏导数. 则 $\oiint_SP\,\mathrm{d}y\mathrm{d}z+Q\,\mathrm{d}z\mathrm{d}x+R\,\mathrm{d}x\mathrm{d}y=\iiint_\Omega\left(\frac{\partial{P}}{\partial{x}}+\frac{\partial{Q}}{\partial{y}}+\frac{\partial{R}}{\partial{z}}\right)\mathrm{d}V$.
+> 设 $S$ 为空间闭区域 $\Omega$ 的边界曲面外侧, $P,Q,R$ 在 $\Omega$ 上有一阶连续偏导数. 则 $\oiint_SP\,\mathrm{d}y\mathrm{d}z+Q\,\mathrm{d}z\mathrm{d}x+R\,\mathrm{d}x\mathrm{d}y=\iiint_\Omega\left(\frac{\partial{}P}{\partial{}x}+\frac{\partial{}Q}{\partial{}y}+\frac{\partial{}R}{\partial{}z}\right)\mathrm{d}V$.
 
 > **定理 4.2 (斯托克斯公式)**
 > 
-> 设 $S$ 为分片光滑的双侧曲面, 边界 $L$ 为分段光滑闭曲线, $L$ 的定向与 $S$ 的法向量构成右手系. 则 $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y+R\,\mathrm{d}z=\iint_{S^+}\left(\frac{\partial{R}}{\partial{y}}-\frac{\partial{Q}}{\partial{z}}\right)\mathrm{d}y\mathrm{d}z+\left(\frac{\partial{P}}{\partial{z}}-\frac{\partial{R}}{\partial{x}}\right)\mathrm{d}z\mathrm{d}x+\left(\frac{\partial{Q}}{\partial{x}}-\frac{\partial{P}}{\partial{y}}\right)\mathrm{d}x\mathrm{d}y$.
+> 设 $S$ 为分片光滑的双侧曲面, 边界 $L$ 为分段光滑闭曲线, $L$ 的定向与 $S$ 的法向量构成右手系. 则 $\oint_{L^+}P\,\mathrm{d}x+Q\,\mathrm{d}y+R\,\mathrm{d}z=\iint_{S^+}\left(\frac{\partial{}R}{\partial{}y}-\frac{\partial{}Q}{\partial{}z}\right)\mathrm{d}y\mathrm{d}z+\left(\frac{\partial{}P}{\partial{}z}-\frac{\partial{}R}{\partial{}x}\right)\mathrm{d}z\mathrm{d}x+\left(\frac{\partial{}Q}{\partial{}x}-\frac{\partial{}P}{\partial{}y}\right)\mathrm{d}x\mathrm{d}y$.
 
 ## 9.2-5-3
 
-求 $\int_{\left(0,0\right)}^{\left(a,b\right)}e^x\cos{y}\,\mathrm{d}x-e^x\sin{y}\,\mathrm{d}y$.
+求 $\int_{\left(0,0\right)}^{\left(a,b\right)}e^x\cos{}y\,\mathrm{d}x-e^x\sin{}y\,\mathrm{d}y$.
 
 ### 解答 9.2-5-3
 
-由**定理 2.4 (积分与路径无关的条件)**, 积分与路径无关. 又 $d\left(e^x\cos{y}\right)=e^x\cos{y}\,\mathrm{d}x-e^x\sin{y}\,\mathrm{d}y$. 由**定理 2.5 (恰当微分形式)**,
+由**定理 2.4 (积分与路径无关的条件)**, 积分与路径无关. 又 $d\left(e^x\cos{}y\right)=e^x\cos{}y\,\mathrm{d}x-e^x\sin{}y\,\mathrm{d}y$. 由**定理 2.5 (恰当微分形式)**,
 
 $$
-\text{原式}=e^a\cos{b}-1.
+\text{原式}=e^a\cos{}b-1.
 $$
 
 $\blacksquare$
@@ -40,7 +40,7 @@ $\blacksquare$
 
 ### 解答 9.2-6
 
-在 $L_r$ 上分母为 $r^2$. 由**定理 2.2 (格林公式)** 的推论, $\oint{x}\,\mathrm{d}y-y\,\mathrm{d}x=2m\left(D\right)$. 椭圆面积 $m\left(D\right)=\frac{\pi{r}^2}{AB}$. 故原式 $=\frac{2\pi}{AB}$.
+在 $L_r$ 上分母为 $r^2$. 由**定理 2.2 (格林公式)** 的推论, $\oint{}x\,\mathrm{d}y-y\,\mathrm{d}x=2m\left(D\right)$. 椭圆面积 $m\left(D\right)=\frac{\pi{}r^2}{AB}$. 故原式 $=\frac{2\pi}{AB}$.
 
 $\blacksquare$
 
@@ -50,7 +50,7 @@ $\blacksquare$
 
 ### 解答 9.2-7
 
-在 $\left(x,y\right)\ne\left(0,0\right)$ 处, $\frac{\partial{Q}}{\partial{x}}=\frac{\partial{P}}{\partial{y}}$. 取充分小的椭圆 $L_r$ 含于 $\Gamma$ 内部, 在复连通区域上应用**定理 2.2 (格林公式)**, 得 $\oint_{\Gamma^+}=\oint_{L_r^+}$. 由 9.2-6, $=\frac{2\pi}{AB}$.
+在 $\left(x,y\right)\ne\left(0,0\right)$ 处, $\frac{\partial{}Q}{\partial{}x}=\frac{\partial{}P}{\partial{}y}$. 取充分小的椭圆 $L_r$ 含于 $\Gamma$ 内部, 在复连通区域上应用**定理 2.2 (格林公式)**, 得 $\oint_{\Gamma^+}=\oint_{L_r^+}$. 由 9.2-6, $=\frac{2\pi}{AB}$.
 
 $\blacksquare$
 
@@ -73,14 +73,14 @@ $\blacksquare$
 展开: $\left(xy+z\right)^2=x^2y^2+2xyz+z^2$. 由对称性, $2xyz$ 积分为 $0$. 故
 
 $$
-\oiint_S\left(xy+z\right)^2=\frac{4\pi{R}^6}{15}+\frac{4\pi{R}^4}{3}.
+\oiint_S\left(xy+z\right)^2=\frac{4\pi{}R^6}{15}+\frac{4\pi{}R^4}{3}.
 $$
 
 $\blacksquare$
 
 ## 9.3-5
 
-求抛物面薄壳 $z=\frac12\left(x^2+y^2\right)$ ($0\le{z}\le1$) 的质量, 面密度 $\rho=x+y+z$.
+求抛物面薄壳 $z=\frac12\left(x^2+y^2\right)$ ($0\le{}z\le1$) 的质量, 面密度 $\rho=x+y+z$.
 
 ### 解答 9.3-5
 
@@ -98,7 +98,7 @@ $\blacksquare$
 
 ### 解答 9.3-6
 
-由对称性, $\overline{x}=\overline{y}=\overline{z}$. 曲面面积 $=\frac{\pi{a}^2}{2}$. 计算得 $\overline{z}=\frac{a}2$. 质心为 $\left(\frac{a}2,\frac{a}2,\frac{a}2\right)$.
+由对称性, $\overline{x}=\overline{y}=\overline{z}$. 曲面面积 $=\frac{\pi{}a^2}{2}$. 计算得 $\overline{z}=\frac{a}2$. 质心为 $\left(\frac{a}2,\frac{a}2,\frac{a}2\right)$.
 
 $\blacksquare$
 
@@ -136,7 +136,7 @@ $\blacksquare$
 
 ### 解答 9.3-9
 
-由第二型曲面积分的计算, 代入上侧公式. 由对称性, 奇函数项积分为 $0$. 故 $I=\pi{R}r^2$.
+由第二型曲面积分的计算, 代入上侧公式. 由对称性, 奇函数项积分为 $0$. 故 $I=\pi{}Rr^2$.
 
 $\blacksquare$
 
@@ -149,7 +149,7 @@ $\blacksquare$
 由**定理 4.1 (奥-高公式)**,
 
 $$
-I=3\iiint_\Omega\mathrm{d}V=4\pi{a}bc.
+I=3\iiint_\Omega\mathrm{d}V=4\pi{}abc.
 $$
 
 $\blacksquare$
@@ -163,7 +163,7 @@ $\blacksquare$
 由**定理 4.1 (奥-高公式)**, 被积散度为 $z^2+x^2+y^2$. 用球坐标,
 
 $$
-I=\frac{2\pi{a}^5}{5}.
+I=\frac{2\pi{}a^5}{5}.
 $$
 
 $\blacksquare$
@@ -174,7 +174,7 @@ $\blacksquare$
 
 ### 解答 9.4-3
 
-由**定理 4.1 (奥-高公式)**, $I=3\iiint_\Omega\left(x^2+y^2+z^2\right)\mathrm{d}V=\frac{12\pi{a}^5}{5}$.
+由**定理 4.1 (奥-高公式)**, $I=3\iiint_\Omega\left(x^2+y^2+z^2\right)\mathrm{d}V=\frac{12\pi{}a^5}{5}$.
 
 $\blacksquare$
 
@@ -184,7 +184,7 @@ $\blacksquare$
 
 ### 解答 9.4-5
 
-补上顶面 $S_1$. 由**定理 4.1 (奥-高公式)**, 散度为 $4\left(x^3+y^3+z^3\right)$. 由对称性 $x^3,y^3$ 项为 $0$. 三重积分 $=\frac{2\pi{h}^6}{3}$. 顶面贡献 $=\pi{h}^6$. 故原式 $=-\frac{\pi{h}^6}{3}$.
+补上顶面 $S_1$. 由**定理 4.1 (奥-高公式)**, 散度为 $4\left(x^3+y^3+z^3\right)$. 由对称性 $x^3,y^3$ 项为 $0$. 三重积分 $=\frac{2\pi{}h^6}{3}$. 顶面贡献 $=\pi{}h^6$. 故原式 $=-\frac{\pi{}h^6}{3}$.
 
 $\blacksquare$
 

@@ -40,27 +40,27 @@ $$
 
 ### 解答 1.1-4
 
-(1) 先证 $E$ 是数域. 对任意 $m_1+n_1\sqrt2$, $m_2+n_2\sqrt2\in{E}$, 有
+(1) 先证 $E$ 是数域. 对任意 $m_1+n_1\sqrt2$, $m_2+n_2\sqrt2\in{}E$, 有
 
 $$
-\left(m_1+n_1\sqrt2\right)\pm\left(m_2+n_2\sqrt2\right)=\left(m_1\pm{m}_2\right)+\left(n_1\pm{n}_2\right)\sqrt2\in{E},
+\left(m_1+n_1\sqrt2\right)\pm\left(m_2+n_2\sqrt2\right)=\left(m_1\pm{}m_2\right)+\left(n_1\pm{}n_2\right)\sqrt2\in{}E,
 $$
 
 $$
-\left(m_1+n_1\sqrt2\right)\left(m_2+n_2\sqrt2\right)=\left(m_1m_2+2n_1n_2\right)+\left(m_1n_2+m_2n_1\right)\sqrt2\in{E}.
+\left(m_1+n_1\sqrt2\right)\left(m_2+n_2\sqrt2\right)=\left(m_1m_2+2n_1n_2\right)+\left(m_1n_2+m_2n_1\right)\sqrt2\in{}E.
 $$
 
 故 $E$ 对加, 减, 乘封闭. 若 $m_2+n_2\sqrt2\ne0$, 有理化得
 
 $$
-\frac{m_1+n_1\sqrt2}{m_2+n_2\sqrt2}=\frac{m_1m_2-2n_1n_2}{m_2^2-2n_2^2}+\frac{n_1m_2-m_1n_2}{m_2^2-2n_2^2}\sqrt2\in{E},
+\frac{m_1+n_1\sqrt2}{m_2+n_2\sqrt2}=\frac{m_1m_2-2n_1n_2}{m_2^2-2n_2^2}+\frac{n_1m_2-m_1n_2}{m_2^2-2n_2^2}\sqrt2\in{}E,
 $$
 
 其中 $m_2^2-2n_2^2\ne0$ (否则 $\sqrt2=m_2/n_2\in\mathbb{Q}$, 与**命题 1.3 ($\sqrt2$ 为无理数)** 矛盾). 又这些运算显然满足交换律, 结合律, 分配律, 故由域的概念, $E$ 是数域.
 
-(2) $E$ 不完备. 事实上, $\sqrt3\notin{E}$: 若 $\sqrt3=m+n\sqrt2$, 平方得 $3=m^2+2n^2+2mn\sqrt2$. 若 $mn\ne0$, 则 $\sqrt2=\frac{3-m^2-2n^2}{2mn}\in\mathbb{Q}$, 矛盾; 若 $n=0$, 则 $\sqrt3=m\in\mathbb{Q}$, 矛盾; 若 $m=0$, 则 $\sqrt3=n\sqrt2$, 平方得 $n^2=\frac32\notin\mathbb{Q}$, 矛盾. 故 $\sqrt3\notin{E}$.
+(2) $E$ 不完备. 事实上, $\sqrt3\notin{}E$: 若 $\sqrt3=m+n\sqrt2$, 平方得 $3=m^2+2n^2+2mn\sqrt2$. 若 $mn\ne0$, 则 $\sqrt2=\frac{3-m^2-2n^2}{2mn}\in\mathbb{Q}$, 矛盾; 若 $n=0$, 则 $\sqrt3=m\in\mathbb{Q}$, 矛盾; 若 $m=0$, 则 $\sqrt3=n\sqrt2$, 平方得 $n^2=\frac32\notin\mathbb{Q}$, 矛盾. 故 $\sqrt3\notin{}E$.
 
-取 $\sqrt3$ 的 $n$ 位不足近似小数 $x_n$, 则 $x_n\in\mathbb{Q}\subset{E}$ (取 $m=x_n$, $n=0$), 且 $\left\{x_n\right\}$ 单调递增, 有上界 (如 $x_n<2$), 但 $\left\{x_n\right\}$ 无限接近 $\sqrt3\notin{E}$. 于是由完备性的概念, $E$ 不是完备的.
+取 $\sqrt3$ 的 $n$ 位不足近似小数 $x_n$, 则 $x_n\in\mathbb{Q}\subset{}E$ (取 $m=x_n$, $n=0$), 且 $\left\{x_n\right\}$ 单调递增, 有上界 (如 $x_n<2$), 但 $\left\{x_n\right\}$ 无限接近 $\sqrt3\notin{}E$. 于是由完备性的概念, $E$ 不是完备的.
 
 $\blacksquare$
 
@@ -69,22 +69,22 @@ $\blacksquare$
 设
 
 $$
-E_1=\left\{x:\left|x-a\right|>r_1\right\},\quad{E}_2=\left\{x:\left|x-b\right|<{}r_2\right\}.
+E_1=\left\{x:\left|x-a\right|>r_1\right\},\quad{}E_2=\left\{x:\left|x-b\right|<{}r_2\right\}.
 $$
 
-问 $a,b,r_1,r_2$ 满足怎样的条件使 $E_1\cap{E}_2\ne\emptyset$?
+问 $a,b,r_1,r_2$ 满足怎样的条件使 $E_1\cap{}E_2\ne\emptyset$?
 
 ### 解答 1.1-6
 
 $E_1$ 即数轴上到 $a$ 的距离大于 $r_1$ 的点集, $E_2$ 即到 $b$ 的距离小于 $r_2$ 的开区间 $\left(b-r_2,b+r_2\right)$.
 
-先求 $E_1\cap{E}_2=\emptyset$ 的条件. 当且仅当 $E_2\subset\left[a-r_1,a+r_1\right]$ 时 $E_2$ 与 $E_1$ 无交, 即
+先求 $E_1\cap{}E_2=\emptyset$ 的条件. 当且仅当 $E_2\subset\left[a-r_1,a+r_1\right]$ 时 $E_2$ 与 $E_1$ 无交, 即
 
 $$
-a-r_1\le{b}-r_2,\quad{b}+r_2\le{a}+r_1,
+a-r_1\le{}b-r_2,\quad{}b+r_2\le{}a+r_1,
 $$
 
-亦即 $r_2\le{r}_1-\left|a-b\right|$. 故 $E_1\cap{E}_2\ne\emptyset$ 当且仅当
+亦即 $r_2\le{}r_1-\left|a-b\right|$. 故 $E_1\cap{}E_2\ne\emptyset$ 当且仅当
 
 $$
 r_2>r_1-\left|a-b\right|.
@@ -182,7 +182,7 @@ $$
 
 ### 解答 1.1-11
 
-(1) $E=\left\{e,e^2,e^3,\dots\right\}$. 因 $e^n\ge{e}$, 故 $E$ 有下界 (如 $m=e$); 而 $e^n$ 随 $n$ 无限增大, 故 $E$ 无上界. 由有界集的概念, $E$ 有下界, 无上界, 不是有界集合.
+(1) $E=\left\{e,e^2,e^3,\dots\right\}$. 因 $e^n\ge{}e$, 故 $E$ 有下界 (如 $m=e$); 而 $e^n$ 随 $n$ 无限增大, 故 $E$ 无上界. 由有界集的概念, $E$ 有下界, 无上界, 不是有界集合.
 
 (2) 对 $n\in\mathbb{N}$, $\frac{n^2+10^{10}}{n^2+1}=1+\frac{10^{10}-1}{n^2+1}$. 因 $n^2+1\ge1$, 故 $1<\frac{n^2+10^{10}}{n^2+1}\le10^{10}$, 即 $E\subset\left(1,10^{10}\right]$. 故 $E$ 有上界也有下界, 由有界集的概念, $E$ 是有界集合.
 
@@ -214,7 +214,7 @@ $\blacksquare$
 
 (3) $y=\ln\frac{x^2-2}{2}$;
 
-(4) $y=\arccos\left(2\sin{x}\right)$.
+(4) $y=\arccos\left(2\sin{}x\right)$.
 
 ### 解答 1.2-1
 
@@ -228,10 +228,10 @@ $$
 \left(-\infty,-\sqrt2\right)\cup\left(\sqrt2,+\infty\right).
 $$
 
-(4) 要使 $\arccos\left(2\sin{x}\right)$ 有意义, 须 $\left|2\sin{x}\right|\le1$, 即 $\left|\sin{x}\right|\le\frac12$. 这等价于
+(4) 要使 $\arccos\left(2\sin{}x\right)$ 有意义, 须 $\left|2\sin{}x\right|\le1$, 即 $\left|\sin{}x\right|\le\frac12$. 这等价于
 
 $$
-x\in\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right],\quad{k}\in\mathbb{Z}.
+x\in\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right],\quad{}k\in\mathbb{Z}.
 $$
 
 故定义域为 $\displaystyle\bigcup_{k\in\mathbb{Z}}\left[k\pi-\frac{\pi}{6},k\pi+\frac{\pi}{6}\right]$.
@@ -245,13 +245,13 @@ $\blacksquare$
 (1)
 
 $$
-f\left(x\right)=\sqrt{1+x^2},\quad{X}=\left(0,5\right);
+f\left(x\right)=\sqrt{1+x^2},\quad{}X=\left(0,5\right);
 $$
 
 (2)
 
 $$
-f\left(x\right)=\sin\frac1x,\quad{X}=\mathbb{R}\backslash\left\{0\right\};
+f\left(x\right)=\sin\frac1x,\quad{}X=\mathbb{R}\backslash\left\{0\right\};
 $$
 
 (3) $f\left(x\right)=\left\{x\right\}$ ($x$ 的小数部分), $X=\mathbb{R}$;
@@ -259,14 +259,14 @@ $$
 (4)
 
 $$
-f\left(x\right)=x^3+x+1,\quad{X}=\mathbb{R}.
+f\left(x\right)=x^3+x+1,\quad{}X=\mathbb{R}.
 $$
 
 ### 解答 1.2-2
 
 (1) 当 $x\in\left(0,5\right)$ 时, $x^2\in\left(0,25\right)$, 故 $1+x^2\in\left(1,26\right)$, 从而 $\sqrt{1+x^2}\in\left(1,\sqrt{26}\right)$. 由函数的定义, $f\left(X\right)=\left(1,\sqrt{26}\right)$.
 
-(2) 当 $x$ 遍历 $\mathbb{R}\backslash\left\{0\right\}$ 时, $\frac1x$ 遍历 $\mathbb{R}\backslash\left\{0\right\}$. 而 $\sin{t}$ 在 $t\in\mathbb{R}$ 上的值域为 $\left[-1,1\right]$, 去掉一个点 $t=0$ (对应 $\sin0=0$) 不影响值域 ($0$ 仍可取到, 如 $t=\pi$). 故 $f\left(X\right)=\left[-1,1\right]$.
+(2) 当 $x$ 遍历 $\mathbb{R}\backslash\left\{0\right\}$ 时, $\frac1x$ 遍历 $\mathbb{R}\backslash\left\{0\right\}$. 而 $\sin{}t$ 在 $t\in\mathbb{R}$ 上的值域为 $\left[-1,1\right]$, 去掉一个点 $t=0$ (对应 $\sin0=0$) 不影响值域 ($0$ 仍可取到, 如 $t=\pi$). 故 $f\left(X\right)=\left[-1,1\right]$.
 
 (3) 对任意 $x\in\mathbb{R}$, 其小数部分 $\left\{x\right\}=x-\left[x\right]$ 满足 $0\le\left\{x\right\}<1$. 反之, 对任意 $y\in\left[0,1\right)$, 取 $x=y$ 即得 $\left\{x\right\}=y$. 故 $f\left(X\right)=\left[0,1\right)$.
 
@@ -279,10 +279,10 @@ $\blacksquare$
 设 $f:\left[a,b\right]\to\left[a,b\right]$ 是满足下列条件的一个函数:
 
 $$
-\left|f\left(x_1\right)-f\left(x_2\right)\right|\le{k}\left|x_1-x_2\right|,\quad\forall{x}_1,x_2\in\left[a,b\right],
+\left|f\left(x_1\right)-f\left(x_2\right)\right|\le{}k\left|x_1-x_2\right|,\quad\forall{}x_1,x_2\in\left[a,b\right],
 $$
 
-其中 $k<1$ 为常数. 又设存在一点 $c\in\left(a,b\right)$ 使 $f\left(c\right)=c$. 证明: $\left|f_n\left(x\right)-c\right|\le{k}^n\left(b-a\right)$, 其中 $f_n$ 为 $f$ 的 $n$ 重复合函数.
+其中 $k<1$ 为常数. 又设存在一点 $c\in\left(a,b\right)$ 使 $f\left(c\right)=c$. 证明: $\left|f_n\left(x\right)-c\right|\le{}k^n\left(b-a\right)$, 其中 $f_n$ 为 $f$ 的 $n$ 重复合函数.
 
 ### 解答 1.2-6
 
@@ -291,13 +291,13 @@ $$
 对任意 $x\in\left[a,b\right]$, 反复应用题设的利普希茨条件:
 
 $$
-\left|f_n\left(x\right)-c\right|=\left|f_n\left(x\right)-f_n\left(c\right)\right|\le{k}\left|f_{n-1}\left(x\right)-f_{n-1}\left(c\right)\right|\le\cdots\le{k}^n\left|x-c\right|.
+\left|f_n\left(x\right)-c\right|=\left|f_n\left(x\right)-f_n\left(c\right)\right|\le{}k\left|f_{n-1}\left(x\right)-f_{n-1}\left(c\right)\right|\le\cdots\le{}k^n\left|x-c\right|.
 $$
 
-又因 $x,c\in\left[a,b\right]$, 故 $\left|x-c\right|\le{b}-a$. 于是
+又因 $x,c\in\left[a,b\right]$, 故 $\left|x-c\right|\le{}b-a$. 于是
 
 $$
-\left|f_n\left(x\right)-c\right|\le{k}^n\left(b-a\right).
+\left|f_n\left(x\right)-c\right|\le{}k^n\left(b-a\right).
 $$
 
 $\blacksquare$
@@ -311,7 +311,7 @@ $\blacksquare$
 由周期函数的定义, 只需验证 $y\left(x+\pi\right)=y\left(x\right)$. 因
 
 $$
-\sin^2\left(x+\pi\right)=\left(\sin\left(x+\pi\right)\right)^2=\left(-\sin{x}\right)^2=\sin^2x,
+\sin^2\left(x+\pi\right)=\left(\sin\left(x+\pi\right)\right)^2=\left(-\sin{}x\right)^2=\sin^2x,
 $$
 
 故
@@ -335,7 +335,7 @@ $\blacksquare$
 设
 
 $$
-f\left(x\right)=\begin{cases}e^x,&x\le0,\\x,&x>0;\end{cases}\quad{g}\left(x\right)=\begin{cases}x,&x\le0,\\-x^2,&x>0;\end{cases}
+f\left(x\right)=\begin{cases}e^x,&x\le0,\\x,&x>0;\end{cases}\quad{}g\left(x\right)=\begin{cases}x,&x\le0,\\-x^2,&x>0;\end{cases}
 $$
 
 求 $f\left(g\left(x\right)\right)$ 及 $g\left(f\left(x\right)\right)$ 的分段表示式, 并计算 $f\left(g\left(1\right)\right)$ 的值.
@@ -385,7 +385,7 @@ $\blacksquare$
 
 判断下列函数是否为有界函数:
 
-(1) $y=5\sin{e}^x+10^{10}$;
+(1) $y=5\sin{}e^x+10^{10}$;
 
 (2)
 
@@ -403,13 +403,13 @@ $$
 
 ### 解答 1.2-14
 
-(1) 对任意 $x\in\mathbb{R}$, $\left|\sin{e}^x\right|\le1$, 故 $\left|5\sin{e}^x\right|\le5$, 从而
+(1) 对任意 $x\in\mathbb{R}$, $\left|\sin{}e^x\right|\le1$, 故 $\left|5\sin{}e^x\right|\le5$, 从而
 
 $$
-\left|y\right|=\left|5\sin{e}^x+10^{10}\right|\le5+10^{10}.
+\left|y\right|=\left|5\sin{}e^x+10^{10}\right|\le5+10^{10}.
 $$
 
-取 $M=5+10^{10}$, 由**命题 2.1 (有界函数的充要条件)**, $y=5\sin{e}^x+10^{10}$ 是有界函数.
+取 $M=5+10^{10}$, 由**命题 2.1 (有界函数的充要条件)**, $y=5\sin{}e^x+10^{10}$ 是有界函数.
 
 (2) 对 $x>0$, 有理化得
 
@@ -419,7 +419,7 @@ $$
 
 因分母 $\sqrt{x+10}+\sqrt{x}>\sqrt{10}$ ($x>0$), 故 $0<{}y<\frac{10}{\sqrt{10}}=\sqrt{10}$. 取 $M=\sqrt{10}$, 由**命题 2.1 (有界函数的充要条件)**, $y=\sqrt{x+10}-\sqrt{x}$ 是有界函数.
 
-(3) $y=\operatorname{ch}x=\frac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$, 故 $y\to+\infty$, 不存在常数 $M>0$ 使 $\left|y\right|\le{M}$ 对一切 $x\in\mathbb{R}$ 成立. 由**命题 2.1 (有界函数的充要条件)**, $y=\operatorname{ch}x$ 不是有界函数.
+(3) $y=\operatorname{ch}x=\frac{e^x+e^{-x}}2$. 当 $x\to+\infty$ 时 $e^x\to+\infty$, 故 $y\to+\infty$, 不存在常数 $M>0$ 使 $\left|y\right|\le{}M$ 对一切 $x\in\mathbb{R}$ 成立. 由**命题 2.1 (有界函数的充要条件)**, $y=\operatorname{ch}x$ 不是有界函数.
 
 (4) 当 $x\to+\infty$ 时, $x+\sqrt{x^2+1}\sim2x$, 故
 
@@ -427,7 +427,7 @@ $$
 y=\ln\left(x+\sqrt{x^2+1}\right)\sim\ln\left(2x\right)\to+\infty,
 $$
 
-不存在常数 $M>0$ 使 $\left|y\right|\le{M}$ 对一切 $x>0$ 成立. 由**命题 2.1 (有界函数的充要条件)**, $y=\ln\left(x+\sqrt{x^2+1}\right)$ 不是有界函数.
+不存在常数 $M>0$ 使 $\left|y\right|\le{}M$ 对一切 $x>0$ 成立. 由**命题 2.1 (有界函数的充要条件)**, $y=\ln\left(x+\sqrt{x^2+1}\right)$ 不是有界函数.
 
 $\blacksquare$
 
@@ -460,7 +460,7 @@ $\blacksquare$
 对 $n\ge1$,
 
 $$
-\frac{n!}{n^n}=\frac{1\cdot2\cdots{n}}{n\cdot{n}\cdots{n}}=\frac1n\cdot\frac2n\cdots\frac{n-1}{n}\cdot1\le\frac1n.
+\frac{n!}{n^n}=\frac{1\cdot2\cdots{}n}{n\cdot{}n\cdots{}n}=\frac1n\cdot\frac2n\cdots\frac{n-1}{n}\cdot1\le\frac1n.
 $$
 
 任给 $\varepsilon>0$, 取 $N=\left[\frac1\varepsilon\right]+1$, 则当 $n>N$ 时
@@ -503,7 +503,7 @@ $$
 
 ### 解答 1.3-1-8
 
-该式共有 $n$ 项, 每一项满足 $\frac1{\left(n+k\right)^{3/2}}\le\frac1{n^{3/2}}$ ($1\le{k}\le{n}$), 故
+该式共有 $n$ 项, 每一项满足 $\frac1{\left(n+k\right)^{3/2}}\le\frac1{n^{3/2}}$ ($1\le{}k\le{}n$), 故
 
 $$
 0\le\frac1{\left(n+1\right)^{3/2}}+\cdots+\frac1{\left(2n\right)^{3/2}}\le\frac{n}{n^{3/2}}=\frac1{\sqrt{n}}.

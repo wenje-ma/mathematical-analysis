@@ -6,7 +6,7 @@
 
 > **定理 2.1 (第一换元法则)**
 > 
-> 设 $F'\left(u\right)=f\left(u\right)$, 且 $u=\varphi\left(x\right)$ 可导, 则 $\int{f}\left(\varphi\left(x\right)\right)\varphi'\left(x\right)\,\mathrm{d}x=F\left(\varphi\left(x\right)\right)+C$.
+> 设 $F'\left(u\right)=f\left(u\right)$, 且 $u=\varphi\left(x\right)$ 可导, 则 $\int{}f\left(\varphi\left(x\right)\right)\varphi'\left(x\right)\,\mathrm{d}x=F\left(\varphi\left(x\right)\right)+C$.
 
 > **定理 4.1 (有理函数的分解)**
 > 
@@ -14,7 +14,7 @@
 
 > **定理 5.1 (三角有理式的积分法)**
 > 
-> 三角函数的有理式 $R\left(\sin{x},\cos{x}\right)$ 的不定积分, 总可通过万能代换 $t=\tan\frac{x}2$ 化为关于 $t$ 的有理函数的不定积分. 此时 $\sin{x}=\frac{2t}{1+t^2}$, $\cos{x}=\frac{1-t^2}{1+t^2}$, $\mathrm{d}x=\frac{2\mathrm{d}t}{1+t^2}$.
+> 三角函数的有理式 $R\left(\sin{}x,\cos{}x\right)$ 的不定积分, 总可通过万能代换 $t=\tan\frac{x}2$ 化为关于 $t$ 的有理函数的不定积分. 此时 $\sin{}x=\frac{2t}{1+t^2}$, $\cos{}x=\frac{1-t^2}{1+t^2}$, $\mathrm{d}x=\frac{2\mathrm{d}t}{1+t^2}$.
 
 ## 4.4-4
 
@@ -108,14 +108,14 @@ $\blacksquare$
 
 ## 4.5-1-1
 
-求不定积分 $\int\frac{\mathrm{d}x}{2+\sin{x}}$.
+求不定积分 $\int\frac{\mathrm{d}x}{2+\sin{}x}$.
 
 ### 解答 4.5-1-1
 
 由**定理 5.1 (三角有理式的积分法)**, 令 $t=\tan\frac{x}2$, 则
 
 $$
-\int\frac{\mathrm{d}x}{2+\sin{x}}=\int\frac{\mathrm{d}t}{t^2+t+1}=\frac2{\sqrt3}\arctan\frac{2\tan\left(x/2\right)+1}{\sqrt3}+C.
+\int\frac{\mathrm{d}x}{2+\sin{}x}=\int\frac{\mathrm{d}t}{t^2+t+1}=\frac2{\sqrt3}\arctan\frac{2\tan\left(x/2\right)+1}{\sqrt3}+C.
 $$
 
 $\blacksquare$
@@ -143,21 +143,21 @@ $\blacksquare$
 利用 $\cot^2x=\csc^2x-1$,
 
 $$
-\int\cot^2x\,\mathrm{d}x=-\cot{x}-x+C.
+\int\cot^2x\,\mathrm{d}x=-\cot{}x-x+C.
 $$
 
 $\blacksquare$
 
 ## 4.5-1-7
 
-求不定积分 $\int\frac{\mathrm{d}x}{\sin{x}+2\cos{x}}$.
+求不定积分 $\int\frac{\mathrm{d}x}{\sin{}x+2\cos{}x}$.
 
 ### 解答 4.5-1-7
 
 将分母写成 $\sqrt5\sin\left(x+\varphi\right)$, 其中 $\varphi=\arctan2$. 故
 
 $$
-\int\frac{\mathrm{d}x}{\sin{x}+2\cos{x}}=\frac1{\sqrt5}\ln\left|\csc\left(x+\varphi\right)-\cot\left(x+\varphi\right)\right|+C.
+\int\frac{\mathrm{d}x}{\sin{}x+2\cos{}x}=\frac1{\sqrt5}\ln\left|\csc\left(x+\varphi\right)-\cot\left(x+\varphi\right)\right|+C.
 $$
 
 $\blacksquare$
@@ -204,17 +204,17 @@ $\blacksquare$
 
 ## 4.5-2
 
-设 $R\left(X,Y\right)$ 是关于变元 $X$ 与 $Y$ 的有理式, 证明 $\int{R}\left(\sin^2x,\cos^2x\right)\,\mathrm{d}x$ 可通过变换 $t=\tan{x}$ 有理化.
+设 $R\left(X,Y\right)$ 是关于变元 $X$ 与 $Y$ 的有理式, 证明 $\int{}R\left(\sin^2x,\cos^2x\right)\,\mathrm{d}x$ 可通过变换 $t=\tan{}x$ 有理化.
 
 ### 解答 4.5-2
 
-令 $t=\tan{x}$, 则 $\mathrm{d}x=\frac{\mathrm{d}t}{1+t^2}$, $\sin^2x=\frac{t^2}{1+t^2}$, $\cos^2x=\frac1{1+t^2}$. 代入得
+令 $t=\tan{}x$, 则 $\mathrm{d}x=\frac{\mathrm{d}t}{1+t^2}$, $\sin^2x=\frac{t^2}{1+t^2}$, $\cos^2x=\frac1{1+t^2}$. 代入得
 
 $$
 R\left(\sin^2x,\cos^2x\right)\,\mathrm{d}x=R\left(\frac{t^2}{1+t^2},\frac1{1+t^2}\right)\cdot\frac{\mathrm{d}t}{1+t^2},
 $$
 
-右端是关于 $t$ 的有理函数. 故原积分可通过 $t=\tan{x}$ 有理化.
+右端是关于 $t$ 的有理函数. 故原积分可通过 $t=\tan{}x$ 有理化.
 
 $\blacksquare$
 
@@ -228,23 +228,23 @@ $\blacksquare$
 
 ### 解答 5.1-4
 
-(1) 对任意 $x\in\left[a,b\right]$, $f\left(x\right)\le\sup{f}$, $g\left(x\right)\le\sup{g}$. 故 $f\left(x\right)+g\left(x\right)\le\sup{f}+\sup{g}$. 即 $\sup{f}+\sup{g}$ 是 $f+g$ 的一个上界. 由上确界与下确界的定义, 上确界是最小上界, 得 $\sup\left\{f+g\right\}\le\sup{f}+\sup{g}$.
+(1) 对任意 $x\in\left[a,b\right]$, $f\left(x\right)\le\sup{}f$, $g\left(x\right)\le\sup{}g$. 故 $f\left(x\right)+g\left(x\right)\le\sup{}f+\sup{}g$. 即 $\sup{}f+\sup{}g$ 是 $f+g$ 的一个上界. 由上确界与下确界的定义, 上确界是最小上界, 得 $\sup\left\{f+g\right\}\le\sup{}f+\sup{}g$.
 
-(2) 同理, $f\left(x\right)+g\left(x\right)\ge\inf{f}+\inf{g}$, 故 $\inf\left\{f+g\right\}\ge\inf{f}+\inf{g}$.
+(2) 同理, $f\left(x\right)+g\left(x\right)\ge\inf{}f+\inf{}g$, 故 $\inf\left\{f+g\right\}\ge\inf{}f+\inf{}g$.
 
 $\blacksquare$
 
 ## 5.1-5
 
-证明: $\omega_f\left(I\right)=\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|:x_1,x_2\in{I}\right\}$.
+证明: $\omega_f\left(I\right)=\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|:x_1,x_2\in{}I\right\}$.
 
 ### 解答 5.1-5
 
-记 $M=\sup\left\{f\left(x\right):x\in{I}\right\}$, $m=\inf\left\{f\left(x\right):x\in{I}\right\}$. 则 $\omega_f\left(I\right)=M-m$.
+记 $M=\sup\left\{f\left(x\right):x\in{}I\right\}$, $m=\inf\left\{f\left(x\right):x\in{}I\right\}$. 则 $\omega_f\left(I\right)=M-m$.
 
-对任意 $x_1,x_2\in{I}$, $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le{M}-m$. 故 $M-m$ 是该集合的一个上界.
+对任意 $x_1,x_2\in{}I$, $\left|f\left(x_1\right)-f\left(x_2\right)\right|\le{}M-m$. 故 $M-m$ 是该集合的一个上界.
 
-另一方面, 对任意 $\varepsilon>0$, 存在 $x_1,x_2\in{I}$ 使得 $f\left(x_1\right)>M-\frac\varepsilon2$, $f\left(x_2\right)<{}m+\frac\varepsilon2$. 于是 $\left|f\left(x_1\right)-f\left(x_2\right)\right|>M-m-\varepsilon$. 由上确界与下确界的定义, $\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|\right\}\ge{M}-m$.
+另一方面, 对任意 $\varepsilon>0$, 存在 $x_1,x_2\in{}I$ 使得 $f\left(x_1\right)>M-\frac\varepsilon2$, $f\left(x_2\right)<{}m+\frac\varepsilon2$. 于是 $\left|f\left(x_1\right)-f\left(x_2\right)\right|>M-m-\varepsilon$. 由上确界与下确界的定义, $\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|\right\}\ge{}M-m$.
 
 综合两方面, $\omega_f\left(I\right)=\sup\left\{\left|f\left(x_1\right)-f\left(x_2\right)\right|\right\}$.
 
@@ -256,7 +256,7 @@ $\blacksquare$
 
 ### 解答 5.1-6
 
-对任意区间 $I$, $I$ 中既有有理数又有无理数. 故 $\sup_{x\in{I}}D\left(x\right)=1$, $\inf_{x\in{I}}D\left(x\right)=0$. 因此 $\omega_D\left(I\right)=1$.
+对任意区间 $I$, $I$ 中既有有理数又有无理数. 故 $\sup_{x\in{}I}D\left(x\right)=1$, $\inf_{x\in{}I}D\left(x\right)=0$. 因此 $\omega_D\left(I\right)=1$.
 
 对任意点 $x_0$, 在 $x_0$ 的任意邻域内都既有有理数又有无理数. 故 $\omega_D\left(x_0\right)=1$. 由**定理 1.3 (连续的充要条件)**, $D\left(x\right)$ 在每一点都不连续.
 

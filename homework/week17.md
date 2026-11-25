@@ -2,23 +2,23 @@
 
 > **定理 1.1 (收敛级数的必要条件)**
 > 
-> 若级数 $\sum{a}_n$ 收敛, 则 $\lim_{n\to\infty}a_n=0$.
+> 若级数 $\sum{}a_n$ 收敛, 则 $\lim_{n\to\infty}a_n=0$.
 
 > **定理 2.2 (比较判别法)**
 > 
-> 设 $\sum{a}_n$ 与 $\sum{b}_n$ 为正项级数, 且存在 $N_0$ 使 $a_n\le{b}_n$ ($n\ge{N}_0$). 若 $\sum{b}_n$ 收敛, 则 $\sum{a}_n$ 收敛.
+> 设 $\sum{}a_n$ 与 $\sum{}b_n$ 为正项级数, 且存在 $N_0$ 使 $a_n\le{}b_n$ ($n\ge{}N_0$). 若 $\sum{}b_n$ 收敛, 则 $\sum{}a_n$ 收敛.
 
 > **定理 2.3 (比较判别法的极限形式)**
 > 
-> 设 $\sum{a}_n$ 与 $\sum{b}_n$ 为正项级数, 且 $\lim_{n\to\infty}\frac{a_n}{b_n}=l$. 当 $0<{}l<+\infty$ 时两级数同敛散.
+> 设 $\sum{}a_n$ 与 $\sum{}b_n$ 为正项级数, 且 $\lim_{n\to\infty}\frac{a_n}{b_n}=l$. 当 $0<{}l<+\infty$ 时两级数同敛散.
 
 > **定理 2.6 (达朗贝尔判别法)**
 > 
-> 设 $\sum{a}_n$ 为正项级数. 若 $\lim_{n\to\infty}\frac{a_{n+1}}{a_n}=r$, 则当 $r<1$ 时收敛, 当 $r>1$ 时发散.
+> 设 $\sum{}a_n$ 为正项级数. 若 $\lim_{n\to\infty}\frac{a_{n+1}}{a_n}=r$, 则当 $r<1$ 时收敛, 当 $r>1$ 时发散.
 
 > **定理 2.9 (积分判别法)**
 > 
-> 设 $f\left(x\right)$ 在 $\left[1,+\infty\right)$ 上正, 单调递减. 则 $\sum_{n=1}^\infty{f}\left(n\right)$ 与 $\int_1^{+\infty}f\left(x\right)\,\mathrm{d}x$ 同敛散.
+> 设 $f\left(x\right)$ 在 $\left[1,+\infty\right)$ 上正, 单调递减. 则 $\sum_{n=1}^\infty{}f\left(n\right)$ 与 $\int_1^{+\infty}f\left(x\right)\,\mathrm{d}x$ 同敛散.
 
 ## 9.4-8
 
@@ -26,7 +26,7 @@
 
 ### 解答 9.4-8
 
-旋度 $\nabla\times\boldsymbol{F}=2\left(y-z,z-x,x-y\right)$. 取曲面 $S$ 为上半球面. 由**定理 4.2 (斯托克斯公式)**, 化简后被积函数为 $2\left(R-\frac{Ry}{z}\right)$. 由对称性, $y/z$ 项积分为 $0$. 故 $\oint_{L^+}=2\pi{R}r^2$.
+旋度 $\nabla\times\boldsymbol{F}=2\left(y-z,z-x,x-y\right)$. 取曲面 $S$ 为上半球面. 由**定理 4.2 (斯托克斯公式)**, 化简后被积函数为 $2\left(R-\frac{Ry}{z}\right)$. 由对称性, $y/z$ 项积分为 $0$. 故 $\oint_{L^+}=2\pi{}Rr^2$.
 
 $\blacksquare$
 
@@ -52,7 +52,7 @@ $\blacksquare$
 
 ### 解答 9.5-2
 
-由散度的定义, 展开 $\frac{\partial\left(\Phi{P}\right)}{\partial{x}}+\frac{\partial\left(\Phi{Q}\right)}{\partial{y}}+\frac{\partial\left(\Phi{R}\right)}{\partial{z}}$, 合并同类项即得.
+由散度的定义, 展开 $\frac{\partial\left(\Phi{}P\right)}{\partial{}x}+\frac{\partial\left(\Phi{}Q\right)}{\partial{}y}+\frac{\partial\left(\Phi{}R\right)}{\partial{}z}$, 合并同类项即得.
 
 $\blacksquare$
 
@@ -65,7 +65,7 @@ $\blacksquare$
 由旋度的定义, 计算第一个分量:
 
 $$
-\frac{\partial\left(\Phi{R}\right)}{\partial{y}}-\frac{\partial\left(\Phi{Q}\right)}{\partial{z}}=\Phi\left(\frac{\partial{R}}{\partial{y}}-\frac{\partial{Q}}{\partial{z}}\right)+\left(R\frac{\partial\Phi}{\partial{y}}-Q\frac{\partial\Phi}{\partial{z}}\right).
+\frac{\partial\left(\Phi{}R\right)}{\partial{}y}-\frac{\partial\left(\Phi{}Q\right)}{\partial{}z}=\Phi\left(\frac{\partial{}R}{\partial{}y}-\frac{\partial{}Q}{\partial{}z}\right)+\left(R\frac{\partial\Phi}{\partial{}y}-Q\frac{\partial\Phi}{\partial{}z}\right).
 $$
 
 第二项即为 $\operatorname{grad}\Phi\times\boldsymbol{F}$ 的第一个分量. 同理验证其余分量.
@@ -134,11 +134,11 @@ $\blacksquare$
 
 ## 10.1-2-7
 
-讨论 $\sum_{n=1}^\infty\cos^2\frac\pi{n}$ 的收敛性.
+讨论 $\sum_{n=1}^\infty\cos^2\frac\pi{}n$ 的收敛性.
 
 ### 解答 10.1-2-7
 
-通项 $\cos^2\frac\pi{n}\to1\ne0$. 由**定理 1.1 (收敛级数的必要条件)**, 级数发散.
+通项 $\cos^2\frac\pi{}n\to1\ne0$. 由**定理 1.1 (收敛级数的必要条件)**, 级数发散.
 
 $\blacksquare$
 
@@ -164,21 +164,21 @@ $\blacksquare$
 
 ## 10.2-1-18
 
-讨论 $\sum_{n=3}^\infty\frac1{n\left(\ln\ln{n}\right)^q}$ ($q>0$) 的收敛性.
+讨论 $\sum_{n=3}^\infty\frac1{n\left(\ln\ln{}n\right)^q}$ ($q>0$) 的收敛性.
 
 ### 解答 10.2-1-18
 
-因 $\frac1{n\left(\ln\ln{n}\right)^q}>\frac1{n\ln{n}}$, 而 $\sum\frac1{n\ln{n}}$ 由**定理 2.9 (积分判别法)** 发散. 由**定理 2.2 (比较判别法)**, 原级数发散.
+因 $\frac1{n\left(\ln\ln{}n\right)^q}>\frac1{n\ln{}n}$, 而 $\sum\frac1{n\ln{}n}$ 由**定理 2.9 (积分判别法)** 发散. 由**定理 2.2 (比较判别法)**, 原级数发散.
 
 $\blacksquare$
 
 ## 10.2-2
 
-用积分判别法讨论 $\sum_{n=3}^\infty\frac1{n\ln^pn\left(\ln\ln{n}\right)^q}$ ($p>0,q>0$) 的收敛性.
+用积分判别法讨论 $\sum_{n=3}^\infty\frac1{n\ln^pn\left(\ln\ln{}n\right)^q}$ ($p>0,q>0$) 的收敛性.
 
 ### 解答 10.2-2
 
-令 $t=\ln{x}$, 由**定理 2.9 (积分判别法)**, 原级数与 $\int_{\ln3}^{+\infty}\frac{\mathrm{d}t}{t^p\left(\ln{t}\right)^q}$ 同敛散.
+令 $t=\ln{}x$, 由**定理 2.9 (积分判别法)**, 原级数与 $\int_{\ln3}^{+\infty}\frac{\mathrm{d}t}{t^p\left(\ln{}t\right)^q}$ 同敛散.
 
 (i) $p>1$ 时收敛; (ii) $p<1$ 时发散; (iii) $p=1,q>1$ 时收敛; (iv) $p=1,q\le1$ 时发散.
 

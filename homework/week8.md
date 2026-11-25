@@ -14,7 +14,7 @@
 
 > **定理 4.1 (局部泰勒展开式)**
 > 
-> 设 $y=f\left(x\right)$ 在 $x_0$ 点附近有定义, 且有 $n$ 阶导数 $f^{\left(n\right)}\left(x_0\right)$. 则 $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\left(\left(x-x_0\right)^n\right)$ ($x\to{x}_0$).
+> 设 $y=f\left(x\right)$ 在 $x_0$ 点附近有定义, 且有 $n$ 阶导数 $f^{\left(n\right)}\left(x_0\right)$. 则 $f\left(x\right)=f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)+\cdots+\frac{f^{\left(n\right)}\left(x_0\right)}{n!}\left(x-x_0\right)^n+o\left(\left(x-x_0\right)^n\right)$ ($x\to{}x_0$).
 
 > **定理 4.2 (带拉格朗日余项的泰勒公式)**
 > 
@@ -26,7 +26,7 @@
 
 ### 解答 3.3-2
 
-(1) 设 $x_0\in\left(a,b\right)$ 为唯一极值点. 若 $x_0$ 不是严格极大值点, 则存在一列点 $x_n\to{x}_0$ ($x_n\ne{x}_0$) 使得 $f\left(x_n\right)\ge{f}\left(x_0\right)$. 但若在 $x_0$ 的任意邻域内都有函数值等于 $f\left(x_0\right)$ 的点, 则 $f$ 在 $x_0$ 附近为常数, 从而有无穷多个极值点, 与唯一性矛盾. 故 $x_0$ 必为严格极大值点 (或严格极小值点).
+(1) 设 $x_0\in\left(a,b\right)$ 为唯一极值点. 若 $x_0$ 不是严格极大值点, 则存在一列点 $x_n\to{}x_0$ ($x_n\ne{}x_0$) 使得 $f\left(x_n\right)\ge{}f\left(x_0\right)$. 但若在 $x_0$ 的任意邻域内都有函数值等于 $f\left(x_0\right)$ 的点, 则 $f$ 在 $x_0$ 附近为常数, 从而有无穷多个极值点, 与唯一性矛盾. 故 $x_0$ 必为严格极大值点 (或严格极小值点).
 
 (2) 设 $x_0$ 为极大值点. 反证: 假定 $f\left(x_0\right)$ 不是 $\left[a,b\right]$ 上的最大值, 则存在 $x_1\in\left[a,b\right]$ 使得 $f\left(x_1\right)>f\left(x_0\right)$. 考虑闭区间 $\left[x_0,x_1\right]$ 上的连续函数 $f$. 因 $f\left(x_1\right)>f\left(x_0\right)$ 且 $x_0$ 为严格极大值点, 故 $f$ 在 $\left(x_0,x_1\right)$ 内某点达到最小值, 该点即为极小值点. 这与 $x_0$ 是唯一极值点矛盾.
 
@@ -90,14 +90,14 @@ $\blacksquare$
 
 ## 3.3-5
 
-证明不等式: $x^\alpha-\alpha{x}+\alpha-1\le0$ 对一切 $x>0$, 其中 $0<\alpha<1$.
+证明不等式: $x^\alpha-\alpha{}x+\alpha-1\le0$ 对一切 $x>0$, 其中 $0<\alpha<1$.
 
 ### 解答 3.3-5
 
-令 $f\left(x\right)=x^\alpha-\alpha{x}+\alpha-1$ ($x>0$). 求导得
+令 $f\left(x\right)=x^\alpha-\alpha{}x+\alpha-1$ ($x>0$). 求导得
 
 $$
-f'\left(x\right)=\alpha{x}^{\alpha-1}-\alpha=\alpha\left(x^{\alpha-1}-1\right).
+f'\left(x\right)=\alpha{}x^{\alpha-1}-\alpha=\alpha\left(x^{\alpha-1}-1\right).
 $$
 
 令 $f'\left(x\right)=0$, 得 $x=1$. 当 $0<{}x<1$ 时 $f'\left(x\right)>0$, 当 $x>1$ 时 $f'\left(x\right)<0$. 由**定理 3.1 (极值点第一充分条件)**, $x=1$ 为极大值点. 又 $f\left(1\right)=0$. 由**命题 3.1 (唯一极值点即全局极值点)**, $f\left(1\right)=0$ 为最大值. 故 $f\left(x\right)\le0$.
@@ -128,7 +128,7 @@ $\blacksquare$
 
 ## 3.3-7
 
-设 $\triangle{A}BC$ 的边分别为 $a,b$ 与 $c$. 假定 $b=c$, 且 $a+b+c=2l$, 其中 $l$ 为一定数. 问 $\triangle{A}BC$ 何时面积最大?
+设 $\triangle{}ABC$ 的边分别为 $a,b$ 与 $c$. 假定 $b=c$, 且 $a+b+c=2l$, 其中 $l$ 为一定数. 问 $\triangle{}ABC$ 何时面积最大?
 
 ### 解答 3.3-7
 
@@ -157,7 +157,7 @@ $\blacksquare$
 求导得
 
 $$
-f'\left(x\right)=p\sin{x}\cos{x}\left(\sin^{p-2}x-\cos^{p-2}x\right).
+f'\left(x\right)=p\sin{}x\cos{}x\left(\sin^{p-2}x-\cos^{p-2}x\right).
 $$
 
 令 $f'\left(x\right)=0$, 在 $\left(0,\frac\pi2\right)$ 内得 $x=\frac\pi4$. 计算各点函数值:
@@ -186,28 +186,28 @@ $\blacksquare$
 
 ## 3.4-1-4
 
-写出函数 $y=\arctan{x}$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^5$ 为止).
+写出函数 $y=\arctan{}x$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^5$ 为止).
 
 ### 解答 3.4-1-4
 
 计算得 $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=-2$, $f^{\left(4\right)}\left(0\right)=0$, $f^{\left(5\right)}\left(0\right)=24$. 由**定理 4.1 (局部泰勒展开式)**,
 
 $$
-\arctan{x}=x-\frac{x^3}{3}+\frac{x^5}{5}+o\left(x^5\right)\quad\left(x\to0\right).
+\arctan{}x=x-\frac{x^3}{3}+\frac{x^5}{5}+o\left(x^5\right)\quad\left(x\to0\right).
 $$
 
 $\blacksquare$
 
 ## 3.4-1-5
 
-写出函数 $y=\tan{x}$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^3$ 为止).
+写出函数 $y=\tan{}x$ 在 $x=0$ 点的局部泰勒公式 (展开至 $x^3$ 为止).
 
 ### 解答 3.4-1-5
 
 计算得 $f\left(0\right)=0$, $f'\left(0\right)=1$, $f''\left(0\right)=0$, $f'''\left(0\right)=2$. 由**定理 4.1 (局部泰勒展开式)**,
 
 $$
-\tan{x}=x+\frac{x^3}{3}+o\left(x^3\right)\quad\left(x\to0\right).
+\tan{}x=x+\frac{x^3}{3}+o\left(x^3\right)\quad\left(x\to0\right).
 $$
 
 $\blacksquare$
@@ -218,10 +218,10 @@ $\blacksquare$
 
 ### 解答 3.4-4
 
-将 $x$ 视作常数, 对 $\alpha$ 求导: $\frac{\mathrm{d}}{\mathrm{d}\alpha}\sin\left(x+\alpha\right)=\cos\left(x+\alpha\right)$, $\frac{\mathrm{d}^2}{\mathrm{d}\alpha^2}\sin\left(x+\alpha\right)=-\sin\left(x+\alpha\right)$. 在 $\alpha=0$ 处, $\sin{x}$ 与 $\cos{x}$. 由**定理 4.2 (带拉格朗日余项的泰勒公式)**,
+将 $x$ 视作常数, 对 $\alpha$ 求导: $\frac{\mathrm{d}}{\mathrm{d}\alpha}\sin\left(x+\alpha\right)=\cos\left(x+\alpha\right)$, $\frac{\mathrm{d}^2}{\mathrm{d}\alpha^2}\sin\left(x+\alpha\right)=-\sin\left(x+\alpha\right)$. 在 $\alpha=0$ 处, $\sin{}x$ 与 $\cos{}x$. 由**定理 4.2 (带拉格朗日余项的泰勒公式)**,
 
 $$
-\sin\left(x+\alpha\right)=\sin{x}+\left(\cos{x}\right)\alpha-\frac{\sin\left(x+\xi\right)}2\alpha^2,
+\sin\left(x+\alpha\right)=\sin{}x+\left(\cos{}x\right)\alpha-\frac{\sin\left(x+\xi\right)}2\alpha^2,
 $$
 
 其中 $\xi$ 介于 $0$ 与 $\alpha$ 之间. 余项 $r\left(\alpha\right)=-\frac{\sin\left(x+\xi\right)}2\alpha^2$, 故 $\left|r\left(\alpha\right)\right|\le\frac{\alpha^2}2$.
@@ -282,11 +282,11 @@ $\blacksquare$
 
 ## 3.4-10
 
-证明: 当 $x\to0$ 时, $\arctan{x}=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right)$.
+证明: 当 $x\to0$ 时, $\arctan{}x=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right)$.
 
 ### 解答 3.4-10
 
-对 $f\left(x\right)=\arctan{x}$, 有 $f'\left(x\right)=\frac1{1+x^2}$. 由 3.4-1-2 的结果, 将 $-x^2$ 代入 $\frac1{1-t}$ 的展开式:
+对 $f\left(x\right)=\arctan{}x$, 有 $f'\left(x\right)=\frac1{1+x^2}$. 由 3.4-1-2 的结果, 将 $-x^2$ 代入 $\frac1{1-t}$ 的展开式:
 
 $$
 \frac1{1+x^2}=1-x^2+x^4-\cdots+\left(-1\right)^mx^{2m}+o\left(x^{2m}\right).
@@ -295,14 +295,14 @@ $$
 由 3.4-7 的结果, $f\left(x\right)$ 的 $2m+1$ 阶泰勒多项式为上述多项式逐项积分:
 
 $$
-\arctan{x}=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right).
+\arctan{}x=x-\frac{x^3}3+\frac{x^5}5-\cdots+\left(-1\right)^m\frac{x^{2m+1}}{2m+1}+o\left(x^{2m+1}\right).
 $$
 
 $\blacksquare$
 
 ## 3.4-11
 
-设 $f\left(x\right)=x^{1/5}$, $x=32$, $\Delta{x}=0.16$. 已知 $f\left(32\right)+f'\left(32\right)\Delta{x}=2.002$. 证明: $2.002$ 作为 $32.16^{1/5}$ 的近似值, 其误差的绝对值小于 $10^{-6}$.
+设 $f\left(x\right)=x^{1/5}$, $x=32$, $\Delta{}x=0.16$. 已知 $f\left(32\right)+f'\left(32\right)\Delta{}x=2.002$. 证明: $2.002$ 作为 $32.16^{1/5}$ 的近似值, 其误差的绝对值小于 $10^{-6}$.
 
 ### 解答 3.4-11
 
@@ -340,6 +340,6 @@ $$
 
 当 $n$ 为奇数时, $\left(x-x_0\right)^n$ 在 $x_0$ 两侧变号, 而 $\frac{f^{\left(n\right)}\left(x_0\right)}{n!}$ 为固定非零常数, 故 $f\left(x\right)-f\left(x_0\right)$ 在 $x_0$ 两侧变号. 因此 $x_0$ 不是极值点.
 
-当 $n$ 为偶数时, $\left(x-x_0\right)^n>0$ ($x\ne{x}_0$). 若 $f^{\left(n\right)}\left(x_0\right)>0$, 则 $f\left(x\right)-f\left(x_0\right)>0$, 故 $x_0$ 为极小值点. 若 $f^{\left(n\right)}\left(x_0\right)<0$, 则 $f\left(x\right)-f\left(x_0\right)<0$, 故 $x_0$ 为极大值点.
+当 $n$ 为偶数时, $\left(x-x_0\right)^n>0$ ($x\ne{}x_0$). 若 $f^{\left(n\right)}\left(x_0\right)>0$, 则 $f\left(x\right)-f\left(x_0\right)>0$, 故 $x_0$ 为极小值点. 若 $f^{\left(n\right)}\left(x_0\right)<0$, 则 $f\left(x\right)-f\left(x_0\right)<0$, 故 $x_0$ 为极大值点.
 
 $\blacksquare$

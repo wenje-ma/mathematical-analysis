@@ -6,15 +6,15 @@
 
 > **定理 5.1 (函数极限四则运算)**
 > 
-> 若 $\lim{f}\left(x\right)=l_1$, $\lim{g}\left(x\right)=l_2$, 则 $\lim\left(f\pm{g}\right)=l_1\pm{l}_2$, $\lim\left(f\cdot{g}\right)=l_1\cdot{l}_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
+> 若 $\lim{}f\left(x\right)=l_1$, $\lim{}g\left(x\right)=l_2$, 则 $\lim\left(f\pm{}g\right)=l_1\pm{}l_2$, $\lim\left(f\cdot{}g\right)=l_1\cdot{}l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{f}{g}=\frac{l_1}{l_2}$.
 
-> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin{x}}{x}=1$)**
+> **命题 6.1 (重要极限 $\lim_{x\to0}\frac{\sin{}x}{x}=1$)**
 > 
-> $\lim_{x\to0}\frac{\sin{x}}{x}=1$.
+> $\lim_{x\to0}\frac{\sin{}x}{x}=1$.
 
 > **定理 6.2 (函数的夹逼定理)**
 > 
-> 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le{f}\left(x\right)\le{g}\left(x\right)$. 若 $\lim{g}\left(x\right)=\lim{h}\left(x\right)=l$, 则 $\lim{f}\left(x\right)=l$.
+> 设 $y=f\left(x\right)$, $y=g\left(x\right)$, $y=h\left(x\right)$ 在 $a$ 点的一个空心邻域内有定义, 且 $h\left(x\right)\le{}f\left(x\right)\le{}g\left(x\right)$. 若 $\lim{}g\left(x\right)=\lim{}h\left(x\right)=l$, 则 $\lim{}f\left(x\right)=l$.
 
 > **定理 7.2 (复合函数连续性)**
 > 
@@ -80,21 +80,21 @@ $\blacksquare$
 
 ## 1.6-10
 
-设 $y=D\left(x\right)$ 为狄利克雷函数. 证明: 对于任意一点 $a\in\mathbb{R}$, 极限 $\lim_{x\to{a}}D\left(x\right)$ 不存在.
+设 $y=D\left(x\right)$ 为狄利克雷函数. 证明: 对于任意一点 $a\in\mathbb{R}$, 极限 $\lim_{x\to{}a}D\left(x\right)$ 不存在.
 
 ### 解答 1.6-10
 
-取有理序列 $\left\{r_n\right\}$ 和无理序列 $\left\{s_n\right\}$, 均以 $a$ 为极限 (由有理数与无理数的稠密性). 则 $D\left(r_n\right)=1\to1$, $D\left(s_n\right)=0\to0$. 两子序列极限不同, 由函数极限与序列极限的归结原则, $\lim_{x\to{a}}D\left(x\right)$ 不存在.
+取有理序列 $\left\{r_n\right\}$ 和无理序列 $\left\{s_n\right\}$, 均以 $a$ 为极限 (由有理数与无理数的稠密性). 则 $D\left(r_n\right)=1\to1$, $D\left(s_n\right)=0\to0$. 两子序列极限不同, 由函数极限与序列极限的归结原则, $\lim_{x\to{}a}D\left(x\right)$ 不存在.
 
 $\blacksquare$
 
 ## 1.6-11
 
-求极限: $\lim_{x\to+\infty}\frac{\left(\ln{x}\right)^5}{x}$.
+求极限: $\lim_{x\to+\infty}\frac{\left(\ln{}x\right)^5}{x}$.
 
 ### 解答 1.6-11
 
-作变量替换 $y=\ln{x}$, 则 $x=e^y$, 当 $x\to+\infty$ 时 $y\to+\infty$. 原式化为 $\lim_{y\to+\infty}\frac{y^5}{e^y}=0$ (指数函数增长快于任何幂函数).
+作变量替换 $y=\ln{}x$, 则 $x=e^y$, 当 $x\to+\infty$ 时 $y\to+\infty$. 原式化为 $\lim_{y\to+\infty}\frac{y^5}{e^y}=0$ (指数函数增长快于任何幂函数).
 
 $\blacksquare$
 
@@ -102,7 +102,7 @@ $\blacksquare$
 
 指出下列函数的间断点及其类型:
 
-(1) $y=\operatorname{sgn}\left(\sin{x}\right)$;
+(1) $y=\operatorname{sgn}\left(\sin{}x\right)$;
 
 (2)
 
@@ -120,7 +120,7 @@ $$
 
 ### 解答 1.7-1
 
-(1) 当 $x=k\pi$ ($k\in\mathbb{Z}$) 时 $\sin{x}=0$, $\operatorname{sgn}\left(\sin{x}\right)$ 左右极限分别为 $1$ 与 $-1$ (或反之), 为第一类间断点 (跳跃间断点). 其余点连续.
+(1) 当 $x=k\pi$ ($k\in\mathbb{Z}$) 时 $\sin{}x=0$, $\operatorname{sgn}\left(\sin{}x\right)$ 左右极限分别为 $1$ 与 $-1$ (或反之), 为第一类间断点 (跳跃间断点). 其余点连续.
 
 (2) $x\to0+0$ 时 $f\left(x\right)=x^2e^x\to0$; $x\to0-0$ 时
 
@@ -158,7 +158,7 @@ $\blacksquare$
 
 (1) $\lim_{x\to0}\cos\left(\sqrt{1+x^2}-1\right)$;
 
-(2) $\lim_{x\to0}e^{\frac{\sin{x}}{\sin2x}}$;
+(2) $\lim_{x\to0}e^{\frac{\sin{}x}{\sin2x}}$;
 
 (3) $\lim_{x\to\infty}\arctan\frac{\sqrt{x^4+2}}{1+x^2}$;
 
@@ -170,11 +170,11 @@ $\blacksquare$
 
 (1) 由**定理 7.2 (复合函数连续性)**, $\lim_{x\to0}\left(\sqrt{1+x^2}-1\right)=0$, 故原式 $=\cos0=1$.
 
-(2) $\frac{\sin{x}}{\sin2x}\to\frac12$, 由 $e^u$ 的连续性, 原式 $=e^{1/2}=\sqrt{e}$.
+(2) $\frac{\sin{}x}{\sin2x}\to\frac12$, 由 $e^u$ 的连续性, 原式 $=e^{1/2}=\sqrt{e}$.
 
-(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$, 由 $\arctan{u}$ 的连续性, 原式 $=\arctan1=\frac\pi4$.
+(3) $\frac{\sqrt{x^4+2}}{1+x^2}\to1$, 由 $\arctan{}u$ 的连续性, 原式 $=\arctan1=\frac\pi4$.
 
-(4) $x^{\sqrt{x}}=e^{\sqrt{x}\ln{x}}$, $\sqrt{x}\ln{x}\to\sqrt5\ln5$, 由连续性, 原式 $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
+(4) $x^{\sqrt{x}}=e^{\sqrt{x}\ln{}x}$, $\sqrt{x}\ln{}x\to\sqrt5\ln5$, 由连续性, 原式 $=e^{\sqrt5\ln5}=5^{\sqrt5}$.
 
 (5)
 
@@ -196,29 +196,29 @@ $$
 
 ### 解答 1.7-4
 
-设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-c\right|<\delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$. 又因 $g\left(t\right)\to{c}$, 存在 $T>0$, 当 $t>T$ 时 $\left|g\left(t\right)-c\right|<\delta$. 于是当 $t>T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. 即 $\lim{f}\left(g\left(t\right)\right)=f\left(c\right)$.
+设 $\lim_{t\to\infty}g\left(t\right)=c\in\left(a,b\right)$. 由连续函数的定义, 任给 $\varepsilon>0$, 存在 $\delta>0$, 使得当 $\left|x-c\right|<\delta$ 时 $\left|f\left(x\right)-f\left(c\right)\right|<\varepsilon$. 又因 $g\left(t\right)\to{}c$, 存在 $T>0$, 当 $t>T$ 时 $\left|g\left(t\right)-c\right|<\delta$. 于是当 $t>T$ 时 $\left|f\left(g\left(t\right)\right)-f\left(c\right)\right|<\varepsilon$. 即 $\lim{}f\left(g\left(t\right)\right)=f\left(c\right)$.
 
 $\blacksquare$
 
 ## 1.7-5
 
-设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在实数域 $\mathbb{R}$ 中有定义且连续. 假定 $f\left(x\right)=g\left(x\right)$ 对一切 $x\in\mathbb{Q}$ 成立, 试证明 $f\left(x\right)\equiv{g}\left(x\right)$ 对一切 $x\in\mathbb{R}$ 成立.
+设 $y=f\left(x\right)$ 及 $y=g\left(x\right)$ 在实数域 $\mathbb{R}$ 中有定义且连续. 假定 $f\left(x\right)=g\left(x\right)$ 对一切 $x\in\mathbb{Q}$ 成立, 试证明 $f\left(x\right)\equiv{}g\left(x\right)$ 对一切 $x\in\mathbb{R}$ 成立.
 
 ### 解答 1.7-5
 
-任取 $x_0\in\mathbb{R}$. 由有理数的稠密性, 存在有理序列 $\left\{r_n\right\}$ 使 $r_n\to{x}_0$. 因 $f,g$ 连续,
+任取 $x_0\in\mathbb{R}$. 由有理数的稠密性, 存在有理序列 $\left\{r_n\right\}$ 使 $r_n\to{}x_0$. 因 $f,g$ 连续,
 
 $$
 f\left(x_0\right)=\lim_{n\to\infty}f\left(r_n\right)=\lim_{n\to\infty}g\left(r_n\right)=g\left(x_0\right).
 $$
 
-故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv{g}$.
+故 $f\left(x_0\right)=g\left(x_0\right)$. 由 $x_0$ 的任意性, $f\equiv{}g$.
 
 $\blacksquare$
 
 ## 1.7-6
 
-设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot{e}^{t_2}$ 的条件下, 证明下列极限等式:
+设 $t_1$ 与 $t_2$ 是任意两个实数. 请在不利用公式 $e^{t_1+t_2}=e^{t_1}\cdot{}e^{t_2}$ 的条件下, 证明下列极限等式:
 
 $$
 \lim_{x\to\infty}\left[\left(1+\frac{t_1}{x}\right)\left(1+\frac{t_2}{x}\right)\right]^x=e^{t_1+t_2}.
@@ -246,7 +246,7 @@ $$
 
 ### 解答 1.8-2
 
-$f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, 设最大值为 $M$, 最小值为 $m$. 则 $m\le{f}\left(x_i\right)\le{M}$, 故 $m\le\eta\le{M}$. 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_3\right]$ 使 $f\left(\xi\right)=\eta$.
+$f$ 在 $\left[x_1,x_3\right]$ 上连续, 由**定理 8.2 (有界性定理)**, 设最大值为 $M$, 最小值为 $m$. 则 $m\le{}f\left(x_i\right)\le{}M$, 故 $m\le\eta\le{}M$. 由**定理 8.1 (中间值定理)**, 存在 $\xi\in\left[x_1,x_3\right]$ 使 $f\left(\xi\right)=\eta$.
 
 $\blacksquare$
 
@@ -266,7 +266,7 @@ $\blacksquare$
 
 ### 解答 1.8-4
 
-设 $\lim_{x\to+\infty}f\left(x\right)=l$. 存在 $A>a$ 使得当 $x>A$ 时 $\left|f\left(x\right)-l\right|<1$, 即 $\left|f\left(x\right)\right|<\left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2 (有界性定理)**, $f$ 有界, 设 $\left|f\left(x\right)\right|\le{M}$. 取 $\widetilde{M}=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde{M}$.
+设 $\lim_{x\to+\infty}f\left(x\right)=l$. 存在 $A>a$ 使得当 $x>A$ 时 $\left|f\left(x\right)-l\right|<1$, 即 $\left|f\left(x\right)\right|<\left|l\right|+1$. 在 $\left[a,A\right]$ 上由**定理 8.2 (有界性定理)**, $f$ 有界, 设 $\left|f\left(x\right)\right|\le{}M$. 取 $\widetilde{M}=\max\left\{M,\left|l\right|+1\right\}$, 则对一切 $x\in\left[a,+\infty\right)$, $\left|f\left(x\right)\right|\le\widetilde{M}$.
 
 $\blacksquare$
 

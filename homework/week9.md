@@ -20,11 +20,11 @@ $\blacksquare$
 
 ## 3.5-1-4
 
-求出函数 $y=x\ln{x}$ 的凸凹性区间及拐点.
+求出函数 $y=x\ln{}x$ 的凸凹性区间及拐点.
 
 ### 解答 3.5-1-4
 
-定义域为 $\left(0,+\infty\right)$. $y'=\ln{x}+1$, $y''=\frac1x>0$. 由**定理 5.1 (凸函数的二阶导数判别)**, $y=x\ln{x}$ 在 $\left(0,+\infty\right)$ 上为凸函数, 无拐点.
+定义域为 $\left(0,+\infty\right)$. $y'=\ln{}x+1$, $y''=\frac1x>0$. 由**定理 5.1 (凸函数的二阶导数判别)**, $y=x\ln{}x$ 在 $\left(0,+\infty\right)$ 上为凸函数, 无拐点.
 
 $\blacksquare$
 
@@ -32,27 +32,27 @@ $\blacksquare$
 
 利用凸函数概念证明下列不等式:
 
-(1) 设 $a>0$, $b>0$, 证明 $2\arctan\frac{a+b}2\ge\arctan{a}+\arctan{b}$;
+(1) 设 $a>0$, $b>0$, 证明 $2\arctan\frac{a+b}2\ge\arctan{}a+\arctan{}b$;
 
-(2) 若 $a,b,c$ 均为正数, 证明 $a^\alpha{b}^\beta{c}^\gamma\le\alpha{a}+\beta{b}+\gamma{c}$, 其中 $\alpha+\beta+\gamma=1$, $\alpha,\beta,\gamma>0$.
+(2) 若 $a,b,c$ 均为正数, 证明 $a^\alpha{}b^\beta{}c^\gamma\le\alpha{}a+\beta{}b+\gamma{}c$, 其中 $\alpha+\beta+\gamma=1$, $\alpha,\beta,\gamma>0$.
 
 ### 解答 3.5-2
 
-(1) 令 $f\left(x\right)=\arctan{x}$. 则 $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}$. 当 $x>0$ 时 $f''\left(x\right)<0$, 故 $f$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由凸函数与凹函数的定义, 取 $t=\frac12$, 得
+(1) 令 $f\left(x\right)=\arctan{}x$. 则 $f''\left(x\right)=\frac{-2x}{\left(1+x^2\right)^2}$. 当 $x>0$ 时 $f''\left(x\right)<0$, 故 $f$ 在 $\left(0,+\infty\right)$ 上为凹函数. 由凸函数与凹函数的定义, 取 $t=\frac12$, 得
 
 $$
 f\left(\frac{a+b}2\right)\ge\frac{f\left(a\right)+f\left(b\right)}2,
 $$
 
-即 $2\arctan\frac{a+b}2\ge\arctan{a}+\arctan{b}$.
+即 $2\arctan\frac{a+b}2\ge\arctan{}a+\arctan{}b$.
 
-(2) 由 $f\left(x\right)=\ln{x}$ 为凹函数 ($f''\left(x\right)=-\frac1{x^2}<0$), 由凸函数与凹函数的定义,
+(2) 由 $f\left(x\right)=\ln{}x$ 为凹函数 ($f''\left(x\right)=-\frac1{x^2}<0$), 由凸函数与凹函数的定义,
 
 $$
-\alpha\ln{a}+\beta\ln{b}+\gamma\ln{c}\le\ln\left(\alpha{a}+\beta{b}+\gamma{c}\right).
+\alpha\ln{}a+\beta\ln{}b+\gamma\ln{}c\le\ln\left(\alpha{}a+\beta{}b+\gamma{}c\right).
 $$
 
-即 $a^\alpha{b}^\beta{c}^\gamma\le\alpha{a}+\beta{b}+\gamma{c}$. 此即加权 AM-GM 不等式.
+即 $a^\alpha{}b^\beta{}c^\gamma\le\alpha{}a+\beta{}b+\gamma{}c$. 此即加权 AM-GM 不等式.
 
 $\blacksquare$
 
@@ -65,20 +65,20 @@ $\blacksquare$
 对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 需证
 
 $$
-F\left(tx_1+\left(1-t\right)x_2\right)\le{t}F\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
+F\left(tx_1+\left(1-t\right)x_2\right)\le{}tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
 $$
 
 因 $g,f$ 均为凸函数,
 
 $$
-f\left(tx_1+\left(1-t\right)x_2\right)\le{t}f\left(x_1\right)+\left(1-t\right)f\left(x_2\right)\le{t}F\left(x_1\right)+\left(1-t\right)F\left(x_2\right),
+f\left(tx_1+\left(1-t\right)x_2\right)\le{}tf\left(x_1\right)+\left(1-t\right)f\left(x_2\right)\le{}tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right),
 $$
 
 $$
-g\left(tx_1+\left(1-t\right)x_2\right)\le{t}g\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\le{t}F\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
+g\left(tx_1+\left(1-t\right)x_2\right)\le{}tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\le{}tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right).
 $$
 
-两式右端相同, 故 $\max\left\{f\left(\cdot\right),g\left(\cdot\right)\right\}\le{t}F\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. 故 $F$ 为凸函数.
+两式右端相同, 故 $\max\left\{f\left(\cdot\right),g\left(\cdot\right)\right\}\le{}tF\left(x_1\right)+\left(1-t\right)F\left(x_2\right)$. 故 $F$ 为凸函数.
 
 $\blacksquare$
 
@@ -91,19 +91,19 @@ $\blacksquare$
 对任意 $x_1,x_2\in\left(a,b\right)$ 及 $t\in\left(0,1\right)$, 因 $g$ 为凸函数,
 
 $$
-g\left(tx_1+\left(1-t\right)x_2\right)\le{t}g\left(x_1\right)+\left(1-t\right)g\left(x_2\right).
+g\left(tx_1+\left(1-t\right)x_2\right)\le{}tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right).
 $$
 
 又因 $f$ 为递增函数,
 
 $$
-f\left(g\left(tx_1+\left(1-t\right)x_2\right)\right)\le{f}\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right).
+f\left(g\left(tx_1+\left(1-t\right)x_2\right)\right)\le{}f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right).
 $$
 
 再由 $f$ 为凸函数,
 
 $$
-f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right)\le{t}f\left(g\left(x_1\right)\right)+\left(1-t\right)f\left(g\left(x_2\right)\right).
+f\left(tg\left(x_1\right)+\left(1-t\right)g\left(x_2\right)\right)\le{}tf\left(g\left(x_1\right)\right)+\left(1-t\right)f\left(g\left(x_2\right)\right).
 $$
 
 合起来即得 $f\left(g\left(x\right)\right)$ 为凸函数.
@@ -118,13 +118,13 @@ $\blacksquare$
 
 因 $f$ 为凸函数, 由**定理 5.1 (凸函数的二阶导数判别)**, $f''\left(x\right)\ge0$, 故 $f'\left(x\right)$ 为递增函数.
 
-反证: 假定存在 $x_0$ 使得 $f'\left(x_0\right)\ne0$. 若 $f'\left(x_0\right)>0$, 因 $f'$ 递增, 当 $x>x_0$ 时 $f'\left(x\right)\ge{f}'\left(x_0\right)>0$. 由**定理 1.3 (拉格朗日中值定理)**,
+反证: 假定存在 $x_0$ 使得 $f'\left(x_0\right)\ne0$. 若 $f'\left(x_0\right)>0$, 因 $f'$ 递增, 当 $x>x_0$ 时 $f'\left(x\right)\ge{}f'\left(x_0\right)>0$. 由**定理 1.3 (拉格朗日中值定理)**,
 
 $$
-f\left(x\right)=f\left(x_0\right)+f'\left(\xi\right)\left(x-x_0\right)\ge{f}\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty,
+f\left(x\right)=f\left(x_0\right)+f'\left(\xi\right)\left(x-x_0\right)\ge{}f\left(x_0\right)+f'\left(x_0\right)\left(x-x_0\right)\to+\infty,
 $$
 
-与 $f$ 有界矛盾. 若 $f'\left(x_0\right)<0$, 同理当 $x<{}x_0$ 时 $f'\left(x\right)\le{f}'\left(x_0\right)<0$, 推出 $f\left(x\right)\to+\infty$ ($x\to-\infty$), 同样矛盾.
+与 $f$ 有界矛盾. 若 $f'\left(x_0\right)<0$, 同理当 $x<{}x_0$ 时 $f'\left(x\right)\le{}f'\left(x_0\right)<0$, 推出 $f\left(x\right)\to+\infty$ ($x\to-\infty$), 同样矛盾.
 
 故 $f'\left(x\right)\equiv0$, 即 $f$ 为常数.
 
@@ -187,7 +187,7 @@ $\blacksquare$
 由**定理 1.3 (不定积分的线性法则)**,
 
 $$
-\int\left(x^3+4\right)\,\mathrm{d}x=\int{x}^3\,\mathrm{d}x+4\int1\,\mathrm{d}x=\frac{x^4}4+4x+C.
+\int\left(x^3+4\right)\,\mathrm{d}x=\int{}x^3\,\mathrm{d}x+4\int1\,\mathrm{d}x=\frac{x^4}4+4x+C.
 $$
 
 $\blacksquare$
@@ -201,7 +201,7 @@ $\blacksquare$
 利用三角恒等式 $\tan^2x=\sec^2x-1$, 由**定理 1.3 (不定积分的线性法则)**,
 
 $$
-\int\tan^2x\,\mathrm{d}x=\int\left(\sec^2x-1\right)\,\mathrm{d}x=\tan{x}-x+C.
+\int\tan^2x\,\mathrm{d}x=\int\left(\sec^2x-1\right)\,\mathrm{d}x=\tan{}x-x+C.
 $$
 
 $\blacksquare$
@@ -212,7 +212,7 @@ $\blacksquare$
 
 ### 解答 4.1-1-6
 
-展开被积函数: $\left(3^x-4^{-x}\right)^2=9^x-2\left(\frac34\right)^x+16^{-x}$. 由**定理 1.3 (不定积分的线性法则)** 及 $\int{a}^x\,\mathrm{d}x=\frac{a^x}{\ln{a}}+C$,
+展开被积函数: $\left(3^x-4^{-x}\right)^2=9^x-2\left(\frac34\right)^x+16^{-x}$. 由**定理 1.3 (不定积分的线性法则)** 及 $\int{}a^x\,\mathrm{d}x=\frac{a^x}{\ln{}a}+C$,
 
 $$
 \int\left(3^x-4^{-x}\right)^2\,\mathrm{d}x=\frac{9^x}{\ln9}-2\cdot\frac{\left(3/4\right)^x}{\ln\left(3/4\right)}-\frac{16^{-x}}{\ln16}+C.
@@ -229,7 +229,7 @@ $\blacksquare$
 将被积函数变形: $\frac{x^2}{1+x^2}=1-\frac1{1+x^2}$. 由**定理 1.3 (不定积分的线性法则)**,
 
 $$
-\int\frac{x^2}{1+x^2}\,\mathrm{d}x=x-\arctan{x}+C.
+\int\frac{x^2}{1+x^2}\,\mathrm{d}x=x-\arctan{}x+C.
 $$
 
 $\blacksquare$
@@ -257,7 +257,7 @@ $\blacksquare$
 利用 $1=\sin^2x+\cos^2x$, $\frac1{\sin^2x\cos^2x}=\sec^2x+\csc^2x$. 由**定理 1.3 (不定积分的线性法则)**,
 
 $$
-\int\frac1{\sin^2x\cos^2x}\,\mathrm{d}x=\tan{x}-\cot{x}+C.
+\int\frac1{\sin^2x\cos^2x}\,\mathrm{d}x=\tan{}x-\cot{}x+C.
 $$
 
 $\blacksquare$
@@ -268,10 +268,10 @@ $\blacksquare$
 
 ### 解答 4.1-1-12
 
-利用半角公式 $\sin^2\frac{x}2=\frac{1-\cos{x}}2$, 由**定理 1.3 (不定积分的线性法则)**,
+利用半角公式 $\sin^2\frac{x}2=\frac{1-\cos{}x}2$, 由**定理 1.3 (不定积分的线性法则)**,
 
 $$
-\int\sin^2\frac{x}2\,\mathrm{d}x=\frac{x}2-\frac{\sin{x}}2+C.
+\int\sin^2\frac{x}2\,\mathrm{d}x=\frac{x}2-\frac{\sin{}x}2+C.
 $$
 
 $\blacksquare$

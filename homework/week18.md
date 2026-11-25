@@ -2,7 +2,7 @@
 
 > **定理 1.1 (M 判别法)**
 > 
-> 若存在 $M_n>0$, $M_n\to0$, 使 $\left|f_n\left(x\right)-f\left(x\right)\right|\le{M}_n$ 对一切 $x\in{X}$ 成立, 则 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
+> 若存在 $M_n>0$, $M_n\to0$, 使 $\left|f_n\left(x\right)-f\left(x\right)\right|\le{}M_n$ 对一切 $x\in{}X$ 成立, 则 $\left\{f_n\right\}$ 在 $X$ 上一致收敛于 $f$.
 
 > **定理 1.2 (极限函数的连续性)**
 > 
@@ -10,23 +10,23 @@
 
 > **定理 2.2 (比较判别法)**
 > 
-> 设 $\sum{a}_n$ 与 $\sum{b}_n$ 为正项级数, 且存在 $N_0$ 使 $a_n\le{b}_n$ ($n\ge{N}_0$). 若 $\sum{b}_n$ 收敛, 则 $\sum{a}_n$ 收敛.
+> 设 $\sum{}a_n$ 与 $\sum{}b_n$ 为正项级数, 且存在 $N_0$ 使 $a_n\le{}b_n$ ($n\ge{}N_0$). 若 $\sum{}b_n$ 收敛, 则 $\sum{}a_n$ 收敛.
 
 > **定理 2.3 (比较判别法的极限形式)**
 > 
-> 设 $\sum{a}_n$ 与 $\sum{b}_n$ 为正项级数, 且 $\lim_{n\to\infty}\frac{a_n}{b_n}=l$. 当 $0<{}l<+\infty$ 时两级数同敛散.
+> 设 $\sum{}a_n$ 与 $\sum{}b_n$ 为正项级数, 且 $\lim_{n\to\infty}\frac{a_n}{b_n}=l$. 当 $0<{}l<+\infty$ 时两级数同敛散.
 
 > **定理 3.2 (狄利克雷判别法)**
 > 
-> 设 $\left\{b_n\right\}$ 单调趋于零, 且 $\sum{a}_n$ 的部分和序列有界, 则 $\sum{a}_nb_n$ 收敛.
+> 设 $\left\{b_n\right\}$ 单调趋于零, 且 $\sum{}a_n$ 的部分和序列有界, 则 $\sum{}a_nb_n$ 收敛.
 
 > **定理 3.3 (阿贝尔判别法)**
 > 
-> 设 $\left\{b_n\right\}$ 单调有界, 且 $\sum{a}_n$ 收敛, 则 $\sum{a}_nb_n$ 收敛.
+> 设 $\left\{b_n\right\}$ 单调有界, 且 $\sum{}a_n$ 收敛, 则 $\sum{}a_nb_n$ 收敛.
 
 > **定理 4.1 (无穷乘积与级数的关系)**
 > 
-> 设 $p_n>0$, 则 $\prod{p}_n$ 收敛的充要条件是 $\sum\ln{p}_n$ 收敛, 且此时 $\prod{p}_n=\exp\left(\sum\ln{p}_n\right)$.
+> 设 $p_n>0$, 则 $\prod{}p_n$ 收敛的充要条件是 $\sum\ln{}p_n$ 收敛, 且此时 $\prod{}p_n=\exp\left(\sum\ln{}p_n\right)$.
 
 > **定理 4.2 (同号项无穷乘积)**
 > 
@@ -38,37 +38,37 @@
 
 ## 10.2-6
 
-设 $\lim_{n\to\infty}na_n=l\in\left(0,+\infty\right)$. 证明 $\sum{a}_n^2$ 收敛而 $\sum{a}_n$ 发散.
+设 $\lim_{n\to\infty}na_n=l\in\left(0,+\infty\right)$. 证明 $\sum{}a_n^2$ 收敛而 $\sum{}a_n$ 发散.
 
 ### 解答 10.2-6
 
-由 $\lim_{n\to\infty}\frac{a_n}{1/n}=l\in\left(0,+\infty\right)$, 及**定理 2.3 (比较判别法的极限形式)**, $\sum{a}_n$ 与调和级数同发散. 又 $\lim_{n\to\infty}\frac{a_n^2}{1/n^2}=l^2\in\left(0,+\infty\right)$, 而 $\sum\frac1{n^2}$ 收敛, 故 $\sum{a}_n^2$ 收敛.
+由 $\lim_{n\to\infty}\frac{a_n}{1/n}=l\in\left(0,+\infty\right)$, 及**定理 2.3 (比较判别法的极限形式)**, $\sum{}a_n$ 与调和级数同发散. 又 $\lim_{n\to\infty}\frac{a_n^2}{1/n^2}=l^2\in\left(0,+\infty\right)$, 而 $\sum\frac1{n^2}$ 收敛, 故 $\sum{}a_n^2$ 收敛.
 
 $\blacksquare$
 
 ## 10.2-7
 
-若 $\sum{a}_n^2$ 与 $\sum{b}_n^2$ 都收敛, 证明下列级数均收敛: $\sum\left|a_nb_n\right|$; $\sum\left(a_n+b_n\right)^2$; $\sum\frac{\left|a_n\right|}{n}$.
+若 $\sum{}a_n^2$ 与 $\sum{}b_n^2$ 都收敛, 证明下列级数均收敛: $\sum\left|a_nb_n\right|$; $\sum\left(a_n+b_n\right)^2$; $\sum\frac{\left|a_n\right|}{n}$.
 
 ### 解答 10.2-7
 
-(1) 由 $2\left|a_nb_n\right|\le{a}_n^2+b_n^2$, 及**定理 2.2 (比较判别法)**, $\sum\left|a_nb_n\right|$ 收敛.
+(1) 由 $2\left|a_nb_n\right|\le{}a_n^2+b_n^2$, 及**定理 2.2 (比较判别法)**, $\sum\left|a_nb_n\right|$ 收敛.
 
-(2) $\left(a_n+b_n\right)^2\le{a}_n^2+2\left|a_nb_n\right|+b_n^2$, 由 (1) 及比较判别法, 收敛.
+(2) $\left(a_n+b_n\right)^2\le{}a_n^2+2\left|a_nb_n\right|+b_n^2$, 由 (1) 及比较判别法, 收敛.
 
-(3) 由 $2\frac{\left|a_n\right|}{n}\le{a}_n^2+\frac1{n^2}$, 及比较判别法, 收敛.
+(3) 由 $2\frac{\left|a_n\right|}{n}\le{}a_n^2+\frac1{n^2}$, 及比较判别法, 收敛.
 
 $\blacksquare$
 
 ## 10.3-2
 
-证明: $\sum_{n=1}^\infty\frac{\cos{n}x}{n^p}$ ($0<{}x<2\pi$) 当 $p>1$ 时绝对收敛, 当 $0<{}p\le1$ 时条件收敛.
+证明: $\sum_{n=1}^\infty\frac{\cos{}nx}{n^p}$ ($0<{}x<2\pi$) 当 $p>1$ 时绝对收敛, 当 $0<{}p\le1$ 时条件收敛.
 
 ### 解答 10.3-2
 
-(1) $p>1$ 时, $\left|\frac{\cos{n}x}{n^p}\right|\le\frac1{n^p}$, 由**定理 2.2 (比较判别法)** 及 $p$ 级数收敛, 原级数绝对收敛.
+(1) $p>1$ 时, $\left|\frac{\cos{}nx}{n^p}\right|\le\frac1{n^p}$, 由**定理 2.2 (比较判别法)** 及 $p$ 级数收敛, 原级数绝对收敛.
 
-(2) $0<{}p\le1$ 时, 由 $\left|\cos{n}x\right|\ge\cos^2nx=\frac{1+\cos2nx}{2}$, 得 $\frac{\left|\cos{n}x\right|}{n^p}\ge\frac1{2n^p}+\frac{\cos2nx}{2n^p}$. 因 $\sum\frac1{n^p}$ 发散, 故原级数不绝对收敛. 又 $\sum\cos{n}x$ 部分和有界, $\frac1{n^p}$ 单调趋于零, 由**定理 3.2 (狄利克雷判别法)**, 原级数收敛. 故条件收敛.
+(2) $0<{}p\le1$ 时, 由 $\left|\cos{}nx\right|\ge\cos^2nx=\frac{1+\cos2nx}{2}$, 得 $\frac{\left|\cos{}nx\right|}{n^p}\ge\frac1{2n^p}+\frac{\cos2nx}{2n^p}$. 因 $\sum\frac1{n^p}$ 发散, 故原级数不绝对收敛. 又 $\sum\cos{}nx$ 部分和有界, $\frac1{n^p}$ 单调趋于零, 由**定理 3.2 (狄利克雷判别法)**, 原级数收敛. 故条件收敛.
 
 $\blacksquare$
 
@@ -84,13 +84,13 @@ $\blacksquare$
 
 ## 10.3-5
 
-设 $h_n=\sum_{k=1}^n\frac1k$, $S_n=\sum_{k=1}^n\frac{\left(-1\right)^{k-1}}k$. (1) 证明 $S_{2n}=h_{2n}-h_n$; (2) 利用 $h_n-\ln{n}\to\gamma$ 证明 $S_{2n}\to\ln2$; (3) 证明 $\sum\frac{\left(-1\right)^{n-1}}n=\ln2$.
+设 $h_n=\sum_{k=1}^n\frac1k$, $S_n=\sum_{k=1}^n\frac{\left(-1\right)^{k-1}}k$. (1) 证明 $S_{2n}=h_{2n}-h_n$; (2) 利用 $h_n-\ln{}n\to\gamma$ 证明 $S_{2n}\to\ln2$; (3) 证明 $\sum\frac{\left(-1\right)^{n-1}}n=\ln2$.
 
 ### 解答 10.3-5
 
 (1) 直接计算: $S_{2n}=h_{2n}-2\cdot\frac12h_n=h_{2n}-h_n$.
 
-(2) $S_{2n}=h_{2n}-h_n=\ln\left(2n\right)+\gamma-\ln{n}-\gamma+o\left(1\right)=\ln2+o\left(1\right)$.
+(2) $S_{2n}=h_{2n}-h_n=\ln\left(2n\right)+\gamma-\ln{}n-\gamma+o\left(1\right)=\ln2+o\left(1\right)$.
 
 (3) $S_{2n-1}=S_{2n}+\frac1{2n}\to\ln2$. 偶数项与奇数项部分和均趋于 $\ln2$, 故 $\sum\frac{\left(-1\right)^{n-1}}n=\ln2$.
 

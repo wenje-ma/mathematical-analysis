@@ -6,12 +6,12 @@
 
 ## 2.3-3-1
 
-计算下列函数在指定点 $x_0$ 的微分: $f\left(x\right)=x^2\arcsin{x}$, $x_0=0$.
+计算下列函数在指定点 $x_0$ 的微分: $f\left(x\right)=x^2\arcsin{}x$, $x_0=0$.
 
 ### 解答 2.3-3-1
 
 $$
-f'\left(x\right)=2x\arcsin{x}+\frac{x^2}{\sqrt{1-x^2}}.
+f'\left(x\right)=2x\arcsin{}x+\frac{x^2}{\sqrt{1-x^2}}.
 $$
 
 $f'\left(0\right)=0$. 故 $\left.\mathrm{d}f\right|_{x_0=0}=0\cdot\mathrm{d}x=0$.
@@ -44,18 +44,18 @@ $\blacksquare$
 
 ## 2.3-4-4
 
-求函数的微分: $f\left(x\right)=\sqrt{1+x^2}+\sqrt{x}\sin{x}$.
+求函数的微分: $f\left(x\right)=\sqrt{1+x^2}+\sqrt{x}\sin{}x$.
 
 ### 解答 2.3-4-4
 
 $$
-f'\left(x\right)=\frac{x}{\sqrt{1+x^2}}+\frac1{2\sqrt{x}}\sin{x}+\sqrt{x}\cos{x}.
+f'\left(x\right)=\frac{x}{\sqrt{1+x^2}}+\frac1{2\sqrt{x}}\sin{}x+\sqrt{x}\cos{}x.
 $$
 
 故
 
 $$
-\mathrm{d}f=\left(\frac{x}{\sqrt{1+x^2}}+\frac{\sin{x}}{2\sqrt{x}}+\sqrt{x}\cos{x}\right)\mathrm{d}x.
+\mathrm{d}f=\left(\frac{x}{\sqrt{1+x^2}}+\frac{\sin{}x}{2\sqrt{x}}+\sqrt{x}\cos{}x\right)\mathrm{d}x.
 $$
 
 $\blacksquare$
@@ -86,11 +86,11 @@ $\blacksquare$
 
 ## 2.3-5-5
 
-填空: $\mathrm{d}\left(\right)=\frac{\sin{x}}{\cos{x}}\mathrm{d}x$.
+填空: $\mathrm{d}\left(\right)=\frac{\sin{}x}{\cos{}x}\mathrm{d}x$.
 
 ### 解答 2.3-5-5
 
-$\mathrm{d}\left(-\ln\left|\cos{x}\right|\right)=\frac{\sin{x}}{\cos{x}}\mathrm{d}x$.
+$\mathrm{d}\left(-\ln\left|\cos{}x\right|\right)=\frac{\sin{}x}{\cos{}x}\mathrm{d}x$.
 
 $\blacksquare$
 
@@ -100,10 +100,10 @@ $\blacksquare$
 
 ### 解答 2.3-6
 
-令 $f\left(x\right)=\tan{x}$, 取 $x_0=\frac\pi4$, $\Delta{x}=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. 由微分的定义 导出的近似公式
+令 $f\left(x\right)=\tan{}x$, 取 $x_0=\frac\pi4$, $\Delta{}x=0.01$. $f'\left(x\right)=\sec^2x$, $f'\left(\frac\pi4\right)=2$. 由微分的定义 导出的近似公式
 
 $$
-f\left(x_0+\Delta{x}\right)\approx{f}\left(x_0\right)+f'\left(x_0\right)\Delta{x},
+f\left(x_0+\Delta{}x\right)\approx{}f\left(x_0\right)+f'\left(x_0\right)\Delta{}x,
 $$
 
 $$
@@ -127,7 +127,7 @@ $\blacksquare$
 (1) 由莱布尼茨公式, 其中 $u=x^2$, $v=e^x$.
 
 $$
-u'=2x,\quad{u}''=2,\quad{u}^{\left(k\right)}=0\quad\left(k\ge3\right).
+u'=2x,\quad{}u''=2,\quad{}u^{\left(k\right)}=0\quad\left(k\ge3\right).
 $$
 
 故
@@ -248,14 +248,14 @@ $\blacksquare$
 
 ## 2.5-1-2
 
-求下列参变量函数的导数 $\frac{\mathrm{d}y}{\mathrm{d}x}$: $\begin{cases}x=t\ln{t},\\y=e^t.\end{cases}$
+求下列参变量函数的导数 $\frac{\mathrm{d}y}{\mathrm{d}x}$: $\begin{cases}x=t\ln{}t,\\y=e^t.\end{cases}$
 
 ### 解答 2.5-1-2
 
-$\frac{\mathrm{d}x}{\mathrm{d}t}=\ln{t}+1$, $\frac{\mathrm{d}y}{\mathrm{d}t}=e^t$. 由**定理 5.1 (参变量函数求导公式)**,
+$\frac{\mathrm{d}x}{\mathrm{d}t}=\ln{}t+1$, $\frac{\mathrm{d}y}{\mathrm{d}t}=e^t$. 由**定理 5.1 (参变量函数求导公式)**,
 
 $$
-\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{e^t}{\ln{t}+1}.
+\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{e^t}{\ln{}t+1}.
 $$
 
 $\blacksquare$
@@ -266,10 +266,10 @@ $\blacksquare$
 
 ### 解答 2.5-1-4
 
-$\frac{\mathrm{d}x}{\mathrm{d}t}=-4\cos^3t\sin{t}$, $\frac{\mathrm{d}y}{\mathrm{d}t}=4\sin^3t\cos{t}$. 由**定理 5.1 (参变量函数求导公式)**,
+$\frac{\mathrm{d}x}{\mathrm{d}t}=-4\cos^3t\sin{}t$, $\frac{\mathrm{d}y}{\mathrm{d}t}=4\sin^3t\cos{}t$. 由**定理 5.1 (参变量函数求导公式)**,
 
 $$
-\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{4\sin^3t\cos{t}}{-4\cos^3t\sin{t}}=-\tan^2t.
+\frac{\mathrm{d}y}{\mathrm{d}x}=\frac{4\sin^3t\cos{}t}{-4\cos^3t\sin{}t}=-\tan^2t.
 $$
 
 $\blacksquare$
@@ -294,24 +294,24 @@ $\blacksquare$
 
 ## 2.5-4
 
-设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$. 令 $\Delta{t}\ne0$,
+设 $x=\varphi\left(t\right)$, $y=\psi\left(t\right)$ 在 $t_0$ 点可导, 且 $\varphi'\left(t_0\right)\ne0$. 令 $\Delta{}t\ne0$,
 
 $$
-\Delta{x}=\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right),\quad\Delta{y}=\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right).
+\Delta{}x=\varphi\left(t_0+\Delta{}t\right)-\varphi\left(t_0\right),\quad\Delta{}y=\psi\left(t_0+\Delta{}t\right)-\psi\left(t_0\right).
 $$
 
-试证明 $\lim_{\Delta{t}\to0}\frac{\Delta{y}}{\Delta{x}}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.
+试证明 $\lim_{\Delta{}t\to0}\frac{\Delta{}y}{\Delta{}x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}$.
 
 ### 解答 2.5-4
 
 $$
-\frac{\Delta{y}}{\Delta{x}}=\frac{\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right)}{\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right)}=\frac{\frac{\psi\left(t_0+\Delta{t}\right)-\psi\left(t_0\right)}{\Delta{t}}}{\frac{\varphi\left(t_0+\Delta{t}\right)-\varphi\left(t_0\right)}{\Delta{t}}}.
+\frac{\Delta{}y}{\Delta{}x}=\frac{\psi\left(t_0+\Delta{}t\right)-\psi\left(t_0\right)}{\varphi\left(t_0+\Delta{}t\right)-\varphi\left(t_0\right)}=\frac{\frac{\psi\left(t_0+\Delta{}t\right)-\psi\left(t_0\right)}{\Delta{}t}}{\frac{\varphi\left(t_0+\Delta{}t\right)-\varphi\left(t_0\right)}{\Delta{}t}}.
 $$
 
-当 $\Delta{t}\to0$ 时, 分子趋于 $\psi'\left(t_0\right)$, 分母趋于 $\varphi'\left(t_0\right)\ne0$. 由极限四则运算,
+当 $\Delta{}t\to0$ 时, 分子趋于 $\psi'\left(t_0\right)$, 分母趋于 $\varphi'\left(t_0\right)\ne0$. 由极限四则运算,
 
 $$
-\lim_{\Delta{t}\to0}\frac{\Delta{y}}{\Delta{x}}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}.
+\lim_{\Delta{}t\to0}\frac{\Delta{}y}{\Delta{}x}=\frac{\psi'\left(t_0\right)}{\varphi'\left(t_0\right)}.
 $$
 
 $\blacksquare$

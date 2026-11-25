@@ -10,7 +10,7 @@
 
 > **定理 3.1 (极限四则运算定理)**
 > 
-> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm{b}_n\right)=l_1\pm{l}_2$, $\lim\left(a_n\cdot{b}_n\right)=l_1\cdot{l}_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
+> 设 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$ 都有极限, 分别为 $l_1$ 与 $l_2$, 则 $\lim\left(a_n\pm{}b_n\right)=l_1\pm{}l_2$, $\lim\left(a_n\cdot{}b_n\right)=l_1\cdot{}l_2$, 且当 $l_2\ne0$ 时 $\lim\frac{a_n}{b_n}=\frac{l_1}{l_2}$.
 
 > **定理 3.2 (实数域完备性)**
 > 
@@ -18,7 +18,7 @@
 
 > **定理 4.2 (夹逼定理)**
 > 
-> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le{a}_n\le{b}_n$ 对一切 $n\ge{N}_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
+> 设 $\left\{a_n\right\},\left\{b_n\right\},\left\{c_n\right\}$ 为三个序列, 并且存在一个自然数 $N_0$, 使得 $c_n\le{}a_n\le{}b_n$ 对一切 $n\ge{}N_0$ 成立. 若 $c_n$ 与 $b_n$ 都有极限且都等于 $l$, 则 $a_n$ 的极限存在并且也等于 $l$.
 
 ## 1.3-2-2
 
@@ -118,7 +118,7 @@ $$
 \sin\left(\pi\sqrt{n^2+1}\right)=\sin\left(n\pi+\pi\left(\sqrt{n^2+1}-n\right)\right)=\left(-1\right)^n\sin\left(\pi\left(\sqrt{n^2+1}-n\right)\right).
 $$
 
-由 $\left|\sin{t}\right|\le\left|t\right|$,
+由 $\left|\sin{}t\right|\le\left|t\right|$,
 
 $$
 \left|\sin\left(\pi\sqrt{n^2+1}\right)\right|=\left|\sin\left(\pi\left(\sqrt{n^2+1}-n\right)\right)\right|\le\pi\left(\sqrt{n^2+1}-n\right)=\frac{\pi}{\sqrt{n^2+1}+n}\to0.
@@ -234,10 +234,10 @@ $$
 \left(1-\frac1{n^2}\right)^{n^2+1}=\left(1-\frac1{n^2}\right)^{n^2}\cdot\left(1-\frac1{n^2}\right).
 $$
 
-令 $m=-n^2$, 则 $\left(1+\frac1m\right)^m\to{e}$, 故
+令 $m=-n^2$, 则 $\left(1+\frac1m\right)^m\to{}e$, 故
 
 $$
-\left(1-\frac1{n^2}\right)^{n^2}=\left[\left(1+\frac1{-n^2}\right)^{-n^2}\right]^{-1}\to{e}^{-1},
+\left(1-\frac1{n^2}\right)^{n^2}=\left[\left(1+\frac1{-n^2}\right)^{-n^2}\right]^{-1}\to{}e^{-1},
 $$
 
 且 $\left(1-\frac1{n^2}\right)\to1$. 故极限为 $e^{-1}=\frac1e$.
@@ -320,7 +320,7 @@ $$
 
 (2) 取 $a=1+\frac1{n+1}$, $b=1+\frac1n$, 则 $b-a=\frac1{n\left(n+1\right)}$.
 
-由 (1) 的右半: $\frac{b^{n+1}-a^{n+1}}{b-a}<\left(n+1\right)b^n$, 即 $n\left(b^{n+1}-a^{n+1}\right)<{}b^n$. 整理得 $nb^{n+1}-b^n<{}na^{n+1}$, 即 $b^n\left(nb-1\right)<{}na^{n+1}$. 代入 $nb=n+1$, 得 $b^n\cdot{n}<{}na^{n+1}$, 即 $b^n<{}a^{n+1}$, 亦即
+由 (1) 的右半: $\frac{b^{n+1}-a^{n+1}}{b-a}<\left(n+1\right)b^n$, 即 $n\left(b^{n+1}-a^{n+1}\right)<{}b^n$. 整理得 $nb^{n+1}-b^n<{}na^{n+1}$, 即 $b^n\left(nb-1\right)<{}na^{n+1}$. 代入 $nb=n+1$, 得 $b^n\cdot{}n<{}na^{n+1}$, 即 $b^n<{}a^{n+1}$, 亦即
 
 $$
 \left(1+\frac1n\right)^n<\left(1+\frac1{n+1}\right)^{n+1},
@@ -343,7 +343,7 @@ $\blacksquare$
 证明
 
 $$
-\left(1+\frac1n\right)^n<{}e<\left(1+\frac1n\right)^{n+1},\quad{n}=1,2,\cdots.
+\left(1+\frac1n\right)^n<{}e<\left(1+\frac1n\right)^{n+1},\quad{}n=1,2,\cdots.
 $$
 
 ### 解答 1.4-5
@@ -376,13 +376,13 @@ $\blacksquare$
 
 ## 1.4-6
 
-设 $\left\{a_n\right\}$ 为递增序列, 而 $\left\{b_n\right\}$ 为递减序列, 并假定 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$. 证明 $\lim{a}_n$ 与 $\lim{b}_n$ 都存在, 且相等.
+设 $\left\{a_n\right\}$ 为递增序列, 而 $\left\{b_n\right\}$ 为递减序列, 并假定 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$. 证明 $\lim{}a_n$ 与 $\lim{}b_n$ 都存在, 且相等.
 
 ### 解答 1.4-6
 
-因 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$, 存在 $N$ 使得当 $n>N$ 时 $\left|a_n-b_n\right|<1$, 即 $a_n<{}b_n+1$. 又 $\left\{b_n\right\}$ 递减, 故 $b_n\le{b}_1$, 从而 $a_n<{}b_1+1$ ($n>N$). 对 $n\le{N}$, $a_n$ 取有限个值有界. 故 $\left\{a_n\right\}$ 递增且有上界, 由**定理 3.2 (实数域完备性)**, $\lim_{n\to\infty}a_n=A$ 存在.
+因 $\lim_{n\to\infty}\left(a_n-b_n\right)=0$, 存在 $N$ 使得当 $n>N$ 时 $\left|a_n-b_n\right|<1$, 即 $a_n<{}b_n+1$. 又 $\left\{b_n\right\}$ 递减, 故 $b_n\le{}b_1$, 从而 $a_n<{}b_1+1$ ($n>N$). 对 $n\le{}N$, $a_n$ 取有限个值有界. 故 $\left\{a_n\right\}$ 递增且有上界, 由**定理 3.2 (实数域完备性)**, $\lim_{n\to\infty}a_n=A$ 存在.
 
-同理, 当 $n>N$ 时 $b_n>a_n-1\ge{a}_1-1$ (因 $a_n\ge{a}_1$), 故 $\left\{b_n\right\}$ 递减且有下界. 由**定理 3.2 (实数域完备性)** 的递减版本, $\lim_{n\to\infty}b_n=B$ 存在.
+同理, 当 $n>N$ 时 $b_n>a_n-1\ge{}a_1-1$ (因 $a_n\ge{}a_1$), 故 $\left\{b_n\right\}$ 递减且有下界. 由**定理 3.2 (实数域完备性)** 的递减版本, $\lim_{n\to\infty}b_n=B$ 存在.
 
 最后,
 
@@ -450,7 +450,7 @@ $\blacksquare$
 
 由 1.4-9, $e=\sum_{k=0}^{\infty}\frac1{k!}>1+1=2$.
 
-又对 $k\ge2$, $k!=2\cdot3\cdots{k}\ge2^{k-1}$, 故 $\frac1{k!}\le\frac1{2^{k-1}}$. 于是
+又对 $k\ge2$, $k!=2\cdot3\cdots{}k\ge2^{k-1}$, 故 $\frac1{k!}\le\frac1{2^{k-1}}$. 于是
 
 $$
 e=1+1+\sum_{k=2}^{\infty}\frac1{k!}\le2+\sum_{k=2}^{\infty}\frac1{2^{k-1}}=2+1=3.
@@ -462,14 +462,14 @@ $\blacksquare$
 
 ## 1.4-14
 
-设有两个序列 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$, 其中 $\left\{a_n\right\}$ 为无穷小量, 而 $\left\{b_n\right\}$ 为有界序列, 即存在正数 $M$ 使得 $\left|b_n\right|\le{M}$ 对一切 $n$ 成立. 证明 $\lim_{n\to\infty}a_nb_n=0$.
+设有两个序列 $\left\{a_n\right\}$ 与 $\left\{b_n\right\}$, 其中 $\left\{a_n\right\}$ 为无穷小量, 而 $\left\{b_n\right\}$ 为有界序列, 即存在正数 $M$ 使得 $\left|b_n\right|\le{}M$ 对一切 $n$ 成立. 证明 $\lim_{n\to\infty}a_nb_n=0$.
 
 ### 解答 1.4-14
 
-因 $\left\{a_n\right\}$ 为无穷小量, 即 $\lim_{n\to\infty}a_n=0$. 又 $\left|b_n\right|\le{M}$, 故
+因 $\left\{a_n\right\}$ 为无穷小量, 即 $\lim_{n\to\infty}a_n=0$. 又 $\left|b_n\right|\le{}M$, 故
 
 $$
-0\le\left|a_nb_n\right|\le{M}\left|a_n\right|.
+0\le\left|a_nb_n\right|\le{}M\left|a_n\right|.
 $$
 
 当 $n\to\infty$ 时 $M\left|a_n\right|\to0$, 左端 $0\to0$. 由**定理 4.2 (夹逼定理)**, $\lim_{n\to\infty}\left|a_nb_n\right|=0$, 即 $\lim_{n\to\infty}a_nb_n=0$.
